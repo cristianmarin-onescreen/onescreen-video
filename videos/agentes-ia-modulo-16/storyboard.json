@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 225.2,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 225.2
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 16 · ONESCREEN ACADEMY",
+      "startSec": 0.11,
+      "endSec": 4.62,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 16 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — GLOSARIO",
+      "startSec": 4.62,
+      "endSec": 19.15,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "GLOSARIO",
+        "title": "11 términos técnicos, explicados claro",
+        "detail": "Para que ninguna palabra se quede en el aire"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "roadmap — TÉRMINO 1",
+      "startSec": 19.15,
+      "endSec": 20.38,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 1",
+        "title": "Agente"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — Un asistente de IA con un rol, instrucciones y, opcionalmente, conocimiento y herramientas",
+      "startSec": 20.38,
+      "endSec": 32.11,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un asistente de IA con un rol, instrucciones y, opcionalmente, conocimiento y herramientas",
+        "detail": "Para que cumpla una tarea concreta"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — No es lo mismo que un chatbot genérico",
+      "startSec": 32.11,
+      "endSec": 38.16,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No es lo mismo que un chatbot genérico",
+        "detail": "Tiene un objetivo definido y puede tomar pasos para lograrlo"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "roadmap — TÉRMINO 2",
+      "startSec": 38.16,
+      "endSec": 42.87,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 2",
+        "title": "Instrucción (o prompt)"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — El texto donde le dices quién es, qué debe hacer, cómo debe sonar y qué no debe hacer nunca",
+      "startSec": 42.87,
+      "endSec": 56.18,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "El texto donde le dices quién es, qué debe hacer, cómo debe sonar y qué no debe hacer nunca",
+        "detail": "Es la pieza más importante de todo el curso"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "roadmap — TÉRMINO 3",
+      "startSec": 56.18,
+      "endSec": 58.71,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 3",
+        "title": "Modelo de lenguaje"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — El motor que hace posible que tu agente entienda y responda",
+      "startSec": 58.71,
+      "endSec": 75.63,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "El motor que hace posible que tu agente entienda y responda",
+        "detail": "No necesitas saber cómo funciona por dentro para usarlo bien"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "roadmap — TÉRMINO 4",
+      "startSec": 75.63,
+      "endSec": 78.32,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 4",
+        "title": "Multimodalidad"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — Entender no solo texto, también imágenes, documentos o audio",
+      "startSec": 78.32,
+      "endSec": 91.2,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Entender no solo texto, también imágenes, documentos o audio",
+        "detail": "Tu agente puede leer un documento completo, no solo responder preguntas escritas"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "roadmap — TÉRMINO 5",
+      "startSec": 91.2,
+      "endSec": 93.48,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 5",
+        "title": "Alucinación"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — Una respuesta que suena segura y bien redactada, pero es incorrecta",
+      "startSec": 93.48,
+      "endSec": 108.11,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Una respuesta que suena segura y bien redactada, pero es incorrecta",
+        "detail": "Porque no tenía la información real y la rellenó con algo que sonaba probable"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — Por eso siempre revisa las respuestas importantes antes de usarlas",
+      "startSec": 108.11,
+      "endSec": 112.72,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Por eso siempre revisa las respuestas importantes antes de usarlas"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "roadmap — TÉRMINO 6",
+      "startSec": 112.72,
+      "endSec": 117.67,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 6",
+        "title": "Conocimiento propio"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — Los documentos que le cargas a tu agente",
+      "startSec": 117.67,
+      "endSec": 126.39,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Los documentos que le cargas a tu agente",
+        "detail": "Para que responda con información específica de tu institución, no genérica"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "roadmap — TÉRMINO 7",
+      "startSec": 126.39,
+      "endSec": 128.68,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 7",
+        "title": "Herramientas"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "body — Capacidades adicionales, no herramientas físicas",
+      "startSec": 128.68,
+      "endSec": 142.19,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Capacidades adicionales, no herramientas físicas",
+        "detail": "Buscar en internet, generar un documento — hacer más que solo responder"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "roadmap — TÉRMINO 8",
+      "startSec": 142.19,
+      "endSec": 144.67,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 8",
+        "title": "Automatización"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "body — Conectar tu agente con otros sistemas para que actúe sin que tú estés presente",
+      "startSec": 144.67,
+      "endSec": 155.24,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Conectar tu agente con otros sistemas para que actúe sin que tú estés presente",
+        "detail": "Como el tíquet de soporte que se crea solo"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "roadmap — TÉRMINO 9",
+      "startSec": 155.24,
+      "endSec": 157.32,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 9",
+        "title": "API"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "body — Una puerta de entrada",
+      "startSec": 157.32,
+      "endSec": 170.48,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Una puerta de entrada",
+        "detail": "Que un sistema deja abierta para que otro le pida información o una acción, con reglas claras"
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "roadmap — TÉRMINO 10",
+      "startSec": 170.48,
+      "endSec": 172.95,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 10",
+        "title": "Webhook"
+      }
+    },
+    {
+      "id": "card-24",
+      "intent": "body — Un aviso automático",
+      "startSec": 172.95,
+      "endSec": 183.88,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un aviso automático",
+        "detail": "En el momento en que algo pasa, un sistema le avisa a otro, sin revisión manual"
+      }
+    },
+    {
+      "id": "card-25",
+      "intent": "roadmap — TÉRMINO 11 · EL ÚLTIMO",
+      "startSec": 183.88,
+      "endSec": 186.91,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TÉRMINO 11 · EL ÚLTIMO",
+        "title": "Código"
+      }
+    },
+    {
+      "id": "card-26",
+      "intent": "body — El lenguaje con el que tradicionalmente se programaban los sistemas",
+      "startSec": 186.91,
+      "endSec": 194.6,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "El lenguaje con el que tradicionalmente se programaban los sistemas",
+        "detail": "Instrucción por instrucción, símbolo por símbolo"
+      }
+    },
+    {
+      "id": "card-27",
+      "intent": "quote — En todo este curso, no escribiste ni una sola línea de código.",
+      "startSec": 194.6,
+      "endSec": 208.2,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "En todo este curso, no escribiste ni una sola línea de código.",
+        "detail": "Todo lo hiciste con lenguaje natural, el mismo que usas todos los días"
+      }
+    },
+    {
+      "id": "card-28",
+      "intent": "body — Ya tienes el vocabulario completo",
+      "startSec": 208.2,
+      "endSec": 217.8,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Ya tienes el vocabulario completo",
+        "detail": "Para entender, participar y hasta liderar conversaciones sobre IA en tu institución"
+      }
+    },
+    {
+      "id": "card-29",
+      "intent": "titlecard — ÚLTIMO MÓDULO DEL CURSO",
+      "startSec": 217.8,
+      "endSec": 222,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "ÚLTIMO MÓDULO DEL CURSO",
+        "title": "Cierre y examen de certificación",
+        "detail": "Vamos a repasar todo lo que aprendiste"
+      }
+    },
+    {
+      "id": "card-30",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 222,
+      "endSec": 225.2,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

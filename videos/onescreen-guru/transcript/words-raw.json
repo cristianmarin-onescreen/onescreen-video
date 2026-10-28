@@ -1,0 +1,499 @@
+[
+ {
+  "id": "w0",
+  "text": "Cuando",
+  "start": 0.0,
+  "end": 0.44,
+  "prob": 0.954
+ },
+ {
+  "id": "w1",
+  "text": "todo",
+  "start": 0.44,
+  "end": 0.72,
+  "prob": 1.0
+ },
+ {
+  "id": "w2",
+  "text": "falla,",
+  "start": 0.72,
+  "end": 1.12,
+  "prob": 1.0
+ },
+ {
+  "id": "w3",
+  "text": "necesitas",
+  "start": 1.22,
+  "end": 1.76,
+  "prob": 0.999
+ },
+ {
+  "id": "w4",
+  "text": "algo",
+  "start": 1.76,
+  "end": 1.98,
+  "prob": 1.0
+ },
+ {
+  "id": "w5",
+  "text": "confiable.",
+  "start": 1.98,
+  "end": 2.5,
+  "prob": 1.0
+ },
+ {
+  "id": "w6",
+  "text": "Es",
+  "start": 2.68,
+  "end": 2.88,
+  "prob": 1.0
+ },
+ {
+  "id": "w7",
+  "text": "por",
+  "start": 2.88,
+  "end": 3.06,
+  "prob": 1.0
+ },
+ {
+  "id": "w8",
+  "text": "eso",
+  "start": 3.06,
+  "end": 3.26,
+  "prob": 1.0
+ },
+ {
+  "id": "w9",
+  "text": "que",
+  "start": 3.26,
+  "end": 3.48,
+  "prob": 1.0
+ },
+ {
+  "id": "w10",
+  "text": "en",
+  "start": 3.48,
+  "end": 3.62,
+  "prob": 1.0
+ },
+ {
+  "id": "w11",
+  "text": "OneScreen",
+  "start": 3.62,
+  "end": 4.16,
+  "prob": 0.889
+ },
+ {
+  "id": "w12",
+  "text": "te",
+  "start": 4.16,
+  "end": 4.44,
+  "prob": 0.996
+ },
+ {
+  "id": "w13",
+  "text": "daremos",
+  "start": 4.44,
+  "end": 4.88,
+  "prob": 1.0
+ },
+ {
+  "id": "w14",
+  "text": "un",
+  "start": 4.88,
+  "end": 5.06,
+  "prob": 1.0
+ },
+ {
+  "id": "w15",
+  "text": "ingeniero",
+  "start": 5.06,
+  "end": 5.44,
+  "prob": 0.993
+ },
+ {
+  "id": "w16",
+  "text": "especializado",
+  "start": 5.44,
+  "end": 6.14,
+  "prob": 1.0
+ },
+ {
+  "id": "w17",
+  "text": "solo",
+  "start": 6.14,
+  "end": 6.48,
+  "prob": 0.928
+ },
+ {
+  "id": "w18",
+  "text": "para",
+  "start": 6.48,
+  "end": 6.74,
+  "prob": 1.0
+ },
+ {
+  "id": "w19",
+  "text": "tu",
+  "start": 6.74,
+  "end": 6.92,
+  "prob": 1.0
+ },
+ {
+  "id": "w20",
+  "text": "institucion.",
+  "start": 6.92,
+  "end": 7.5,
+  "prob": 0.469
+ },
+ {
+  "id": "w21",
+  "text": "Disponible",
+  "start": 7.74,
+  "end": 8.34,
+  "prob": 0.996
+ },
+ {
+  "id": "w22",
+  "text": "24",
+  "start": 8.34,
+  "end": 8.92,
+  "prob": 0.956
+ },
+ {
+  "id": "w23",
+  "text": "-5.",
+  "start": 8.92,
+  "end": 9.54,
+  "prob": 0.709
+ },
+ {
+  "id": "w24",
+  "text": "Te",
+  "start": 9.7,
+  "end": 9.86,
+  "prob": 0.993
+ },
+ {
+  "id": "w25",
+  "text": "presentamos",
+  "start": 9.86,
+  "end": 10.42,
+  "prob": 0.993
+ },
+ {
+  "id": "w26",
+  "text": "OneScreen",
+  "start": 10.42,
+  "end": 11.04,
+  "prob": 0.985
+ },
+ {
+  "id": "w27",
+  "text": "Guru.",
+  "start": 11.04,
+  "end": 11.24,
+  "prob": 0.882
+ },
+ {
+  "id": "w28",
+  "text": "Todos",
+  "start": 11.46,
+  "end": 11.66,
+  "prob": 0.992
+ },
+ {
+  "id": "w29",
+  "text": "los",
+  "start": 11.66,
+  "end": 11.86,
+  "prob": 0.991
+ },
+ {
+  "id": "w30",
+  "text": "productos",
+  "start": 11.86,
+  "end": 12.18,
+  "prob": 0.994
+ },
+ {
+  "id": "w31",
+  "text": "OneScreen",
+  "start": 12.18,
+  "end": 12.74,
+  "prob": 0.999
+ },
+ {
+  "id": "w32",
+  "text": "tienen",
+  "start": 12.74,
+  "end": 12.94,
+  "prob": 0.991
+ },
+ {
+  "id": "w33",
+  "text": "el",
+  "start": 12.94,
+  "end": 13.14,
+  "prob": 0.991
+ },
+ {
+  "id": "w34",
+  "text": "boton",
+  "start": 13.14,
+  "end": 13.46,
+  "prob": 0.534
+ },
+ {
+  "id": "w35",
+  "text": "verde",
+  "start": 13.46,
+  "end": 13.76,
+  "prob": 0.983
+ },
+ {
+  "id": "w36",
+  "text": "Guru,",
+  "start": 13.76,
+  "end": 14.2,
+  "prob": 0.832
+ },
+ {
+  "id": "w37",
+  "text": "donde",
+  "start": 14.44,
+  "end": 14.64,
+  "prob": 0.989
+ },
+ {
+  "id": "w38",
+  "text": "podras",
+  "start": 14.64,
+  "end": 15.02,
+  "prob": 0.402
+ },
+ {
+  "id": "w39",
+  "text": "acceder",
+  "start": 15.02,
+  "end": 15.46,
+  "prob": 0.992
+ },
+ {
+  "id": "w40",
+  "text": "a",
+  "start": 15.46,
+  "end": 15.62,
+  "prob": 0.985
+ },
+ {
+  "id": "w41",
+  "text": "un",
+  "start": 15.62,
+  "end": 15.84,
+  "prob": 0.992
+ },
+ {
+  "id": "w42",
+  "text": "solo",
+  "start": 15.84,
+  "end": 16.04,
+  "prob": 0.998
+ },
+ {
+  "id": "w43",
+  "text": "click",
+  "start": 16.04,
+  "end": 16.34,
+  "prob": 0.27
+ },
+ {
+  "id": "w44",
+  "text": "con",
+  "start": 16.34,
+  "end": 16.62,
+  "prob": 0.983
+ },
+ {
+  "id": "w45",
+  "text": "un",
+  "start": 16.62,
+  "end": 16.78,
+  "prob": 0.995
+ },
+ {
+  "id": "w46",
+  "text": "ingeniero",
+  "start": 16.78,
+  "end": 17.18,
+  "prob": 0.989
+ },
+ {
+  "id": "w47",
+  "text": "de",
+  "start": 17.18,
+  "end": 17.3,
+  "prob": 0.996
+ },
+ {
+  "id": "w48",
+  "text": "OneScreen",
+  "start": 17.3,
+  "end": 17.84,
+  "prob": 0.999
+ },
+ {
+  "id": "w49",
+  "text": "listo",
+  "start": 17.84,
+  "end": 18.34,
+  "prob": 0.996
+ },
+ {
+  "id": "w50",
+  "text": "para",
+  "start": 18.34,
+  "end": 18.54,
+  "prob": 0.996
+ },
+ {
+  "id": "w51",
+  "text": "ayudarte.",
+  "start": 18.54,
+  "end": 19.1,
+  "prob": 0.996
+ },
+ {
+  "id": "w52",
+  "text": "Puedes",
+  "start": 19.24,
+  "end": 19.56,
+  "prob": 0.993
+ },
+ {
+  "id": "w53",
+  "text": "agendar",
+  "start": 19.56,
+  "end": 19.9,
+  "prob": 0.995
+ },
+ {
+  "id": "w54",
+  "text": "capacitaciones",
+  "start": 19.9,
+  "end": 20.8,
+  "prob": 0.997
+ },
+ {
+  "id": "w55",
+  "text": "o",
+  "start": 20.8,
+  "end": 21.04,
+  "prob": 0.99
+ },
+ {
+  "id": "w56",
+  "text": "solicitar",
+  "start": 21.04,
+  "end": 21.54,
+  "prob": 0.997
+ },
+ {
+  "id": "w57",
+  "text": "soporte",
+  "start": 21.54,
+  "end": 21.94,
+  "prob": 0.998
+ },
+ {
+  "id": "w58",
+  "text": "técnico.",
+  "start": 21.94,
+  "end": 22.46,
+  "prob": 0.946
+ },
+ {
+  "id": "w59",
+  "text": "Probar",
+  "start": 22.64,
+  "end": 23.02,
+  "prob": 0.965
+ },
+ {
+  "id": "w60",
+  "text": "como",
+  "start": 23.02,
+  "end": 23.2,
+  "prob": 0.586
+ },
+ {
+  "id": "w61",
+  "text": "funciona",
+  "start": 23.2,
+  "end": 23.66,
+  "prob": 0.994
+ },
+ {
+  "id": "w62",
+  "text": "es",
+  "start": 23.66,
+  "end": 24.0,
+  "prob": 0.992
+ },
+ {
+  "id": "w63",
+  "text": "bastante",
+  "start": 24.0,
+  "end": 24.46,
+  "prob": 0.996
+ },
+ {
+  "id": "w64",
+  "text": "sencillo.",
+  "start": 24.46,
+  "end": 25.12,
+  "prob": 0.99
+ },
+ {
+  "id": "w65",
+  "text": "Solo",
+  "start": 25.22,
+  "end": 25.54,
+  "prob": 0.993
+ },
+ {
+  "id": "w66",
+  "text": "tienes",
+  "start": 25.54,
+  "end": 25.76,
+  "prob": 0.992
+ },
+ {
+  "id": "w67",
+  "text": "que",
+  "start": 25.76,
+  "end": 25.92,
+  "prob": 0.999
+ },
+ {
+  "id": "w68",
+  "text": "tocar",
+  "start": 25.92,
+  "end": 26.16,
+  "prob": 0.998
+ },
+ {
+  "id": "w69",
+  "text": "esta",
+  "start": 26.16,
+  "end": 26.34,
+  "prob": 0.992
+ },
+ {
+  "id": "w70",
+  "text": "pantalla.",
+  "start": 26.34,
+  "end": 26.72,
+  "prob": 0.997
+ }
+]

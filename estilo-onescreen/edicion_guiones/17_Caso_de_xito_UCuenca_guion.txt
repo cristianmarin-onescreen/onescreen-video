@@ -1,0 +1,78 @@
+   0.00-   2.84 (2.84s) | B:Intro 16-9_Silencio.mp4                                              | 
+   2.84-   4.59 (1.75s) | A:C0563.MP4 100% | B:Intro 16-9_Silencio.mp4                           | D3" La Universidad de Cuenca es una universidad ( B
+   4.59-   6.38 (1.79s) | A:C0563.MP4 100% | B:C0568.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" La Universidad de Cuenca es una universidad ( B D3" pública gratuita que es de categor
+   6.38-   8.30 (1.92s) | A:C0563.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" pública gratuita que es de categoría A, es una muy buena universidad. ( B
+   8.30-  10.76 (2.46s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Mi nombre es María Isabel Espinoza, soy directora ( B
+  10.76-  12.51 (1.75s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Mi nombre es María Isabel Espinoza, soy directora ( B D3" del Instituto Universitario 
+  12.51-  14.43 (1.92s) | A:C0562.MP4 144% | B:C0577.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" del Instituto Universitario de Idiomas de la Universidad de Cuenca. ( B
+  14.43-  17.98 (3.55s) | A:C0597.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" La Universidad de Cuenca es básicamente una institución muy prestigiosa, ( B
+  18.02-  19.94 (1.92s) | A:C0597.MP4 144% | B:C0579.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" no solamente en el Austro ecuatoriano, sino en toda Latinoamérica ( B
+  19.94-  21.15 (1.21s) | A:C0597.MP4 144% | B:C0580.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" no solamente en el Austro ecuatoriano, sino en toda Latinoamérica ( B
+  21.15-  22.23 (1.08s) | A:C0597.MP4 100% | B:C0580.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" no solamente en el Austro ecuatoriano, sino en toda Latinoamérica ( B
+  22.23-  25.02 (2.79s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Básicamente puedo decir por experiencia personal ( B D3" que es una universidad muy bu
+  25.02-  28.40 (3.38s) | A:C0597.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" que es una universidad muy buena porque yo me gradué aquí, ( B D3" ahora me encuentro 
+  28.40-  31.03 (2.63s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" y cuando yo asumí la dirección del instituto, eh, uno de los desafíos era ( B
+  31.03-  32.45 (1.42s) | A:C0562.MP4 100% | B:C0570.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" y cuando yo asumí la dirección del instituto, eh, uno de los desafíos era ( B
+  32.45-  32.74 (0.29s) | A:C0562.MP4 100% | B:C0569.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" y cuando yo asumí la dirección del instituto, eh, uno de los desafíos era ( B
+  32.74-  33.91 (1.17s) | A:C0562.MP4 144% | B:C0569.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" ver las opciones de regresar a la presencialidad al evaluar los equipos. ( B
+  33.91-  35.70 (1.79s) | A:C0562.MP4 144% | B:C0573.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" ver las opciones de regresar a la presencialidad al evaluar los equipos. ( B
+  35.70-  35.79 (0.09s) | A:C0562.MP4 144% | B:C0575.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" ver las opciones de regresar a la presencialidad al evaluar los equipos. ( B
+  35.79-  39.08 (3.29s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" ver las opciones de regresar a la presencialidad al evaluar los equipos. ( B D3" Una v
+  39.08-  41.88 (2.80s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Una vez que regresábamos de la pandemia nos encontramos con proyectores que ( B D3" ne
+  41.88-  42.92 (1.04s) | A:C0562.MP4 144% | B:C0595.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" necesitaban mantenimiento urgente, otros, si se prendían y funcionaban, ( B
+  42.92-  45.50 (2.58s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" necesitaban mantenimiento urgente, otros, si se prendían y funcionaban, ( B D3" era re
+  45.50-  46.63 (1.13s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" era realmente un logro, Y esa fue justamente una ( B
+  46.63-  48.76 (2.13s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" era realmente un logro, Y esa fue justamente una ( B D3" de las de las situaciones crí
+  48.76-  51.88 (3.12s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" de las de las situaciones críticas en las que nos encontramos, aparte de ( B
+  51.88-  54.22 (2.34s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" de buscar un material para la enseñanza de los idiomas que nos permita ( B
+  54.22-  55.01 (0.79s) | A:C0562.MP4 100% | B:C0589.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" de buscar un material para la enseñanza de los idiomas que nos permita ( B
+  55.01-  57.68 (2.67s) | A:C0562.MP4 144% | B:C0589.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" de buscar un material para la enseñanza de los idiomas que nos permita ( B D3" esta ve
+  57.68-  60.85 (3.17s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" esta versatilidad, también con no solo con la tecnología, ( B D3" sino también con mod
+  60.85-  64.06 (3.21s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" sino también con modalidades Es bastante interactiva. ( B D3" Yo diría que el mayor be
+  64.06-  66.82 (2.76s) | A:C0597.MP4 100% | B:C0565.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" Yo diría que el mayor beneficio que se obtiene con el uso de las pantallas ( B D3" es 
+  66.82-  69.36 (2.54s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" es que aumenta la interactividad con los estudiantes. ( B
+  69.36-  70.95 (1.59s) | A:C0597.MP4 100% | B:C0585.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" permite una interacción mucho más, una interacción diferente a la habitual ( B
+  70.95-  72.70 (1.75s) | A:C0597.MP4 144% | B:C0585.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" permite una interacción mucho más, una interacción diferente a la habitual ( B
+  72.70-  75.58 (2.88s) | A:C0597.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" permite una interacción mucho más, una interacción diferente a la habitual ( B D3" que
+  75.58-  79.08 (3.50s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" que se tiene en clase, puesto que ellos pueden pasar, ( B D3" tocar la pantalla, usar 
+  79.08-  81.37 (2.29s) | A:C0596.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Yo creo que a los estudiantes les gusta porque a veces, por ejemplo, ellos también ( B
+  81.37-  82.21 (0.84s) | A:C0596.MP4 100% | B:C0583.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" Yo creo que a los estudiantes les gusta porque a veces, por ejemplo, ellos también ( B
+  82.21-  85.33 (3.12s) | A:C0596.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Yo creo que a los estudiantes les gusta porque a veces, por ejemplo, ellos también ( B
+  85.33-  86.59 (1.26s) | A:C0596.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" tienen la opción de conectarse desde el celular, ( B D3" por ejemplo, Entonces a veces
+  86.59-  87.67 (1.08s) | A:C0596.MP4 100% | B:C0587.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" por ejemplo, Entonces a veces hacen un video, ( B
+  87.67-  91.88 (4.21s) | A:C0596.MP4 144% | B:C0587.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" entonces al final ( B D3" bueno, presente su video, ellos se conectan con el código ( 
+  91.88-  95.64 (3.76s) | A:C0596.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Ellos manipulan su teléfono y pueden presentarlo. ( B D3" Entonces es una interacción 
+  95.64-  98.18 (2.54s) | A:C0596.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Entonces es una interacción que como digo, no necesariamente ( B D3" necesitas una com
+  98.18-  98.93 (0.75s) | A:C0596.MP4 144% | B:C0593.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" necesitas una computadora, ya sea la parte de de escribir, ( B
+  98.93- 100.39 (1.46s) | A:C0597.MP4 100% | B:C0593.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" necesitas una computadora, ya sea la parte de de escribir, ( B
+ 100.39- 102.14 (1.75s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" necesitas una computadora, ya sea la parte de de escribir, ( B D3" la parte de dibujar
+ 102.14- 105.69 (3.55s) | A:C0597.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" la parte de dibujar eh, la parte de acceso a internet ( B D3" para que ellos toquen y 
+ 105.69- 108.03 (2.34s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" para que ellos toquen y interactúen con la parte de presentación. ( B D3" Cuando un es
+ 108.03- 109.61 (1.58s) | A:C0597.MP4 144% | B:C0581.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" Cuando un estudiante dice que hacer una presentación de ( B
+ 109.61- 111.53 (1.92s) | A:C0597.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" puede conectarse desde su computadora e incluso desde su celular. ( B
+ 111.53- 112.90 (1.37s) | A:C0597.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" puede conectarse desde su computadora e incluso desde su celular. ( B
+ 112.90- 116.58 (3.68s) | A:C0596.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Entonces adquirir una de estas pantallas podría ser un beneficio, siempre y cuando ( B
+ 116.58- 118.45 (1.87s) | A:C0596.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Entonces adquirir una de estas pantallas podría ser un beneficio, siempre y cuando ( B
+ 118.45- 119.66 (1.21s) | A:C0596.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" se las sepa utilizar de buena manera para sacar todo el provecho que tenga. ( B
+ 119.66- 121.29 (1.63s) | A:C0596.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" se las sepa utilizar de buena manera para sacar todo el provecho que tenga. ( B
+ 121.29- 122.46 (1.17s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" pero ahí viene justamente la virtud y la versatilidad que tenga el docente ( B
+ 122.46- 123.92 (1.46s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" pero ahí viene justamente la virtud y la versatilidad que tenga el docente ( B
+ 123.92- 125.54 (1.62s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" pero ahí viene justamente la virtud y la versatilidad que tenga el docente ( B
+ 125.54- 126.17 (0.63s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" para apoyado en la tecnología y apoyado en su intelecto, en su su destreza. ( B
+ 126.17- 127.59 (1.42s) | A:C0562.MP4 100% | B:C0582.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" para apoyado en la tecnología y apoyado en su intelecto, en su su destreza. ( B
+ 127.59- 129.05 (1.46s) | A:C0562.MP4 144% | B:C0582.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" para apoyado en la tecnología y apoyado en su intelecto, en su su destreza. ( B
+ 129.05- 129.30 (0.25s) | A:C0562.MP4 144% | B:C0582.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" para apoyado en la tecnología y apoyado en su intelecto, en su su destreza. ( B
+ 129.30- 131.63 (2.33s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" para apoyado en la tecnología y apoyado en su intelecto, en su su destreza. ( B D3" Bu
+ 131.63- 135.47 (3.84s) | A:C0563.MP4 100% | B:C0584.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" Si La tecnología avanza de la misma forma. ( B D3" Creo que los humanos deberían avanz
+ 135.47- 137.76 (2.29s) | A:C0563.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" Creo que los humanos deberían avanzar, no quedarse atrás y como docentes ( B D3" mucho
+ 137.76- 139.56 (1.80s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" mucho más, Entonces en ese arte de ser maestro, ( B
+ 139.56- 141.18 (1.62s) | A:C0562.MP4 100% | B:C0590.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" mucho más, Entonces en ese arte de ser maestro, ( B D3" ver todas esas posibilidades y
+ 141.18- 144.10 (2.92s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" ver todas esas posibilidades y ¿por qué no? ( B D3" apoyarse con la tecnología para qu
+ 144.10- 145.02 (0.92s) | A:C0562.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" apoyarse con la tecnología para que eso pueda llegar de mejor manera ( B
+ 145.02- 147.73 (2.71s) | A:C0562.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" apoyarse con la tecnología para que eso pueda llegar de mejor manera ( B D3" todavía a
+ 147.73- 150.15 (2.42s) | A:C0563.MP4 100% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" en la educación no podemos quedarnos con un método antiguo, ( B
+ 150.15- 151.65 (1.50s) | A:C0563.MP4 144% | G:LOGO UCUENCA-01-01.png 12% | G:Graphics0008.png 8 | D3" sino tenemos que siempre ir innovando y por eso necesitamos de la tecnología ( B
+ 151.65- 153.15 (1.50s) | A:C0563.MP4 100% | B:C0567.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" sino tenemos que siempre ir innovando y por eso necesitamos de la tecnología ( B D3" y
+ 153.15- 153.36 (0.21s) | A:C0563.MP4 100% | B:C0566.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" y en este caso las pantallas es un plus enorme que nos da. ( B
+ 153.36- 155.53 (2.17s) | A:C0563.MP4 144% | B:C0566.MP4 | G:LOGO UCUENCA-01-01.png 12% | G:Grap | D3" y en este caso las pantallas es un plus enorme que nos da. ( B
+ 155.53- 160.12 (4.59s) | B:Intro 16-9_Silencio.mp4                                              | 

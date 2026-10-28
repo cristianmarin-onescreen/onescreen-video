@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 173.29,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 173.29
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 9 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 3.02,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 9 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — HOY",
+      "startSec": 3.02,
+      "endSec": 9.06,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "HOY",
+        "title": "Vas a construir tu primer agente",
+        "detail": "Con tus propias manos"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — ANTES DE EMPEZAR",
+      "startSec": 9.06,
+      "endSec": 15.78,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ANTES DE EMPEZAR",
+        "title": "No vas a necesitar código",
+        "detail": "Ni ningún conocimiento técnico especial"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — VAS A USAR",
+      "startSec": 15.78,
+      "endSec": 27.94,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "VAS A USAR",
+        "title": "Una herramienta gratuita de creación de agentes",
+        "detail": "Instrucciones en lenguaje natural — como explicarle el trabajo a alguien nuevo en tu equipo"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "roadmap — PRIMERO",
+      "startSec": 27.94,
+      "endSec": 35.34,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PRIMERO",
+        "title": "Define el rol de tu agente"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — No escribas algo genérico",
+      "startSec": 35.34,
+      "endSec": 47.29,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No escribas algo genérico",
+        "detail": "Piensa en una tarea real y repetitiva que ninguna herramienta resuelva todavía"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "list — PUEDE SER",
+      "startSec": 47.29,
+      "endSec": 57.78,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PUEDE SER",
+        "items": [
+          "Responder preguntas frecuentes",
+          "Organizar información de un proceso",
+          "Apoyar la redacción de un documento específico"
+        ]
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "roadmap — SEGUNDO",
+      "startSec": 57.78,
+      "endSec": 70.54,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "SEGUNDO",
+        "title": "Define el tono y los límites",
+        "detail": "Cómo debe sonar y qué no debe hacer nunca"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "quote — Sin límites, tarde o temprano hace algo que no esperabas.",
+      "startSec": 70.54,
+      "endSec": 79.66,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Sin límites, tarde o temprano hace algo que no esperabas.",
+        "detail": "No porque falle — porque nunca le dijiste dónde estaba la línea"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "roadmap — TERCERO",
+      "startSec": 79.66,
+      "endSec": 92.06,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TERCERO",
+        "title": "Escribe la instrucción completa",
+        "detail": "Específico, con casos límite anticipados y un ejemplo si puedes"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — No te preocupes por que quede perfecta",
+      "startSec": 92.06,
+      "endSec": 100.78,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No te preocupes por que quede perfecta",
+        "detail": "Escríbela, pruébala y ajústala según lo que veas"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "titlecard — LA PARTE MÁS IMPORTANTE",
+      "startSec": 100.78,
+      "endSec": 112.5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "LA PARTE MÁS IMPORTANTE",
+        "title": "Hazlo ahora, no lo dejes para después",
+        "detail": "Pausa el video, abre la herramienta y crea tu agente"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — No tiene que ser perfecto",
+      "startSec": 112.5,
+      "endSec": 121.13,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No tiene que ser perfecto",
+        "detail": "Tiene que existir — pruébalo con 2 o 3 preguntas reales"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "list — FÍJATE SI...",
+      "startSec": 121.13,
+      "endSec": 129.3,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "FÍJATE SI...",
+        "items": [
+          "¿Responde con el tono que le pediste?",
+          "¿Respeta los límites que le diste?",
+          "¿El resultado realmente te ahorraría tiempo?"
+        ]
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — SI ALGO NO FUNCIONA",
+      "startSec": 129.3,
+      "endSec": 140.58,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI ALGO NO FUNCIONA",
+        "title": "Vuelve a la instrucción y ajústala",
+        "detail": "No se programa de nuevo — se reescribe la instrucción"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "titlecard — EL QUIZ DE ESTE MÓDULO",
+      "startSec": 140.58,
+      "endSec": 161.35,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "EL QUIZ DE ESTE MÓDULO",
+        "title": "Te va a preguntar sobre el agente que creaste",
+        "detail": "Qué rol, qué límite, qué tono — asegúrate de haberlo construido de verdad"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 161.35,
+      "endSec": 169,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Subimos de nivel ese mismo agente",
+        "detail": "Con el conocimiento propio de tu institución"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 169,
+      "endSec": 173.29,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

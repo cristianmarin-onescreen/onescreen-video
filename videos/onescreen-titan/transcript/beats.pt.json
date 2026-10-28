@@ -1,0 +1,1334 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 34.52,
+ "totalFrames": 863,
+ "source": "SC06.wav (texto pt-BR sobre los tiempos del es)",
+ "speechEnd": 31,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 0.0,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": true,
+     "regular": true,
+     "text": "Titan",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Titan",
+       "start": 0.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Titan",
+   "end": 1.4
+  },
+  {
+   "id": "f02",
+   "start": 1.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Com a imagem",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Com",
+       "start": 1.44,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "a",
+       "start": 1.64,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "imagem",
+       "start": 1.84,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "mais potente.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "mais",
+       "start": 2.16,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "potente.",
+       "start": 2.48,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Com a imagem / mais potente.",
+   "end": 3.28
+  },
+  {
+   "id": "f03",
+   "start": 3.32,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "A primeira tela interativa com tecnologia",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "A",
+       "start": 3.32,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "primeira",
+       "start": 3.72,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "tela",
+       "start": 4.08,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "interativa",
+       "start": 4.48,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "com",
+       "start": 4.84,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "tecnologia",
+       "start": 5.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Mini-LED.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Mini-LED.",
+       "start": 5.72,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "A primeira tela interativa com tecnologia / Mini-LED.",
+   "end": 6.68
+  },
+  {
+   "id": "f04",
+   "start": 6.72,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Isso significa",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Isso",
+       "start": 6.72,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "significa",
+       "start": 6.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "1.200 nits",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "1.200",
+       "start": 7.4,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "nits",
+       "start": 8.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de brilho.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "de",
+       "start": 8.76,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "brilho.",
+       "start": 8.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Isso significa / 1.200 nits / de brilho.",
+   "end": 9.36
+  },
+  {
+   "id": "f05",
+   "start": 9.4,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Na prática, você nunca precisa escurecer a sala para enxergar bem.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Na",
+       "start": 9.4,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "prática,",
+       "start": 9.68,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "você",
+       "start": 9.96,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "nunca",
+       "start": 10.24,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "precisa",
+       "start": 10.52,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "escurecer",
+       "start": 10.8,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "a",
+       "start": 11.04,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "sala",
+       "start": 11.32,
+       "brand": false
+      },
+      {
+       "id": "w0_8",
+       "i": 8,
+       "text": "para",
+       "start": 11.6,
+       "brand": false
+      },
+      {
+       "id": "w0_9",
+       "i": 9,
+       "text": "enxergar",
+       "start": 11.88,
+       "brand": false
+      },
+      {
+       "id": "w0_10",
+       "i": 10,
+       "text": "bem.",
+       "start": 12.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Na prática, você nunca precisa escurecer a sala para enxergar bem.",
+   "end": 12.64
+  },
+  {
+   "id": "f06",
+   "start": 12.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Mais de",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Mais",
+       "start": 12.68,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "de",
+       "start": 12.8,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "1,07 bilhão",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "1,07",
+       "start": 12.96,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "bilhão",
+       "start": 14.0,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de cores no display.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "de",
+       "start": 14.56,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "cores",
+       "start": 14.8,
+       "brand": false
+      },
+      {
+       "id": "w2_2",
+       "i": 2,
+       "text": "no",
+       "start": 15.08,
+       "brand": false
+      },
+      {
+       "id": "w2_3",
+       "i": 3,
+       "text": "display.",
+       "start": 15.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Mais de / 1,07 bilhão / de cores no display.",
+   "end": 16
+  },
+  {
+   "id": "f07",
+   "start": 16.08,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Esta é a nossa tela interativa mais potente",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Esta",
+       "start": 16.08,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "é",
+       "start": 16.36,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "a",
+       "start": 16.6,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "nossa",
+       "start": 16.88,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "tela",
+       "start": 17.12,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "interativa",
+       "start": 17.4,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "mais",
+       "start": 17.64,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "potente",
+       "start": 17.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "(até agora)",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "(até",
+       "start": 18.52,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "agora)",
+       "start": 18.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Esta é a nossa tela interativa mais potente / (até agora)",
+   "end": 19.36
+  },
+  {
+   "id": "f08",
+   "start": 19.4,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Disponível de",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Disponível",
+       "start": 19.4,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "de",
+       "start": 19.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "65” a 86”",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "65”",
+       "start": 20.2,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "a",
+       "start": 20.88,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "86”",
+       "start": 21.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Disponível de / 65” a 86”",
+   "end": 23.4
+  },
+  {
+   "id": "f09",
+   "start": 23.44,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 23.44,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "Titan.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Titan.",
+       "start": 23.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Titan.",
+   "end": 24.48
+  },
+  {
+   "id": "f10",
+   "start": 24.52,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "O Titan das telas interativas.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "O",
+       "start": 24.52,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "Titan",
+       "start": 24.88,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "das",
+       "start": 25.24,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "telas",
+       "start": 25.6,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "interativas.",
+       "start": 25.96,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "O Titan das telas interativas.",
+   "end": 26.88
+  },
+  {
+   "id": "f11",
+   "start": 26.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Quer conhecer estas telas?",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Quer",
+       "start": 26.92,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "conhecer",
+       "start": 27.24,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "estas",
+       "start": 27.6,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "telas?",
+       "start": 27.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Muito fácil.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Muito",
+       "start": 28.48,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "fácil.",
+       "start": 28.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Quer conhecer estas telas? / Muito fácil.",
+   "end": 28.88
+  },
+  {
+   "id": "f12",
+   "start": 28.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "É só tocar",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "É",
+       "start": 28.92,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "só",
+       "start": 29.52,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "tocar",
+       "start": 30.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "nesta tela.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "nesta",
+       "start": 30.32,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "tela.",
+       "start": 30.52,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "É só tocar / nesta tela.",
+   "end": 34.52
+  }
+ ],
+ "words": [
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 0.0,
+   "brand": true
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Titan",
+   "start": 0.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Com",
+   "start": 1.44,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "a",
+   "start": 1.64,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "imagem",
+   "start": 1.84,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "mais",
+   "start": 2.16,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "potente.",
+   "start": 2.48,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "A",
+   "start": 3.32,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "primeira",
+   "start": 3.72,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "tela",
+   "start": 4.08,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "interativa",
+   "start": 4.48,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "com",
+   "start": 4.84,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "tecnologia",
+   "start": 5.24,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Mini-LED.",
+   "start": 5.72,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Isso",
+   "start": 6.72,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "significa",
+   "start": 6.92,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "1.200",
+   "start": 7.4,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "nits",
+   "start": 8.12,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "de",
+   "start": 8.76,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "brilho.",
+   "start": 8.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Na",
+   "start": 9.4,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "prática,",
+   "start": 9.68,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "você",
+   "start": 9.96,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "nunca",
+   "start": 10.24,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "precisa",
+   "start": 10.52,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "escurecer",
+   "start": 10.8,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "a",
+   "start": 11.04,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "sala",
+   "start": 11.32,
+   "brand": false
+  },
+  {
+   "id": "w0_8",
+   "i": 8,
+   "text": "para",
+   "start": 11.6,
+   "brand": false
+  },
+  {
+   "id": "w0_9",
+   "i": 9,
+   "text": "enxergar",
+   "start": 11.88,
+   "brand": false
+  },
+  {
+   "id": "w0_10",
+   "i": 10,
+   "text": "bem.",
+   "start": 12.16,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Mais",
+   "start": 12.68,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "de",
+   "start": 12.8,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "1,07",
+   "start": 12.96,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "bilhão",
+   "start": 14.0,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "de",
+   "start": 14.56,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "cores",
+   "start": 14.8,
+   "brand": false
+  },
+  {
+   "id": "w2_2",
+   "i": 2,
+   "text": "no",
+   "start": 15.08,
+   "brand": false
+  },
+  {
+   "id": "w2_3",
+   "i": 3,
+   "text": "display.",
+   "start": 15.32,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Esta",
+   "start": 16.08,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "é",
+   "start": 16.36,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "a",
+   "start": 16.6,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "nossa",
+   "start": 16.88,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "tela",
+   "start": 17.12,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "interativa",
+   "start": 17.4,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "mais",
+   "start": 17.64,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "potente",
+   "start": 17.92,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "(até",
+   "start": 18.52,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "agora)",
+   "start": 18.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Disponível",
+   "start": 19.4,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "de",
+   "start": 19.92,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "65”",
+   "start": 20.2,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "a",
+   "start": 20.88,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "86”",
+   "start": 21.56,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 23.44,
+   "brand": true
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Titan.",
+   "start": 23.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "O",
+   "start": 24.52,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "Titan",
+   "start": 24.88,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "das",
+   "start": 25.24,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "telas",
+   "start": 25.6,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "interativas.",
+   "start": 25.96,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Quer",
+   "start": 26.92,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "conhecer",
+   "start": 27.24,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "estas",
+   "start": 27.6,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "telas?",
+   "start": 27.92,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Muito",
+   "start": 28.48,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "fácil.",
+   "start": 28.64,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "É",
+   "start": 28.92,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "só",
+   "start": 29.52,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "tocar",
+   "start": 30.08,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "nesta",
+   "start": 30.32,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "tela.",
+   "start": 30.52,
+   "brand": false
+  }
+ ],
+ "lang": "pt-BR"
+}

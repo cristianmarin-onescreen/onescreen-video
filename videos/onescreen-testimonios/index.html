@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=3840, height=2160">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+    <style>
+      @font-face {
+        font-family: "Rubik";
+        src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+        font-weight: 300 900;
+        font-style: normal;
+        font-display: block;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 3840px;
+        height: 2160px;
+        overflow: hidden;
+        background: transparent;
+      }
+      #root {
+        position: relative;
+        width: 3840px;
+        height: 2160px;
+        overflow: hidden;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-15uj" id="root" data-composition-id="main" data-start="0" data-duration="73.4" data-width="3840" data-height="2160" data-fps="25">
+      <div data-hf-id="hf-55od" id="el-01-apertura" class="scene" data-composition-id="01-apertura" data-composition-src="compositions/frames/01-apertura.html" data-start="0" data-duration="19.16" data-track-index="1"></div>
+
+      <div data-hf-id="hf-pknm" id="el-02-testimonios" class="scene" data-composition-id="02-testimonios" data-composition-src="compositions/frames/02-testimonios.html" data-start="19.16" data-duration="43.76" data-track-index="1"></div>
+
+      <div data-hf-id="hf-c90y" id="el-03-cierre" class="scene" data-composition-id="03-cierre" data-composition-src="compositions/frames/03-cierre.html" data-start="62.92" data-duration="10.48" data-track-index="1"></div>
+
+
+      <!-- Audio guía del corte, para alinear la capa. Ver tools/wire-audio.mjs. -->
+      <audio data-hf-id="hf-h7za" id="el-guide" src="assets/guide-audio.m4a" data-start="0" data-duration="73.4" data-track-index="10" data-volume="1"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <template>
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Space+Grotesk:wght@600;700&display=swap");
+
+        #stage {
+          position: absolute;
+          inset: 0;
+          width: 1920px;
+          height: 1080px;
+          background: #000000;
+          overflow: hidden;
+          font-family: "Inter", system-ui, sans-serif;
+        }
+
+        #stage * {
+          box-sizing: border-box;
+        }
+
+        /* faint ground texture — bg-dot-grid */
+        #f5_dots {
+          position: absolute;
+          inset: 0;
+          background-image: radial-gradient(circle, rgba(255, 255, 255, 0.09) 1.4px, transparent 1.4px);
+          background-size: 26px 26px;
+          pointer-events: none;
+        }
+
+        /* full-frame beat-flash panel, riding the group hard-cuts */
+        #f5_flash {
+          position: absolute;
+          inset: 0;
+          background: #f7cb46;
+          opacity: 0;
+          pointer-events: none;
+          will-change: opacity;
+        }
+
+        /* label-pill — opens the region */
+        #f5_pill {
+          position: absolute;
+          top: 58px;
+          left: 72px;
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          padding: 12px 26px;
+          background: #c0f7fe;
+          border: 3px solid #000000;
+          border-radius: 9999px;
+          box-shadow: 4px 4px 0 #000000;
+          transform: rotate(-4deg);
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #000000;
+        }
+        #f5_pill .dot {
+          width: 9px;
+          height: 9px;
+          border-radius: 50%;
+          background: #fe90e8;
+          border: 2px solid #000000;
+          flex: 0 0 auto;
+        }
+
+        /* tilt-deco puncture, top-right */
+        #f5_tilt {
+          position: absolute;
+          top: 70px;
+          right: 96px;
+          width: 148px;
+          height: 50px;
+          background: #f7cb46;
+          border: 4px solid #000000;
+          box-shadow: 6px 6px 0 #000000;
+          transform: rotate(7deg);
+        }
+
+        /* star-burst, bottom-right */
+        #f5_star {
+          position: absolute;
+          bottom: 76px;
+          right: 118px;
+          width: 96px;
+          height: 96px;
+          background: #fe90e8;
+          border: 3px solid #000000;
+          clip-path: polygon(
+            50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%,
+            21% 91%, 32% 57%, 2% 35%, 39% 35%
+          );
+          transform: rotate(-8deg);
+        }
+
+        /* hook counter, bottom-left — ties this to chorus 1 */
+        #f5_counter {
+          position: absolute;
+          bottom: 64px;
+          left: 80px;
+          display: inline-flex;
+          align-items: center;
+          padding: 10px 22px;
+          background: #2ad268;
+          border: 3px solid #000000;
+          box-shadow: 4px 4px 0 #000000;
+          transform: rotate(3deg);
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-size: 18px;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #000000;
+        }
+
+        .f5-group {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 110px;
+        }
+
+        .f5-line {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: center;
+          row-gap: 22px;
+          column-gap: 26px;
+          max-width: 1700px;
+          margin: 0 auto;
+        }
+
+        .f5-chip {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 16px 28px;
+          background: #f7cb46;
+          border: 4px solid #000000;
+          box-shadow: 8px 8px 0 #000000;
+          font-family: "Inter", system-ui, sans-serif;
+          font-weight: 900;
+          font-size: 100px;
+          line-height: 1;
+          letter-spacing: -0.02em;
+          text-transform: uppercase;
+          color: #000000;
+          white-space: nowrap;
+          opacity: 0;
+        }
+
+        .f5-chip.accent {
+          background: #fe90e8;
+        }
+      </style>
+
+      <div data-hf-id="hf-shu3" id="stage" data-composition-id="05-f5" data-width="1920" data-height="1080" data-duration="9.6">
+        <div data-hf-id="hf-rq0x" id="f5_dots"></div>
+        <div data-hf-id="hf-h1ed" id="f5_flash"></div>
+
+        <div data-hf-id="hf-z76j" id="f5_pill"><span data-hf-id="hf-9gry" class="dot"></span>Coro 2</div>
+        <div data-hf-id="hf-sp6w" id="f5_tilt"></div>
+        <div data-hf-id="hf-7fft" id="f5_star"></div>
+        <div data-hf-id="hf-su1e" id="f5_counter">Hook 02</div>
+
+        <div data-hf-id="hf-rl03" id="g1" class="f5-group">
+          <div data-hf-id="hf-yncd" id="g1_line" class="f5-line"></div>
+        </div>
+        <div data-hf-id="hf-ix48" id="g2" class="f5-group">
+          <div data-hf-id="hf-9qgo" id="g2_line" class="f5-line"></div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          // Frame-local time = track time - 87.26 (this frame's span start).
+          var g1Words = [
+            { text: "Yulian,", t: 0.0 },
+            { text: "Yulian,", t: 0.954 },
+            { text: "¿qué", t: 1.908 },
+            { text: "pasó", t: 2.453 },
+            { text: "con", t: 2.998 },
+            { text: "el", t: 3.406 },
+            { text: "Gurú?", t: 3.679, accent: true },
+          ];
+          var g2Words = [
+            { text: "Llegan", t: 4.36 },
+            { text: "diez", t: 5.166 },
+            { text: "problemas", t: 5.704 },
+            { text: "y", t: 6.913 },
+            { text: "ninguno", t: 7.047 },
+            { text: "resuelves", t: 7.988 },
+            { text: "tú.", t: 9.197, accent: true },
+          ];
+
+          var G1_START = 0.0,
+            G1_END = 4.36,
+            G2_START = 4.36,
+            G2_END = 9.6;
+
+          function buildLine(containerId, words, groupPrefix) {
+            var el = document.getElementById(containerId);
+            var chips = [];
+            words.forEach(function (w, i) {
+              var chip = document.createElement("span");
+              chip.className = "f5-chip" + (w.accent ? " accent" : "");
+              chip.id = groupPrefix + "_w" + i;
+              chip.textContent = w.text;
+              el.appendChild(chip);
+              // deterministic alternating tilt, derived from index only
+              chips.push({ el: chip, t: w.t, tilt: i % 2 === 0 ? -3 : 3 });
+            });
+            return chips;
+          }
+
+          var g1Chips = buildLine("g1_line", g1Words, "g1");
+          var g2Chips = buildLine("g2_line", g2Words, "g2");
+
+          var tl = gsap.timeline({ paused: true });
+
+          // Static pre-reveal state for every chip (seek-safe fromTo endpoints).
+          g1Chips.concat(g2Chips).forEach(function (c) {
+            gsap.set(c.el, { opacity: 0, scale: 0.72, y: 26, rotation: c.tilt });
+          });
+
+          // Immediate initial state (outside the timeline) so t=0 paints correctly
+          // even though the playhead sits exactly at 0 before any tl.set at 0 runs.
+          gsap.set("#g1", { autoAlpha: 1 });
+          gsap.set("#g2", { autoAlpha: 0 });
+
+          // Group visibility — 0ms hard cuts at the group boundaries.
+          tl.set("#g1", { autoAlpha: 1 }, 0);
+          tl.set("#g2", { autoAlpha: 0 }, 0);
+          tl.set("#g1", { autoAlpha: 0 }, G1_END);
+          tl.set("#g2", { autoAlpha: 1 }, G2_START);
+          tl.set("#g2", { autoAlpha: 0 }, G2_END);
+
+          // Beat-flash punches on each hard-cut (typewriter/hard-cut recipe: instant tl.set swaps).
+          function flashAt(t) {
+            tl.set("#f5_flash", { opacity: 0.85 }, t);
+            tl.set("#f5_flash", { opacity: 0 }, t + 0.07);
+          }
+          flashAt(G1_START);
+          flashAt(G2_START);
+
+          // Word-by-word karaoke punch-in, one hard tween per word (typewriter-reveal, word-scale).
+          function revealWords(chips) {
+            chips.forEach(function (c) {
+              tl.fromTo(
+                c.el,
+                { opacity: 0, scale: 0.72, y: 26, rotation: c.tilt },
+                { opacity: 1, scale: 1, y: 0, rotation: c.tilt, duration: 0.14, ease: "back.out(2.4)" },
+                c.t,
+              );
+            });
+          }
+          revealWords(g1Chips);
+          revealWords(g2Chips);
+
+          tl.seek(0);
+
+          window.__timelines = window.__timelines || {};
+          window.__timelines["05-f5"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

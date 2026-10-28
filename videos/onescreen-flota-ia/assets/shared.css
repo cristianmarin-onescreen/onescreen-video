@@ -1,0 +1,68 @@
+/* Flota de IA — componentes compartidos por todas las escenas.
+   Unidad: px sobre el lienzo 1920×1080. Títulos Rubik, cuerpo Manrope,
+   "OneScreen" siempre como logo (símbolo #wm-*). */
+@font-face { font-family: "Rubik"; src: url("fonts/Rubik-Variable.ttf") format("truetype"); font-weight: 300 900; font-display: block; }
+@font-face { font-family: "Manrope"; src: url("fonts/Manrope-variable-latin.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+
+.scene { position: absolute; inset: 0; overflow: hidden; color: var(--ink); font-family: "Manrope", sans-serif; -webkit-font-smoothing: antialiased; }
+.bgfill { position: absolute; inset: 0; background: var(--bg); }
+.abs { position: absolute; }
+.in { opacity: 0; }
+.h { font-family: "Rubik", sans-serif; font-weight: 600; letter-spacing: -0.03em; line-height: 1.04; }
+.b { font-family: "Manrope", sans-serif; font-weight: 500; line-height: 1.35; }
+.k { font-family: "Manrope", sans-serif; font-weight: 800; font-size: 22px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ac); }
+.mut { color: var(--mut); }
+.acc { color: var(--ac); }
+.wm { display: block; color: var(--logo); overflow: visible; }
+
+/* Retrato recortado (héroe de la sección) */
+.por { position: absolute; bottom: 0; height: 940px; width: auto; }
+
+/* Insignia circular con el recorte sobre un disco del color de acento */
+.badge { position: absolute; width: 144px; height: 144px; border-radius: 50%; overflow: hidden; background: color-mix(in srgb, var(--ac) 30%, var(--bg)); border: 6px solid var(--ac); }
+.badge img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; transform: scale(1.55); transform-origin: 50% 8%; }
+
+/* Pastilla de contacto */
+.pill { position: absolute; display: flex; align-items: center; gap: 16px; padding: 16px 30px 16px 20px; border-radius: 99px; background: color-mix(in srgb, var(--ac) 16%, var(--bg)); border: 3px solid color-mix(in srgb, var(--ac) 60%, transparent); white-space: nowrap; }
+.pill svg { width: 42px; height: 42px; color: var(--ac); }
+.pill span { font-family: "Manrope"; font-weight: 600; font-size: 24px; color: var(--mut); }
+.pill b { font-family: "Manrope"; font-weight: 800; font-size: 33px; font-variant-numeric: tabular-nums; letter-spacing: 0.01em; color: var(--ink); }
+
+/* Íconos de línea */
+svg.ico { stroke: currentColor; fill: none; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; color: var(--ac); overflow: visible; }
+[data-draw] { stroke-dasharray: 1 2; stroke-dashoffset: 1; }
+
+/* Nodo: disco + etiqueta */
+.node { position: absolute; display: flex; flex-direction: column; align-items: center; gap: 12px; font-family: "Manrope"; font-weight: 700; font-size: 24px; text-align: center; }
+.disc { width: 124px; height: 124px; border-radius: 50%; border: 6px solid var(--ac); display: grid; place-items: center; background: var(--bg); }
+.disc svg { width: 64px; height: 64px; }
+
+/* Tarjetas estilizadas (no son la UI real de Odoo) */
+.card { position: absolute; border-radius: 26px; background: color-mix(in srgb, var(--ink) 5%, var(--bg)); border: 3px solid var(--line); padding: 30px; }
+.row { display: flex; align-items: center; gap: 18px; font-family: "Manrope"; font-size: 25px; font-weight: 600; padding: 14px 0; border-bottom: 2px solid var(--line); }
+.row:last-child { border-bottom: 0; }
+.dot { width: 18px; height: 18px; border-radius: 50%; background: var(--ac); flex: none; }
+.av { width: 56px; height: 56px; border-radius: 50%; flex: none; display: grid; place-items: center; font-family: "Rubik"; font-weight: 700; font-size: 21px; background: color-mix(in srgb, var(--ac) 30%, var(--bg)); color: var(--ink); overflow: hidden; }
+.av img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 0%; transform: scale(1.5); transform-origin: 50% 8%; }
+
+/* Casillas de capacidades */
+.tiles { position: absolute; display: grid; gap: 26px; }
+.tile { border-radius: 30px; border: 3px solid var(--line); padding: 40px 36px 36px; min-height: 250px; display: flex; flex-direction: column; justify-content: flex-end; gap: 26px; font-family: "Manrope"; font-weight: 700; font-size: 35px; line-height: 1.2; background: color-mix(in srgb, var(--ink) 4%, var(--bg)); }
+.tile svg { width: 96px; height: 96px; margin-bottom: auto; }
+.tile .on { position: absolute; inset: -3px; border-radius: 30px; border: 4px solid var(--ac); background: color-mix(in srgb, var(--ac) 12%, transparent); opacity: 0; }
+.tile { position: relative; }
+
+.wire { position: absolute; inset: 0; width: 1920px; height: 1080px; overflow: visible; }
+.wire .l { stroke: var(--ac); stroke-width: 5; fill: none; stroke-linecap: round; }
+.wire .d { stroke: var(--mut); stroke-width: 3.5; fill: none; stroke-dasharray: 12 14; }
+.pk { fill: var(--ac); }
+.stamp { position: absolute; font-family: "Rubik"; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; color: var(--ac); border: 7px solid var(--ac); border-radius: 18px; padding: 14px 34px; font-size: 48px; white-space: nowrap; }
+.title { position: absolute; left: 134px; }
+
+/* Firma de contacto fija: nombre del agente con su canal debajo.
+   Acompaña toda la sección del agente una vez que sale el nombre grande. */
+.idc { position: absolute; left: 96px; top: 962px; display: flex; flex-direction: column; gap: 6px; padding-left: 22px; border-left: 6px solid var(--ac); }
+.idc b { font-family: "Rubik"; font-weight: 600; font-size: 32px; letter-spacing: -0.02em; line-height: 1.05; color: var(--ink); }
+.idc span { display: flex; align-items: center; gap: 10px; font-family: "Manrope"; font-weight: 800; font-size: 28px; font-variant-numeric: tabular-nums; color: var(--ink); white-space: nowrap; }
+.idc span i { font-style: normal; font-weight: 600; font-size: 22px; color: var(--mut); }
+.idc svg { width: 30px; height: 30px; color: var(--ac); flex: none; }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta charset="UTF-8"><title>01-apertura</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face { font-family: "Rubik"; src: url("assets/fonts/Rubik-Variable.ttf") format("truetype"); font-weight: 300 900; font-display: block; }
+        @font-face { font-family: "Manrope"; src: url("assets/fonts/Manrope-variable-latin.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+        #s1 { --bg:#ffffff; --ink:#0a0a0b; --ac:#3976ff; --mut:#6e6e73; --line:#dfe1e8; --logo:#293052; }
+        #s1-screen { left: 520px; top: 150px; width: 880px; height: 500px; }
+        #s1-screen rect, #s1-screen path { fill: none; stroke: #0a0a0b; stroke-width: 9; stroke-linecap: round; stroke-linejoin: round; }
+        #s1-inside { left: 520px; top: 150px; width: 880px; height: 500px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; }
+        #s1-welcome { left: 0; right: 0; top: 800px; text-align: center; font-size: 34px; }
+        #s1-fleet { left: 0; right: 0; top: 440px; text-align: center; font-size: 190px; font-weight: 700; letter-spacing: -0.045em; }
+        .s1-mask { overflow: hidden; display: inline-block; vertical-align: bottom; padding-bottom: 0.08em; }
+        .s1-mask > span { display: inline-block; }
+        .s1-fdot { width: 26px; height: 26px; border-radius: 50%; background: #3976ff; left: 947px; top: 380px; }
+        #s1-aifirst { left: 134px; top: 96px; font-size: 176px; font-weight: 700; letter-spacing: -0.045em; }
+        #s1-aisub { left: 140px; top: 300px; font-size: 36px; max-width: 900px; }
+        #s1-chip { left: 874px; top: 770px; width: 172px; height: 172px; border-radius: 38px; background: #3976ff; color: #fff; display: grid; place-items: center; font-family: "Rubik"; font-weight: 700; font-size: 66px; letter-spacing: -0.02em; }
+        #s1-opt { left: 0; right: 0; top: 150px; text-align: center; font-size: 104px; font-weight: 700; letter-spacing: -0.04em; }
+        #s1-clock { left: 560px; top: 420px; width: 300px; height: 300px; }
+        #s1-bars { left: 1080px; top: 420px; width: 300px; height: 300px; }
+        #s1-clock .ico, #s1-bars .ico { stroke-width: 2.4; }
+        .s1-lab { font-family: "Manrope"; font-weight: 700; font-size: 30px; text-align: center; width: 300px; }
+      </style>
+
+      <div data-hf-id="hf-c2mv" id="root" data-composition-id="01-apertura" data-width="1920" data-height="1080" data-duration="15.8">
+        <div data-hf-id="hf-yihu" id="s1" class="scene">
+          <div data-hf-id="hf-8252" class="bgfill"></div>
+
+          <!-- A · pantalla que se enciende -->
+          <svg data-hf-id="hf-xfsa" id="s1-screen" class="abs" viewBox="0 0 880 500">
+            <rect data-hf-id="hf-4f82" data-draw="" x="5" y="5" width="870" height="490" rx="30" />
+          </svg>
+          <svg data-hf-id="hf-u5lt" id="s1-stand" class="abs" viewBox="0 0 880 200" style="left:520px;top:650px;width:880px;height:200px">
+            <path data-hf-id="hf-p1el" data-draw="" d="M440 0 V80 M330 92 H550" style="fill:none;stroke:#0a0a0b;stroke-width:14;stroke-linecap:round" />
+          </svg>
+          <div data-hf-id="hf-y2ur" id="s1-inside" class="abs">
+            <svg data-hf-id="hf-c9wa" class="wm in" id="s1-wm" style="width:440px;height:67px"><use data-hf-id="hf-onnc" href="#wm" /></svg>
+            <div data-hf-id="hf-sdfj" class="h in" id="s1-academy" style="font-size:62px;font-weight:500;letter-spacing:-0.02em">Academy</div>
+          </div>
+          <div data-hf-id="hf-jies" id="s1-welcome" class="b abs mut in">Te damos la bienvenida a</div>
+
+          <!-- B · Flota de IA -->
+          <div data-hf-id="hf-qoa7" class="s1-fdot abs in"></div><div data-hf-id="hf-6oi7" class="s1-fdot abs in"></div><div data-hf-id="hf-6a76" class="s1-fdot abs in"></div><div data-hf-id="hf-5vw5" class="s1-fdot abs in"></div><div data-hf-id="hf-8o1c" class="s1-fdot abs in"></div>
+          <div data-hf-id="hf-kq7l" id="s1-fleet" class="h abs">
+            <span data-hf-id="hf-swpg" class="s1-mask" data-layout-allow-overlap=""><span data-hf-id="hf-1ecf" id="s1-f1">Flota de</span></span>
+            <span data-hf-id="hf-ddpo" class="s1-mask" data-layout-allow-overlap=""><span data-hf-id="hf-fxih" id="s1-f2" class="acc">IA</span></span>
+          </div>
+
+          <!-- C · AI First + procesos -->
+          <div data-hf-id="hf-fpn7" id="s1-aifirst" class="h abs" data-layout-allow-overlap=""><span data-hf-id="hf-c6sl" class="s1-mask" data-layout-allow-overlap=""><span data-hf-id="hf-9vo5" id="s1-ai">AI First</span></span></div>
+          <div data-hf-id="hf-y06f" id="s1-aisub" class="b abs mut in">La inteligencia artificial, integrada en todos nuestros procesos internos.</div>
+          <svg data-hf-id="hf-o09x" class="wire" id="s1-wires">
+            <path data-hf-id="hf-7thj" class="l" data-draw="" d="M960 856 L232 590" /><path data-hf-id="hf-voe0" class="l" data-draw="" d="M960 856 L596 590" /><path data-hf-id="hf-yksl" class="l" data-draw="" d="M960 856 L960 590" /><path data-hf-id="hf-jlgq" class="l" data-draw="" d="M960 856 L1324 590" /><path data-hf-id="hf-cugz" class="l" data-draw="" d="M960 856 L1688 590" />
+            <circle data-hf-id="hf-fheb" class="pk s1-pk" r="11" cx="0" cy="0" style="opacity:0" /><circle data-hf-id="hf-3zub" class="pk s1-pk" r="11" cx="0" cy="0" style="opacity:0" /><circle data-hf-id="hf-3lja" class="pk s1-pk" r="11" cx="0" cy="0" style="opacity:0" /><circle data-hf-id="hf-3789" class="pk s1-pk" r="11" cx="0" cy="0" style="opacity:0" /><circle data-hf-id="hf-2sx8" class="pk s1-pk" r="11" cx="0" cy="0" style="opacity:0" />
+          </svg>
+          <div data-hf-id="hf-anmg" class="node in s1-node" style="left:170px;top:440px"><div data-hf-id="hf-hnan" class="disc"><svg data-hf-id="hf-mg19" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-23uw" data-draw="" d="M8 34l10-10 7 7 15-15" /><path data-hf-id="hf-oczu" data-draw="" d="M31 16h9v9" /></svg></div>Ventas</div>
+          <div data-hf-id="hf-u7x9" class="node in s1-node" style="left:534px;top:440px"><div data-hf-id="hf-7fpr" class="disc"><svg data-hf-id="hf-dkrl" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-s0bk" data-draw="" d="M10 20v8l20 8V12l-20 8Z" /><path data-hf-id="hf-7n78" data-draw="" d="M30 18c4 1 6 3 6 6s-2 5-6 6" /><path data-hf-id="hf-15sa" data-draw="" d="M14 29l3 9h5l-2-8" /></svg></div>Prospectos</div>
+          <div data-hf-id="hf-lh0o" class="node in s1-node" style="left:898px;top:440px"><div data-hf-id="hf-71eq" class="disc"><svg data-hf-id="hf-eroo" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-735t" data-draw="" d="M10 26v-4a14 14 0 0 1 28 0v4" /><rect data-hf-id="hf-bglh" data-draw="" x="7" y="25" width="7" height="11" rx="3" /><rect data-hf-id="hf-4945" data-draw="" x="34" y="25" width="7" height="11" rx="3" /><path data-hf-id="hf-nmm9" data-draw="" d="M38 36c0 4-4 6-10 6" /></svg></div>Soporte</div>
+          <div data-hf-id="hf-cu2h" class="node in s1-node" style="left:1262px;top:440px"><div data-hf-id="hf-6n3p" class="disc"><svg data-hf-id="hf-eddn" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-cgff" data-draw="" d="M8 18 24 9l16 9" /><path data-hf-id="hf-ad1m" data-draw="" d="M12 20v14M20 20v14M28 20v14M36 20v14" /><path data-hf-id="hf-qofn" data-draw="" d="M8 38h32" /></svg></div>Licitaciones</div>
+          <div data-hf-id="hf-rsyl" class="node in s1-node" style="left:1626px;top:440px"><div data-hf-id="hf-9f8w" class="disc"><svg data-hf-id="hf-cdui" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-mnie" data-draw="" d="M6 14h22v20H6z" /><path data-hf-id="hf-f8sv" data-draw="" d="M28 20h8l6 7v7H28" /><circle data-hf-id="hf-6za0" data-draw="" cx="14" cy="36" r="3.5" /><circle data-hf-id="hf-jl1m" data-draw="" cx="34" cy="36" r="3.5" /></svg></div>Logística</div>
+          <div data-hf-id="hf-5oko" id="s1-chip" class="abs in">IA</div>
+
+          <!-- D · tiempo y resultados -->
+          <div data-hf-id="hf-q0ss" id="s1-opt" class="h abs" data-layout-allow-overlap="" data-layout-allow-occlusion=""><span data-hf-id="hf-cl3m" class="s1-mask" data-layout-allow-overlap=""><span data-hf-id="hf-wowm" id="s1-o1">Optimizar</span></span> <span data-hf-id="hf-ekmr" class="s1-mask" data-layout-allow-overlap=""><span data-hf-id="hf-3pwv" id="s1-o2" class="acc">tiempo y resultados.</span></span></div>
+          <div data-hf-id="hf-hdsz" id="s1-clock" class="abs">
+            <svg data-hf-id="hf-1wz5" class="ico" viewBox="0 0 48 48" style="width:300px;height:300px"><circle data-hf-id="hf-m116" data-draw="" cx="24" cy="24" r="20" /><path data-hf-id="hf-tyic" data-draw="" d="M24 4v3M44 24h-3M24 44v-3M4 24h3" /><g data-hf-id="hf-3j21" id="s1-hand" class="in"><path data-hf-id="hf-bdq7" d="M24 24V11" style="stroke:#0a0a0b;stroke-width:3" /></g><circle data-hf-id="hf-cpo5" id="s1-pin" class="in" cx="24" cy="24" r="2" style="fill:#0a0a0b;stroke:none" /></svg>
+          </div>
+          <div data-hf-id="hf-3a79" id="s1-bars" class="abs">
+            <svg data-hf-id="hf-ck6d" class="ico" viewBox="0 0 48 48" style="width:300px;height:300px"><path data-hf-id="hf-kcte" data-draw="" d="M4 44h40" style="stroke:#0a0a0b" /><rect data-hf-id="hf-kov8" class="s1-bar" x="8" y="30" width="8" height="12" rx="2" style="fill:#3976ff;stroke:none" /><rect data-hf-id="hf-c9u2" class="s1-bar" x="20" y="20" width="8" height="22" rx="2" style="fill:#3976ff;stroke:none" /><rect data-hf-id="hf-qhc6" class="s1-bar" x="32" y="8" width="8" height="34" rx="2" style="fill:#3976ff;stroke:none" /></svg>
+          </div>
+          <div data-hf-id="hf-0q9h" class="s1-lab abs in" id="s1-l1" style="left:560px;top:750px">Tiempo</div>
+          <div data-hf-id="hf-4wms" class="s1-lab abs in" id="s1-l2" style="left:1080px;top:750px">Resultados</div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          var S = 0, T = function (x) { return x - S; };
+          var root = document.querySelector('[data-composition-id="01-apertura"]');
+          FX.prep(root);
+          var tl = gsap.timeline({ paused: true });
+          var q = function (s) { return root.querySelectorAll(s); };
+
+          // A · "Hola" — la pantalla se dibuja y se enciende
+          FX.draw(tl, q("#s1-screen [data-draw]"), T(0.1), 1.1);
+          FX.draw(tl, q("#s1-stand [data-draw]"), T(0.7), 0.6);
+          FX.up(tl, "#s1-welcome", T(0.9), { y: 20 });
+          FX.up(tl, "#s1-wm", T(2.0), { y: 24, d: 0.7 });
+          FX.up(tl, "#s1-academy", T(2.6), { y: 24 });
+          // "introducción a nuestra flota" — la pantalla se aleja hacia arriba
+          FX.out(tl, ["#s1-screen", "#s1-stand", "#s1-inside", "#s1-welcome"], T(4.6), { y: -80, d: 0.5 });
+
+          // B · cinco puntos despegan en formación en V
+          var dots = q(".s1-fdot");
+          var V = [[-260, -150], [-130, -75], [0, 0], [130, -75], [260, -150]];
+          dots.forEach(function (d, i) {
+            tl.fromTo(d, { opacity: 0, x: 0, y: 140, scale: 0.4 }, { opacity: 1, x: V[i][0], y: V[i][1] - 120, scale: 1, duration: 0.9, ease: "power3.out" }, T(5.0 + i * 0.05));
+          });
+                    FX.rise(tl, "#s1-f1", T(5.3));
+          FX.rise(tl, "#s1-f2", T(5.9));
+          tl.to(dots, { x: "+=1300", opacity: 0, duration: 0.7, ease: "power2.in", stagger: 0.04 }, T(7.4));
+          FX.out(tl, "#s1-fleet", T(7.55), { x: -120, d: 0.4 });
+
+          // C · AI First
+          FX.rise(tl, "#s1-ai", T(8.0), { d: 0.6 });
+          FX.up(tl, "#s1-aisub", T(10.1), { y: 20 });
+          FX.pop(tl, "#s1-chip", T(10.5));
+          var nodes = q(".s1-node");
+          FX.pop(tl, nodes, T(10.6), { stagger: 0.12 });
+          nodes.forEach(function (n, i) { FX.draw(tl, n.querySelectorAll("[data-draw]"), T(10.75 + i * 0.12), 0.8); });
+          FX.draw(tl, q("#s1-wires [data-draw]"), T(11.44), 0.7, 0.1);
+          // paquetes de luz: del chip hacia cada proceso
+          var ends = [[232, 590], [596, 590], [960, 590], [1324, 590], [1688, 590]];
+          q(".s1-pk").forEach(function (p, i) { FX.packet(tl, p, T(12.0 + i * 0.15), T(13.6), [960, 856], ends[i], 0.8); });
+          FX.out(tl, ["#s1-aifirst", "#s1-aisub", "#s1-wires", ".s1-node", "#s1-chip"], T(13.75), { y: -40, d: 0.35, stagger: 0.02 });
+
+          // D · "optimizar tiempo y resultados"
+          FX.rise(tl, "#s1-o1", T(13.94));
+          FX.rise(tl, "#s1-o2", T(14.46));
+          FX.draw(tl, q("#s1-clock [data-draw]"), T(14.0), 0.7);
+          tl.to(["#s1-hand", "#s1-pin"], { opacity: 1, duration: 0.2 }, T(14.3));
+          tl.fromTo("#s1-hand", { rotation: 0, svgOrigin: "24 24" }, { rotation: 720, svgOrigin: "24 24", duration: 1.4, ease: "power2.inOut" }, T(14.3));
+          FX.up(tl, "#s1-l1", T(14.46), { y: 20 });
+          FX.draw(tl, q("#s1-bars [data-draw]"), T(15.0), 0.4);
+          tl.fromTo(q(".s1-bar"), { scaleY: 0, transformOrigin: "50% 100%" }, { scaleY: 1, transformOrigin: "50% 100%", duration: 0.5, ease: "back.out(1.6)", stagger: 0.1 }, T(15.12));
+          FX.up(tl, "#s1-l2", T(15.12), { y: 20 });
+          FX.out(tl, ["#s1-opt", "#s1-clock", "#s1-bars", "#s1-l1", "#s1-l2"], T(15.45), { y: -30, d: 0.3 });
+
+          window.__timelines["01-apertura"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

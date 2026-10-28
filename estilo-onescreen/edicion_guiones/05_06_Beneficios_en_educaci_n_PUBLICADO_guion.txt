@@ -1,0 +1,84 @@
+   0.00-   0.63 (0.63s) | A:C0918.MP4 100%                                                       | 
+   0.63-   1.54 (0.91s) | A:C0918.MP4 100% | G:Title.jpg                                         | 
+   1.54-   2.00 (0.46s) | A:C0918.MP4 157% | G:Title.jpg                                         | 
+   2.00-   2.34 (0.34s) | A:C0918.MP4 157% | G:Title.jpg | B:Flash Light 3.mp4                   | 
+   2.34-   3.00 (0.66s) | A:C0918.MP4 100% | B:Flash Light 3.mp4                                 | D3" Un proyector, que solo se ve bien con un salón oscuro.
+   3.00-   3.38 (0.38s) | A:C0918.MP4 157%                                                       | D3" Un proyector, que solo se ve bien con un salón oscuro.
+   3.38-   4.55 (1.17s) | A:C0918.MP4 157% | G:Proyector.png 141%                                | D3" Un proyector, que solo se ve bien con un salón oscuro.
+   4.55-   5.67 (1.12s) | A:C0918.MP4 100%                                                       | D3" Un sistema de sonido externo porque el proyector no tiene un buen sonido.
+   5.67-   5.92 (0.25s) | A:C0918.MP4 100% | G:Sonido.png 141%                                   | D3" Un sistema de sonido externo porque el proyector no tiene un buen sonido.
+   5.92-   7.51 (1.59s) | A:C0918.MP4 157% | G:Sonido.png 141%                                   | D3" Un sistema de sonido externo porque el proyector no tiene un buen sonido.
+   7.51-   7.97 (0.46s) | A:C0918.MP4 100%                                                       | D3" Una pizarra blanca.
+   7.97-   8.55 (0.58s) | A:C0918.MP4 100% | G:tablero.png 141%                                  | D3" Una pizarra blanca.
+   8.55-   9.47 (0.92s) | A:C0918.MP4 157%                                                       | D3" Cables HDMI larguísimos para conectar todo.
+   9.47-  10.22 (0.75s) | A:C0918.MP4 157% | G:Cables HDMI.png 141%                              | D3" Cables HDMI larguísimos para conectar todo.
+  10.22-  11.26 (1.04s) | A:C0918.MP4 100% | G:Cables HDMI.png 141%                              | D3" Cables HDMI larguísimos para conectar todo.
+  11.26-  12.14 (0.88s) | A:C0918.MP4 157%                                                       | D3" Un computador para que proyectes la imagen.
+  12.14-  13.43 (1.29s) | A:C0918.MP4 157% | G:Gemini_Generated_Image_1bpowm1bpow 194%           | D3" Un computador para que proyectes la imagen.
+  13.43-  14.60 (1.17s) | A:C0918.MP4 100%                                                       | D3" Todos estos dispositivos.
+  14.60-  15.97 (1.37s) | A:C0918.MP4 157%                                                       | D3" son dispositivos que tienes que configurar, hacer mantenimiento.
+  15.97-  17.89 (1.92s) | A:C0918.MP4 100% | G:Recurso 4.png 221% | G:Recurso 3.png 167% | B:C09 | D3" son dispositivos que tienes que configurar, hacer mantenimiento.
+  17.89-  19.81 (1.92s) | A:C0918.MP4 157%                                                       | D3" Lo que yo te propongo es distinto.
+  19.81-  21.06 (1.25s) | A:C0918.MP4 100%                                                       | D3" Esto es OneScreen.
+  21.06-  21.73 (0.67s) | A:C0918.MP4 157%                                                       | D3" Una sola pantalla que se convierte en un ecosistema completo.
+  21.73-  22.86 (1.13s) | A:C0918.MP4 157% | B:C0090.MP4                                         | D3" Una sola pantalla que se convierte en un ecosistema completo.
+  22.86-  24.19 (1.33s) | A:C0918.MP4 100% | B:C0090.MP4                                         | D3" Una sola pantalla que se convierte en un ecosistema completo.
+  24.19-  25.82 (1.63s) | A:C0918.MP4 157%                                                       | D3" Todo en un solo dispositivo.
+  25.82-  27.53 (1.71s) | A:C0918.MP4 100%                                                       | D3" OneScreen es una pantalla digital táctil.
+  27.53-  28.15 (0.62s) | A:C0918.MP4 157% | B:C0090.MP4                                         | D3" OneScreen es una pantalla digital táctil.
+  28.15-  30.03 (1.88s) | A:C0918.MP4 100% | B:C0090.MP4                                         | D3" con calidad 4K, que se ve perfecta, con la luz natural.
+  30.03-  31.16 (1.13s) | A:C0918.MP4 157%                                                       | D3" con calidad 4K, que se ve perfecta, con la luz natural.
+  31.16-  32.78 (1.62s) | A:C0918.MP4 100%                                                       | D3" Audio integrado, dos parlantes de 20W y un.
+  32.78-  33.20 (0.42s) | A:C0918.MP4 157%                                                       | D3" Audio integrado, dos parlantes de 20W y un.
+  33.20-  33.74 (0.54s) | A:C0918.MP4 157% | B:02_CEA_COR_PLANO DE LOS PUERTOS IN                | D3" Audio integrado, dos parlantes de 20W y un.
+  33.74-  35.66 (1.92s) | A:C0918.MP4 100% | B:02_CEA_COR_PLANO DE LOS PUERTOS IN                | D3" Audio integrado, dos parlantes de 20W y un. D3" Subwoofer de 25 D3" W, Micrófonos inco
+  35.66-  36.12 (0.46s) | A:C0918.MP4 157%                                                       | D3" W, Micrófonos incorporados para clases híbridas, o de solapa inalámbricos.
+  36.12-  37.91 (1.79s) | A:C0918.MP4 157% | B:02_CEA_COR_PLANO DE MICROFONOS_T7_                | D3" W, Micrófonos incorporados para clases híbridas, o de solapa inalámbricos.
+  37.91-  39.21 (1.30s) | A:C0918.MP4 100%                                                       | D3" W, Micrófonos incorporados para clases híbridas, o de solapa inalámbricos.
+  39.21-  39.96 (0.75s) | A:C0918.MP4 157%                                                       | D3" Pero la verdad. Lo que más importa.
+  39.96-  41.17 (1.21s) | A:C0918.MP4 100%                                                       | D3" Pero la verdad. Lo que más importa.
+  41.17-  42.12 (0.95s) | A:C0918.MP4 157%                                                       | D3" Es lo que está por dentro, certificación Google EDLA.
+  42.12-  42.75 (0.63s) | A:C0918.MP4 100% | G:Graphics0002.png | G:Graphics0002.png             | D3" Es lo que está por dentro, certificación Google EDLA.
+  42.75-  43.67 (0.92s) | A:C0918.MP4 100% | B:Limitless Potential ｜ I⧸O 2025.mp4 223% | G:Graph | D3" Es lo que está por dentro, certificación Google EDLA.
+  43.67-  45.00 (1.33s) | A:C0918.MP4 157% | B:Limitless Potential ｜ I⧸O 2025.mp4 223%           | D3" Con acceso completo
+  45.00-  45.88 (0.88s) | A:C0918.MP4 100%                                                       | D3" Con acceso completo D3" a Play Store y todas las apps de Google que tú y tu institució
+  45.88-  46.92 (1.04s) | A:C0918.MP4 157% | B:C0039.MP4                                         | D3" a Play Store y todas las apps de Google que tú y tu institución ya usan.
+  46.92-  47.63 (0.71s) | A:C0918.MP4 157% | B:C0039.MP4                                         | D3" a Play Store y todas las apps de Google que tú y tu institución ya usan.
+  47.63-  49.17 (1.54s) | A:C0918.MP4 100% | B:C0039.MP4                                         | D3" a Play Store y todas las apps de Google que tú y tu institución ya usan.
+  49.17-  51.59 (2.42s) | A:C0918.MP4 100%                                                       | D3" Con OneScreen Write, tienes un tablero digital infinito.
+  51.59-  52.26 (0.67s) | A:C0918.MP4 157%                                                       | D3" Con OneScreen Write, tienes un tablero digital infinito.
+  52.30-  54.93 (2.63s) | A:C0918.MP4 100% | B:C0125.MP4                                         | D3" Al terminar puedes compartir todo con un QR.
+  54.93-  56.22 (1.29s) | A:C0918.MP4 157%                                                       | D3" O creas un resumen inteligente con SuprNotes.
+  56.22-  57.52 (1.30s) | A:C0918.MP4 157% | B:2026-02-18 11-55-01.mp4 200%                      | D3" O creas un resumen inteligente con SuprNotes.
+  57.52-  58.35 (0.83s) | A:C0918.MP4 100%                                                       | D3" Lo más nuevo: Un ecosistema completo de inteligencia artificial.
+  58.35-  59.77 (1.42s) | A:C0918.MP4 157%                                                       | D3" Lo más nuevo: Un ecosistema completo de inteligencia artificial.
+  59.77-  61.14 (1.37s) | A:C0918.MP4 100%                                                       | D3" Lo más nuevo: Un ecosistema completo de inteligencia artificial.
+  61.14-  63.06 (1.92s) | A:C0918.MP4 157% | B:C0011.MP4 | G:Recurso 5.png                       | D3" Lessn, crea tus clases en segundos.
+  63.06-  63.85 (0.79s) | A:C0918.MP4 100% | B:C0012.MP4 | G:Recurso 6.png                       | D3" Scrybe, graba y transcribe en tiempo real.
+  63.85-  64.15 (0.30s) | A:C0918.MP4 100% | B:C0013.MP4 | G:Recurso 6.png                       | D3" Scrybe, graba y transcribe en tiempo real.
+  64.15-  64.44 (0.29s) | A:C0918.MP4 157% | B:C0013.MP4 | G:Recurso 6.png                       | D3" Scrybe, graba y transcribe en tiempo real.
+  64.44-  65.44 (1.00s) | A:C0918.MP4 157% | B:C0013.MP4 | B:C0012.MP4 | G:Recurso 6.png         | D3" Scrybe, graba y transcribe en tiempo real.
+  65.44-  65.90 (0.46s) | A:C0918.MP4 100% | G:Recurso 7.png                                     | D3" Scrybe, graba y transcribe en tiempo real.
+  65.90-  67.57 (1.67s) | A:C0918.MP4 100% | B:C0016.MP4 | G:Recurso 7.png                       | D3" QuizWiz Genera quizzes personalizados al instante.
+  67.57-  68.61 (1.04s) | A:C0918.MP4 157% | G:Recurso 7.png                                     | D3" QuizWiz Genera quizzes personalizados al instante.
+  68.61-  70.32 (1.71s) | A:C0918.MP4 100% | B:2026-02-18 11-55-01.mp4 299% | G:Recurso 8.png    | D3" SuprNotes, Convierte cualquier clase en resúmenes inteligentes.
+  70.32-  71.99 (1.67s) | A:C0918.MP4 157% | B:2026-02-18 11-55-01.mp4 299% | G:Recurso 8.png    | D3" SuprNotes, Convierte cualquier clase en resúmenes inteligentes.
+  71.99-  72.95 (0.96s) | A:C0918.MP4 100%                                                       | D3" Pero espera un momento. Tal vez todo esto suena muy abrumador.
+  72.95-  74.70 (1.75s) | A:C0918.MP4 157%                                                       | D3" Pero espera un momento. Tal vez todo esto suena muy abrumador.
+  74.70-  75.87 (1.17s) | A:C0918.MP4 100%                                                       | D3" Siempre puedes pedir ayuda con el botón Gurú,
+  75.87-  76.87 (1.00s) | A:C0918.MP4 100% | B:C0005.MP4                                         | D3" Siempre puedes pedir ayuda con el botón Gurú,
+  76.87-  77.58 (0.71s) | A:C0918.MP4 157% | B:C0005.MP4                                         | D3" Ese botón te conecta a ti o a tus docentes.
+  77.58-  79.25 (1.67s) | A:C0918.MP4 157% | B:C0006.MP4                                         | D3" Ese botón te conecta a ti o a tus docentes.
+  79.25-  81.37 (2.12s) | A:C0918.MP4 100% | B:C0006.MP4                                         | D3" En vivo con un ingeniero de OneScreen.
+  81.37-  83.08 (1.71s) | A:C0918.MP4 100%                                                       | D3" Tienes capacitaciones gratuitas e ilimitadas.
+  83.08-  83.92 (0.84s) | A:C0918.MP4 157%                                                       | D3" Tienes capacitaciones gratuitas e ilimitadas.
+  83.92-  85.38 (1.46s) | A:C0918.MP4 100%                                                       | D3" Siempre que las necesites. Ahora con todo esto.
+  85.38-  86.67 (1.29s) | A:C0918.MP4 157%                                                       | D3" Siempre que las necesites. Ahora con todo esto.
+  86.67-  87.71 (1.04s) | A:C0918.MP4 100% | G:Color mate | G:Title2.jpg 100%                    | 
+  87.71-  88.46 (0.75s) | A:C0918.MP4 100% | G:Color mate | G:Title2.jpg 100%                    | 
+  88.46-  89.30 (0.84s) | A:C0918.MP4 157% | G:Color mate | G:Title2.jpg 100%                    | 
+  89.30-  89.97 (0.67s) | A:C0918.MP4 157% | G:Color mate | G:Title2.jpg                         | 
+  89.97-  91.17 (1.20s) | A:C0918.MP4 100% | G:Color mate | G:title3.jpg                         | 
+  91.17-  92.72 (1.55s) | A:C0918.MP4 157%                                                       | D3" Solo necesitas una OneScreen.
+  92.72-  94.80 (2.08s) | A:C0918.MP4 100% | G:Recurso 2.png 299%                                | 
+  94.80- 102.89 (8.09s) | A:OneScreen (I 100%                                                    | 

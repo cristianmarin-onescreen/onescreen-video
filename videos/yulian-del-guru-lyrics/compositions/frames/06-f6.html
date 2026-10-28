@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <template>
+      <div
+        id="stage"
+        data-composition-id="06-f6"
+        data-width="1920"
+        data-height="1080"
+        data-duration="27.2"
+      >
+        <style>
+          @font-face {
+            font-family: "Space Grotesk";
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+            src: url("https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk/files/space-grotesk-latin-600-normal.woff2")
+              format("woff2");
+          }
+
+          #stage {
+            position: absolute;
+            inset: 0;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            background: #000000;
+            font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+            color: #000000;
+          }
+          #stage * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+
+          #shake-wrapper {
+            position: absolute;
+            inset: 0;
+          }
+
+          /* ---- persistent background chrome ---- */
+          #bg-dots {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1.4px, transparent 1.4px);
+            background-size: 34px 34px;
+            opacity: 0.5;
+          }
+          #bg-tilt-a {
+            position: absolute;
+            top: -60px;
+            left: -50px;
+            width: 220px;
+            height: 130px;
+            background: #2ad268;
+            border: 4px solid #000;
+            transform: rotate(-9deg);
+          }
+          #bg-star {
+            position: absolute;
+            right: 60px;
+            bottom: 44px;
+            width: 150px;
+            height: 150px;
+            background: #f7cb46;
+            border: 3px solid #000;
+            transform: rotate(8deg);
+            clip-path: polygon(
+              50% 0%,
+              61% 35%,
+              98% 35%,
+              68% 57%,
+              79% 91%,
+              50% 70%,
+              21% 91%,
+              32% 57%,
+              2% 35%,
+              39% 35%
+            );
+          }
+          #crisis-label {
+            position: absolute;
+            top: 54px;
+            left: 60px;
+            background: #fffdf5;
+            border: 3px solid #000;
+            box-shadow: 4px 4px 0 #000;
+            transform: rotate(-4deg);
+            padding: 12px 24px;
+            font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+            font-weight: 600;
+            font-size: 26px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #000;
+          }
+
+          /* ---- tension meter ---- */
+          #tension-meter {
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            opacity: 0;
+            visibility: hidden;
+          }
+          #tension-label {
+            font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #fffdf5;
+          }
+          #tension-track {
+            display: flex;
+            gap: 3px;
+          }
+          .tick {
+            width: 20px;
+            height: 26px;
+            background: #fffdf5;
+            border: 2px solid #000;
+          }
+
+          /* ---- karaoke pill lines (g1 / g2 / g9) ---- */
+          .group {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+          }
+          .pill-line {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            max-width: 1680px;
+            row-gap: 18px;
+            column-gap: 14px;
+            padding: 0 100px;
+          }
+          .word-pill {
+            display: inline-block;
+            border: 4px solid #000;
+            box-shadow: 8px 8px 0 #000;
+            color: #000;
+            font-family: "Inter", ui-sans-serif, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1;
+            padding: 0.28em 0.42em;
+            opacity: 0;
+          }
+
+          /* ---- alert banners (g3 / g5 / g7) ---- */
+          .alert-outer {
+            position: absolute;
+            left: 110px;
+            right: 110px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          .alert-banner {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 26px;
+            border: 4px solid #000;
+            padding: 34px 50px;
+            overflow: hidden;
+          }
+          .alert-stripe-top,
+          .alert-stripe-bottom {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 14px;
+            background-image: repeating-linear-gradient(
+              45deg,
+              #000 0px,
+              #000 14px,
+              transparent 14px,
+              transparent 28px
+            );
+            opacity: 0.7;
+          }
+          .alert-stripe-top {
+            top: 0;
+          }
+          .alert-stripe-bottom {
+            bottom: 0;
+          }
+          .alert-icon {
+            position: relative;
+            flex: none;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            background: #000000;
+            clip-path: polygon(50% 4%, 96% 92%, 4% 92%);
+            padding-bottom: 16%;
+          }
+          .alert-icon span {
+            font-family: "Inter", ui-sans-serif, sans-serif;
+            font-weight: 900;
+            color: #fffdf5;
+            line-height: 1;
+          }
+          .alert-words {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+            gap: 0.22em;
+          }
+          .alert-word {
+            font-family: "Inter", ui-sans-serif, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1;
+            color: #000;
+            opacity: 0;
+          }
+
+          /* ---- shout climax panels (g4 / g6 / g8) ---- */
+          .shout-outer {
+            position: absolute;
+            inset: 60px;
+            border: 4px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .shout-stack {
+            position: relative;
+            font-family: "Inter", ui-sans-serif, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+            line-height: 0.9;
+            white-space: nowrap;
+          }
+          .shout-spacer {
+            color: transparent;
+          }
+          .shout-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+          }
+          .shout-layer.r {
+            color: #ff2a4a;
+            mix-blend-mode: screen;
+          }
+          .shout-layer.g {
+            color: #2afff0;
+            mix-blend-mode: screen;
+          }
+          .shout-layer.b {
+            color: #b56dff;
+            mix-blend-mode: screen;
+          }
+          .shout-main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+          }
+          .shout-flash {
+            position: absolute;
+            inset: 0;
+            background: #ffffff;
+            opacity: 0;
+            pointer-events: none;
+          }
+        </style>
+
+        <div id="shake-wrapper">
+          <div id="bg-dots"></div>
+          <div id="bg-tilt-a" data-layout-allow-overflow="true"></div>
+          <div id="bg-star"></div>
+          <div id="crisis-label" data-layout-allow-occlusion="true">Modo crisis</div>
+
+          <div id="tension-meter">
+            <div id="tension-label" data-layout-allow-occlusion="true">Tensión</div>
+            <div id="tension-track"></div>
+          </div>
+
+          <!-- g1 -->
+          <div class="group" id="g1"><div class="pill-line" id="g1-line"></div></div>
+          <!-- g2 -->
+          <div class="group" id="g2"><div class="pill-line" id="g2-line"></div></div>
+          <!-- g3 -->
+          <div class="group" id="g3">
+            <div class="alert-outer">
+              <div class="alert-banner" id="g3-banner">
+                <div class="alert-stripe-top"></div>
+                <div class="alert-icon" id="g3-icon" style="width: 70px; height: 62px">
+                  <span style="font-size: 34px">!</span>
+                </div>
+                <div class="alert-words" id="g3-words"></div>
+                <div class="alert-stripe-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <!-- g4 -->
+          <div class="group" id="g4">
+            <div class="shout-outer" id="g4-panel">
+              <div class="shout-stack" id="g4-stack" style="font-size: 210px">
+                <span class="shout-spacer" data-layout-ignore="true">¡YULIAN!</span>
+                <span class="shout-layer r" id="g4-r" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-layer g" id="g4-g" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-layer b" id="g4-b" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-main" id="g4-main" data-layout-allow-overlap="true">¡YULIAN!</span>
+              </div>
+            </div>
+            <div class="shout-flash" id="g4-flash"></div>
+          </div>
+          <!-- g5 -->
+          <div class="group" id="g5">
+            <div class="alert-outer">
+              <div class="alert-banner" id="g5-banner">
+                <div class="alert-stripe-top"></div>
+                <div class="alert-icon" id="g5-icon" style="width: 84px; height: 74px">
+                  <span style="font-size: 40px">!</span>
+                </div>
+                <div class="alert-words" id="g5-words"></div>
+                <div class="alert-stripe-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <!-- g6 -->
+          <div class="group" id="g6">
+            <div class="shout-outer" id="g6-panel">
+              <div class="shout-stack" id="g6-stack" style="font-size: 250px">
+                <span class="shout-spacer" data-layout-ignore="true">¡YULIAN!</span>
+                <span class="shout-layer r" id="g6-r" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-layer g" id="g6-g" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-layer b" id="g6-b" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-main" id="g6-main" data-layout-allow-overlap="true">¡YULIAN!</span>
+              </div>
+            </div>
+            <div class="shout-flash" id="g6-flash"></div>
+          </div>
+          <!-- g7 -->
+          <div class="group" id="g7">
+            <div class="alert-outer">
+              <div class="alert-banner" id="g7-banner">
+                <div class="alert-stripe-top"></div>
+                <div class="alert-icon" id="g7-icon" style="width: 100px; height: 88px">
+                  <span style="font-size: 48px">!</span>
+                </div>
+                <div class="alert-words" id="g7-words"></div>
+                <div class="alert-stripe-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <!-- g8 -->
+          <div class="group" id="g8">
+            <div class="shout-outer" id="g8-panel">
+              <div class="shout-stack" id="g8-stack" style="font-size: 300px">
+                <span class="shout-spacer" data-layout-ignore="true">¡YULIAN!</span>
+                <span class="shout-layer r" id="g8-r" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-layer g" id="g8-g" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-layer b" id="g8-b" data-layout-allow-overlap="true">¡YULIAN!</span>
+                <span class="shout-main" id="g8-main" data-layout-allow-overlap="true">¡YULIAN!</span>
+              </div>
+            </div>
+            <div class="shout-flash" id="g8-flash"></div>
+          </div>
+          <!-- g9 -->
+          <div class="group" id="g9"><div class="pill-line" id="g9-line"></div></div>
+        </div>
+
+        <script>
+          (function () {
+            const tl = gsap.timeline({ paused: true });
+
+            const PASTELS = ["#FE90E8", "#C0F7FE", "#2ad268", "#F7CB46", "#FFFDF5"];
+            const GROUP_IDS = ["g1", "g2", "g3", "g4", "g5", "g6", "g7", "g8", "g9"];
+
+            // ---- initial baseline: only g1 visible at t=0 ----
+            GROUP_IDS.forEach((id) => {
+              tl.set("#" + id, { autoAlpha: id === "g1" ? 1 : 0 }, 0);
+            });
+            tl.set("#shake-wrapper", { x: 0, y: 0 }, 0);
+            tl.set("#tension-meter", { autoAlpha: 0 }, 0);
+
+            // ================= karaoke pill-line builder (g1 / g2 / g9) =================
+            function buildPillLine(lineSelId, words, anchors, fontSizePx) {
+              const container = document.querySelector(lineSelId);
+              const els = words.map((w, i) => {
+                const span = document.createElement("span");
+                span.className = "word-pill";
+                span.textContent = w;
+                span.style.background = PASTELS[i % PASTELS.length];
+                span.style.fontSize = fontSizePx + "px";
+                container.appendChild(span);
+                return span;
+              });
+              els.forEach((el, i) => {
+                tl.set(el, { rotation: i % 2 === 0 ? -2 : 2, transformOrigin: "50% 50%" }, 0);
+              });
+              els.forEach((el, i) => {
+                tl.fromTo(
+                  el,
+                  { opacity: 0, scale: 1.3 },
+                  { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(2.2)" },
+                  anchors[i],
+                );
+              });
+            }
+
+            buildPillLine(
+              "#g1-line",
+              ["Yulian,", "Yulian,", "tranquilo,", "respira", "ya,"],
+              [0, 1.676, 3.352, 5.746, 7.422],
+              86,
+            );
+            buildPillLine(
+              "#g2-line",
+              ["que", "de", "tanto", "estrés", "ese", "Gurú", "te", "va", "a", "jubilar."],
+              [8.14, 8.807, 9.251, 10.362, 11.696, 12.362, 13.251, 13.696, 14.14, 14.362],
+              56,
+            );
+            buildPillLine(
+              "#g9-line",
+              ["Y", "él", "con", "cara", "de:", "“Eso", "toca", "revisarlo…”"],
+              [25.44, 25.495, 25.605, 25.77, 25.99, 26.155, 26.375, 26.595],
+              60,
+            );
+
+            // ================= alert-banner builder (g3 / g5 / g7) =================
+            function buildAlertBanner(cfg) {
+              const wordsHost = document.querySelector(cfg.wordsSel);
+              const els = cfg.words.map((w) => {
+                const span = document.createElement("span");
+                span.className = "alert-word";
+                span.textContent = w;
+                span.style.fontSize = cfg.fontSizePx + "px";
+                wordsHost.appendChild(span);
+                return span;
+              });
+
+              const banner = document.querySelector(cfg.bannerSel);
+              tl.set(banner, { backgroundColor: cfg.bg, boxShadow: cfg.shadow }, 0);
+
+              els.forEach((el, i) => {
+                tl.fromTo(
+                  el,
+                  { opacity: 0, y: 14 },
+                  { opacity: 1, y: 0, duration: 0.1, ease: "power2.out" },
+                  cfg.anchors[i],
+                );
+              });
+
+              // deterministic finite blink on the icon: floor, not ceil (no overshoot)
+              const cycle = cfg.blinkDur;
+              const bannerSpan = cfg.end - cfg.start;
+              const repeat = Math.max(0, Math.floor(bannerSpan / cycle) - 1);
+              tl.to(
+                cfg.iconSel,
+                { opacity: 0.15, duration: cycle, repeat: repeat, yoyo: true, ease: "none" },
+                cfg.start,
+              );
+            }
+
+            buildAlertBanner({
+              bannerSel: "#g3-banner",
+              wordsSel: "#g3-words",
+              iconSel: "#g3-icon",
+              words: ["Pantalla", "sin", "señal…"],
+              anchors: [16.14, 17.316, 17.758],
+              start: 16.14,
+              end: 18.64,
+              bg: "#F7CB46",
+              shadow: "8px 8px 0 #000",
+              blinkDur: 0.18,
+              fontSizePx: 92,
+            });
+            buildAlertBanner({
+              bannerSel: "#g5-banner",
+              wordsSel: "#g5-words",
+              iconSel: "#g5-icon",
+              words: ["Internet", "caído…"],
+              anchors: [19.64, 20.783],
+              start: 19.64,
+              end: 21.64,
+              bg: "#FE90E8",
+              shadow: "10px 10px 0 #000",
+              blinkDur: 0.12,
+              fontSizePx: 100,
+            });
+            buildAlertBanner({
+              bannerSel: "#g7-banner",
+              wordsSel: "#g7-words",
+              iconSel: "#g7-icon",
+              words: ["El", "cliente", "está", "llamando…"],
+              anchors: [22.64, 22.822, 23.458, 23.822],
+              start: 22.64,
+              end: 24.64,
+              bg: "#FE90E8",
+              shadow: "12px 12px 0 #000",
+              blinkDur: 0.08,
+              fontSizePx: 84,
+            });
+
+            // ================= shout climax builder (g4 / g6 / g8) =================
+            function addShake(targetSel, startTime, magnitude) {
+              // deterministic decaying jitter — index-derived, no randomness
+              const pattern = [1, -0.85, 0.6, -0.45, 0.25, -0.1, 0];
+              pattern.forEach((mult, i) => {
+                tl.set(
+                  targetSel,
+                  {
+                    x: magnitude * mult,
+                    y: i % 2 === 0 ? magnitude * 0.35 * mult : -magnitude * 0.35 * mult,
+                  },
+                  startTime + i * 0.028,
+                );
+              });
+            }
+
+            function buildShout(cfg) {
+              tl.set(cfg.panelSel, { backgroundColor: cfg.bg, boxShadow: cfg.panelShadow }, 0);
+              tl.set(cfg.mainSel, { color: cfg.mainColor }, 0);
+              tl.set([cfg.rSel, cfg.gSel, cfg.bSel, cfg.mainSel], { opacity: 0, scale: cfg.scaleFrom }, 0);
+              tl.set(cfg.rSel, { x: -cfg.chroma * 0.3 }, 0);
+              tl.set(cfg.gSel, { x: cfg.chroma * 0.3 }, 0);
+              tl.set(cfg.bSel, { x: 0 }, 0);
+              tl.set(cfg.flashSel, { opacity: 0 }, 0);
+
+              const t0 = cfg.start;
+              // impact flash
+              tl.set(cfg.flashSel, { opacity: 1 }, t0);
+              // reveal + punch-scale, chroma layers snap wide
+              tl.to(
+                [cfg.rSel, cfg.gSel, cfg.bSel, cfg.mainSel],
+                { opacity: 1, scale: 1, duration: 0.11, ease: "back.out(3)" },
+                t0 + 0.02,
+              );
+              tl.set(cfg.rSel, { x: -cfg.chroma }, t0 + 0.02);
+              tl.set(cfg.gSel, { x: cfg.chroma }, t0 + 0.02);
+              tl.set(cfg.bSel, { x: cfg.chroma * 0.4 }, t0 + 0.02);
+              // flash clears fast
+              tl.set(cfg.flashSel, { opacity: 0 }, t0 + 0.05);
+              // chroma settles toward a smaller residual offset
+              tl.to(cfg.rSel, { x: -cfg.chroma * 0.28, duration: 0.18, ease: "power2.out" }, t0 + 0.09);
+              tl.to(cfg.gSel, { x: cfg.chroma * 0.28, duration: 0.18, ease: "power2.out" }, t0 + 0.09);
+              tl.to(cfg.bSel, { x: 0, duration: 0.18, ease: "power2.out" }, t0 + 0.09);
+
+              addShake("#shake-wrapper", t0, cfg.shakeMag);
+
+              if (cfg.doublePulse) {
+                tl.set(cfg.flashSel, { opacity: 0.9 }, t0 + cfg.doublePulse);
+                tl.set(cfg.flashSel, { opacity: 0 }, t0 + cfg.doublePulse + 0.035);
+                tl.set([cfg.rSel, cfg.gSel], { x: "+=6" }, t0 + cfg.doublePulse);
+                tl.to(
+                  [cfg.rSel, cfg.gSel],
+                  { x: "-=6", duration: 0.1, ease: "power2.out" },
+                  t0 + cfg.doublePulse + 0.035,
+                );
+              }
+            }
+
+            buildShout({
+              panelSel: "#g4-panel",
+              rSel: "#g4-r",
+              gSel: "#g4-g",
+              bSel: "#g4-b",
+              mainSel: "#g4-main",
+              flashSel: "#g4-flash",
+              start: 18.64,
+              bg: "#FE90E8",
+              panelShadow: "8px 8px 0 #000",
+              mainColor: "#000000",
+              scaleFrom: 1.5,
+              chroma: 8,
+              shakeMag: 6,
+              doublePulse: null,
+            });
+            buildShout({
+              panelSel: "#g6-panel",
+              rSel: "#g6-r",
+              gSel: "#g6-g",
+              bSel: "#g6-b",
+              mainSel: "#g6-main",
+              flashSel: "#g6-flash",
+              start: 21.64,
+              bg: "#F7CB46",
+              panelShadow: "10px 10px 0 #000",
+              mainColor: "#000000",
+              scaleFrom: 1.75,
+              chroma: 14,
+              shakeMag: 11,
+              doublePulse: 0.4,
+            });
+            buildShout({
+              panelSel: "#g8-panel",
+              rSel: "#g8-r",
+              gSel: "#g8-g",
+              bSel: "#g8-b",
+              mainSel: "#g8-main",
+              flashSel: "#g8-flash",
+              start: 24.64,
+              bg: "#000000",
+              panelShadow: "12px 12px 0 #F7CB46",
+              mainColor: "#FFFDF5",
+              scaleFrom: 2.0,
+              chroma: 22,
+              shakeMag: 18,
+              doublePulse: 0.28,
+            });
+
+            // ================= tension meter — real hi-hat roll (114.567–122.369s) =================
+            // local time = track time - 96.86 (frame start)
+            const ROLL_LOCAL_START = 17.707;
+            const ROLL_LOCAL_END = 25.509;
+            const ROLL_HITS = 41;
+            const rollStep = (ROLL_LOCAL_END - ROLL_LOCAL_START) / ROLL_HITS;
+
+            const track = document.getElementById("tension-track");
+            const ticks = [];
+            for (let i = 0; i < ROLL_HITS; i++) {
+              const tick = document.createElement("div");
+              tick.className = "tick";
+              track.appendChild(tick);
+              ticks.push(tick);
+            }
+            ticks.forEach((tick, i) => {
+              const hitTime = ROLL_LOCAL_START + i * rollStep;
+              tl.set(tick, { backgroundColor: "#FE90E8" }, hitTime);
+            });
+
+            // meter visible from the first crisis alert through the third shout
+            tl.set("#tension-meter", { autoAlpha: 1 }, 16.14);
+            tl.set("#tension-meter", { autoAlpha: 0 }, 25.44);
+
+            // ================= group cuts (0ms swaps) =================
+            const CUTS = [
+              ["#g1", 0, 8.14],
+              ["#g2", 8.14, 16.14],
+              ["#g3", 16.14, 18.64],
+              ["#g4", 18.64, 19.64],
+              ["#g5", 19.64, 21.64],
+              ["#g6", 21.64, 22.64],
+              ["#g7", 22.64, 24.64],
+              ["#g8", 24.64, 25.44],
+              ["#g9", 25.44, 27.2],
+            ];
+            CUTS.forEach(([sel, start, end]) => {
+              if (start > 0) tl.set(sel, { autoAlpha: 1 }, start);
+              tl.set(sel, { autoAlpha: 0 }, end);
+            });
+
+            window.__timelines = window.__timelines || {};
+            window.__timelines["06-f6"] = tl;
+            tl.seek(0);
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

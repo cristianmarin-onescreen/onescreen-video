@@ -1,0 +1,377 @@
+{
+  "cards": [
+    {
+      "id": "card-01",
+      "start": 0.1,
+      "end": 7.31,
+      "layout": "overlay",
+      "accent": 1,
+      "kind": "nameplate",
+      "kicker": "MÓDULO 2 · ONESCREEN ACADEMY",
+      "title": "Felipe Martínez"
+    },
+    {
+      "id": "card-02",
+      "start": 7.31,
+      "end": 11.71,
+      "layout": "pip",
+      "accent": 0,
+      "kind": "body",
+      "kicker": "EN EL MÓDULO ANTERIOR",
+      "title": "Te invité a construir tu propio agente de IA"
+    },
+    {
+      "id": "card-03",
+      "start": 11.71,
+      "end": 16.76,
+      "layout": "overlay",
+      "accent": 1,
+      "kind": "stat",
+      "kicker": "¿DÓNDE ESTÁ LA IA HOY?",
+      "stat": "2026",
+      "statLabel": "el punto de partida"
+    },
+    {
+      "id": "card-04",
+      "start": 16.76,
+      "end": 21.42,
+      "layout": "stack",
+      "accent": 0,
+      "kind": "body",
+      "kicker": "ANTES DE CONSTRUIR",
+      "title": "Todo parte de entender esto primero"
+    },
+    {
+      "id": "card-05",
+      "start": 21.42,
+      "end": 29.23,
+      "layout": "stack",
+      "accent": 3,
+      "kind": "body",
+      "kicker": "HACE APENAS 2 AÑOS",
+      "title": "IA era hablar con un chat",
+      "detail": "Escribías una pregunta y recibías una respuesta"
+    },
+    {
+      "id": "card-06",
+      "start": 29.23,
+      "end": 35,
+      "layout": "stack",
+      "accent": 3,
+      "kind": "body",
+      "role": "problem",
+      "kicker": "ÚTIL, PERO LIMITADO",
+      "title": "Tenías que pensar cada siguiente paso"
+    },
+    {
+      "id": "card-07",
+      "start": 35,
+      "end": 43.89,
+      "layout": "stack",
+      "accent": 3,
+      "kind": "body",
+      "role": "problem",
+      "kicker": "3 TAREAS SEGUIDAS",
+      "title": "Pedirlas una por una, revisando tú mismo"
+    },
+    {
+      "id": "card-08",
+      "start": 43.89,
+      "end": 48.48,
+      "layout": "overlay",
+      "accent": 0,
+      "kind": "titlecard",
+      "title": "Hoy, eso cambió por completo"
+    },
+    {
+      "id": "card-09",
+      "start": 48.48,
+      "end": 59.72,
+      "layout": "pip",
+      "accent": 0,
+      "kind": "list",
+      "kicker": "LA IA DE HOY",
+      "items": [
+        "Razona varios pasos antes de responder",
+        "Usa herramientas por su cuenta",
+        "Recuerda contexto de conversaciones anteriores"
+      ]
+    },
+    {
+      "id": "card-10",
+      "start": 59.72,
+      "end": 65.68,
+      "layout": "stack",
+      "accent": 2,
+      "kind": "body",
+      "role": "solution",
+      "kicker": "Y ADEMÁS",
+      "title": "Puede tomar acciones reales, no solo opinar"
+    },
+    {
+      "id": "card-11",
+      "start": 65.68,
+      "end": 69.84,
+      "layout": "overlay",
+      "accent": 1,
+      "kind": "titlecard",
+      "kicker": "ASÍ LE LLAMAMOS",
+      "title": "Inteligencia Artificial agéntica",
+      "detail": "El concepto más importante de este curso"
+    },
+    {
+      "id": "card-12",
+      "start": 69.84,
+      "end": 79.6,
+      "layout": "split",
+      "accent": 0,
+      "kind": "compare",
+      "kicker": "LA DIFERENCIA CENTRAL",
+      "left": {
+        "label": "Modelo tradicional",
+        "text": "Predice la siguiente palabra"
+      },
+      "right": {
+        "label": "Un agente",
+        "text": "Persigue un objetivo"
+      }
+    },
+    {
+      "id": "card-13",
+      "start": 79.6,
+      "end": 86.12,
+      "layout": "stack",
+      "accent": 0,
+      "kind": "body",
+      "kicker": "PARA LOGRARLO, DECIDE",
+      "title": "Qué pasos dar, qué información necesita, qué herramientas usar"
+    },
+    {
+      "id": "card-14",
+      "start": 86.12,
+      "end": 92.72,
+      "layout": "stack",
+      "accent": 2,
+      "kind": "body",
+      "role": "solution",
+      "kicker": "SIN QUE TÚ LO GUÍES",
+      "title": "Le das el objetivo y él arma el camino"
+    },
+    {
+      "id": "card-15",
+      "start": 92.72,
+      "end": 97.28,
+      "layout": "overlay",
+      "accent": 0,
+      "kind": "titlecard",
+      "title": "Otro cambio enorme: dejó de ser solo texto"
+    },
+    {
+      "id": "card-16",
+      "start": 97.28,
+      "end": 108.44,
+      "layout": "pip",
+      "accent": 0,
+      "kind": "list",
+      "kicker": "MULTIMODALIDAD",
+      "items": [
+        "Entiende imágenes y audio",
+        "Lee documentos completos",
+        "Puede ver una pantalla y entenderla"
+      ]
+    },
+    {
+      "id": "card-17",
+      "start": 108.44,
+      "end": 122.32,
+      "layout": "split",
+      "accent": 2,
+      "kind": "stat",
+      "kicker": "EN LA PRÁCTICA",
+      "stat": "20",
+      "statLabel": "páginas de un reporte, leídas al instante",
+      "title": "Manuales, planes curriculares, reportes — como su propio conocimiento"
+    },
+    {
+      "id": "card-18",
+      "start": 122.32,
+      "end": 127.08,
+      "layout": "overlay",
+      "accent": 0,
+      "kind": "titlecard",
+      "title": "Un tercer cambio, más grande de lo que parece"
+    },
+    {
+      "id": "card-19",
+      "start": 127.08,
+      "end": 139.92,
+      "layout": "stack",
+      "accent": 0,
+      "kind": "list",
+      "kicker": "TERCER CAMBIO: CONEXIÓN",
+      "items": [
+        "Consulta una base de datos",
+        "Activa una acción en una aplicación",
+        "Se comunica con otro software"
+      ]
+    },
+    {
+      "id": "card-20",
+      "start": 139.92,
+      "end": 145.6,
+      "layout": "stack",
+      "accent": 3,
+      "kind": "body",
+      "role": "problem",
+      "kicker": "ANTES",
+      "title": "Vivía aislada en una ventana de chat"
+    },
+    {
+      "id": "card-21",
+      "start": 145.6,
+      "end": 149.61,
+      "layout": "stack",
+      "accent": 2,
+      "kind": "body",
+      "role": "solution",
+      "kicker": "HOY",
+      "title": "Vive conectada a las herramientas que ya usas"
+    },
+    {
+      "id": "card-22",
+      "start": 149.61,
+      "end": 164.36,
+      "layout": "stack",
+      "accent": 0,
+      "kind": "body",
+      "kicker": "TRES PIEZAS QUE VAS A USAR",
+      "title": "Objetivos + multimodalidad + conexión",
+      "detail": "Cada avance es una pieza para construir tu propio agente"
+    },
+    {
+      "id": "card-23",
+      "start": 164.36,
+      "end": 174.72,
+      "layout": "split",
+      "accent": 0,
+      "kind": "compare",
+      "kicker": "TU AGENTE",
+      "left": {
+        "label": "Chat simple",
+        "text": "Sin objetivo claro, solo opina"
+      },
+      "right": {
+        "label": "Tu agente",
+        "text": "Objetivo claro, lee tus documentos y actúa"
+      }
+    },
+    {
+      "id": "card-24",
+      "start": 174.72,
+      "end": 189.07,
+      "layout": "overlay",
+      "accent": 1,
+      "kind": "quote",
+      "title": "No necesitas entender la ingeniería detrás.",
+      "detail": "Eso ya está resuelto — y no es tu trabajo."
+    },
+    {
+      "id": "card-25",
+      "start": 189.07,
+      "end": 206.73,
+      "layout": "stack",
+      "accent": 2,
+      "kind": "body",
+      "kicker": "TU TRABAJO: LA CAPA DE ARRIBA",
+      "title": "Instrucciones + conocimiento propio + límites claros",
+      "detail": "Más sencillo de lo que suena"
+    },
+    {
+      "id": "card-26",
+      "start": 206.73,
+      "end": 211.52,
+      "layout": "overlay",
+      "accent": 1,
+      "kind": "stat",
+      "kicker": "CON ESTO YA TIENES",
+      "stat": "2026",
+      "statLabel": "el mapa completo de dónde estamos"
+    },
+    {
+      "id": "card-27",
+      "start": 211.52,
+      "end": 222.9,
+      "layout": "stack",
+      "accent": 0,
+      "kind": "body",
+      "kicker": "SIGUIENTE MÓDULO",
+      "title": "Chatbot vs. agente: la diferencia exacta",
+      "detail": "Con ejemplos concretos, antes de construir el tuyo"
+    },
+    {
+      "id": "card-28",
+      "start": 222.9,
+      "end": 226.32,
+      "layout": "overlay",
+      "accent": 0,
+      "kind": "outro",
+      "title": "Nos vemos ahí"
+    }
+  ],
+  "VIDEO_BOUNDS": {
+    "split": {
+      "left": 960,
+      "top": 0,
+      "width": 960,
+      "height": 1080
+    },
+    "stack": {
+      "left": 14,
+      "top": 14,
+      "width": 1892,
+      "height": 548
+    },
+    "pip": {
+      "left": 1480,
+      "top": 760,
+      "width": 400,
+      "height": 300
+    },
+    "overlay": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "CARD_BOUNDS": {
+    "split": {
+      "left": 0,
+      "top": 0,
+      "width": 960,
+      "height": 1080
+    },
+    "stack": {
+      "left": 0,
+      "top": 580,
+      "width": 1920,
+      "height": 500
+    },
+    "pip": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    },
+    "overlay": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "FPS": 25,
+  "DURATION": 226.32,
+  "W": 1920,
+  "H": 1080
+}

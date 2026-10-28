@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>intros</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        /* Nevis es una sola tipografía Bold. Se declara cubriendo 100—900 a propósito: así el
+           navegador NUNCA sintetiza negrita encima de una que ya lo es, que engordaría los
+           trazos y rompería la coincidencia con el logotipo. */
+        @font-face {
+          font-family: "Nevis";
+          src: url("assets/fonts/Nevis.ttf") format("truetype");
+          font-weight: 100 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          font-synthesis: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .card {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 8cqw;
+          opacity: 0;
+        }
+        .card > .inner { display: block; max-width: 80cqw; text-align: center; margin-top: -1.0cqh; }
+        .ln { display: block; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+
+        /* El icono oficial trae su propio mosaico morado, así que el mismo archivo sirve para
+           la tinta negra y para la blanca: no depende del color del texto. */
+        .ic { display: block; width: 9.5cqw; margin: 0 auto 2.2cqh; opacity: 0; }
+        .ic img { display: block; width: 100%; height: auto; }
+
+        /* El acento vive solo aquí. Teñir el nombre dejaría de ser el wordmark. */
+        .eyebrow { font-size: 3.0cqw; font-weight: 600; text-transform: uppercase; letter-spacing: 0.16em; color: #ffffff; }
+
+        /* El nombre es el héroe: escalón grande pero en peso regular, como quedó definido en la
+           pieza de la Core. El tracking se afloja porque el negativo de los escalones grandes
+           está calculado para peso 800 y en regular junta demasiado las letras. */
+        .name { font-size: 7.2cqw; font-weight: 400; letter-spacing: -0.018em; line-height: 1.04; margin-top: 1.4cqh; }
+        /* Descriptor en peso regular, no en 500. A 500 pesaba casi tanto como el nombre —que
+           va en regular— y los dos competian; el nombre debe ganar por tamano, no pelearse.
+           Y mas aire arriba: pegado al nombre se leia como una segunda linea del lockup. */
+        .tag  { font-size: 4.4cqw; font-weight: 400; letter-spacing: -0.012em; line-height: 1.20; margin-top: 2.5cqh; }
+        .tag + .tag { margin-top: 0.2cqh; }
+
+        .brand {
+          font-family: "Nevis", "Rubik", sans-serif;
+          font-weight: 400;
+          letter-spacing: -0.050em;
+          text-transform: none !important;
+        }
+        /* Nevis tiene la caja alta más corta que Rubik al mismo cuerpo: se compensa un 12%.
+           Aquí el padre ya lleva el escalón en cqw, así que el em multiplica y es correcto. */
+        .w.brand { font-size: 1.12em; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="intros"
+        data-width="3840"
+        data-height="2160"
+        data-duration="7.12"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="card" id="c04">
+          <span class="inner">
+            <span class="ic" id="c04-ic"><img src="assets/icons/suprnotes.png" alt="" /></span>
+            <span class="ln eyebrow"><span class="w" id="c04-e0-0">Conheça</span></span>
+            <span class="ln name"><span class="w brand" id="c04-n0-0">OneScreen</span> <span class="w" id="c04-n0-1">SuprNotes</span></span>
+            <span class="ln tag"><span class="w" id="c04-t0-0">Um</span> <span class="w" id="c04-t0-1">ambiente</span> <span class="w" id="c04-t0-2">de</span> <span class="w" id="c04-t0-3">estudo</span></span>
+            <span class="ln tag"><span class="w" id="c04-t1-0">feito</span> <span class="w" id="c04-t1-1">só</span> <span class="w" id="c04-t1-2">com</span> <span class="w" id="c04-t1-3">as</span> <span class="w" id="c04-t1-4">suas</span> <span class="w" id="c04-t1-5">fontes</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 46 }, { y: 0, duration: 0.34, ease: "power4.out", immediateRender: false }, t);
+        }
+
+        // c04 — Conheça / OneScreen SuprNotes / Um ambiente de estudo feito só com as suas fontes
+        tl.set("#c04", { opacity: 1 }, 0);
+        tl.set("#c04-ic", { opacity: 1 }, 0);
+        tl.fromTo("#c04-ic", { scale: 0.86, y: 40 }, { scale: 1, y: 0, duration: 0.44, ease: "back.out(1.25)", immediateRender: false }, 0);
+        word(tl, "#c04-e0-0", 0.32);
+        word(tl, "#c04-n0-0", 0.64);
+        word(tl, "#c04-n0-1", 0.695);
+        word(tl, "#c04-t0-0", 1.6);
+        word(tl, "#c04-t0-1", 1.655);
+        word(tl, "#c04-t0-2", 1.71);
+        word(tl, "#c04-t0-3", 1.765);
+        word(tl, "#c04-t1-0", 2.414815);
+        word(tl, "#c04-t1-1", 2.469815);
+        word(tl, "#c04-t1-2", 2.524815);
+        word(tl, "#c04-t1-3", 2.579815);
+        word(tl, "#c04-t1-4", 2.634815);
+        word(tl, "#c04-t1-5", 2.689815);
+        tl.to("#c04", { opacity: 0, duration: 0.5, ease: "power2.in" }, 6.6);
+
+        window.__timelines["intros"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "fps": 25,
+  "_current": "LEFT (x, -1). Solo dos costuras y una sola técnica: cut-the-curve en la corriente. No hay vectores reservados que gastar en una capa de superposición — el drama lo pone el corte de video debajo, no el lettering.",
+  "_carrier_note": "El portador es el TEXTO. Sobre alfa no hay ninguna superficie que se vea viajar, así que los vectores se autorizan dentro de las sub-composiciones y los selectores apuntan a héroes internos.",
+  "seams": [
+    {
+      "id": "01-apertura → 02-testimonios",
+      "cut": 19.16,
+      "technique": "cut-the-curve LEFT — del cuadro completo a la columna de subtítulos",
+      "exit": { "selector": "#A6", "axis": "x", "dir": -1 },
+      "entry": { "selector": "#c1", "axis": "x", "dir": -1 }
+    },
+    {
+      "id": "02-testimonios → 03-cierre",
+      "cut": 62.92,
+      "technique": "cut-the-curve LEFT — de la columna al cuadro completo",
+      "exit": { "selector": "#c13", "axis": "x", "dir": -1 },
+      "entry": { "selector": "#C7", "axis": "x", "dir": -1 }
+    }
+  ]
+}

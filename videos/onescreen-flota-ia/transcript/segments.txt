@@ -1,0 +1,50 @@
+[   0.00-   5.62] Hola, te damos la bienvenida a OneScreen Academy y esta es la introducción a nuestra flota
+[   5.62-  10.54] de IA. En OneScreen somos una compañía AI First, eso significa que la inteligencia
+[  10.54-  14.86] artificial está integrada en todos nuestros procesos internos para optimizar tiempo
+[  14.86-  19.60] y resultados. Es por eso que a nivel interno, OneScreen tiene una flota de agentes diseñados
+[  19.60-  24.34] para procesos distintos, acá conocerás cuáles son y en qué momento debes utilizar
+[  24.34-  28.40] cada uno de ellos. Antes de empezar, debes saber que estos agentes todos tienen
+[  28.40-  33.26] una conexión permanente con nuestro ERP ODO y que todos se comunican a través del
+[  33.26-  37.92] usuario de Alexander Cuarin. Si esa actividad es de él, probablemente sea alguno de estos
+[  37.92-  43.02] agentes comunicándose contigo. Comencemos por uno que seguramente ya has usado, Ivan Andrade.
+[  43.18-  47.74] Ivan es el coach de ventas del equipo comercial. Su principal función es ayudar
+[  47.74-  52.88] al equipo a concretar más ventas. Es un asistente que está disponible 24-7. Él
+[  52.88-  57.12] no se encarga de atender clientes, se encarga de ayudarte a atender los tuyos.
+[  57.12-  61.80] Ivan puede ayudarte dándote los precios más actualizados definidos por la gerencia comercial,
+[  62.12-  66.18] tarifas y rutas de precios para productos. Puede ayudarte a encontrar fichas técnicas,
+[  66.46-  70.78] comparativos, políticas de producto. Puede ayudarte a planar estrategias comerciales.
+[  70.82-  75.20] Ivan está entrenado para ser tu principal apoyo comercial. Su principal fuente de
+[  75.20-  79.72] información es revisada y auditada prácticamente a diario, por lo que es muy confiable.
+[  79.90-  85.32] Seguimos con Isaac Alvarado. Isaac es la primera cara comercial de OneScreen. Su tarea
+[  85.32-  90.42] es contactar a todos los clientes potenciales de marketing. Isaac no tiene como tarea vender.
+[  90.76-  94.50] La tarea de Isaac es establecer un primer contacto, sin importar la hora,
+[  94.68-  99.02] calificar los clientes, calentar la necesidad y agendar demostraciones.
+[  99.26- 103.46] Isaac tiene un contacto directo con Odo y siempre que él tenga contacto con un cliente,
+[ 103.60- 107.92] él registra las actividades de lo que él esté conversando. Su objetivo principal es
+[ 107.92- 111.64] agendar demostraciones para el equipo comercial. Siempre que recibas un lead de Odo,
+[ 111.86- 115.26] revisa las actividades para ver qué información Isaac ya consiguió para ti.
+[ 115.26- 120.08] No está diseñado para uso interno de los colaboradores. Está diseñado solamente para
+[ 120.08- 125.30] atender a los clientes potenciales. Identifica a quienes tienen una necesidad real y te los
+[ 125.30- 129.68] entrega listos para la demostración. Para soporte técnico está Isabel Alarcón,
+[ 129.90- 134.98] el soporte técnico posventa de OneScreen. Su tarea es diagnosticar posibles fallas
+[ 134.98- 139.32] técnicas que puedan tener nuestros clientes. Es la primera cara que tiene el cliente
+[ 139.32- 144.56] cuando necesita soporte. Isabel les ayuda tanto a revisar sus problemas técnicos y también es
+[ 144.56- 148.68] mano derecha de nuestro equipo de soporte Guru. Isabel tiene la capacidad de revisar
+[ 148.68- 154.46] el estado de casos de servicio, revisar seriales, revisar garantías y agendar capacitaciones.
+[ 154.74- 159.50] Si necesitas apoyo técnico, siempre consulta al equipo Guru o a Isabel que es su agente.
+[ 159.60- 164.54] Ahora, en el mundo de las licitaciones y las ventas a gobierno está Harvey. Harvey es el
+[ 164.54- 169.30] monitor y analista de licitaciones públicas y privadas de OneScreen. Su tarea es estar
+[ 169.30- 173.82] constantemente monitoreando las oportunidades de las plataformas del gobierno y trayendo
+[ 173.82- 178.28] aquellas en las que OneScreen puede estar como proveedor. Harvey te notificará de las
+[ 178.28- 182.20] licitaciones disponibles en tu zona a través de odo para que puedas hacer la gestión
+[ 182.20- 187.44] correspondiente. Y cuando se trata de logística está Marco, el agente de logística que estará
+[ 187.44- 192.38] encargado de revisar importaciones, estar pendiente de temas como despachos, rastro de
+[ 192.38- 197.28] envíos y demás tareas útiles para el departamento de logística. Hay dos reglas
+[ 197.28- 202.34] sobre las cuales todos los agentes de OneScreen están construidos. Primero, ellos sólo responden
+[ 202.34- 206.94] información desde nuestra base de conocimiento. Si ellos no tienen información o no saben,
+[ 207.12- 211.60] no se lo van a inventar, te lo van a decir directamente. Y segundo, están para apoyar
+[ 211.60- 216.08] tu trabajo, no para decidir por ti. Ellos siempre tendrán como propósito optimizar
+[ 216.08- 220.60] procesos, ahorrar tiempo, pero jamás reemplazar el trabajo de una persona real.
+[ 220.86- 224.98] Esta es la flota de guía de OneScreen que durante meses se ha ido perfeccionando
+[ 224.98- 228.44] para servir a los colaboradores de OneScreen como a sus clientes.
+[ 228.44- 231.68] OneScreen. Transforma el espacio, transforma el futuro.

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta charset="UTF-8"><title>05-isabel</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face { font-family: "Rubik"; src: url("assets/fonts/Rubik-Variable.ttf") format("truetype"); font-weight: 300 900; font-display: block; }
+        @font-face { font-family: "Manrope"; src: url("assets/fonts/Manrope-variable-latin.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+        #s5 { --bg:#f0edff; --ink:#16112e; --ac:#6a4bff; --mut:#5f5885; --line:#d9d2fb; --logo:#293052; }
+        .s5-mask { overflow: hidden; display: block; padding-bottom: 0.06em; }
+        .s5-mask > span { display: inline-block; }
+        #s5-por { left: 860px; height: 936px; }
+        #s5-kick { left: 134px; top: 170px; }
+        #s5-name { left: 128px; top: 210px; font-size: 136px; font-weight: 700; letter-spacing: -0.045em; line-height: 0.95; }
+        #s5-body, #s5-body2 { left: 136px; top: 600px; font-size: 34px; max-width: 700px; }
+        #s5-scr { left: 134px; top: 760px; width: 320px; height: 190px; border: 7px solid var(--ink); border-radius: 22px; overflow: hidden; }
+        #s5-scan { position: absolute; left: 0; right: 0; top: 0; height: 8px; background: #6a4bff; box-shadow: 0 0 24px #6a4bff; }
+        #s5-alert, #s5-ok { position: absolute; left: 106px; top: 38px; width: 100px; height: 100px; }
+        #s5-alert path { stroke: #e0465e; }
+        #s5-checks { left: 500px; top: 785px; display: flex; flex-direction: column; gap: 16px; font-family: "Manrope"; font-weight: 700; font-size: 32px; }
+        .s5-ck { display: flex; align-items: center; gap: 16px; }
+        .s5-ck svg { width: 44px; height: 44px; }
+        #s5-pill { left: 134px; top: 490px; }
+        #s5-bub { left: 1280px; top: 520px; padding: 22px 30px; border-radius: 30px 30px 8px 30px; background: #ffffff; border: 3px solid var(--line); font-family: "Manrope"; font-weight: 600; font-size: 30px; white-space: nowrap; }
+        #s5-t1 { left: 134px; top: 92px; font-size: 76px; }
+        #s5-guru { left: 300px; top: 420px; }
+        #s5-guru .disc { width: 230px; height: 230px; }
+        #s5-guru .disc svg { width: 140px; height: 140px; }
+        #s5-guru b { font-family: "Rubik"; font-weight: 600; font-size: 40px; letter-spacing: -0.02em; }
+        #s5-badge { left: 96px; top: 70px; width: 150px; height: 150px; }
+        #s5-cap { left: 280px; top: 100px; font-size: 76px; }
+        #s5-tiles { left: 96px; right: 96px; top: 300px; grid-template-columns: repeat(4, 1fr); }
+        #s5-tiles .tile { min-height: 420px; }
+        .s5-state { font-size: 26px; font-weight: 700; color: var(--mut); margin-top: -10px; height: 34px; position: relative; }
+        .s5-state span { position: absolute; left: 0; top: 0; white-space: nowrap; }
+        #s5-bar { stroke: #e0465e !important; stroke-width: 3; }
+        #s5-t3 { left: 134px; top: 92px; font-size: 76px; }
+        #s5-qm { left: 300px; top: 470px; width: 180px; height: 180px; border-radius: 50%; background: #6a4bff; color: #fff; display: grid; place-items: center; font-family: "Rubik"; font-weight: 700; font-size: 110px; }
+        #s5-to1 { left: 1100px; top: 270px; }
+        #s5-to2 { left: 1100px; top: 640px; }
+        .s5-dest { display: flex; align-items: center; gap: 30px; font-family: "Rubik"; font-weight: 600; font-size: 54px; letter-spacing: -0.02em; }
+        .s5-dest .disc { width: 160px; height: 160px; }
+        .s5-dest .disc svg { width: 96px; height: 96px; }
+      </style>
+
+      <div data-hf-id="hf-6vn5" id="root" data-composition-id="05-isabel" data-width="1920" data-height="1080" data-duration="32.9">
+        <div data-hf-id="hf-lwhy" id="s5" class="scene">
+          <div data-hf-id="hf-0wa8" class="bgfill" id="s5-bg"></div>
+
+          <!-- A · presentación + diagnóstico -->
+          <img data-hf-id="hf-fl34" id="s5-por" class="por in" src="assets/agents/isabel-cut.png">
+          <div data-hf-id="hf-eyqc" id="s5-kick" class="k abs in">Soporte técnico posventa</div>
+          <div data-hf-id="hf-txb6" id="s5-name" class="h abs"><span data-hf-id="hf-h4ty" class="s5-mask"><span data-hf-id="hf-fvt6" id="s5-n1">Isabel</span></span><span data-hf-id="hf-q80q" class="s5-mask"><span data-hf-id="hf-lijz" id="s5-n2">Alarcón</span></span></div>
+          <div data-hf-id="hf-k43h" id="s5-body" class="b abs in">Diagnostica posibles fallas técnicas de nuestros clientes.</div>
+          <div data-hf-id="hf-zp87" id="s5-body2" class="b abs in">La primera cara cuando el cliente necesita soporte.</div>
+          <div data-hf-id="hf-5x8c" id="s5-scr" class="abs in">
+            <svg data-hf-id="hf-wwy1" id="s5-alert" class="ico" viewBox="0 0 48 48" style="stroke-width:4"><path data-hf-id="hf-uaqv" data-draw="" d="M24 8 42 40H6z" /><path data-hf-id="hf-hhx9" data-draw="" d="M24 20v9M24 34v.5" /></svg>
+            <svg data-hf-id="hf-j37u" id="s5-ok" class="ico" viewBox="0 0 48 48" style="stroke-width:5"><path data-hf-id="hf-ib10" data-draw="" d="m12 25 8 8 16-18" /></svg>
+            <div data-hf-id="hf-nkx0" id="s5-scan" style="opacity:0"></div>
+          </div>
+          <div data-hf-id="hf-u2nw" id="s5-checks" class="abs">
+            <div data-hf-id="hf-am1w" class="s5-ck in"><svg data-hf-id="hf-53n5" class="ico" viewBox="0 0 48 48" style="stroke-width:5"><path data-hf-id="hf-xiek" data-draw="" d="m12 25 8 8 16-18" /></svg>Diagnóstico</div>
+            <div data-hf-id="hf-u37d" class="s5-ck in"><svg data-hf-id="hf-6i79" class="ico" viewBox="0 0 48 48" style="stroke-width:5"><path data-hf-id="hf-wbhh" data-draw="" d="m12 25 8 8 16-18" /></svg>Revisión</div>
+          </div>
+          <div data-hf-id="hf-ftvw" id="s5-pill" class="pill in"><svg data-hf-id="hf-vwu9"><use data-hf-id="hf-sb1e" href="#chat" /></svg><span data-hf-id="hf-6k6r">WhatsApp</span><b data-hf-id="hf-lqbr">+57 316 7764571</b></div>
+          <div data-hf-id="hf-npo7" id="s5-bub" class="abs in">Necesito soporte</div>
+
+          <!-- mano derecha del equipo Gurú -->
+          <div data-hf-id="hf-7t1a" id="s5-t1" class="h abs in">La mano derecha del <span data-hf-id="hf-yztj" class="acc">equipo Gurú.</span></div>
+          <svg data-hf-id="hf-ia75" class="wire" id="s5-link"><path data-hf-id="hf-gzjl" class="l" data-draw="" d="M600 535 C820 535 900 600 1180 600" style="stroke-width:8" /></svg>
+          <div data-hf-id="hf-2frj" class="node in" id="s5-guru"><div data-hf-id="hf-hnan" class="disc"><svg data-hf-id="hf-mg19" class="ico" viewBox="0 0 48 48"><circle data-hf-id="hf-9kjr" data-draw="" cx="14" cy="18" r="4.5" /><circle data-hf-id="hf-l5ki" data-draw="" cx="24" cy="14" r="5" /><circle data-hf-id="hf-va9h" data-draw="" cx="34" cy="18" r="4.5" /><path data-hf-id="hf-87h7" data-draw="" d="M5 36c1-5 4-8 9-8M43 36c-1-5-4-8-9-8M14 38c1-6 5-10 10-10s9 4 10 10" /></svg></div><b data-hf-id="hf-dgwg">Equipo Gurú</b></div>
+
+          <!-- B · capacidades -->
+          <div data-hf-id="hf-tg0a" id="s5-badge" class="badge in"><img data-hf-id="hf-vlx3" src="assets/agents/isabel-cut.png"></div>
+          <div data-hf-id="hf-6hgx" id="s5-cap" class="h abs in">Isabel puede revisar</div>
+          <div data-hf-id="hf-wnah" id="s5-tiles" class="tiles">
+            <div data-hf-id="hf-cmwl" class="tile in"><div data-hf-id="hf-pcln" class="on"></div><svg data-hf-id="hf-dkrl" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-piq0" data-draw="" d="M6 14h36v7a4 4 0 0 0 0 8v7H6v-7a4 4 0 0 0 0-8z" /><path data-hf-id="hf-86th" data-draw="" d="M18 14v22" /></svg>Casos de servicio<div data-hf-id="hf-6cxw" class="s5-state"><span data-hf-id="hf-9cgy" class="s5-s1">Abierto</span><span data-hf-id="hf-b8qq" class="s5-s2" style="opacity:0">En proceso</span><span data-hf-id="hf-dn5u" class="s5-s3 acc" style="opacity:0">Resuelto ✓</span></div></div>
+            <div data-hf-id="hf-u9i1" class="tile in"><div data-hf-id="hf-p4yz" class="on"></div><svg data-hf-id="hf-eroo" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-hcvu" data-draw="" d="M8 12v24M13 12v24M19 12v24M22 12v24M28 12v24M34 12v24M37 12v24M41 12v24" /><path data-hf-id="hf-wr89" id="s5-bar" d="M4 12v24" style="opacity:0" /></svg>Seriales</div>
+            <div data-hf-id="hf-ll99" class="tile in"><div data-hf-id="hf-oqny" class="on"></div><svg data-hf-id="hf-eddn" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-kk1c" id="s5-shf" d="M24 6 8 12v10c0 10 7 17 16 20 9-3 16-10 16-20V12z" style="fill:#6a4bff;stroke:none;opacity:0" /><path data-hf-id="hf-vaoe" data-draw="" d="M24 6 8 12v10c0 10 7 17 16 20 9-3 16-10 16-20V12z" /><path data-hf-id="hf-by74" data-draw="" id="s5-shck" d="m17 24 5 5 9-10" /></svg>Garantías</div>
+            <div data-hf-id="hf-igag" class="tile in"><div data-hf-id="hf-occx" class="on"></div><svg data-hf-id="hf-cdui" class="ico" viewBox="0 0 48 48"><rect data-hf-id="hf-cife" data-draw="" x="6" y="8" width="36" height="24" rx="2" /><path data-hf-id="hf-tnz6" data-draw="" d="M24 32v8M16 40h16M12 16h12M12 22h18" /></svg>Capacitaciones<span data-hf-id="hf-qb94" class="mut" style="font-size:26px;font-weight:600;margin-top:-10px">Las agenda por ti</span></div>
+          </div>
+
+          <!-- C · ¿apoyo técnico? -->
+          <div data-hf-id="hf-ny83" id="s5-t3" class="h abs in">¿Necesitas <span data-hf-id="hf-g9wy" class="acc">apoyo técnico?</span></div>
+          <div data-hf-id="hf-sg6z" id="s5-qm" class="abs in">?</div>
+          <svg data-hf-id="hf-5vfv" class="wire" id="s5-paths"><path data-hf-id="hf-wxtk" class="l" data-draw="" d="M480 560 C760 560 820 350 1100 350" style="stroke-width:7" /><path data-hf-id="hf-4t46" class="l" data-draw="" d="M480 560 C760 560 820 720 1100 720" style="stroke-width:7" /></svg>
+          <div data-hf-id="hf-ayfy" id="s5-to1" class="abs s5-dest in"><div data-hf-id="hf-7fpr" class="disc"><svg data-hf-id="hf-bzjh" class="ico" viewBox="0 0 48 48"><circle data-hf-id="hf-751x" cx="14" cy="18" r="4.5" /><circle data-hf-id="hf-abze" cx="24" cy="14" r="5" /><circle data-hf-id="hf-ankn" cx="34" cy="18" r="4.5" /><path data-hf-id="hf-3cit" d="M5 36c1-5 4-8 9-8M43 36c-1-5-4-8-9-8M14 38c1-6 5-10 10-10s9 4 10 10" /></svg></div>Equipo Gurú</div>
+          <div data-hf-id="hf-htgq" id="s5-to2" class="abs s5-dest in"><div data-hf-id="hf-v63r" class="badge" style="position:relative;width:160px;height:160px"><img data-hf-id="hf-nxkn" src="assets/agents/isabel-cut.png"></div>Isabel, su agente</div>
+          <div data-hf-id="hf-svl0" id="s5-idc" class="idc in"><b data-hf-id="hf-n75t">Isabel Alarcón</b><span data-hf-id="hf-mn6b"><svg data-hf-id="hf-8vth"><use data-hf-id="hf-hscm" href="#chat" /></svg>+57 316 7764571 <i data-hf-id="hf-2uua">WhatsApp</i></span></div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          var S = 127.0, T = function (x) { return x - S; };
+          var root = document.querySelector('[data-composition-id="05-isabel"]');
+          FX.prep(root);
+          var tl = gsap.timeline({ paused: true });
+          var q = function (s) { return root.querySelectorAll(s); };
+
+          // A · lavanda barre e Isabel sube
+          FX.wipe(tl, "#s5-bg", 0, 0.6);
+          FX.up(tl, "#s5-por", T(128.3), { y: 260, d: 0.9, ease: "power4.out" });
+          FX.rise(tl, ["#s5-n1", "#s5-n2"], T(128.7), { stagger: 0.12 });
+          FX.up(tl, "#s5-kick", T(130.12), { y: 14 });
+          FX.pop(tl, "#s5-pill", T(129.3), { from: 0.85 });
+          // "diagnosticar posibles fallas técnicas"
+          FX.up(tl, "#s5-body", T(133.5), { y: 18 });
+          FX.up(tl, "#s5-scr", T(133.5), { y: 30 });
+          FX.draw(tl, q("#s5-alert [data-draw]"), T(133.8), 0.5);
+          tl.fromTo("#s5-scan", { y: 0 }, { y: 176, duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: 1 }, T(134.2));
+          FX.show(tl, "#s5-scan", T(134.2));
+          tl.to("#s5-scan", { opacity: 0, duration: 0.2 }, T(136.0));
+          FX.up(tl, q(".s5-ck")[0], T(134.66), { x: -20, y: 0 });
+          FX.draw(tl, q(".s5-ck")[0].querySelectorAll("[data-draw]"), T(134.8), 0.35);
+          // "la primera cara que tiene el cliente cuando necesita soporte"
+          FX.out(tl, "#s5-body", T(136.9), { y: -16, d: 0.3 });
+          FX.up(tl, "#s5-body2", T(137.2), { y: 18 });
+          tl.fromTo("#s5-bub", { opacity: 0, x: 200, scale: 0.7 }, { opacity: 1, x: 0, scale: 1, duration: 0.5, ease: "back.out(1.6)" }, T(139.54));
+          // "les ayuda a revisar sus problemas técnicos"
+          FX.up(tl, q(".s5-ck")[1], T(142.32), { x: -20, y: 0 });
+          FX.draw(tl, q(".s5-ck")[1].querySelectorAll("[data-draw]"), T(142.45), 0.35);
+          tl.to("#s5-alert", { opacity: 0, scale: 0.6, duration: 0.25, transformOrigin: "50% 50%" }, T(143.0));
+          FX.draw(tl, q("#s5-ok [data-draw]"), T(143.24), 0.45);
+          tl.to("#s5-scr", { borderColor: "#6a4bff", duration: 0.3 }, T(143.24));
+
+          // "mano derecha de nuestro equipo de soporte Gurú"
+          FX.out(tl, ["#s5-kick", "#s5-name", "#s5-body2", "#s5-scr", "#s5-checks", "#s5-pill", "#s5-bub"], T(144.2), { x: -60, d: 0.35, stagger: 0.02 });
+          FX.up(tl, "#s5-idc", T(144.5), { x: -30, y: 0 });
+          tl.to("#s5-por", { scale: 0.72, x: 120, transformOrigin: "100% 100%", duration: 0.7, ease: "power3.inOut" }, T(144.2));
+          FX.up(tl, "#s5-t1", T(144.56), { y: 24 });
+          FX.pop(tl, "#s5-guru", T(145.4));
+          FX.draw(tl, q("#s5-guru [data-draw]"), T(145.5), 0.6);
+          FX.draw(tl, q("#s5-link [data-draw]"), T(145.9), 0.6);
+
+          // B · "revisar el estado de casos de servicio, seriales, garantías…"
+          FX.out(tl, ["#s5-t1", "#s5-guru", "#s5-link"], T(146.8), { y: -30, d: 0.3 });
+          tl.to("#s5-por", { y: 700, opacity: 0, duration: 0.6, ease: "power3.in" }, T(146.8));
+          FX.pop(tl, "#s5-badge", T(147.1));
+          FX.up(tl, "#s5-cap", T(147.28), { y: 24 });
+          var tiles = q("#s5-tiles .tile"), cue = [149.22, 150.92, 152.06, 153.46];
+          tiles.forEach(function (t, i) {
+            FX.up(tl, t, T(cue[i] - 0.15), { y: 50, d: 0.5 });
+            FX.draw(tl, t.querySelectorAll("[data-draw]"), T(cue[i]), 0.7);
+            var on = t.querySelector(".on");
+            tl.to(on, { opacity: 1, duration: 0.3 }, T(cue[i]));
+            if (i < tiles.length - 1) tl.to(on, { opacity: 0, duration: 0.3 }, T(cue[i + 1]));
+          });
+          // estados del caso
+          tl.to(".s5-s1", { opacity: 0, y: -16, duration: 0.2 }, T(149.9));
+          tl.fromTo(".s5-s2", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, T(149.95));
+          tl.to(".s5-s2", { opacity: 0, y: -16, duration: 0.2 }, T(150.6));
+          tl.fromTo(".s5-s3", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.2 }, T(150.65));
+          // lectura del serial
+          tl.fromTo("#s5-bar", { x: 0 }, { x: 40, duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: 3 }, T(151.0));
+          FX.show(tl, "#s5-bar", T(151.0));
+          tl.to("#s5-bar", { opacity: 0, duration: 0.1 }, T(153.0));
+          // garantía: el escudo se llena
+          tl.to("#s5-shf", { opacity: 1, duration: 0.4 }, T(152.6));
+          tl.to("#s5-shck", { stroke: "#ffffff", duration: 0.3 }, T(152.6));
+
+          // C · "si necesitas apoyo técnico, consulta al equipo Gurú o a Isabel"
+          tl.to(tiles, { scale: 0.85, opacity: 0, y: 40, duration: 0.45, ease: "power2.in", stagger: { each: 0.04, from: "center" } }, T(154.5));
+          FX.out(tl, ["#s5-badge", "#s5-cap"], T(154.5), { d: 0.3 });
+          FX.up(tl, "#s5-t3", T(154.82), { y: 24 });
+          FX.pop(tl, "#s5-qm", T(155.4), { from: 0.3 });
+          var p = q("#s5-paths [data-draw]");
+          FX.draw(tl, p[0], T(156.6), 0.6);
+          FX.up(tl, "#s5-to1", T(157.22), { x: 40, y: 0 });
+          FX.draw(tl, p[1], T(157.7), 0.6);
+          FX.up(tl, "#s5-to2", T(158.26), { x: 40, y: 0 });
+
+          window.__timelines["05-isabel"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

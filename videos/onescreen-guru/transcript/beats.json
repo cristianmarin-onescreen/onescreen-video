@@ -1,0 +1,1333 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 27.04,
+ "totalFrames": 676,
+ "source": "Gurú - Final.wav",
+ "speechEnd": 26.8,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Cuando todo falla,",
+     "words": [
+      {
+       "id": "w0",
+       "i": 0,
+       "text": "Cuando",
+       "start": 0,
+       "brand": false
+      },
+      {
+       "id": "w1",
+       "i": 1,
+       "text": "todo",
+       "start": 0.44,
+       "brand": false
+      },
+      {
+       "id": "w2",
+       "i": 2,
+       "text": "falla,",
+       "start": 0.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "necesitas algo confiable.",
+     "words": [
+      {
+       "id": "w3",
+       "i": 3,
+       "text": "necesitas",
+       "start": 1.2,
+       "brand": false
+      },
+      {
+       "id": "w4",
+       "i": 4,
+       "text": "algo",
+       "start": 1.76,
+       "brand": false
+      },
+      {
+       "id": "w5",
+       "i": 5,
+       "text": "confiable.",
+       "start": 1.96,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Cuando todo falla, / necesitas algo confiable.",
+   "end": 2.64
+  },
+  {
+   "id": "f02",
+   "start": 2.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Es por eso que en OneScreen te daremos un",
+     "words": [
+      {
+       "id": "w6",
+       "i": 6,
+       "text": "Es",
+       "start": 2.68,
+       "brand": false
+      },
+      {
+       "id": "w7",
+       "i": 7,
+       "text": "por",
+       "start": 2.88,
+       "brand": false
+      },
+      {
+       "id": "w8",
+       "i": 8,
+       "text": "eso",
+       "start": 3.04,
+       "brand": false
+      },
+      {
+       "id": "w9",
+       "i": 9,
+       "text": "que",
+       "start": 3.24,
+       "brand": false
+      },
+      {
+       "id": "w10",
+       "i": 10,
+       "text": "en",
+       "start": 3.48,
+       "brand": false
+      },
+      {
+       "id": "w11",
+       "i": 11,
+       "text": "OneScreen",
+       "start": 3.6,
+       "brand": true
+      },
+      {
+       "id": "w12",
+       "i": 12,
+       "text": "te",
+       "start": 4.16,
+       "brand": false
+      },
+      {
+       "id": "w13",
+       "i": 13,
+       "text": "daremos",
+       "start": 4.44,
+       "brand": false
+      },
+      {
+       "id": "w14",
+       "i": 14,
+       "text": "un",
+       "start": 4.88,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "ingeniero especializado",
+     "words": [
+      {
+       "id": "w15",
+       "i": 15,
+       "text": "ingeniero",
+       "start": 5.04,
+       "brand": false
+      },
+      {
+       "id": "w16",
+       "i": 16,
+       "text": "especializado",
+       "start": 5.44,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "solo para tu institución.",
+     "words": [
+      {
+       "id": "w17",
+       "i": 17,
+       "text": "solo",
+       "start": 6.12,
+       "brand": false
+      },
+      {
+       "id": "w18",
+       "i": 18,
+       "text": "para",
+       "start": 6.48,
+       "brand": false
+      },
+      {
+       "id": "w19",
+       "i": 19,
+       "text": "tu",
+       "start": 6.72,
+       "brand": false
+      },
+      {
+       "id": "w20",
+       "i": 20,
+       "text": "institución.",
+       "start": 6.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Es por eso que en OneScreen te daremos un / ingeniero especializado / solo para tu institución.",
+   "end": 7.68
+  },
+  {
+   "id": "f03",
+   "start": 7.72,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Disponible",
+     "words": [
+      {
+       "id": "w21",
+       "i": 21,
+       "text": "Disponible",
+       "start": 7.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "24/5.",
+     "words": [
+      {
+       "id": "w22",
+       "i": 22,
+       "text": "24/5.",
+       "start": 8.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Disponible / 24/5.",
+   "end": 9.64
+  },
+  {
+   "id": "f04",
+   "start": 9.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Te presentamos",
+     "words": [
+      {
+       "id": "w23",
+       "i": 23,
+       "text": "Te",
+       "start": 9.68,
+       "brand": false
+      },
+      {
+       "id": "w24",
+       "i": 24,
+       "text": "presentamos",
+       "start": 9.84,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w25",
+       "i": 25,
+       "text": "OneScreen",
+       "start": 10.4,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": true,
+     "regular": true,
+     "text": "Gurú.",
+     "words": [
+      {
+       "id": "w26",
+       "i": 26,
+       "text": "Gurú.",
+       "start": 11.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Te presentamos / OneScreen / Gurú.",
+   "end": 11.4
+  },
+  {
+   "id": "f05",
+   "start": 11.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Todos los productos OneScreen tienen",
+     "words": [
+      {
+       "id": "w27",
+       "i": 27,
+       "text": "Todos",
+       "start": 11.44,
+       "brand": false
+      },
+      {
+       "id": "w28",
+       "i": 28,
+       "text": "los",
+       "start": 11.64,
+       "brand": false
+      },
+      {
+       "id": "w29",
+       "i": 29,
+       "text": "productos",
+       "start": 11.84,
+       "brand": false
+      },
+      {
+       "id": "w30",
+       "i": 30,
+       "text": "OneScreen",
+       "start": 12.16,
+       "brand": true
+      },
+      {
+       "id": "w31",
+       "i": 31,
+       "text": "tienen",
+       "start": 12.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "el botón verde Gurú,",
+     "words": [
+      {
+       "id": "w32",
+       "i": 32,
+       "text": "el",
+       "start": 12.92,
+       "brand": false
+      },
+      {
+       "id": "w33",
+       "i": 33,
+       "text": "botón",
+       "start": 13.12,
+       "brand": false
+      },
+      {
+       "id": "w34",
+       "i": 34,
+       "text": "verde",
+       "start": 13.44,
+       "brand": false
+      },
+      {
+       "id": "w35",
+       "i": 35,
+       "text": "Gurú,",
+       "start": 13.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Todos los productos OneScreen tienen / el botón verde Gurú,",
+   "end": 14.4
+  },
+  {
+   "id": "f06",
+   "start": 14.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "donde podrás acceder a un solo click,",
+     "words": [
+      {
+       "id": "w36",
+       "i": 36,
+       "text": "donde",
+       "start": 14.44,
+       "brand": false
+      },
+      {
+       "id": "w37",
+       "i": 37,
+       "text": "podrás",
+       "start": 14.64,
+       "brand": false
+      },
+      {
+       "id": "w38",
+       "i": 38,
+       "text": "acceder",
+       "start": 15,
+       "brand": false
+      },
+      {
+       "id": "w39",
+       "i": 39,
+       "text": "a",
+       "start": 15.44,
+       "brand": false
+      },
+      {
+       "id": "w40",
+       "i": 40,
+       "text": "un",
+       "start": 15.6,
+       "brand": false
+      },
+      {
+       "id": "w41",
+       "i": 41,
+       "text": "solo",
+       "start": 15.84,
+       "brand": false
+      },
+      {
+       "id": "w42",
+       "i": 42,
+       "text": "click,",
+       "start": 16,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "con un ingeniero",
+     "words": [
+      {
+       "id": "w43",
+       "i": 43,
+       "text": "con",
+       "start": 16.32,
+       "brand": false
+      },
+      {
+       "id": "w44",
+       "i": 44,
+       "text": "un",
+       "start": 16.6,
+       "brand": false
+      },
+      {
+       "id": "w45",
+       "i": 45,
+       "text": "ingeniero",
+       "start": 16.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de OneScreen listo para ayudarte.",
+     "words": [
+      {
+       "id": "w46",
+       "i": 46,
+       "text": "de",
+       "start": 17.16,
+       "brand": false
+      },
+      {
+       "id": "w47",
+       "i": 47,
+       "text": "OneScreen",
+       "start": 17.28,
+       "brand": true
+      },
+      {
+       "id": "w48",
+       "i": 48,
+       "text": "listo",
+       "start": 17.84,
+       "brand": false
+      },
+      {
+       "id": "w49",
+       "i": 49,
+       "text": "para",
+       "start": 18.32,
+       "brand": false
+      },
+      {
+       "id": "w50",
+       "i": 50,
+       "text": "ayudarte.",
+       "start": 18.52,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "donde podrás acceder a un solo click, / con un ingeniero / de OneScreen listo para ayudarte.",
+   "end": 19.16
+  },
+  {
+   "id": "f07",
+   "start": 19.2,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Puedes agendar",
+     "words": [
+      {
+       "id": "w51",
+       "i": 51,
+       "text": "Puedes",
+       "start": 19.2,
+       "brand": false
+      },
+      {
+       "id": "w52",
+       "i": 52,
+       "text": "agendar",
+       "start": 19.52,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "capacitaciones",
+     "words": [
+      {
+       "id": "w53",
+       "i": 53,
+       "text": "capacitaciones",
+       "start": 19.88,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "o solicitar soporte técnico.",
+     "words": [
+      {
+       "id": "w54",
+       "i": 54,
+       "text": "o",
+       "start": 20.8,
+       "brand": false
+      },
+      {
+       "id": "w55",
+       "i": 55,
+       "text": "solicitar",
+       "start": 21.04,
+       "brand": false
+      },
+      {
+       "id": "w56",
+       "i": 56,
+       "text": "soporte",
+       "start": 21.52,
+       "brand": false
+      },
+      {
+       "id": "w57",
+       "i": 57,
+       "text": "técnico.",
+       "start": 21.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Puedes agendar / capacitaciones / o solicitar soporte técnico.",
+   "end": 22.6
+  },
+  {
+   "id": "f08",
+   "start": 22.64,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Probar cómo funciona es",
+     "words": [
+      {
+       "id": "w58",
+       "i": 58,
+       "text": "Probar",
+       "start": 22.64,
+       "brand": false
+      },
+      {
+       "id": "w59",
+       "i": 59,
+       "text": "cómo",
+       "start": 23,
+       "brand": false
+      },
+      {
+       "id": "w60",
+       "i": 60,
+       "text": "funciona",
+       "start": 23.2,
+       "brand": false
+      },
+      {
+       "id": "w61",
+       "i": 61,
+       "text": "es",
+       "start": 23.64,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "bastante sencillo.",
+     "words": [
+      {
+       "id": "w62",
+       "i": 62,
+       "text": "bastante",
+       "start": 24,
+       "brand": false
+      },
+      {
+       "id": "w63",
+       "i": 63,
+       "text": "sencillo.",
+       "start": 24.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Probar cómo funciona es / bastante sencillo.",
+   "end": 25.16
+  },
+  {
+   "id": "f09",
+   "start": 25.2,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Solo tienes que tocar",
+     "words": [
+      {
+       "id": "w64",
+       "i": 64,
+       "text": "Solo",
+       "start": 25.2,
+       "brand": false
+      },
+      {
+       "id": "w65",
+       "i": 65,
+       "text": "tienes",
+       "start": 25.52,
+       "brand": false
+      },
+      {
+       "id": "w66",
+       "i": 66,
+       "text": "que",
+       "start": 25.76,
+       "brand": false
+      },
+      {
+       "id": "w67",
+       "i": 67,
+       "text": "tocar",
+       "start": 25.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "esta pantalla.",
+     "words": [
+      {
+       "id": "w68",
+       "i": 68,
+       "text": "esta",
+       "start": 26.16,
+       "brand": false
+      },
+      {
+       "id": "w69",
+       "i": 69,
+       "text": "pantalla.",
+       "start": 26.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Solo tienes que tocar / esta pantalla.",
+   "end": 27.04
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "Cuando",
+   "start": 0,
+   "end": 0.44,
+   "brand": false
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "todo",
+   "start": 0.44,
+   "end": 0.72,
+   "brand": false
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "falla,",
+   "start": 0.72,
+   "end": 1.16,
+   "brand": false
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "necesitas",
+   "start": 1.2,
+   "end": 1.76,
+   "brand": false
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "algo",
+   "start": 1.76,
+   "end": 2,
+   "brand": false
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "confiable.",
+   "start": 1.96,
+   "end": 2.52,
+   "brand": false
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "Es",
+   "start": 2.68,
+   "end": 2.88,
+   "brand": false
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "por",
+   "start": 2.88,
+   "end": 3.08,
+   "brand": false
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "eso",
+   "start": 3.04,
+   "end": 3.28,
+   "brand": false
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "que",
+   "start": 3.24,
+   "end": 3.48,
+   "brand": false
+  },
+  {
+   "i": 10,
+   "src": 10,
+   "text": "en",
+   "start": 3.48,
+   "end": 3.64,
+   "brand": false
+  },
+  {
+   "i": 11,
+   "src": 11,
+   "text": "OneScreen",
+   "start": 3.6,
+   "end": 4.16,
+   "brand": true
+  },
+  {
+   "i": 12,
+   "src": 12,
+   "text": "te",
+   "start": 4.16,
+   "end": 4.48,
+   "brand": false
+  },
+  {
+   "i": 13,
+   "src": 13,
+   "text": "daremos",
+   "start": 4.44,
+   "end": 4.88,
+   "brand": false
+  },
+  {
+   "i": 14,
+   "src": 14,
+   "text": "un",
+   "start": 4.88,
+   "end": 5.08,
+   "brand": false
+  },
+  {
+   "i": 15,
+   "src": 15,
+   "text": "ingeniero",
+   "start": 5.04,
+   "end": 5.44,
+   "brand": false
+  },
+  {
+   "i": 16,
+   "src": 16,
+   "text": "especializado",
+   "start": 5.44,
+   "end": 6.16,
+   "brand": false
+  },
+  {
+   "i": 17,
+   "src": 17,
+   "text": "solo",
+   "start": 6.12,
+   "end": 6.48,
+   "brand": false
+  },
+  {
+   "i": 18,
+   "src": 18,
+   "text": "para",
+   "start": 6.48,
+   "end": 6.76,
+   "brand": false
+  },
+  {
+   "i": 19,
+   "src": 19,
+   "text": "tu",
+   "start": 6.72,
+   "end": 6.92,
+   "brand": false
+  },
+  {
+   "i": 20,
+   "src": 20,
+   "text": "institución.",
+   "start": 6.92,
+   "end": 7.52,
+   "brand": false
+  },
+  {
+   "i": 21,
+   "src": 21,
+   "text": "Disponible",
+   "start": 7.72,
+   "end": 8.36,
+   "brand": false
+  },
+  {
+   "i": 22,
+   "src": 22,
+   "text": "24/5.",
+   "start": 8.32,
+   "end": 9.56,
+   "brand": false
+  },
+  {
+   "i": 23,
+   "src": 24,
+   "text": "Te",
+   "start": 9.68,
+   "end": 9.88,
+   "brand": false
+  },
+  {
+   "i": 24,
+   "src": 25,
+   "text": "presentamos",
+   "start": 9.84,
+   "end": 10.44,
+   "brand": false
+  },
+  {
+   "i": 25,
+   "src": 26,
+   "text": "OneScreen",
+   "start": 10.4,
+   "end": 11.04,
+   "brand": true
+  },
+  {
+   "i": 26,
+   "src": 27,
+   "text": "Gurú.",
+   "start": 11.04,
+   "end": 11.24,
+   "brand": false
+  },
+  {
+   "i": 27,
+   "src": 28,
+   "text": "Todos",
+   "start": 11.44,
+   "end": 11.68,
+   "brand": false
+  },
+  {
+   "i": 28,
+   "src": 29,
+   "text": "los",
+   "start": 11.64,
+   "end": 11.88,
+   "brand": false
+  },
+  {
+   "i": 29,
+   "src": 30,
+   "text": "productos",
+   "start": 11.84,
+   "end": 12.2,
+   "brand": false
+  },
+  {
+   "i": 30,
+   "src": 31,
+   "text": "OneScreen",
+   "start": 12.16,
+   "end": 12.76,
+   "brand": true
+  },
+  {
+   "i": 31,
+   "src": 32,
+   "text": "tienen",
+   "start": 12.72,
+   "end": 12.96,
+   "brand": false
+  },
+  {
+   "i": 32,
+   "src": 33,
+   "text": "el",
+   "start": 12.92,
+   "end": 13.16,
+   "brand": false
+  },
+  {
+   "i": 33,
+   "src": 34,
+   "text": "botón",
+   "start": 13.12,
+   "end": 13.48,
+   "brand": false
+  },
+  {
+   "i": 34,
+   "src": 35,
+   "text": "verde",
+   "start": 13.44,
+   "end": 13.76,
+   "brand": false
+  },
+  {
+   "i": 35,
+   "src": 36,
+   "text": "Gurú,",
+   "start": 13.76,
+   "end": 14.2,
+   "brand": false
+  },
+  {
+   "i": 36,
+   "src": 37,
+   "text": "donde",
+   "start": 14.44,
+   "end": 14.64,
+   "brand": false
+  },
+  {
+   "i": 37,
+   "src": 38,
+   "text": "podrás",
+   "start": 14.64,
+   "end": 15.04,
+   "brand": false
+  },
+  {
+   "i": 38,
+   "src": 39,
+   "text": "acceder",
+   "start": 15,
+   "end": 15.48,
+   "brand": false
+  },
+  {
+   "i": 39,
+   "src": 40,
+   "text": "a",
+   "start": 15.44,
+   "end": 15.64,
+   "brand": false
+  },
+  {
+   "i": 40,
+   "src": 41,
+   "text": "un",
+   "start": 15.6,
+   "end": 15.84,
+   "brand": false
+  },
+  {
+   "i": 41,
+   "src": 42,
+   "text": "solo",
+   "start": 15.84,
+   "end": 16.04,
+   "brand": false
+  },
+  {
+   "i": 42,
+   "src": 43,
+   "text": "click,",
+   "start": 16,
+   "end": 16.36,
+   "brand": false
+  },
+  {
+   "i": 43,
+   "src": 44,
+   "text": "con",
+   "start": 16.32,
+   "end": 16.64,
+   "brand": false
+  },
+  {
+   "i": 44,
+   "src": 45,
+   "text": "un",
+   "start": 16.6,
+   "end": 16.8,
+   "brand": false
+  },
+  {
+   "i": 45,
+   "src": 46,
+   "text": "ingeniero",
+   "start": 16.76,
+   "end": 17.2,
+   "brand": false
+  },
+  {
+   "i": 46,
+   "src": 47,
+   "text": "de",
+   "start": 17.16,
+   "end": 17.32,
+   "brand": false
+  },
+  {
+   "i": 47,
+   "src": 48,
+   "text": "OneScreen",
+   "start": 17.28,
+   "end": 17.84,
+   "brand": true
+  },
+  {
+   "i": 48,
+   "src": 49,
+   "text": "listo",
+   "start": 17.84,
+   "end": 18.36,
+   "brand": false
+  },
+  {
+   "i": 49,
+   "src": 50,
+   "text": "para",
+   "start": 18.32,
+   "end": 18.56,
+   "brand": false
+  },
+  {
+   "i": 50,
+   "src": 51,
+   "text": "ayudarte.",
+   "start": 18.52,
+   "end": 19.12,
+   "brand": false
+  },
+  {
+   "i": 51,
+   "src": 52,
+   "text": "Puedes",
+   "start": 19.2,
+   "end": 19.56,
+   "brand": false
+  },
+  {
+   "i": 52,
+   "src": 53,
+   "text": "agendar",
+   "start": 19.52,
+   "end": 19.92,
+   "brand": false
+  },
+  {
+   "i": 53,
+   "src": 54,
+   "text": "capacitaciones",
+   "start": 19.88,
+   "end": 20.8,
+   "brand": false
+  },
+  {
+   "i": 54,
+   "src": 55,
+   "text": "o",
+   "start": 20.8,
+   "end": 21.04,
+   "brand": false
+  },
+  {
+   "i": 55,
+   "src": 56,
+   "text": "solicitar",
+   "start": 21.04,
+   "end": 21.56,
+   "brand": false
+  },
+  {
+   "i": 56,
+   "src": 57,
+   "text": "soporte",
+   "start": 21.52,
+   "end": 21.96,
+   "brand": false
+  },
+  {
+   "i": 57,
+   "src": 58,
+   "text": "técnico.",
+   "start": 21.92,
+   "end": 22.48,
+   "brand": false
+  },
+  {
+   "i": 58,
+   "src": 59,
+   "text": "Probar",
+   "start": 22.64,
+   "end": 23.04,
+   "brand": false
+  },
+  {
+   "i": 59,
+   "src": 60,
+   "text": "cómo",
+   "start": 23,
+   "end": 23.2,
+   "brand": false
+  },
+  {
+   "i": 60,
+   "src": 61,
+   "text": "funciona",
+   "start": 23.2,
+   "end": 23.68,
+   "brand": false
+  },
+  {
+   "i": 61,
+   "src": 62,
+   "text": "es",
+   "start": 23.64,
+   "end": 24,
+   "brand": false
+  },
+  {
+   "i": 62,
+   "src": 63,
+   "text": "bastante",
+   "start": 24,
+   "end": 24.48,
+   "brand": false
+  },
+  {
+   "i": 63,
+   "src": 64,
+   "text": "sencillo.",
+   "start": 24.44,
+   "end": 25.12,
+   "brand": false
+  },
+  {
+   "i": 64,
+   "src": 65,
+   "text": "Solo",
+   "start": 25.2,
+   "end": 25.56,
+   "brand": false
+  },
+  {
+   "i": 65,
+   "src": 66,
+   "text": "tienes",
+   "start": 25.52,
+   "end": 25.76,
+   "brand": false
+  },
+  {
+   "i": 66,
+   "src": 67,
+   "text": "que",
+   "start": 25.76,
+   "end": 25.92,
+   "brand": false
+  },
+  {
+   "i": 67,
+   "src": 68,
+   "text": "tocar",
+   "start": 25.92,
+   "end": 26.16,
+   "brand": false
+  },
+  {
+   "i": 68,
+   "src": 69,
+   "text": "esta",
+   "start": 26.16,
+   "end": 26.36,
+   "brand": false
+  },
+  {
+   "i": 69,
+   "src": 70,
+   "text": "pantalla.",
+   "start": 26.32,
+   "end": 26.72,
+   "brand": false
+  }
+ ]
+}

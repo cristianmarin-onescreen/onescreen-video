@@ -1,0 +1,555 @@
+[
+ {
+  "id": "w0",
+  "text": "OneScreen",
+  "start": 0.0,
+  "end": 0.88,
+  "prob": 0.647
+ },
+ {
+  "id": "w1",
+  "text": "Titan.",
+  "start": 0.88,
+  "end": 1.2,
+  "prob": 0.986
+ },
+ {
+  "id": "w2",
+  "text": "Con",
+  "start": 1.44,
+  "end": 1.7,
+  "prob": 0.966
+ },
+ {
+  "id": "w3",
+  "text": "la",
+  "start": 1.7,
+  "end": 1.84,
+  "prob": 0.999
+ },
+ {
+  "id": "w4",
+  "text": "imagen",
+  "start": 1.84,
+  "end": 2.16,
+  "prob": 0.999
+ },
+ {
+  "id": "w5",
+  "text": "mas",
+  "start": 2.16,
+  "end": 2.48,
+  "prob": 0.002
+ },
+ {
+  "id": "w6",
+  "text": "potente.",
+  "start": 2.48,
+  "end": 3.06,
+  "prob": 0.998
+ },
+ {
+  "id": "w7",
+  "text": "La",
+  "start": 3.32,
+  "end": 3.58,
+  "prob": 0.976
+ },
+ {
+  "id": "w8",
+  "text": "primera",
+  "start": 3.58,
+  "end": 4.08,
+  "prob": 0.971
+ },
+ {
+  "id": "w9",
+  "text": "pantalla",
+  "start": 4.08,
+  "end": 4.48,
+  "prob": 0.984
+ },
+ {
+  "id": "w10",
+  "text": "interactiva",
+  "start": 4.48,
+  "end": 5.08,
+  "prob": 0.996
+ },
+ {
+  "id": "w11",
+  "text": "con",
+  "start": 5.08,
+  "end": 5.26,
+  "prob": 0.991
+ },
+ {
+  "id": "w12",
+  "text": "tecnologia",
+  "start": 5.26,
+  "end": 5.74,
+  "prob": 0.012
+ },
+ {
+  "id": "w13",
+  "text": "Mini",
+  "start": 5.74,
+  "end": 6.14,
+  "prob": 0.235
+ },
+ {
+  "id": "w14",
+  "text": "-LED.",
+  "start": 6.14,
+  "end": 6.38,
+  "prob": 0.567
+ },
+ {
+  "id": "w15",
+  "text": "Eso",
+  "start": 6.72,
+  "end": 6.92,
+  "prob": 0.924
+ },
+ {
+  "id": "w16",
+  "text": "significa",
+  "start": 6.92,
+  "end": 7.4,
+  "prob": 0.989
+ },
+ {
+  "id": "w17",
+  "text": "1200",
+  "start": 7.4,
+  "end": 8.14,
+  "prob": 0.904
+ },
+ {
+  "id": "w18",
+  "text": "nits",
+  "start": 8.14,
+  "end": 8.76,
+  "prob": 0.96
+ },
+ {
+  "id": "w19",
+  "text": "de",
+  "start": 8.76,
+  "end": 8.9,
+  "prob": 0.991
+ },
+ {
+  "id": "w20",
+  "text": "brillo.",
+  "start": 8.9,
+  "end": 9.26,
+  "prob": 0.996
+ },
+ {
+  "id": "w21",
+  "text": "En",
+  "start": 9.44,
+  "end": 9.64,
+  "prob": 0.991
+ },
+ {
+  "id": "w22",
+  "text": "la",
+  "start": 9.64,
+  "end": 9.74,
+  "prob": 0.996
+ },
+ {
+  "id": "w23",
+  "text": "vida",
+  "start": 9.74,
+  "end": 9.92,
+  "prob": 0.993
+ },
+ {
+  "id": "w24",
+  "text": "real,",
+  "start": 9.92,
+  "end": 10.24,
+  "prob": 0.995
+ },
+ {
+  "id": "w25",
+  "text": "jamas",
+  "start": 10.38,
+  "end": 10.68,
+  "prob": 0.702
+ },
+ {
+  "id": "w26",
+  "text": "tendras",
+  "start": 10.68,
+  "end": 11.02,
+  "prob": 0.538
+ },
+ {
+  "id": "w27",
+  "text": "que",
+  "start": 11.02,
+  "end": 11.14,
+  "prob": 0.979
+ },
+ {
+  "id": "w28",
+  "text": "oscurecer",
+  "start": 11.14,
+  "end": 11.5,
+  "prob": 0.987
+ },
+ {
+  "id": "w29",
+  "text": "un",
+  "start": 11.5,
+  "end": 11.62,
+  "prob": 0.921
+ },
+ {
+  "id": "w30",
+  "text": "salon",
+  "start": 11.62,
+  "end": 11.8,
+  "prob": 0.208
+ },
+ {
+  "id": "w31",
+  "text": "para",
+  "start": 11.8,
+  "end": 12.0,
+  "prob": 0.99
+ },
+ {
+  "id": "w32",
+  "text": "ver",
+  "start": 12.0,
+  "end": 12.18,
+  "prob": 0.995
+ },
+ {
+  "id": "w33",
+  "text": "bien.",
+  "start": 12.18,
+  "end": 12.4,
+  "prob": 0.994
+ },
+ {
+  "id": "w34",
+  "text": "Mas",
+  "start": 12.7,
+  "end": 12.8,
+  "prob": 0.468
+ },
+ {
+  "id": "w35",
+  "text": "de",
+  "start": 12.8,
+  "end": 12.96,
+  "prob": 0.99
+ },
+ {
+  "id": "w36",
+  "text": "1",
+  "start": 12.96,
+  "end": 13.3,
+  "prob": 0.986
+ },
+ {
+  "id": "w37",
+  "text": ".07",
+  "start": 13.3,
+  "end": 14.02,
+  "prob": 0.978
+ },
+ {
+  "id": "w38",
+  "text": "billones",
+  "start": 14.02,
+  "end": 14.58,
+  "prob": 0.895
+ },
+ {
+  "id": "w39",
+  "text": "de",
+  "start": 14.58,
+  "end": 14.74,
+  "prob": 0.99
+ },
+ {
+  "id": "w40",
+  "text": "colores",
+  "start": 14.74,
+  "end": 15.06,
+  "prob": 0.981
+ },
+ {
+  "id": "w41",
+  "text": "en",
+  "start": 15.06,
+  "end": 15.2,
+  "prob": 0.981
+ },
+ {
+  "id": "w42",
+  "text": "su",
+  "start": 15.2,
+  "end": 15.32,
+  "prob": 0.982
+ },
+ {
+  "id": "w43",
+  "text": "display.",
+  "start": 15.32,
+  "end": 15.66,
+  "prob": 0.97
+ },
+ {
+  "id": "w44",
+  "text": "Esta",
+  "start": 16.1,
+  "end": 16.4,
+  "prob": 0.949
+ },
+ {
+  "id": "w45",
+  "text": "es",
+  "start": 16.4,
+  "end": 16.72,
+  "prob": 0.905
+ },
+ {
+  "id": "w46",
+  "text": "nuestra",
+  "start": 16.72,
+  "end": 16.94,
+  "prob": 0.951
+ },
+ {
+  "id": "w47",
+  "text": "pantalla",
+  "start": 16.94,
+  "end": 17.26,
+  "prob": 0.978
+ },
+ {
+  "id": "w48",
+  "text": "interactiva",
+  "start": 17.26,
+  "end": 17.64,
+  "prob": 0.909
+ },
+ {
+  "id": "w49",
+  "text": "mas",
+  "start": 17.64,
+  "end": 17.94,
+  "prob": 0.963
+ },
+ {
+  "id": "w50",
+  "text": "potente,",
+  "start": 17.94,
+  "end": 18.42,
+  "prob": 0.997
+ },
+ {
+  "id": "w51",
+  "text": "hasta",
+  "start": 18.54,
+  "end": 18.9,
+  "prob": 0.974
+ },
+ {
+  "id": "w52",
+  "text": "ahora.",
+  "start": 18.9,
+  "end": 19.14,
+  "prob": 0.994
+ },
+ {
+  "id": "w53",
+  "text": "Disponible",
+  "start": 19.42,
+  "end": 19.94,
+  "prob": 0.992
+ },
+ {
+  "id": "w54",
+  "text": "desde",
+  "start": 19.94,
+  "end": 20.2,
+  "prob": 0.972
+ },
+ {
+  "id": "w55",
+  "text": "65",
+  "start": 20.2,
+  "end": 21.16,
+  "prob": 0.96
+ },
+ {
+  "id": "w56",
+  "text": "hasta",
+  "start": 21.16,
+  "end": 21.56,
+  "prob": 0.671
+ },
+ {
+  "id": "w57",
+  "text": "86",
+  "start": 21.56,
+  "end": 22.48,
+  "prob": 0.991
+ },
+ {
+  "id": "w58",
+  "text": "pulgadas.",
+  "start": 22.48,
+  "end": 23.04,
+  "prob": 0.988
+ },
+ {
+  "id": "w59",
+  "text": "OneScreen",
+  "start": 23.44,
+  "end": 23.92,
+  "prob": 0.985
+ },
+ {
+  "id": "w60",
+  "text": "Titan.",
+  "start": 23.92,
+  "end": 24.26,
+  "prob": 0.975
+ },
+ {
+  "id": "w61",
+  "text": "El",
+  "start": 24.52,
+  "end": 24.7,
+  "prob": 0.948
+ },
+ {
+  "id": "w62",
+  "text": "titan",
+  "start": 24.7,
+  "end": 25.2,
+  "prob": 0.936
+ },
+ {
+  "id": "w63",
+  "text": "de",
+  "start": 25.2,
+  "end": 25.34,
+  "prob": 0.996
+ },
+ {
+  "id": "w64",
+  "text": "las",
+  "start": 25.34,
+  "end": 25.48,
+  "prob": 0.978
+ },
+ {
+  "id": "w65",
+  "text": "pantallas",
+  "start": 25.48,
+  "end": 25.96,
+  "prob": 0.987
+ },
+ {
+  "id": "w66",
+  "text": "interactivas.",
+  "start": 25.96,
+  "end": 26.7,
+  "prob": 0.996
+ },
+ {
+  "id": "w67",
+  "text": "Quieres",
+  "start": 26.94,
+  "end": 27.46,
+  "prob": 0.749
+ },
+ {
+  "id": "w68",
+  "text": "conocer",
+  "start": 27.46,
+  "end": 27.72,
+  "prob": 0.989
+ },
+ {
+  "id": "w69",
+  "text": "estas",
+  "start": 27.72,
+  "end": 27.92,
+  "prob": 0.954
+ },
+ {
+  "id": "w70",
+  "text": "pantallas?",
+  "start": 27.92,
+  "end": 28.36,
+  "prob": 0.99
+ },
+ {
+  "id": "w71",
+  "text": "Muy",
+  "start": 28.5,
+  "end": 28.66,
+  "prob": 0.939
+ },
+ {
+  "id": "w72",
+  "text": "facil.",
+  "start": 28.66,
+  "end": 28.92,
+  "prob": 0.58
+ },
+ {
+  "id": "w73",
+  "text": "solo",
+  "start": 28.92,
+  "end": 29.66,
+  "prob": 0.499
+ },
+ {
+  "id": "w74",
+  "text": "tienes",
+  "start": 29.66,
+  "end": 29.94,
+  "prob": 0.964
+ },
+ {
+  "id": "w75",
+  "text": "que",
+  "start": 29.94,
+  "end": 30.1,
+  "prob": 0.998
+ },
+ {
+  "id": "w76",
+  "text": "tocar",
+  "start": 30.1,
+  "end": 30.34,
+  "prob": 0.989
+ },
+ {
+  "id": "w77",
+  "text": "esta",
+  "start": 30.34,
+  "end": 30.54,
+  "prob": 0.957
+ },
+ {
+  "id": "w78",
+  "text": "pantalla.",
+  "start": 30.54,
+  "end": 30.94,
+  "prob": 0.996
+ }
+]

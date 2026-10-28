@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta charset="UTF-8"><title>04-isaac</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face { font-family: "Rubik"; src: url("assets/fonts/Rubik-Variable.ttf") format("truetype"); font-weight: 300 900; font-display: block; }
+        @font-face { font-family: "Manrope"; src: url("assets/fonts/Manrope-variable-latin.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+        #s4 { --bg:#fff3e6; --ink:#1e140c; --ac:#f25c05; --mut:#7d5f47; --line:#efd6bb; --logo:#1a1a1a; }
+        .s4-mask { overflow: hidden; display: block; padding-bottom: 0.06em; }
+        .s4-mask > span { display: inline-block; }
+        #s4-por { left: 860px; height: 936px; }
+        #s4-kick { left: 134px; top: 170px; }
+        #s4-name { left: 128px; top: 210px; font-size: 136px; font-weight: 700; letter-spacing: -0.045em; line-height: 0.95; }
+        #s4-body { left: 136px; top: 600px; font-size: 36px; max-width: 640px; }
+        #s4-mega { left: 134px; top: 730px; }
+        #s4-stream { position: absolute; inset: 0; }
+        .s4-ld { fill: var(--ac); }
+        #s4-badge { left: 96px; top: 70px; width: 150px; height: 150px; }
+        #s4-t1 { left: 280px; top: 92px; font-size: 76px; }
+        #s4-t1s { left: 282px; top: 186px; font-size: 32px; }
+        #s4-dollar { left: 640px; top: 80px; width: 110px; height: 110px; }
+        #s4-dollar text { font-family: "Rubik"; font-weight: 700; font-size: 80px; fill: var(--ac); }
+        #s4-dollar path { stroke: var(--ink); stroke-width: 9; stroke-linecap: round; }
+        .s4-st { top: 470px; width: 300px; }
+        .s4-st .disc { width: 170px; height: 170px; }
+        .s4-st .disc svg { width: 86px; height: 86px; }
+        .s4-st b { font-family: "Rubik"; font-weight: 600; font-size: 36px; letter-spacing: -0.02em; }
+        .s4-st i { font-style: normal; font-weight: 600; font-size: 26px; color: var(--mut); }
+        #s4-moon { left: 420px; top: 420px; width: 80px; height: 80px; }
+        #s4-card { left: 200px; top: 300px; width: 1000px; }
+        #s4-card .row { font-size: 32px; position: relative; }
+        .s4-hl { position: absolute; left: -10px; right: -10px; top: 6px; bottom: 6px; border-radius: 12px; background: color-mix(in srgb, #f25c05 22%, transparent); transform-origin: 0 50%; transform: scaleX(0); }
+        .s4-bub { position: absolute; left: 1440px; padding: 22px 30px; border-radius: 30px 30px 30px 8px; background: #ffffff; border: 3px solid var(--line); font-family: "Manrope"; font-weight: 600; font-size: 28px; }
+        #s4-team { left: 1440px; top: 520px; }
+        #s4-team .disc { width: 170px; height: 170px; }
+        #s4-team .disc svg { width: 96px; height: 96px; }
+        #s4-demo { left: 1050px; top: 590px; padding: 12px 26px; border-radius: 99px; background: #f25c05; color: #fff; font-family: "Rubik"; font-weight: 600; font-size: 32px; }
+        #s4-t3 { left: 134px; top: 92px; font-size: 76px; }
+        #s4-t4 { left: 134px; top: 92px; font-size: 76px; }
+        #s4-lock { left: 330px; top: 420px; }
+        #s4-lock .disc { width: 200px; height: 200px; border-color: var(--mut); }
+        #s4-lock .disc svg { width: 110px; height: 110px; color: var(--mut); }
+        #s4-filter path.f { fill: none; stroke: var(--ac); stroke-width: 7; stroke-linejoin: round; }
+        #s4-tu { left: 760px; top: 500px; }
+        #s4-tu .disc { width: 150px; height: 150px; background: #f25c05; }
+        #s4-por2 { left: 1050px; height: 800px; }
+        #s4-pill { left: 134px; top: 490px; }
+      </style>
+
+      <div data-hf-id="hf-mrch" id="root" data-composition-id="04-isaac" data-width="1920" data-height="1080" data-duration="48">
+        <div data-hf-id="hf-pulz" id="s4" class="scene">
+          <div data-hf-id="hf-5xxj" class="bgfill" id="s4-bg"></div>
+
+          <!-- A · presentación + leads de Marketing -->
+          <img data-hf-id="hf-occe" id="s4-por" class="por in" src="assets/agents/isaac-cut.png">
+          <div data-hf-id="hf-3utu" id="s4-kick" class="k abs in">Primera cara comercial</div>
+          <div data-hf-id="hf-6fox" id="s4-name" class="h abs"><span data-hf-id="hf-lqcp" class="s4-mask"><span data-hf-id="hf-gzeu" id="s4-n1">Isaac</span></span><span data-hf-id="hf-a2l9" class="s4-mask"><span data-hf-id="hf-pi50" id="s4-n2">Alvarado</span></span></div>
+          <div data-hf-id="hf-4wd7" id="s4-body" class="b abs in">Contacta a todos los clientes potenciales de Marketing.</div>
+          <div data-hf-id="hf-ajp3" id="s4-pill" class="pill in"><svg data-hf-id="hf-vwu9"><use data-hf-id="hf-sb1e" href="#chat" /></svg><span data-hf-id="hf-xr8v">Línea para clientes</span><b data-hf-id="hf-eics">+57 315 1513328</b></div>
+          <div data-hf-id="hf-3mdj" class="node in" id="s4-mega"><div data-hf-id="hf-hnan" class="disc"><svg data-hf-id="hf-mg19" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-s0bk" data-draw="" d="M10 20v8l20 8V12l-20 8Z" /><path data-hf-id="hf-7n78" data-draw="" d="M30 18c4 1 6 3 6 6s-2 5-6 6" /><path data-hf-id="hf-15sa" data-draw="" d="M14 29l3 9h5l-2-8" /></svg></div>Marketing</div>
+          <svg data-hf-id="hf-nuou" class="wire" id="s4-stream">
+            <circle cy="0" cx="0" data-hf-id="hf-dfqj" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-hia3" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-h3z2" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-gpo1" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-gbd0" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-fx1z" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-fiqy" class="s4-ld" r="11" style="opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-f4fx" class="s4-ld" r="11" style="opacity:0" />
+          </svg>
+
+          <!-- B · no vende: cuatro estaciones -->
+          <div data-hf-id="hf-mfjn" id="s4-badge" class="badge in"><img data-hf-id="hf-uha6" src="assets/agents/isaac-cut.png"></div>
+          <div data-hf-id="hf-z8t3" id="s4-t1" class="h abs in">No vende.</div>
+          <svg data-hf-id="hf-7i7z" id="s4-dollar" class="abs in" viewBox="0 0 110 110"><text data-hf-id="hf-zw0p" x="30" y="84">$</text><path data-hf-id="hf-qlvf" id="s4-dstrike" data-draw="" d="M14 96 L96 14" /></svg>
+          <div data-hf-id="hf-dvq7" id="s4-t1s" class="b abs mut in">Abre la conversación y prepara la demostración.</div>
+          <svg data-hf-id="hf-1imy" class="wire" id="s4-pipe"><path data-hf-id="hf-z9sf" data-draw="" d="M330 555 H1590" style="stroke:var(--line);stroke-width:8;fill:none;stroke-linecap:round" /><path data-hf-id="hf-rlkz" id="s4-prog" data-draw="" d="M330 555 H1590" style="stroke:var(--ac);stroke-width:8;fill:none;stroke-linecap:round" /></svg>
+          <div data-hf-id="hf-2jg0" class="node s4-st in" style="left:180px"><div data-hf-id="hf-7fpr" class="disc"><svg data-hf-id="hf-dkrl" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-cnlo" data-draw="" d="M24 8C14 8 7 14 7 22c0 4 2 8 5 10l-1 8 8-4c2 .5 3 .6 5 .6 10 0 17-6 17-14S34 8 24 8Z" /></svg></div><b data-hf-id="hf-z5en">Primer contacto</b><i data-hf-id="hf-22wv" id="s4-anyhour" class="in">a cualquier hora</i></div>
+          <div data-hf-id="hf-zrk7" class="node s4-st in" style="left:600px"><div data-hf-id="hf-71eq" class="disc"><svg data-hf-id="hf-eroo" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-1akq" data-draw="" d="m24 8 4.7 9.6 10.6 1.5-7.6 7.5 1.8 10.5L24 32.1l-9.5 5 1.8-10.5-7.6-7.5 10.6-1.5z" /></svg></div><b data-hf-id="hf-4ycv">Califica</b></div>
+          <div data-hf-id="hf-505y" class="node s4-st in" style="left:1020px"><div data-hf-id="hf-6n3p" class="disc"><svg data-hf-id="hf-eddn" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-ihdz" data-draw="" d="M20 28V10a4 4 0 0 1 8 0v18a8 8 0 1 1-8 0Z" /><path data-hf-id="hf-6inn" id="s4-merc" d="M24 33V18" style="stroke-width:5" /></svg></div><b data-hf-id="hf-al1n">Calienta la necesidad</b></div>
+          <div data-hf-id="hf-wwh4" class="node s4-st in" style="left:1440px"><div data-hf-id="hf-9f8w" class="disc"><svg data-hf-id="hf-cdui" class="ico" viewBox="0 0 48 48"><rect data-hf-id="hf-cuun" data-draw="" x="8" y="11" width="32" height="29" rx="4" /><path data-hf-id="hf-9yuo" data-draw="" d="M8 19h32M16 7v8M32 7v8" /><path data-hf-id="hf-0wru" data-draw="" d="m18 30 4 4 8-8" /></svg></div><b data-hf-id="hf-w3p7">Agenda demostraciones</b></div>
+          <svg data-hf-id="hf-y3dz" id="s4-moon" class="abs ico in" viewBox="0 0 48 48" style="stroke-width:3.6"><path data-hf-id="hf-5kmt" d="M34 30A14 14 0 0 1 20 10a14 14 0 1 0 14 20Z" style="fill:#f25c05;stroke:none" /></svg>
+
+          <!-- C · todo queda en Odoo -->
+          <div data-hf-id="hf-z8pe" id="s4-t2" class="h abs in" style="left:280px;top:100px;font-size:76px">Todo queda en Odoo.</div>
+          <div data-hf-id="hf-l4qv" id="s4-card" class="card in">
+            <div data-hf-id="hf-iyxa" class="k" style="margin-bottom:16px">Lead · Odoo · Actividades</div>
+            <div data-hf-id="hf-sdag" class="row s4-r in"><div data-hf-id="hf-7agu" class="s4-hl"></div><div data-hf-id="hf-pvrx" class="av"><img data-hf-id="hf-r5r6" src="assets/agents/isaac-cut.png"></div>Primer contacto por WhatsApp</div>
+            <div data-hf-id="hf-151y" class="row s4-r in"><div data-hf-id="hf-478i" class="s4-hl"></div><div data-hf-id="hf-g5kh" class="av"><img data-hf-id="hf-rk27" src="assets/agents/isaac-cut.png"></div>Calificado: necesidad real</div>
+            <div data-hf-id="hf-u214" class="row s4-r in"><div data-hf-id="hf-4ljj" class="s4-hl"></div><div data-hf-id="hf-hchk" class="av"><img data-hf-id="hf-ryd8" src="assets/agents/isaac-cut.png"></div>Demostración agendada</div>
+          </div>
+          <div data-hf-id="hf-4ewf" class="s4-bub in" style="top:300px">Hola, ¿en qué te ayudo?</div>
+          <div data-hf-id="hf-4ejk" class="s4-bub in" style="top:410px">¿Para cuántos espacios?</div>
+          <div data-hf-id="hf-2j5q" class="s4-bub in" style="top:520px">¿Agendamos una demo?</div>
+          <div data-hf-id="hf-zwvm" class="node in" id="s4-team"><div data-hf-id="hf-90xv" class="disc"><svg data-hf-id="hf-bzjh" class="ico" viewBox="0 0 48 48"><circle data-hf-id="hf-ez2j" data-draw="" cx="16" cy="18" r="5" /><circle data-hf-id="hf-jsod" data-draw="" cx="32" cy="18" r="5" /><path data-hf-id="hf-7092" data-draw="" d="M6 38c1-6 5-9 10-9s9 3 10 9M22 38c1-6 5-9 10-9s9 3 10 9" /></svg></div>Equipo comercial</div>
+          <div data-hf-id="hf-8ul9" id="s4-demo" class="abs in">Demo</div>
+          <div data-hf-id="hf-oqv5" id="s4-t2b" class="h abs in" style="left:280px;top:100px;font-size:70px">¿Te llegó un lead? <span data-hf-id="hf-m8t0" class="acc">Revisa sus actividades.</span></div>
+
+          <!-- D · solo clientes potenciales -->
+          <div data-hf-id="hf-i5kl" id="s4-t3" class="h abs in">No es para uso interno.</div>
+          <div data-hf-id="hf-vpli" class="node in" id="s4-lock"><div data-hf-id="hf-8mmu" class="disc"><svg data-hf-id="hf-d6gk" class="ico" viewBox="0 0 48 48"><rect data-hf-id="hf-8dxf" data-draw="" x="11" y="22" width="26" height="20" rx="4" /><path data-hf-id="hf-eb9e" id="s4-shackle" data-draw="" d="M17 22v-6a7 7 0 0 1 14 0v6" /></svg></div>Equipo interno</div>
+          <div data-hf-id="hf-qpx8" id="s4-t4" class="h abs in">Solo atiende <span data-hf-id="hf-rdik" class="acc">clientes potenciales.</span></div>
+          <svg data-hf-id="hf-bd6c" class="wire" id="s4-filter">
+            <path data-hf-id="hf-b4ii" class="f" data-draw="" d="M500 440 L650 530 V600 L500 690 Z" />
+            <path data-hf-id="hf-6ebs" class="l" data-draw="" d="M650 565 H760" />
+            <circle cy="0" cx="0" data-hf-id="hf-08cd" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-moup" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-nvrs" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-nhgr" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-lhxm" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-l3ml" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-majo" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" /><circle cy="0" cx="0" data-hf-id="hf-lw8n" class="s4-fd" r="12" style="fill:#c9ab90;opacity:0" />
+          </svg>
+          <div data-hf-id="hf-rhdj" class="node in" id="s4-tu"><div data-hf-id="hf-88bt" class="disc"><svg data-hf-id="hf-16g5" class="ico" viewBox="0 0 48 48" style="color:#fff3e6"><path data-hf-id="hf-xdsw" data-draw="" d="m14 25 7 7 13-15" /></svg></div>Tú · listos para la demo</div>
+          <img data-hf-id="hf-yesm" id="s4-por2" class="por in" src="assets/agents/isaac-cut.png">
+          <div data-hf-id="hf-y57d" id="s4-idc" class="idc in"><b data-hf-id="hf-s8oo">Isaac Alvarado</b><span data-hf-id="hf-txsg"><svg data-hf-id="hf-8vth"><use data-hf-id="hf-hscm" href="#chat" /></svg>+57 315 1513328 <i data-hf-id="hf-d58c">Línea para clientes</i></span></div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          var S = 79.6, T = function (x) { return x - S; };
+          var root = document.querySelector('[data-composition-id="04-isaac"]');
+          FX.prep(root);
+          var tl = gsap.timeline({ paused: true });
+          var q = function (s) { return root.querySelectorAll(s); };
+
+          // A · el crema barre e Isaac sube
+          FX.wipe(tl, "#s4-bg", 0, 0.6);
+          FX.up(tl, "#s4-por", T(80.4), { y: 260, d: 0.9, ease: "power4.out" });
+          FX.rise(tl, ["#s4-n1", "#s4-n2"], T(80.74), { stagger: 0.12 });
+          FX.up(tl, "#s4-kick", T(82.84), { y: 14 });
+          // "contactar a todos los clientes potenciales de marketing"
+          FX.pop(tl, "#s4-mega", T(85.5));
+          FX.draw(tl, q("#s4-mega [data-draw]"), T(85.6), 0.6);
+          FX.up(tl, "#s4-body", T(85.7), { y: 18 });
+          q(".s4-ld").forEach(function (d, i) {
+            var at = T(86.2 + i * 0.22), y = 790 + ((i * 37) % 5 - 2) * 26;
+            tl.fromTo(d, { attr: { cx: 290, cy: 792 } }, { attr: { cx: 1080, cy: y - 140 }, duration: 1.3, ease: "power1.in" }, at);
+            FX.show(tl, d, at);
+            tl.to(d, { opacity: 0, duration: 0.15 }, at + 1.2);
+          });
+
+          // B · "Isaac no tiene como tarea vender"
+          FX.pop(tl, "#s4-pill", T(81.4), { from: 0.85 });
+          FX.out(tl, ["#s4-kick", "#s4-name", "#s4-body", "#s4-mega", "#s4-pill"], T(88.4), { x: -60, d: 0.35, stagger: 0.02 });
+          FX.up(tl, "#s4-idc", T(88.7), { x: -30, y: 0 });
+          tl.to("#s4-por", { y: 700, opacity: 0, duration: 0.6, ease: "power3.in" }, T(88.4));
+          FX.pop(tl, "#s4-badge", T(88.74));
+          FX.up(tl, "#s4-t1", T(88.88), { y: 24 });
+          FX.pop(tl, "#s4-dollar", T(89.4));
+          FX.draw(tl, "#s4-dstrike", T(90.0), 0.3);
+          FX.up(tl, "#s4-t1s", T(91.8), { y: 16 });
+          // las cuatro estaciones sobre sus palabras
+          FX.draw(tl, q("#s4-pipe [data-draw]")[0], T(91.6), 0.8);
+          var st = q(".s4-st"), cue = [92.5, 94.68, 96.1, 97.62];
+          st.forEach(function (n, i) {
+            FX.pop(tl, n, T(cue[i] - 0.15));
+            FX.draw(tl, n.querySelectorAll("[data-draw]"), T(cue[i]), 0.6);
+            tl.to(n.querySelector(".disc"), { backgroundColor: "#ffe2c7", duration: 0.3 }, T(cue[i]));
+          });
+          tl.fromTo("#s4-prog", { strokeDashoffset: 1 }, { strokeDashoffset: 0.01, duration: T(97.62) - T(92.5), ease: "steps(3)" }, T(92.5));
+          FX.up(tl, "#s4-anyhour", T(93.48), { y: 10 });
+          FX.pop(tl, "#s4-moon", T(93.48), { from: 0.2 });
+          tl.fromTo("#s4-merc", { strokeDasharray: "15 15", strokeDashoffset: 15 }, { strokeDashoffset: 0, duration: 0.8, ease: "power2.out" }, T(96.5));
+          tl.to(st[3].querySelector(".disc"), { backgroundColor: "#f25c05", duration: 0.3 }, T(98.16));
+          tl.to(st[3].querySelector(".disc svg"), { color: "#fff3e6", duration: 0.3 }, T(98.16));
+
+          // C · "contacto directo con Odoo… registra las actividades"
+          FX.out(tl, ["#s4-t1", "#s4-dollar", "#s4-t1s", "#s4-pipe", ".s4-st", "#s4-moon"], T(99.0), { y: -30, d: 0.35, stagger: 0.02 });
+          FX.up(tl, "#s4-t2", T(99.26), { y: 24 });
+          FX.up(tl, "#s4-card", T(99.66), { x: -60, y: 0, d: 0.6 });
+          var bubs = q(".s4-bub"), rows = q(".s4-r");
+          FX.up(tl, bubs, T(101.4), { y: 20, stagger: 0.35, d: 0.4 });
+          bubs.forEach(function (b, i) {
+            var at = T(103.86 + i * 0.6);
+            tl.to(b, { x: -560, y: 90 - i * 10, scale: 0.6, opacity: 0, duration: 0.55, ease: "power3.in" }, at);
+            FX.up(tl, rows[i], at + 0.45, { x: 40, y: 0, d: 0.4 });
+          });
+          // "agendar demostraciones para el equipo comercial"
+          FX.pop(tl, "#s4-team", T(107.6));
+          FX.draw(tl, q("#s4-team [data-draw]"), T(107.7), 0.6);
+          tl.fromTo("#s4-demo", { opacity: 0, x: -200, scale: 0.6 }, { opacity: 1, x: 0, scale: 1, duration: 0.5, ease: "back.out(1.6)" }, T(108.32));
+          tl.to("#s4-demo", { x: 330, scale: 0.7, opacity: 0, duration: 0.5, ease: "power3.in" }, T(109.3));
+          tl.fromTo("#s4-team .disc", { scale: 1 }, { scale: 1.12, duration: 0.2, yoyo: true, repeat: 1 }, T(109.75));
+          // "siempre que recibas un lead, revisa las actividades"
+          FX.out(tl, ["#s4-t2", "#s4-team"], T(110.3), { y: -20, d: 0.3 });
+          FX.up(tl, "#s4-t2b", T(110.68), { y: 24 });
+          tl.to("#s4-card", { x: 260, scale: 1.08, duration: 0.7, ease: "power3.inOut" }, T(110.9));
+          tl.to(q(".s4-hl"), { scaleX: 1, duration: 0.45, ease: "power2.out", stagger: 0.35 }, T(112.32));
+
+          // D · "no está diseñado para uso interno"
+          FX.out(tl, ["#s4-t2b", "#s4-card", "#s4-badge"], T(115.0), { y: -30, d: 0.35, stagger: 0.03 });
+          FX.up(tl, "#s4-t3", T(115.26), { y: 24 });
+          FX.pop(tl, "#s4-lock", T(116.72));
+          FX.draw(tl, q("#s4-lock [data-draw]"), T(116.8), 0.6);
+          tl.fromTo("#s4-shackle", { y: -8 }, { y: 0, duration: 0.25, ease: "power4.in" }, T(117.5));
+          // "solamente para atender a los clientes potenciales"
+          FX.out(tl, ["#s4-t3", "#s4-lock"], T(118.4), { y: -24, d: 0.3 });
+          FX.up(tl, "#s4-t4", T(118.6), { y: 24 });
+          FX.up(tl, "#s4-por2", T(119.3), { y: 220, d: 0.9, ease: "power4.out" });
+          // "identifica a quienes tienen una necesidad real"
+          FX.draw(tl, q("#s4-filter [data-draw]"), T(121.8), 0.7);
+          var fd = q(".s4-fd"), pass = [1, 4, 6];
+          fd.forEach(function (d, i) {
+            var at = T(122.34 + i * 0.28), y0 = 380 + i * 50;
+            tl.fromTo(d, { attr: { cx: 140, cy: y0 } }, { attr: { cx: 560, cy: 565 }, duration: 0.7, ease: "power1.in" }, at);
+            FX.show(tl, d, at);
+            if (pass.indexOf(i) >= 0) {
+              tl.to(d, { attr: { cx: 820 }, fill: "#f25c05", duration: 0.45, ease: "power1.out" }, at + 0.7);
+              tl.to(d, { opacity: 0, duration: 0.1 }, at + 1.15);
+            } else {
+              tl.to(d, { opacity: 0, scale: 0.4, duration: 0.2 }, at + 0.7);
+            }
+          });
+          // "te los entrega listos para la demostración"
+          FX.pop(tl, "#s4-tu", T(125.3));
+          FX.draw(tl, q("#s4-tu [data-draw]"), T(125.45), 0.4);
+
+          window.__timelines["04-isaac"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

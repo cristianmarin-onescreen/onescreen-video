@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 220.32,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 220.32
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 4 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 8.76,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 4 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "list — RECAP: LOS 4 INGREDIENTES",
+      "startSec": 8.76,
+      "endSec": 13.43,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "RECAP: LOS 4 INGREDIENTES",
+        "items": [
+          "Instrucciones",
+          "Memoria",
+          "Herramientas",
+          "Capacidad de actuar"
+        ]
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "titlecard — Vamos a abrir cada ingrediente",
+      "startSec": 13.43,
+      "endSec": 25.05,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Vamos a abrir cada ingrediente",
+        "detail": "La diferencia entre un agente mediocre y uno que resuelve tu día"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — INGREDIENTE 1",
+      "startSec": 25.05,
+      "endSec": 28.8,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "INGREDIENTE 1",
+        "title": "Empecemos por las instrucciones",
+        "detail": "Son la base de todo"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — MAL INSTRUIDO",
+      "startSec": 28.8,
+      "endSec": 41.2,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "MAL INSTRUIDO",
+        "title": "“Eres un asistente útil que ayuda con temas académicos”",
+        "detail": "No dice nada concreto: no sabe para quién trabaja ni qué se espera de él"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — BIEN INSTRUIDO",
+      "startSec": 41.2,
+      "endSec": 57.96,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "BIEN INSTRUIDO",
+        "title": "Asistente de coordinación académica del colegio",
+        "detail": "Resume reportes en máximo 5 puntos clave, resalta lo urgente, tono directo"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "compare — ¿NOTAS LA DIFERENCIA?",
+      "startSec": 57.96,
+      "endSec": 66.21,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "¿NOTAS LA DIFERENCIA?"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "titlecard — INGREDIENTE 2",
+      "startSec": 66.21,
+      "endSec": 72.6,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "INGREDIENTE 2",
+        "title": "Tono y límites",
+        "detail": "Casi nadie le presta suficiente atención"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "list — DOS COSAS DISTINTAS",
+      "startSec": 72.6,
+      "endSec": 81.61,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "DOS COSAS DISTINTAS",
+        "items": [
+          "Tono: cómo suena — formal, cercano, técnico, sencillo",
+          "Límites: qué no debe hacer nunca"
+        ]
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "list — LÍMITES, POR EJEMPLO",
+      "startSec": 81.61,
+      "endSec": 93.56,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LÍMITES, POR EJEMPLO",
+        "items": [
+          "Nunca inventar una cifra que no tenga en sus documentos",
+          "Nunca responder preguntas fuera de la materia",
+          "Nunca compartir información sensible de otro estudiante"
+        ]
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "quote — Sin límites definidos, tarde o temprano hace algo que no querías.",
+      "startSec": 93.56,
+      "endSec": 105.72,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Sin límites definidos, tarde o temprano hace algo que no querías.",
+        "detail": "No por impredecible — porque nunca le dijiste dónde estaba la línea"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — INGREDIENTE 3: CONOCIMIENTO PROPIO",
+      "startSec": 105.72,
+      "endSec": 116.71,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "INGREDIENTE 3: CONOCIMIENTO PROPIO",
+        "title": "Documentos y manuales de tu institución",
+        "detail": "Para que deje de responder de forma genérica"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — Sin conocimiento propio, sirve para cualquier colegio del mundo",
+      "startSec": 116.71,
+      "endSec": 128.08,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Sin conocimiento propio, sirve para cualquier colegio del mundo"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — Con tu plan curricular y tu calendario académico",
+      "startSec": 128.08,
+      "endSec": 143.6,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Con tu plan curricular y tu calendario académico",
+        "detail": "Te da una respuesta que solo tiene sentido en tu institución"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "titlecard — INGREDIENTE 4",
+      "startSec": 143.6,
+      "endSec": 147.23,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "INGREDIENTE 4",
+        "title": "Herramientas disponibles"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "list — ¿QUÉ PUEDE HACER TU AGENTE?",
+      "startSec": 147.23,
+      "endSec": 161.2,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "¿QUÉ PUEDE HACER TU AGENTE?",
+        "items": [
+          "¿Buscar información actualizada en Internet?",
+          "¿Acceder a un documento específico?",
+          "¿Conectarse a otro sistema?"
+        ]
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — LA CLAVE",
+      "startSec": 161.2,
+      "endSec": 168.72,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LA CLAVE",
+        "title": "No es darle todas las herramientas",
+        "detail": "Sino exactamente las que necesita para su trabajo"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "compare — EL CRITERIO IMPORTA",
+      "startSec": 168.72,
+      "endSec": 178.8,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "EL CRITERIO IMPORTA"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "list — LA RECETA",
+      "startSec": 178.8,
+      "endSec": 192.64,
+      "accentIndex": 1,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LA RECETA",
+        "items": [
+          "Instrucciones claras",
+          "Tono y límites definidos",
+          "Conocimiento propio",
+          "Herramientas justas"
+        ]
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "quote — No hay ningún ingrediente secreto más allá de estos 4.",
+      "startSec": 192.64,
+      "endSec": 207.8,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "No hay ningún ingrediente secreto más allá de estos 4.",
+        "detail": "La diferencia está en qué tan bien definido está cada uno — no en la tecnología"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "body — PRÓXIMOS MÓDULOS",
+      "startSec": 207.8,
+      "endSec": 216.42,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMOS MÓDULOS",
+        "title": "Estos 4 ingredientes en la práctica",
+        "detail": "3 casos reales según tu rol en la institución"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 216.42,
+      "endSec": 220.31,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

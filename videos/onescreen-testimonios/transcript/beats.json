@@ -1,0 +1,3127 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 73.4,
+ "totalFrames": 1835,
+ "source": "PrevSC02.mp4",
+ "safeColumn": {
+  "widthPct": 34,
+  "note": "ninguna cara entra a la izquierda del 38% en los 18 planos"
+ },
+ "scenes": [
+  {
+   "id": "01-apertura",
+   "ground": "negro",
+   "start": 0,
+   "end": 19.16,
+   "duration": 19.16,
+   "durationFrames": 479
+  },
+  {
+   "id": "02-testimonios",
+   "ground": "metraje",
+   "start": 19.16,
+   "end": 62.92,
+   "duration": 43.76,
+   "durationFrames": 1094
+  },
+  {
+   "id": "03-cierre",
+   "ground": "negro",
+   "start": 62.92,
+   "end": 73.4,
+   "duration": 10.48,
+   "durationFrames": 262
+  }
+ ],
+ "blackFrames": [
+  {
+   "id": "A1",
+   "block": "A",
+   "scale": "phrase",
+   "rule": false,
+   "text": "Hace 15 años nos hicimos una pregunta simple,",
+   "start": 1.64,
+   "end": 4.4,
+   "words": [
+    {
+     "id": "w0",
+     "i": 0,
+     "text": "Hace",
+     "start": 1.64,
+     "accent": false
+    },
+    {
+     "id": "w1",
+     "i": 1,
+     "text": "15",
+     "start": 2.12,
+     "accent": false
+    },
+    {
+     "id": "w2",
+     "i": 2,
+     "text": "años",
+     "start": 2.4,
+     "accent": false
+    },
+    {
+     "id": "w3",
+     "i": 3,
+     "text": "nos",
+     "start": 2.72,
+     "accent": false
+    },
+    {
+     "id": "w4",
+     "i": 4,
+     "text": "hicimos",
+     "start": 3.04,
+     "accent": false
+    },
+    {
+     "id": "w5",
+     "i": 5,
+     "text": "una",
+     "start": 3.36,
+     "accent": false
+    },
+    {
+     "id": "w6",
+     "i": 6,
+     "text": "pregunta",
+     "start": 3.56,
+     "accent": true
+    },
+    {
+     "id": "w7",
+     "i": 7,
+     "text": "simple,",
+     "start": 3.92,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "block": "A",
+   "scale": "phrase",
+   "rule": false,
+   "text": "¿Y si una pantalla pudiera enseñar tanto como la persona frente a ella?",
+   "start": 4.6,
+   "end": 8.16,
+   "words": [
+    {
+     "id": "w8",
+     "i": 8,
+     "text": "¿Y",
+     "start": 4.6,
+     "accent": false
+    },
+    {
+     "id": "w9",
+     "i": 9,
+     "text": "si",
+     "start": 4.84,
+     "accent": false
+    },
+    {
+     "id": "w10",
+     "i": 10,
+     "text": "una",
+     "start": 4.96,
+     "accent": false
+    },
+    {
+     "id": "w11",
+     "i": 11,
+     "text": "pantalla",
+     "start": 5.12,
+     "accent": false
+    },
+    {
+     "id": "w12",
+     "i": 12,
+     "text": "pudiera",
+     "start": 5.52,
+     "accent": false
+    },
+    {
+     "id": "w13",
+     "i": 13,
+     "text": "enseñar",
+     "start": 5.88,
+     "accent": true
+    },
+    {
+     "id": "w14",
+     "i": 14,
+     "text": "tanto",
+     "start": 6.24,
+     "accent": false
+    },
+    {
+     "id": "w15",
+     "i": 15,
+     "text": "como",
+     "start": 6.64,
+     "accent": false
+    },
+    {
+     "id": "w16",
+     "i": 16,
+     "text": "la",
+     "start": 6.96,
+     "accent": false
+    },
+    {
+     "id": "w17",
+     "i": 17,
+     "text": "persona",
+     "start": 7.12,
+     "accent": false
+    },
+    {
+     "id": "w18",
+     "i": 18,
+     "text": "frente",
+     "start": 7.48,
+     "accent": false
+    },
+    {
+     "id": "w19",
+     "i": 19,
+     "text": "a",
+     "start": 7.8,
+     "accent": false
+    },
+    {
+     "id": "w20",
+     "i": 20,
+     "text": "ella?",
+     "start": 7.92,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "block": "A",
+   "scale": "display",
+   "rule": false,
+   "text": "Hasta hoy seguimos respondiéndola.",
+   "start": 8.56,
+   "end": 10.36,
+   "words": [
+    {
+     "id": "w21",
+     "i": 21,
+     "text": "Hasta",
+     "start": 8.56,
+     "accent": false
+    },
+    {
+     "id": "w22",
+     "i": 22,
+     "text": "hoy",
+     "start": 8.84,
+     "accent": false
+    },
+    {
+     "id": "w23",
+     "i": 23,
+     "text": "seguimos",
+     "start": 9.12,
+     "accent": false
+    },
+    {
+     "id": "w24",
+     "i": 24,
+     "text": "respondiéndola.",
+     "start": 9.68,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "block": "A",
+   "scale": "phrase",
+   "rule": false,
+   "text": "Y hoy, esa pregunta ya tiene una respuesta en más de 50 países.",
+   "start": 10.68,
+   "end": 14.76,
+   "words": [
+    {
+     "id": "w25",
+     "i": 25,
+     "text": "Y",
+     "start": 10.68,
+     "accent": false
+    },
+    {
+     "id": "w26",
+     "i": 26,
+     "text": "hoy,",
+     "start": 10.96,
+     "accent": false
+    },
+    {
+     "id": "w27",
+     "i": 27,
+     "text": "esa",
+     "start": 11.32,
+     "accent": false
+    },
+    {
+     "id": "w28",
+     "i": 28,
+     "text": "pregunta",
+     "start": 11.72,
+     "accent": false
+    },
+    {
+     "id": "w29",
+     "i": 29,
+     "text": "ya",
+     "start": 12.04,
+     "accent": false
+    },
+    {
+     "id": "w30",
+     "i": 30,
+     "text": "tiene",
+     "start": 12.28,
+     "accent": false
+    },
+    {
+     "id": "w31",
+     "i": 31,
+     "text": "una",
+     "start": 12.52,
+     "accent": false
+    },
+    {
+     "id": "w32",
+     "i": 32,
+     "text": "respuesta",
+     "start": 12.64,
+     "accent": false
+    },
+    {
+     "id": "w33",
+     "i": 33,
+     "text": "en",
+     "start": 13.08,
+     "accent": false
+    },
+    {
+     "id": "w34",
+     "i": 34,
+     "text": "más",
+     "start": 13.4,
+     "accent": false
+    },
+    {
+     "id": "w35",
+     "i": 35,
+     "text": "de",
+     "start": 13.6,
+     "accent": false
+    },
+    {
+     "id": "w36",
+     "i": 36,
+     "text": "50",
+     "start": 13.72,
+     "accent": false
+    },
+    {
+     "id": "w37",
+     "i": 37,
+     "text": "países.",
+     "start": 14.2,
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "A5",
+   "block": "A",
+   "scale": "display",
+   "rule": false,
+   "text": "Miles de instituciones saben lo que es.",
+   "start": 15.24,
+   "end": 16.96,
+   "words": [
+    {
+     "id": "w38",
+     "i": 38,
+     "text": "Miles",
+     "start": 15.24,
+     "accent": true
+    },
+    {
+     "id": "w39",
+     "i": 39,
+     "text": "de",
+     "start": 15.44,
+     "accent": false
+    },
+    {
+     "id": "w40",
+     "i": 40,
+     "text": "instituciones",
+     "start": 15.6,
+     "accent": false
+    },
+    {
+     "id": "w41",
+     "i": 41,
+     "text": "saben",
+     "start": 16.08,
+     "accent": false
+    },
+    {
+     "id": "w42",
+     "i": 42,
+     "text": "lo",
+     "start": 16.36,
+     "accent": false
+    },
+    {
+     "id": "w43",
+     "i": 43,
+     "text": "que",
+     "start": 16.52,
+     "accent": false
+    },
+    {
+     "id": "w44",
+     "i": 44,
+     "text": "es.",
+     "start": 16.68,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "A6",
+   "block": "A",
+   "scale": "display",
+   "rule": false,
+   "text": "Esto es lo que dicen algunos.",
+   "start": 17.16,
+   "end": 18.72,
+   "words": [
+    {
+     "id": "w45",
+     "i": 45,
+     "text": "Esto",
+     "start": 17.16,
+     "accent": false
+    },
+    {
+     "id": "w46",
+     "i": 46,
+     "text": "es",
+     "start": 17.64,
+     "accent": false
+    },
+    {
+     "id": "w47",
+     "i": 47,
+     "text": "lo",
+     "start": 17.84,
+     "accent": false
+    },
+    {
+     "id": "w48",
+     "i": 48,
+     "text": "que",
+     "start": 17.96,
+     "accent": false
+    },
+    {
+     "id": "w49",
+     "i": 49,
+     "text": "dicen",
+     "start": 18.04,
+     "accent": false
+    },
+    {
+     "id": "w50",
+     "i": 50,
+     "text": "algunos.",
+     "start": 18.28,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "C7",
+   "block": "C",
+   "scale": "phrase",
+   "rule": false,
+   "text": "En OneScreen amamos contar historias y tú puedes ser una de esas historias.",
+   "start": 63,
+   "end": 67.08,
+   "words": [
+    {
+     "id": "w180",
+     "i": 180,
+     "text": "En",
+     "start": 63,
+     "accent": false
+    },
+    {
+     "id": "w181",
+     "i": 181,
+     "text": "OneScreen",
+     "start": 63.16,
+     "accent": false
+    },
+    {
+     "id": "w182",
+     "i": 182,
+     "text": "amamos",
+     "start": 63.64,
+     "accent": false
+    },
+    {
+     "id": "w183",
+     "i": 183,
+     "text": "contar",
+     "start": 64.44,
+     "accent": false
+    },
+    {
+     "id": "w184",
+     "i": 184,
+     "text": "historias",
+     "start": 64.72,
+     "accent": true
+    },
+    {
+     "id": "w185",
+     "i": 185,
+     "text": "y",
+     "start": 65.28,
+     "accent": false
+    },
+    {
+     "id": "w186",
+     "i": 186,
+     "text": "tú",
+     "start": 65.56,
+     "accent": false
+    },
+    {
+     "id": "w187",
+     "i": 187,
+     "text": "puedes",
+     "start": 65.72,
+     "accent": false
+    },
+    {
+     "id": "w188",
+     "i": 188,
+     "text": "ser",
+     "start": 66.04,
+     "accent": false
+    },
+    {
+     "id": "w189",
+     "i": 189,
+     "text": "una",
+     "start": 66.2,
+     "accent": false
+    },
+    {
+     "id": "w190",
+     "i": 190,
+     "text": "de",
+     "start": 66.36,
+     "accent": false
+    },
+    {
+     "id": "w191",
+     "i": 191,
+     "text": "esas",
+     "start": 66.44,
+     "accent": false
+    },
+    {
+     "id": "w192",
+     "i": 192,
+     "text": "historias.",
+     "start": 66.6,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "C8",
+   "block": "C",
+   "scale": "display",
+   "rule": false,
+   "text": "Esta puede ser tu historia.",
+   "start": 67.36,
+   "end": 68.72,
+   "words": [
+    {
+     "id": "w193",
+     "i": 193,
+     "text": "Esta",
+     "start": 67.36,
+     "accent": false
+    },
+    {
+     "id": "w194",
+     "i": 194,
+     "text": "puede",
+     "start": 67.64,
+     "accent": false
+    },
+    {
+     "id": "w195",
+     "i": 195,
+     "text": "ser",
+     "start": 67.92,
+     "accent": false
+    },
+    {
+     "id": "w196",
+     "i": 196,
+     "text": "tu",
+     "start": 68.12,
+     "accent": true
+    },
+    {
+     "id": "w197",
+     "i": 197,
+     "text": "historia.",
+     "start": 68.28,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "C9",
+   "block": "C",
+   "scale": "colossal",
+   "rule": true,
+   "text": "¿Comenzamos?",
+   "start": 69,
+   "end": 69.44,
+   "words": [
+    {
+     "id": "w198",
+     "i": 198,
+     "text": "¿Comenzamos?",
+     "start": 69,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "block": "C",
+   "scale": "display",
+   "rule": false,
+   "text": "Solo tienes que tocar la pantalla.",
+   "start": 69.92,
+   "end": 71.36,
+   "words": [
+    {
+     "id": "w199",
+     "i": 199,
+     "text": "Solo",
+     "start": 69.92,
+     "accent": false
+    },
+    {
+     "id": "w200",
+     "i": 200,
+     "text": "tienes",
+     "start": 70.36,
+     "accent": false
+    },
+    {
+     "id": "w201",
+     "i": 201,
+     "text": "que",
+     "start": 70.56,
+     "accent": false
+    },
+    {
+     "id": "w202",
+     "i": 202,
+     "text": "tocar",
+     "start": 70.68,
+     "accent": false
+    },
+    {
+     "id": "w203",
+     "i": 203,
+     "text": "la",
+     "start": 70.88,
+     "accent": false
+    },
+    {
+     "id": "w204",
+     "i": 204,
+     "text": "pantalla.",
+     "start": 71.04,
+     "accent": true
+    }
+   ]
+  }
+ ],
+ "captions": [
+  {
+   "id": "c1",
+   "text": "Número uno, OneScreen, porque nosotros validamos la parte técnica, o",
+   "start": 19.04,
+   "end": 23.48,
+   "words": [
+    {
+     "id": "w51",
+     "i": 51,
+     "text": "Número",
+     "start": 19.04,
+     "accent": false
+    },
+    {
+     "id": "w52",
+     "i": 52,
+     "text": "uno,",
+     "start": 19.52,
+     "accent": false
+    },
+    {
+     "id": "w53",
+     "i": 53,
+     "text": "OneScreen,",
+     "start": 19.8,
+     "accent": true
+    },
+    {
+     "id": "w54",
+     "i": 54,
+     "text": "porque",
+     "start": 20.4,
+     "accent": false
+    },
+    {
+     "id": "w55",
+     "i": 55,
+     "text": "nosotros",
+     "start": 20.64,
+     "accent": false
+    },
+    {
+     "id": "w56",
+     "i": 56,
+     "text": "validamos",
+     "start": 21.72,
+     "accent": false
+    },
+    {
+     "id": "w57",
+     "i": 57,
+     "text": "la",
+     "start": 22.28,
+     "accent": false
+    },
+    {
+     "id": "w58",
+     "i": 58,
+     "text": "parte",
+     "start": 22.44,
+     "accent": false
+    },
+    {
+     "id": "w59",
+     "i": 59,
+     "text": "técnica,",
+     "start": 22.68,
+     "accent": false
+    },
+    {
+     "id": "w60",
+     "i": 60,
+     "text": "o",
+     "start": 23.32,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "text": "sea, la funcionalidad, la conectividad, la seguridad, los certificados,",
+   "start": 23.52,
+   "end": 27.64,
+   "words": [
+    {
+     "id": "w61",
+     "i": 61,
+     "text": "sea,",
+     "start": 23.52,
+     "accent": false
+    },
+    {
+     "id": "w62",
+     "i": 62,
+     "text": "la",
+     "start": 23.72,
+     "accent": false
+    },
+    {
+     "id": "w63",
+     "i": 63,
+     "text": "funcionalidad,",
+     "start": 23.92,
+     "accent": false
+    },
+    {
+     "id": "w64",
+     "i": 64,
+     "text": "la",
+     "start": 24.96,
+     "accent": false
+    },
+    {
+     "id": "w65",
+     "i": 65,
+     "text": "conectividad,",
+     "start": 25.08,
+     "accent": false
+    },
+    {
+     "id": "w66",
+     "i": 66,
+     "text": "la",
+     "start": 25.92,
+     "accent": false
+    },
+    {
+     "id": "w67",
+     "i": 67,
+     "text": "seguridad,",
+     "start": 26,
+     "accent": false
+    },
+    {
+     "id": "w68",
+     "i": 68,
+     "text": "los",
+     "start": 26.64,
+     "accent": false
+    },
+    {
+     "id": "w69",
+     "i": 69,
+     "text": "certificados,",
+     "start": 26.76,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "text": "pero trajimos a los docentes, como te digo.",
+   "start": 27.68,
+   "end": 29.36,
+   "words": [
+    {
+     "id": "w70",
+     "i": 70,
+     "text": "pero",
+     "start": 27.68,
+     "accent": false
+    },
+    {
+     "id": "w71",
+     "i": 71,
+     "text": "trajimos",
+     "start": 27.88,
+     "accent": false
+    },
+    {
+     "id": "w72",
+     "i": 72,
+     "text": "a",
+     "start": 28.4,
+     "accent": false
+    },
+    {
+     "id": "w73",
+     "i": 73,
+     "text": "los",
+     "start": 28.52,
+     "accent": false
+    },
+    {
+     "id": "w74",
+     "i": 74,
+     "text": "docentes,",
+     "start": 28.6,
+     "accent": false
+    },
+    {
+     "id": "w75",
+     "i": 75,
+     "text": "como",
+     "start": 29.04,
+     "accent": false
+    },
+    {
+     "id": "w76",
+     "i": 76,
+     "text": "te",
+     "start": 29.12,
+     "accent": false
+    },
+    {
+     "id": "w77",
+     "i": 77,
+     "text": "digo.",
+     "start": 29.24,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "text": "Hicimos el mismo proceso no solo con OneScreen, sino con otras marcas.",
+   "start": 29.4,
+   "end": 32.88,
+   "words": [
+    {
+     "id": "w78",
+     "i": 78,
+     "text": "Hicimos",
+     "start": 29.4,
+     "accent": false
+    },
+    {
+     "id": "w79",
+     "i": 79,
+     "text": "el",
+     "start": 29.88,
+     "accent": false
+    },
+    {
+     "id": "w80",
+     "i": 80,
+     "text": "mismo",
+     "start": 30.12,
+     "accent": false
+    },
+    {
+     "id": "w81",
+     "i": 81,
+     "text": "proceso",
+     "start": 30.44,
+     "accent": false
+    },
+    {
+     "id": "w82",
+     "i": 82,
+     "text": "no",
+     "start": 30.8,
+     "accent": false
+    },
+    {
+     "id": "w83",
+     "i": 83,
+     "text": "solo",
+     "start": 30.96,
+     "accent": false
+    },
+    {
+     "id": "w84",
+     "i": 84,
+     "text": "con",
+     "start": 31.16,
+     "accent": false
+    },
+    {
+     "id": "w85",
+     "i": 85,
+     "text": "OneScreen,",
+     "start": 31.32,
+     "accent": true
+    },
+    {
+     "id": "w86",
+     "i": 86,
+     "text": "sino",
+     "start": 31.76,
+     "accent": false
+    },
+    {
+     "id": "w87",
+     "i": 87,
+     "text": "con",
+     "start": 31.88,
+     "accent": false
+    },
+    {
+     "id": "w88",
+     "i": 88,
+     "text": "otras",
+     "start": 32.12,
+     "accent": false
+    },
+    {
+     "id": "w89",
+     "i": 89,
+     "text": "marcas.",
+     "start": 32.4,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "text": "El resultado fue que la forma de operar esta pantalla es más fácil que",
+   "start": 32.92,
+   "end": 36.84,
+   "words": [
+    {
+     "id": "w90",
+     "i": 90,
+     "text": "El",
+     "start": 32.92,
+     "accent": false
+    },
+    {
+     "id": "w91",
+     "i": 91,
+     "text": "resultado",
+     "start": 33,
+     "accent": false
+    },
+    {
+     "id": "w92",
+     "i": 92,
+     "text": "fue",
+     "start": 33.4,
+     "accent": false
+    },
+    {
+     "id": "w93",
+     "i": 93,
+     "text": "que",
+     "start": 33.64,
+     "accent": false
+    },
+    {
+     "id": "w94",
+     "i": 94,
+     "text": "la",
+     "start": 33.88,
+     "accent": false
+    },
+    {
+     "id": "w95",
+     "i": 95,
+     "text": "forma",
+     "start": 34.28,
+     "accent": false
+    },
+    {
+     "id": "w96",
+     "i": 96,
+     "text": "de",
+     "start": 34.6,
+     "accent": false
+    },
+    {
+     "id": "w97",
+     "i": 97,
+     "text": "operar",
+     "start": 34.72,
+     "accent": false
+    },
+    {
+     "id": "w98",
+     "i": 98,
+     "text": "esta",
+     "start": 35.2,
+     "accent": false
+    },
+    {
+     "id": "w99",
+     "i": 99,
+     "text": "pantalla",
+     "start": 35.4,
+     "accent": false
+    },
+    {
+     "id": "w100",
+     "i": 100,
+     "text": "es",
+     "start": 35.84,
+     "accent": false
+    },
+    {
+     "id": "w101",
+     "i": 101,
+     "text": "más",
+     "start": 36.12,
+     "accent": false
+    },
+    {
+     "id": "w102",
+     "i": 102,
+     "text": "fácil",
+     "start": 36.36,
+     "accent": false
+    },
+    {
+     "id": "w103",
+     "i": 103,
+     "text": "que",
+     "start": 36.64,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "text": "otras, es más intuitiva como te decían.",
+   "start": 36.88,
+   "end": 38.92,
+   "words": [
+    {
+     "id": "w104",
+     "i": 104,
+     "text": "otras,",
+     "start": 36.88,
+     "accent": false
+    },
+    {
+     "id": "w105",
+     "i": 105,
+     "text": "es",
+     "start": 37.48,
+     "accent": false
+    },
+    {
+     "id": "w106",
+     "i": 106,
+     "text": "más",
+     "start": 37.64,
+     "accent": false
+    },
+    {
+     "id": "w107",
+     "i": 107,
+     "text": "intuitiva",
+     "start": 37.72,
+     "accent": false
+    },
+    {
+     "id": "w108",
+     "i": 108,
+     "text": "como",
+     "start": 38.2,
+     "accent": false
+    },
+    {
+     "id": "w109",
+     "i": 109,
+     "text": "te",
+     "start": 38.36,
+     "accent": false
+    },
+    {
+     "id": "w110",
+     "i": 110,
+     "text": "decían.",
+     "start": 38.52,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "text": "Pero además, en algunas de las presentaciones podemos nosotros hacer",
+   "start": 38.96,
+   "end": 43.4,
+   "words": [
+    {
+     "id": "w111",
+     "i": 111,
+     "text": "Pero",
+     "start": 38.96,
+     "accent": false
+    },
+    {
+     "id": "w112",
+     "i": 112,
+     "text": "además,",
+     "start": 39.16,
+     "accent": false
+    },
+    {
+     "id": "w113",
+     "i": 113,
+     "text": "en",
+     "start": 40.04,
+     "accent": false
+    },
+    {
+     "id": "w114",
+     "i": 114,
+     "text": "algunas",
+     "start": 40.12,
+     "accent": false
+    },
+    {
+     "id": "w115",
+     "i": 115,
+     "text": "de",
+     "start": 40.44,
+     "accent": false
+    },
+    {
+     "id": "w116",
+     "i": 116,
+     "text": "las",
+     "start": 40.64,
+     "accent": false
+    },
+    {
+     "id": "w117",
+     "i": 117,
+     "text": "presentaciones",
+     "start": 40.76,
+     "accent": false
+    },
+    {
+     "id": "w118",
+     "i": 118,
+     "text": "podemos",
+     "start": 41.68,
+     "accent": false
+    },
+    {
+     "id": "w119",
+     "i": 119,
+     "text": "nosotros",
+     "start": 42.08,
+     "accent": false
+    },
+    {
+     "id": "w120",
+     "i": 120,
+     "text": "hacer",
+     "start": 42.8,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "text": "anotaciones, ¿no? Y es muy interesante como que yo tenga mi computadora",
+   "start": 43.44,
+   "end": 48.12,
+   "words": [
+    {
+     "id": "w121",
+     "i": 121,
+     "text": "anotaciones,",
+     "start": 43.44,
+     "accent": false
+    },
+    {
+     "id": "w122",
+     "i": 122,
+     "text": "¿no?",
+     "start": 44.68,
+     "accent": false
+    },
+    {
+     "id": "w123",
+     "i": 123,
+     "text": "Y",
+     "start": 45,
+     "accent": false
+    },
+    {
+     "id": "w124",
+     "i": 124,
+     "text": "es",
+     "start": 45.28,
+     "accent": false
+    },
+    {
+     "id": "w125",
+     "i": 125,
+     "text": "muy",
+     "start": 45.4,
+     "accent": false
+    },
+    {
+     "id": "w126",
+     "i": 126,
+     "text": "interesante",
+     "start": 45.52,
+     "accent": false
+    },
+    {
+     "id": "w127",
+     "i": 127,
+     "text": "como",
+     "start": 46.12,
+     "accent": false
+    },
+    {
+     "id": "w128",
+     "i": 128,
+     "text": "que",
+     "start": 46.52,
+     "accent": false
+    },
+    {
+     "id": "w129",
+     "i": 129,
+     "text": "yo",
+     "start": 46.8,
+     "accent": false
+    },
+    {
+     "id": "w130",
+     "i": 130,
+     "text": "tenga",
+     "start": 46.96,
+     "accent": false
+    },
+    {
+     "id": "w131",
+     "i": 131,
+     "text": "mi",
+     "start": 47.24,
+     "accent": false
+    },
+    {
+     "id": "w132",
+     "i": 132,
+     "text": "computadora",
+     "start": 47.44,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "text": "y yo estoy pasando algo, aumentan la imagen y entonces se puede",
+   "start": 48.16,
+   "end": 52.24,
+   "words": [
+    {
+     "id": "w133",
+     "i": 133,
+     "text": "y",
+     "start": 48.16,
+     "accent": false
+    },
+    {
+     "id": "w134",
+     "i": 134,
+     "text": "yo",
+     "start": 48.32,
+     "accent": false
+    },
+    {
+     "id": "w135",
+     "i": 135,
+     "text": "estoy",
+     "start": 48.4,
+     "accent": false
+    },
+    {
+     "id": "w136",
+     "i": 136,
+     "text": "pasando",
+     "start": 48.48,
+     "accent": false
+    },
+    {
+     "id": "w137",
+     "i": 137,
+     "text": "algo,",
+     "start": 48.88,
+     "accent": false
+    },
+    {
+     "id": "w138",
+     "i": 138,
+     "text": "aumentan",
+     "start": 49.76,
+     "accent": false
+    },
+    {
+     "id": "w139",
+     "i": 139,
+     "text": "la",
+     "start": 50.32,
+     "accent": false
+    },
+    {
+     "id": "w140",
+     "i": 140,
+     "text": "imagen",
+     "start": 50.48,
+     "accent": false
+    },
+    {
+     "id": "w141",
+     "i": 141,
+     "text": "y",
+     "start": 51,
+     "accent": false
+    },
+    {
+     "id": "w142",
+     "i": 142,
+     "text": "entonces",
+     "start": 51.6,
+     "accent": false
+    },
+    {
+     "id": "w143",
+     "i": 143,
+     "text": "se",
+     "start": 51.76,
+     "accent": false
+    },
+    {
+     "id": "w144",
+     "i": 144,
+     "text": "puede",
+     "start": 52.04,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "text": "escribir, poner información con el lapicero este.",
+   "start": 52.28,
+   "end": 55.56,
+   "words": [
+    {
+     "id": "w145",
+     "i": 145,
+     "text": "escribir,",
+     "start": 52.28,
+     "accent": false
+    },
+    {
+     "id": "w146",
+     "i": 146,
+     "text": "poner",
+     "start": 53.08,
+     "accent": false
+    },
+    {
+     "id": "w147",
+     "i": 147,
+     "text": "información",
+     "start": 53.24,
+     "accent": false
+    },
+    {
+     "id": "w148",
+     "i": 148,
+     "text": "con",
+     "start": 53.92,
+     "accent": false
+    },
+    {
+     "id": "w149",
+     "i": 149,
+     "text": "el",
+     "start": 54.64,
+     "accent": false
+    },
+    {
+     "id": "w150",
+     "i": 150,
+     "text": "lapicero",
+     "start": 54.8,
+     "accent": false
+    },
+    {
+     "id": "w151",
+     "i": 151,
+     "text": "este.",
+     "start": 55.28,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c11",
+   "text": "Ya no es un lujo tener unas PDI, unas pantallas digitales interactivas y",
+   "start": 55.6,
+   "end": 59.8,
+   "words": [
+    {
+     "id": "w152",
+     "i": 152,
+     "text": "Ya",
+     "start": 55.6,
+     "accent": false
+    },
+    {
+     "id": "w153",
+     "i": 153,
+     "text": "no",
+     "start": 56.2,
+     "accent": false
+    },
+    {
+     "id": "w154",
+     "i": 154,
+     "text": "es",
+     "start": 56.36,
+     "accent": false
+    },
+    {
+     "id": "w155",
+     "i": 155,
+     "text": "un",
+     "start": 56.52,
+     "accent": false
+    },
+    {
+     "id": "w156",
+     "i": 156,
+     "text": "lujo",
+     "start": 56.64,
+     "accent": false
+    },
+    {
+     "id": "w157",
+     "i": 157,
+     "text": "tener",
+     "start": 57,
+     "accent": false
+    },
+    {
+     "id": "w158",
+     "i": 158,
+     "text": "unas",
+     "start": 57.52,
+     "accent": false
+    },
+    {
+     "id": "w159",
+     "i": 159,
+     "text": "PDI,",
+     "start": 57.8,
+     "accent": false
+    },
+    {
+     "id": "w160",
+     "i": 160,
+     "text": "unas",
+     "start": 58.2,
+     "accent": false
+    },
+    {
+     "id": "w161",
+     "i": 161,
+     "text": "pantallas",
+     "start": 58.32,
+     "accent": false
+    },
+    {
+     "id": "w162",
+     "i": 162,
+     "text": "digitales",
+     "start": 58.72,
+     "accent": false
+    },
+    {
+     "id": "w163",
+     "i": 163,
+     "text": "interactivas",
+     "start": 59.2,
+     "accent": false
+    },
+    {
+     "id": "w164",
+     "i": 164,
+     "text": "y",
+     "start": 59.68,
+     "accent": false
+    }
+   ]
+  },
+  {
+   "id": "c12",
+   "text": "sobre todo de la calidad de OneScreen.",
+   "start": 59.84,
+   "end": 61.36,
+   "words": [
+    {
+     "id": "w165",
+     "i": 165,
+     "text": "sobre",
+     "start": 59.84,
+     "accent": false
+    },
+    {
+     "id": "w166",
+     "i": 166,
+     "text": "todo",
+     "start": 60.04,
+     "accent": false
+    },
+    {
+     "id": "w167",
+     "i": 167,
+     "text": "de",
+     "start": 60.28,
+     "accent": false
+    },
+    {
+     "id": "w168",
+     "i": 168,
+     "text": "la",
+     "start": 60.4,
+     "accent": false
+    },
+    {
+     "id": "w169",
+     "i": 169,
+     "text": "calidad",
+     "start": 60.44,
+     "accent": false
+    },
+    {
+     "id": "w170",
+     "i": 170,
+     "text": "de",
+     "start": 60.72,
+     "accent": false
+    },
+    {
+     "id": "w171",
+     "i": 171,
+     "text": "OneScreen.",
+     "start": 60.84,
+     "accent": true
+    }
+   ]
+  },
+  {
+   "id": "c13",
+   "text": "Ya no es un lujo, es una necesidad.",
+   "start": 61.4,
+   "end": 63.56,
+   "words": [
+    {
+     "id": "w172",
+     "i": 172,
+     "text": "Ya",
+     "start": 61.4,
+     "accent": false
+    },
+    {
+     "id": "w173",
+     "i": 173,
+     "text": "no",
+     "start": 61.56,
+     "accent": false
+    },
+    {
+     "id": "w174",
+     "i": 174,
+     "text": "es",
+     "start": 61.64,
+     "accent": false
+    },
+    {
+     "id": "w175",
+     "i": 175,
+     "text": "un",
+     "start": 61.76,
+     "accent": false
+    },
+    {
+     "id": "w176",
+     "i": 176,
+     "text": "lujo,",
+     "start": 61.84,
+     "accent": false
+    },
+    {
+     "id": "w177",
+     "i": 177,
+     "text": "es",
+     "start": 62.08,
+     "accent": false
+    },
+    {
+     "id": "w178",
+     "i": 178,
+     "text": "una",
+     "start": 62.16,
+     "accent": false
+    },
+    {
+     "id": "w179",
+     "i": 179,
+     "text": "necesidad.",
+     "start": 62.32,
+     "accent": false
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "Hace",
+   "start": 1.64,
+   "end": 2.16
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "15",
+   "start": 2.12,
+   "end": 2.4
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "años",
+   "start": 2.4,
+   "end": 2.76
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "nos",
+   "start": 2.72,
+   "end": 3.08
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "hicimos",
+   "start": 3.04,
+   "end": 3.4
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "una",
+   "start": 3.36,
+   "end": 3.56
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "pregunta",
+   "start": 3.56,
+   "end": 3.96
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "simple,",
+   "start": 3.92,
+   "end": 4.4
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "¿Y",
+   "start": 4.6,
+   "end": 4.84
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "si",
+   "start": 4.84,
+   "end": 4.96
+  },
+  {
+   "i": 10,
+   "src": 10,
+   "text": "una",
+   "start": 4.96,
+   "end": 5.16
+  },
+  {
+   "i": 11,
+   "src": 11,
+   "text": "pantalla",
+   "start": 5.12,
+   "end": 5.52
+  },
+  {
+   "i": 12,
+   "src": 12,
+   "text": "pudiera",
+   "start": 5.52,
+   "end": 5.88
+  },
+  {
+   "i": 13,
+   "src": 13,
+   "text": "enseñar",
+   "start": 5.88,
+   "end": 6.24
+  },
+  {
+   "i": 14,
+   "src": 14,
+   "text": "tanto",
+   "start": 6.24,
+   "end": 6.68
+  },
+  {
+   "i": 15,
+   "src": 15,
+   "text": "como",
+   "start": 6.64,
+   "end": 7
+  },
+  {
+   "i": 16,
+   "src": 16,
+   "text": "la",
+   "start": 6.96,
+   "end": 7.12
+  },
+  {
+   "i": 17,
+   "src": 17,
+   "text": "persona",
+   "start": 7.12,
+   "end": 7.52
+  },
+  {
+   "i": 18,
+   "src": 18,
+   "text": "frente",
+   "start": 7.48,
+   "end": 7.8
+  },
+  {
+   "i": 19,
+   "src": 19,
+   "text": "a",
+   "start": 7.8,
+   "end": 7.96
+  },
+  {
+   "i": 20,
+   "src": 20,
+   "text": "ella?",
+   "start": 7.92,
+   "end": 8.16
+  },
+  {
+   "i": 21,
+   "src": 21,
+   "text": "Hasta",
+   "start": 8.56,
+   "end": 8.88
+  },
+  {
+   "i": 22,
+   "src": 22,
+   "text": "hoy",
+   "start": 8.84,
+   "end": 9.16
+  },
+  {
+   "i": 23,
+   "src": 23,
+   "text": "seguimos",
+   "start": 9.12,
+   "end": 9.68
+  },
+  {
+   "i": 24,
+   "src": 24,
+   "text": "respondiéndola.",
+   "start": 9.68,
+   "end": 10.36
+  },
+  {
+   "i": 25,
+   "src": 25,
+   "text": "Y",
+   "start": 10.68,
+   "end": 10.96
+  },
+  {
+   "i": 26,
+   "src": 26,
+   "text": "hoy,",
+   "start": 10.96,
+   "end": 11.2
+  },
+  {
+   "i": 27,
+   "src": 27,
+   "text": "esa",
+   "start": 11.32,
+   "end": 11.72
+  },
+  {
+   "i": 28,
+   "src": 28,
+   "text": "pregunta",
+   "start": 11.72,
+   "end": 12.08
+  },
+  {
+   "i": 29,
+   "src": 29,
+   "text": "ya",
+   "start": 12.04,
+   "end": 12.28
+  },
+  {
+   "i": 30,
+   "src": 30,
+   "text": "tiene",
+   "start": 12.28,
+   "end": 12.52
+  },
+  {
+   "i": 31,
+   "src": 31,
+   "text": "una",
+   "start": 12.52,
+   "end": 12.68
+  },
+  {
+   "i": 32,
+   "src": 32,
+   "text": "respuesta",
+   "start": 12.64,
+   "end": 13.12
+  },
+  {
+   "i": 33,
+   "src": 33,
+   "text": "en",
+   "start": 13.08,
+   "end": 13.4
+  },
+  {
+   "i": 34,
+   "src": 34,
+   "text": "más",
+   "start": 13.4,
+   "end": 13.6
+  },
+  {
+   "i": 35,
+   "src": 35,
+   "text": "de",
+   "start": 13.6,
+   "end": 13.72
+  },
+  {
+   "i": 36,
+   "src": 36,
+   "text": "50",
+   "start": 13.72,
+   "end": 14.2
+  },
+  {
+   "i": 37,
+   "src": 37,
+   "text": "países.",
+   "start": 14.2,
+   "end": 14.76
+  },
+  {
+   "i": 38,
+   "src": 38,
+   "text": "Miles",
+   "start": 15.24,
+   "end": 15.44
+  },
+  {
+   "i": 39,
+   "src": 39,
+   "text": "de",
+   "start": 15.44,
+   "end": 15.6
+  },
+  {
+   "i": 40,
+   "src": 40,
+   "text": "instituciones",
+   "start": 15.6,
+   "end": 16.12
+  },
+  {
+   "i": 41,
+   "src": 41,
+   "text": "saben",
+   "start": 16.08,
+   "end": 16.4
+  },
+  {
+   "i": 42,
+   "src": 42,
+   "text": "lo",
+   "start": 16.36,
+   "end": 16.56
+  },
+  {
+   "i": 43,
+   "src": 43,
+   "text": "que",
+   "start": 16.52,
+   "end": 16.72
+  },
+  {
+   "i": 44,
+   "src": 44,
+   "text": "es.",
+   "start": 16.68,
+   "end": 16.96
+  },
+  {
+   "i": 45,
+   "src": 45,
+   "text": "Esto",
+   "start": 17.16,
+   "end": 17.64
+  },
+  {
+   "i": 46,
+   "src": 46,
+   "text": "es",
+   "start": 17.64,
+   "end": 17.84
+  },
+  {
+   "i": 47,
+   "src": 47,
+   "text": "lo",
+   "start": 17.84,
+   "end": 17.96
+  },
+  {
+   "i": 48,
+   "src": 48,
+   "text": "que",
+   "start": 17.96,
+   "end": 18.08
+  },
+  {
+   "i": 49,
+   "src": 49,
+   "text": "dicen",
+   "start": 18.04,
+   "end": 18.32
+  },
+  {
+   "i": 50,
+   "src": 50,
+   "text": "algunos.",
+   "start": 18.28,
+   "end": 18.72
+  },
+  {
+   "i": 51,
+   "src": 51,
+   "text": "Número",
+   "start": 19.04,
+   "end": 19.56
+  },
+  {
+   "i": 52,
+   "src": 52,
+   "text": "uno,",
+   "start": 19.52,
+   "end": 19.8
+  },
+  {
+   "i": 53,
+   "src": 53,
+   "text": "OneScreen,",
+   "start": 19.8,
+   "end": 20.24
+  },
+  {
+   "i": 54,
+   "src": 55,
+   "text": "porque",
+   "start": 20.4,
+   "end": 20.68
+  },
+  {
+   "i": 55,
+   "src": 56,
+   "text": "nosotros",
+   "start": 20.64,
+   "end": 21.76
+  },
+  {
+   "i": 56,
+   "src": 57,
+   "text": "validamos",
+   "start": 21.72,
+   "end": 22.32
+  },
+  {
+   "i": 57,
+   "src": 58,
+   "text": "la",
+   "start": 22.28,
+   "end": 22.44
+  },
+  {
+   "i": 58,
+   "src": 59,
+   "text": "parte",
+   "start": 22.44,
+   "end": 22.72
+  },
+  {
+   "i": 59,
+   "src": 60,
+   "text": "técnica,",
+   "start": 22.68,
+   "end": 23.16
+  },
+  {
+   "i": 60,
+   "src": 61,
+   "text": "o",
+   "start": 23.32,
+   "end": 23.56
+  },
+  {
+   "i": 61,
+   "src": 62,
+   "text": "sea,",
+   "start": 23.52,
+   "end": 23.64
+  },
+  {
+   "i": 62,
+   "src": 63,
+   "text": "la",
+   "start": 23.72,
+   "end": 23.92
+  },
+  {
+   "i": 63,
+   "src": 64,
+   "text": "funcionalidad,",
+   "start": 23.92,
+   "end": 24.6
+  },
+  {
+   "i": 64,
+   "src": 65,
+   "text": "la",
+   "start": 24.96,
+   "end": 25.12
+  },
+  {
+   "i": 65,
+   "src": 66,
+   "text": "conectividad,",
+   "start": 25.08,
+   "end": 25.72
+  },
+  {
+   "i": 66,
+   "src": 67,
+   "text": "la",
+   "start": 25.92,
+   "end": 26
+  },
+  {
+   "i": 67,
+   "src": 68,
+   "text": "seguridad,",
+   "start": 26,
+   "end": 26.48
+  },
+  {
+   "i": 68,
+   "src": 69,
+   "text": "los",
+   "start": 26.64,
+   "end": 26.76
+  },
+  {
+   "i": 69,
+   "src": 70,
+   "text": "certificados,",
+   "start": 26.76,
+   "end": 27.52
+  },
+  {
+   "i": 70,
+   "src": 71,
+   "text": "pero",
+   "start": 27.68,
+   "end": 27.92
+  },
+  {
+   "i": 71,
+   "src": 72,
+   "text": "trajimos",
+   "start": 27.88,
+   "end": 28.44
+  },
+  {
+   "i": 72,
+   "src": 73,
+   "text": "a",
+   "start": 28.4,
+   "end": 28.52
+  },
+  {
+   "i": 73,
+   "src": 74,
+   "text": "los",
+   "start": 28.52,
+   "end": 28.64
+  },
+  {
+   "i": 74,
+   "src": 75,
+   "text": "docentes,",
+   "start": 28.6,
+   "end": 28.96
+  },
+  {
+   "i": 75,
+   "src": 76,
+   "text": "como",
+   "start": 29.04,
+   "end": 29.12
+  },
+  {
+   "i": 76,
+   "src": 77,
+   "text": "te",
+   "start": 29.12,
+   "end": 29.28
+  },
+  {
+   "i": 77,
+   "src": 78,
+   "text": "digo.",
+   "start": 29.24,
+   "end": 29.44
+  },
+  {
+   "i": 78,
+   "src": 79,
+   "text": "Hicimos",
+   "start": 29.4,
+   "end": 29.92
+  },
+  {
+   "i": 79,
+   "src": 80,
+   "text": "el",
+   "start": 29.88,
+   "end": 30.12
+  },
+  {
+   "i": 80,
+   "src": 81,
+   "text": "mismo",
+   "start": 30.12,
+   "end": 30.44
+  },
+  {
+   "i": 81,
+   "src": 82,
+   "text": "proceso",
+   "start": 30.44,
+   "end": 30.84
+  },
+  {
+   "i": 82,
+   "src": 83,
+   "text": "no",
+   "start": 30.8,
+   "end": 30.96
+  },
+  {
+   "i": 83,
+   "src": 84,
+   "text": "solo",
+   "start": 30.96,
+   "end": 31.16
+  },
+  {
+   "i": 84,
+   "src": 85,
+   "text": "con",
+   "start": 31.16,
+   "end": 31.32
+  },
+  {
+   "i": 85,
+   "src": 86,
+   "text": "OneScreen,",
+   "start": 31.32,
+   "end": 31.68
+  },
+  {
+   "i": 86,
+   "src": 88,
+   "text": "sino",
+   "start": 31.76,
+   "end": 31.92
+  },
+  {
+   "i": 87,
+   "src": 89,
+   "text": "con",
+   "start": 31.88,
+   "end": 32.16
+  },
+  {
+   "i": 88,
+   "src": 90,
+   "text": "otras",
+   "start": 32.12,
+   "end": 32.4
+  },
+  {
+   "i": 89,
+   "src": 91,
+   "text": "marcas.",
+   "start": 32.4,
+   "end": 32.8
+  },
+  {
+   "i": 90,
+   "src": 92,
+   "text": "El",
+   "start": 32.92,
+   "end": 33.04
+  },
+  {
+   "i": 91,
+   "src": 93,
+   "text": "resultado",
+   "start": 33,
+   "end": 33.4
+  },
+  {
+   "i": 92,
+   "src": 94,
+   "text": "fue",
+   "start": 33.4,
+   "end": 33.68
+  },
+  {
+   "i": 93,
+   "src": 95,
+   "text": "que",
+   "start": 33.64,
+   "end": 33.92
+  },
+  {
+   "i": 94,
+   "src": 96,
+   "text": "la",
+   "start": 33.88,
+   "end": 34.32
+  },
+  {
+   "i": 95,
+   "src": 97,
+   "text": "forma",
+   "start": 34.28,
+   "end": 34.6
+  },
+  {
+   "i": 96,
+   "src": 98,
+   "text": "de",
+   "start": 34.6,
+   "end": 34.76
+  },
+  {
+   "i": 97,
+   "src": 99,
+   "text": "operar",
+   "start": 34.72,
+   "end": 35.2
+  },
+  {
+   "i": 98,
+   "src": 100,
+   "text": "esta",
+   "start": 35.2,
+   "end": 35.44
+  },
+  {
+   "i": 99,
+   "src": 101,
+   "text": "pantalla",
+   "start": 35.4,
+   "end": 35.88
+  },
+  {
+   "i": 100,
+   "src": 102,
+   "text": "es",
+   "start": 35.84,
+   "end": 36.16
+  },
+  {
+   "i": 101,
+   "src": 103,
+   "text": "más",
+   "start": 36.12,
+   "end": 36.36
+  },
+  {
+   "i": 102,
+   "src": 104,
+   "text": "fácil",
+   "start": 36.36,
+   "end": 36.64
+  },
+  {
+   "i": 103,
+   "src": 105,
+   "text": "que",
+   "start": 36.64,
+   "end": 36.88
+  },
+  {
+   "i": 104,
+   "src": 106,
+   "text": "otras,",
+   "start": 36.88,
+   "end": 37.4
+  },
+  {
+   "i": 105,
+   "src": 107,
+   "text": "es",
+   "start": 37.48,
+   "end": 37.64
+  },
+  {
+   "i": 106,
+   "src": 108,
+   "text": "más",
+   "start": 37.64,
+   "end": 37.76
+  },
+  {
+   "i": 107,
+   "src": 109,
+   "text": "intuitiva",
+   "start": 37.72,
+   "end": 38.2
+  },
+  {
+   "i": 108,
+   "src": 110,
+   "text": "como",
+   "start": 38.2,
+   "end": 38.4
+  },
+  {
+   "i": 109,
+   "src": 111,
+   "text": "te",
+   "start": 38.36,
+   "end": 38.56
+  },
+  {
+   "i": 110,
+   "src": 112,
+   "text": "decían.",
+   "start": 38.52,
+   "end": 38.88
+  },
+  {
+   "i": 111,
+   "src": 113,
+   "text": "Pero",
+   "start": 38.96,
+   "end": 39.2
+  },
+  {
+   "i": 112,
+   "src": 114,
+   "text": "además,",
+   "start": 39.16,
+   "end": 39.56
+  },
+  {
+   "i": 113,
+   "src": 115,
+   "text": "en",
+   "start": 40.04,
+   "end": 40.16
+  },
+  {
+   "i": 114,
+   "src": 116,
+   "text": "algunas",
+   "start": 40.12,
+   "end": 40.48
+  },
+  {
+   "i": 115,
+   "src": 117,
+   "text": "de",
+   "start": 40.44,
+   "end": 40.68
+  },
+  {
+   "i": 116,
+   "src": 118,
+   "text": "las",
+   "start": 40.64,
+   "end": 40.8
+  },
+  {
+   "i": 117,
+   "src": 119,
+   "text": "presentaciones",
+   "start": 40.76,
+   "end": 41.72
+  },
+  {
+   "i": 118,
+   "src": 120,
+   "text": "podemos",
+   "start": 41.68,
+   "end": 42.12
+  },
+  {
+   "i": 119,
+   "src": 121,
+   "text": "nosotros",
+   "start": 42.08,
+   "end": 42.8
+  },
+  {
+   "i": 120,
+   "src": 122,
+   "text": "hacer",
+   "start": 42.8,
+   "end": 43.48
+  },
+  {
+   "i": 121,
+   "src": 123,
+   "text": "anotaciones,",
+   "start": 43.44,
+   "end": 44.52
+  },
+  {
+   "i": 122,
+   "src": 124,
+   "text": "¿no?",
+   "start": 44.68,
+   "end": 44.88
+  },
+  {
+   "i": 123,
+   "src": 125,
+   "text": "Y",
+   "start": 45,
+   "end": 45.32
+  },
+  {
+   "i": 124,
+   "src": 126,
+   "text": "es",
+   "start": 45.28,
+   "end": 45.4
+  },
+  {
+   "i": 125,
+   "src": 127,
+   "text": "muy",
+   "start": 45.4,
+   "end": 45.52
+  },
+  {
+   "i": 126,
+   "src": 128,
+   "text": "interesante",
+   "start": 45.52,
+   "end": 46.12
+  },
+  {
+   "i": 127,
+   "src": 129,
+   "text": "como",
+   "start": 46.12,
+   "end": 46.52
+  },
+  {
+   "i": 128,
+   "src": 130,
+   "text": "que",
+   "start": 46.52,
+   "end": 46.84
+  },
+  {
+   "i": 129,
+   "src": 131,
+   "text": "yo",
+   "start": 46.8,
+   "end": 46.96
+  },
+  {
+   "i": 130,
+   "src": 132,
+   "text": "tenga",
+   "start": 46.96,
+   "end": 47.28
+  },
+  {
+   "i": 131,
+   "src": 133,
+   "text": "mi",
+   "start": 47.24,
+   "end": 47.48
+  },
+  {
+   "i": 132,
+   "src": 134,
+   "text": "computadora",
+   "start": 47.44,
+   "end": 48.16
+  },
+  {
+   "i": 133,
+   "src": 135,
+   "text": "y",
+   "start": 48.16,
+   "end": 48.32
+  },
+  {
+   "i": 134,
+   "src": 136,
+   "text": "yo",
+   "start": 48.32,
+   "end": 48.44
+  },
+  {
+   "i": 135,
+   "src": 137,
+   "text": "estoy",
+   "start": 48.4,
+   "end": 48.52
+  },
+  {
+   "i": 136,
+   "src": 138,
+   "text": "pasando",
+   "start": 48.48,
+   "end": 48.88
+  },
+  {
+   "i": 137,
+   "src": 139,
+   "text": "algo,",
+   "start": 48.88,
+   "end": 49.32
+  },
+  {
+   "i": 138,
+   "src": 140,
+   "text": "aumentan",
+   "start": 49.76,
+   "end": 50.32
+  },
+  {
+   "i": 139,
+   "src": 141,
+   "text": "la",
+   "start": 50.32,
+   "end": 50.48
+  },
+  {
+   "i": 140,
+   "src": 142,
+   "text": "imagen",
+   "start": 50.48,
+   "end": 51
+  },
+  {
+   "i": 141,
+   "src": 143,
+   "text": "y",
+   "start": 51,
+   "end": 51.6
+  },
+  {
+   "i": 142,
+   "src": 144,
+   "text": "entonces",
+   "start": 51.6,
+   "end": 51.8
+  },
+  {
+   "i": 143,
+   "src": 145,
+   "text": "se",
+   "start": 51.76,
+   "end": 52.04
+  },
+  {
+   "i": 144,
+   "src": 146,
+   "text": "puede",
+   "start": 52.04,
+   "end": 52.28
+  },
+  {
+   "i": 145,
+   "src": 147,
+   "text": "escribir,",
+   "start": 52.28,
+   "end": 52.92
+  },
+  {
+   "i": 146,
+   "src": 148,
+   "text": "poner",
+   "start": 53.08,
+   "end": 53.28
+  },
+  {
+   "i": 147,
+   "src": 149,
+   "text": "información",
+   "start": 53.24,
+   "end": 53.92
+  },
+  {
+   "i": 148,
+   "src": 150,
+   "text": "con",
+   "start": 53.92,
+   "end": 54.68
+  },
+  {
+   "i": 149,
+   "src": 151,
+   "text": "el",
+   "start": 54.64,
+   "end": 54.8
+  },
+  {
+   "i": 150,
+   "src": 152,
+   "text": "lapicero",
+   "start": 54.8,
+   "end": 55.28
+  },
+  {
+   "i": 151,
+   "src": 153,
+   "text": "este.",
+   "start": 55.28,
+   "end": 55.64
+  },
+  {
+   "i": 152,
+   "src": 154,
+   "text": "Ya",
+   "start": 55.6,
+   "end": 56.2
+  },
+  {
+   "i": 153,
+   "src": 155,
+   "text": "no",
+   "start": 56.2,
+   "end": 56.36
+  },
+  {
+   "i": 154,
+   "src": 156,
+   "text": "es",
+   "start": 56.36,
+   "end": 56.52
+  },
+  {
+   "i": 155,
+   "src": 157,
+   "text": "un",
+   "start": 56.52,
+   "end": 56.68
+  },
+  {
+   "i": 156,
+   "src": 158,
+   "text": "lujo",
+   "start": 56.64,
+   "end": 57.04
+  },
+  {
+   "i": 157,
+   "src": 159,
+   "text": "tener",
+   "start": 57,
+   "end": 57.52
+  },
+  {
+   "i": 158,
+   "src": 160,
+   "text": "unas",
+   "start": 57.52,
+   "end": 57.8
+  },
+  {
+   "i": 159,
+   "src": 161,
+   "text": "PDI,",
+   "start": 57.8,
+   "end": 58.12
+  },
+  {
+   "i": 160,
+   "src": 162,
+   "text": "unas",
+   "start": 58.2,
+   "end": 58.36
+  },
+  {
+   "i": 161,
+   "src": 163,
+   "text": "pantallas",
+   "start": 58.32,
+   "end": 58.76
+  },
+  {
+   "i": 162,
+   "src": 164,
+   "text": "digitales",
+   "start": 58.72,
+   "end": 59.2
+  },
+  {
+   "i": 163,
+   "src": 165,
+   "text": "interactivas",
+   "start": 59.2,
+   "end": 59.68
+  },
+  {
+   "i": 164,
+   "src": 166,
+   "text": "y",
+   "start": 59.68,
+   "end": 59.84
+  },
+  {
+   "i": 165,
+   "src": 167,
+   "text": "sobre",
+   "start": 59.84,
+   "end": 60.04
+  },
+  {
+   "i": 166,
+   "src": 168,
+   "text": "todo",
+   "start": 60.04,
+   "end": 60.28
+  },
+  {
+   "i": 167,
+   "src": 169,
+   "text": "de",
+   "start": 60.28,
+   "end": 60.4
+  },
+  {
+   "i": 168,
+   "src": 170,
+   "text": "la",
+   "start": 60.4,
+   "end": 60.48
+  },
+  {
+   "i": 169,
+   "src": 171,
+   "text": "calidad",
+   "start": 60.44,
+   "end": 60.76
+  },
+  {
+   "i": 170,
+   "src": 172,
+   "text": "de",
+   "start": 60.72,
+   "end": 60.88
+  },
+  {
+   "i": 171,
+   "src": 173,
+   "text": "OneScreen.",
+   "start": 60.84,
+   "end": 61.28
+  },
+  {
+   "i": 172,
+   "src": 175,
+   "text": "Ya",
+   "start": 61.4,
+   "end": 61.56
+  },
+  {
+   "i": 173,
+   "src": 176,
+   "text": "no",
+   "start": 61.56,
+   "end": 61.68
+  },
+  {
+   "i": 174,
+   "src": 177,
+   "text": "es",
+   "start": 61.64,
+   "end": 61.76
+  },
+  {
+   "i": 175,
+   "src": 178,
+   "text": "un",
+   "start": 61.76,
+   "end": 61.88
+  },
+  {
+   "i": 176,
+   "src": 179,
+   "text": "lujo,",
+   "start": 61.84,
+   "end": 62.08
+  },
+  {
+   "i": 177,
+   "src": 180,
+   "text": "es",
+   "start": 62.08,
+   "end": 62.2
+  },
+  {
+   "i": 178,
+   "src": 181,
+   "text": "una",
+   "start": 62.16,
+   "end": 62.32
+  },
+  {
+   "i": 179,
+   "src": 182,
+   "text": "necesidad.",
+   "start": 62.32,
+   "end": 62.84
+  },
+  {
+   "i": 180,
+   "src": 183,
+   "text": "En",
+   "start": 63,
+   "end": 63.2
+  },
+  {
+   "i": 181,
+   "src": 184,
+   "text": "OneScreen",
+   "start": 63.16,
+   "end": 63.64
+  },
+  {
+   "i": 182,
+   "src": 186,
+   "text": "amamos",
+   "start": 63.64,
+   "end": 64.44
+  },
+  {
+   "i": 183,
+   "src": 187,
+   "text": "contar",
+   "start": 64.44,
+   "end": 64.72
+  },
+  {
+   "i": 184,
+   "src": 188,
+   "text": "historias",
+   "start": 64.72,
+   "end": 65.32
+  },
+  {
+   "i": 185,
+   "src": 189,
+   "text": "y",
+   "start": 65.28,
+   "end": 65.6
+  },
+  {
+   "i": 186,
+   "src": 190,
+   "text": "tú",
+   "start": 65.56,
+   "end": 65.72
+  },
+  {
+   "i": 187,
+   "src": 191,
+   "text": "puedes",
+   "start": 65.72,
+   "end": 66.08
+  },
+  {
+   "i": 188,
+   "src": 192,
+   "text": "ser",
+   "start": 66.04,
+   "end": 66.24
+  },
+  {
+   "i": 189,
+   "src": 193,
+   "text": "una",
+   "start": 66.2,
+   "end": 66.36
+  },
+  {
+   "i": 190,
+   "src": 194,
+   "text": "de",
+   "start": 66.36,
+   "end": 66.48
+  },
+  {
+   "i": 191,
+   "src": 195,
+   "text": "esas",
+   "start": 66.44,
+   "end": 66.64
+  },
+  {
+   "i": 192,
+   "src": 196,
+   "text": "historias.",
+   "start": 66.6,
+   "end": 67.08
+  },
+  {
+   "i": 193,
+   "src": 197,
+   "text": "Esta",
+   "start": 67.36,
+   "end": 67.64
+  },
+  {
+   "i": 194,
+   "src": 198,
+   "text": "puede",
+   "start": 67.64,
+   "end": 67.92
+  },
+  {
+   "i": 195,
+   "src": 199,
+   "text": "ser",
+   "start": 67.92,
+   "end": 68.16
+  },
+  {
+   "i": 196,
+   "src": 200,
+   "text": "tu",
+   "start": 68.12,
+   "end": 68.32
+  },
+  {
+   "i": 197,
+   "src": 201,
+   "text": "historia.",
+   "start": 68.28,
+   "end": 68.72
+  },
+  {
+   "i": 198,
+   "src": 202,
+   "text": "¿Comenzamos?",
+   "start": 69,
+   "end": 69.44
+  },
+  {
+   "i": 199,
+   "src": 203,
+   "text": "Solo",
+   "start": 69.92,
+   "end": 70.36
+  },
+  {
+   "i": 200,
+   "src": 204,
+   "text": "tienes",
+   "start": 70.36,
+   "end": 70.6
+  },
+  {
+   "i": 201,
+   "src": 205,
+   "text": "que",
+   "start": 70.56,
+   "end": 70.72
+  },
+  {
+   "i": 202,
+   "src": 206,
+   "text": "tocar",
+   "start": 70.68,
+   "end": 70.92
+  },
+  {
+   "i": 203,
+   "src": 207,
+   "text": "la",
+   "start": 70.88,
+   "end": 71.08
+  },
+  {
+   "i": 204,
+   "src": 208,
+   "text": "pantalla.",
+   "start": 71.04,
+   "end": 71.36
+  }
+ ]
+}

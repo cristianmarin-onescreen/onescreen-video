@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>metas</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        /* Todos los cuadros comparten centro óptico: un cuadro de una línea y otro de cuatro
+           se leen sobre el mismo eje. Se centra con grid, NO con un margen negativo del 50%:
+           los porcentajes de margin se resuelven contra el ANCHO del contenedor, así que
+           -50% en un bloque de 86cqw empujaba el texto 1651 px fuera del cuadro. */
+        .beat {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 7cqw;
+          opacity: 0;
+        }
+        .beat > .inner {
+          display: block;
+          max-width: 86cqw;
+          text-align: center;
+          margin-top: -1.4cqh;   /* levante óptico */
+        }
+        .ln { display: block; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #3976ff; }
+
+        /* Escalones. La rampa es más contrastada que la del manifiesto: el salto de sub a
+           mega es de 3.3x, no de 2.3x. Es lo que hace que un cuadro con tres escalas se lea
+           como jerarquía y no como desorden. */
+        .s-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.24; letter-spacing: -0.008em; }
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.12; letter-spacing: -0.020em; }
+        .s-display  { font-size: 7.0cqw;  font-weight: 600; line-height: 1.04; letter-spacing: -0.028em; }
+        .s-mega     { font-size: 10.0cqw; font-weight: 800; line-height: 0.98; letter-spacing: -0.035em; }
+        .s-colossal { font-size: 11.5cqw; font-weight: 800; line-height: 0.96; letter-spacing: -0.040em; }
+
+        /* Las versalitas piden tracking ABIERTO, no negativo: en caja alta el tracking
+           cerrado junta los astas verticales y la palabra se emplasta. */
+        .caps { text-transform: uppercase; }
+        .caps.s-sub      { letter-spacing: 0.16em; font-weight: 600; }
+        .caps.s-phrase   { letter-spacing: 0.02em; }
+        .caps.s-display  { letter-spacing: 0.000em; }
+        .caps.s-mega     { letter-spacing: -0.012em; }
+        .caps.s-colossal { letter-spacing: -0.018em; }
+
+        /* Separación entre líneas de distinto escalón dentro de un cuadro. */
+        .ln + .ln { margin-top: 0.5cqh; }
+        .ln.s-sub + .ln.s-mega,
+        .ln.s-sub + .ln.s-colossal,
+        .ln.s-sub + .ln.s-display { margin-top: 1.1cqh; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="metas"
+        data-width="3840"
+        data-height="2160"
+        data-duration="58.28"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat" id="i1">
+          <span class="inner">
+            <span class="ln s-phrase"><span class="w" id="i1-w0_0">Já</span> <span class="w" id="i1-w0_1">contamos</span> <span class="w" id="i1-w0_2">a</span> <span class="w" id="i1-w0_3">nossa</span> <span class="w" id="i1-w0_4">história.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="i2">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="i2-w0_0">Agora</span> <span class="w" id="i2-w0_1">vamos</span> <span class="w" id="i2-w0_2">contar</span> <span class="w" id="i2-w0_3">as</span> <span class="w" id="i2-w0_4">nossas</span> <span class="w" id="i2-w0_5">metas.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="i3">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="i3-w0_0">Preparado?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="h1">
+          <span class="inner">
+            <span class="ln s-sub caps accent"><span class="w" id="h1-w0_0">Primeiro,</span></span>
+            <span class="ln s-mega caps"><span class="w" id="h1-w1_0">salas</span> <span class="w" id="h1-w1_1">de</span> <span class="w" id="h1-w1_2">aula</span> <span class="w" id="h1-w1_3">interativas.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c1a">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c1a-w0_0">Para</span> <span class="w" id="c1a-w0_1">os</span> <span class="w" id="c1a-w0_2">nativos</span> <span class="w" id="c1a-w0_3">digitais,</span></span>
+            <span class="ln s-display caps"><span class="w" id="c1a-w1_0">telas</span> <span class="w" id="c1a-w1_1">digitais.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c1b">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c1b-w0_0">Lousas</span> <span class="w" id="c1b-w0_1">infinitas.</span></span>
+            <span class="ln s-display"><span class="w" id="c1b-w1_0">Simuladores</span> <span class="w" id="c1b-w1_1">interativos.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="h2">
+          <span class="inner">
+            <span class="ln s-sub caps accent"><span class="w" id="h2-w0_0">Segundo,</span></span>
+            <span class="ln s-mega caps"><span class="w" id="h2-w1_0">salas</span> <span class="w" id="h2-w1_1">de</span> <span class="w" id="h2-w1_2">reunião.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c2a">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c2a-w0_0">Onde</span> <span class="w" id="c2a-w0_1">quatro</span> <span class="w" id="c2a-w0_2">dispositivos</span></span>
+            <span class="ln s-display caps"><span class="w" id="c2a-w1_0">viram</span> <span class="w" id="c2a-w1_1">um</span> <span class="w" id="c2a-w1_2">só.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c2b">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c2b-w0_0">Imagem</span> <span class="w" id="c2b-w0_1">nítida,</span></span>
+            <span class="ln s-display"><span class="w" id="c2b-w1_0">som</span> <span class="w" id="c2b-w1_1">envolvente.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c2c">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c2c-w0_0">Uma</span> <span class="w" id="c2c-w0_1">equipe</span> <span class="w" id="c2c-w0_2">mais</span> <span class="w" id="c2c-w0_3">unida,</span></span>
+            <span class="ln s-sub"><span class="w" id="c2c-w1_0">mesmo</span> <span class="w" id="c2c-w1_1">em</span> <span class="w" id="c2c-w1_2">pontos</span> <span class="w" id="c2c-w1_3">diferentes</span> <span class="w" id="c2c-w1_4">do</span> <span class="w" id="c2c-w1_5">mundo.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="h3">
+          <span class="inner">
+            <span class="ln s-sub caps accent"><span class="w" id="h3-w0_0">Terceiro,</span></span>
+            <span class="ln s-mega caps"><span class="w" id="h3-w1_0">inteligência</span> <span class="w" id="h3-w1_1">artificial.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c3a">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c3a-w0_0">O</span> <span class="w" id="c3a-w0_1">que</span> <span class="w" id="c3a-w0_2">antes</span> <span class="w" id="c3a-w0_3">levava</span> <span class="w" id="c3a-w0_4">para</span> <span class="w" id="c3a-w0_5">um</span> <span class="w" id="c3a-w0_6">professor</span></span>
+            <span class="ln s-display caps"><span class="w" id="c3a-w1_0">cinco</span> <span class="w" id="c3a-w1_1">horas,</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c3b">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c3b-w0_0">agora</span> <span class="w" id="c3b-w0_1">leva</span> <span class="w" id="c3b-w0_2">só</span></span>
+            <span class="ln s-display caps accent"><span class="w" id="c3b-w1_0">cinco</span> <span class="w" id="c3b-w1_1">minutos.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c3c">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c3c-w0_0">Aulas</span> <span class="w" id="c3c-w0_1">que</span> <span class="w" id="c3c-w0_2">se</span> <span class="w" id="c3c-w0_3">planejam</span> <span class="w" id="c3c-w0_4">em</span> <span class="w" id="c3c-w0_5">segundos.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c3d">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c3d-w0_0">Suas</span> <span class="w" id="c3d-w0_1">aulas</span> <span class="w" id="c3d-w0_2">em</span> <span class="w" id="c3d-w0_3">qualquer</span> <span class="w" id="c3d-w0_4">idioma.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c3e">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c3e-w0_0">Avaliações</span> <span class="w" id="c3e-w0_1">que</span> <span class="w" id="c3e-w0_2">se</span> <span class="w" id="c3e-w0_3">criam</span> <span class="w" id="c3e-w0_4">sozinhas.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="h4">
+          <span class="inner">
+            <span class="ln s-sub caps accent"><span class="w" id="h4-w0_0">Quarto,</span></span>
+            <span class="ln s-sub"><span class="w" id="h4-w1_0">um</span> <span class="w" id="h4-w1_1">formato</span></span>
+            <span class="ln s-colossal caps"><span class="w" id="h4-w2_0">graaaaaande.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c4a">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c4a-w0_0">Porque</span> <span class="w" id="c4a-w0_1">grandes</span> <span class="w" id="c4a-w0_2">ideias</span></span>
+            <span class="ln s-display caps"><span class="w" id="c4a-w1_0">pedem</span> <span class="w" id="c4a-w1_1">grandes</span> <span class="w" id="c4a-w1_2">telas.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c4b">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c4b-w0_0">Tem</span> <span class="w" id="c4b-w0_1">coisa</span> <span class="w" id="c4b-w0_2">que</span> <span class="w" id="c4b-w0_3">precisa</span> <span class="w" id="c4b-w0_4">ser</span> <span class="w" id="c4b-w0_5">vista</span></span>
+            <span class="ln s-display caps"><span class="w" id="c4b-w1_0">e</span> <span class="w" id="c4b-w1_1">feita</span> <span class="w" id="c4b-w1_2">em</span> <span class="w" id="c4b-w1_3">grande.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c4c">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c4c-w0_0">Telas</span> <span class="w" id="c4c-w0_1">LED</span> <span class="w" id="c4c-w0_2">de</span> <span class="w" id="c4c-w0_3">grande</span> <span class="w" id="c4c-w0_4">formato</span></span>
+            <span class="ln s-sub"><span class="w" id="c4c-w1_0">para</span> <span class="w" id="c4c-w1_1">experiências</span> <span class="w" id="c4c-w1_2">realmente</span> <span class="w" id="c4c-w1_3">únicas,</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c4d">
+          <span class="inner">
+            <span class="ln s-sub caps"><span class="w" id="c4d-w0_0">De</span></span>
+            <span class="ln s-colossal"><span class="w" id="c4d-w1_0">108"</span> <span class="w" id="c4d-w1_1">a</span> <span class="w" id="c4d-w1_2">217".</span></span>
+          </span>
+        </div>
+        <div class="beat" id="h5">
+          <span class="inner">
+            <span class="ln s-sub caps accent"><span class="w" id="h5-w0_0">E</span> <span class="w" id="h5-w0_1">quinto,</span></span>
+            <span class="ln s-mega caps"><span class="w" id="h5-w1_0">a</span> <span class="w" id="h5-w1_1">mais</span> <span class="w" id="h5-w1_2">importante,</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c5a">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="c5a-w0_0">Que</span> <span class="w" id="c5a-w0_1">você</span> <span class="w" id="c5a-w0_2">veja</span> <span class="w" id="c5a-w0_3">com</span> <span class="w" id="c5a-w0_4">os</span> <span class="w" id="c5a-w0_5">seus</span> <span class="w" id="c5a-w0_6">próprios</span> <span class="w" id="c5a-w0_7">olhos.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="c5b">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="c5b-w0_0">É</span> <span class="w" id="c5b-w0_1">só</span> <span class="w" id="c5b-w0_2">tocar</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="c5b-w1_0">na</span> <span class="w" id="c5b-w1_1">tela.</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 62 }, { y: 0, duration: 0.17, ease: "power4.out", immediateRender: false }, t);
+        }
+
+        // i1 — Já contamos a nossa história.
+        tl.set("#i1", { opacity: 1 }, -0.02);
+        word(tl, "#i1-w0_0", 0);
+        word(tl, "#i1-w0_1", 0.44);
+        word(tl, "#i1-w0_2", 0.88);
+        word(tl, "#i1-w0_3", 1.36);
+        word(tl, "#i1-w0_4", 1.8);
+        tl.to("#i1", { y: -170, duration: 0.24, ease: "power4.in" }, 2.26);
+        tl.to("#i1", { opacity: 0, duration: 0.12, ease: "none" }, 2.38);
+
+        // i2 — Agora vamos contar as nossas metas.
+        tl.set("#i2", { opacity: 1 }, 2.54);
+        word(tl, "#i2-w0_0", 2.56);
+        word(tl, "#i2-w0_1", 2.84);
+        word(tl, "#i2-w0_2", 3.12);
+        word(tl, "#i2-w0_3", 3.4);
+        word(tl, "#i2-w0_4", 3.68);
+        word(tl, "#i2-w0_5", 3.96);
+        tl.to("#i2", { y: -170, duration: 0.24, ease: "power4.in" }, 4.3);
+        tl.to("#i2", { opacity: 0, duration: 0.12, ease: "none" }, 4.42);
+
+        // i3 — Preparado?
+        tl.set("#i3", { opacity: 1 }, 4.58);
+        word(tl, "#i3-w0_0", 4.6);
+        tl.to("#i3", { y: -170, duration: 0.24, ease: "power4.in" }, 5.5);
+        tl.to("#i3", { opacity: 0, duration: 0.12, ease: "none" }, 5.62);
+
+        // h1 — Primeiro, / salas de aula interativas.
+        tl.set("#h1", { opacity: 1 }, 5.78);
+        word(tl, "#h1-w0_0", 5.8);
+        word(tl, "#h1-w1_0", 6.52);
+        word(tl, "#h1-w1_1", 6.64);
+        word(tl, "#h1-w1_2", 6.76);
+        word(tl, "#h1-w1_3", 6.88);
+        tl.to("#h1", { y: -170, duration: 0.24, ease: "power4.in" }, 7.5);
+        tl.to("#h1", { opacity: 0, duration: 0.12, ease: "none" }, 7.62);
+
+        // c1a — Para os nativos digitais, / telas digitais.
+        tl.set("#c1a", { opacity: 1 }, 7.78);
+        word(tl, "#c1a-w0_0", 7.8);
+        word(tl, "#c1a-w0_1", 8);
+        word(tl, "#c1a-w0_2", 8.2);
+        word(tl, "#c1a-w0_3", 8.4);
+        word(tl, "#c1a-w1_0", 9.24);
+        word(tl, "#c1a-w1_1", 9.84);
+        tl.to("#c1a", { y: -170, duration: 0.24, ease: "power4.in" }, 10.22);
+        tl.to("#c1a", { opacity: 0, duration: 0.12, ease: "none" }, 10.34);
+
+        // c1b — Lousas infinitas. / Simuladores interativos.
+        tl.set("#c1b", { opacity: 1 }, 10.5);
+        word(tl, "#c1b-w0_0", 10.52);
+        word(tl, "#c1b-w0_1", 10.96);
+        word(tl, "#c1b-w1_0", 11.72);
+        word(tl, "#c1b-w1_1", 12.28);
+        tl.to("#c1b", { y: -170, duration: 0.24, ease: "power4.in" }, 12.94);
+        tl.to("#c1b", { opacity: 0, duration: 0.12, ease: "none" }, 13.06);
+
+        // h2 — Segundo, / salas de reunião.
+        tl.set("#h2", { opacity: 1 }, 13.22);
+        word(tl, "#h2-w0_0", 13.24);
+        word(tl, "#h2-w1_0", 13.92);
+        word(tl, "#h2-w1_1", 14.16);
+        word(tl, "#h2-w1_2", 14.36);
+        tl.to("#h2", { y: -170, duration: 0.24, ease: "power4.in" }, 14.66);
+        tl.to("#h2", { opacity: 0, duration: 0.12, ease: "none" }, 14.78);
+
+        // c2a — Onde quatro dispositivos / viram um só.
+        tl.set("#c2a", { opacity: 1 }, 14.94);
+        word(tl, "#c2a-w0_0", 14.96);
+        word(tl, "#c2a-w0_1", 15.28);
+        word(tl, "#c2a-w0_2", 15.64);
+        word(tl, "#c2a-w1_0", 16.32);
+        word(tl, "#c2a-w1_1", 16.8);
+        word(tl, "#c2a-w1_2", 17.32);
+        tl.to("#c2a", { y: -170, duration: 0.24, ease: "power4.in" }, 17.42);
+        tl.to("#c2a", { opacity: 0, duration: 0.12, ease: "none" }, 17.54);
+
+        // c2b — Imagem nítida, / som envolvente.
+        tl.set("#c2b", { opacity: 1 }, 17.7);
+        word(tl, "#c2b-w0_0", 17.72);
+        word(tl, "#c2b-w0_1", 18.12);
+        word(tl, "#c2b-w1_0", 18.64);
+        word(tl, "#c2b-w1_1", 18.92);
+        tl.to("#c2b", { y: -170, duration: 0.24, ease: "power4.in" }, 19.22);
+        tl.to("#c2b", { opacity: 0, duration: 0.12, ease: "none" }, 19.34);
+
+        // c2c — Uma equipe mais unida, / mesmo em pontos diferentes do mundo.
+        tl.set("#c2c", { opacity: 1 }, 19.5);
+        word(tl, "#c2c-w0_0", 19.52);
+        word(tl, "#c2c-w0_1", 19.72);
+        word(tl, "#c2c-w0_2", 19.88);
+        word(tl, "#c2c-w0_3", 20.08);
+        word(tl, "#c2c-w1_0", 20.56);
+        word(tl, "#c2c-w1_1", 20.92);
+        word(tl, "#c2c-w1_2", 21.32);
+        word(tl, "#c2c-w1_3", 21.68);
+        word(tl, "#c2c-w1_4", 22.08);
+        word(tl, "#c2c-w1_5", 22.44);
+        tl.to("#c2c", { y: -170, duration: 0.24, ease: "power4.in" }, 22.78);
+        tl.to("#c2c", { opacity: 0, duration: 0.12, ease: "none" }, 22.9);
+
+        // h3 — Terceiro, / inteligência artificial.
+        tl.set("#h3", { opacity: 1 }, 23.06);
+        word(tl, "#h3-w0_0", 23.08);
+        word(tl, "#h3-w1_0", 23.84);
+        word(tl, "#h3-w1_1", 24.32);
+        tl.to("#h3", { y: -170, duration: 0.24, ease: "power4.in" }, 24.58);
+        tl.to("#h3", { opacity: 0, duration: 0.12, ease: "none" }, 24.7);
+
+        // c3a — O que antes levava para um professor / cinco horas,
+        tl.set("#c3a", { opacity: 1 }, 24.86);
+        word(tl, "#c3a-w0_0", 24.88);
+        word(tl, "#c3a-w0_1", 25);
+        word(tl, "#c3a-w0_2", 25.16);
+        word(tl, "#c3a-w0_3", 25.28);
+        word(tl, "#c3a-w0_4", 25.4);
+        word(tl, "#c3a-w0_5", 25.56);
+        word(tl, "#c3a-w0_6", 25.68);
+        word(tl, "#c3a-w1_0", 26.04);
+        word(tl, "#c3a-w1_1", 26.44);
+        tl.to("#c3a", { y: -170, duration: 0.24, ease: "power4.in" }, 26.62);
+        tl.to("#c3a", { opacity: 0, duration: 0.12, ease: "none" }, 26.74);
+
+        // c3b — agora leva só / cinco minutos.
+        tl.set("#c3b", { opacity: 1 }, 26.9);
+        word(tl, "#c3b-w0_0", 26.92);
+        word(tl, "#c3b-w0_1", 27.2);
+        word(tl, "#c3b-w0_2", 27.44);
+        word(tl, "#c3b-w1_0", 27.64);
+        word(tl, "#c3b-w1_1", 27.96);
+        tl.to("#c3b", { y: -170, duration: 0.24, ease: "power4.in" }, 28.3);
+        tl.to("#c3b", { opacity: 0, duration: 0.12, ease: "none" }, 28.42);
+
+        // c3c — Aulas que se planejam em segundos.
+        tl.set("#c3c", { opacity: 1 }, 28.58);
+        word(tl, "#c3c-w0_0", 28.6);
+        word(tl, "#c3c-w0_1", 28.8);
+        word(tl, "#c3c-w0_2", 29.04);
+        word(tl, "#c3c-w0_3", 29.24);
+        word(tl, "#c3c-w0_4", 29.48);
+        word(tl, "#c3c-w0_5", 29.68);
+        tl.to("#c3c", { y: -170, duration: 0.24, ease: "power4.in" }, 29.7);
+        tl.to("#c3c", { opacity: 0, duration: 0.12, ease: "none" }, 29.82);
+
+        // c3d — Suas aulas em qualquer idioma.
+        tl.set("#c3d", { opacity: 1 }, 29.98);
+        word(tl, "#c3d-w0_0", 30);
+        word(tl, "#c3d-w0_1", 30.4);
+        word(tl, "#c3d-w0_2", 30.76);
+        word(tl, "#c3d-w0_3", 31.12);
+        word(tl, "#c3d-w0_4", 31.52);
+        tl.to("#c3d", { y: -170, duration: 0.24, ease: "power4.in" }, 31.86);
+        tl.to("#c3d", { opacity: 0, duration: 0.12, ease: "none" }, 31.98);
+
+        // c3e — Avaliações que se criam sozinhas.
+        tl.set("#c3e", { opacity: 1 }, 32.14);
+        word(tl, "#c3e-w0_0", 32.16);
+        word(tl, "#c3e-w0_1", 32.36);
+        word(tl, "#c3e-w0_2", 32.6);
+        word(tl, "#c3e-w0_3", 32.8);
+        word(tl, "#c3e-w0_4", 33.04);
+        tl.to("#c3e", { y: -170, duration: 0.24, ease: "power4.in" }, 33.38);
+        tl.to("#c3e", { opacity: 0, duration: 0.12, ease: "none" }, 33.5);
+
+        // h4 — Quarto, / um formato / graaaaaande.
+        tl.set("#h4", { opacity: 1 }, 33.66);
+        word(tl, "#h4-w0_0", 33.68);
+        word(tl, "#h4-w1_0", 34.24);
+        word(tl, "#h4-w1_1", 34.4);
+        word(tl, "#h4-w2_0", 34.8);
+        tl.to("#h4", { y: -170, duration: 0.24, ease: "power4.in" }, 35.58);
+        tl.to("#h4", { opacity: 0, duration: 0.12, ease: "none" }, 35.7);
+
+        // c4a — Porque grandes ideias / pedem grandes telas.
+        tl.set("#c4a", { opacity: 1 }, 35.86);
+        word(tl, "#c4a-w0_0", 35.88);
+        word(tl, "#c4a-w0_1", 36.2);
+        word(tl, "#c4a-w0_2", 36.52);
+        word(tl, "#c4a-w1_0", 36.92);
+        word(tl, "#c4a-w1_1", 37.44);
+        word(tl, "#c4a-w1_2", 37.96);
+        tl.to("#c4a", { y: -170, duration: 0.24, ease: "power4.in" }, 38.38);
+        tl.to("#c4a", { opacity: 0, duration: 0.12, ease: "none" }, 38.5);
+
+        // c4b — Tem coisa que precisa ser vista / e feita em grande.
+        tl.set("#c4b", { opacity: 1 }, 38.66);
+        word(tl, "#c4b-w0_0", 38.68);
+        word(tl, "#c4b-w0_1", 38.92);
+        word(tl, "#c4b-w0_2", 39.16);
+        word(tl, "#c4b-w0_3", 39.4);
+        word(tl, "#c4b-w0_4", 39.64);
+        word(tl, "#c4b-w0_5", 39.88);
+        word(tl, "#c4b-w1_0", 40.24);
+        word(tl, "#c4b-w1_1", 40.56);
+        word(tl, "#c4b-w1_2", 40.84);
+        word(tl, "#c4b-w1_3", 41.16);
+        tl.to("#c4b", { y: -170, duration: 0.24, ease: "power4.in" }, 41.3);
+        tl.to("#c4b", { opacity: 0, duration: 0.12, ease: "none" }, 41.42);
+
+        // c4c — Telas LED de grande formato / para experiências realmente únicas,
+        tl.set("#c4c", { opacity: 1 }, 41.58);
+        word(tl, "#c4c-w0_0", 41.6);
+        word(tl, "#c4c-w0_1", 41.8);
+        word(tl, "#c4c-w0_2", 42);
+        word(tl, "#c4c-w0_3", 42.16);
+        word(tl, "#c4c-w0_4", 42.36);
+        word(tl, "#c4c-w1_0", 42.84);
+        word(tl, "#c4c-w1_1", 43.28);
+        word(tl, "#c4c-w1_2", 43.72);
+        word(tl, "#c4c-w1_3", 44.16);
+        tl.to("#c4c", { y: -170, duration: 0.24, ease: "power4.in" }, 44.66);
+        tl.to("#c4c", { opacity: 0, duration: 0.12, ease: "none" }, 44.78);
+
+        // c4d — De / 108" a 217".
+        tl.set("#c4d", { opacity: 1 }, 44.94);
+        word(tl, "#c4d-w0_0", 44.96);
+        word(tl, "#c4d-w1_0", 45.2);
+        word(tl, "#c4d-w1_1", 45.68);
+        word(tl, "#c4d-w1_2", 46.2);
+        tl.to("#c4d", { y: -170, duration: 0.24, ease: "power4.in" }, 47.82);
+        tl.to("#c4d", { opacity: 0, duration: 0.12, ease: "none" }, 47.94);
+
+        // h5 — E quinto, / a mais importante,
+        tl.set("#h5", { opacity: 1 }, 48.1);
+        word(tl, "#h5-w0_0", 48.12);
+        word(tl, "#h5-w0_1", 48.2);
+        word(tl, "#h5-w1_0", 48.76);
+        word(tl, "#h5-w1_1", 48.88);
+        word(tl, "#h5-w1_2", 49);
+        tl.to("#h5", { y: -170, duration: 0.24, ease: "power4.in" }, 49.42);
+        tl.to("#h5", { opacity: 0, duration: 0.12, ease: "none" }, 49.54);
+
+        // c5a — Que você veja com os seus próprios olhos.
+        tl.set("#c5a", { opacity: 1 }, 49.7);
+        word(tl, "#c5a-w0_0", 49.72);
+        word(tl, "#c5a-w0_1", 49.96);
+        word(tl, "#c5a-w0_2", 50.2);
+        word(tl, "#c5a-w0_3", 50.44);
+        word(tl, "#c5a-w0_4", 50.72);
+        word(tl, "#c5a-w0_5", 50.96);
+        word(tl, "#c5a-w0_6", 51.2);
+        word(tl, "#c5a-w0_7", 51.44);
+        tl.to("#c5a", { y: -170, duration: 0.24, ease: "power4.in" }, 51.82);
+        tl.to("#c5a", { opacity: 0, duration: 0.12, ease: "none" }, 51.94);
+
+        // c5b — É só tocar / na tela.
+        tl.set("#c5b", { opacity: 1 }, 52.1);
+        word(tl, "#c5b-w0_0", 52.12);
+        word(tl, "#c5b-w0_1", 52.44);
+        word(tl, "#c5b-w0_2", 52.8);
+        word(tl, "#c5b-w1_0", 53.04);
+        word(tl, "#c5b-w1_1", 53.16);
+        tl.to("#c5b", { opacity: 0, duration: 0.6, ease: "power2.in" }, 54.4);
+
+        window.__timelines["metas"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

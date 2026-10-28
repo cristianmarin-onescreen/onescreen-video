@@ -1,0 +1,34 @@
+   0.00-   1.83 (1.83s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Logo_andicom_2024.png 38% | G:Graph | D3" Buenos días, mi nombre es Alejandro Diaz, #$B
+   1.83-   4.46 (2.63s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Logo_andicom_2024.png 38% | G: | D3" Country manager de OneScreen en Colombia y es un placer invitarlos a Cartagena. #$B
+   4.46-   5.55 (1.09s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Logo_andicom_2024.png 38% | G:Graph | D3" Country manager de OneScreen en Colombia y es un placer invitarlos a Cartagena. #$B
+   5.55-   6.55 (1.00s) | A:C0753.MP4 100% | B:C0753.MP4 | B:cathedral-at-cartagena-in-bolivar-  | D3" Country manager de OneScreen en Colombia y es un placer invitarlos a Cartagena. #$B
+   6.55-   8.68 (2.13s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:cathedral-at-cartagena-in-boli | D3" Vamos a estar en el evento de Andicom en septiembre en este 2025, del 3 al 5 #$B
+   8.68-   9.34 (0.66s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Logo_andicom_2024.png 38% | G:Graph | D3" Vamos a estar en el evento de Andicom en septiembre en este 2025, del 3 al 5 #$B
+   9.34-  10.64 (1.30s) | A:C0753.MP4 100% | B:C0753.MP4 | B:C0066.MP4 | B:C0066.MP4 | G:Logo_an | D3" Vamos a estar en el evento de Andicom en septiembre en este 2025, del 3 al 5 #$B
+  10.64-  11.55 (0.91s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:C0066.MP4 | B:C0066.MP4 | G:Lo | D3" Vamos a estar en el evento de Andicom en septiembre en este 2025, del 3 al 5 #$B
+  11.55-  12.89 (1.34s) | A:C0753.MP4 100% | B:C0753.MP4 | B:Plano Andicom.mp4 300% | G:Logo_and | D3" en el Centro de Experiencia, G muchos de ustedes ya lo conocen, #$B
+  12.89-  13.26 (0.37s) | A:C0753.MP4 100% | B:C0753.MP4 | B:Plano Andicom.mp4 300% | G:Logo_and | D3" en el Centro de Experiencia, G muchos de ustedes ya lo conocen, #$B
+  13.26-  14.60 (1.34s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:Plano Andicom.mp4 300% | G:Log | D3" en el Centro de Experiencia, G muchos de ustedes ya lo conocen, #$B
+  14.60-  15.89 (1.29s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Logo_andicom_2024.png 38% | G:Graph | D3" me parece genial en este año poder participar al lado de ustedes #$B
+  15.89-  16.93 (1.04s) | A:C0753.MP4 100% | B:C0753.MP4 | B:C0119.MP4 | B:C0119.MP4 | G:Logo_an | D3" me parece genial en este año poder participar al lado de ustedes #$B
+  16.93-  17.85 (0.92s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:C0119.MP4 | B:C0119.MP4 | G:Lo | D3" me parece genial en este año poder participar al lado de ustedes #$B
+  17.85-  18.85 (1.00s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:C0119.MP4 | B:C0119.MP4 | G:Lo | D3" para poderles mostrar las nuevas soluciones de OneScreen. #$B
+  18.85-  20.77 (1.92s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:C0090.MP4 | B:C0090.MP4 | G:Lo | D3" para poderles mostrar las nuevas soluciones de OneScreen. #$B
+  20.77-  21.06 (0.29s) | A:C0753.MP4 100% | B:C0753.MP4 | B:C0090.MP4 | B:C0090.MP4 | G:Logo_an | D3" Si quieres participar dentro del evento vamos a estar regalando un curso de la #$B
+  21.06-  24.44 (3.38s) | A:C0753.MP4 100% | B:C0753.MP4 | B:C0103.MP4 | B:C0103.MP4 | G:Logo_an | D3" Si quieres participar dentro del evento vamos a estar regalando un curso de la #$B
+  24.44-  25.27 (0.83s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Logo_andicom_2024.png 38% | G: | D3" Si quieres participar dentro del evento vamos a estar regalando un curso de la #$B
+  25.27-  27.28 (2.01s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Curso IA-01.png 15% | G:Logo_a | D3" introducción a la Inteligencia Artificial. #$B D3" Y Pero si tú tienes un equipo donde
+  27.28-  28.74 (1.46s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Curso IA-01.png 15% | G:Logo_andico | D3" Y Pero si tú tienes un equipo donde quieres que tu grupo de colaboradores #$B
+  28.74-  29.61 (0.87s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Curso IA-01.png 15% | G:Logo_a | D3" Y Pero si tú tienes un equipo donde quieres que tu grupo de colaboradores #$B
+  29.61-  31.57 (1.96s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Curso IA-01.png 15% | G:Logo_andico | D3" Y Pero si tú tienes un equipo donde quieres que tu grupo de colaboradores #$B
+  31.57-  33.62 (2.05s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Curso IA-01.png 15% | G:Logo_a | D3" aprenda cómo funciona la inteligencia artificial, #$B
+  33.62-  35.37 (1.75s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Logo_andicom_2024.png 38% | G:Graph | D3" puedes adquirir estos cursos sin costo. #$B
+  35.37-  36.87 (1.50s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Logo_andicom_2024.png 38% | G: | D3" puedes adquirir estos cursos sin costo. #$B D3" Es un curso que cuesta $ 300 USD, pero
+  36.87-  37.62 (0.75s) | A:C0753.MP4 100% | B:C0753.MP4 | G:Logo_andicom_2024.png 38% | G:Graph | D3" Es un curso que cuesta $ 300 USD, pero si vas a nuestro stand #$B
+  37.62-  38.87 (1.25s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Logo_andicom_2024.png 38% | G: | D3" Es un curso que cuesta $ 300 USD, pero si vas a nuestro stand #$B
+  38.87-  39.04 (0.17s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:C0101.MP4 | B:C0101.MP4 | G:Lo | D3" Es un curso que cuesta $ 300 USD, pero si vas a nuestro stand #$B
+  39.04-  39.96 (0.92s) | A:C0753.MP4 100% | B:C0753.MP4 | B:C0101.MP4 | B:C0101.MP4 | G:Logo_an | D3" te registras, Vas a poder obtener este curso Totalmente gratis #$B
+  39.96-  40.58 (0.62s) | A:C0753.MP4 137% | B:C0753.MP4 137% | B:C0101.MP4 | B:C0101.MP4 | G:Lo | D3" te registras, Vas a poder obtener este curso Totalmente gratis #$B
+  40.58-  41.67 (1.09s) | A:C0753.MP4 100% | B:C0753.MP4 | B:C0117.MP4 | B:C0117.MP4 | G:Logo_an | D3" te registras, Vas a poder obtener este curso Totalmente gratis #$B
+  41.67-  42.88 (1.21s) | A:C0753.MP4 137% | B:C0753.MP4 137% | G:Logo_andicom_2024.png 38% | G: | D3" te registras, Vas a poder obtener este curso Totalmente gratis #$B
+  42.88-  47.46 (4.58s) | A:Intro 16-9_S 100%                                                    | 

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- head is metadata for the source file only; the runtime ignores it -->
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          font-weight: 400 700;
+          src: url(assets/fonts/rubik-variable.woff2) format("woff2");
+        }
+
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 1920px;
+          height: 1080px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          font-family: "Rubik", sans-serif;
+        }
+
+        /* Full-bleed ground lives on its own class="clip" layer, never on #root.
+           This beat goes literally spacey — deep cobalt-navy, not the cream
+           ground the rest of the film uses — the one deliberate exception the
+           brief calls for on this specific tension beat. */
+        .f02lqf-ground {
+          position: absolute;
+          inset: 0;
+          background: radial-gradient(ellipse 90% 75% at 50% 38%, #131c42 0%, #0a0e24 55%, #05070f 100%);
+          z-index: 0;
+        }
+
+        /* static starfield — many small deterministic points across the whole
+           canvas, distinct from the orbiting cobalt cluster below. */
+        .f02lqf-starfield {
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+        }
+        .f02lqf-star {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 3px;
+          height: 3px;
+          margin: -1.5px 0 0 -1.5px;
+          border-radius: 50%;
+          background: #fafafa;
+        }
+
+        .f02lqf-orbit-stage {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          z-index: 2;
+        }
+
+        .f02lqf-dot {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          background: #6d95ff;
+          opacity: 0.55;
+          box-shadow: 0 0 14px rgba(109, 149, 255, 0.5);
+          will-change: transform, opacity;
+        }
+        .f02lqf-dot.f02lqf-dot-sm {
+          width: 9px;
+          height: 9px;
+        }
+        .f02lqf-dot.f02lqf-dot-lg {
+          width: 18px;
+          height: 18px;
+        }
+
+        .f02lqf-headline-inner {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 42%;
+          transform: translateY(-50%);
+          display: grid;
+          place-items: center;
+          padding: 0 8cqw;
+          z-index: 2;
+        }
+
+        .f02lqf-line {
+          grid-column: 1;
+          grid-row: 1;
+          text-align: center;
+          font-weight: 600;
+          font-size: 3.4cqw;
+          line-height: 1.25;
+          letter-spacing: -0.02em;
+          color: #fafafa;
+          max-width: 72cqw;
+        }
+
+        .f02lqf-word {
+          display: inline-block;
+        }
+      </style>
+
+      <div data-hf-id="hf-sq9s" id="root" data-composition-id="02-lo-que-falta" data-width="1920" data-height="1080" data-duration="8.295">
+        <div data-hf-id="hf-1o69" id="f02lqf-ground" class="f02lqf-ground clip" data-start="0" data-duration="8.295" data-track-index="1"></div>
+
+        <div data-hf-id="hf-u4p2" id="f02lqf-atmosphere" class="clip" data-start="0" data-duration="8.295" data-track-index="2">
+          <div data-hf-id="hf-st4r" class="f02lqf-starfield" id="f02lqf-starfield"></div>
+          <div data-hf-id="hf-yeoy" class="f02lqf-orbit-stage" id="f02lqf-orbit-stage">
+            <div data-hf-id="hf-73zy" class="f02lqf-dot" data-angle="0"></div>
+            <div data-hf-id="hf-r7te" class="f02lqf-dot f02lqf-dot-sm" data-angle="40"></div>
+            <div data-hf-id="hf-jnq9" class="f02lqf-dot f02lqf-dot-lg" data-angle="80"></div>
+            <div data-hf-id="hf-qs6l" class="f02lqf-dot" data-angle="120"></div>
+            <div data-hf-id="hf-mirx" class="f02lqf-dot f02lqf-dot-sm" data-angle="160"></div>
+            <div data-hf-id="hf-vsn5" class="f02lqf-dot f02lqf-dot-lg" data-angle="200"></div>
+            <div data-hf-id="hf-4rzs" class="f02lqf-dot" data-angle="240"></div>
+            <div data-hf-id="hf-ksu8" class="f02lqf-dot f02lqf-dot-sm" data-angle="280"></div>
+            <div data-hf-id="hf-c4xi" class="f02lqf-dot f02lqf-dot-lg" data-angle="320"></div>
+          </div>
+        </div>
+
+        <div data-hf-id="hf-cre1" id="f02lqf-headline" class="clip" data-start="0" data-duration="8.295" data-track-index="3">
+          <div data-hf-id="hf-s759" class="f02lqf-headline-inner">
+            <div data-hf-id="hf-t6vz" id="f02lqf-line1" class="f02lqf-line">
+              <span data-hf-id="hf-eyix" class="f02lqf-word">Hay</span>
+              <span data-hf-id="hf-hnpo" class="f02lqf-word">espacios</span>
+              <span data-hf-id="hf-xgr6" class="f02lqf-word">que</span>
+              <span data-hf-id="hf-rqcy" class="f02lqf-word">no</span>
+              <span data-hf-id="hf-5s71" class="f02lqf-word">se</span>
+              <span data-hf-id="hf-7zqd" class="f02lqf-word">llenan</span>
+              <span data-hf-id="hf-xhv7" class="f02lqf-word">con</span>
+              <span data-hf-id="hf-ohrm" class="f02lqf-word">cualquier</span>
+              <span data-hf-id="hf-lzxv" class="f02lqf-word">cosa.</span>
+            </div>
+            <div data-hf-id="hf-7o42" id="f02lqf-line2" class="f02lqf-line" style="opacity: 0">
+              Y hay espacios a los que solo les falta una cosa.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        (function () {
+          window.__timelines = window.__timelines || {};
+          var tl = gsap.timeline({ paused: true });
+
+          var TOTAL = 7.895;
+          var CUT_AT = 3.5;
+
+          // Deterministic starfield: fixed count, positions/sizes/opacities
+          // derived from the index via sine/cosine hashing (no Math.random /
+          // Date.now) so every render is pixel-identical. Scattered across the
+          // whole 1920x1080 canvas, kept out of the 0.83*1080=896px caption band.
+          var starfield = document.getElementById("f02lqf-starfield");
+          var STAR_COUNT = 46;
+          for (var s = 0; s < STAR_COUNT; s++) {
+            var hx = Math.abs(Math.sin(s * 12.9898) * 43758.5453) % 1;
+            var hy = Math.abs(Math.sin(s * 78.233) * 12543.112) % 1;
+            var ho = Math.abs(Math.sin(s * 37.719) * 5871.29) % 1;
+            var hz = Math.abs(Math.sin(s * 5.129) * 9021.77) % 1;
+            var star = document.createElement("div");
+            star.className = "f02lqf-star";
+            star.style.left = (hx * 1920) + "px";
+            star.style.top = (hy * 880) + "px"; // clear of the 896px keep-out line
+            var starScale = 0.5 + hz * 1.3;
+            star.style.transform = "scale(" + starScale.toFixed(2) + ")";
+            star.style.opacity = String(0.12 + ho * 0.4);
+            starfield.appendChild(star);
+          }
+
+          // --- Scene 1: line 1 per-word staggered reveal, paced across the
+          // scene window (last word lands ~0.7s before the hard cut, not front-loaded). ---
+          var words = document.querySelectorAll("#f02lqf-line1 .f02lqf-word");
+          var WORD_START = 0.12;
+          var WORD_STEP = 0.27;
+          var WORD_DUR = 0.5;
+          words.forEach(function (el, i) {
+            tl.fromTo(
+              el,
+              { opacity: 0, y: 16 },
+              { opacity: 1, y: 0, duration: WORD_DUR, ease: "power3.out" },
+              WORD_START + i * WORD_STEP,
+            );
+          });
+
+          // --- Scene 2: hard cut (discrete-text-sequence) — instant swap, no
+          // fade/slide/roll. Line 1 disappears, line 2 appears in the same frame. ---
+          tl.set("#f02lqf-line1", { opacity: 0 }, CUT_AT);
+          tl.set("#f02lqf-line2", { opacity: 1 }, CUT_AT);
+
+          // --- Atmosphere: dot-grid already orbiting at t=0 (no entry flip —
+          // continuing from Frame 1's drift), then converging inward from
+          // CUT_AT onward (orbit-3d-entry orbit phase + center-outward-expansion
+          // run-inward variant), tightening but not resolving — that payoff is
+          // Frame 3's. Single deterministic driver so HF can seek frame-by-frame. ---
+          var dots = document.querySelectorAll("#f02lqf-orbit-stage .f02lqf-dot");
+          var initialAngles = Array.prototype.map.call(dots, function (el) {
+            return (Number(el.dataset.angle) / 360) * Math.PI * 2;
+          });
+          var RADIUS_X = 560;
+          var RADIUS_Y = 260;
+          var ANGULAR_SPEED = 0.14; // rad/s — slow, calm orbit
+          var CONVERGE_AMOUNT = 0.42; // fraction the radius shrinks by at t=TOTAL
+          var BASE_OPACITY = 0.16;
+          var OPACITY_BUILD = 0.1;
+
+          function updateDots(t) {
+            var radiusScale = 1;
+            var opacityBoost = 0;
+            if (t > CUT_AT) {
+              var cp = Math.min(1, (t - CUT_AT) / (TOTAL - CUT_AT));
+              var eased = cp * cp * (3 - 2 * cp); // smoothstep — deterministic, no CSS transition
+              radiusScale = 1 - CONVERGE_AMOUNT * eased;
+              opacityBoost = OPACITY_BUILD * eased;
+            }
+            for (var i = 0; i < dots.length; i++) {
+              var angle = initialAngles[i] + t * ANGULAR_SPEED;
+              var x = Math.cos(angle) * RADIUS_X * radiusScale;
+              var y = Math.sin(angle) * RADIUS_Y * radiusScale;
+              dots[i].style.transform =
+                "translate(-50%, -50%) translate(" + x + "px, " + y + "px)";
+              dots[i].style.opacity = String(BASE_OPACITY + opacityBoost);
+            }
+          }
+          // Set initial (t=0) orbital positions before the first paint.
+          updateDots(0);
+
+          var driver = { t: 0 };
+          tl.to(
+            driver,
+            {
+              t: TOTAL,
+              duration: TOTAL,
+              ease: "none",
+              onUpdate: function () {
+                updateDots(driver.t);
+              },
+            },
+            0,
+          );
+
+          window.__timelines["02-lo-que-falta"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

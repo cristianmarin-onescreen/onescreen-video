@@ -1,0 +1,1565 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 31.52,
+ "totalFrames": 788,
+ "source": "OneScreen Academy - Narrador.wav",
+ "speechEnd": 31.3,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Seguramente te estás preguntando,",
+     "words": [
+      {
+       "id": "w0",
+       "i": 0,
+       "text": "Seguramente",
+       "start": 0,
+       "brand": false
+      },
+      {
+       "id": "w1",
+       "i": 1,
+       "text": "te",
+       "start": 0.72,
+       "brand": false
+      },
+      {
+       "id": "w2",
+       "i": 2,
+       "text": "estás",
+       "start": 0.88,
+       "brand": false
+      },
+      {
+       "id": "w3",
+       "i": 3,
+       "text": "preguntando,",
+       "start": 1.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Seguramente te estás preguntando,",
+   "end": 1.84
+  },
+  {
+   "id": "f02",
+   "start": 1.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "¿esto realmente lo van a usar",
+     "words": [
+      {
+       "id": "w4",
+       "i": 4,
+       "text": "¿esto",
+       "start": 1.92,
+       "brand": false
+      },
+      {
+       "id": "w5",
+       "i": 5,
+       "text": "realmente",
+       "start": 2.32,
+       "brand": false
+      },
+      {
+       "id": "w6",
+       "i": 6,
+       "text": "lo",
+       "start": 3,
+       "brand": false
+      },
+      {
+       "id": "w7",
+       "i": 7,
+       "text": "van",
+       "start": 3.32,
+       "brand": false
+      },
+      {
+       "id": "w8",
+       "i": 8,
+       "text": "a",
+       "start": 3.48,
+       "brand": false
+      },
+      {
+       "id": "w9",
+       "i": 9,
+       "text": "usar",
+       "start": 3.52,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "mis docentes?",
+     "words": [
+      {
+       "id": "w10",
+       "i": 10,
+       "text": "mis",
+       "start": 3.72,
+       "brand": false
+      },
+      {
+       "id": "w11",
+       "i": 11,
+       "text": "docentes?",
+       "start": 3.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "¿esto realmente lo van a usar / mis docentes?",
+   "end": 4.64
+  },
+  {
+   "id": "f03",
+   "start": 4.72,
+   "lines": [
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Sí,",
+     "words": [
+      {
+       "id": "w12",
+       "i": 12,
+       "text": "Sí,",
+       "start": 4.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "y tenemos una herramienta para eso.",
+     "words": [
+      {
+       "id": "w13",
+       "i": 13,
+       "text": "y",
+       "start": 5.12,
+       "brand": false
+      },
+      {
+       "id": "w14",
+       "i": 14,
+       "text": "tenemos",
+       "start": 5.32,
+       "brand": false
+      },
+      {
+       "id": "w15",
+       "i": 15,
+       "text": "una",
+       "start": 5.72,
+       "brand": false
+      },
+      {
+       "id": "w16",
+       "i": 16,
+       "text": "herramienta",
+       "start": 6,
+       "brand": false
+      },
+      {
+       "id": "w17",
+       "i": 17,
+       "text": "para",
+       "start": 6.48,
+       "brand": false
+      },
+      {
+       "id": "w18",
+       "i": 18,
+       "text": "eso.",
+       "start": 6.68,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Sí, / y tenemos una herramienta para eso.",
+   "end": 7.08
+  },
+  {
+   "id": "f04",
+   "start": 7.12,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Una inversión tecnológica realmente vale",
+     "words": [
+      {
+       "id": "w19",
+       "i": 19,
+       "text": "Una",
+       "start": 7.12,
+       "brand": false
+      },
+      {
+       "id": "w20",
+       "i": 20,
+       "text": "inversión",
+       "start": 7.32,
+       "brand": false
+      },
+      {
+       "id": "w21",
+       "i": 21,
+       "text": "tecnológica",
+       "start": 7.76,
+       "brand": false
+      },
+      {
+       "id": "w22",
+       "i": 22,
+       "text": "realmente",
+       "start": 8.44,
+       "brand": false
+      },
+      {
+       "id": "w23",
+       "i": 23,
+       "text": "vale",
+       "start": 9,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "cuando la gente sabe usarla.",
+     "words": [
+      {
+       "id": "w24",
+       "i": 24,
+       "text": "cuando",
+       "start": 9.44,
+       "brand": false
+      },
+      {
+       "id": "w25",
+       "i": 25,
+       "text": "la",
+       "start": 9.76,
+       "brand": false
+      },
+      {
+       "id": "w26",
+       "i": 26,
+       "text": "gente",
+       "start": 9.96,
+       "brand": false
+      },
+      {
+       "id": "w27",
+       "i": 27,
+       "text": "sabe",
+       "start": 10.2,
+       "brand": false
+      },
+      {
+       "id": "w28",
+       "i": 28,
+       "text": "usarla.",
+       "start": 10.6,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Una inversión tecnológica realmente vale / cuando la gente sabe usarla.",
+   "end": 11.36
+  },
+  {
+   "id": "f05",
+   "start": 11.4,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Por eso creamos",
+     "words": [
+      {
+       "id": "w29",
+       "i": 29,
+       "text": "Por",
+       "start": 11.4,
+       "brand": false
+      },
+      {
+       "id": "w30",
+       "i": 30,
+       "text": "eso",
+       "start": 11.52,
+       "brand": false
+      },
+      {
+       "id": "w31",
+       "i": 31,
+       "text": "creamos",
+       "start": 11.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w32",
+       "i": 32,
+       "text": "OneScreen",
+       "start": 12.36,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "Academy.",
+     "words": [
+      {
+       "id": "w33",
+       "i": 33,
+       "text": "Academy.",
+       "start": 12.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Por eso creamos / OneScreen / Academy.",
+   "end": 13.56
+  },
+  {
+   "id": "f06",
+   "start": 13.6,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Una plataforma online donde todo tu equipo podrá",
+     "words": [
+      {
+       "id": "w34",
+       "i": 34,
+       "text": "Una",
+       "start": 13.6,
+       "brand": false
+      },
+      {
+       "id": "w35",
+       "i": 35,
+       "text": "plataforma",
+       "start": 13.68,
+       "brand": false
+      },
+      {
+       "id": "w36",
+       "i": 36,
+       "text": "online",
+       "start": 14.12,
+       "brand": false
+      },
+      {
+       "id": "w37",
+       "i": 37,
+       "text": "donde",
+       "start": 14.56,
+       "brand": false
+      },
+      {
+       "id": "w38",
+       "i": 38,
+       "text": "todo",
+       "start": 14.96,
+       "brand": false
+      },
+      {
+       "id": "w39",
+       "i": 39,
+       "text": "tu",
+       "start": 15.36,
+       "brand": false
+      },
+      {
+       "id": "w40",
+       "i": 40,
+       "text": "equipo",
+       "start": 15.56,
+       "brand": false
+      },
+      {
+       "id": "w41",
+       "i": 41,
+       "text": "podrá",
+       "start": 15.88,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "certificarse",
+     "words": [
+      {
+       "id": "w42",
+       "i": 42,
+       "text": "certificarse",
+       "start": 16.2,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "en el ecosistema OneScreen.",
+     "words": [
+      {
+       "id": "w43",
+       "i": 43,
+       "text": "en",
+       "start": 16.96,
+       "brand": false
+      },
+      {
+       "id": "w44",
+       "i": 44,
+       "text": "el",
+       "start": 17.2,
+       "brand": false
+      },
+      {
+       "id": "w45",
+       "i": 45,
+       "text": "ecosistema",
+       "start": 17.32,
+       "brand": false
+      },
+      {
+       "id": "w46",
+       "i": 46,
+       "text": "OneScreen.",
+       "start": 17.84,
+       "brand": true
+      }
+     ]
+    }
+   ],
+   "text": "Una plataforma online donde todo tu equipo podrá / certificarse / en el ecosistema OneScreen.",
+   "end": 18.76
+  },
+  {
+   "id": "f07",
+   "start": 18.8,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Encontrarás cursos para aprender a usar tu pantalla,",
+     "words": [
+      {
+       "id": "w47",
+       "i": 47,
+       "text": "Encontrarás",
+       "start": 18.8,
+       "brand": false
+      },
+      {
+       "id": "w48",
+       "i": 48,
+       "text": "cursos",
+       "start": 19.4,
+       "brand": false
+      },
+      {
+       "id": "w49",
+       "i": 49,
+       "text": "para",
+       "start": 19.84,
+       "brand": false
+      },
+      {
+       "id": "w50",
+       "i": 50,
+       "text": "aprender",
+       "start": 20,
+       "brand": false
+      },
+      {
+       "id": "w51",
+       "i": 51,
+       "text": "a",
+       "start": 20.28,
+       "brand": false
+      },
+      {
+       "id": "w52",
+       "i": 52,
+       "text": "usar",
+       "start": 20.44,
+       "brand": false
+      },
+      {
+       "id": "w53",
+       "i": 53,
+       "text": "tu",
+       "start": 20.6,
+       "brand": false
+      },
+      {
+       "id": "w54",
+       "i": 54,
+       "text": "pantalla,",
+       "start": 20.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "los softwares de tu pantalla.",
+     "words": [
+      {
+       "id": "w55",
+       "i": 55,
+       "text": "los",
+       "start": 21.44,
+       "brand": false
+      },
+      {
+       "id": "w56",
+       "i": 56,
+       "text": "softwares",
+       "start": 21.64,
+       "brand": false
+      },
+      {
+       "id": "w57",
+       "i": 57,
+       "text": "de",
+       "start": 22.04,
+       "brand": false
+      },
+      {
+       "id": "w58",
+       "i": 58,
+       "text": "tu",
+       "start": 22.2,
+       "brand": false
+      },
+      {
+       "id": "w59",
+       "i": 59,
+       "text": "pantalla.",
+       "start": 22.28,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Encontrarás cursos para aprender a usar tu pantalla, / los softwares de tu pantalla.",
+   "end": 23
+  },
+  {
+   "id": "f08",
+   "start": 23.04,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "E incluso tu equipo podrá acceder a cursos de",
+     "words": [
+      {
+       "id": "w60",
+       "i": 60,
+       "text": "E",
+       "start": 23.04,
+       "brand": false
+      },
+      {
+       "id": "w61",
+       "i": 61,
+       "text": "incluso",
+       "start": 23.08,
+       "brand": false
+      },
+      {
+       "id": "w62",
+       "i": 62,
+       "text": "tu",
+       "start": 23.64,
+       "brand": false
+      },
+      {
+       "id": "w63",
+       "i": 63,
+       "text": "equipo",
+       "start": 24,
+       "brand": false
+      },
+      {
+       "id": "w64",
+       "i": 64,
+       "text": "podrá",
+       "start": 24.28,
+       "brand": false
+      },
+      {
+       "id": "w65",
+       "i": 65,
+       "text": "acceder",
+       "start": 24.64,
+       "brand": false
+      },
+      {
+       "id": "w66",
+       "i": 66,
+       "text": "a",
+       "start": 24.96,
+       "brand": false
+      },
+      {
+       "id": "w67",
+       "i": 67,
+       "text": "cursos",
+       "start": 25.12,
+       "brand": false
+      },
+      {
+       "id": "w68",
+       "i": 68,
+       "text": "de",
+       "start": 25.48,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "inteligencia artificial.",
+     "words": [
+      {
+       "id": "w69",
+       "i": 69,
+       "text": "inteligencia",
+       "start": 25.6,
+       "brand": false
+      },
+      {
+       "id": "w70",
+       "i": 70,
+       "text": "artificial.",
+       "start": 26.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "E incluso tu equipo podrá acceder a cursos de / inteligencia artificial.",
+   "end": 27
+  },
+  {
+   "id": "f09",
+   "start": 27.04,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Nosotros certificamos a tu equipo.",
+     "words": [
+      {
+       "id": "w71",
+       "i": 71,
+       "text": "Nosotros",
+       "start": 27.04,
+       "brand": false
+      },
+      {
+       "id": "w72",
+       "i": 72,
+       "text": "certificamos",
+       "start": 27.64,
+       "brand": false
+      },
+      {
+       "id": "w73",
+       "i": 73,
+       "text": "a",
+       "start": 28.32,
+       "brand": false
+      },
+      {
+       "id": "w74",
+       "i": 74,
+       "text": "tu",
+       "start": 28.44,
+       "brand": false
+      },
+      {
+       "id": "w75",
+       "i": 75,
+       "text": "equipo.",
+       "start": 28.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Nosotros certificamos a tu equipo.",
+   "end": 29
+  },
+  {
+   "id": "f10",
+   "start": 29.04,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "¿Quieres ver cómo?",
+     "words": [
+      {
+       "id": "w76",
+       "i": 76,
+       "text": "¿Quieres",
+       "start": 29.04,
+       "brand": false
+      },
+      {
+       "id": "w77",
+       "i": 77,
+       "text": "ver",
+       "start": 29.36,
+       "brand": false
+      },
+      {
+       "id": "w78",
+       "i": 78,
+       "text": "cómo?",
+       "start": 29.52,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "¿Quieres ver cómo?",
+   "end": 29.96
+  },
+  {
+   "id": "f11",
+   "start": 30,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Solo tienes que tocar",
+     "words": [
+      {
+       "id": "w79",
+       "i": 79,
+       "text": "Solo",
+       "start": 30,
+       "brand": false
+      },
+      {
+       "id": "w80",
+       "i": 80,
+       "text": "tienes",
+       "start": 30.16,
+       "brand": false
+      },
+      {
+       "id": "w81",
+       "i": 81,
+       "text": "que",
+       "start": 30.36,
+       "brand": false
+      },
+      {
+       "id": "w82",
+       "i": 82,
+       "text": "tocar",
+       "start": 30.52,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "esta pantalla.",
+     "words": [
+      {
+       "id": "w83",
+       "i": 83,
+       "text": "esta",
+       "start": 30.76,
+       "brand": false
+      },
+      {
+       "id": "w84",
+       "i": 84,
+       "text": "pantalla.",
+       "start": 30.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Solo tienes que tocar / esta pantalla.",
+   "end": 31.52
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "Seguramente",
+   "start": 0,
+   "end": 0.72,
+   "brand": false
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "te",
+   "start": 0.72,
+   "end": 0.88,
+   "brand": false
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "estás",
+   "start": 0.88,
+   "end": 1.04,
+   "brand": false
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "preguntando,",
+   "start": 1.04,
+   "end": 1.8,
+   "brand": false
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "¿esto",
+   "start": 1.92,
+   "end": 2.36,
+   "brand": false
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "realmente",
+   "start": 2.32,
+   "end": 3.04,
+   "brand": false
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "lo",
+   "start": 3,
+   "end": 3.32,
+   "brand": false
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "van",
+   "start": 3.32,
+   "end": 3.52,
+   "brand": false
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "a",
+   "start": 3.48,
+   "end": 3.56,
+   "brand": false
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "usar",
+   "start": 3.52,
+   "end": 3.76,
+   "brand": false
+  },
+  {
+   "i": 10,
+   "src": 10,
+   "text": "mis",
+   "start": 3.72,
+   "end": 3.96,
+   "brand": false
+  },
+  {
+   "i": 11,
+   "src": 11,
+   "text": "docentes?",
+   "start": 3.92,
+   "end": 4.56,
+   "brand": false
+  },
+  {
+   "i": 12,
+   "src": 12,
+   "text": "Sí,",
+   "start": 4.72,
+   "end": 4.92,
+   "brand": false
+  },
+  {
+   "i": 13,
+   "src": 13,
+   "text": "y",
+   "start": 5.12,
+   "end": 5.36,
+   "brand": false
+  },
+  {
+   "i": 14,
+   "src": 14,
+   "text": "tenemos",
+   "start": 5.32,
+   "end": 5.76,
+   "brand": false
+  },
+  {
+   "i": 15,
+   "src": 15,
+   "text": "una",
+   "start": 5.72,
+   "end": 6.04,
+   "brand": false
+  },
+  {
+   "i": 16,
+   "src": 16,
+   "text": "herramienta",
+   "start": 6,
+   "end": 6.52,
+   "brand": false
+  },
+  {
+   "i": 17,
+   "src": 17,
+   "text": "para",
+   "start": 6.48,
+   "end": 6.68,
+   "brand": false
+  },
+  {
+   "i": 18,
+   "src": 18,
+   "text": "eso.",
+   "start": 6.68,
+   "end": 6.96,
+   "brand": false
+  },
+  {
+   "i": 19,
+   "src": 19,
+   "text": "Una",
+   "start": 7.12,
+   "end": 7.32,
+   "brand": false
+  },
+  {
+   "i": 20,
+   "src": 20,
+   "text": "inversión",
+   "start": 7.32,
+   "end": 7.76,
+   "brand": false
+  },
+  {
+   "i": 21,
+   "src": 21,
+   "text": "tecnológica",
+   "start": 7.76,
+   "end": 8.48,
+   "brand": false
+  },
+  {
+   "i": 22,
+   "src": 22,
+   "text": "realmente",
+   "start": 8.44,
+   "end": 9,
+   "brand": false
+  },
+  {
+   "i": 23,
+   "src": 23,
+   "text": "vale",
+   "start": 9,
+   "end": 9.48,
+   "brand": false
+  },
+  {
+   "i": 24,
+   "src": 24,
+   "text": "cuando",
+   "start": 9.44,
+   "end": 9.76,
+   "brand": false
+  },
+  {
+   "i": 25,
+   "src": 25,
+   "text": "la",
+   "start": 9.76,
+   "end": 10,
+   "brand": false
+  },
+  {
+   "i": 26,
+   "src": 26,
+   "text": "gente",
+   "start": 9.96,
+   "end": 10.24,
+   "brand": false
+  },
+  {
+   "i": 27,
+   "src": 27,
+   "text": "sabe",
+   "start": 10.2,
+   "end": 10.64,
+   "brand": false
+  },
+  {
+   "i": 28,
+   "src": 28,
+   "text": "usarla.",
+   "start": 10.6,
+   "end": 11.16,
+   "brand": false
+  },
+  {
+   "i": 29,
+   "src": 29,
+   "text": "Por",
+   "start": 11.4,
+   "end": 11.52,
+   "brand": false
+  },
+  {
+   "i": 30,
+   "src": 30,
+   "text": "eso",
+   "start": 11.52,
+   "end": 11.76,
+   "brand": false
+  },
+  {
+   "i": 31,
+   "src": 31,
+   "text": "creamos",
+   "start": 11.76,
+   "end": 12.4,
+   "brand": false
+  },
+  {
+   "i": 32,
+   "src": 32,
+   "text": "OneScreen",
+   "start": 12.36,
+   "end": 12.92,
+   "brand": true
+  },
+  {
+   "i": 33,
+   "src": 33,
+   "text": "Academy.",
+   "start": 12.88,
+   "end": 13.32,
+   "brand": false
+  },
+  {
+   "i": 34,
+   "src": 34,
+   "text": "Una",
+   "start": 13.6,
+   "end": 13.72,
+   "brand": false
+  },
+  {
+   "i": 35,
+   "src": 35,
+   "text": "plataforma",
+   "start": 13.68,
+   "end": 14.12,
+   "brand": false
+  },
+  {
+   "i": 36,
+   "src": 36,
+   "text": "online",
+   "start": 14.12,
+   "end": 14.56,
+   "brand": false
+  },
+  {
+   "i": 37,
+   "src": 37,
+   "text": "donde",
+   "start": 14.56,
+   "end": 14.96,
+   "brand": false
+  },
+  {
+   "i": 38,
+   "src": 38,
+   "text": "todo",
+   "start": 14.96,
+   "end": 15.36,
+   "brand": false
+  },
+  {
+   "i": 39,
+   "src": 39,
+   "text": "tu",
+   "start": 15.36,
+   "end": 15.56,
+   "brand": false
+  },
+  {
+   "i": 40,
+   "src": 40,
+   "text": "equipo",
+   "start": 15.56,
+   "end": 15.88,
+   "brand": false
+  },
+  {
+   "i": 41,
+   "src": 41,
+   "text": "podrá",
+   "start": 15.88,
+   "end": 16.24,
+   "brand": false
+  },
+  {
+   "i": 42,
+   "src": 42,
+   "text": "certificarse",
+   "start": 16.2,
+   "end": 17,
+   "brand": false
+  },
+  {
+   "i": 43,
+   "src": 43,
+   "text": "en",
+   "start": 16.96,
+   "end": 17.24,
+   "brand": false
+  },
+  {
+   "i": 44,
+   "src": 44,
+   "text": "el",
+   "start": 17.2,
+   "end": 17.32,
+   "brand": false
+  },
+  {
+   "i": 45,
+   "src": 45,
+   "text": "ecosistema",
+   "start": 17.32,
+   "end": 17.88,
+   "brand": false
+  },
+  {
+   "i": 46,
+   "src": 46,
+   "text": "OneScreen.",
+   "start": 17.84,
+   "end": 18.44,
+   "brand": true
+  },
+  {
+   "i": 47,
+   "src": 47,
+   "text": "Encontrarás",
+   "start": 18.8,
+   "end": 19.44,
+   "brand": false
+  },
+  {
+   "i": 48,
+   "src": 48,
+   "text": "cursos",
+   "start": 19.4,
+   "end": 19.88,
+   "brand": false
+  },
+  {
+   "i": 49,
+   "src": 49,
+   "text": "para",
+   "start": 19.84,
+   "end": 20.04,
+   "brand": false
+  },
+  {
+   "i": 50,
+   "src": 50,
+   "text": "aprender",
+   "start": 20,
+   "end": 20.32,
+   "brand": false
+  },
+  {
+   "i": 51,
+   "src": 51,
+   "text": "a",
+   "start": 20.28,
+   "end": 20.44,
+   "brand": false
+  },
+  {
+   "i": 52,
+   "src": 52,
+   "text": "usar",
+   "start": 20.44,
+   "end": 20.6,
+   "brand": false
+  },
+  {
+   "i": 53,
+   "src": 53,
+   "text": "tu",
+   "start": 20.6,
+   "end": 20.76,
+   "brand": false
+  },
+  {
+   "i": 54,
+   "src": 54,
+   "text": "pantalla,",
+   "start": 20.72,
+   "end": 21.16,
+   "brand": false
+  },
+  {
+   "i": 55,
+   "src": 55,
+   "text": "los",
+   "start": 21.44,
+   "end": 21.64,
+   "brand": false
+  },
+  {
+   "i": 56,
+   "src": 56,
+   "text": "softwares",
+   "start": 21.64,
+   "end": 22.08,
+   "brand": false
+  },
+  {
+   "i": 57,
+   "src": 57,
+   "text": "de",
+   "start": 22.04,
+   "end": 22.2,
+   "brand": false
+  },
+  {
+   "i": 58,
+   "src": 58,
+   "text": "tu",
+   "start": 22.2,
+   "end": 22.32,
+   "brand": false
+  },
+  {
+   "i": 59,
+   "src": 59,
+   "text": "pantalla.",
+   "start": 22.28,
+   "end": 22.76,
+   "brand": false
+  },
+  {
+   "i": 60,
+   "src": 60,
+   "text": "E",
+   "start": 23.04,
+   "end": 23.12,
+   "brand": false
+  },
+  {
+   "i": 61,
+   "src": 61,
+   "text": "incluso",
+   "start": 23.08,
+   "end": 23.64,
+   "brand": false
+  },
+  {
+   "i": 62,
+   "src": 62,
+   "text": "tu",
+   "start": 23.64,
+   "end": 24.04,
+   "brand": false
+  },
+  {
+   "i": 63,
+   "src": 63,
+   "text": "equipo",
+   "start": 24,
+   "end": 24.32,
+   "brand": false
+  },
+  {
+   "i": 64,
+   "src": 64,
+   "text": "podrá",
+   "start": 24.28,
+   "end": 24.64,
+   "brand": false
+  },
+  {
+   "i": 65,
+   "src": 65,
+   "text": "acceder",
+   "start": 24.64,
+   "end": 25,
+   "brand": false
+  },
+  {
+   "i": 66,
+   "src": 66,
+   "text": "a",
+   "start": 24.96,
+   "end": 25.12,
+   "brand": false
+  },
+  {
+   "i": 67,
+   "src": 67,
+   "text": "cursos",
+   "start": 25.12,
+   "end": 25.52,
+   "brand": false
+  },
+  {
+   "i": 68,
+   "src": 68,
+   "text": "de",
+   "start": 25.48,
+   "end": 25.6,
+   "brand": false
+  },
+  {
+   "i": 69,
+   "src": 69,
+   "text": "inteligencia",
+   "start": 25.6,
+   "end": 26.12,
+   "brand": false
+  },
+  {
+   "i": 70,
+   "src": 70,
+   "text": "artificial.",
+   "start": 26.12,
+   "end": 26.48,
+   "brand": false
+  },
+  {
+   "i": 71,
+   "src": 71,
+   "text": "Nosotros",
+   "start": 27.04,
+   "end": 27.68,
+   "brand": false
+  },
+  {
+   "i": 72,
+   "src": 72,
+   "text": "certificamos",
+   "start": 27.64,
+   "end": 28.32,
+   "brand": false
+  },
+  {
+   "i": 73,
+   "src": 73,
+   "text": "a",
+   "start": 28.32,
+   "end": 28.48,
+   "brand": false
+  },
+  {
+   "i": 74,
+   "src": 74,
+   "text": "tu",
+   "start": 28.44,
+   "end": 28.6,
+   "brand": false
+  },
+  {
+   "i": 75,
+   "src": 75,
+   "text": "equipo.",
+   "start": 28.56,
+   "end": 28.92,
+   "brand": false
+  },
+  {
+   "i": 76,
+   "src": 76,
+   "text": "¿Quieres",
+   "start": 29.04,
+   "end": 29.36,
+   "brand": false
+  },
+  {
+   "i": 77,
+   "src": 77,
+   "text": "ver",
+   "start": 29.36,
+   "end": 29.52,
+   "brand": false
+  },
+  {
+   "i": 78,
+   "src": 78,
+   "text": "cómo?",
+   "start": 29.52,
+   "end": 29.76,
+   "brand": false
+  },
+  {
+   "i": 79,
+   "src": 79,
+   "text": "Solo",
+   "start": 30,
+   "end": 30.2,
+   "brand": false
+  },
+  {
+   "i": 80,
+   "src": 80,
+   "text": "tienes",
+   "start": 30.16,
+   "end": 30.4,
+   "brand": false
+  },
+  {
+   "i": 81,
+   "src": 81,
+   "text": "que",
+   "start": 30.36,
+   "end": 30.52,
+   "brand": false
+  },
+  {
+   "i": 82,
+   "src": 82,
+   "text": "tocar",
+   "start": 30.52,
+   "end": 30.8,
+   "brand": false
+  },
+  {
+   "i": 83,
+   "src": 83,
+   "text": "esta",
+   "start": 30.76,
+   "end": 30.96,
+   "brand": false
+  },
+  {
+   "i": 84,
+   "src": 84,
+   "text": "pantalla.",
+   "start": 30.92,
+   "end": 31.28,
+   "brand": false
+  }
+ ]
+}

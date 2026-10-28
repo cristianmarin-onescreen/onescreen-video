@@ -1,0 +1,70 @@
+   0.00-   1.54 (1.54s) | A:C0912.MP4 100%                                                       | D3" ¿Cuánto le cuesta a tu institución
+   1.54-   2.04 (0.50s) | A:C0912.MP4 148%                                                       | D3" el tiempo que tus docentes invierten
+   2.04-   3.46 (1.42s) | A:C0912.MP4 148% | B:grok-video-7b106ef4-6232-4888-b15a 260%           | D3" el tiempo que tus docentes invierten
+   3.46-   4.50 (1.04s) | A:C0912.MP4 100% | G:Title.jpg                                         | 
+   4.50-   6.46 (1.96s) | A:C0912.MP4 100%                                                       | D3" Preparar una hora de clase para un docente, puede tomarle de 30 minutos
+   6.46-   7.51 (1.05s) | A:C0912.MP4 100%                                                       | D3" Preparar una hora de clase para un docente, puede tomarle de 30 minutos
+   7.51-   8.18 (0.67s) | A:C0912.MP4 100% | G:Recurso 16@2x.png 62%                             | D3" Preparar una hora de clase para un docente, puede tomarle de 30 minutos
+   8.18-   8.47 (0.29s) | A:C0912.MP4 148% | G:Recurso 16@2x.png 62%                             | D3" a 2 horas de tiempo.
+   8.47-   9.55 (1.08s) | A:C0912.MP4 148% | G:Recurso 16@2x.png 62% | G:Recurso 17@2x.png 62%   | D3" a 2 horas de tiempo.
+   9.55-  10.47 (0.92s) | A:C0912.MP4 100% | G:Recurso 16@2x.png 62% | G:Recurso 17@2x.png 62%   | D3" En lo que investiga fuentes, compara el currículum académico,
+  10.47-  11.30 (0.83s) | A:C0912.MP4 148% | B:grok-video-00464b62-ef50-4720-81e7 260%           | D3" En lo que investiga fuentes, compara el currículum académico,
+  11.30-  12.47 (1.17s) | A:C0912.MP4 148% | B:grok-video-7b106ef4-6232-4888-b15a 260%           | D3" En lo que investiga fuentes, compara el currículum académico,
+  12.47-  13.89 (1.42s) | A:C0912.MP4 100%                                                       | D3" piensa en actividades y diapositivas de su presentación.
+  13.89-  15.31 (1.42s) | A:C0912.MP4 100% | B:grok-video-7e5d7b56-23e6-4df0-b049 260%           | D3" piensa en actividades y diapositivas de su presentación.
+  15.31-  15.77 (0.46s) | A:C0912.MP4 148%                                                       | D3" Puede gastar miles de horas.
+  15.77-  16.81 (1.04s) | A:C0912.MP4 148% | G:Recurso 1@8x.png 35%                              | D3" Puede gastar miles de horas.
+  16.81-  17.39 (0.58s) | A:C0912.MP4 100%                                                       | D3" Que puede dedicar a lo que realmente importa,
+  17.39-  18.94 (1.55s) | A:C0912.MP4 148%                                                       | D3" Que puede dedicar a lo que realmente importa,
+  18.94-  19.64 (0.70s) | A:C0912.MP4 100% | G:Color mate | G:Title1.jpg 100%                    | 
+  19.64-  19.89 (0.25s) | A:C0912.MP4 100% | G:Color mate | G:Title1.jpg 100%                    | 
+  19.89-  20.10 (0.21s) | A:C0912.MP4 100% | G:Color mate | G:Title1.jpg 100%                    | 
+  20.10-  20.77 (0.67s) | A:C0912.MP4 100% | G:Color mate | G:Title1.jpg                         | 
+  20.77-  21.81 (1.04s) | A:C0912.MP4 100%                                                       | D3" Por eso diseñamos OneScreen Lessn,
+  21.81-  21.98 (0.17s) | A:C0912.MP4 100% | G:Recurso 5.png                                     | D3" Por eso diseñamos OneScreen Lessn,
+  21.98-  22.61 (0.63s) | A:C0912.MP4 148% | G:Recurso 5.png                                     | D3" Por eso diseñamos OneScreen Lessn,
+  22.61-  22.98 (0.37s) | A:C0912.MP4 100% | G:Recurso 5.png                                     | D3" la plataforma de planeación de clases, diseñada para docentes.
+  22.98-  23.40 (0.42s) | A:C0912.MP4 100% | B:C0010.MP4                                         | D3" la plataforma de planeación de clases, diseñada para docentes.
+  23.40-  24.19 (0.79s) | A:C0912.MP4 100% | B:C0010.MP4                                         | D3" la plataforma de planeación de clases, diseñada para docentes.
+  24.19-  24.57 (0.38s) | A:C0912.MP4 148% | B:C0010.MP4                                         | D3" la plataforma de planeación de clases, diseñada para docentes.
+  24.57-  24.77 (0.20s) | A:C0912.MP4 100% | B:C0010.MP4                                         | D3" la plataforma de planeación de clases, diseñada para docentes.
+  24.77-  25.78 (1.01s) | A:C0912.MP4 100% | B:C0010.MP4                                         | D3" la plataforma de planeación de clases, diseñada para docentes.
+  25.78-  26.32 (0.54s) | A:C0912.MP4 100% | B:C0010.MP4                                         | D3" En vez de 2 horas investigando y creando una clase.
+  26.32-  26.44 (0.12s) | A:C0912.MP4 100% | B:C0010.MP4 | G:Recurso 17@2x.png 62%               | D3" En vez de 2 horas investigando y creando una clase.
+  26.44-  28.20 (1.76s) | A:C0912.MP4 148% | G:Recurso 17@2x.png 62%                             | D3" En vez de 2 horas investigando y creando una clase. D3" Tu docente solo debe ingresar 
+  28.20-  28.74 (0.54s) | A:C0912.MP4 100% | B:C0011.MP4                                         | D3" Tu docente solo debe ingresar a Lessn, seleccione nivel académico, y el tema.
+  28.74-  29.91 (1.17s) | A:C0912.MP4 148% | B:C0011.MP4                                         | D3" Tu docente solo debe ingresar a Lessn, seleccione nivel académico, y el tema.
+  29.91-  31.41 (1.50s) | A:C0912.MP4 100% | B:C0011.MP4                                         | D3" Tu docente solo debe ingresar a Lessn, seleccione nivel académico, y el tema.
+  31.41-  32.24 (0.83s) | A:C0912.MP4 148%                                                       | D3" Tu docente solo debe ingresar a Lessn, seleccione nivel académico, y el tema.
+  32.24-  32.74 (0.50s) | A:C0912.MP4 100%                                                       | D3" Y Lessn creará la clase en menos de 1 minuto.
+  32.74-  34.16 (1.42s) | A:C0912.MP4 100% | B:C0011.MP4                                         | D3" Y Lessn creará la clase en menos de 1 minuto.
+  34.16-  34.91 (0.75s) | A:C0912.MP4 148% | B:C0011.MP4                                         | D3" Y Lessn creará la clase en menos de 1 minuto.
+  34.91-  36.20 (1.29s) | A:C0912.MP4 100%                                                       | D3" Con inteligencia artificial. Acá hay algo importante.
+  36.20-  37.54 (1.34s) | A:C0912.MP4 148%                                                       | D3" Con inteligencia artificial. Acá hay algo importante.
+  37.54-  39.79 (2.25s) | A:C0912.MP4 100% | G:Title 3.jpg                                       | 
+  39.79-  40.96 (1.17s) | A:C0912.MP4 148%                                                       | D3" que busca la información en Internet
+  40.96-  42.04 (1.08s) | A:C0912.MP4 100%                                                       | D3" que busca la información en Internet D3" o fuentes sin verificar.
+  42.04-  42.71 (0.67s) | A:C0912.MP4 100% | B:C0011.MP4                                         | D3" o fuentes sin verificar.
+  42.71-  45.05 (2.34s) | A:C0912.MP4 148% | B:C0011.MP4                                         | D3" o inventándose la información que no sabe.
+  45.05-  46.05 (1.00s) | A:C0912.MP4 100%                                                       | D3" Lessn consulta su base de datos, que está entrenada en sus programas
+  46.05-  46.80 (0.75s) | A:C0912.MP4 100% | B:database-computer-digital-technolo 200%           | D3" Lessn consulta su base de datos, que está entrenada en sus programas
+  46.80-  48.63 (1.83s) | A:C0912.MP4 148% | B:database-computer-digital-technolo 200%           | D3" Lessn consulta su base de datos, que está entrenada en sus programas D3" curriculares,
+  48.63-  49.05 (0.42s) | A:C0912.MP4 148% | B:digital-file-folders-in-futuristic                | D3" curriculares, Norteamericanos y Europeos K12.
+  49.05-  50.13 (1.08s) | A:C0912.MP4 100% | B:digital-file-folders-in-futuristic                | D3" curriculares, Norteamericanos y Europeos K12.
+  50.13-  51.55 (1.42s) | A:C0912.MP4 148% | B:digital-file-folders-in-futuristic                | D3" curriculares, Norteamericanos y Europeos K12.
+  51.55-  53.72 (2.17s) | A:C0912.MP4 100%                                                       | D3" Por lo que puedes confiar D3" que el contenido entregado, no es falso, ni de baja cali
+  53.72-  55.72 (2.00s) | A:C0912.MP4 148%                                                       | D3" que el contenido entregado, no es falso, ni de baja calidad.
+  55.72-  56.64 (0.92s) | A:C0912.MP4 100% | B:2026-03-04 17-51-32.mp4 567%                      | D3" Lo mejor, todo es editable.
+  56.64-  57.47 (0.83s) | A:C0912.MP4 100% | B:2026-03-04 17-53-27.mp4 434%                      | D3" Lo mejor, todo es editable.
+  57.47-  59.64 (2.17s) | A:C0912.MP4 148% | B:2026-03-04 17-53-27.mp4 434%                      | D3" Cada docente puede agregar su toque personal.
+  59.64-  60.64 (1.00s) | A:C0912.MP4 100%                                                       | D3" ¿Qué significa esto para tu institución?
+  60.64-  61.60 (0.96s) | A:C0912.MP4 148%                                                       | D3" ¿Qué significa esto para tu institución?
+  61.60-  63.10 (1.50s) | A:C0912.MP4 100% | B:grok-video-7389adf8-e6b1-4dae-85fb 260%           | D3" Docentes más concentrados en los estudiantes y no en, hacer diapositivas.
+  63.10-  63.90 (0.80s) | A:C0912.MP4 148% | B:grok-video-7389adf8-e6b1-4dae-85fb 260%           | D3" Docentes más concentrados en los estudiantes y no en, hacer diapositivas.
+  63.90-  65.23 (1.33s) | A:C0912.MP4 100%                                                       | D3" Docentes más concentrados en los estudiantes y no en, hacer diapositivas.
+  65.23-  65.73 (0.50s) | A:C0912.MP4 100%                                                       | 
+  65.73-  66.44 (0.71s) | A:C0912.MP4 100% | G:Color mate | G:Title4.jpg 100%                    | 
+  66.44-  67.23 (0.79s) | A:C0912.MP4 100% | G:Color mate | G:Title4.jpg                         | 
+  67.23-  68.99 (1.76s) | A:C0912.MP4 148% | G:Title5.jpg                                        | 
+  68.99-  71.36 (2.37s) | A:C0912.MP4 100% | G:Recurso 2.png 299%                                | 
+  71.36-  79.45 (8.09s) | A:OneScreen (I 100%                                                    | 

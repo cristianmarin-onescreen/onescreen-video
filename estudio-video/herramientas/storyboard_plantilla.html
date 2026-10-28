@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storyboards OneScreen</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#1a1a1a;--mut:#667;--line:#e2e5ee;--blue:#3976ff;--ok:#12805c;--okbg:#e3f5ee;--no:#c4262e;--nobg:#fdeaeb;--warn:#c4262e}
+@media(prefers-color-scheme:dark){:root{--bg:#14161c;--card:#1d2028;--ink:#eceff6;--mut:#9aa3b5;--line:#2c313d;--blue:#6b9bff;--ok:#4fd0a0;--okbg:#17342b;--no:#ff7a80;--nobg:#3a1c1f;--warn:#ff7a80}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Manrope,system-ui,Segoe UI,sans-serif;display:flex;min-height:100vh}
+nav{width:250px;flex:none;border-right:1px solid var(--line);padding:16px;position:sticky;top:0;height:100vh;overflow:auto;background:var(--card)}
+nav h1{font-size:15px;margin:0 0 12px}
+nav button.v{display:block;width:100%;text-align:left;padding:9px 10px;margin:0 0 6px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--ink);cursor:pointer;font:inherit}
+nav button.v.act{border-color:var(--blue);box-shadow:0 0 0 2px var(--blue) inset}
+nav .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--line);margin-right:8px}
+nav .dot.ok{background:var(--ok)}nav .dot.no{background:var(--no)}
+nav small{display:block;color:var(--mut)}
+main{flex:1;padding:20px 24px;min-width:0;max-width:1400px}
+.top{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+.top h2{margin:0 0 4px;font-size:20px}
+.meta{color:var(--mut);font-size:13px;margin-bottom:4px}
+.b{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:8px;padding:7px 14px;cursor:pointer;font:inherit;font-weight:600}
+.b.no.on{background:var(--nobg);border-color:var(--no);color:var(--no)}
+.b.pri{background:var(--blue);border-color:var(--blue);color:#fff}
+textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--bg);color:var(--ink);font:inherit;resize:vertical;min-height:42px}
+.row{display:grid;grid-template-columns:70px minmax(170px,1fr) 3fr;gap:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.row.falta{border-left:4px solid var(--warn)}
+.row.no{border-color:var(--no)}
+.id{font-weight:800;font-size:18px}
+.t{color:var(--mut);font-size:12px}.t.corta{color:var(--warn);font-weight:700}
+.voz{font-size:17px}
+.voz .tag{display:inline-block;font-size:11px;color:var(--mut);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+.ops{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-bottom:6px}
+.op{border:2px solid var(--line);border-radius:10px;padding:6px;cursor:pointer;background:var(--bg)}
+.op.fav:not(.sel){border-color:var(--blue)}
+.op.sel{border-color:var(--ok);background:var(--okbg)}
+.op img{width:100%;border-radius:6px;display:block;background:#000}
+.cab{display:flex;gap:6px;align-items:center;margin-bottom:4px;flex-wrap:wrap}
+.cab b{font-size:16px}
+.badge{font-size:10px;font-weight:700;letter-spacing:.05em;border-radius:4px;padding:1px 6px;background:var(--line);color:var(--mut)}
+.badge.mo{background:#7d00ba;color:#fff}.badge.fv{background:var(--blue);color:#fff}
+.op.mo2{grid-column:span 2}
+.bz svg{width:100%;height:auto;display:block;border-radius:6px;border:1px solid var(--line)}
+.mot{border-radius:6px;min-height:96px;padding:10px;font-size:13px;background:linear-gradient(135deg,#3976ff,#7d00ba);color:#fff;display:flex;align-items:center}
+.acc{display:flex;gap:8px;margin-top:8px}
+.foot{position:sticky;bottom:0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:16px}
+.foot .msg{color:var(--mut);font-size:13px}
+@media(max-width:820px){body{display:block}nav{width:auto;height:auto;position:static;border-right:0;border-bottom:1px solid var(--line)}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><h1>Storyboards</h1><div id="lista"></div></nav>
+<main>
+  <div class="top" id="top"></div>
+  <div id="tomas"></div>
+  <div class="foot">
+    <button class="b pri" id="enviarTodo">Enviar todos los videos</button>
+    <span class="msg" id="msg"></span>
+  </div>
+</main>
+<script id="datos" type="application/json">__DATA__</script>
+<script>
+const D = JSON.parse(document.getElementById('datos').textContent);
+const KEY = v => 'sb:' + v.id;
+const estado = {};
+D.videos.forEach(v => { try { estado[v.id] = JSON.parse(localStorage.getItem(KEY(v))) || {} } catch (e) { estado[v.id] = {} } });
+let actual = D.videos[0].id;
+const guardar = v => { try { localStorage.setItem(KEY(v), JSON.stringify(estado[v.id])) } catch (e) {} delete document.getElementById('msg').dataset.enviado; setTimeout(revisar, 0); };
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = s => Number(s).toFixed(1) + ' s';
+const L = 'ABCDEFGH';
+// una toma = lo que se ve en pantalla durante ese tramo: un plano o un motion graphic (una sola capa); trae 5 opciones (3 planos y 2 motion designs) y una favorita de Claude
+const opcs = t => (t.opciones && t.opciones.length) ? t.opciones : [Object.assign({fav: true}, t)];
+const favL = t => { const k = opcs(t).findIndex(o => o.fav); return k < 0 ? null : L[k]; };
+const sel = (t, s) => s.d === 'no' ? null : (s.op || favL(t));
+const desc = o => o.tipo === 'motion' ? 'MOTION: ' + (o.desc || '') : 'plano ' + o.plano + (o.plano_in != null ? ' ' + o.plano_in + '–' + o.plano_out + ' s' : '');
+function estadoToma(t, e) { const s = e[t.id] || {}; return s.d === 'no' ? 'no' : (sel(t, s) ? 'ok' : 'falta'); }
+function resumen(v) {
+  const e = estado[v.id], n = v.tomas.length, est = v.tomas.map(t => estadoToma(t, e));
+  return {ok: est.filter(x => x === 'ok').length, no: est.filter(x => x === 'no').length, n, g: est.includes('no') ? 'no' : (est.includes('falta') ? '' : 'ok')};
+}
+function lista() {
+  document.getElementById('lista').innerHTML = D.videos.map(v => {
+    const r = resumen(v);
+    return `<button class="v ${v.id === actual ? 'act' : ''}" data-v="${esc(v.id)}"><span class="dot ${r.g}"></span>${esc(v.id)}<small>${esc(v.titulo || '')} · ${r.ok} elegidas${r.no ? ' · ' + r.no + ' sin opción' : ''} de ${r.n}</small></button>`;
+  }).join('');
+  document.querySelectorAll('nav .v').forEach(b => b.onclick = () => { actual = b.dataset.v; pintar(); lista(); });
+}
+function pintar() {
+  const v = D.videos.find(x => x.id === actual), e = estado[v.id], g = e._g || {};
+  document.getElementById('top').innerHTML = `<h2>${esc(v.id)} ${v.titulo ? '— ' + esc(v.titulo) : ''}</h2>
+    <div class="meta">${esc(v.meta || '')} ${v.tomas.length} tomas · ${fmt(v.tomas[v.tomas.length - 1].t1)}. Cada toma trae 5 opciones: 3 planos y 2 motion designs. La ★ es la favorita de Claude y ya viene elegida: cámbiala con un clic.</div>
+    <textarea id="gc" placeholder="Comentario general del storyboard (opcional)">${esc(g.c || '')}</textarea>`;
+  document.getElementById('gc').oninput = ev => { (e._g = e._g || {}).c = ev.target.value; guardar(v); };
+  document.getElementById('tomas').innerHTML = v.tomas.map(t => {
+    const s = e[t.id] || {}, dur = t.t1 - t.t0, corta = dur < 1.5, cur = sel(t, s), est = estadoToma(t, e);
+    const ops = opcs(t).map((o, i) => {
+      const mo = o.tipo === 'motion';
+      const vista = o.svg ? `<div class="bz">${o.svg}</div>` : o.img ? `<img src="${o.img}" alt="${L[i]}">` : `<div class="mot">${esc(o.desc || (mo ? 'Motion graphic' : 'Sin vista previa'))}</div>`;
+      const pie = (mo ? '' : 'Plano <b>' + esc(o.plano) + '</b>' + (o.plano_in != null ? ' · ' + fmt(o.plano_in) + '–' + fmt(o.plano_out) : '') + ' · ') + esc(o.nota || '') + (mo && (o.desc || o.mov) ? (o.desc ? esc(o.desc) : '') + (o.mov ? '<br><b>Movimiento:</b> ' + esc(o.mov) : '') : '');
+      return `<div class="op ${cur === L[i] ? 'sel' : ''} ${o.fav ? 'fav' : ''} ${o.svg ? 'mo2' : ''}" data-o="${L[i]}"><div class="cab"><b>${L[i]}</b><span class="badge ${mo ? 'mo' : ''}">${mo ? 'MOTION' : 'PLANO'}</span>${o.fav ? '<span class="badge fv">★ favorita</span>' : ''}</div>${vista}<div class="t">${pie}</div></div>`;
+    }).join('');
+    return `<div class="row ${est}" data-t="${esc(t.id)}">
+      <div><div class="id">${esc(t.id)}</div><div class="t ${corta ? 'corta' : ''}">${fmt(t.t0)}–${fmt(t.t1)}<br>${fmt(dur)}${corta ? ' ⚠ &lt;1,5 s' : ''}</div></div>
+      <div class="voz"><span class="tag">Voz</span><br>${esc(t.voz || '—')}</div>
+      <div class="pl"><div class="ops">${ops}</div>
+        <div class="acc"><button class="b no ${s.d === 'no' ? 'on' : ''}" data-d="no">Ninguna sirve → traer 5 nuevas (3 planos + 2 motion)</button></div>
+        <textarea placeholder="Comentario de ${esc(t.id)} (opcional, ej. «quiero ingenieros atendiendo»)">${esc(s.c || '')}</textarea></div></div>`;
+  }).join('');
+  document.querySelectorAll('.row').forEach(r => {
+    const id = r.dataset.t;
+    r.querySelectorAll('[data-o]').forEach(o => o.onclick = () => { const s = e[id] = e[id] || {}; s.d = 'ok'; s.op = o.dataset.o; guardar(v); pintar(); lista(); });
+    r.querySelector('[data-d]').onclick = () => { const s = e[id] = e[id] || {}; if (s.d === 'no') { s.d = ''; } else { s.d = 'no'; delete s.op; } guardar(v); pintar(); lista(); };
+    r.querySelector('textarea').oninput = ev => { (e[id] = e[id] || {}).c = ev.target.value; guardar(v); };
+  });
+}
+async function enviar(videos) {
+  const m = document.getElementById('msg');
+  try {
+    for (const v of videos) {
+      const e = estado[v.id];
+      const tomas = Object.fromEntries(v.tomas.map(t => {
+        const s = e[t.id] || {}, o = sel(t, s), op = o ? opcs(t)[L.indexOf(o)] : null;
+        return [t.id, {d: o ? 'ok' : 'no', op: o, elegido: op ? desc(op) : null, c: s.c || ''}];
+      }));
+      const r = await fetch('/enviar', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({id: v.id, general: {c: (e._g || {}).c || ''}, tomas})});
+      if (!r.ok) throw new Error(r.status);
+    }
+    m.dataset.enviado = '1'; m.textContent = 'Enviado ✓ ' + new Date().toLocaleTimeString() + ' (' + videos.map(v => v.id).join(', ') + '). Avísale a Claude en el chat.';
+  } catch (err) {
+    m.textContent = 'No se pudo enviar: abre la página desde el link http://localhost… que te pasó Claude (no desde el archivo).';
+  }
+}
+function pendientes() {
+  const p = [];
+  D.videos.forEach(v => { const e = estado[v.id]; v.tomas.forEach(t => { if (estadoToma(t, e) === 'falta') p.push(v.id + ' ' + t.id); }); });
+  return p;
+}
+function revisar() {
+  const p = pendientes(), b = document.getElementById('enviarTodo'), m = document.getElementById('msg');
+  b.disabled = p.length > 0;
+  b.style.opacity = p.length ? .45 : 1; b.style.cursor = p.length ? 'not-allowed' : 'pointer';
+  if (p.length) m.textContent = 'Faltan ' + p.length + ' tomas sin opción elegida: ' + p.slice(0, 6).join(', ') + (p.length > 6 ? '…' : '');
+  else if (!m.dataset.enviado) m.textContent = 'Revisa las opciones (la ★ ya viene elegida) y envía.';
+}
+document.getElementById('enviarTodo').onclick = () => { if (pendientes().length) return revisar(); enviar(D.videos); };
+lista(); pintar(); revisar();
+</script>
+</body>
+</html>

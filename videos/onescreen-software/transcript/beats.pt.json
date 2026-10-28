@@ -1,0 +1,3929 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 81.36,
+ "totalFrames": 2034,
+ "source": "Software - Narrador.wav (texto pt-BR sobre los tiempos del es)",
+ "speechEnd": 81.1,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "icon": null,
+   "lower": false,
+   "start": 0,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Mas o que realmente",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Mas",
+       "start": 0.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "o",
+       "start": 0.44,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "que",
+       "start": 0.92,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "realmente",
+       "start": 1.36,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "importa é o que tem por dentro.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "importa",
+       "start": 2.4,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "é",
+       "start": 2.64,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "o",
+       "start": 2.88,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "que",
+       "start": 3.12,
+       "brand": false
+      },
+      {
+       "id": "w1_4",
+       "i": 4,
+       "text": "tem",
+       "start": 3.36,
+       "brand": false
+      },
+      {
+       "id": "w1_5",
+       "i": 5,
+       "text": "por",
+       "start": 3.6,
+       "brand": false
+      },
+      {
+       "id": "w1_6",
+       "i": 6,
+       "text": "dentro.",
+       "start": 3.84,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Mas o que realmente / importa é o que tem por dentro.",
+   "end": 4.24
+  },
+  {
+   "id": "f02",
+   "icon": null,
+   "lower": false,
+   "start": 4.28,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "E por isso trazemos o primeiro",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "E",
+       "start": 4.28,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "por",
+       "start": 4.56,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "isso",
+       "start": 4.84,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "trazemos",
+       "start": 5.16,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "o",
+       "start": 5.44,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "primeiro",
+       "start": 5.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "ecossistema completo de inteligência artificial.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "ecossistema",
+       "start": 6.16,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "completo",
+       "start": 6.64,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "de",
+       "start": 7.12,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "inteligência",
+       "start": 7.64,
+       "brand": false
+      },
+      {
+       "id": "w1_4",
+       "i": 4,
+       "text": "artificial.",
+       "start": 8.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "E por isso trazemos o primeiro / ecossistema completo de inteligência artificial.",
+   "end": 9.2
+  },
+  {
+   "id": "f03",
+   "icon": null,
+   "lower": false,
+   "start": 9.24,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Feito para",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Feito",
+       "start": 9.24,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "para",
+       "start": 9.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "educação.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "educação.",
+       "start": 10.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Feito para / educação.",
+   "end": 10.96
+  },
+  {
+   "id": "f04",
+   "icon": null,
+   "lower": false,
+   "start": 11,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "A meta é simples.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "A",
+       "start": 11.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "meta",
+       "start": 11.2,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "é",
+       "start": 11.36,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "simples.",
+       "start": 11.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "A meta é simples.",
+   "end": 11.96
+  },
+  {
+   "id": "f05",
+   "icon": null,
+   "lower": false,
+   "start": 12,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "O que antes levava 5 horas,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "O",
+       "start": 12.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "que",
+       "start": 12.24,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "antes",
+       "start": 12.48,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "levava",
+       "start": 12.76,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "5",
+       "start": 13.0,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "horas,",
+       "start": 13.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "agora leva",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "agora",
+       "start": 13.76,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "leva",
+       "start": 14.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "5 minutos.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "5",
+       "start": 14.44,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "minutos.",
+       "start": 14.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "O que antes levava 5 horas, / agora leva / 5 minutos.",
+   "end": 15.52
+  },
+  {
+   "id": "f06",
+   "icon": null,
+   "lower": false,
+   "start": 15.56,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "O software da OneScreen foi feito para",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "O",
+       "start": 15.56,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "software",
+       "start": 15.92,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "da",
+       "start": 16.28,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "OneScreen",
+       "start": 16.64,
+       "brand": true
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "foi",
+       "start": 17.04,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "feito",
+       "start": 17.4,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "para",
+       "start": 17.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "potencializar o aprendizado.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "potencializar",
+       "start": 17.96,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "o",
+       "start": 18.32,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "aprendizado.",
+       "start": 18.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "O software da OneScreen foi feito para / potencializar o aprendizado.",
+   "end": 19.36
+  },
+  {
+   "id": "f07",
+   "icon": null,
+   "lower": false,
+   "start": 19.4,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Em",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Em",
+       "start": 19.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "3 momentos.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "3",
+       "start": 19.64,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "momentos.",
+       "start": 19.96,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Antes da aula, durante a aula e depois da aula.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "Antes",
+       "start": 20.76,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "da",
+       "start": 21.12,
+       "brand": false
+      },
+      {
+       "id": "w2_2",
+       "i": 2,
+       "text": "aula,",
+       "start": 21.44,
+       "brand": false
+      },
+      {
+       "id": "w2_3",
+       "i": 3,
+       "text": "durante",
+       "start": 21.8,
+       "brand": false
+      },
+      {
+       "id": "w2_4",
+       "i": 4,
+       "text": "a",
+       "start": 22.16,
+       "brand": false
+      },
+      {
+       "id": "w2_5",
+       "i": 5,
+       "text": "aula",
+       "start": 22.48,
+       "brand": false
+      },
+      {
+       "id": "w2_6",
+       "i": 6,
+       "text": "e",
+       "start": 22.84,
+       "brand": false
+      },
+      {
+       "id": "w2_7",
+       "i": 7,
+       "text": "depois",
+       "start": 23.2,
+       "brand": false
+      },
+      {
+       "id": "w2_8",
+       "i": 8,
+       "text": "da",
+       "start": 23.52,
+       "brand": false
+      },
+      {
+       "id": "w2_9",
+       "i": 9,
+       "text": "aula.",
+       "start": 23.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Em / 3 momentos. / Antes da aula, durante a aula e depois da aula.",
+   "end": 24.32
+  },
+  {
+   "id": "f08",
+   "icon": null,
+   "lower": true,
+   "start": 24.36,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Vamos começar antes da sua aula começar.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Vamos",
+       "start": 24.36,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "começar",
+       "start": 24.6,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "antes",
+       "start": 24.84,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "da",
+       "start": 25.04,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "sua",
+       "start": 25.28,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "aula",
+       "start": 25.52,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "começar.",
+       "start": 25.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Vamos começar antes da sua aula começar.",
+   "end": 26.28
+  },
+  {
+   "id": "f09",
+   "icon": "lessn",
+   "lower": true,
+   "start": 26.32,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Temos",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Temos",
+       "start": 26.32,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "OneScreen Lessn.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 26.72,
+       "brand": true
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "Lessn.",
+       "start": 27.52,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "[lessn] Temos / OneScreen Lessn.",
+   "end": 28
+  },
+  {
+   "id": "f10",
+   "icon": null,
+   "lower": true,
+   "start": 28.04,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Preparar aulas é tão simples quanto escolher um tema,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Preparar",
+       "start": 28.04,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "aulas",
+       "start": 28.4,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "é",
+       "start": 28.8,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "tão",
+       "start": 29.2,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "simples",
+       "start": 29.56,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "quanto",
+       "start": 29.92,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "escolher",
+       "start": 30.32,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "um",
+       "start": 30.72,
+       "brand": false
+      },
+      {
+       "id": "w0_8",
+       "i": 8,
+       "text": "tema,",
+       "start": 31.08,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Preparar aulas é tão simples quanto escolher um tema,",
+   "end": 31.52
+  },
+  {
+   "id": "f10b",
+   "icon": null,
+   "lower": true,
+   "start": 31.56,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "e a turma para quem você vai dar a aula",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "e",
+       "start": 31.56,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "a",
+       "start": 31.72,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "turma",
+       "start": 31.84,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "para",
+       "start": 32.0,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "quem",
+       "start": 32.16,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "você",
+       "start": 32.28,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "vai",
+       "start": 32.44,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "dar",
+       "start": 32.6,
+       "brand": false
+      },
+      {
+       "id": "w0_8",
+       "i": 8,
+       "text": "a",
+       "start": 32.72,
+       "brand": false
+      },
+      {
+       "id": "w0_9",
+       "i": 9,
+       "text": "aula",
+       "start": 32.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "e a turma para quem você vai dar a aula",
+   "end": 33.04
+  },
+  {
+   "id": "f11",
+   "icon": null,
+   "lower": true,
+   "start": 33.08,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "e o OneScreen Lessn cria a aula inteira.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "e",
+       "start": 33.08,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "o",
+       "start": 33.4,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "OneScreen",
+       "start": 33.72,
+       "brand": true
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "Lessn",
+       "start": 34.04,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "cria",
+       "start": 34.36,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "a",
+       "start": 34.68,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "aula",
+       "start": 35.0,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "inteira.",
+       "start": 35.32,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Pronta para usar.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Pronta",
+       "start": 35.8,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "para",
+       "start": 36.08,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "usar.",
+       "start": 36.4,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "e o OneScreen Lessn cria a aula inteira. / Pronta para usar.",
+   "end": 36.84
+  },
+  {
+   "id": "f12",
+   "icon": null,
+   "lower": true,
+   "start": 36.88,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Durante a aula, quem acompanha é",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Durante",
+       "start": 36.88,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "a",
+       "start": 37.08,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "aula,",
+       "start": 37.28,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "quem",
+       "start": 37.52,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "acompanha",
+       "start": 37.72,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "é",
+       "start": 37.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Durante a aula, quem acompanha é",
+   "end": 38.52
+  },
+  {
+   "id": "f13",
+   "icon": "scrybe",
+   "lower": true,
+   "start": 38.56,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "OneScreen Scrybe.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 38.56,
+       "brand": true
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "Scrybe.",
+       "start": 39.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "[scrybe] OneScreen Scrybe.",
+   "end": 39.72
+  },
+  {
+   "id": "f14",
+   "icon": null,
+   "lower": true,
+   "start": 39.8,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Você grava a aula e traduz em tempo real",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Você",
+       "start": 39.8,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "grava",
+       "start": 40.08,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "a",
+       "start": 40.36,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "aula",
+       "start": 40.68,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "e",
+       "start": 40.96,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "traduz",
+       "start": 41.24,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "em",
+       "start": 41.52,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "tempo",
+       "start": 41.84,
+       "brand": false
+      },
+      {
+       "id": "w0_8",
+       "i": 8,
+       "text": "real",
+       "start": 42.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Você grava a aula e traduz em tempo real",
+   "end": 42.32
+  },
+  {
+   "id": "f14b",
+   "icon": null,
+   "lower": true,
+   "start": 42.36,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "para mais de",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "para",
+       "start": 42.36,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "mais",
+       "start": 42.6,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "de",
+       "start": 42.84,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "28 idiomas",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "28",
+       "start": 42.96,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "idiomas",
+       "start": 43.48,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "com legendas na tela.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "com",
+       "start": 44.0,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "legendas",
+       "start": 44.36,
+       "brand": false
+      },
+      {
+       "id": "w2_2",
+       "i": 2,
+       "text": "na",
+       "start": 44.76,
+       "brand": false
+      },
+      {
+       "id": "w2_3",
+       "i": 3,
+       "text": "tela.",
+       "start": 45.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "para mais de / 28 idiomas / com legendas na tela.",
+   "end": 45.72
+  },
+  {
+   "id": "f15",
+   "icon": null,
+   "lower": true,
+   "start": 45.76,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Ideal para alunos de intercâmbio",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Ideal",
+       "start": 45.76,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "para",
+       "start": 46.16,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "alunos",
+       "start": 46.56,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "de",
+       "start": 46.96,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "intercâmbio",
+       "start": 47.36,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "ou com deficiência auditiva.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "ou",
+       "start": 47.96,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "com",
+       "start": 48.36,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "deficiência",
+       "start": 48.8,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "auditiva.",
+       "start": 49.2,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Ideal para alunos de intercâmbio / ou com deficiência auditiva.",
+   "end": 49.92
+  },
+  {
+   "id": "f16",
+   "icon": null,
+   "lower": true,
+   "start": 49.96,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Para avaliar as suas aulas,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Para",
+       "start": 49.96,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "avaliar",
+       "start": 50.16,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "as",
+       "start": 50.32,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "suas",
+       "start": 50.48,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "aulas,",
+       "start": 50.68,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Para avaliar as suas aulas,",
+   "end": 51.36
+  },
+  {
+   "id": "f17",
+   "icon": "quizwiz",
+   "lower": true,
+   "start": 51.4,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "OneScreen QuizWiz.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 51.4,
+       "brand": true
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "QuizWiz.",
+       "start": 51.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "[quizwiz] OneScreen QuizWiz.",
+   "end": 52.56
+  },
+  {
+   "id": "f18",
+   "icon": null,
+   "lower": true,
+   "start": 52.6,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Você gera quizzes com base",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Você",
+       "start": 52.6,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "gera",
+       "start": 52.88,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "quizzes",
+       "start": 53.12,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "com",
+       "start": 53.4,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "base",
+       "start": 53.68,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "em fontes em que você confia,",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "em",
+       "start": 54.08,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "fontes",
+       "start": 54.28,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "em",
+       "start": 54.48,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "que",
+       "start": 54.64,
+       "brand": false
+      },
+      {
+       "id": "w1_4",
+       "i": 4,
+       "text": "você",
+       "start": 54.84,
+       "brand": false
+      },
+      {
+       "id": "w1_5",
+       "i": 5,
+       "text": "confia,",
+       "start": 55.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Você gera quizzes com base / em fontes em que você confia,",
+   "end": 55.8
+  },
+  {
+   "id": "f18b",
+   "icon": null,
+   "lower": true,
+   "start": 55.84,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "como gravações das suas aulas",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "como",
+       "start": 55.84,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "gravações",
+       "start": 56.08,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "das",
+       "start": 56.32,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "suas",
+       "start": 56.52,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "aulas",
+       "start": 56.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "ou as suas próprias anotações.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "ou",
+       "start": 57.2,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "as",
+       "start": 57.36,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "suas",
+       "start": 57.56,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "próprias",
+       "start": 57.76,
+       "brand": false
+      },
+      {
+       "id": "w1_4",
+       "i": 4,
+       "text": "anotações.",
+       "start": 57.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "como gravações das suas aulas / ou as suas próprias anotações.",
+   "end": 58.4
+  },
+  {
+   "id": "f19",
+   "icon": null,
+   "lower": true,
+   "start": 58.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Os alunos respondem direto",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Os",
+       "start": 58.44,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "alunos",
+       "start": 58.92,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "respondem",
+       "start": 59.44,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "direto",
+       "start": 59.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "do celular.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "do",
+       "start": 60.68,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "celular.",
+       "start": 61.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Os alunos respondem direto / do celular.",
+   "end": 62.36
+  },
+  {
+   "id": "f20",
+   "icon": null,
+   "lower": true,
+   "start": 62.4,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Agora, depois da aula,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Agora,",
+       "start": 62.4,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "depois",
+       "start": 62.72,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "da",
+       "start": 63.0,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "aula,",
+       "start": 63.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Agora, depois da aula,",
+   "end": 63.72
+  },
+  {
+   "id": "f21",
+   "icon": null,
+   "lower": true,
+   "start": 63.76,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "temos o primeiro",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "temos",
+       "start": 63.76,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "o",
+       "start": 64.0,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "primeiro",
+       "start": 64.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "ambiente de estudo para alunos,",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "ambiente",
+       "start": 64.56,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "de",
+       "start": 64.84,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "estudo",
+       "start": 65.12,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "para",
+       "start": 65.44,
+       "brand": false
+      },
+      {
+       "id": "w1_4",
+       "i": 4,
+       "text": "alunos,",
+       "start": 65.72,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "temos o primeiro / ambiente de estudo para alunos,",
+   "end": 66.48
+  },
+  {
+   "id": "f22",
+   "icon": "suprnotes",
+   "lower": true,
+   "start": 66.56,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "OneScreen SuprNotes.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 66.56,
+       "brand": true
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "SuprNotes.",
+       "start": 66.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "[suprnotes] OneScreen SuprNotes.",
+   "end": 67.84
+  },
+  {
+   "id": "f23",
+   "icon": null,
+   "lower": true,
+   "start": 67.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Os alunos criam notas de estudo interativas",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Os",
+       "start": 67.92,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "alunos",
+       "start": 68.28,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "criam",
+       "start": 68.6,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "notas",
+       "start": 68.96,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "de",
+       "start": 69.32,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "estudo",
+       "start": 69.64,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "interativas",
+       "start": 70.0,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Os alunos criam notas de estudo interativas",
+   "end": 70.8
+  },
+  {
+   "id": "f23b",
+   "icon": null,
+   "lower": true,
+   "start": 70.84,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "e se preparam com questionários.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "e",
+       "start": 70.84,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "se",
+       "start": 71.12,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "preparam",
+       "start": 71.44,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "com",
+       "start": 71.76,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "questionários.",
+       "start": 72.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "e se preparam com questionários.",
+   "end": 72.88
+  },
+  {
+   "id": "f24",
+   "icon": null,
+   "lower": true,
+   "start": 72.96,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "O SuprNotes cria um",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "O",
+       "start": 72.96,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "SuprNotes",
+       "start": 73.36,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "cria",
+       "start": 73.72,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "um",
+       "start": 74.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "chatbot",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "chatbot",
+       "start": 74.2,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "O SuprNotes cria um / chatbot",
+   "end": 74.64
+  },
+  {
+   "id": "f24b",
+   "icon": null,
+   "lower": true,
+   "start": 74.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "treinado só com as anotações da aula.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "treinado",
+       "start": 74.68,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "só",
+       "start": 75.04,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "com",
+       "start": 75.44,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "as",
+       "start": 75.8,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "anotações",
+       "start": 76.16,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "da",
+       "start": 76.56,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "aula.",
+       "start": 76.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "treinado só com as anotações da aula.",
+   "end": 77.28
+  },
+  {
+   "id": "f25",
+   "icon": null,
+   "lower": false,
+   "start": 77.36,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Tudo isso está ao alcance da sua mão.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Tudo",
+       "start": 77.36,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "isso",
+       "start": 77.56,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "está",
+       "start": 77.76,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "ao",
+       "start": 77.96,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "alcance",
+       "start": 78.16,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "da",
+       "start": 78.36,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "sua",
+       "start": 78.56,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "mão.",
+       "start": 78.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Tudo isso está ao alcance da sua mão.",
+   "end": 79.08
+  },
+  {
+   "id": "f26",
+   "icon": null,
+   "lower": false,
+   "start": 79.12,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Quer experimentar?",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Quer",
+       "start": 79.12,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "experimentar?",
+       "start": 79.4,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Quer experimentar?",
+   "end": 79.8
+  },
+  {
+   "id": "f27",
+   "icon": null,
+   "lower": false,
+   "start": 79.84,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "É só",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "É",
+       "start": 79.84,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "só",
+       "start": 80.28,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "tocar na tela.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "tocar",
+       "start": 80.44,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "na",
+       "start": 80.64,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "tela.",
+       "start": 80.8,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "É só / tocar na tela.",
+   "end": 81.36
+  }
+ ],
+ "words": [
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Mas",
+   "start": 0.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "o",
+   "start": 0.44,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "que",
+   "start": 0.92,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "realmente",
+   "start": 1.36,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "importa",
+   "start": 2.4,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "é",
+   "start": 2.64,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "o",
+   "start": 2.88,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "que",
+   "start": 3.12,
+   "brand": false
+  },
+  {
+   "id": "w1_4",
+   "i": 4,
+   "text": "tem",
+   "start": 3.36,
+   "brand": false
+  },
+  {
+   "id": "w1_5",
+   "i": 5,
+   "text": "por",
+   "start": 3.6,
+   "brand": false
+  },
+  {
+   "id": "w1_6",
+   "i": 6,
+   "text": "dentro.",
+   "start": 3.84,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "E",
+   "start": 4.28,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "por",
+   "start": 4.56,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "isso",
+   "start": 4.84,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "trazemos",
+   "start": 5.16,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "o",
+   "start": 5.44,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "primeiro",
+   "start": 5.72,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "ecossistema",
+   "start": 6.16,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "completo",
+   "start": 6.64,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "de",
+   "start": 7.12,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "inteligência",
+   "start": 7.64,
+   "brand": false
+  },
+  {
+   "id": "w1_4",
+   "i": 4,
+   "text": "artificial.",
+   "start": 8.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Feito",
+   "start": 9.24,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "para",
+   "start": 9.76,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "educação.",
+   "start": 10.16,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "A",
+   "start": 11.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "meta",
+   "start": 11.2,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "é",
+   "start": 11.36,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "simples.",
+   "start": 11.56,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "O",
+   "start": 12.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "que",
+   "start": 12.24,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "antes",
+   "start": 12.48,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "levava",
+   "start": 12.76,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "5",
+   "start": 13.0,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "horas,",
+   "start": 13.24,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "agora",
+   "start": 13.76,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "leva",
+   "start": 14.12,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "5",
+   "start": 14.44,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "minutos.",
+   "start": 14.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "O",
+   "start": 15.56,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "software",
+   "start": 15.92,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "da",
+   "start": 16.28,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "OneScreen",
+   "start": 16.64,
+   "brand": true
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "foi",
+   "start": 17.04,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "feito",
+   "start": 17.4,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "para",
+   "start": 17.76,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "potencializar",
+   "start": 17.96,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "o",
+   "start": 18.32,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "aprendizado.",
+   "start": 18.64,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Em",
+   "start": 19.4,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "3",
+   "start": 19.64,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "momentos.",
+   "start": 19.96,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "Antes",
+   "start": 20.76,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "da",
+   "start": 21.12,
+   "brand": false
+  },
+  {
+   "id": "w2_2",
+   "i": 2,
+   "text": "aula,",
+   "start": 21.44,
+   "brand": false
+  },
+  {
+   "id": "w2_3",
+   "i": 3,
+   "text": "durante",
+   "start": 21.8,
+   "brand": false
+  },
+  {
+   "id": "w2_4",
+   "i": 4,
+   "text": "a",
+   "start": 22.16,
+   "brand": false
+  },
+  {
+   "id": "w2_5",
+   "i": 5,
+   "text": "aula",
+   "start": 22.48,
+   "brand": false
+  },
+  {
+   "id": "w2_6",
+   "i": 6,
+   "text": "e",
+   "start": 22.84,
+   "brand": false
+  },
+  {
+   "id": "w2_7",
+   "i": 7,
+   "text": "depois",
+   "start": 23.2,
+   "brand": false
+  },
+  {
+   "id": "w2_8",
+   "i": 8,
+   "text": "da",
+   "start": 23.52,
+   "brand": false
+  },
+  {
+   "id": "w2_9",
+   "i": 9,
+   "text": "aula.",
+   "start": 23.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Vamos",
+   "start": 24.36,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "começar",
+   "start": 24.6,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "antes",
+   "start": 24.84,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "da",
+   "start": 25.04,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "sua",
+   "start": 25.28,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "aula",
+   "start": 25.52,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "começar.",
+   "start": 25.76,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Temos",
+   "start": 26.32,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 26.72,
+   "brand": true
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "Lessn.",
+   "start": 27.52,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Preparar",
+   "start": 28.04,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "aulas",
+   "start": 28.4,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "é",
+   "start": 28.8,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "tão",
+   "start": 29.2,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "simples",
+   "start": 29.56,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "quanto",
+   "start": 29.92,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "escolher",
+   "start": 30.32,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "um",
+   "start": 30.72,
+   "brand": false
+  },
+  {
+   "id": "w0_8",
+   "i": 8,
+   "text": "tema,",
+   "start": 31.08,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "e",
+   "start": 31.56,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "a",
+   "start": 31.72,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "turma",
+   "start": 31.84,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "para",
+   "start": 32.0,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "quem",
+   "start": 32.16,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "você",
+   "start": 32.28,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "vai",
+   "start": 32.44,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "dar",
+   "start": 32.6,
+   "brand": false
+  },
+  {
+   "id": "w0_8",
+   "i": 8,
+   "text": "a",
+   "start": 32.72,
+   "brand": false
+  },
+  {
+   "id": "w0_9",
+   "i": 9,
+   "text": "aula",
+   "start": 32.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "e",
+   "start": 33.08,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "o",
+   "start": 33.4,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "OneScreen",
+   "start": 33.72,
+   "brand": true
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "Lessn",
+   "start": 34.04,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "cria",
+   "start": 34.36,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "a",
+   "start": 34.68,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "aula",
+   "start": 35.0,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "inteira.",
+   "start": 35.32,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Pronta",
+   "start": 35.8,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "para",
+   "start": 36.08,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "usar.",
+   "start": 36.4,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Durante",
+   "start": 36.88,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "a",
+   "start": 37.08,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "aula,",
+   "start": 37.28,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "quem",
+   "start": 37.52,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "acompanha",
+   "start": 37.72,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "é",
+   "start": 37.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 38.56,
+   "brand": true
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "Scrybe.",
+   "start": 39.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Você",
+   "start": 39.8,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "grava",
+   "start": 40.08,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "a",
+   "start": 40.36,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "aula",
+   "start": 40.68,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "e",
+   "start": 40.96,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "traduz",
+   "start": 41.24,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "em",
+   "start": 41.52,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "tempo",
+   "start": 41.84,
+   "brand": false
+  },
+  {
+   "id": "w0_8",
+   "i": 8,
+   "text": "real",
+   "start": 42.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "para",
+   "start": 42.36,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "mais",
+   "start": 42.6,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "de",
+   "start": 42.84,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "28",
+   "start": 42.96,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "idiomas",
+   "start": 43.48,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "com",
+   "start": 44.0,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "legendas",
+   "start": 44.36,
+   "brand": false
+  },
+  {
+   "id": "w2_2",
+   "i": 2,
+   "text": "na",
+   "start": 44.76,
+   "brand": false
+  },
+  {
+   "id": "w2_3",
+   "i": 3,
+   "text": "tela.",
+   "start": 45.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Ideal",
+   "start": 45.76,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "para",
+   "start": 46.16,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "alunos",
+   "start": 46.56,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "de",
+   "start": 46.96,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "intercâmbio",
+   "start": 47.36,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "ou",
+   "start": 47.96,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "com",
+   "start": 48.36,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "deficiência",
+   "start": 48.8,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "auditiva.",
+   "start": 49.2,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Para",
+   "start": 49.96,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "avaliar",
+   "start": 50.16,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "as",
+   "start": 50.32,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "suas",
+   "start": 50.48,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "aulas,",
+   "start": 50.68,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 51.4,
+   "brand": true
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "QuizWiz.",
+   "start": 51.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Você",
+   "start": 52.6,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "gera",
+   "start": 52.88,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "quizzes",
+   "start": 53.12,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "com",
+   "start": 53.4,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "base",
+   "start": 53.68,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "em",
+   "start": 54.08,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "fontes",
+   "start": 54.28,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "em",
+   "start": 54.48,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "que",
+   "start": 54.64,
+   "brand": false
+  },
+  {
+   "id": "w1_4",
+   "i": 4,
+   "text": "você",
+   "start": 54.84,
+   "brand": false
+  },
+  {
+   "id": "w1_5",
+   "i": 5,
+   "text": "confia,",
+   "start": 55.04,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "como",
+   "start": 55.84,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "gravações",
+   "start": 56.08,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "das",
+   "start": 56.32,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "suas",
+   "start": 56.52,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "aulas",
+   "start": 56.76,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "ou",
+   "start": 57.2,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "as",
+   "start": 57.36,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "suas",
+   "start": 57.56,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "próprias",
+   "start": 57.76,
+   "brand": false
+  },
+  {
+   "id": "w1_4",
+   "i": 4,
+   "text": "anotações.",
+   "start": 57.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Os",
+   "start": 58.44,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "alunos",
+   "start": 58.92,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "respondem",
+   "start": 59.44,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "direto",
+   "start": 59.92,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "do",
+   "start": 60.68,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "celular.",
+   "start": 61.44,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Agora,",
+   "start": 62.4,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "depois",
+   "start": 62.72,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "da",
+   "start": 63.0,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "aula,",
+   "start": 63.32,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "temos",
+   "start": 63.76,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "o",
+   "start": 64.0,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "primeiro",
+   "start": 64.24,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "ambiente",
+   "start": 64.56,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "de",
+   "start": 64.84,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "estudo",
+   "start": 65.12,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "para",
+   "start": 65.44,
+   "brand": false
+  },
+  {
+   "id": "w1_4",
+   "i": 4,
+   "text": "alunos,",
+   "start": 65.72,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 66.56,
+   "brand": true
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "SuprNotes.",
+   "start": 66.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Os",
+   "start": 67.92,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "alunos",
+   "start": 68.28,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "criam",
+   "start": 68.6,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "notas",
+   "start": 68.96,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "de",
+   "start": 69.32,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "estudo",
+   "start": 69.64,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "interativas",
+   "start": 70.0,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "e",
+   "start": 70.84,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "se",
+   "start": 71.12,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "preparam",
+   "start": 71.44,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "com",
+   "start": 71.76,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "questionários.",
+   "start": 72.04,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "O",
+   "start": 72.96,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "SuprNotes",
+   "start": 73.36,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "cria",
+   "start": 73.72,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "um",
+   "start": 74.12,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "chatbot",
+   "start": 74.2,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "treinado",
+   "start": 74.68,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "só",
+   "start": 75.04,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "com",
+   "start": 75.44,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "as",
+   "start": 75.8,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "anotações",
+   "start": 76.16,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "da",
+   "start": 76.56,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "aula.",
+   "start": 76.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Tudo",
+   "start": 77.36,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "isso",
+   "start": 77.56,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "está",
+   "start": 77.76,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "ao",
+   "start": 77.96,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "alcance",
+   "start": 78.16,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "da",
+   "start": 78.36,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "sua",
+   "start": 78.56,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "mão.",
+   "start": 78.76,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Quer",
+   "start": 79.12,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "experimentar?",
+   "start": 79.4,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "É",
+   "start": 79.84,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "só",
+   "start": 80.28,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "tocar",
+   "start": 80.44,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "na",
+   "start": 80.64,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "tela.",
+   "start": 80.8,
+   "brand": false
+  }
+ ],
+ "lang": "pt-BR"
+}

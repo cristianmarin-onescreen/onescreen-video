@@ -1,0 +1,2143 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 46.88,
+ "totalFrames": 1172,
+ "source": "SC04.wav (texto pt-BR sobre los tiempos del es)",
+ "speechEnd": 44,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "phrase",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Agora vamos apresentar a nossa família.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Agora",
+       "start": 0.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "vamos",
+       "start": 0.4,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "apresentar",
+       "start": 0.8,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "a",
+       "start": 1.24,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "nossa",
+       "start": 1.64,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "família.",
+       "start": 2.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Agora vamos apresentar a nossa família.",
+   "end": 2.68
+  },
+  {
+   "id": "f02",
+   "start": 2.72,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Conheça a família",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Conheça",
+       "start": 2.72,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "a",
+       "start": 2.96,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "família",
+       "start": 3.2,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "OneScreen.",
+       "start": 3.52,
+       "brand": true
+      }
+     ]
+    }
+   ],
+   "text": "Conheça a família / OneScreen.",
+   "end": 4.36
+  },
+  {
+   "id": "f03",
+   "start": 4.4,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Telas interativas digitais",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Telas",
+       "start": 4.4,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "interativas",
+       "start": 5.0,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "digitais",
+       "start": 5.6,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "OneScreen.",
+       "start": 6.12,
+       "brand": true
+      }
+     ]
+    }
+   ],
+   "text": "Telas interativas digitais / OneScreen.",
+   "end": 6.84
+  },
+  {
+   "id": "f04",
+   "start": 6.88,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Quatro modelos.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Quatro",
+       "start": 6.88,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "modelos.",
+       "start": 7.2,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Um mesmo propósito.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Um",
+       "start": 7.76,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "mesmo",
+       "start": 8.04,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "propósito.",
+       "start": 8.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Quatro modelos. / Um mesmo propósito.",
+   "end": 8.96
+  },
+  {
+   "id": "f05",
+   "start": 9,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Lembra?",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Lembra?",
+       "start": 9.0,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Lembra?",
+   "end": 9.72
+  },
+  {
+   "id": "f06",
+   "start": 9.76,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Transformar o futuro.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Transformar",
+       "start": 9.76,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "o",
+       "start": 10.2,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "futuro.",
+       "start": 10.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Transformar o futuro.",
+   "end": 11.36
+  },
+  {
+   "id": "f07",
+   "start": 11.4,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Vamos começar pela primeira.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Vamos",
+       "start": 11.4,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "começar",
+       "start": 11.64,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "pela",
+       "start": 11.88,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "primeira.",
+       "start": 12.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Vamos começar pela primeira.",
+   "end": 12.96
+  },
+  {
+   "id": "f08",
+   "start": 13,
+   "lines": [
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 13.0,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": true,
+     "regular": true,
+     "text": "Core",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Core",
+       "start": 13.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Core",
+   "end": 13.96
+  },
+  {
+   "id": "f09",
+   "start": 14,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "para instituições em crescimento.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "para",
+       "start": 14.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "instituições",
+       "start": 14.4,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "em",
+       "start": 14.84,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "crescimento.",
+       "start": 15.24,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "para instituições em crescimento.",
+   "end": 15.96
+  },
+  {
+   "id": "f10",
+   "start": 16,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Disponível de",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Disponível",
+       "start": 16.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "de",
+       "start": 16.48,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "65” a 110”",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "65”",
+       "start": 16.68,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "a",
+       "start": 17.2,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "110”",
+       "start": 17.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Disponível de / 65” a 110”",
+   "end": 19.08
+  },
+  {
+   "id": "f11",
+   "start": 19.12,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Um tamanho para cada espaço.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Um",
+       "start": 19.12,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "tamanho",
+       "start": 19.44,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "para",
+       "start": 19.76,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "cada",
+       "start": 20.04,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "espaço.",
+       "start": 20.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Um tamanho para cada espaço.",
+   "end": 21.08
+  },
+  {
+   "id": "f12",
+   "start": 21.12,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Android 16",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Android",
+       "start": 21.12,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "16",
+       "start": 21.44,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "com certificação Google EDLA.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "com",
+       "start": 21.88,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "certificação",
+       "start": 22.2,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "Google",
+       "start": 22.56,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "EDLA.",
+       "start": 22.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Android 16 / com certificação Google EDLA.",
+   "end": 23.28
+  },
+  {
+   "id": "f13",
+   "start": 23.32,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Ou seja, mais de",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Ou",
+       "start": 23.32,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "seja,",
+       "start": 23.52,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "mais",
+       "start": 23.68,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "de",
+       "start": 23.88,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "4 milhões",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "4",
+       "start": 24.12,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "milhões",
+       "start": 24.48,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de aplicativos.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "de",
+       "start": 24.84,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "aplicativos.",
+       "start": 25.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Ou seja, mais de / 4 milhões / de aplicativos.",
+   "end": 25.84
+  },
+  {
+   "id": "f14",
+   "start": 25.88,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Tudo o que você imaginar.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Tudo",
+       "start": 25.88,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "o",
+       "start": 26.0,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "que",
+       "start": 26.16,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "você",
+       "start": 26.28,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "imaginar.",
+       "start": 26.4,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Tudo o que você imaginar.",
+   "end": 26.96
+  },
+  {
+   "id": "f15",
+   "start": 27,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Como se usa?",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Como",
+       "start": 27.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "se",
+       "start": 27.2,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "usa?",
+       "start": 27.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Fácil.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Fácil.",
+       "start": 27.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Como se usa? / Fácil.",
+   "end": 28.2
+  },
+  {
+   "id": "f16",
+   "start": 28.24,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "É só seguir estes dois passos.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "É",
+       "start": 28.24,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "só",
+       "start": 28.4,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "seguir",
+       "start": 28.56,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "estes",
+       "start": 28.72,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "dois",
+       "start": 28.88,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "passos.",
+       "start": 29.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "É só seguir estes dois passos.",
+   "end": 29.52
+  },
+  {
+   "id": "f17",
+   "start": 29.56,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Passo 1.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Passo",
+       "start": 29.56,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "1.",
+       "start": 29.8,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Ligar.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Ligar.",
+       "start": 30.4,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Passo 1. / Ligar.",
+   "end": 30.88
+  },
+  {
+   "id": "f18",
+   "start": 30.92,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Passo 2.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Passo",
+       "start": 30.92,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "2.",
+       "start": 31.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Usar.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Usar.",
+       "start": 31.6,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Passo 2. / Usar.",
+   "end": 32.24
+  },
+  {
+   "id": "f19",
+   "start": 32.28,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Viu? Eu disse que era fácil.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Viu?",
+       "start": 32.28,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "Eu",
+       "start": 32.44,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "disse",
+       "start": 32.6,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "que",
+       "start": 32.8,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "era",
+       "start": 32.96,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "fácil.",
+       "start": 33.12,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Viu? Eu disse que era fácil.",
+   "end": 33.56
+  },
+  {
+   "id": "f20",
+   "start": 33.6,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Agora um pouco do",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Agora",
+       "start": 33.6,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "um",
+       "start": 33.76,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "pouco",
+       "start": 33.92,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "do",
+       "start": 34.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Hardware.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Hardware.",
+       "start": 34.24,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Agora um pouco do / Hardware.",
+   "end": 34.92
+  },
+  {
+   "id": "f21",
+   "start": 34.96,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Feita com materiais",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Feita",
+       "start": 34.96,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "com",
+       "start": 35.2,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "materiais",
+       "start": 35.44,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "industriais.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "industriais.",
+       "start": 36.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Feita com materiais / industriais.",
+   "end": 36.84
+  },
+  {
+   "id": "f22",
+   "start": 36.88,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Painel resistente",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Painel",
+       "start": 36.88,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "resistente",
+       "start": 37.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "a impactos.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "a",
+       "start": 37.76,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "impactos.",
+       "start": 37.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Painel resistente / a impactos.",
+   "end": 38.4
+  },
+  {
+   "id": "f23",
+   "start": 38.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Tão resistente",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Tão",
+       "start": 38.44,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "resistente",
+       "start": 39.0,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "quanto a safira.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "quanto",
+       "start": 39.56,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "a",
+       "start": 39.64,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "safira.",
+       "start": 39.68,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Tão resistente / quanto a safira.",
+   "end": 40.4
+  },
+  {
+   "id": "f24",
+   "start": 40.44,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 40.44,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "Core.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Core.",
+       "start": 40.84,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Feita para instituições que não param de crescer.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "Feita",
+       "start": 41.44,
+       "brand": false
+      },
+      {
+       "id": "w2_1",
+       "i": 1,
+       "text": "para",
+       "start": 41.72,
+       "brand": false
+      },
+      {
+       "id": "w2_2",
+       "i": 2,
+       "text": "instituições",
+       "start": 42.0,
+       "brand": false
+      },
+      {
+       "id": "w2_3",
+       "i": 3,
+       "text": "que",
+       "start": 42.28,
+       "brand": false
+      },
+      {
+       "id": "w2_4",
+       "i": 4,
+       "text": "não",
+       "start": 42.6,
+       "brand": false
+      },
+      {
+       "id": "w2_5",
+       "i": 5,
+       "text": "param",
+       "start": 42.88,
+       "brand": false
+      },
+      {
+       "id": "w2_6",
+       "i": 6,
+       "text": "de",
+       "start": 43.16,
+       "brand": false
+      },
+      {
+       "id": "w2_7",
+       "i": 7,
+       "text": "crescer.",
+       "start": 43.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Core. / Feita para instituições que não param de crescer.",
+   "end": 46.88
+  }
+ ],
+ "words": [
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Agora",
+   "start": 0.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "vamos",
+   "start": 0.4,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "apresentar",
+   "start": 0.8,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "a",
+   "start": 1.24,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "nossa",
+   "start": 1.64,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "família.",
+   "start": 2.04,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Conheça",
+   "start": 2.72,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "a",
+   "start": 2.96,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "família",
+   "start": 3.2,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "OneScreen.",
+   "start": 3.52,
+   "brand": true
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Telas",
+   "start": 4.4,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "interativas",
+   "start": 5.0,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "digitais",
+   "start": 5.6,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "OneScreen.",
+   "start": 6.12,
+   "brand": true
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Quatro",
+   "start": 6.88,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "modelos.",
+   "start": 7.2,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Um",
+   "start": 7.76,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "mesmo",
+   "start": 8.04,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "propósito.",
+   "start": 8.32,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Lembra?",
+   "start": 9.0,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Transformar",
+   "start": 9.76,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "o",
+   "start": 10.2,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "futuro.",
+   "start": 10.64,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Vamos",
+   "start": 11.4,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "começar",
+   "start": 11.64,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "pela",
+   "start": 11.88,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "primeira.",
+   "start": 12.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 13.0,
+   "brand": true
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Core",
+   "start": 13.56,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "para",
+   "start": 14.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "instituições",
+   "start": 14.4,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "em",
+   "start": 14.84,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "crescimento.",
+   "start": 15.24,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Disponível",
+   "start": 16.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "de",
+   "start": 16.48,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "65”",
+   "start": 16.68,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "a",
+   "start": 17.2,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "110”",
+   "start": 17.76,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Um",
+   "start": 19.12,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "tamanho",
+   "start": 19.44,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "para",
+   "start": 19.76,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "cada",
+   "start": 20.04,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "espaço.",
+   "start": 20.36,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Android",
+   "start": 21.12,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "16",
+   "start": 21.44,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "com",
+   "start": 21.88,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "certificação",
+   "start": 22.2,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "Google",
+   "start": 22.56,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "EDLA.",
+   "start": 22.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Ou",
+   "start": 23.32,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "seja,",
+   "start": 23.52,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "mais",
+   "start": 23.68,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "de",
+   "start": 23.88,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "4",
+   "start": 24.12,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "milhões",
+   "start": 24.48,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "de",
+   "start": 24.84,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "aplicativos.",
+   "start": 25.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Tudo",
+   "start": 25.88,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "o",
+   "start": 26.0,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "que",
+   "start": 26.16,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "você",
+   "start": 26.28,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "imaginar.",
+   "start": 26.4,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Como",
+   "start": 27.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "se",
+   "start": 27.2,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "usa?",
+   "start": 27.4,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Fácil.",
+   "start": 27.76,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "É",
+   "start": 28.24,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "só",
+   "start": 28.4,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "seguir",
+   "start": 28.56,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "estes",
+   "start": 28.72,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "dois",
+   "start": 28.88,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "passos.",
+   "start": 29.04,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Passo",
+   "start": 29.56,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "1.",
+   "start": 29.8,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Ligar.",
+   "start": 30.4,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Passo",
+   "start": 30.92,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "2.",
+   "start": 31.24,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Usar.",
+   "start": 31.6,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Viu?",
+   "start": 32.28,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "Eu",
+   "start": 32.44,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "disse",
+   "start": 32.6,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "que",
+   "start": 32.8,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "era",
+   "start": 32.96,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "fácil.",
+   "start": 33.12,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Agora",
+   "start": 33.6,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "um",
+   "start": 33.76,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "pouco",
+   "start": 33.92,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "do",
+   "start": 34.08,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Hardware.",
+   "start": 34.24,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Feita",
+   "start": 34.96,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "com",
+   "start": 35.2,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "materiais",
+   "start": 35.44,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "industriais.",
+   "start": 36.04,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Painel",
+   "start": 36.88,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "resistente",
+   "start": 37.12,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "a",
+   "start": 37.76,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "impactos.",
+   "start": 37.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Tão",
+   "start": 38.44,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "resistente",
+   "start": 39.0,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "quanto",
+   "start": 39.56,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "a",
+   "start": 39.64,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "safira.",
+   "start": 39.68,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "OneScreen",
+   "start": 40.44,
+   "brand": true
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Core.",
+   "start": 40.84,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "Feita",
+   "start": 41.44,
+   "brand": false
+  },
+  {
+   "id": "w2_1",
+   "i": 1,
+   "text": "para",
+   "start": 41.72,
+   "brand": false
+  },
+  {
+   "id": "w2_2",
+   "i": 2,
+   "text": "instituições",
+   "start": 42.0,
+   "brand": false
+  },
+  {
+   "id": "w2_3",
+   "i": 3,
+   "text": "que",
+   "start": 42.28,
+   "brand": false
+  },
+  {
+   "id": "w2_4",
+   "i": 4,
+   "text": "não",
+   "start": 42.6,
+   "brand": false
+  },
+  {
+   "id": "w2_5",
+   "i": 5,
+   "text": "param",
+   "start": 42.88,
+   "brand": false
+  },
+  {
+   "id": "w2_6",
+   "i": 6,
+   "text": "de",
+   "start": 43.16,
+   "brand": false
+  },
+  {
+   "id": "w2_7",
+   "i": 7,
+   "text": "crescer.",
+   "start": 43.44,
+   "brand": false
+  }
+ ],
+ "lang": "pt-BR"
+}

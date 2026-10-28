@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <template>
+      <div
+        id="stage"
+        data-composition-id="01-f1"
+        data-width="1920"
+        data-height="1080"
+        data-duration="22.67"
+      >
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Space+Grotesk:wght@600;700&display=swap"
+        />
+        <style>
+          #stage {
+            --black: #000000;
+            --white: #ffffff;
+            --offwhite: #fffdf5;
+            --pink: #fe90e8;
+            --blue: #c0f7fe;
+            --green: #2ad268;
+            --yellow: #f7cb46;
+            --cream: #ffdc8b;
+            --disp: "Inter", sans-serif;
+            --mono: "Space Grotesk", sans-serif;
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: var(--black);
+            container-type: size;
+            -webkit-font-smoothing: antialiased;
+          }
+          #stage,
+          #stage * {
+            box-sizing: border-box;
+          }
+          #stage .grp {
+            position: absolute;
+            inset: 0;
+            margin: 0;
+            padding: 0;
+          }
+
+          /* ---------- g1 : title card build ---------- */
+          #g1 {
+            opacity: 1;
+            visibility: visible;
+            background: var(--black);
+          }
+          #g1 .g1-dots {
+            position: absolute;
+            inset: 0;
+            opacity: 0.1;
+            background-image: radial-gradient(circle, var(--white) 0.12cqw, transparent 0.12cqw);
+            background-size: 2.6cqw 2.6cqw;
+          }
+          #g1 .g1-star {
+            position: absolute;
+            top: 9%;
+            right: 9%;
+            width: 8cqw;
+            height: 8cqw;
+            background: var(--pink);
+            border: 0.3cqw solid var(--white);
+            clip-path: polygon(
+              50% 0%,
+              61% 35%,
+              98% 35%,
+              68% 57%,
+              79% 91%,
+              50% 70%,
+              21% 91%,
+              32% 57%,
+              2% 35%,
+              39% 35%
+            );
+            transform: rotate(8deg);
+            z-index: 2;
+          }
+          #g1 .g1-rect {
+            position: absolute;
+            bottom: 10%;
+            left: 8%;
+            width: 12cqw;
+            height: 7cqw;
+            background: var(--blue);
+            border: 0.3cqw solid var(--white);
+            box-shadow: 0.6cqw 0.6cqw 0 var(--yellow);
+            transform: rotate(-8deg);
+            z-index: 1;
+          }
+          #g1 .g1-flash {
+            position: absolute;
+            inset: 0;
+            background: var(--white);
+            opacity: 0;
+            mix-blend-mode: screen;
+            pointer-events: none;
+            z-index: 5;
+          }
+          #g1 .g1-lockup {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.6cqw;
+            z-index: 3;
+          }
+          #g1 .g1-card {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--black);
+            border: 0.35cqw solid var(--white);
+            opacity: 0;
+            white-space: nowrap;
+          }
+          #g1 .g1-txt,
+          #g1 .g1-glitch {
+            position: relative;
+            display: block;
+            font-family: var(--disp);
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 0.92;
+            letter-spacing: -0.03em;
+            white-space: nowrap;
+          }
+          #g1 .g1-glitch {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            mix-blend-mode: screen;
+            pointer-events: none;
+            opacity: 0;
+          }
+          #g1 .g1-glitch--r {
+            color: #ff2a4a;
+          }
+          #g1 .g1-glitch--g {
+            color: #2afff0;
+          }
+          #g1 .g1-card--1 {
+            padding: 0.5cqw 1.4cqw;
+            box-shadow: 0.7cqw 0.7cqw 0 var(--pink);
+          }
+          #g1 .g1-card--1 .g1-txt {
+            font-size: 9cqw;
+            color: var(--pink);
+          }
+          #g1 .g1-card--1 .g1-glitch {
+            font-size: 9cqw;
+          }
+          #g1 .g1-card--2 {
+            padding: 0.4cqw 1.2cqw;
+            box-shadow: 0.6cqw 0.6cqw 0 var(--blue);
+          }
+          #g1 .g1-card--2 .g1-txt {
+            font-size: 7cqw;
+            color: var(--blue);
+          }
+          #g1 .g1-card--2 .g1-glitch {
+            font-size: 7cqw;
+          }
+          #g1 .g1-card--3 {
+            padding: 0.65cqw 1.7cqw;
+            box-shadow: 1cqw 1cqw 0 var(--yellow);
+          }
+          #g1 .g1-card--3 .g1-txt {
+            font-size: 15cqw;
+            color: var(--yellow);
+          }
+          #g1 .g1-card--3 .g1-glitch {
+            font-size: 15cqw;
+          }
+
+          /* ---------- g2 : karaoke line ---------- */
+          #g2 {
+            opacity: 0;
+            visibility: hidden;
+            background: var(--cream);
+          }
+          #g2 .g2-dots {
+            position: absolute;
+            inset: 0;
+            opacity: 0.3;
+            background-image: radial-gradient(circle, var(--black) 0.12cqw, transparent 0.12cqw);
+            background-size: 2.6cqw 2.6cqw;
+          }
+          #g2 .g2-star {
+            position: absolute;
+            top: 8%;
+            right: 8%;
+            width: 6.4cqw;
+            height: 6.4cqw;
+            background: var(--pink);
+            border: 0.28cqw solid var(--black);
+            clip-path: polygon(
+              50% 0%,
+              61% 35%,
+              98% 35%,
+              68% 57%,
+              79% 91%,
+              50% 70%,
+              21% 91%,
+              32% 57%,
+              2% 35%,
+              39% 35%
+            );
+            transform: rotate(10deg);
+            z-index: 2;
+          }
+          #g2 .g2-rect {
+            position: absolute;
+            bottom: 9%;
+            left: 7%;
+            width: 10.5cqw;
+            height: 6cqw;
+            background: var(--blue);
+            border: 0.28cqw solid var(--black);
+            box-shadow: 0.5cqw 0.5cqw 0 var(--black);
+            transform: rotate(-7deg);
+            z-index: 1;
+          }
+          #g2 .g2-line {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 8cqw;
+            z-index: 3;
+          }
+          #g2 .g2-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: baseline;
+            gap: 0.5cqw 0.35cqw;
+            max-width: 78cqw;
+          }
+          #g2 .g2-w {
+            position: relative;
+            display: inline-block;
+            font-family: var(--disp);
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            font-size: 4.6cqw;
+            line-height: 1.14;
+            color: var(--black);
+            padding: 0.1em 0.3em;
+            border: 0.22cqw solid transparent;
+            box-shadow: none;
+            background: transparent;
+            opacity: 0;
+            will-change: opacity, transform;
+          }
+
+          /* ---------- g3 : laugh gag ---------- */
+          #g3 {
+            opacity: 0;
+            visibility: hidden;
+            background: var(--yellow);
+          }
+          #g3 .g3-stripe {
+            position: absolute;
+            inset: 0;
+            opacity: 0.5;
+            background-image: repeating-linear-gradient(
+              45deg,
+              rgba(0, 0, 0, 0.07) 0 10px,
+              transparent 10px 20px
+            );
+            z-index: 0;
+          }
+          #g3 .g3-burst {
+            position: absolute;
+            width: 72cqw;
+            height: 72cqw;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: repeating-conic-gradient(
+              rgba(0, 0, 0, 0.85) 0deg 8deg,
+              transparent 8deg 20deg
+            );
+            border-radius: 50%;
+            opacity: 0;
+            z-index: 1;
+          }
+          #g3 .g3-star {
+            position: absolute;
+            top: 7%;
+            left: 7%;
+            width: 7.5cqw;
+            height: 7.5cqw;
+            background: var(--pink);
+            border: 0.3cqw solid var(--black);
+            clip-path: polygon(
+              50% 0%,
+              61% 35%,
+              98% 35%,
+              68% 57%,
+              79% 91%,
+              50% 70%,
+              21% 91%,
+              32% 57%,
+              2% 35%,
+              39% 35%
+            );
+            transform: rotate(-10deg);
+            opacity: 0;
+            z-index: 4;
+          }
+          #g3 .g3-flash {
+            position: absolute;
+            inset: 0;
+            background: var(--white);
+            opacity: 0;
+            mix-blend-mode: screen;
+            pointer-events: none;
+            z-index: 6;
+          }
+          #g3 .g3-main {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 34cqw;
+            height: 34cqw;
+            margin: -17cqw 0 0 -17cqw;
+            opacity: 0;
+            transform: scale(0.3);
+            z-index: 3;
+          }
+          #g3 .g3-ghost {
+            position: absolute;
+            inset: 0;
+            border: 0.4cqw solid;
+            opacity: 0;
+            mix-blend-mode: screen;
+            pointer-events: none;
+          }
+          #g3 .g3-ghost--r {
+            border-color: #ff2a4a;
+          }
+          #g3 .g3-ghost--g {
+            border-color: #2afff0;
+          }
+          #g3 .g3-card {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: var(--white);
+            border: 0.4cqw solid var(--black);
+            box-shadow: 0.9cqw 0.9cqw 0 var(--black);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(-4deg);
+          }
+          #g3 .g3-emoji {
+            font-size: 19cqw;
+            line-height: 1;
+          }
+          #g3 .g3-echo {
+            position: absolute;
+            font-size: 7.5cqw;
+            line-height: 1;
+            opacity: 0;
+            transform: scale(0.4);
+            z-index: 2;
+          }
+          #g3 .g3-echo--a {
+            left: 11%;
+            bottom: 13%;
+          }
+          #g3 .g3-echo--b {
+            right: 9%;
+            top: 11%;
+          }
+        </style>
+
+        <!-- g1 : title card build -->
+        <div id="g1" class="grp">
+          <div class="g1-dots"></div>
+          <div class="g1-star" id="g1_star"></div>
+          <div class="g1-rect"></div>
+          <div class="g1-lockup" id="g1_lockup">
+            <div class="g1-card g1-card--1" id="g1_w1">
+              <span class="g1-glitch g1-glitch--r" aria-hidden="true">YULIAN</span>
+              <span class="g1-glitch g1-glitch--g" aria-hidden="true">YULIAN</span>
+              <span class="g1-txt">YULIAN</span>
+            </div>
+            <div class="g1-card g1-card--2" id="g1_w2">
+              <span class="g1-glitch g1-glitch--r" aria-hidden="true">DEL</span>
+              <span class="g1-glitch g1-glitch--g" aria-hidden="true">DEL</span>
+              <span class="g1-txt">DEL</span>
+            </div>
+            <div class="g1-card g1-card--3" id="g1_w3">
+              <span class="g1-glitch g1-glitch--r" aria-hidden="true">GURÚ</span>
+              <span class="g1-glitch g1-glitch--g" aria-hidden="true">GURÚ</span>
+              <span class="g1-txt">GURÚ</span>
+            </div>
+          </div>
+          <div class="g1-flash" id="g1_flash"></div>
+        </div>
+
+        <!-- g2 : karaoke line -->
+        <div id="g2" class="grp">
+          <div class="g2-dots"></div>
+          <div class="g2-star"></div>
+          <div class="g2-rect"></div>
+          <div class="g2-line">
+            <div class="g2-wrap" id="g2_wrap">
+              <span class="g2-w" id="g2_w0">Llegó</span>
+              <span class="g2-w" id="g2_w1">otro</span>
+              <span class="g2-w" id="g2_w2">caso</span>
+              <span class="g2-w" id="g2_w3">al</span>
+              <span class="g2-w" id="g2_w4">Gurú…</span>
+              <span class="g2-w" id="g2_w5">¿Y</span>
+              <span class="g2-w" id="g2_w6">ahora</span>
+              <span class="g2-w" id="g2_w7">quién</span>
+              <span class="g2-w" id="g2_w8">lo</span>
+              <span class="g2-w" id="g2_w9">va</span>
+              <span class="g2-w" id="g2_w10">a</span>
+              <span class="g2-w" id="g2_w11">solucionar?</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- g3 : comic laugh gag -->
+        <div id="g3" class="grp">
+          <div class="g3-stripe"></div>
+          <div class="g3-burst" id="g3_burst"></div>
+          <div class="g3-star" id="g3_star"></div>
+          <div class="g3-echo g3-echo--a" id="g3_echoA">😂</div>
+          <div class="g3-echo g3-echo--b" id="g3_echoB">😂</div>
+          <div class="g3-main" id="g3_main">
+            <div class="g3-ghost g3-ghost--r" id="g3_ghostR"></div>
+            <div class="g3-ghost g3-ghost--g" id="g3_ghostG"></div>
+            <div class="g3-card">
+              <span class="g3-emoji">😂</span>
+            </div>
+          </div>
+          <div class="g3-flash" id="g3_flash"></div>
+        </div>
+
+        <script>
+          (function () {
+            var tl = gsap.timeline({ paused: true });
+
+            /* ===================== g1 : title card build ===================== */
+            tl.set("#g1", { autoAlpha: 1 }, 0);
+            tl.set("#g1_flash", { opacity: 0 }, 0);
+
+            // 0.766 — pre-roll: snare-roll anticipation flash + star pulse
+            tl.fromTo(
+              "#g1_flash",
+              { opacity: 0.85 },
+              { opacity: 0, duration: 0.22, ease: "power2.out", immediateRender: false },
+              0.766
+            );
+            tl.fromTo("#g1_star", { scale: 0.8 }, { scale: 1, duration: 0.25, ease: "back.out(2)" }, 0.766);
+
+            // word landings — hard-cut pop-in + chromatic-split fringe settle
+            var G1_WORDS = [
+              { sel: "#g1_w1", t: 2.09, big: false },
+              { sel: "#g1_w2", t: 3.5, big: false },
+              { sel: "#g1_w3", t: 5.0, big: true },
+            ];
+            G1_WORDS.forEach(function (w) {
+              var t = w.t;
+              tl.fromTo(w.sel, { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.14, ease: "back.out(2.2)" }, t);
+
+              var r = w.sel + " .g1-glitch--r";
+              var g = w.sel + " .g1-glitch--g";
+              var peak = w.big ? "0.22em" : "0.16em";
+              var mid = w.big ? "0.06em" : "0.04em";
+              tl.set(r, { opacity: 0.85, x: "-0.05em" }, t);
+              tl.set(g, { opacity: 0.85, x: "0.05em" }, t);
+              tl.to(r, { x: "-" + peak, duration: 0.05, ease: "steps(1)" }, t + 0.05);
+              tl.to(g, { x: peak, duration: 0.05, ease: "steps(1)" }, t + 0.05);
+              tl.to(r, { x: "-" + mid, duration: 0.05, ease: "steps(1)" }, t + 0.1);
+              tl.to(g, { x: mid, duration: 0.05, ease: "steps(1)" }, t + 0.1);
+              tl.to(r, { x: 0, opacity: 0, duration: 0.22, ease: "power2.out" }, t + 0.16);
+              tl.to(g, { x: 0, opacity: 0, duration: 0.22, ease: "power2.out" }, t + 0.16);
+
+              if (w.big) {
+                tl.fromTo(
+                  "#g1_flash",
+                  { opacity: 0.55 },
+                  { opacity: 0, duration: 0.26, ease: "power2.out", immediateRender: false },
+                  t
+                );
+              }
+            });
+
+            // 6.4 — full lockup consolidation punch
+            tl.fromTo("#g1_lockup", { scale: 1 }, { scale: 1.045, duration: 0.08, ease: "power2.out" }, 6.4);
+            tl.to("#g1_lockup", { scale: 1, duration: 0.18, ease: "power3.out" }, 6.48);
+            tl.fromTo(
+              "#g1_flash",
+              { opacity: 0.6 },
+              { opacity: 0, duration: 0.22, ease: "power2.out", immediateRender: false },
+              6.4
+            );
+
+            // 6.68 — hard cut to g2
+            tl.set("#g1", { autoAlpha: 0 }, 6.68);
+
+            /* ===================== g2 : karaoke word reveal ===================== */
+            tl.set("#g2", { autoAlpha: 1 }, 6.68);
+
+            var G2_WORDS = [
+              "Llegó",
+              "otro",
+              "caso",
+              "al",
+              "Gurú…",
+              "¿Y",
+              "ahora",
+              "quién",
+              "lo",
+              "va",
+              "a",
+              "solucionar?",
+            ];
+            var G2_ANCHORS = [
+              6.68, 7.413, 8.0, 8.587, 8.88, 9.613, 9.907, 10.64, 11.373, 11.667, 11.96, 12.107,
+            ];
+            var ACTIVE_BG = "#fe90e8";
+            var ACTIVE_BORDER = "#000000";
+            var ACTIVE_SHADOW = "0.32cqw 0.32cqw 0 #000000";
+
+            G2_WORDS.forEach(function (word, i) {
+              var sel = "#g2_w" + i;
+              var t = G2_ANCHORS[i];
+              tl.fromTo(
+                sel,
+                { opacity: 0, y: "0.14em", scale: 0.86 },
+                { opacity: 1, y: "0em", scale: 1, duration: 0.09, ease: "power3.out" },
+                t
+              );
+              tl.set(
+                sel,
+                { backgroundColor: ACTIVE_BG, borderColor: ACTIVE_BORDER, boxShadow: ACTIVE_SHADOW },
+                t
+              );
+              if (i > 0) {
+                tl.set(
+                  "#g2_w" + (i - 1),
+                  { backgroundColor: "transparent", borderColor: "transparent", boxShadow: "none" },
+                  t
+                );
+              }
+            });
+
+            // 13.72 — hard cut to g3
+            tl.set("#g2", { autoAlpha: 0 }, 13.72);
+
+            /* ===================== g3 : laugh reaction gag ===================== */
+            tl.set("#g3", { autoAlpha: 1 }, 13.72);
+            tl.set("#g3_main", { opacity: 0, scale: 0.25 }, 0);
+
+            // 13.862 — main hit, on the beat: burst + flash + chromatic-split fringe on the card
+            var HIT = 13.862;
+            tl.fromTo("#g3_flash", { opacity: 0.9 }, { opacity: 0, duration: 0.2, ease: "power2.out" }, HIT);
+            tl.fromTo("#g3_burst", { opacity: 0, scale: 0.5 }, { opacity: 0.22, scale: 1, duration: 0.22, ease: "power2.out" }, HIT);
+            tl.fromTo("#g3_star", { opacity: 0, scale: 0.6 }, { opacity: 0.95, scale: 1, duration: 0.25, ease: "back.out(2)" }, HIT);
+            tl.fromTo("#g3_main", { opacity: 0, scale: 0.25 }, { opacity: 1, scale: 1, duration: 0.2, ease: "back.out(2.6)" }, HIT);
+
+            tl.set("#g3_ghostR", { opacity: 0.8, x: "-0.3cqw" }, HIT);
+            tl.set("#g3_ghostG", { opacity: 0.8, x: "0.3cqw" }, HIT);
+            tl.to("#g3_ghostR", { x: "-0.9cqw", duration: 0.05, ease: "steps(1)", overwrite: "auto" }, HIT + 0.05);
+            tl.to("#g3_ghostG", { x: "0.9cqw", duration: 0.05, ease: "steps(1)", overwrite: "auto" }, HIT + 0.05);
+            tl.to("#g3_ghostR", { x: "-0.25cqw", duration: 0.05, ease: "steps(1)", overwrite: "auto" }, HIT + 0.1);
+            tl.to("#g3_ghostG", { x: "0.25cqw", duration: 0.05, ease: "steps(1)", overwrite: "auto" }, HIT + 0.1);
+            tl.to(
+              "#g3_ghostR",
+              { x: 0, opacity: 0, duration: 0.26, ease: "power2.out", overwrite: "auto" },
+              HIT + 0.15
+            );
+            tl.to(
+              "#g3_ghostG",
+              { x: 0, opacity: 0, duration: 0.26, ease: "power2.out", overwrite: "auto" },
+              HIT + 0.15
+            );
+
+            // 14.512 — echo laugh A + tiny shake
+            var ECHO_A = 14.512;
+            tl.fromTo(
+              "#g3_echoA",
+              { opacity: 0, scale: 0.3, rotate: -10 },
+              { opacity: 1, scale: 1, rotate: 8, duration: 0.16, ease: "back.out(2.4)" },
+              ECHO_A
+            );
+            tl.fromTo(
+              "#g3_main",
+              { scale: 1 },
+              { scale: 1.05, duration: 0.08, ease: "power2.out", immediateRender: false },
+              ECHO_A
+            );
+            tl.to("#g3_main", { scale: 1, duration: 0.14, ease: "power3.out" }, ECHO_A + 0.08);
+
+            // 15.163 — echo laugh B + settle, then hold flat to the end of the frame
+            var ECHO_B = 15.163;
+            tl.fromTo(
+              "#g3_echoB",
+              { opacity: 0, scale: 0.3, rotate: 10 },
+              { opacity: 1, scale: 1, rotate: -6, duration: 0.16, ease: "back.out(2.4)" },
+              ECHO_B
+            );
+            tl.fromTo(
+              "#g3_main",
+              { scale: 1 },
+              { scale: 1.04, duration: 0.07, ease: "power2.out", immediateRender: false },
+              ECHO_B
+            );
+            tl.to("#g3_main", { scale: 1, duration: 0.13, ease: "power3.out" }, ECHO_B + 0.07);
+
+            window.__timelines = window.__timelines || {};
+            window.__timelines["01-f1"] = tl;
+            tl.seek(0);
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

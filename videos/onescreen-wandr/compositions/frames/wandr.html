@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>wandr</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        /* Nevis es una sola tipografía Bold. Se declara cubriendo 100—900 a propósito: así
+           el navegador NUNCA sintetiza negrita encima de una que ya lo es, que engordaría
+           los trazos y rompería la coincidencia con el logotipo. */
+        @font-face {
+          font-family: "Nevis";
+          src: url("assets/fonts/Nevis.ttf") format("truetype");
+          font-weight: 100 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          font-synthesis: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .beat {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 7cqw;
+          opacity: 0;
+        }
+        .beat > .inner { display: block; max-width: 86cqw; text-align: center; margin-top: -1.4cqh; }
+        .ln { display: block; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #ffffff; }
+
+        /* La marca. Nevis, tracking medido contra el logotipo. Nunca en versalitas: el
+           wordmark es caja mixta y forzarlo a caja alta deja de ser la marca. */
+        .brand {
+          font-family: "Nevis", "Rubik", sans-serif;
+          font-weight: 400;
+          letter-spacing: -0.050em;
+          text-transform: none !important;
+        }
+
+        .s-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.24; letter-spacing: -0.008em; }
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.12; letter-spacing: -0.020em; }
+        .s-display  { font-size: 7.0cqw;  font-weight: 600; line-height: 1.06; letter-spacing: -0.028em; }
+        .s-mega     { font-size: 10.0cqw; font-weight: 800; line-height: 1.00; letter-spacing: -0.035em; }
+        .s-colossal { font-size: 12.5cqw; font-weight: 800; line-height: 0.98; letter-spacing: -0.040em; }
+
+        /* Peso regular dentro de un escalón grande. Solo toca font-weight y tracking, nunca
+           font-size: el escalón sigue mandando el tamaño. El tracking se afloja porque el
+           negativo de los escalones grandes está calculado para peso 800, y en regular
+           ese mismo valor junta demasiado las letras. */
+        .ln.w-reg { font-weight: 400; letter-spacing: -0.018em; }
+
+        .caps { text-transform: uppercase; }
+        .caps.s-sub      { letter-spacing: 0.16em; font-weight: 600; }
+        .caps.s-display  { letter-spacing: 0.000em; }
+        .caps.s-mega     { letter-spacing: -0.012em; }
+        .caps.s-colossal { letter-spacing: -0.018em; }
+
+        /* Nevis tiene la caja alta más corta que Rubik al mismo cuerpo: se compensa un 12%
+           para que "OneScreen" pese lo mismo que una línea Rubik del mismo escalón.
+           El valor va ABSOLUTO en cqw, no en em. Una regla .ln.s-mega.brand con font-size en
+           em tiene tres clases de especificidad y gana a .s-mega, así que en vez de multiplicar
+           el escalón lo sustituía por 1.12em del tamaño heredado — 18 px en un cuadro 4K. */
+        .ln.s-sub.brand      { font-size: 3.36cqw; }
+        .ln.s-phrase.brand   { font-size: 5.60cqw; }
+        .ln.s-display.brand  { font-size: 7.84cqw; }
+        .ln.s-mega.brand     { font-size: 11.20cqw; }
+        .ln.s-colossal.brand { font-size: 14.00cqw; }
+        /* Marca EN LÍNEA dentro de una línea de otra tipografía: aquí el padre sí lleva el
+           escalón en cqw, así que el em multiplica y es correcto. */
+        .w.brand { font-size: 1.12em; }
+
+        .ln + .ln { margin-top: 0.5cqh; }
+        .ln.s-sub + .ln.s-mega,
+        .ln.s-sub + .ln.s-colossal,
+        .ln.s-sub + .ln.s-display { margin-top: 1.1cqh; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="wandr"
+        data-width="3840"
+        data-height="2160"
+        data-duration="34.16"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat" id="f01">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f01-w0_0">E</span> <span class="w" id="f01-w0_1">se</span> <span class="w" id="f01-w0_2">você</span> <span class="w" id="f01-w0_3">pudesse</span> <span class="w" id="f01-w0_4">levar</span> <span class="w" id="f01-w0_5">a</span> <span class="w" id="f01-w0_6">interatividade</span> <span class="w" id="f01-w0_7">da</span> <span class="w brand" id="f01-w0_8">OneScreen</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f01-w1_0">para</span> <span class="w" id="f01-w1_1">qualquer</span> <span class="w" id="f01-w1_2">lugar?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f02">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f02-w0_0">Apresentamos</span></span>
+            <span class="ln s-mega brand"><span class="w" id="f02-w1_0">OneScreen</span></span>
+            <span class="ln s-mega w-reg"><span class="w" id="f02-w2_0">Wandr</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f03">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f03-w0_0">O</span> <span class="w" id="f03-w0_1">primeiro</span> <span class="w" id="f03-w0_2">centro</span> <span class="w" id="f03-w0_3">de</span> <span class="w" id="f03-w0_4">entretenimento</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f03-w1_0">portátil.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f04">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f04-w0_0">A</span> <span class="w" id="f04-w0_1">Wandr</span> <span class="w" id="f04-w0_2">tem</span> <span class="w" id="f04-w0_3">uma</span> <span class="w" id="f04-w0_4">base</span> <span class="w" id="f04-w0_5">recarregável</span> <span class="w" id="f04-w0_6">que</span> <span class="w" id="f04-w0_7">dura</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f04-w1_0">mais</span> <span class="w" id="f04-w1_1">de</span> <span class="w" id="f04-w1_2">6</span> <span class="w" id="f04-w1_3">horas.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f05">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f05-w0_0">Totalmente</span> <span class="w" id="f05-w0_1">sensível</span> <span class="w" id="f05-w0_2">ao</span> <span class="w" id="f05-w0_3">toque,</span> <span class="w" id="f05-w0_4">com</span> <span class="w" id="f05-w0_5">acesso</span> <span class="w" id="f05-w0_6">a</span> <span class="w" id="f05-w0_7">mais</span> <span class="w" id="f05-w0_8">de</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f05-w1_0">4</span> <span class="w" id="f05-w1_1">milhões</span></span>
+            <span class="ln s-sub"><span class="w" id="f05-w2_0">de</span> <span class="w" id="f05-w2_1">apps.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f06">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f06-w0_0">Você</span> <span class="w" id="f06-w0_1">gira</span> <span class="w" id="f06-w0_2">a</span> <span class="w" id="f06-w0_3">tela</span> <span class="w" id="f06-w0_4">em</span></span>
+            <span class="ln s-colossal accent"><span class="w" id="f06-w1_0">180°,</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f07">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f07-w0_0">inclina</span> <span class="w" id="f07-w0_1">na</span> <span class="w" id="f07-w0_2">sua</span> <span class="w" id="f07-w0_3">direção</span> <span class="w" id="f07-w0_4">e</span> <span class="w" id="f07-w0_5">ajusta</span> <span class="w" id="f07-w0_6">a</span> <span class="w" id="f07-w0_7">altura.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f08">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f08-w0_0">Tem</span> <span class="w" id="f08-w0_1">uma</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f08-w1_0">câmera</span> <span class="w" id="f08-w1_1">4K</span></span>
+            <span class="ln s-sub"><span class="w" id="f08-w2_0">integrada,</span> <span class="w" id="f08-w2_1">para</span> <span class="w" id="f08-w2_2">aproximar</span> <span class="w" id="f08-w2_3">quem</span> <span class="w" id="f08-w2_4">você</span> <span class="w" id="f08-w2_5">mais</span> <span class="w" id="f08-w2_6">ama.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f09">
+          <span class="inner">
+            <span class="ln s-mega brand"><span class="w" id="f09-w0_0">OneScreen</span></span>
+            <span class="ln s-display w-reg"><span class="w" id="f09-w1_0">Wandr</span></span>
+            <span class="ln s-sub"><span class="w" id="f09-w2_0">é</span> <span class="w" id="f09-w2_1">para</span> <span class="w" id="f09-w2_2">a</span> <span class="w" id="f09-w2_3">família</span> <span class="w" id="f09-w2_4">toda.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f10">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f10-w0_0">E</span> <span class="w" id="f10-w0_1">neste</span> <span class="w" id="f10-w0_2">estande,</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f10-w1_0">você</span> <span class="w" id="f10-w1_1">pode</span> <span class="w" id="f10-w1_2">ganhar</span> <span class="w" id="f10-w1_3">uma.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f11">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f11-w0_0">Quer</span> <span class="w" id="f11-w0_1">participar?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f12">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f12-w0_0">Fale</span> <span class="w" id="f12-w0_1">com</span> <span class="w" id="f12-w0_2">um</span> <span class="w" id="f12-w0_3">dos</span> <span class="w" id="f12-w0_4">nossos</span> <span class="w" id="f12-w0_5">consultores</span> <span class="w" id="f12-w0_6">e</span> <span class="w" id="f12-w0_7">a</span> <span class="w" id="f12-w0_8">gente</span> <span class="w" id="f12-w0_9">explica</span> <span class="w" id="f12-w0_10">como.</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 62 }, { y: 0, duration: 0.17, ease: "power4.out", immediateRender: false }, t);
+        }
+
+        // f01 — E se você pudesse levar a interatividade da OneScreen / para qualquer lugar?
+        tl.set("#f01", { opacity: 1 }, -0.02);
+        word(tl, "#f01-w0_0", 0);
+        word(tl, "#f01-w0_1", 0.24);
+        word(tl, "#f01-w0_2", 0.48);
+        word(tl, "#f01-w0_3", 0.72);
+        word(tl, "#f01-w0_4", 0.96);
+        word(tl, "#f01-w0_5", 1.24);
+        word(tl, "#f01-w0_6", 1.48);
+        word(tl, "#f01-w0_7", 1.72);
+        word(tl, "#f01-w0_8", 1.96);
+        word(tl, "#f01-w1_0", 2.4);
+        word(tl, "#f01-w1_1", 2.6);
+        word(tl, "#f01-w1_2", 2.8);
+        tl.to("#f01", { y: -170, duration: 0.24, ease: "power4.in" }, 3.34);
+        tl.to("#f01", { opacity: 0, duration: 0.12, ease: "none" }, 3.46);
+
+        // f02 — Apresentamos / OneScreen / Wandr
+        tl.set("#f02", { opacity: 1 }, 3.62);
+        word(tl, "#f02-w0_0", 3.64);
+        word(tl, "#f02-w1_0", 4.6);
+        word(tl, "#f02-w2_0", 5.36);
+        tl.to("#f02", { y: -170, duration: 0.24, ease: "power4.in" }, 5.66);
+        tl.to("#f02", { opacity: 0, duration: 0.12, ease: "none" }, 5.78);
+
+        // f03 — O primeiro centro de entretenimento / portátil.
+        tl.set("#f03", { opacity: 1 }, 5.94);
+        word(tl, "#f03-w0_0", 5.96);
+        word(tl, "#f03-w0_1", 6.28);
+        word(tl, "#f03-w0_2", 6.56);
+        word(tl, "#f03-w0_3", 6.88);
+        word(tl, "#f03-w0_4", 7.2);
+        word(tl, "#f03-w1_0", 7.84);
+        tl.to("#f03", { y: -170, duration: 0.24, ease: "power4.in" }, 8.38);
+        tl.to("#f03", { opacity: 0, duration: 0.12, ease: "none" }, 8.5);
+
+        // f04 — A Wandr tem uma base recarregável que dura / mais de 6 horas.
+        tl.set("#f04", { opacity: 1 }, 8.66);
+        word(tl, "#f04-w0_0", 8.68);
+        word(tl, "#f04-w0_1", 8.96);
+        word(tl, "#f04-w0_2", 9.28);
+        word(tl, "#f04-w0_3", 9.56);
+        word(tl, "#f04-w0_4", 9.84);
+        word(tl, "#f04-w0_5", 10.12);
+        word(tl, "#f04-w0_6", 10.44);
+        word(tl, "#f04-w0_7", 10.72);
+        word(tl, "#f04-w1_0", 11);
+        word(tl, "#f04-w1_1", 11.28);
+        word(tl, "#f04-w1_2", 11.56);
+        word(tl, "#f04-w1_3", 11.84);
+        tl.to("#f04", { y: -170, duration: 0.24, ease: "power4.in" }, 12.26);
+        tl.to("#f04", { opacity: 0, duration: 0.12, ease: "none" }, 12.38);
+
+        // f05 — Totalmente sensível ao toque, com acesso a mais de / 4 milhões / de apps.
+        tl.set("#f05", { opacity: 1 }, 12.54);
+        word(tl, "#f05-w0_0", 12.56);
+        word(tl, "#f05-w0_1", 12.8);
+        word(tl, "#f05-w0_2", 13.08);
+        word(tl, "#f05-w0_3", 13.36);
+        word(tl, "#f05-w0_4", 13.6);
+        word(tl, "#f05-w0_5", 13.84);
+        word(tl, "#f05-w0_6", 14.12);
+        word(tl, "#f05-w0_7", 14.4);
+        word(tl, "#f05-w0_8", 14.64);
+        word(tl, "#f05-w1_0", 14.8);
+        word(tl, "#f05-w1_1", 15.12);
+        word(tl, "#f05-w2_0", 15.44);
+        word(tl, "#f05-w2_1", 15.76);
+        tl.to("#f05", { y: -170, duration: 0.24, ease: "power4.in" }, 16.02);
+        tl.to("#f05", { opacity: 0, duration: 0.12, ease: "none" }, 16.14);
+
+        // f06 — Você gira a tela em / 180°,
+        tl.set("#f06", { opacity: 1 }, 16.3);
+        word(tl, "#f06-w0_0", 16.32);
+        word(tl, "#f06-w0_1", 16.52);
+        word(tl, "#f06-w0_2", 16.76);
+        word(tl, "#f06-w0_3", 16.96);
+        word(tl, "#f06-w0_4", 17.16);
+        word(tl, "#f06-w1_0", 17.32);
+        tl.to("#f06", { y: -170, duration: 0.24, ease: "power4.in" }, 18.18);
+        tl.to("#f06", { opacity: 0, duration: 0.12, ease: "none" }, 18.3);
+
+        // f07 — inclina na sua direção e ajusta a altura.
+        tl.set("#f07", { opacity: 1 }, 18.46);
+        word(tl, "#f07-w0_0", 18.48);
+        word(tl, "#f07-w0_1", 18.72);
+        word(tl, "#f07-w0_2", 19);
+        word(tl, "#f07-w0_3", 19.24);
+        word(tl, "#f07-w0_4", 19.52);
+        word(tl, "#f07-w0_5", 19.76);
+        word(tl, "#f07-w0_6", 20.04);
+        word(tl, "#f07-w0_7", 20.28);
+        tl.to("#f07", { y: -170, duration: 0.24, ease: "power4.in" }, 20.58);
+        tl.to("#f07", { opacity: 0, duration: 0.12, ease: "none" }, 20.7);
+
+        // f08 — Tem uma / câmera 4K / integrada, para aproximar quem você mais ama.
+        tl.set("#f08", { opacity: 1 }, 20.86);
+        word(tl, "#f08-w0_0", 20.88);
+        word(tl, "#f08-w0_1", 21.08);
+        word(tl, "#f08-w1_0", 21.44);
+        word(tl, "#f08-w1_1", 21.72);
+        word(tl, "#f08-w2_0", 22.48);
+        word(tl, "#f08-w2_1", 22.84);
+        word(tl, "#f08-w2_2", 23.2);
+        word(tl, "#f08-w2_3", 23.56);
+        word(tl, "#f08-w2_4", 23.92);
+        word(tl, "#f08-w2_5", 24.28);
+        word(tl, "#f08-w2_6", 24.64);
+        tl.to("#f08", { y: -170, duration: 0.24, ease: "power4.in" }, 24.74);
+        tl.to("#f08", { opacity: 0, duration: 0.12, ease: "none" }, 24.86);
+
+        // f09 — OneScreen / Wandr / é para a família toda.
+        tl.set("#f09", { opacity: 1 }, 25.02);
+        word(tl, "#f09-w0_0", 25.04);
+        word(tl, "#f09-w1_0", 25.76);
+        word(tl, "#f09-w2_0", 26.08);
+        word(tl, "#f09-w2_1", 26.32);
+        word(tl, "#f09-w2_2", 26.56);
+        word(tl, "#f09-w2_3", 26.84);
+        word(tl, "#f09-w2_4", 27.08);
+        tl.to("#f09", { y: -170, duration: 0.24, ease: "power4.in" }, 27.38);
+        tl.to("#f09", { opacity: 0, duration: 0.12, ease: "none" }, 27.5);
+
+        // f10 — E neste estande, / você pode ganhar uma.
+        tl.set("#f10", { opacity: 1 }, 27.66);
+        word(tl, "#f10-w0_0", 27.68);
+        word(tl, "#f10-w0_1", 28.04);
+        word(tl, "#f10-w0_2", 28.4);
+        word(tl, "#f10-w1_0", 28.72);
+        word(tl, "#f10-w1_1", 29);
+        word(tl, "#f10-w1_2", 29.28);
+        word(tl, "#f10-w1_3", 29.56);
+        tl.to("#f10", { y: -170, duration: 0.24, ease: "power4.in" }, 29.7);
+        tl.to("#f10", { opacity: 0, duration: 0.12, ease: "none" }, 29.82);
+
+        // f11 — Quer participar?
+        tl.set("#f11", { opacity: 1 }, 29.98);
+        word(tl, "#f11-w0_0", 30);
+        word(tl, "#f11-w0_1", 30.28);
+        tl.to("#f11", { y: -170, duration: 0.24, ease: "power4.in" }, 30.66);
+        tl.to("#f11", { opacity: 0, duration: 0.12, ease: "none" }, 30.78);
+
+        // f12 — Fale com um dos nossos consultores e a gente explica como.
+        tl.set("#f12", { opacity: 1 }, 30.94);
+        word(tl, "#f12-w0_0", 30.96);
+        word(tl, "#f12-w0_1", 31.24);
+        word(tl, "#f12-w0_2", 31.48);
+        word(tl, "#f12-w0_3", 31.76);
+        word(tl, "#f12-w0_4", 32.04);
+        word(tl, "#f12-w0_5", 32.28);
+        word(tl, "#f12-w0_6", 32.56);
+        word(tl, "#f12-w0_7", 32.84);
+        word(tl, "#f12-w0_8", 33.12);
+        word(tl, "#f12-w0_9", 33.36);
+        word(tl, "#f12-w0_10", 33.64);
+        // sin fundido de salida: la cola (0.52s) no da para uno.
+
+        window.__timelines["wandr"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

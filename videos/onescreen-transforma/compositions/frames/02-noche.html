@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>02-noche</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: #00FF00;
+          color: #000000;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; display: grid; place-items: center; padding: 0 8cqw; }
+        .stage.left { justify-items: start; text-align: left; }
+        /* Escenarios que posicionan a sus hijos en ABSOLUTO (3, 4, 9, 10). Tienen que ser
+           bloque, no grid: place-items:center le da justify-self:center a un hijo absoluto,
+           y eso lo dimensiona a su contenido en vez de respetar left:0/right:0 � con lo cual
+           text-align:center deja de centrar y la línea se pega al borde izquierdo. */
+        .stage.abs { display: block; place-items: normal; padding: 0; }
+        .block { display: block; max-width: 80cqw; text-align: center; margin-top: -1.2cqh; }
+        .stage.left .block { text-align: left; }
+        /* Estado inicial en CSS, nunca en un tl.set en la posición 0.
+           Se oculta con OPACITY, jamás con la propiedad visibility: esa se HEREDA, y un hijo
+           puesto en visible anula el hidden que el framework le aplica al clip padre. El
+           resultado es que todas las escenas se dibujan encima de todas a la vez. */
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .w.first { opacity: 1; }
+        .t-micro    { font-size: 0.95cqw; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; }
+        .t-body     { font-size: 1.9cqw;  font-weight: 400; line-height: 1.5; }
+        .t-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.25; letter-spacing: -0.010em; }
+        .t-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .t-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .t-colossal { font-size: 15cqw;   font-weight: 800; line-height: 0.92; letter-spacing: -0.045em; }
+        .muted  { color: #7e7e82; }
+        .accent { color: #3976ff; }
+        .line { display: block; }
+        .rule {
+          display: block; width: 12cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.2cqh auto 0;
+        }
+        /* En la variante de croma el bloque nocturno también va en verde: al keyear quedan
+           el verso y las estrellas en blanco flotando sobre el metraje del editor, sin
+           fondo. Decisión del usuario — el negro deja de ser contenido y pasa a ser algo
+           que él pone en Premiere si lo quiere. */
+        #root { background: #00FF00; color: #ffffff; }
+        /* Campo estelar: radial-gradients ESTÁTICOS, posiciones escritas a mano.
+           Nada de Math.random() � el render tiene que ser determinista. No parpadean. */
+        /* Radios dimensionados para 3840 px, no para 1920: un punto de 2 px sobre este
+           lienzo es el 0.05 % del ancho y desaparece — además h264 se lo come. Estos van
+           entre 6 y 11 px, que siguen siendo el 0.16-0.29 % del ancho: sutiles, pero ahí. */
+        #f02-stars {
+          position: absolute; inset: -3cqh 0;
+          background-image:
+            radial-gradient(9px 9px at 12% 18%, rgba(255,255,255,0.78), transparent 62%),
+            radial-gradient(6px 6px at 27% 71%, rgba(255,255,255,0.52), transparent 62%),
+            radial-gradient(11px 11px at 41% 12%, rgba(255,255,255,0.62), transparent 62%),
+            radial-gradient(6px 6px at 55% 84%, rgba(255,255,255,0.42), transparent 62%),
+            radial-gradient(9px 9px at 63% 33%, rgba(255,255,255,0.68), transparent 62%),
+            radial-gradient(6px 6px at 74% 62%, rgba(255,255,255,0.36), transparent 62%),
+            radial-gradient(8px 8px at 86% 24%, rgba(255,255,255,0.58), transparent 62%),
+            radial-gradient(6px 6px at 92% 78%, rgba(255,255,255,0.46), transparent 62%),
+            radial-gradient(6px 6px at 8% 52%, rgba(255,255,255,0.34), transparent 62%),
+            radial-gradient(8px 8px at 34% 44%, rgba(255,255,255,0.28), transparent 62%),
+            radial-gradient(6px 6px at 48% 60%, rgba(255,255,255,0.32), transparent 62%),
+            radial-gradient(7px 7px at 68% 8%, rgba(255,255,255,0.40), transparent 62%),
+            radial-gradient(8px 8px at 19% 88%, rgba(255,255,255,0.30), transparent 62%),
+            radial-gradient(6px 6px at 79% 91%, rgba(255,255,255,0.26), transparent 62%),
+            radial-gradient(7px 7px at 57% 22%, rgba(255,255,255,0.44), transparent 62%),
+            radial-gradient(6px 6px at 23% 36%, rgba(255,255,255,0.30), transparent 62%),
+            radial-gradient(9px 9px at 88% 55%, rgba(255,255,255,0.50), transparent 62%),
+            radial-gradient(6px 6px at 44% 93%, rgba(255,255,255,0.28), transparent 62%);
+          background-repeat: no-repeat;
+        }
+        #f02-line { opacity: 0; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="02-noche"
+        data-width="3840"
+        data-height="2160"
+        data-duration="2.5"
+      >
+      <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <span id="f02-stars"></span>
+        <div class="block t-display">
+          <span class="line" id="f02-line"><span class="w first" id="f02-w18">Há</span> <span class="w" id="f02-w19">espaços</span> <span class="w" id="f02-w20">que</span> <span class="w" id="f02-w21">não</span> <span class="w" id="f02-w22">se</span> <span class="w" id="f02-w23">enchem</span> <span class="w" id="f02-w24">com</span> <span class="w accent" id="f02-w25">qualquer</span> <span class="w" id="f02-w26">coisa.</span></span>
+        </div>
+      </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        // Entrada de palabra: opacidad binaria + desplazamiento desde abajo. Nunca un fade.
+        function word(tl, sel, t, weight) {
+          var Y = { heavy: 140, normal: 90, light: 66 }[weight || "normal"];
+          var D = { heavy: 0.2, normal: 0.16, light: 0.12 }[weight || "normal"];
+          tl.set(sel, { opacity: 1 }, t);
+          // immediateRender:false o GSAP escribe el estado inicial al CONSTRUIR la línea de
+          // tiempo, no al llegar el cabezal � y el elemento se ve desplazado desde el frame 0.
+          tl.fromTo(sel, { y: Y }, { y: 0, duration: D, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Reparte una lista de palabras sobre sus tiempos.
+        function words(tl, list, weight) {
+          for (var k = 0; k < list.length; k++) word(tl, list[k][0], list[k][1], weight);
+        }
+        // SALIDA de costura (cut-the-curve): power4.in escalonado en orden de lectura, con el
+        // fundido de la �aLTIMA palabra muriendo 0.02 s antes del corte � así nada queda
+        // congelado en el corte y tampoco hay hueco muerto.
+        function seamExit(tl, sels, cut, axis, dir) {
+          var n = sels.length;
+          var span = n > 1 ? 0.14 : 0;              // ventana del escalonado
+          var step = n > 1 ? span / (n - 1) : 0;
+          // Se ancla por el FINAL: el último elemento en salir termina de apagarse 0.02 s
+          // antes del corte. Así no queda aire muerto justo antes del cambio de escena, y
+          // el desplazamiento (0.34 s) sigue corriendo al 59% cuando cae el corte — que es
+          // lo que exige la ley: cortar a media trayectoria, nunca con el gesto ya resuelto.
+          var t0 = cut - 0.285 - span;
+          for (var k = 0; k < n; k++) {
+            var t = t0 + step * k;
+            var to = { duration: 0.34, ease: "power4.in" };
+            to[axis] = 460 * dir;
+            tl.to(sels[k], to, t);
+            // Fundido lineal, retrasado respecto al desplazamiento: ver EXIT_FADE_DELAY.
+            tl.to(sels[k], { opacity: 0, duration: 0.1, ease: "none" }, t + 0.165);
+          }
+        }
+        // ENTRADA de costura: arranca a media trayectoria (opacidad 0.35), power4.out.
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+        // Inverse zoom � SALIDA: todo se encoge (retrocede). Sign de d(escala)/dt negativo.
+        function zoomOutExit(tl, sel, cut) {
+          tl.to(sel, { scale: 0.8, filter: "blur(10px)", duration: 0.2, ease: "power3.in" }, cut - 0.2);
+          tl.to(sel, { opacity: 0.15, duration: 0.2, ease: "none" }, cut - 0.2);
+        }
+        // Inverse zoom � ENTRADA: llega sobredimensionado y se repliega. Mismo signo.
+        function zoomOutEntry(tl, sel) {
+          tl.fromTo(
+            sel,
+            { scale: 1.25, filter: "blur(10px)", opacity: 0.15 },
+            { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.5, ease: "expo.out" },
+            0
+          );
+        }
+
+        // Entra montada en el vector UP que traía el cuadro 1: sin arrancar del reposo.
+        seamEntry(tl, "#f02-line", "y", -1);
+        // Solo la PRIMERA palabra viaja con la costura (ya compuesta vía .first);
+        // las demás entran en su propio timestamp.
+        words(tl, [["#f02-w19", 0.333333], ["#f02-w20", 0.666667], ["#f02-w21", 0.833333], ["#f02-w22", 1.041667], ["#f02-w23", 1.208333], ["#f02-w24", 1.5], ["#f02-w25", 1.708333], ["#f02-w26", 2]]);
+
+        // Deriva del campo estelar: lenta, constante y en el MISMO sentido que el texto.
+        // No es un vaivén � avanza y termina. 26 px en 2.5 s se lee como profundidad.
+        tl.fromTo("#f02-stars", { y: 13 }, { y: -13, duration: 2.5, ease: "none" }, 0);
+
+        // Salida de la noche: UP otra vez. Dos costuras seguidas en el mismo sentido,
+        // sin ping-pong.
+        seamExit(tl, ["#f02-line"], 2.5, "y", -1);
+
+        window.__timelines["02-noche"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

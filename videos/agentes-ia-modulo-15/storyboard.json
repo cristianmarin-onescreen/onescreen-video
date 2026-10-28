@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 213.24,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 213.24
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 15 · ONESCREEN ACADEMY",
+      "startSec": 0.1,
+      "endSec": 4.5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 15 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — ANTES DE SEGUIR AVANZANDO",
+      "startSec": 4.5,
+      "endSec": 16.25,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "ANTES DE SEGUIR AVANZANDO",
+        "title": "Los errores más comunes al trabajar con agentes",
+        "detail": "Y cómo evitarlos"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — Un agente mal cuidado puede generar más problemas de los que resuelve",
+      "startSec": 16.25,
+      "endSec": 24.56,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un agente mal cuidado puede generar más problemas de los que resuelve"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "roadmap — ERROR 1",
+      "startSec": 24.56,
+      "endSec": 29.72,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ERROR 1",
+        "title": "Alucinación"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — Un agente, cuando no sabe algo, no siempre dice “no lo sé”",
+      "startSec": 29.72,
+      "endSec": 38.04,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un agente, cuando no sabe algo, no siempre dice “no lo sé”"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — A veces genera una respuesta que suena segura y bien redactada",
+      "startSec": 38.04,
+      "endSec": 44.28,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "A veces genera una respuesta que suena segura y bien redactada",
+        "detail": "Pero simplemente es incorrecta"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — No lo hace con mala intención",
+      "startSec": 44.28,
+      "endSec": 48.13,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No lo hace con mala intención",
+        "detail": "Es una limitación de cómo funciona"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — CÓMO PROTEGERTE",
+      "startSec": 48.13,
+      "endSec": 62.6,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CÓMO PROTEGERTE",
+        "title": "Nunca uses su respuesta como fuente final sin revisarla tú mismo",
+        "detail": "Sobre todo si se trata de fechas, cifras o políticas oficiales"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "roadmap — ERROR 2",
+      "startSec": 62.6,
+      "endSec": 71.07,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ERROR 2",
+        "title": "Descuidar la privacidad de la información",
+        "detail": "Especialmente datos de estudiantes o familias"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — Antes de cargar un documento, pregúntate",
+      "startSec": 71.07,
+      "endSec": 78.33,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Antes de cargar un documento, pregúntate",
+        "detail": "¿Contiene información sensible que no debería estar ahí?"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "list — INFORMACIÓN SENSIBLE A EVITAR",
+      "startSec": 78.33,
+      "endSec": 83.76,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "INFORMACIÓN SENSIBLE A EVITAR",
+        "items": [
+          "Nombres completos",
+          "Calificaciones individuales",
+          "Situaciones familiares particulares"
+        ]
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — Si tu agente no necesita esa información, no se la des",
+      "startSec": 83.76,
+      "endSec": 92.72,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Si tu agente no necesita esa información, no se la des",
+        "detail": "Entre menos datos sensibles maneje, menor es el riesgo"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "roadmap — ERROR 3",
+      "startSec": 92.72,
+      "endSec": 97.63,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ERROR 3",
+        "title": "Publicar un agente sin haberlo probado a fondo"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — Prueba tu agente con preguntas difíciles",
+      "startSec": 97.63,
+      "endSec": 109.68,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Prueba tu agente con preguntas difíciles",
+        "detail": "Fuera de su tema, con intentos deliberados de sacarlo de sus límites"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "quote — Si solo lo pruebas con preguntas fáciles, tendrás una falsa sensación de seguridad.",
+      "startSec": 109.68,
+      "endSec": 120.48,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Si solo lo pruebas con preguntas fáciles, tendrás una falsa sensación de seguridad.",
+        "detail": "Los problemas aparecerán justo cuando ya lo estés usando de verdad"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "roadmap — ERROR 4",
+      "startSec": 120.48,
+      "endSec": 125.52,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ERROR 4",
+        "title": "No dejar revisión humana en las tareas que lo ameritan"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — Un buen borrador no significa que deba enviarse sin revisión",
+      "startSec": 125.52,
+      "endSec": 141.12,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un buen borrador no significa que deba enviarse sin revisión",
+        "detail": "Sobre todo en comunicación oficial o decisiones que afectan a alguien directamente"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "quote — La automatización te ahorra crear el primer borrador.",
+      "startSec": 141.12,
+      "endSec": 147.28,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "La automatización te ahorra crear el primer borrador.",
+        "detail": "No te reemplaza la responsabilidad de revisarlo"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "roadmap — ERROR 5",
+      "startSec": 147.28,
+      "endSec": 153.04,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ERROR 5",
+        "title": "Abandonar el agente después de crearlo"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "body — Un agente no queda perfecto para siempre",
+      "startSec": 153.04,
+      "endSec": 167.55,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un agente no queda perfecto para siempre",
+        "detail": "Las necesidades cambian — vuelve de vez en cuando a ajustarlo"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "quote — Los mejores agentes no son los que se construyeron mejor la primera vez.",
+      "startSec": 167.55,
+      "endSec": 174.96,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Los mejores agentes no son los que se construyeron mejor la primera vez.",
+        "detail": "Son los que alguien sigue cuidando con el tiempo"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "list — EVITA ESTOS 5 ERRORES Y TENDRÁS UN AGENTE SEGURO Y SOSTENIBLE",
+      "startSec": 174.96,
+      "endSec": 194.12,
+      "accentIndex": 2,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "EVITA ESTOS 5 ERRORES Y TENDRÁS UN AGENTE SEGURO Y SOSTENIBLE",
+        "items": [
+          "Confiar ciegamente en sus respuestas",
+          "Descuidar información sensible",
+          "No probarlo a fondo",
+          "Saltarte la revisión humana",
+          "Abandonarlo después de crearlo"
+        ]
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "titlecard — PRÓXIMO MÓDULO · GLOSARIO",
+      "startSec": 194.12,
+      "endSec": 210.5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO · GLOSARIO",
+        "title": "Los términos técnicos, explicados",
+        "detail": "API, webhook y otros más — para que entiendas exactamente de qué se habla"
+      }
+    },
+    {
+      "id": "card-24",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 210.5,
+      "endSec": 213.24,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

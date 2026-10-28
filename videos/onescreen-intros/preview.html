@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><title>preview</title>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>html,body{margin:0;background:#6a6a6a}#scaler{transform-origin:0 0}</style>
+</head><body><div id="scaler"></div><script>
+// Banco de pruebas generico: el renderizador inyecta la sub-composicion por su cuenta,
+// asi que para mirarla en un navegador normal hay que clonar el <template> a mano y
+// volver a crear el <script> (un script clonado no se ejecuta nunca).
+window.__ready=false;
+var comp=new URLSearchParams(location.search).get("c");
+fetch("compositions/frames/"+comp+".html").then(r=>r.text()).then(html=>{
+  var doc=new DOMParser().parseFromString(html,"text/html");
+  var frag=doc.querySelector("template").content.cloneNode(true);
+  var scripts=[...frag.querySelectorAll("script")]; scripts.forEach(s=>s.remove());
+  document.getElementById("scaler").appendChild(frag);
+  for(const s of scripts){var n=document.createElement("script");n.textContent=s.textContent;document.body.appendChild(n);}
+  var fit=()=>{var k=Math.min(innerWidth/3840,innerHeight/2160);
+    document.getElementById("scaler").style.transform="scale("+k+")";};
+  fit(); addEventListener("resize",fit);
+  window.__tl=window.__timelines[comp]; window.__tl.pause(0); window.__ready=true;
+});
+</script></body></html>

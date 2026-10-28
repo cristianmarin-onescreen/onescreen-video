@@ -1,0 +1,391 @@
+"""Video OneScreen Rental / DaaS v3 — estilo corregido por Cris (23-oct-2026, ver estilo-onescreen/08_TEXTO_Y_SUBTITULOS.md):
+ - texto directamente sobre el plano (sin contenedores), tarjetas blancas solo para enfatizar una línea;
+ - subtítulos blancos con trazo negro duro y fino, y solo donde no hay texto/gráfico que ya lo diga;
+ - márgenes seguros reales; menos relleno; cada gráfico con su propio tratamiento (no una plantilla repetida).
+Uso: FMT=16|9|45 ALPHA=0|1 python build_rental3.py
+  ALPHA=1 -> solo la capa gráfica (sin planos), para renderizar en MOV con alfa y montarla sobre los planos en Premiere."""
+import json, os, re
+from pathlib import Path
+
+FMT = os.environ.get("FMT", "16")
+ALPHA = os.environ.get("ALPHA", "0") == "1"
+CAPS = os.environ.get("CAPS", "1") == "1"
+W, H = {"16": (1920, 1080), "9": (1080, 1920), "45": (1080, 1350)}[FMT]
+PROJ = Path(f"D:/OneScreen/Contenido/2026/10. Octubre/Rental DaaS/Proyecto/v_{FMT}")
+SCRIBE = os.environ.get("SCRIBE", r"C:/Users/Cristian Marin/Desktop/Claudio/audio_elevenlabs/2026-10-21_rental_daas/scribe_v_rv_1.json")
+FPS, D, LEAD = 24, 0.10, 0.10
+ACC, PUR, INK = "#3976ff", "#7d00ba", "#0b0b14"
+SAFE = {"16": dict(l=190, r=190, t=120, b=140), "9": dict(l=100, r=100, t=330, b=540), "45": dict(l=100, r=100, t=200, b=300)}[FMT]
+S1 = {"16": 150, "9": 118, "45": 112}[FMT]          # texto grande sobre el plano
+S2 = round(S1 * 0.46)                               # texto de apoyo
+S3 = round(S1 * 0.34)
+
+words = [w for w in json.load(open(SCRIBE, encoding="utf-8"))["words"] if w.get("type") == "word"]
+
+
+def norm(t):
+    return re.sub(r"[¿?¡!.,;:]", "", t).lower()
+
+
+def snap(t):
+    return round(t * FPS) / FPS
+
+
+def EV(word, n=0):
+    k = [w for w in words if norm(w["text"]) == word]
+    return snap(k[n]["start"] + D - LEAD)
+
+
+END = snap(words[-1]["end"] + D + 1.4)
+els, js, clips = [], [], []         # clips: lista de planos para el proyecto de Premiere
+cnt = [0]
+
+
+def nid(p):
+    cnt[0] += 1
+    return f"{p}{cnt[0]:02d}"
+
+
+def rise(sel, t, d=0.65, stag=0.07):
+    js.append(f'tl.fromTo("{sel}",{{yPercent:110,opacity:0}},{{yPercent:0,opacity:1,duration:{d},ease:"power4.out",stagger:{stag}}},{t:.4f});')
+
+
+def gone(sel, t, d=0.3, x=-50):
+    js.append(f'tl.to("{sel}",{{opacity:0,x:{x},duration:{d},ease:"power2.in"}},{t:.4f});')
+
+
+def vid(src, t, t1, tin=0.0, scale=100, origin="50% 50%", cls="", style=""):
+    """plano a pantalla completa (se omite en la capa con alfa, pero queda en la lista para Premiere)"""
+    clips.append(dict(src=src, t=round(t, 4), dur=round(t1 - t, 4), tin=tin, scale=scale, origin=origin))
+    if ALPHA:
+        return
+    i = nid("v")
+    els.append(f'<video id="{i}" class="clip {cls}" src="media/{src}.mp4" muted playsinline data-start="{t:.4f}" data-duration="{t1 - t:.4f}" data-media-start="{tin:.4f}" data-track-index="1" '
+               f'style="object-position:{origin.split()[0]} 50%;transform-origin:{origin};transform:scale({scale / 100:.3f});{style}"></video>')
+
+
+POS = {"16": dict(bl=f"left:{SAFE['l']}px;bottom:{SAFE['b'] + 40}px;text-align:left", c=f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:50%;transform:translateY(-50%);text-align:center"),
+       "9": dict(bl=f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:{SAFE['t'] + 30}px;text-align:left", c=f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:{SAFE['t'] + 30}px;text-align:center"),
+       "45": dict(bl=f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:{SAFE['t'] + 20}px;text-align:left", c=f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:{SAFE['t'] + 20}px;text-align:center")}[FMT]
+
+
+def tx(t0, t1, lines, pos="bl", extra="", cid=None):
+    """texto suelto sobre el plano; lines = [(html, tamaño)], cada línea sube por máscara"""
+    i = cid or nid("t")
+    body = "".join(f'<div class="ln" style="font-size:{sz}px"><span class="mk"><span class="rw">{h}</span></span></div>' for h, sz in lines)
+    els.append(f'<div id="{i}" class="clip tx" data-start="{t0:.4f}" data-duration="{t1 - t0:.4f}" data-track-index="3" style="{POS[pos]};{extra}">{body}</div>')
+    return i
+
+
+def card(t0, t1, lines, cid=None):
+    """tarjeta blanca de énfasis: una línea corta, azul, mezcla de pesos (como las de febrero)"""
+    i = cid or nid("w")
+    sz = {"16": 74, "9": 64, "45": 62}[FMT]
+    body = "".join(f'<div class="cl" style="font-size:{sz}px"><span class="mk"><span class="rw">{h}</span></span></div>' for h in lines)
+    els.append(f'<div id="{i}" class="clip white" data-start="{t0:.4f}" data-duration="{t1 - t0:.4f}" data-track-index="2"><div class="cw">{body}</div></div>')
+    js.append(f'tl.fromTo("#{i}",{{clipPath:"inset(0% 100% 0% 0%)"}},{{clipPath:"inset(0% 0% 0% 0%)",duration:0.4,ease:"power3.inOut"}},{t0:.4f});')
+    rise(f"#{i} .rw", t0 + 0.2, 0.6, 0.12)
+    return i
+
+
+def bgs(t0, t1, color, cid=None):
+    """escena de fondo liso (blanco o de color) para motion graphics; entra con un barrido"""
+    i = cid or nid("b")
+    els.append(f'<div id="{i}" class="clip white" data-start="{t0:.4f}" data-duration="{t1 - t0:.4f}" data-track-index="2" style="background:{color}"></div>')
+    js.append(f'tl.fromTo("#{i}",{{clipPath:"inset(0% 100% 0% 0%)"}},{{clipPath:"inset(0% 0% 0% 0%)",duration:0.4,ease:"power3.inOut"}},{t0:.4f});')
+    return i
+
+
+INKS = "color:#0b0b14;text-shadow:none"
+
+
+def icon(name, size, sw=2, iid="", col="#fff"):
+    P = {"chat": ["M4 5h16v11H9l-5 4z", "M8 9.5h8", "M8 12.5h5"], "coin": ["M12 3a9 9 0 1 0 .01 0", "M14.5 8.5c-.6-.8-1.5-1.2-2.5-1.2-1.5 0-2.6.8-2.6 2 0 3 5.3 1.3 5.3 4.2 0 1.2-1.2 2-2.7 2-1.1 0-2.1-.5-2.7-1.4", "M12 5.6v1.7", "M12 16.7v1.7"],
+         "refresh": ["M20 12a8 8 0 1 1-2.6-5.9", "M20 4v5h-5"], "head": ["M4 14v-2a8 8 0 0 1 16 0v2", "M4 14h3v5H4z", "M17 14h3v5h-3z", "M20 19v1a2 2 0 0 1-2 2h-4"],
+         "shield": ["M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z", "M8.5 12l2.5 2.5 4.5-5"]}[name]
+    ps = "".join(f'<path d="{p}" pathLength="1"/>' for p in P)
+    return f'<svg id="{iid}" class="ic" viewBox="0 0 24 24" width="{size}" height="{size}" style="stroke:{col};stroke-width:{sw};margin-left:0.18em;vertical-align:-0.08em">{ps}</svg>'
+
+
+def icon_at(i, svg, t, pos_css, d=0.9):
+    els.append(f'<div id="{i}" class="clip icb" data-start="{t:.4f}" data-duration="{END - t:.4f}" data-track-index="3" style="{pos_css}">{svg}</div>')
+    js.append(f'tl.fromTo("#{i} path",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:{d},ease:"power2.inOut",stagger:0.1}},{t:.4f});')
+
+
+# ── línea de tiempo (planos y texto, todo nace de la palabra) ────────────────
+T = {k: EV(k) for k in ("primera", "tener", "para", "onescreen", "hay", "caminos", "contactarnos", "daas", "arrendamiento", "por", "cuota", "llenar", "toda", "pagas", "siempre", "soporte", "prioritario", "sufre", "nosotros", "quieres", "pregúntanos", "explicamos")}
+T["o2"] = EV("o", 1); T["hay1"] = EV("hay", 1); T["primero0"] = EV("primero", 0); T["primero1"] = EV("primero", 1); T["encargamos"] = EV("encargamos"); T["si"] = EV("si")
+t_dos = EV("dos")
+E = {"split": T["hay"]}
+
+# A · "Hoy quiero que hablemos sobre tu primera aula digital"
+vid("r1", 0.0, T["tener"], 0.0)
+a = tx(T["primera"], T["tener"] + 0.5, [('<span class="l">Tu primera</span>', S2 * 1.5), ('<span class="b">aula digital</span>', S1)], "bl")
+rise(f"#{a} .rw", T["primera"], 0.75, 0.12); gone(f"#{a} .rw", T["tener"] + 0.2)
+# B · "tener tu propia pantalla interactiva"
+vid("r2", T["tener"], T["para"], 0.0, 144)
+# C · "Para tener tu propia OneScreen, a tu medida"
+vid("r3", T["para"], T["hay"], 0.0)
+els.append(f'<div id="lg" class="clip tx" data-start="{T["onescreen"] - 0.1:.4f}" data-duration="1.7" data-track-index="3" style="{POS["c"] if FMT == "16" else POS["c"]};{"top:44%;transform:translateY(-50%)" if FMT == "16" else ""}"><span class="mk"><span class="rw lgo">@@LOGO@@</span></span></div>')
+rise("#lg .rw", T["onescreen"] - 0.1, 0.7); gone("#lg .rw", T["onescreen"] + 1.2)
+# D · "hay dos caminos": tarjeta blanca, y cada camino sobre su propio plano
+bgs(T["hay"], T["primero0"] + 0.55, ACC)
+dd = tx(T["hay"] + 0.2, T["primero0"] + 0.5, [('<span class="l">Dos</span> <span class="b">caminos.</span>', S1 * 0.86)], "bl", "text-shadow:none")
+rise(f"#{dd} .rw", T["hay"] + 0.25, 0.7, 0.1); gone(f"#{dd} .rw", T["primero0"] + 0.25)
+vid("m2", T["primero0"] + 0.55, T["o2"], 0.5)
+d1 = tx(T["primero0"] + 0.15, T["o2"], [('<span class="b">Comprarla</span>', S1), ('<span class="l">Contáctanos</span>' + icon("chat", round(S2 * 0.9), 3.4, "icChat"), S2)], "bl")
+rise(f"#{d1} .ln:nth-child(1) .rw", T["primero0"] + 0.15, 0.7)
+rise(f"#{d1} .ln:nth-child(2) .rw", T["contactarnos"] - 0.1, 0.6)
+js.append(f'tl.fromTo("#icChat path",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:0.8,ease:"power2.inOut",stagger:0.1}},{T["contactarnos"] + 0.1:.4f});')
+gone(f"#{d1} .rw", T["o2"] - 0.25)
+vid("m4", T["o2"], T["daas"], 0.5)
+d3 = tx(T["o2"] + 0.05, T["daas"], [('<span class="b">Arrendarla</span>', S1)], "bl")
+rise(f"#{d3} .rw", T["o2"] + 0.05, 0.7); gone(f"#{d3} .rw", T["daas"] - 0.25)
+# E · "DaaS, es decir, nuestro modelo de arrendamiento"
+bE = bgs(T["daas"], T["por"], PUR)
+e1 = tx(T["daas"], T["por"], [('<span class="b">DaaS</span>', round(S1 * 1.9)), ('<span class="l">modelo de</span> <span class="b">arrendamiento</span>', S2)], "bl", "letter-spacing:-0.02em;text-shadow:none")
+rise(f"#{e1} .ln:nth-child(1) .rw", T["daas"], 0.8)
+rise(f"#{e1} .ln:nth-child(2) .rw", T["arrendamiento"] - 0.5, 0.7)
+gone(f"#{e1} .rw", T["por"] - 0.25)
+# F · "Por una cuota accesible, mensualmente"
+bgs(T["por"], T["llenar"], "#fafafa")
+f1 = tx(T["cuota"] - 0.1, T["llenar"], [('<span class="l">Una cuota</span>', S2 * 1.4), ('<span class="b" style="color:#3976ff">mensual</span>', S1)], "bl", INKS)
+rise(f"#{f1} .rw", T["cuota"] - 0.1, 0.7, 0.12); gone(f"#{f1} .rw", T["llenar"] - 0.25)
+# G · "puedes llenar toda tu institución de pantallas interactivas": montaje de aulas
+tG1 = EV("interactivas") + 0.7
+shots = [("m2", 1.0), ("m4", 2.0), ("m3", 0.5), ("m5", 0.8), ("m1", 2.4)]
+cuts = [T["llenar"] + i * (tG1 - T["llenar"]) / len(shots) for i in range(len(shots))] + [tG1]
+for k, (s, tin) in enumerate(shots):
+    vid(s, snap(cuts[k]), snap(cuts[k + 1]), tin, 100 if k % 2 == 0 else 125)
+g = tx(T["toda"], tG1, [('<span class="l">Toda tu</span>', S2 * 1.4), ('<span class="b">institución</span>', S1)], "bl")
+rise(f"#{g} .rw", T["toda"], 0.7, 0.12); gone(f"#{g} .rw", tG1 - 0.25)
+# H · "Hay muchas ventajas, estas son algunas"
+card(T["hay1"], T["primero1"], ['<span class="l">Muchas</span> <span class="b">ventajas.</span>'])
+# I · "Primero, pagas por lo que realmente usas"
+tI1, tJ0 = EV("usas") + 0.9, T["siempre"]
+bgs(T["primero1"], tJ0, "#efe3fb")
+ii = tx(T["pagas"] - 0.05, tJ0, [('<span class="l">Pagas por lo que</span>', S2 * 1.2), ('<span class="b" style="color:#7d00ba">usas</span>' + icon("coin", round(S1 * 0.62), 3.4, "icCoin", PUR), S1)], "bl", INKS)
+rise(f"#{ii} .rw", T["pagas"] - 0.05, 0.7, 0.14); gone(f"#{ii} .rw", tJ0 - 0.25)
+js.append(f'tl.fromTo("#icCoin path",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:0.9,ease:"power2.inOut",stagger:0.1}},{T["pagas"] + 0.5:.4f});')
+js.append(f'tl.fromTo("#icCoin",{{rotationY:0}},{{rotationY:360,duration:1.0,ease:"power2.inOut",transformOrigin:"50% 50%"}},{T["pagas"] + 1.2:.4f});')
+# J · "Siempre tendrás nuestros equipos con las últimas actualizaciones"
+tK0 = T["soporte"]
+vid("m2", tJ0, tK0, 1.6)
+jj = tx(tJ0 - 0.05, tK0, [('<span class="b">Siempre</span>' + icon("refresh", round(S1 * 0.62), 3.4, "icRef"), S1), ('<span class="l">actualizada</span>', S1 * 0.62)], "bl")
+rise(f"#{jj} .rw", tJ0 - 0.05, 0.7, 0.14); gone(f"#{jj} .rw", tK0 - 0.25)
+js.append(f'tl.fromTo("#icRef path",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:0.8,ease:"power2.inOut",stagger:0.1}},{tJ0 + 0.4:.4f});')
+js.append(f'tl.fromTo("#icRef",{{rotation:0}},{{rotation:720,duration:{tK0 - tJ0 - 0.9:.3f},ease:"power1.inOut",transformOrigin:"50% 50%"}},{tJ0 + 0.8:.4f});')
+# K · "soporte técnico prioritario"
+tL0 = T["si"]
+bgs(tK0, tL0, ACC)
+kk = tx(tK0 - 0.05, tL0, [('<span class="l">Soporte técnico</span>', S2 * 1.2), ('<span class="b">prioritario</span>' + icon("head", round(S1 * 0.62), 3.4, "icHead"), S1)], "bl", "text-shadow:none")
+rise(f"#{kk} .rw", tK0 - 0.05, 0.7, 0.14); gone(f"#{kk} .rw", tL0 - 0.25)
+js.append(f'tl.fromTo("#icHead path",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:0.9,ease:"power2.inOut",stagger:0.1}},{T["prioritario"]:.4f});')
+# L · "Y si tu pantalla sufre algún daño, nosotros nos encargamos"
+tM0 = T["quieres"]
+vid("m5", tL0, tM0, 0.3)
+ll = tx(tL0 - 0.05, tM0, [('<span class="l">Si sufre algún daño,</span>', S2 * 1.1), ('<span class="b">nosotros nos</span>', S1 * 0.78), ('<span class="b">encargamos</span>' + icon("shield", round(S1 * 0.55), 3.4, "icShield"), S1 * 0.78)], "bl")
+rise(f"#{ll} .ln:nth-child(1) .rw", tL0 - 0.05, 0.7)
+rise(f"#{ll} .ln:nth-child(2) .rw", T["nosotros"] - 0.05, 0.7)
+rise(f"#{ll} .ln:nth-child(3) .rw", T["encargamos"] - 0.05, 0.7)
+js.append(f'tl.fromTo("#icShield path",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:0.9,ease:"power2.inOut",stagger:0.1}},{T["encargamos"] + 0.3:.4f});')
+gone(f"#{ll} .rw", tM0 - 0.25)
+# M · "¿Quieres adquirir tu pantalla?"
+tN0 = T["pregúntanos"]
+card(tM0, tN0 + 0.15, ['<span class="l">¿Quieres adquirir tu</span> <span class="b">pantalla</span>?'])
+# N · "Pregúntanos y te explicamos cómo."
+vid("m3", tN0 + 0.15, END, 0.4)
+n1 = tx(tN0, END, [('<span class="b">Pregúntanos</span>', S1), ('<span class="l">onescreenlatam.com/<span class="b">rental</span></span>', S2 * 1.05)], "bl")
+rise(f"#{n1} .rw", tN0 + 0.15, 0.75, 0.16)
+
+
+# ── gráficos descriptivos (líneas que se dibujan, sin contenedores) ─────────────────────────────────
+GW, GH = {"16": (560, 390), "9": (700, 470), "45": (620, 410)}[FMT]
+GX = {"16": W - SAFE["r"] - GW, "9": (W - GW) // 2, "45": (W - GW) // 2}[FMT]
+GY = {"16": (H - GH) // 2 - 10, "9": SAFE["t"] + 30 + round(S1 * 2.25), "45": SAFE["t"] + 20 + round(S1 * 2.2)}[FMT]
+SW = 28
+
+
+def gfx(i, t0, t1, inner="", x=None, y=None, w=None, h=None, vb="0 0 560 390", stroke="#fff", shadow=False):
+    x = GX if x is None else x; y = GY if y is None else y; w = GW if w is None else w; h = GH if h is None else h
+    flt = "filter:drop-shadow(0 3px 14px rgba(0,0,0,.5));" if shadow else ""
+    els.append(f'<div id="{i}" class="clip gfx" data-start="{t0:.4f}" data-duration="{t1 - t0:.4f}" data-track-index="3" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px;color:{stroke};{flt}">'
+               f'<svg viewBox="{vb}" width="100%" height="100%" fill="none" stroke="{stroke}" stroke-width="{SW}" stroke-linecap="round" stroke-linejoin="round" style="overflow:visible">{inner}</svg></div>')
+
+
+def draw(sel, t, d=0.8, stag=0.08, ease="power2.inOut"):
+    js.append(f'tl.fromTo("{sel}",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:{d},ease:"{ease}",stagger:{stag}}},{t:.4f});')
+
+
+def pth(d, extra=""):
+    return f'<path d="{d}" pathLength="1" style="stroke-dasharray:1 2;stroke-dashoffset:1" {extra}/>'
+
+
+# A · "primera aula digital": marco de enfoque sobre la pantalla (esquinas que se dibujan y se cierran)
+gA = nid("g")
+gfx(gA, T["primera"] + 0.2, T["tener"] + 0.4,
+    pth("M30 110V30H110", 'class="a1"') + pth("M450 30H530V110", 'class="a1"') + pth("M530 280V360H450", 'class="a1"') + pth("M110 360H30V280", 'class="a1"'))
+draw(f"#{gA} .a1", T["primera"] + 0.25, 0.7, 0.1)
+js.append(f'tl.fromTo("#{gA} svg",{{scale:1.22,transformOrigin:"50% 50%"}},{{scale:1,duration:0.9,ease:"power3.out"}},{T["primera"] + 0.25:.4f});')
+gone(f"#{gA}", T["tener"] + 0.1)
+# B · "pantalla interactiva": toque con ondas
+gB = nid("g")
+gfx(gB, T["tener"] + 0.5, T["para"], '<circle cx="280" cy="195" r="26" fill="currentColor" stroke="none" class="b0"/>' + "".join(f'<circle cx="280" cy="195" r="{r}" class="b1" style="opacity:0"/>' for r in (60, 105, 150)))
+js.append(f'tl.fromTo("#{gB} .b0",{{scale:0.3,transformOrigin:"280px 195px"}},{{scale:1,duration:0.45,ease:"back.out(2)"}},{T["tener"] + 0.5:.4f});')
+js.append(f'tl.fromTo("#{gB} .b1",{{opacity:0.9,scale:0.35,transformOrigin:"280px 195px"}},{{opacity:0,scale:1.1,duration:1.1,ease:"power2.out",stagger:0.28,repeat:1}},{T["tener"] + 0.85:.4f});')
+# D · "dos caminos": bifurcación dibujada bajo el texto de la tarjeta blanca (trazo azul)
+gD = nid("g")
+gfx(gD, T["hay"] + 0.35, T["primero0"] + 0.55,
+    pth("M280 10V120", 'class="d1"') + pth("M280 120C280 205 110 190 110 290", 'class="d1"') + pth("M280 120C280 205 450 190 450 290", 'class="d1"')
+    + pth("M82 262L110 294L138 262", 'class="d1"') + pth("M422 262L450 294L478 262", 'class="d1"')
+    + '<circle cx="280" cy="10" r="14" fill="currentColor" stroke="none"/>')
+draw(f"#{gD} .d1", T["hay"] + 0.45, 0.85, 0.12)
+gone(f"#{gD}", T["primero0"] + 0.25)
+# F · "cuota mensual": calendario que se llena mes a mes
+gF = nid("g")
+cells = "".join(f'<circle class="f2" cx="{95 + c * 123}" cy="{205 + r * 62}" r="17" fill="currentColor" stroke="none" style="opacity:0"/>' for r in range(3) for c in range(4))
+gfx(gF, T["cuota"] - 0.1, T["llenar"], stroke=ACC, inner=pth("M20 60H540V370H20Z", 'class="f1"') + pth("M20 120H540", 'class="f1"') + pth("M150 20V80", 'class="f1"') + pth("M410 20V80", 'class="f1"') + cells)
+draw(f"#{gF} .f1", T["cuota"], 0.8, 0.1)
+js.append(f'tl.fromTo("#{gF} .f2",{{opacity:0,scale:0.2,transformOrigin:"50% 50%"}},{{opacity:1,scale:1,duration:0.3,ease:"back.out(2)",stagger:{(T["llenar"] - T["cuota"] - 0.9) / 12:.3f}}},{T["cuota"] + 0.8:.4f});')
+gone(f"#{gF}", T["llenar"] - 0.2)
+# G · "llenar toda tu institución": una fila de pantallas que se va llenando con cada plano
+gG = nid("g")
+n_ = len(shots); sz_ = {"16": 120, "9": 110, "45": 100}[FMT]; gap_ = 26
+rw_ = n_ * sz_ + (n_ - 1) * gap_
+mons = "".join(f'<g class="g1" style="opacity:0" transform="translate({k * (sz_ + gap_)} 0)"><rect x="4" y="6" width="{sz_ - 8}" height="{sz_ * 0.62:.0f}" rx="9"/><path d="M{sz_ * 0.3:.0f} {sz_ * 0.86:.0f}H{sz_ * 0.7:.0f}"/><path d="M{sz_ / 2:.0f} {sz_ * 0.7:.0f}V{sz_ * 0.86:.0f}"/></g>' for k in range(n_))
+gfx(gG, T["llenar"], tG1, mons, x=(W - rw_) // 2, y=SAFE["t"] + 10, w=rw_, h=sz_, vb=f"0 0 {rw_} {sz_}")
+for k in range(n_):
+    js.append(f'tl.fromTo("#{gG} .g1:nth-child({k + 1})",{{opacity:0,scale:0.4,transformOrigin:"{k * (sz_ + gap_) + sz_ / 2}px {sz_ / 2}px"}},{{opacity:1,scale:1,duration:0.35,ease:"back.out(2.2)"}},{snap(cuts[k]):.4f});')
+gone(f"#{gG}", tG1 - 0.25)
+# I · "pagas por lo que usas": medidor de uso (arco y aguja)
+gI = nid("g")
+import math
+ticks_ = "".join(pth("M%d %dL%d %d" % (280 + 190 * math.cos(math.radians(a_)), 300 - 190 * math.sin(math.radians(a_)), 280 + 215 * math.cos(math.radians(a_)), 300 - 215 * math.sin(math.radians(a_))), 'class="i1"') for a_ in range(20, 170, 30))
+gfx(gI, T["pagas"] + 0.2, tJ0, stroke=PUR, inner=pth("M60 300A220 220 0 0 1 500 300", 'class="i1"') + ticks_ + '<path class="i2" d="M280 300L280 130" stroke-width="30"/><circle cx="280" cy="300" r="14" fill="currentColor" stroke="none"/>')
+draw(f"#{gI} .i1", T["pagas"] + 0.25, 0.7, 0.05)
+js.append(f'tl.fromTo("#{gI} .i2",{{rotation:-70,transformOrigin:"280px 300px"}},{{rotation:28,duration:{tJ0 - T["pagas"] - 0.9:.3f},ease:"power2.inOut"}},{T["pagas"] + 0.6:.4f});')
+gone(f"#{gI}", tJ0 - 0.25)
+# J · "siempre actualizada": barra de progreso que se llena y marca de listo
+gJ = nid("g")
+gfx(gJ, tJ0 + 0.1, tK0, '<path d="M30 190H530" stroke-opacity="0.35"/>' + pth("M30 190H530", 'class="j1" stroke-width="40"') + pth("M455 90L500 135L545 90", 'class="j2" transform="translate(0 -40)"') + pth("M240 270L275 305L335 235", 'class="j3"'))
+js.append(f'tl.fromTo("#{gJ} .j1",{{strokeDashoffset:1}},{{strokeDashoffset:0,duration:{tK0 - tJ0 - 0.9:.3f},ease:"power1.inOut"}},{tJ0 + 0.3:.4f});')
+draw(f"#{gJ} .j3", tK0 - 0.8, 0.5, 0.0)
+gone(f"#{gJ}", tK0 - 0.25)
+# K · "soporte técnico prioritario": ondas de atención que salen del auricular
+gK = nid("g")
+gfx(gK, tK0 + 0.2, tL0, '<circle cx="280" cy="195" r="30" fill="currentColor" stroke="none"/>' + "".join(f'<circle cx="280" cy="195" r="{r}" class="k1" style="opacity:0"/>' for r in (70, 115, 160)))
+js.append(f'tl.fromTo("#{gK} .k1",{{opacity:0.95,scale:0.3,transformOrigin:"280px 195px"}},{{opacity:0,scale:1.15,duration:1.0,ease:"power2.out",stagger:0.25,repeat:2}},{tK0 + 0.3:.4f});')
+gone(f"#{gK}", tL0 - 0.25)
+# L · "si sufre algún daño, nosotros nos encargamos": pantalla agrietada que se repara y queda protegida
+gL = nid("g")
+gfx(gL, tL0 - 0.05, tM0, pth("M60 40H500V270H60Z", 'class="l0"') + pth("M280 270V330M180 335H380", 'class="l0"')
+    + pth("M250 40L290 120L240 170L300 230L270 270", 'class="l1" style="stroke:#ff6b5a;stroke-dasharray:1 2;stroke-dashoffset:1" stroke-width="30"')
+    + pth("M280 80C330 100 380 100 420 95C420 190 370 235 280 255C190 235 140 190 140 95C180 100 230 100 280 80Z", 'class="l2" stroke-width="30"') + pth("M225 160L265 200L340 120", 'class="l3" stroke-width="32"'))
+draw(f"#{gL} .l0", tL0, 0.7, 0.1)
+draw(f"#{gL} .l1", tL0 + 0.55, 0.45, 0.0)
+js.append(f'tl.to("#{gL} .l1",{{opacity:0,duration:0.35}},{T["nosotros"] + 0.35:.4f});')
+draw(f"#{gL} .l2", T["nosotros"] + 0.3, 0.7, 0.0)
+draw(f"#{gL} .l3", T["encargamos"] + 0.3, 0.5, 0.0)
+gone(f"#{gL}", tM0 - 0.25)
+# N · "Pregúntanos": globo de conversación con puntos que escriben
+gN = nid("g")
+gfx(gN, tN0 + 0.2, END, pth("M30 40H530V250H200L90 340V250H30Z", 'class="n1"') + "".join(f'<circle class="n2" cx="{200 + k * 80}" cy="145" r="14" fill="currentColor" stroke="none" style="opacity:0"/>' for k in range(3)))
+draw(f"#{gN} .n1", tN0 + 0.25, 0.7)
+js.append(f'tl.fromTo("#{gN} .n2",{{opacity:0.15,y:6}},{{opacity:1,y:-6,duration:0.35,ease:"sine.inOut",stagger:0.18,repeat:5,yoyo:true}},{tN0 + 0.9:.4f});')
+
+# E · ciclo mensual que gira junto a "DaaS"
+gE = nid("g")
+gfx(gE, T["daas"] + 0.2, T["por"], '<g transform="translate(70 20) scale(16)" stroke-width="1.75">' + pth("M20 12a8 8 0 1 1-2.6-5.9", 'class="e1"') + pth("M20 4v5h-5", 'class="e1"') + '</g>')
+draw(f"#{gE} .e1", T["daas"] + 0.3, 0.9, 0.2)
+js.append(f'tl.fromTo("#{gE} svg",{{rotation:0,transformOrigin:"50% 50%"}},{{rotation:360,duration:{T["por"] - T["daas"] - 0.5:.2f},ease:"power1.inOut"}},{T["daas"] + 0.9:.4f});')
+gone(f"#{gE}", T["por"] - 0.25)
+# ── subtítulos: blancos con trazo negro duro y fino; solo donde ninguna palabra o gráfico ya lo dice ──
+caps = []
+if CAPS:
+    ventanas = [(0.0, T["primera"] - 0.1), (T["tener"], T["hay"])]
+    per = {"16": 6, "9": 3, "45": 4}[FMT]
+    chunks, cur = [], []
+    for w in words:
+        cur.append(w)
+        if len(cur) >= per or re.search(r"[?.,;]$", w["text"]):
+            chunks.append(cur); cur = []
+    if cur:
+        chunks.append(cur)
+    for k, c in enumerate(chunks):
+        t0 = snap(c[0]["start"] + D)
+        t1 = snap(chunks[k + 1][0]["start"] + D) if k + 1 < len(chunks) else END
+        if any(a <= t0 < b for a, b in ventanas):
+            t1 = min(t1, [b for a, b in ventanas if a <= t0 < b][0])
+            if t1 - t0 < 0.15:
+                continue
+            txt = " ".join(x["text"] for x in c)
+            caps.append(f'<div class="clip cap" data-start="{t0:.4f}" data-duration="{t1 - t0 - 0.04:.4f}" data-track-index="5">{txt}</div>')
+
+# ── cámara que flota (solo en la versión completa; en Premiere va como capa de ajuste) ──
+POSC = [(0, .5, .5), (1.04, .5141, .5), (1.88, .4958, .487), (2.88, .4908, .4849), (5.04, .4842, .5093), (6.32, .5138, .515), (7.96, .4811, .4963), (9.48, .5217, .5213),
+        (12.04, .5, .5), (13.28, .5141, .5), (14.12, .4958, .487), (15.12, .4908, .4849), (17.28, .4842, .5093), (18.56, .5138, .515), (20.2, .4811, .4963), (22.4, .5217, .5213),
+        (25.0, .5, .5), (26.04, .5141, .5), (26.88, .4958, .487), (27.88, .4908, .4849), (30.04, .4842, .5093), (31.32, .5138, .515), (32.96, .4811, .4963), (34.48, .5217, .5213), (37.04, .5, .5), (38.28, .5141, .5), (39.12, .4958, .487)]
+SCL = [(0, 104), (1.88, 103.5), (3.44, 104.4), (5.44, 103.6), (7.4, 105.2), (10.0, 104.9), (12.04, 104.4), (14.12, 103.5), (15.68, 104.4), (17.68, 103.6), (19.64, 105.2),
+       (22.92, 104.9), (25.0, 104), (26.88, 103.5), (28.44, 104.4), (30.44, 103.6), (32.4, 105.2), (35.0, 104.9), (37.04, 104.4), (39.12, 103.5)]
+if not ALPHA:
+    js.append('gsap.set("#cam",{transformOrigin:"50% 50%"});')
+    for (t, x, y), (t2, x2, y2) in zip(POSC, POSC[1:]):
+        if t >= END:
+            break
+        js.append(f'tl.fromTo("#cam",{{x:{(x - .5) * W:.1f},y:{(y - .5) * H:.1f}}},{{x:{(x2 - .5) * W:.1f},y:{(y2 - .5) * H:.1f},duration:{t2 - t:.3f},ease:"sine.inOut"}},{t});')
+    for (t, s_), (t2, s2) in zip(SCL, SCL[1:]):
+        if t >= END:
+            break
+        js.append(f'tl.fromTo("#cam",{{scale:{s_ / 100 * 1.012:.4f}}},{{scale:{s2 / 100 * 1.012:.4f},duration:{t2 - t:.3f},ease:"sine.inOut"}},{t});')
+
+LOGO = (PROJ / "assets" / "onescreen-wordmark.svg").read_text(encoding="utf-8-sig")
+LOGO = re.sub(r"<\?xml[^>]*\?>", "", LOGO)
+LOGO = re.sub(r'\s(id|data-name)="[^"]*"', "", LOGO).replace("<svg ", '<svg class="logo" ', 1)
+CAP_FS = {"16": 42, "9": 50, "45": 44}[FMT]
+CAP_POS = {"16": f"left:{SAFE['l']}px;right:{SAFE['r']}px;bottom:{SAFE['b']}px", "9": f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:49%", "45": f"left:{SAFE['l']}px;right:{SAFE['r']}px;top:63%"}[FMT]
+BG = "transparent" if ALPHA else "#0b0b10"
+CSS = f"""
+@font-face {{ font-family:'Rubik'; src:url('fonts/Rubik-variable-latin.woff2') format('woff2'); font-weight:300 900; font-display:block; }}
+*{{box-sizing:border-box}} html,body{{margin:0;padding:0;width:{W}px;height:{H}px;overflow:hidden;background:{BG};font-family:'Rubik',sans-serif}}
+#stage{{position:relative;width:{W}px;height:{H}px;overflow:hidden;background:{BG}}}
+#cam{{position:absolute;inset:0;width:{W}px;height:{H}px}}
+video{{position:absolute;left:0;top:0;width:{W}px;height:{H}px;object-fit:cover}}
+.white{{position:absolute;left:0;top:0;width:{W}px;height:{H}px;background:#fafafa}}
+.cw{{position:absolute;left:{SAFE['l']}px;right:{SAFE['r']}px;top:50%;transform:translateY(-50%);text-align:center;color:{ACC};font-family:'Rubik';line-height:1.18;letter-spacing:-0.02em}}
+.cl{{display:block}} .cw .b,.tx .b{{font-weight:700}} .cw .l,.tx .l{{font-weight:300}}
+.mk{{display:block;overflow:hidden;padding:0.06em 0.08em 0.16em}} .rw{{display:inline-block}}
+.tx{{position:absolute;color:#fff;font-family:'Rubik';line-height:1.0;letter-spacing:-0.035em;text-shadow:0 3px 26px rgba(0,0,0,.5),0 1px 3px rgba(0,0,0,.25)}}
+.ln{{display:block}} .gfx{{position:absolute}}
+.icb{{position:absolute;filter:none}} .ic{{overflow:visible;fill:none;stroke-linecap:round;stroke-linejoin:round}} .ic path{{stroke-dasharray:1 2;stroke-dashoffset:0}} .ic{{display:inline-block;filter:none}}
+.ulb{{position:absolute;height:{max(6, round(S1 * 0.05))}px;background:#fff;border-radius:3px;box-shadow:0 2px 14px rgba(0,0,0,.4)}}
+.lgo .logo{{height:{round(S1 * 0.62)}px;width:auto;display:block}} .lgo .logo path,.lgo .logo polygon,.lgo .logo rect,.lgo .logo circle{{fill:#fff!important}}
+.cap{{position:absolute;{CAP_POS};text-align:center;font-family:'Rubik';font-weight:500;font-size:{CAP_FS}px;line-height:1.15;color:#fff;-webkit-text-stroke:{max(3, round(CAP_FS * 0.11))}px #000;paint-order:stroke fill;text-shadow:none;pointer-events:none}}
+"""
+body = chr(10).join("    " + e for e in els).replace("@@LOGO@@", LOGO)
+html = f"""<!doctype html>
+<html lang="es"><head><meta charset="utf-8" /><style>{CSS}</style></head>
+<body>
+<div id="stage" data-composition-id="rental3" data-start="0" data-duration="{END:.4f}" data-fps="{FPS}" data-width="{W}" data-height="{H}">
+  <div id="cam">
+{body}
+  </div>
+  {chr(10).join('  ' + c for c in caps)}
+  <script src="vendor/gsap.min.js"></script>
+  <script>
+  (function () {{
+    window.gsap.defaults({{ lazy: false }});
+    const tl = window.gsap.timeline({{ paused: true }});
+    {chr(10).join('    ' + l for l in js)}
+    window.__timelines = window.__timelines || {{}};
+    window.__timelines["rental3"] = tl;
+  }})();
+  </script>
+</div>
+</body></html>
+"""
+PROJ.mkdir(parents=True, exist_ok=True)
+(PROJ / "index.html").write_text(html, encoding="utf-8")
+ev = {k: v for k, v in T.items()}
+whites = [(T["hay"], "dos"), (T["hay1"], "muchas"), (tM0, "quieres")]
+json.dump(dict(END_SCENE=END, clips=clips, events=ev, whites=whites), open(PROJ / ("plan_alpha.json" if ALPHA else "plan.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("ok", FMT, "ALPHA" if ALPHA else "completo", "escena", END, "planos", len(clips))

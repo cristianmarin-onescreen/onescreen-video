@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>02-testimonios</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #3976ff; }
+        /* Escalones. colossal aquí es 11cqw y no 15: "¿Comenzamos?" son 12 caracteres y a
+           15cqw se saldría del ancho útil. */
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .s-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .s-colossal { font-size: 11cqw;   font-weight: 800; line-height: 0.94; letter-spacing: -0.040em; }
+        /* Cuadros de los bloques negros: a cuadro completo, centrados. */
+        .beat { position: absolute; left: 8cqw; right: 8cqw; top: 34cqh; text-align: center; opacity: 0; }
+        .rule {
+          display: block; width: 10cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.4cqh auto 0; transform-origin: 50% 50%; opacity: 0;
+        }
+        /* COLUMNA SEGURA. Medida, no estimada: ninguna cara entra a la izquierda del 38%
+           del ancho en los 18 planos del tramo de entrevistas. La columna llega al 34% y
+           deja 4 puntos de margen. Anclada por abajo para que los bloques de 2, 3 y 4
+           líneas compartan línea base y el subtítulo no salte de altura. */
+        .caption {
+          position: absolute;
+          left: 6cqw;
+          width: 28cqw;
+          bottom: 22cqh;
+          text-align: left;
+          font-size: 2.3cqw;
+          font-weight: 500;
+          line-height: 1.28;
+          letter-spacing: -0.008em;
+          opacity: 0;
+        }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="02-testimonios"
+        data-width="3840"
+        data-height="2160"
+        data-duration="43.76"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="caption" id="c1"><span class="w" id="c1-w0">Número</span> <span class="w" id="c1-w1">um,</span> <span class="w" id="c1-w2">OneScreen,</span> <span class="w" id="c1-w3">porque</span> <span class="w" id="c1-w4">nós</span> <span class="w" id="c1-w5">validamos</span> <span class="w" id="c1-w6">a</span> <span class="w" id="c1-w7">parte</span> <span class="w" id="c1-w8">técnica,</span></div>
+        <div class="caption" id="c2"><span class="w" id="c2-w0">ou</span> <span class="w" id="c2-w1">seja,</span> <span class="w" id="c2-w2">a</span> <span class="w" id="c2-w3">funcionalidade,</span> <span class="w" id="c2-w4">a</span> <span class="w" id="c2-w5">conectividade,</span> <span class="w" id="c2-w6">a</span> <span class="w" id="c2-w7">segurança,</span> <span class="w" id="c2-w8">os</span> <span class="w" id="c2-w9">certificados,</span></div>
+        <div class="caption" id="c3"><span class="w" id="c3-w0">mas</span> <span class="w" id="c3-w1">trouxemos</span> <span class="w" id="c3-w2">os</span> <span class="w" id="c3-w3">professores,</span> <span class="w" id="c3-w4">como</span> <span class="w" id="c3-w5">eu</span> <span class="w" id="c3-w6">falei.</span></div>
+        <div class="caption" id="c4"><span class="w" id="c4-w0">Fizemos</span> <span class="w" id="c4-w1">o</span> <span class="w" id="c4-w2">mesmo</span> <span class="w" id="c4-w3">processo</span> <span class="w" id="c4-w4">não</span> <span class="w" id="c4-w5">só</span> <span class="w" id="c4-w6">com</span> <span class="w" id="c4-w7">a</span> <span class="w" id="c4-w8">OneScreen,</span> <span class="w" id="c4-w9">mas</span> <span class="w" id="c4-w10">com</span> <span class="w" id="c4-w11">outras</span> <span class="w" id="c4-w12">marcas.</span></div>
+        <div class="caption" id="c5"><span class="w" id="c5-w0">O</span> <span class="w" id="c5-w1">resultado</span> <span class="w" id="c5-w2">foi</span> <span class="w" id="c5-w3">que</span> <span class="w" id="c5-w4">operar</span> <span class="w" id="c5-w5">esta</span> <span class="w" id="c5-w6">tela</span> <span class="w" id="c5-w7">é</span> <span class="w" id="c5-w8">mais</span> <span class="w" id="c5-w9">fácil</span></div>
+        <div class="caption" id="c6"><span class="w" id="c6-w0">que</span> <span class="w" id="c6-w1">as</span> <span class="w" id="c6-w2">outras,</span> <span class="w" id="c6-w3">é</span> <span class="w" id="c6-w4">mais</span> <span class="w" id="c6-w5">intuitiva,</span> <span class="w" id="c6-w6">como</span> <span class="w" id="c6-w7">diziam.</span></div>
+        <div class="caption" id="c7"><span class="w" id="c7-w0">E</span> <span class="w" id="c7-w1">além</span> <span class="w" id="c7-w2">disso,</span> <span class="w" id="c7-w3">em</span> <span class="w" id="c7-w4">algumas</span> <span class="w" id="c7-w5">apresentações</span> <span class="w" id="c7-w6">a</span> <span class="w" id="c7-w7">gente</span> <span class="w" id="c7-w8">consegue</span> <span class="w" id="c7-w9">fazer</span></div>
+        <div class="caption" id="c8"><span class="w" id="c8-w0">anotações,</span> <span class="w" id="c8-w1">né?</span> <span class="w" id="c8-w2">E</span> <span class="w" id="c8-w3">é</span> <span class="w" id="c8-w4">muito</span> <span class="w" id="c8-w5">interessante</span> <span class="w" id="c8-w6">eu</span> <span class="w" id="c8-w7">estar</span> <span class="w" id="c8-w8">com</span> <span class="w" id="c8-w9">o</span> <span class="w" id="c8-w10">meu</span> <span class="w" id="c8-w11">computador</span></div>
+        <div class="caption" id="c9"><span class="w" id="c9-w0">passando</span> <span class="w" id="c9-w1">alguma</span> <span class="w" id="c9-w2">coisa,</span> <span class="w" id="c9-w3">eles</span> <span class="w" id="c9-w4">ampliam</span> <span class="w" id="c9-w5">a</span> <span class="w" id="c9-w6">imagem</span> <span class="w" id="c9-w7">e</span> <span class="w" id="c9-w8">dá</span> <span class="w" id="c9-w9">para</span></div>
+        <div class="caption" id="c10"><span class="w" id="c10-w0">escrever,</span> <span class="w" id="c10-w1">colocar</span> <span class="w" id="c10-w2">informação</span> <span class="w" id="c10-w3">com</span> <span class="w" id="c10-w4">esta</span> <span class="w" id="c10-w5">caneta.</span></div>
+        <div class="caption" id="c11"><span class="w" id="c11-w0">Já</span> <span class="w" id="c11-w1">não</span> <span class="w" id="c11-w2">é</span> <span class="w" id="c11-w3">um</span> <span class="w" id="c11-w4">luxo</span> <span class="w" id="c11-w5">ter</span> <span class="w" id="c11-w6">lousas</span> <span class="w" id="c11-w7">digitais</span> <span class="w" id="c11-w8">interativas,</span> <span class="w" id="c11-w9">e</span></div>
+        <div class="caption" id="c12"><span class="w" id="c12-w0">principalmente</span> <span class="w" id="c12-w1">da</span> <span class="w" id="c12-w2">qualidade</span> <span class="w" id="c12-w3">da</span> <span class="w" id="c12-w4">OneScreen.</span></div>
+        <div class="caption" id="c13"><span class="w" id="c13-w0">Já</span> <span class="w" id="c13-w1">não</span> <span class="w" id="c13-w2">é</span> <span class="w" id="c13-w3">um</span> <span class="w" id="c13-w4">luxo,</span> <span class="w" id="c13-w5">é</span> <span class="w" id="c13-w6">uma</span> <span class="w" id="c13-w7">necessidade.</span></div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 52 }, { y: 0, duration: 0.15, ease: "power4.out", immediateRender: false }, t);
+        }
+        function seamExit(tl, sel, cut, axis, dir) {
+          var t0 = cut - 0.285;
+          var to = { duration: 0.34, ease: "power4.in" };
+          to[axis] = 460 * dir;
+          tl.to(sel, to, t0);
+          tl.to(sel, { opacity: 0, duration: 0.1, ease: "none" }, t0 + 0.165);
+        }
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+
+        // c1 — Número um, OneScreen, porque nós validamos a parte técnica,
+        seamEntry(tl, "#c1", "x", -1);
+        tl.set("#c1-w0", { opacity: 1 }, 0);
+        word(tl, "#c1-w1", 0.4);
+        word(tl, "#c1-w2", 0.96);
+        word(tl, "#c1-w3", 1.48);
+        word(tl, "#c1-w4", 2.04);
+        word(tl, "#c1-w5", 2.56);
+        word(tl, "#c1-w6", 3.08);
+        word(tl, "#c1-w7", 3.64);
+        word(tl, "#c1-w8", 4.16);
+        tl.to("#c1", { opacity: 0, duration: 0.14, ease: "none" }, 4.18);
+
+        // c2 — ou seja, a funcionalidade, a conectividade, a segurança, os certificados,
+        tl.set("#c2", { opacity: 1 }, 4.340000000000001);
+        word(tl, "#c2-w0", 4.36);
+        word(tl, "#c2-w1", 4.72);
+        word(tl, "#c2-w2", 5.08);
+        word(tl, "#c2-w3", 5.44);
+        word(tl, "#c2-w4", 5.8);
+        word(tl, "#c2-w5", 6.16);
+        word(tl, "#c2-w6", 6.52);
+        word(tl, "#c2-w7", 6.88);
+        word(tl, "#c2-w8", 7.24);
+        word(tl, "#c2-w9", 7.6);
+        tl.to("#c2", { opacity: 0, duration: 0.14, ease: "none" }, 8.34);
+
+        // c3 — mas trouxemos os professores, como eu falei.
+        tl.set("#c3", { opacity: 1 }, 8.5);
+        word(tl, "#c3-w0", 8.52);
+        word(tl, "#c3-w1", 8.76);
+        word(tl, "#c3-w2", 9.04);
+        word(tl, "#c3-w3", 9.32);
+        word(tl, "#c3-w4", 9.56);
+        word(tl, "#c3-w5", 9.8);
+        word(tl, "#c3-w6", 10.08);
+        tl.to("#c3", { opacity: 0, duration: 0.14, ease: "none" }, 10.06);
+
+        // c4 — Fizemos o mesmo processo não só com a OneScreen, mas com outras marcas.
+        tl.set("#c4", { opacity: 1 }, 10.22);
+        word(tl, "#c4-w0", 10.24);
+        word(tl, "#c4-w1", 10.48);
+        word(tl, "#c4-w2", 10.76);
+        word(tl, "#c4-w3", 11);
+        word(tl, "#c4-w4", 11.24);
+        word(tl, "#c4-w5", 11.48);
+        word(tl, "#c4-w6", 11.72);
+        word(tl, "#c4-w7", 12);
+        word(tl, "#c4-w8", 12.24);
+        word(tl, "#c4-w9", 12.48);
+        word(tl, "#c4-w10", 12.76);
+        word(tl, "#c4-w11", 13);
+        word(tl, "#c4-w12", 13.24);
+        tl.to("#c4", { opacity: 0, duration: 0.14, ease: "none" }, 13.58);
+
+        // c5 — O resultado foi que operar esta tela é mais fácil
+        tl.set("#c5", { opacity: 1 }, 13.74);
+        word(tl, "#c5-w0", 13.76);
+        word(tl, "#c5-w1", 14.16);
+        word(tl, "#c5-w2", 14.6);
+        word(tl, "#c5-w3", 15);
+        word(tl, "#c5-w4", 15.4);
+        word(tl, "#c5-w5", 15.84);
+        word(tl, "#c5-w6", 16.24);
+        word(tl, "#c5-w7", 16.64);
+        word(tl, "#c5-w8", 17.08);
+        word(tl, "#c5-w9", 17.48);
+        tl.to("#c5", { opacity: 0, duration: 0.14, ease: "none" }, 17.54);
+
+        // c6 — que as outras, é mais intuitiva, como diziam.
+        tl.set("#c6", { opacity: 1 }, 17.7);
+        word(tl, "#c6-w0", 17.72);
+        word(tl, "#c6-w1", 17.96);
+        word(tl, "#c6-w2", 18.2);
+        word(tl, "#c6-w3", 18.44);
+        word(tl, "#c6-w4", 18.64);
+        word(tl, "#c6-w5", 18.88);
+        word(tl, "#c6-w6", 19.12);
+        word(tl, "#c6-w7", 19.36);
+        tl.to("#c6", { opacity: 0, duration: 0.14, ease: "none" }, 19.62);
+
+        // c7 — E além disso, em algumas apresentações a gente consegue fazer
+        tl.set("#c7", { opacity: 1 }, 19.78);
+        word(tl, "#c7-w0", 19.8);
+        word(tl, "#c7-w1", 20.24);
+        word(tl, "#c7-w2", 20.64);
+        word(tl, "#c7-w3", 21.08);
+        word(tl, "#c7-w4", 21.52);
+        word(tl, "#c7-w5", 21.92);
+        word(tl, "#c7-w6", 22.36);
+        word(tl, "#c7-w7", 22.8);
+        word(tl, "#c7-w8", 23.2);
+        word(tl, "#c7-w9", 23.64);
+        tl.to("#c7", { opacity: 0, duration: 0.14, ease: "none" }, 24.1);
+
+        // c8 — anotações, né? E é muito interessante eu estar com o meu computador
+        tl.set("#c8", { opacity: 1 }, 24.26);
+        word(tl, "#c8-w0", 24.28);
+        word(tl, "#c8-w1", 24.64);
+        word(tl, "#c8-w2", 25);
+        word(tl, "#c8-w3", 25.36);
+        word(tl, "#c8-w4", 25.72);
+        word(tl, "#c8-w5", 26.08);
+        word(tl, "#c8-w6", 26.48);
+        word(tl, "#c8-w7", 26.84);
+        word(tl, "#c8-w8", 27.2);
+        word(tl, "#c8-w9", 27.56);
+        word(tl, "#c8-w10", 27.92);
+        word(tl, "#c8-w11", 28.28);
+        tl.to("#c8", { opacity: 0, duration: 0.14, ease: "none" }, 28.82);
+
+        // c9 — passando alguma coisa, eles ampliam a imagem e dá para
+        tl.set("#c9", { opacity: 1 }, 28.98);
+        word(tl, "#c9-w0", 29);
+        word(tl, "#c9-w1", 29.44);
+        word(tl, "#c9-w2", 29.88);
+        word(tl, "#c9-w3", 30.28);
+        word(tl, "#c9-w4", 30.72);
+        word(tl, "#c9-w5", 31.16);
+        word(tl, "#c9-w6", 31.6);
+        word(tl, "#c9-w7", 32);
+        word(tl, "#c9-w8", 32.44);
+        word(tl, "#c9-w9", 32.88);
+        tl.to("#c9", { opacity: 0, duration: 0.14, ease: "none" }, 32.94);
+
+        // c10 — escrever, colocar informação com esta caneta.
+        tl.set("#c10", { opacity: 1 }, 33.099999999999994);
+        word(tl, "#c10-w0", 33.12);
+        word(tl, "#c10-w1", 33.72);
+        word(tl, "#c10-w2", 34.32);
+        word(tl, "#c10-w3", 34.92);
+        word(tl, "#c10-w4", 35.52);
+        word(tl, "#c10-w5", 36.12);
+        tl.to("#c10", { opacity: 0, duration: 0.14, ease: "none" }, 36.26);
+
+        // c11 — Já não é um luxo ter lousas digitais interativas, e
+        tl.set("#c11", { opacity: 1 }, 36.419999999999995);
+        word(tl, "#c11-w0", 36.44);
+        word(tl, "#c11-w1", 36.88);
+        word(tl, "#c11-w2", 37.36);
+        word(tl, "#c11-w3", 37.8);
+        word(tl, "#c11-w4", 38.24);
+        word(tl, "#c11-w5", 38.72);
+        word(tl, "#c11-w6", 39.16);
+        word(tl, "#c11-w7", 39.6);
+        word(tl, "#c11-w8", 40.08);
+        word(tl, "#c11-w9", 40.52);
+        tl.to("#c11", { opacity: 0, duration: 0.14, ease: "none" }, 40.5);
+
+        // c12 — principalmente da qualidade da OneScreen.
+        tl.set("#c12", { opacity: 1 }, 40.66);
+        word(tl, "#c12-w0", 40.68);
+        word(tl, "#c12-w1", 40.92);
+        word(tl, "#c12-w2", 41.16);
+        word(tl, "#c12-w3", 41.44);
+        word(tl, "#c12-w4", 41.68);
+        tl.to("#c12", { opacity: 0, duration: 0.14, ease: "none" }, 42.06);
+
+        // c13 — Já não é um luxo, é uma necessidade.
+        tl.set("#c13", { opacity: 1 }, 42.22);
+        word(tl, "#c13-w0", 42.24);
+        word(tl, "#c13-w1", 42.36);
+        word(tl, "#c13-w2", 42.52);
+        word(tl, "#c13-w3", 42.64);
+        word(tl, "#c13-w4", 42.76);
+        word(tl, "#c13-w5", 42.88);
+        word(tl, "#c13-w6", 43.04);
+        word(tl, "#c13-w7", 43.16);
+        seamExit(tl, "#c13", 43.76, "x", -1);
+
+        window.__timelines["02-testimonios"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

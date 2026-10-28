@@ -1,0 +1,31 @@
+   0.00-   2.21 (2.21s) | A:C0001.MP4 100% | G:Graphics0001.png | G:Graphics0008.png 80%         | 
+   2.21-   2.92 (0.71s) | A:C0001.MP4 171% | G:Graphics0002.png | G:Graphics0008.png 80%         | 
+   2.92-   4.25 (1.33s) | A:C0001.MP4 100% | G:Graphics0008.png 80%                              | D3" con nuestras ( B D3" pantallas ( B D3" interactivas. ( B
+   4.25-   4.96 (0.71s) | A:C0001.MP4 171% | G:Graphics0008.png 80%                              | D3" interactivas. ( B D3" OneScreen, ( B
+   4.96-   5.96 (1.00s) | A:C0001.MP4 100% | B:C0010.MP4 | G:Graphics0008.png 80%                | D3" Eso ya ( B D3" es posible. ( B
+   6.01-   6.92 (0.91s) | A:C0001.MP4 171% | B:C0009.MP4 | G:Graphics0008.png 80%                | D3" Lessn es una ( B
+   6.92-   7.88 (0.96s) | A:C0001.MP4 100% | G:Graphics0008.png 80%                              | D3" ( B D3" exclusiva ( B
+   7.88-   8.88 (1.00s) | A:C0001.MP4 171% | G:Graphics0008.png 80%                              | D3" exclusiva ( B D3" crea ( B D3" presentaciones ( B
+   8.88-   9.01 (0.13s) | A:C0001.MP4 171% | B:C0010.MP4 | G:Graphics0003.png | G:Graphics0008.p | D3" presentaciones ( B
+   9.01-   9.63 (0.62s) | A:C0001.MP4 100% | B:C0010.MP4 | G:Graphics0003.png | G:Graphics0008.p | D3" exclusivas ( B
+   9.63-  10.43 (0.80s) | A:C0001.MP4 171% | B:C0010.MP4 | G:Graphics0003.png | G:Graphics0008.p | D3" en segundos. ( B D3" ( B
+  10.43-  11.85 (1.42s) | A:C0001.MP4 100% | G:Graphics0008.png 80%                              | D3" actividades, ( B D3" imágenes ( B
+  11.85-  13.10 (1.25s) | A:C0001.MP4 171% | G:Graphics0008.png 80%                              | D3" y notas ( B D3" listas ( B D3" para usar. ( B
+  13.10-  13.22 (0.12s) | A:C0001.MP4 171% | B:C0010.MP4 | G:Graphics0004.png | G:Graphics0008.p | D3" para usar. ( B
+  13.22-  14.18 (0.96s) | A:C0001.MP4 100% | B:C0010.MP4 | G:Graphics0004.png | G:Graphics0008.p | 
+  14.18-  14.64 (0.46s) | A:C0001.MP4 171% | B:C0010.MP4 | G:Graphics0004.png | G:Graphics0008.p | 
+  14.64-  15.27 (0.63s) | A:C0001.MP4 171% | B:C0010.MP4 | G:Graphics0004.png | G:Graphics0008.p | 
+  15.27-  15.60 (0.33s) | A:C0001.MP4 100% | B:C0010.MP4 | G:Graphics0005.png | G:Graphics0008.p | 
+  15.60-  16.18 (0.58s) | A:C0001.MP4 100% | B:C0010.MP4 | G:Graphics0005.png | G:Graphics0008.p | 
+  16.18-  17.56 (1.38s) | A:C0001.MP4 171% | B:C0010.MP4 | G:Graphics0005.png | G:Graphics0008.p | D3" lista para ( B D3" compartir ( B D3" ( B
+  17.56-  19.27 (1.71s) | A:C0001.MP4 100% | G:Graphics0008.png 80%                              | D3" PowerPoint, ( B D3" PDF o ( B D3" Google ( B D3" Slides. ( B
+  19.27-  20.19 (0.92s) | A:C0001.MP4 171% | G:Graphics0006.png | G:Graphics0008.png 80%         | 
+  20.19-  20.52 (0.33s) | A:C0001.MP4 100% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  20.52-  20.85 (0.33s) | A:C0001.MP4 100% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  20.85-  21.19 (0.34s) | A:C0001.MP4 100% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  21.19-  21.31 (0.12s) | A:C0001.MP4 100% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  21.31-  21.52 (0.21s) | A:C0001.MP4 171% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  21.52-  21.86 (0.34s) | A:C0001.MP4 171% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  21.86-  22.19 (0.33s) | A:C0001.MP4 171% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  22.19-  22.52 (0.33s) | A:C0001.MP4 171% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  22.56-  27.15 (4.59s) | A:Intro 16-9_S 100%                                                    | 

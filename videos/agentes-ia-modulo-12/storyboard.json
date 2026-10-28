@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 188.88,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 188.88
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 12 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 4.44,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 12 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — MUY CONCRETO",
+      "startSec": 4.44,
+      "endSec": 12.82,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MUY CONCRETO",
+        "title": "Paso a paso: construye tu agente en Claude"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — SI YA DEFINISTE TODO",
+      "startSec": 12.82,
+      "endSec": 23.38,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI YA DEFINISTE TODO",
+        "title": "Rol, tono, límites y conocimiento",
+        "detail": "Ahora solo falta ponerlo en un solo lugar"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "roadmap — PASO 1",
+      "startSec": 23.38,
+      "endSec": 32.4,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 1",
+        "title": "Entra a Claude y crea un Proyecto",
+        "detail": "El espacio donde vive tu agente"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — Ahí guarda instrucciones, documentos y conversaciones",
+      "startSec": 32.4,
+      "endSec": 42.75,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Ahí guarda instrucciones, documentos y conversaciones",
+        "detail": "Organizados en un solo lugar, no perdidos entre chats sueltos"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "roadmap — PASO 2",
+      "startSec": 42.75,
+      "endSec": 53,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 2",
+        "title": "Ponle un nombre que describa su función",
+        "detail": "No algo genérico"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "quote — “Asistente de comunicación con padres”",
+      "startSec": 53,
+      "endSec": 64.16,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "“Asistente de comunicación con padres”",
+        "detail": "Ese nombre te ayuda a ti mismo a mantener claro para qué sirve"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "roadmap — PASO 3",
+      "startSec": 64.16,
+      "endSec": 72.48,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 3",
+        "title": "Instrucciones personalizadas del proyecto",
+        "detail": "Ahí pegas la instrucción que ya construiste"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — No la reescribas desde cero",
+      "startSec": 72.48,
+      "endSec": 84.21,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No la reescribas desde cero",
+        "detail": "Usa la misma que ya definiste y probaste en módulos anteriores"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — Se aplica a cada conversación nueva",
+      "startSec": 84.21,
+      "endSec": 92.32,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Se aplica a cada conversación nueva",
+        "detail": "No tienes que repetirla cada vez"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "roadmap — PASO 4",
+      "startSec": 92.32,
+      "endSec": 103.44,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 4",
+        "title": "Sube tu documento a la sección de conocimiento",
+        "detail": "El manual, el calendario, el plan curricular — lo que corresponda"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — Tu agente lo va a consultar automáticamente",
+      "startSec": 103.44,
+      "endSec": 112.4,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Tu agente lo va a consultar automáticamente",
+        "detail": "Cada vez que responda, sin que tengas que compartirlo de nuevo"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "list — HERRAMIENTAS (OPCIONAL)",
+      "startSec": 112.4,
+      "endSec": 129.52,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "HERRAMIENTAS (OPCIONAL)",
+        "items": [
+          "¿Necesita información actualizada? Actívala",
+          "¿No la necesita? Déjala apagada"
+        ]
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "roadmap — PASO 5",
+      "startSec": 129.52,
+      "endSec": 141.44,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 5",
+        "title": "Abre una conversación nueva y ponlo a prueba",
+        "detail": "Mismas preguntas que antes — compara"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — SI ALGO NO SALE COMO ESPERABAS",
+      "startSec": 141.44,
+      "endSec": 155.6,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI ALGO NO SALE COMO ESPERABAS",
+        "title": "No borres nada",
+        "detail": "Vuelve a las instrucciones personalizadas y ajústalas"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "quote — Pruébalo con preguntas difíciles a propósito.",
+      "startSec": 155.6,
+      "endSec": 167.6,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Pruébalo con preguntas difíciles a propósito.",
+        "detail": "Algo que sepas que no debería responder directamente"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — Confirma que los límites realmente funcionan",
+      "startSec": 167.6,
+      "endSec": 177.68,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Confirma que los límites realmente funcionan",
+        "detail": "No solo que quedaron bien escritos en el papel"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "titlecard — PRÓXIMO MÓDULO",
+      "startSec": 177.68,
+      "endSec": 185.5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "El mismo ejercicio, dentro de ChatGPT",
+        "detail": "Para tener ambas rutas cubiertas"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 185.5,
+      "endSec": 188.88,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

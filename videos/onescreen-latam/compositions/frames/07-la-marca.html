@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- head is metadata for the source file only; the runtime ignores it -->
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          font-weight: 400 700;
+          src: url(assets/fonts/rubik-variable.woff2) format("woff2");
+        }
+
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 1920px;
+          height: 1080px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          font-family: "Rubik", sans-serif;
+        }
+
+        /* Full-bleed ground lives on its own class="clip" layer, never on #root. */
+        .f07lm-ground {
+          position: absolute;
+          inset: 0;
+          background: #fafafa;
+          z-index: 0;
+        }
+
+        /* ---- Atmosphere: concentric cobalt closing-rings ---- */
+        .f07lm-atmosphere-stage {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding-bottom: 17cqh;
+          z-index: 1;
+          pointer-events: none;
+        }
+        .f07lm-rings {
+          position: relative;
+          width: 640px;
+          height: 640px;
+          display: grid;
+          place-items: center;
+          opacity: 0;
+          transform: scale(0.85);
+          transform-origin: 50% 50%;
+          will-change: transform, opacity;
+        }
+        .f07lm-ring {
+          grid-column: 1;
+          grid-row: 1;
+          border-radius: 50%;
+          border: 2px solid rgba(57, 118, 255, 0.18);
+        }
+        .f07lm-ring-1 {
+          width: 160px;
+          height: 160px;
+        }
+        .f07lm-ring-2 {
+          width: 320px;
+          height: 320px;
+        }
+        .f07lm-ring-3 {
+          width: 480px;
+          height: 480px;
+        }
+        .f07lm-ring-4 {
+          width: 640px;
+          height: 640px;
+        }
+
+        /* ---- Lockup column: pill + caption + tagline ---- */
+        .f07lm-column-stage {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding-bottom: 17cqh;
+          z-index: 2;
+        }
+        .f07lm-column {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 1200px;
+        }
+
+        .f07lm-pill-wrap {
+          position: relative;
+          width: 520px;
+          height: 170px;
+          display: grid;
+          place-items: center;
+        }
+        .f07lm-pill-logo {
+          opacity: 0;
+          will-change: transform, opacity;
+        }
+        /* wordmark shape recolored solid cobalt via mask (source asset is a
+           white-on-transparent PNG built for dark surfaces) — no background chip. */
+        .f07lm-mark {
+          display: block;
+          width: 460px;
+          height: 104px;
+          background-color: #3976ff;
+          -webkit-mask-image: url(assets/onescreen-logo.png);
+          -webkit-mask-repeat: no-repeat;
+          -webkit-mask-size: contain;
+          -webkit-mask-position: center;
+          mask-image: url(assets/onescreen-logo.png);
+          mask-repeat: no-repeat;
+          mask-size: contain;
+          mask-position: center;
+        }
+
+        .f07lm-caption {
+          margin-top: 26px;
+          font-weight: 600;
+          font-size: 1.6cqw;
+          letter-spacing: 0.04em;
+          color: #3976ff;
+          text-align: center;
+          opacity: 0;
+        }
+
+        .f07lm-tagline-stack {
+          position: relative;
+          width: 100%;
+          height: 96px;
+          margin-top: 22px;
+        }
+        .f07lm-tagline-line {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          white-space: nowrap;
+          font-weight: 700;
+          font-size: 4.2cqw;
+          line-height: 1.08;
+          letter-spacing: -0.02em;
+          color: #293052;
+        }
+        .f07lm-tagline-line.f07lm-tagline-b {
+          opacity: 0;
+        }
+        .f07lm-word {
+          display: inline-block;
+          opacity: 0;
+        }
+        .f07lm-word + .f07lm-word {
+          margin-left: 0.28em;
+        }
+      </style>
+
+      <div data-hf-id="hf-a9d0" id="root" data-composition-id="07-la-marca" data-width="1920" data-height="1080" data-duration="4.269">
+        <div data-hf-id="hf-94o2" id="f07lm-ground" class="f07lm-ground clip" data-start="0" data-duration="4.269" data-track-index="1"></div>
+
+        <div data-hf-id="hf-sixw" id="f07lm-atmosphere" class="clip" data-start="0" data-duration="4.269" data-track-index="2">
+          <div data-hf-id="hf-kx2s" class="f07lm-atmosphere-stage">
+            <div data-hf-id="hf-qbtu" class="f07lm-rings" id="f07lm-rings">
+              <div data-hf-id="hf-o934" class="f07lm-ring f07lm-ring-1"></div>
+              <div data-hf-id="hf-z4kr" class="f07lm-ring f07lm-ring-2"></div>
+              <div data-hf-id="hf-v6gq" class="f07lm-ring f07lm-ring-3"></div>
+              <div data-hf-id="hf-cer1" class="f07lm-ring f07lm-ring-4"></div>
+            </div>
+          </div>
+        </div>
+
+        <div data-hf-id="hf-87pv" id="f07lm-lockup" class="clip" data-start="0" data-duration="4.269" data-track-index="3">
+          <div data-hf-id="hf-q9yi" class="f07lm-column-stage">
+            <div data-hf-id="hf-d6ef" class="f07lm-column">
+              <div data-hf-id="hf-9s0k" class="f07lm-pill-wrap" id="f07lm-pill-wrap">
+                <div data-hf-id="hf-bejq" class="f07lm-pill-logo" id="f07lm-pill-logo">
+                  <div data-hf-id="hf-09kh" class="f07lm-mark"></div>
+                </div>
+              </div>
+
+              <div data-hf-id="hf-wkfe" class="f07lm-caption" id="f07lm-caption">OneScreen.</div>
+
+              <div data-hf-id="hf-c71e" class="f07lm-tagline-stack">
+                <div data-hf-id="hf-d3sk" class="f07lm-tagline-line f07lm-tagline-a" id="f07lm-tagline-a">
+                  <span data-hf-id="hf-uckh"><span data-hf-id="hf-jpjz" class="f07lm-word">Transforma</span><span data-hf-id="hf-0du9" class="f07lm-word">el</span><span data-hf-id="hf-3h4y" class="f07lm-word">espacio.</span></span>
+                </div>
+                <div data-hf-id="hf-hwdf" class="f07lm-tagline-line f07lm-tagline-b" id="f07lm-tagline-b">
+                  Transforma el futuro.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        (function () {
+          window.__timelines = window.__timelines || {};
+          var tl = gsap.timeline({ paused: true });
+
+          // ---- Scene 1 (0.0-1.2s): rings bloom, pill draws + fills, logo
+          // lands, "OneScreen." caption flashes in. ----
+
+          // Rings: bloom-and-hold (no breathe) form of ambient-glow-bloom —
+          // short scene, storyboard calls for the rings to hold at an
+          // unchanging opacity once lit, so no idle breathe phase.
+          tl.fromTo(
+            "#f07lm-rings",
+            { opacity: 0, scale: 0.85 },
+            { opacity: 1, scale: 1, duration: 0.9, ease: "power2.out" },
+            0,
+          );
+
+          // Cobalt wordmark fades/settles into place as the rings finish
+          // blooming — long-tail power3, no overshoot (Frame 3 owns the one
+          // sanctioned spring-pop). Adapt: the pill draw-on move became a
+          // straight fade/scale settle on the mask-recolored mark itself,
+          // since the wordmark no longer sits on a solid-fill chip.
+          tl.fromTo(
+            "#f07lm-pill-logo",
+            { opacity: 0, scale: 0.92 },
+            { opacity: 1, scale: 1, duration: 0.45, ease: "power3.out" },
+            0.35,
+          );
+
+          // "OneScreen." caption flash-in (discrete-text-sequence hard-cut
+          // feel) as the lockup finishes assembling, just ahead of Scene 2.
+          tl.fromTo(
+            "#f07lm-caption",
+            { opacity: 0, y: 6 },
+            { opacity: 1, y: 0, duration: 0.18, ease: "power2.out" },
+            1.0,
+          );
+
+          // ---- Scene 2 (1.2-3.669s): tagline per-word reveal, then a hard
+          // cut to the second half, held to the end. ----
+          var taglineWords = document.querySelectorAll("#f07lm-tagline-a .f07lm-word");
+          var WORD_START = 1.25;
+          var WORD_STEP = 0.15;
+          var WORD_DUR = 0.32;
+          taglineWords.forEach(function (el, i) {
+            tl.fromTo(
+              el,
+              { opacity: 0, y: 14 },
+              { opacity: 1, y: 0, duration: WORD_DUR, ease: "power3.out" },
+              WORD_START + i * WORD_STEP,
+            );
+          });
+
+          // Hard cut (discrete-text-sequence): instant swap, no fade/slide.
+          var CUT_AT = 2.4;
+          tl.set("#f07lm-tagline-a", { opacity: 0 }, CUT_AT);
+          tl.set("#f07lm-tagline-b", { opacity: 1 }, CUT_AT);
+
+          // Holds to TOTAL — no exit tween (not the final frame; the
+          // crossfade transition_in into Frame 8 is the exit).
+
+          window.__timelines["07-la-marca"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

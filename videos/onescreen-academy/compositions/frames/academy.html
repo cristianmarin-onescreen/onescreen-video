@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>academy</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        /* Nevis es una sola tipografía Bold. Se declara cubriendo 100—900 a propósito: así
+           el navegador NUNCA sintetiza negrita encima de una que ya lo es, que engordaría
+           los trazos y rompería la coincidencia con el logotipo. */
+        @font-face {
+          font-family: "Nevis";
+          src: url("assets/fonts/Nevis.ttf") format("truetype");
+          font-weight: 100 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          font-synthesis: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .beat {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 7cqw;
+          opacity: 0;
+        }
+        .beat > .inner { display: block; max-width: 86cqw; text-align: center; margin-top: -1.4cqh; }
+        .ln { display: block; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #ffffff; }
+
+        /* La marca. Nevis, tracking medido contra el logotipo. Nunca en versalitas: el
+           wordmark es caja mixta y forzarlo a caja alta deja de ser la marca. */
+        .brand {
+          font-family: "Nevis", "Rubik", sans-serif;
+          font-weight: 400;
+          letter-spacing: -0.050em;
+          text-transform: none !important;
+        }
+
+        .s-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.24; letter-spacing: -0.008em; }
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.12; letter-spacing: -0.020em; }
+        .s-display  { font-size: 7.0cqw;  font-weight: 600; line-height: 1.06; letter-spacing: -0.028em; }
+        .s-mega     { font-size: 10.0cqw; font-weight: 800; line-height: 1.00; letter-spacing: -0.035em; }
+        .s-colossal { font-size: 12.5cqw; font-weight: 800; line-height: 0.98; letter-spacing: -0.040em; }
+
+        /* Peso regular dentro de un escalón grande. Solo toca font-weight y tracking, nunca
+           font-size: el escalón sigue mandando el tamaño. El tracking se afloja porque el
+           negativo de los escalones grandes está calculado para peso 800, y en regular
+           ese mismo valor junta demasiado las letras. */
+        .ln.w-reg { font-weight: 400; letter-spacing: -0.018em; }
+
+        .caps { text-transform: uppercase; }
+        .caps.s-sub      { letter-spacing: 0.16em; font-weight: 600; }
+        .caps.s-display  { letter-spacing: 0.000em; }
+        .caps.s-mega     { letter-spacing: -0.012em; }
+        .caps.s-colossal { letter-spacing: -0.018em; }
+
+        /* Nevis tiene la caja alta más corta que Rubik al mismo cuerpo: se compensa un 12%
+           para que "OneScreen" pese lo mismo que una línea Rubik del mismo escalón.
+           El valor va ABSOLUTO en cqw, no en em. Una regla .ln.s-mega.brand con font-size en
+           em tiene tres clases de especificidad y gana a .s-mega, así que en vez de multiplicar
+           el escalón lo sustituía por 1.12em del tamaño heredado — 18 px en un cuadro 4K. */
+        .ln.s-sub.brand      { font-size: 3.36cqw; }
+        .ln.s-phrase.brand   { font-size: 5.60cqw; }
+        .ln.s-display.brand  { font-size: 7.84cqw; }
+        .ln.s-mega.brand     { font-size: 11.20cqw; }
+        .ln.s-colossal.brand { font-size: 14.00cqw; }
+        /* Marca EN LÍNEA dentro de una línea de otra tipografía: aquí el padre sí lleva el
+           escalón en cqw, así que el em multiplica y es correcto. */
+        .w.brand { font-size: 1.12em; }
+
+        .ln + .ln { margin-top: 0.5cqh; }
+        .ln.s-sub + .ln.s-mega,
+        .ln.s-sub + .ln.s-colossal,
+        .ln.s-sub + .ln.s-display { margin-top: 1.1cqh; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="academy"
+        data-width="3840"
+        data-height="2160"
+        data-duration="31.52"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat" id="f01">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f01-w0_0">Você</span> <span class="w" id="f01-w0_1">deve</span> <span class="w" id="f01-w0_2">estar</span> <span class="w" id="f01-w0_3">se</span> <span class="w" id="f01-w0_4">perguntando:</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f02">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f02-w0_0">será</span> <span class="w" id="f02-w0_1">que</span> <span class="w" id="f02-w0_2">os</span> <span class="w" id="f02-w0_3">meus</span> <span class="w" id="f02-w0_4">professores</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f02-w1_0">vão</span> <span class="w" id="f02-w1_1">usar</span> <span class="w" id="f02-w1_2">isso</span> <span class="w" id="f02-w1_3">mesmo?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f03">
+          <span class="inner">
+            <span class="ln s-colossal caps"><span class="w" id="f03-w0_0">Sim,</span></span>
+            <span class="ln s-sub"><span class="w" id="f03-w1_0">e</span> <span class="w" id="f03-w1_1">temos</span> <span class="w" id="f03-w1_2">uma</span> <span class="w" id="f03-w1_3">ferramenta</span> <span class="w" id="f03-w1_4">para</span> <span class="w" id="f03-w1_5">isso.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f04">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f04-w0_0">Um</span> <span class="w" id="f04-w0_1">investimento</span> <span class="w" id="f04-w0_2">em</span> <span class="w" id="f04-w0_3">tecnologia</span> <span class="w" id="f04-w0_4">só</span> <span class="w" id="f04-w0_5">vale</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f04-w1_0">quando</span> <span class="w" id="f04-w1_1">as</span> <span class="w" id="f04-w1_2">pessoas</span> <span class="w" id="f04-w1_3">sabem</span> <span class="w" id="f04-w1_4">usar.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f05">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f05-w0_0">Por</span> <span class="w" id="f05-w0_1">isso</span> <span class="w" id="f05-w0_2">criamos</span></span>
+            <span class="ln s-mega brand"><span class="w" id="f05-w1_0">OneScreen</span></span>
+            <span class="ln s-mega w-reg"><span class="w" id="f05-w2_0">Academy.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f06">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f06-w0_0">Uma</span> <span class="w" id="f06-w0_1">plataforma</span> <span class="w" id="f06-w0_2">online</span> <span class="w" id="f06-w0_3">onde</span> <span class="w" id="f06-w0_4">toda</span> <span class="w" id="f06-w0_5">a</span> <span class="w" id="f06-w0_6">sua</span> <span class="w" id="f06-w0_7">equipe</span> <span class="w" id="f06-w0_8">pode</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f06-w1_0">se</span> <span class="w" id="f06-w1_1">certificar</span></span>
+            <span class="ln s-sub"><span class="w" id="f06-w2_0">no</span> <span class="w" id="f06-w2_1">ecossistema</span> <span class="w brand" id="f06-w2_2">OneScreen.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f07">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f07-w0_0">Você</span> <span class="w" id="f07-w0_1">encontra</span> <span class="w" id="f07-w0_2">cursos</span> <span class="w" id="f07-w0_3">para</span> <span class="w" id="f07-w0_4">aprender</span> <span class="w" id="f07-w0_5">a</span> <span class="w" id="f07-w0_6">usar</span> <span class="w" id="f07-w0_7">a</span> <span class="w" id="f07-w0_8">sua</span> <span class="w" id="f07-w0_9">tela,</span></span>
+            <span class="ln s-display"><span class="w" id="f07-w1_0">e</span> <span class="w" id="f07-w1_1">os</span> <span class="w" id="f07-w1_2">softwares</span> <span class="w" id="f07-w1_3">dela.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f08">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f08-w0_0">E</span> <span class="w" id="f08-w0_1">a</span> <span class="w" id="f08-w0_2">sua</span> <span class="w" id="f08-w0_3">equipe</span> <span class="w" id="f08-w0_4">ainda</span> <span class="w" id="f08-w0_5">tem</span> <span class="w" id="f08-w0_6">acesso</span> <span class="w" id="f08-w0_7">a</span> <span class="w" id="f08-w0_8">cursos</span> <span class="w" id="f08-w0_9">de</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f08-w1_0">inteligência</span> <span class="w" id="f08-w1_1">artificial.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f09">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f09-w0_0">Nós</span> <span class="w" id="f09-w0_1">certificamos</span> <span class="w" id="f09-w0_2">a</span> <span class="w" id="f09-w0_3">sua</span> <span class="w" id="f09-w0_4">equipe.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f10">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f10-w0_0">Quer</span> <span class="w" id="f10-w0_1">ver</span> <span class="w" id="f10-w0_2">como?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f11">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f11-w0_0">É</span> <span class="w" id="f11-w0_1">só</span> <span class="w" id="f11-w0_2">tocar</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f11-w1_0">nesta</span> <span class="w" id="f11-w1_1">tela.</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 62 }, { y: 0, duration: 0.17, ease: "power4.out", immediateRender: false }, t);
+        }
+
+        // f01 — Você deve estar se perguntando:
+        tl.set("#f01", { opacity: 1 }, -0.02);
+        word(tl, "#f01-w0_0", 0);
+        word(tl, "#f01-w0_1", 0.24);
+        word(tl, "#f01-w0_2", 0.52);
+        word(tl, "#f01-w0_3", 0.8);
+        word(tl, "#f01-w0_4", 1.04);
+        tl.to("#f01", { y: -170, duration: 0.24, ease: "power4.in" }, 1.62);
+        tl.to("#f01", { opacity: 0, duration: 0.12, ease: "none" }, 1.74);
+
+        // f02 — será que os meus professores / vão usar isso mesmo?
+        tl.set("#f02", { opacity: 1 }, 1.9);
+        word(tl, "#f02-w0_0", 1.92);
+        word(tl, "#f02-w0_1", 2.32);
+        word(tl, "#f02-w0_2", 2.72);
+        word(tl, "#f02-w0_3", 3.12);
+        word(tl, "#f02-w0_4", 3.52);
+        word(tl, "#f02-w1_0", 3.72);
+        word(tl, "#f02-w1_1", 3.8);
+        word(tl, "#f02-w1_2", 3.84);
+        word(tl, "#f02-w1_3", 3.92);
+        tl.to("#f02", { y: -170, duration: 0.24, ease: "power4.in" }, 4.42);
+        tl.to("#f02", { opacity: 0, duration: 0.12, ease: "none" }, 4.54);
+
+        // f03 — Sim, / e temos uma ferramenta para isso.
+        tl.set("#f03", { opacity: 1 }, 4.7);
+        word(tl, "#f03-w0_0", 4.72);
+        word(tl, "#f03-w1_0", 5.12);
+        word(tl, "#f03-w1_1", 5.44);
+        word(tl, "#f03-w1_2", 5.76);
+        word(tl, "#f03-w1_3", 6.04);
+        word(tl, "#f03-w1_4", 6.36);
+        word(tl, "#f03-w1_5", 6.68);
+        tl.to("#f03", { y: -170, duration: 0.24, ease: "power4.in" }, 6.82);
+        tl.to("#f03", { opacity: 0, duration: 0.12, ease: "none" }, 6.94);
+
+        // f04 — Um investimento em tecnologia só vale / quando as pessoas sabem usar.
+        tl.set("#f04", { opacity: 1 }, 7.1);
+        word(tl, "#f04-w0_0", 7.12);
+        word(tl, "#f04-w0_1", 7.48);
+        word(tl, "#f04-w0_2", 7.88);
+        word(tl, "#f04-w0_3", 8.24);
+        word(tl, "#f04-w0_4", 8.64);
+        word(tl, "#f04-w0_5", 9);
+        word(tl, "#f04-w1_0", 9.44);
+        word(tl, "#f04-w1_1", 9.72);
+        word(tl, "#f04-w1_2", 10);
+        word(tl, "#f04-w1_3", 10.32);
+        word(tl, "#f04-w1_4", 10.6);
+        tl.to("#f04", { y: -170, duration: 0.24, ease: "power4.in" }, 11.1);
+        tl.to("#f04", { opacity: 0, duration: 0.12, ease: "none" }, 11.22);
+
+        // f05 — Por isso criamos / OneScreen / Academy.
+        tl.set("#f05", { opacity: 1 }, 11.38);
+        word(tl, "#f05-w0_0", 11.4);
+        word(tl, "#f05-w0_1", 11.6);
+        word(tl, "#f05-w0_2", 11.76);
+        word(tl, "#f05-w1_0", 12.36);
+        word(tl, "#f05-w2_0", 12.88);
+        tl.to("#f05", { y: -170, duration: 0.24, ease: "power4.in" }, 13.3);
+        tl.to("#f05", { opacity: 0, duration: 0.12, ease: "none" }, 13.42);
+
+        // f06 — Uma plataforma online onde toda a sua equipe pode / se certificar / no ecossistema OneScreen.
+        tl.set("#f06", { opacity: 1 }, 13.58);
+        word(tl, "#f06-w0_0", 13.6);
+        word(tl, "#f06-w0_1", 13.88);
+        word(tl, "#f06-w0_2", 14.16);
+        word(tl, "#f06-w0_3", 14.44);
+        word(tl, "#f06-w0_4", 14.72);
+        word(tl, "#f06-w0_5", 15.04);
+        word(tl, "#f06-w0_6", 15.32);
+        word(tl, "#f06-w0_7", 15.6);
+        word(tl, "#f06-w0_8", 15.88);
+        word(tl, "#f06-w1_0", 16.2);
+        word(tl, "#f06-w1_1", 16.32);
+        word(tl, "#f06-w2_0", 16.96);
+        word(tl, "#f06-w2_1", 17.4);
+        word(tl, "#f06-w2_2", 17.84);
+        tl.to("#f06", { y: -170, duration: 0.24, ease: "power4.in" }, 18.5);
+        tl.to("#f06", { opacity: 0, duration: 0.12, ease: "none" }, 18.62);
+
+        // f07 — Você encontra cursos para aprender a usar a sua tela, / e os softwares dela.
+        tl.set("#f07", { opacity: 1 }, 18.78);
+        word(tl, "#f07-w0_0", 18.8);
+        word(tl, "#f07-w0_1", 19);
+        word(tl, "#f07-w0_2", 19.24);
+        word(tl, "#f07-w0_3", 19.44);
+        word(tl, "#f07-w0_4", 19.64);
+        word(tl, "#f07-w0_5", 19.88);
+        word(tl, "#f07-w0_6", 20.08);
+        word(tl, "#f07-w0_7", 20.28);
+        word(tl, "#f07-w0_8", 20.52);
+        word(tl, "#f07-w0_9", 20.72);
+        word(tl, "#f07-w1_0", 21.44);
+        word(tl, "#f07-w1_1", 21.72);
+        word(tl, "#f07-w1_2", 22);
+        word(tl, "#f07-w1_3", 22.28);
+        tl.to("#f07", { y: -170, duration: 0.24, ease: "power4.in" }, 22.74);
+        tl.to("#f07", { opacity: 0, duration: 0.12, ease: "none" }, 22.86);
+
+        // f08 — E a sua equipe ainda tem acesso a cursos de / inteligência artificial.
+        tl.set("#f08", { opacity: 1 }, 23.02);
+        word(tl, "#f08-w0_0", 23.04);
+        word(tl, "#f08-w0_1", 23.32);
+        word(tl, "#f08-w0_2", 23.6);
+        word(tl, "#f08-w0_3", 23.84);
+        word(tl, "#f08-w0_4", 24.12);
+        word(tl, "#f08-w0_5", 24.4);
+        word(tl, "#f08-w0_6", 24.68);
+        word(tl, "#f08-w0_7", 24.92);
+        word(tl, "#f08-w0_8", 25.2);
+        word(tl, "#f08-w0_9", 25.48);
+        word(tl, "#f08-w1_0", 25.6);
+        word(tl, "#f08-w1_1", 26.12);
+        tl.to("#f08", { y: -170, duration: 0.24, ease: "power4.in" }, 26.74);
+        tl.to("#f08", { opacity: 0, duration: 0.12, ease: "none" }, 26.86);
+
+        // f09 — Nós certificamos a sua equipe.
+        tl.set("#f09", { opacity: 1 }, 27.02);
+        word(tl, "#f09-w0_0", 27.04);
+        word(tl, "#f09-w0_1", 27.4);
+        word(tl, "#f09-w0_2", 27.8);
+        word(tl, "#f09-w0_3", 28.16);
+        word(tl, "#f09-w0_4", 28.56);
+        tl.to("#f09", { y: -170, duration: 0.24, ease: "power4.in" }, 28.74);
+        tl.to("#f09", { opacity: 0, duration: 0.12, ease: "none" }, 28.86);
+
+        // f10 — Quer ver como?
+        tl.set("#f10", { opacity: 1 }, 29.02);
+        word(tl, "#f10-w0_0", 29.04);
+        word(tl, "#f10-w0_1", 29.28);
+        word(tl, "#f10-w0_2", 29.52);
+        tl.to("#f10", { y: -170, duration: 0.24, ease: "power4.in" }, 29.7);
+        tl.to("#f10", { opacity: 0, duration: 0.12, ease: "none" }, 29.82);
+
+        // f11 — É só tocar / nesta tela.
+        tl.set("#f11", { opacity: 1 }, 29.98);
+        word(tl, "#f11-w0_0", 30);
+        word(tl, "#f11-w0_1", 30.24);
+        word(tl, "#f11-w0_2", 30.52);
+        word(tl, "#f11-w1_0", 30.76);
+        word(tl, "#f11-w1_1", 30.92);
+        // sin fundido de salida: la cola (0.6s) no da para uno.
+
+        window.__timelines["academy"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

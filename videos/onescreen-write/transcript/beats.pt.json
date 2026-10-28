@@ -1,0 +1,1017 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 22.4,
+ "totalFrames": 560,
+ "source": "OneScreen Write - Narrador.wav (texto pt-BR sobre los tiempos del es)",
+ "speechEnd": 22.2,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "lower": false,
+   "start": 0,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "As instituições evoluíram,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "As",
+       "start": 0.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "instituições",
+       "start": 0.64,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "evoluíram,",
+       "start": 1.32,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "mas e a lousa?",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "mas",
+       "start": 2.16,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "e",
+       "start": 2.48,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "a",
+       "start": 2.84,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "lousa?",
+       "start": 3.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "As instituições evoluíram, / mas e a lousa?",
+   "end": 3.64
+  },
+  {
+   "id": "f02",
+   "lower": false,
+   "start": 3.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Toda tela OneScreen tem uma",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Toda",
+       "start": 3.68,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "tela",
+       "start": 4.12,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "OneScreen",
+       "start": 4.52,
+       "brand": true
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "tem",
+       "start": 4.96,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "uma",
+       "start": 5.36,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "lousa interativa infinita.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "lousa",
+       "start": 5.56,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "interativa",
+       "start": 6.0,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "infinita.",
+       "start": 6.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Toda tela OneScreen tem uma / lousa interativa infinita.",
+   "end": 7.72
+  },
+  {
+   "id": "f03",
+   "lower": true,
+   "start": 7.76,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Ferramentas como",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Ferramentas",
+       "start": 7.76,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "como",
+       "start": 8.32,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "traços diferentes.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "traços",
+       "start": 8.6,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "diferentes.",
+       "start": 9.4,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Ferramentas como / traços diferentes.",
+   "end": 10.24
+  },
+  {
+   "id": "f04",
+   "lower": true,
+   "start": 10.28,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Uma",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Uma",
+       "start": 10.28,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "tabela periódica",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "tabela",
+       "start": 10.48,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "periódica",
+       "start": 10.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "integrada.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "integrada.",
+       "start": 11.2,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Uma / tabela periódica / integrada.",
+   "end": 11.92
+  },
+  {
+   "id": "f05",
+   "lower": true,
+   "start": 11.96,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Réguas e compassos.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Réguas",
+       "start": 11.96,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "e",
+       "start": 12.24,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "compassos.",
+       "start": 12.48,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Réguas e compassos.",
+   "end": 13.24
+  },
+  {
+   "id": "f06",
+   "lower": true,
+   "start": 13.28,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Simuladores interativos da",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Simuladores",
+       "start": 13.28,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "interativos",
+       "start": 13.84,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "da",
+       "start": 14.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "PhET.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "PhET.",
+       "start": 14.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Simuladores interativos da / PhET.",
+   "end": 15.12
+  },
+  {
+   "id": "f07",
+   "lower": true,
+   "start": 15.16,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Correção de escrita.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Correção",
+       "start": 15.16,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "de",
+       "start": 15.44,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "escrita.",
+       "start": 15.72,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Correção de escrita.",
+   "end": 16.48
+  },
+  {
+   "id": "f08",
+   "lower": true,
+   "start": 16.52,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Esta é uma lousa que",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Esta",
+       "start": 16.52,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "é",
+       "start": 16.76,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "uma",
+       "start": 17.04,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "lousa",
+       "start": 17.28,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "que",
+       "start": 17.52,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "realmente evolui.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "realmente",
+       "start": 17.68,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "evolui.",
+       "start": 18.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Esta é uma lousa que / realmente evolui.",
+   "end": 18.96
+  },
+  {
+   "id": "f09",
+   "lower": false,
+   "start": 19,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "E este é o seu momento de",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "E",
+       "start": 19.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "este",
+       "start": 19.16,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "é",
+       "start": 19.36,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "o",
+       "start": 19.52,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "seu",
+       "start": 19.68,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "momento",
+       "start": 19.88,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "de",
+       "start": 20.04,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "experimentar.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "experimentar.",
+       "start": 20.2,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "E este é o seu momento de / experimentar.",
+   "end": 20.8
+  },
+  {
+   "id": "f10",
+   "lower": false,
+   "start": 20.84,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "É só tocar",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "É",
+       "start": 20.84,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "só",
+       "start": 21.08,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "tocar",
+       "start": 21.32,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "nesta tela.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "nesta",
+       "start": 21.6,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "tela.",
+       "start": 21.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "É só tocar / nesta tela.",
+   "end": 22.4
+  }
+ ],
+ "words": [
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "As",
+   "start": 0.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "instituições",
+   "start": 0.64,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "evoluíram,",
+   "start": 1.32,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "mas",
+   "start": 2.16,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "e",
+   "start": 2.48,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "a",
+   "start": 2.84,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "lousa?",
+   "start": 3.16,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Toda",
+   "start": 3.68,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "tela",
+   "start": 4.12,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "OneScreen",
+   "start": 4.52,
+   "brand": true
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "tem",
+   "start": 4.96,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "uma",
+   "start": 5.36,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "lousa",
+   "start": 5.56,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "interativa",
+   "start": 6.0,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "infinita.",
+   "start": 6.44,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Ferramentas",
+   "start": 7.76,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "como",
+   "start": 8.32,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "traços",
+   "start": 8.6,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "diferentes.",
+   "start": 9.4,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Uma",
+   "start": 10.28,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "tabela",
+   "start": 10.48,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "periódica",
+   "start": 10.76,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "integrada.",
+   "start": 11.2,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Réguas",
+   "start": 11.96,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "e",
+   "start": 12.24,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "compassos.",
+   "start": 12.48,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Simuladores",
+   "start": 13.28,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "interativos",
+   "start": 13.84,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "da",
+   "start": 14.4,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "PhET.",
+   "start": 14.56,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Correção",
+   "start": 15.16,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "de",
+   "start": 15.44,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "escrita.",
+   "start": 15.72,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Esta",
+   "start": 16.52,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "é",
+   "start": 16.76,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "uma",
+   "start": 17.04,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "lousa",
+   "start": 17.28,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "que",
+   "start": 17.52,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "realmente",
+   "start": 17.68,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "evolui.",
+   "start": 18.16,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "E",
+   "start": 19.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "este",
+   "start": 19.16,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "é",
+   "start": 19.36,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "o",
+   "start": 19.52,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "seu",
+   "start": 19.68,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "momento",
+   "start": 19.88,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "de",
+   "start": 20.04,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "experimentar.",
+   "start": 20.2,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "É",
+   "start": 20.84,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "só",
+   "start": 21.08,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "tocar",
+   "start": 21.32,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "nesta",
+   "start": 21.6,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "tela.",
+   "start": 21.76,
+   "brand": false
+  }
+ ],
+ "lang": "pt-BR"
+}

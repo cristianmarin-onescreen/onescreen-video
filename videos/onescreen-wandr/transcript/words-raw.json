@@ -1,0 +1,674 @@
+[
+ {
+  "id": "w0",
+  "text": "Si",
+  "start": 0.0,
+  "end": 0.46,
+  "prob": 0.95
+ },
+ {
+  "id": "w1",
+  "text": "pudieras",
+  "start": 0.46,
+  "end": 0.86,
+  "prob": 0.998
+ },
+ {
+  "id": "w2",
+  "text": "llevar",
+  "start": 0.86,
+  "end": 1.06,
+  "prob": 0.999
+ },
+ {
+  "id": "w3",
+  "text": "la",
+  "start": 1.06,
+  "end": 1.2,
+  "prob": 0.998
+ },
+ {
+  "id": "w4",
+  "text": "interactividad",
+  "start": 1.2,
+  "end": 1.76,
+  "prob": 1.0
+ },
+ {
+  "id": "w5",
+  "text": "de",
+  "start": 1.76,
+  "end": 1.96,
+  "prob": 0.999
+ },
+ {
+  "id": "w6",
+  "text": "OneScreen",
+  "start": 1.96,
+  "end": 2.4,
+  "prob": 0.715
+ },
+ {
+  "id": "w7",
+  "text": "a",
+  "start": 2.4,
+  "end": 2.52,
+  "prob": 0.999
+ },
+ {
+  "id": "w8",
+  "text": "cualquier",
+  "start": 2.52,
+  "end": 2.82,
+  "prob": 1.0
+ },
+ {
+  "id": "w9",
+  "text": "lugar,",
+  "start": 2.82,
+  "end": 3.3,
+  "prob": 1.0
+ },
+ {
+  "id": "w10",
+  "text": "te",
+  "start": 3.66,
+  "end": 3.84,
+  "prob": 0.992
+ },
+ {
+  "id": "w11",
+  "text": "presentamos",
+  "start": 3.84,
+  "end": 4.64,
+  "prob": 1.0
+ },
+ {
+  "id": "w12",
+  "text": "OneScreen",
+  "start": 4.64,
+  "end": 5.38,
+  "prob": 0.994
+ },
+ {
+  "id": "w13",
+  "text": "Wandr,",
+  "start": 5.38,
+  "end": 5.8,
+  "prob": 0.052
+ },
+ {
+  "id": "w14",
+  "text": "el",
+  "start": 5.96,
+  "end": 6.22,
+  "prob": 0.999
+ },
+ {
+  "id": "w15",
+  "text": "primer",
+  "start": 6.22,
+  "end": 6.66,
+  "prob": 1.0
+ },
+ {
+  "id": "w16",
+  "text": "centro",
+  "start": 6.66,
+  "end": 7.1,
+  "prob": 0.999
+ },
+ {
+  "id": "w17",
+  "text": "de",
+  "start": 7.1,
+  "end": 7.22,
+  "prob": 0.998
+ },
+ {
+  "id": "w18",
+  "text": "entretenimiento",
+  "start": 7.22,
+  "end": 7.84,
+  "prob": 1.0
+ },
+ {
+  "id": "w19",
+  "text": "portatil.",
+  "start": 7.84,
+  "end": 8.54,
+  "prob": 0.666
+ },
+ {
+  "id": "w20",
+  "text": "Wandr",
+  "start": 8.68,
+  "end": 9.1,
+  "prob": 0.984
+ },
+ {
+  "id": "w21",
+  "text": "tiene",
+  "start": 9.1,
+  "end": 9.36,
+  "prob": 0.999
+ },
+ {
+  "id": "w22",
+  "text": "una",
+  "start": 9.36,
+  "end": 9.52,
+  "prob": 1.0
+ },
+ {
+  "id": "w23",
+  "text": "base",
+  "start": 9.52,
+  "end": 9.78,
+  "prob": 1.0
+ },
+ {
+  "id": "w24",
+  "text": "recargable",
+  "start": 9.78,
+  "end": 10.32,
+  "prob": 0.998
+ },
+ {
+  "id": "w25",
+  "text": "que",
+  "start": 10.32,
+  "end": 10.5,
+  "prob": 1.0
+ },
+ {
+  "id": "w26",
+  "text": "puede",
+  "start": 10.5,
+  "end": 10.72,
+  "prob": 1.0
+ },
+ {
+  "id": "w27",
+  "text": "durar",
+  "start": 10.72,
+  "end": 11.02,
+  "prob": 1.0
+ },
+ {
+  "id": "w28",
+  "text": "más",
+  "start": 11.02,
+  "end": 11.24,
+  "prob": 0.999
+ },
+ {
+  "id": "w29",
+  "text": "de",
+  "start": 11.24,
+  "end": 11.44,
+  "prob": 1.0
+ },
+ {
+  "id": "w30",
+  "text": "6",
+  "start": 11.44,
+  "end": 11.84,
+  "prob": 0.82
+ },
+ {
+  "id": "w31",
+  "text": "horas.",
+  "start": 11.84,
+  "end": 12.26,
+  "prob": 1.0
+ },
+ {
+  "id": "w32",
+  "text": "Completamente",
+  "start": 12.56,
+  "end": 13.12,
+  "prob": 1.0
+ },
+ {
+  "id": "w33",
+  "text": "táctil,",
+  "start": 13.12,
+  "end": 13.6,
+  "prob": 0.995
+ },
+ {
+  "id": "w34",
+  "text": "podrás",
+  "start": 13.68,
+  "end": 14.04,
+  "prob": 1.0
+ },
+ {
+  "id": "w35",
+  "text": "acceder",
+  "start": 14.04,
+  "end": 14.42,
+  "prob": 1.0
+ },
+ {
+  "id": "w36",
+  "text": "a",
+  "start": 14.42,
+  "end": 14.48,
+  "prob": 1.0
+ },
+ {
+  "id": "w37",
+  "text": "más",
+  "start": 14.48,
+  "end": 14.66,
+  "prob": 1.0
+ },
+ {
+  "id": "w38",
+  "text": "de",
+  "start": 14.66,
+  "end": 14.8,
+  "prob": 1.0
+ },
+ {
+  "id": "w39",
+  "text": "4",
+  "start": 14.8,
+  "end": 15.14,
+  "prob": 0.999
+ },
+ {
+  "id": "w40",
+  "text": "millones",
+  "start": 15.14,
+  "end": 15.46,
+  "prob": 1.0
+ },
+ {
+  "id": "w41",
+  "text": "de",
+  "start": 15.46,
+  "end": 15.78,
+  "prob": 1.0
+ },
+ {
+  "id": "w42",
+  "text": "apps.",
+  "start": 15.78,
+  "end": 16.04,
+  "prob": 0.999
+ },
+ {
+  "id": "w43",
+  "text": "Puedes",
+  "start": 16.32,
+  "end": 16.54,
+  "prob": 0.999
+ },
+ {
+  "id": "w44",
+  "text": "girar",
+  "start": 16.54,
+  "end": 16.76,
+  "prob": 1.0
+ },
+ {
+  "id": "w45",
+  "text": "su",
+  "start": 16.76,
+  "end": 16.88,
+  "prob": 0.996
+ },
+ {
+  "id": "w46",
+  "text": "pantalla",
+  "start": 16.88,
+  "end": 17.16,
+  "prob": 1.0
+ },
+ {
+  "id": "w47",
+  "text": "a",
+  "start": 17.16,
+  "end": 17.32,
+  "prob": 0.931
+ },
+ {
+  "id": "w48",
+  "text": "180",
+  "start": 17.32,
+  "end": 17.68,
+  "prob": 1.0
+ },
+ {
+  "id": "w49",
+  "text": "grados,",
+  "start": 17.68,
+  "end": 18.28,
+  "prob": 0.998
+ },
+ {
+  "id": "w50",
+  "text": "inclinarla",
+  "start": 18.48,
+  "end": 18.86,
+  "prob": 0.998
+ },
+ {
+  "id": "w51",
+  "text": "hacia",
+  "start": 18.86,
+  "end": 19.0,
+  "prob": 1.0
+ },
+ {
+  "id": "w52",
+  "text": "ti",
+  "start": 19.0,
+  "end": 19.26,
+  "prob": 0.997
+ },
+ {
+  "id": "w53",
+  "text": "y",
+  "start": 19.26,
+  "end": 19.54,
+  "prob": 0.997
+ },
+ {
+  "id": "w54",
+  "text": "ajustar",
+  "start": 19.54,
+  "end": 20.14,
+  "prob": 1.0
+ },
+ {
+  "id": "w55",
+  "text": "su",
+  "start": 20.14,
+  "end": 20.28,
+  "prob": 1.0
+ },
+ {
+  "id": "w56",
+  "text": "altura.",
+  "start": 20.28,
+  "end": 20.62,
+  "prob": 1.0
+ },
+ {
+  "id": "w57",
+  "text": "Tiene",
+  "start": 20.88,
+  "end": 21.1,
+  "prob": 0.998
+ },
+ {
+  "id": "w58",
+  "text": "una",
+  "start": 21.1,
+  "end": 21.46,
+  "prob": 1.0
+ },
+ {
+  "id": "w59",
+  "text": "cámara",
+  "start": 21.46,
+  "end": 21.74,
+  "prob": 1.0
+ },
+ {
+  "id": "w60",
+  "text": "4K",
+  "start": 21.74,
+  "end": 22.48,
+  "prob": 0.999
+ },
+ {
+  "id": "w61",
+  "text": "integrada",
+  "start": 22.48,
+  "end": 23.26,
+  "prob": 1.0
+ },
+ {
+  "id": "w62",
+  "text": "para",
+  "start": 23.26,
+  "end": 23.52,
+  "prob": 1.0
+ },
+ {
+  "id": "w63",
+  "text": "acercarte",
+  "start": 23.52,
+  "end": 24.02,
+  "prob": 1.0
+ },
+ {
+  "id": "w64",
+  "text": "a",
+  "start": 24.02,
+  "end": 24.12,
+  "prob": 1.0
+ },
+ {
+  "id": "w65",
+  "text": "los",
+  "start": 24.12,
+  "end": 24.24,
+  "prob": 0.998
+ },
+ {
+  "id": "w66",
+  "text": "que",
+  "start": 24.24,
+  "end": 24.38,
+  "prob": 1.0
+ },
+ {
+  "id": "w67",
+  "text": "más",
+  "start": 24.38,
+  "end": 24.64,
+  "prob": 1.0
+ },
+ {
+  "id": "w68",
+  "text": "amas.",
+  "start": 24.64,
+  "end": 25.06,
+  "prob": 0.999
+ },
+ {
+  "id": "w69",
+  "text": "One",
+  "start": 25.06,
+  "end": 25.58,
+  "prob": 0.939
+ },
+ {
+  "id": "w70",
+  "text": "Screen",
+  "start": 25.58,
+  "end": 25.78,
+  "prob": 0.915
+ },
+ {
+  "id": "w71",
+  "text": "Wonder",
+  "start": 25.78,
+  "end": 26.1,
+  "prob": 0.978
+ },
+ {
+  "id": "w72",
+  "text": "es",
+  "start": 26.1,
+  "end": 26.44,
+  "prob": 0.999
+ },
+ {
+  "id": "w73",
+  "text": "para",
+  "start": 26.44,
+  "end": 26.66,
+  "prob": 1.0
+ },
+ {
+  "id": "w74",
+  "text": "toda",
+  "start": 26.66,
+  "end": 26.92,
+  "prob": 1.0
+ },
+ {
+  "id": "w75",
+  "text": "la",
+  "start": 26.92,
+  "end": 27.1,
+  "prob": 1.0
+ },
+ {
+  "id": "w76",
+  "text": "familia.",
+  "start": 27.1,
+  "end": 27.54,
+  "prob": 1.0
+ },
+ {
+  "id": "w77",
+  "text": "Y",
+  "start": 27.7,
+  "end": 27.88,
+  "prob": 0.473
+ },
+ {
+  "id": "w78",
+  "text": "en",
+  "start": 27.88,
+  "end": 28.16,
+  "prob": 0.999
+ },
+ {
+  "id": "w79",
+  "text": "este",
+  "start": 28.16,
+  "end": 28.4,
+  "prob": 0.999
+ },
+ {
+  "id": "w80",
+  "text": "stand",
+  "start": 28.4,
+  "end": 28.74,
+  "prob": 0.994
+ },
+ {
+  "id": "w81",
+  "text": "puedes",
+  "start": 28.74,
+  "end": 29.18,
+  "prob": 0.758
+ },
+ {
+  "id": "w82",
+  "text": "ganarte",
+  "start": 29.18,
+  "end": 29.58,
+  "prob": 1.0
+ },
+ {
+  "id": "w83",
+  "text": "una.",
+  "start": 29.58,
+  "end": 29.8,
+  "prob": 0.999
+ },
+ {
+  "id": "w84",
+  "text": "¿Quieres",
+  "start": 30.0,
+  "end": 30.28,
+  "prob": 0.993
+ },
+ {
+  "id": "w85",
+  "text": "participar?",
+  "start": 30.28,
+  "end": 30.76,
+  "prob": 1.0
+ },
+ {
+  "id": "w86",
+  "text": "Habla",
+  "start": 30.98,
+  "end": 31.3,
+  "prob": 0.998
+ },
+ {
+  "id": "w87",
+  "text": "con",
+  "start": 31.3,
+  "end": 31.46,
+  "prob": 1.0
+ },
+ {
+  "id": "w88",
+  "text": "uno",
+  "start": 31.46,
+  "end": 31.6,
+  "prob": 0.996
+ },
+ {
+  "id": "w89",
+  "text": "de",
+  "start": 31.6,
+  "end": 31.74,
+  "prob": 1.0
+ },
+ {
+  "id": "w90",
+  "text": "nuestros",
+  "start": 31.74,
+  "end": 32.06,
+  "prob": 1.0
+ },
+ {
+  "id": "w91",
+  "text": "asesores",
+  "start": 32.06,
+  "end": 32.6,
+  "prob": 1.0
+ },
+ {
+  "id": "w92",
+  "text": "y",
+  "start": 32.6,
+  "end": 32.82,
+  "prob": 1.0
+ },
+ {
+  "id": "w93",
+  "text": "te",
+  "start": 32.82,
+  "end": 32.98,
+  "prob": 1.0
+ },
+ {
+  "id": "w94",
+  "text": "explicamos",
+  "start": 32.98,
+  "end": 33.64,
+  "prob": 1.0
+ },
+ {
+  "id": "w95",
+  "text": "cómo.",
+  "start": 33.64,
+  "end": 33.94,
+  "prob": 1.0
+ }
+]

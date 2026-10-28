@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta charset="UTF-8"><title>06-harby</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face { font-family: "Rubik"; src: url("assets/fonts/Rubik-Variable.ttf") format("truetype"); font-weight: 300 900; font-display: block; }
+        @font-face { font-family: "Manrope"; src: url("assets/fonts/Manrope-variable-latin.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+        #s6 { --bg:#0a1230; --ink:#f4f1e8; --ac:#e3b341; --mut:#a3abc8; --line:#24305c; --logo:#fafafa; }
+        .s6-mask { overflow: hidden; display: block; padding-bottom: 0.06em; }
+        .s6-mask > span { display: inline-block; }
+        #s6-por { left: 860px; height: 936px; }
+        #s6-kick { left: 134px; top: 170px; }
+        #s6-name { left: 128px; top: 205px; font-size: 190px; font-weight: 700; letter-spacing: -0.045em; line-height: 0.95; }
+        #s6-body { left: 136px; top: 510px; font-size: 36px; max-width: 680px; }
+        #s6-gov { left: 134px; top: 630px; width: 200px; height: 200px; }
+        .s6-doc { top: 640px; }
+        .s6-doc .disc { width: 150px; height: 150px; }
+        .s6-doc .disc svg { width: 84px; height: 84px; }
+        #s6-pill { left: 134px; top: 405px; }
+        #s6-t2 { left: 134px; top: 92px; font-size: 76px; }
+        #s6-radar { left: 220px; top: 250px; width: 640px; height: 640px; }
+        #s6-sub { left: 980px; top: 360px; font-size: 40px; font-weight: 600; max-width: 640px; line-height: 1.4; }
+        #s6-badge { left: 96px; top: 70px; width: 150px; height: 150px; }
+        #s6-t3 { left: 280px; top: 100px; font-size: 76px; }
+        #s6-map { left: 134px; top: 330px; width: 640px; height: 420px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+        #s6-map i { background: var(--line); border-radius: 14px; display: block; }
+        #s6-pin { left: 397px; top: 410px; width: 90px; height: 90px; }
+        #s6-card { left: 880px; top: 360px; width: 860px; }
+        #s6-card .row { font-size: 32px; }
+        #s6-bell { width: 40px; height: 40px; }
+        #s6-tu { left: 1610px; top: 760px; }
+        #s6-tu .disc { width: 130px; height: 130px; background: #e3b341; }
+      </style>
+
+      <div data-hf-id="hf-leo3" id="root" data-composition-id="06-harby" data-width="1920" data-height="1080" data-duration="24.1">
+        <div data-hf-id="hf-hydx" id="s6" class="scene">
+          <div data-hf-id="hf-kit1" class="bgfill" id="s6-bg"></div>
+
+          <!-- A · presentación -->
+          <img data-hf-id="hf-ee2b" id="s6-por" class="por in" src="assets/agents/harby-cut.png">
+          <div data-hf-id="hf-edk7" id="s6-kick" class="k abs in">Licitaciones · ventas a gobierno</div>
+          <div data-hf-id="hf-2gsn" id="s6-name" class="h abs"><span data-hf-id="hf-mr27" class="s6-mask"><span data-hf-id="hf-39r5" id="s6-n1">Harby</span></span></div>
+          <div data-hf-id="hf-uxpy" id="s6-body" class="b abs in">Monitor y analista de licitaciones públicas y privadas.</div>
+          <svg data-hf-id="hf-lrf4" id="s6-gov" class="abs ico" viewBox="0 0 48 48" style="stroke-width:2.6"><path data-hf-id="hf-1d18" data-draw="" d="M6 18 24 7l18 11" /><path data-hf-id="hf-kat2" data-draw="" d="M10 21v15M18 21v15M30 21v15M38 21v15" /><path data-hf-id="hf-khws" data-draw="" d="M6 40h36M8 44h32" /></svg>
+          <div data-hf-id="hf-x7yu" class="node s6-doc in" style="left:420px"><div data-hf-id="hf-hnan" class="disc"><svg data-hf-id="hf-mg19" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-0qak" data-draw="" d="M12 6h18l8 8v28H12z" /><path data-hf-id="hf-5t10" data-draw="" d="M18 22h14M18 28h14M18 34h9" /></svg></div>Públicas</div>
+          <div data-hf-id="hf-y9ly" class="node s6-doc in" style="left:640px"><div data-hf-id="hf-7fpr" class="disc"><svg data-hf-id="hf-dkrl" class="ico" viewBox="0 0 48 48"><path data-hf-id="hf-0ems" data-draw="" d="M12 6h18l8 8v28H12z" /><path data-hf-id="hf-uy4s" data-draw="" d="M18 22h14M18 28h14M18 34h9" /></svg></div>Privadas</div>
+          <div data-hf-id="hf-jpb1" id="s6-pill" class="pill in"><svg data-hf-id="hf-jals" viewBox="0 0 48 48" style="stroke:currentColor;fill:none;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round"><path data-hf-id="hf-6pc0" d="M12 34V22a12 12 0 0 1 24 0v12l4 4H8z" /><path data-hf-id="hf-bl99" d="M20 42h8" /></svg><span data-hf-id="hf-aldw">Disponible</span><b data-hf-id="hf-0kxe">Está en Odoo</b></div>
+
+          <!-- B · radar -->
+          <div data-hf-id="hf-qzen" id="s6-t2" class="h abs in">Monitorea las plataformas <span data-hf-id="hf-ngs2" class="acc">del gobierno.</span></div>
+          <svg data-hf-id="hf-9oaj" id="s6-radar" class="abs in" viewBox="0 0 100 100">
+            <circle data-hf-id="hf-5wrk" data-draw="" cx="50" cy="50" r="48" style="fill:none;stroke:#24305c;stroke-width:0.6" />
+            <circle data-hf-id="hf-4km3" data-draw="" cx="50" cy="50" r="32" style="fill:none;stroke:#24305c;stroke-width:0.6" />
+            <circle data-hf-id="hf-k4g1" data-draw="" cx="50" cy="50" r="16" style="fill:none;stroke:#24305c;stroke-width:0.6" />
+            <path data-hf-id="hf-cg0u" data-draw="" d="M2 50H98M50 2V98" style="stroke:#24305c;stroke-width:0.4" />
+            <g data-hf-id="hf-waf3" id="s6-sweep"><path data-hf-id="hf-c6n1" d="M50 50 L50 2 A48 48 0 0 1 84 16 Z" style="fill:#e3b341;opacity:.22" /><path data-hf-id="hf-r1ka" d="M50 50 L84 16" style="stroke:#e3b341;stroke-width:0.9" /></g>
+            <circle data-hf-id="hf-l712" class="s6-blip" cx="70" cy="28" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-nnwe" class="s6-blip" cx="28" cy="34" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-k5zt" class="s6-blip" cx="78" cy="58" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-dl9x" class="s6-blip" cx="36" cy="70" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-q5le" class="s6-blip" cx="58" cy="80" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-yds0" class="s6-blip" cx="22" cy="56" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-we35" class="s6-blip" cx="60" cy="40" r="1.8" style="fill:#a3abc8;opacity:0" />
+            <circle data-hf-id="hf-klyb" class="s6-blip" cx="44" cy="22" r="1.8" style="fill:#a3abc8;opacity:0" />
+          </svg>
+          <div data-hf-id="hf-z70r" id="s6-sub" class="b abs in">Trae las licitaciones donde <svg data-hf-id="hf-6zpd" class="wm" style="display:inline-block;width:240px;height:37px;vertical-align:-4px"><use data-hf-id="hf-onnc" href="#wm" /></svg> puede ser proveedor.</div>
+
+          <!-- C · notificación en tu zona -->
+          <div data-hf-id="hf-urml" id="s6-badge" class="badge in"><img data-hf-id="hf-rb69" src="assets/agents/harby-cut.png"></div>
+          <div data-hf-id="hf-mw1b" id="s6-t3" class="h abs in">Licitaciones <span data-hf-id="hf-895m" class="acc">en tu zona.</span></div>
+          <div data-hf-id="hf-7or4" id="s6-map" class="abs">
+            <i data-hf-id="hf-97qx" class="in"></i><i data-hf-id="hf-kv2l" class="in"></i><i data-hf-id="hf-m1zo" class="in"></i><i data-hf-id="hf-lnon" class="in"></i><i data-hf-id="hf-mulq" class="in"></i>
+            <i data-hf-id="hf-mgap" class="in"></i><i data-hf-id="hf-nn7s" class="in"></i><i data-hf-id="hf-i0jj" class="in" id="s6-zone"></i><i data-hf-id="hf-n8wr" class="in"></i><i data-hf-id="hf-oftu" class="in"></i>
+            <i data-hf-id="hf-o1it" class="in"></i><i data-hf-id="hf-dpdz" class="in"></i><i data-hf-id="hf-e3p0" class="in"></i><i data-hf-id="hf-cwrx" class="in"></i><i data-hf-id="hf-db2y" class="in"></i>
+          </div>
+          <svg data-hf-id="hf-woum" id="s6-pin" class="abs ico in" viewBox="0 0 48 48" style="color:#0a1230;stroke-width:4"><path data-hf-id="hf-tdac" d="M24 44s14-13 14-24a14 14 0 0 0-28 0c0 11 14 24 14 24z" style="fill:#0a1230" /><circle data-hf-id="hf-y1os" cx="24" cy="20" r="5" style="stroke:#e3b341" /></svg>
+          <div data-hf-id="hf-4oi5" id="s6-card" class="card in">
+            <div data-hf-id="hf-8ck4" class="k" style="margin-bottom:16px;display:flex;gap:12px;align-items:center"><svg data-hf-id="hf-25p8" id="s6-bell" viewBox="0 0 48 48" style="stroke:currentColor;fill:none;stroke-width:4;stroke-linecap:round"><path data-hf-id="hf-ur3s" d="M12 34V22a12 12 0 0 1 24 0v12l4 4H8z" /><path data-hf-id="hf-pv1t" d="M20 42h8" /></svg>Odoo · Notificación</div>
+            <div data-hf-id="hf-oild" class="row" style="font-family:Rubik;font-weight:600;font-size:40px;letter-spacing:-0.01em"><div data-hf-id="hf-pvrx" class="av"><img data-hf-id="hf-gfk5" src="assets/agents/harby-cut.png"></div>Nueva licitación en tu zona</div>
+            <div data-hf-id="hf-wga2" class="row in" id="s6-r2"><span data-hf-id="hf-9gry" class="dot"></span>Lista para tu gestión</div>
+          </div>
+          <div data-hf-id="hf-6xro" class="node in" id="s6-tu"><div data-hf-id="hf-71eq" class="disc"><svg data-hf-id="hf-33ob" class="ico" viewBox="0 0 48 48" style="color:#0a1230;stroke-width:4.5"><path data-hf-id="hf-xdsw" data-draw="" d="m14 25 7 7 13-15" /></svg></div>Tu gestión</div>
+          <div data-hf-id="hf-wpa7" id="s6-idc" class="idc in"><b data-hf-id="hf-wkbh">Harby</b><span data-hf-id="hf-vv7y"><svg data-hf-id="hf-7ww8" viewBox="0 0 48 48" style="stroke:currentColor;fill:none;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round"><path data-hf-id="hf-tk6p" d="M12 34V22a12 12 0 0 1 24 0v12l4 4H8z" /><path data-hf-id="hf-r1yw" d="M20 42h8" /></svg>Está en Odoo <i data-hf-id="hf-69vt">Licitaciones</i></span></div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          var S = 159.3, T = function (x) { return x - S; };
+          var root = document.querySelector('[data-composition-id="06-harby"]');
+          FX.prep(root);
+          var tl = gsap.timeline({ paused: true });
+          var q = function (s) { return root.querySelectorAll(s); };
+
+          // A · la noche barre; "licitaciones y ventas a gobierno"
+          FX.wipe(tl, "#s6-bg", 0, 0.6);
+          FX.up(tl, "#s6-kick", T(160.78), { y: 14 });
+          FX.draw(tl, q("#s6-gov [data-draw]"), T(160.78), 1.1, 0.12);
+          FX.up(tl, "#s6-por", T(162.6), { y: 260, d: 0.9, ease: "power4.out" });
+          FX.rise(tl, "#s6-n1", T(163.02));
+          FX.up(tl, "#s6-body", T(164.54), { y: 18 });
+          var docs = q(".s6-doc");
+          FX.pop(tl, docs[0], T(166.4)); FX.draw(tl, docs[0].querySelectorAll("[data-draw]"), T(166.5), 0.5);
+          FX.pop(tl, docs[1], T(167.1)); FX.draw(tl, docs[1].querySelectorAll("[data-draw]"), T(167.2), 0.5);
+          FX.pop(tl, "#s6-pill", T(163.5), { from: 0.85 });
+
+          // B · "constantemente monitoreando las oportunidades de las plataformas del gobierno"
+          FX.out(tl, ["#s6-kick", "#s6-name", "#s6-body", "#s6-gov", ".s6-doc", "#s6-pill"], T(168.0), { x: -60, d: 0.35, stagger: 0.02 });
+          FX.up(tl, "#s6-idc", T(168.3), { x: -30, y: 0 });
+          tl.to("#s6-por", { scale: 0.62, x: 160, transformOrigin: "100% 100%", duration: 0.7, ease: "power3.inOut" }, T(168.0));
+          FX.up(tl, "#s6-t2", T(168.4), { y: 24 });
+          tl.to("#s6-radar", { opacity: 1, duration: 0.3 }, T(168.6));
+          FX.draw(tl, q("#s6-radar [data-draw]"), T(168.6), 0.9, 0.1);
+          tl.fromTo("#s6-sweep", { rotation: 0, svgOrigin: "50 50" }, { rotation: 360, svgOrigin: "50 50", duration: 1.6, ease: "none", repeat: 3 }, T(170.0));
+          var bl = q(".s6-blip");
+          tl.to(bl, { opacity: 1, duration: 0.2, stagger: 0.28 }, T(170.4));
+          // "trayendo aquellas en las que OneScreen puede estar como proveedor"
+          var gold = [0, 2, 6];
+          bl.forEach(function (b, i) {
+            if (gold.indexOf(i) >= 0) tl.to(b, { fill: "#e3b341", attr: { r: 2.8 }, duration: 0.3 }, T(173.4 + gold.indexOf(i) * 0.15));
+            else tl.to(b, { opacity: 0.2, duration: 0.4 }, T(173.6));
+          });
+          FX.up(tl, "#s6-sub", T(174.3), { y: 20 });
+          gold.forEach(function (gi, k) {
+            tl.to(bl[gi], { attr: { cx: 120, cy: 60 }, opacity: 0, duration: 0.7, ease: "power2.in" }, T(175.8 + k * 0.12));
+          });
+
+          // C · "te notificará de las licitaciones disponibles en tu zona a través de Odoo"
+          FX.out(tl, ["#s6-t2", "#s6-radar", "#s6-sub"], T(176.9), { y: -30, d: 0.35 });
+          tl.to("#s6-por", { y: 700, opacity: 0, duration: 0.6, ease: "power3.in" }, T(176.9));
+          FX.pop(tl, "#s6-badge", T(177.2));
+          FX.up(tl, "#s6-t3", T(177.44), { y: 24 });
+          FX.pop(tl, q("#s6-map i"), T(177.9), { from: 0.5, stagger: { each: 0.03, grid: [3, 5], from: "center" } });
+          tl.to("#s6-zone", { backgroundColor: "#e3b341", duration: 0.3 }, T(179.66));
+          tl.fromTo("#s6-pin", { opacity: 0, y: -60 }, { opacity: 1, y: 0, duration: 0.45, ease: "bounce.out" }, T(179.66));
+          tl.fromTo("#s6-card", { opacity: 0, y: -80 }, { opacity: 1, y: 0, duration: 0.6, ease: "back.out(1.5)" }, T(180.28));
+          tl.fromTo("#s6-bell", { rotation: -18 }, { rotation: 18, duration: 0.12, yoyo: true, repeat: 5, ease: "sine.inOut", transformOrigin: "50% 10%" }, T(180.5));
+          FX.up(tl, "#s6-r2", T(181.5), { y: 14 });
+          FX.pop(tl, "#s6-tu", T(181.88));
+          FX.draw(tl, q("#s6-tu [data-draw]"), T(182.0), 0.4);
+
+          window.__timelines["06-harby"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

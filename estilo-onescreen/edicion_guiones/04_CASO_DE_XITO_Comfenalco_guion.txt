@@ -1,0 +1,55 @@
+   0.00-   0.46 (0.46s) | A:C1322.MP4 100% | B:C1353.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Bueno, Comfenalco es
+   0.46-   1.92 (1.46s) | A:C1322.MP4 100% | B:C1353.MP4 | G:Recurso 2.png 151% | G:OneScreen_4K | D3" Bueno, Comfenalco es D3" la caja de compensación D3" familiar de aquí, del Quindío.
+   1.92-   3.42 (1.50s) | A:C1322.MP4 100% | B:C1353.MP4 | B:C1355.MP4 | G:Recurso 2.png 151% |  | D3" familiar de aquí, del Quindío.
+   3.42-   5.59 (2.17s) | A:C1322.MP4 100% | B:C1355.MP4 | G:Recurso 2.png 151% | G:OneScreen_4K | D3" Nosotros somos un área D3" en estos momentos de educación
+   5.59-   6.63 (1.04s) | A:C1322.MP4 100% | B:C1346.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" en estos momentos de educación
+   6.67-   9.72 (3.05s) | A:C1322.MP4 100% | B:Comfenalco.mov 61% | G:OneScreen_4K_16.9.png | G: | D3" Y somos la única caja de compensación D3" del Quindío y este año
+   9.72-  12.55 (2.83s) | A:C1322.MP4 100% | B:Comfenalco.mov 61% | G:OneScreen_4K_16.9.png | G: | D3" del Quindío y este año D3" tuvimos una evolución a unas pantallas
+  12.55-  12.93 (0.38s) | A:C1322.MP4 100% | B:C1329.MP4 | B:Comfenalco.mov 61% | G:OneScreen_4K | D3" tuvimos una evolución a unas pantallas
+  12.93-  16.64 (3.71s) | A:C1322.MP4 144% | B:C1329.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" más modernas, D3" más inteligentes, con el apoyo de la IA,
+  16.64-  17.43 (0.79s) | A:C1322.MP4 100% | B:C1333.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" más inteligentes, con el apoyo de la IA,
+  17.43-  18.81 (1.38s) | A:C1322.MP4 100% | B:C1333.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" el apoyo de de las pantallas
+  18.81-  19.81 (1.00s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" el apoyo de de las pantallas
+  19.81-  20.81 (1.00s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" es un apoyo fundamental, además
+  20.81-  21.48 (0.67s) | A:C1322.MP4 144% | B:C1337.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" es un apoyo fundamental, además
+  21.48-  23.90 (2.42s) | A:C1322.MP4 100% | B:C1337.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" es un apoyo fundamental, además D3" de que nos sirve de herramienta
+  23.90-  24.86 (0.96s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" como tablero, sirve también
+  24.86-  25.69 (0.83s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" como tablero, sirve también D3" como apoyo de computador.
+  25.69-  26.40 (0.71s) | A:C1322.MP4 100% | B:C1339.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" como apoyo de computador.
+  26.40-  27.15 (0.75s) | A:C1322.MP4 100% | B:C1339.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" como apoyo de computador.
+  27.15-  32.24 (5.09s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" Entonces prácticamente D3" que las clases se hacen mucho D3" más amenas para los estud
+  32.24-  32.37 (0.13s) | A:C1322.MP4 144% | B:C1342.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" más amenas para los estudiantes,
+  32.37-  33.83 (1.46s) | A:C1322.MP4 100% | B:C1342.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" más amenas para los estudiantes, D3" el interactuar con las pantallas
+  33.83-  36.29 (2.46s) | A:C1322.MP4 100% | B:C1342.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" el interactuar con las pantallas D3" es mucho más fácil.
+  36.29-  38.96 (2.67s) | A:C1322.MP4 100% | B:C1342.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Sirve de mucha guía, muy visuales.
+  38.96-  40.16 (1.20s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" Su entorno de manejo
+  40.16-  41.50 (1.34s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" Su entorno de manejo D3" no es difícil
+  41.50-  41.83 (0.33s) | A:C1322.MP4 144% | B:C1345.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" no es difícil
+  41.83-  43.13 (1.30s) | A:C1322.MP4 100% | B:C1345.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" porque la verdad D3" a veces uno
+  43.13-  44.46 (1.33s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" a veces uno D3" cree que las herramientas
+  44.46-  46.13 (1.67s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" pueden ser difíciles de manejar, pero no.
+  46.13-  51.63 (5.50s) | A:C1322.MP4 100% | B:C1330.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Estas nuevas pantallas, D3" pues el entorno es mucho más dinámico, D3" mucho más atrac
+  51.63-  53.30 (1.67s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" como para D3" para el público,
+  53.30-  54.30 (1.00s) | A:C1322.MP4 100% | B:C1325.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Yo he visto en los laboratorios
+  54.30-  55.39 (1.09s) | A:C1322.MP4 100% | B:C1350.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Yo he visto en los laboratorios
+  55.39-  58.31 (2.92s) | A:C1322.MP4 144% | B:C1350.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Yo he visto en los laboratorios D3" que van y practiquen. D3" Nosotros aquí, un ejempl
+  58.31-  58.85 (0.54s) | A:C1322.MP4 144% | B:C1326.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" damos
+  58.85-  60.06 (1.21s) | A:C1322.MP4 100% | B:C1326.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" damos D3" “electricidad” y entonces van
+  60.06-  64.90 (4.84s) | A:C1322.MP4 144% | B:C1327.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" “electricidad” y entonces van D3" elaboran un circuito D3" y hacen las conexiones y va
+  64.90-  66.11 (1.21s) | A:C1322.MP4 100% | B:C1334.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" y van y practican en
+  66.11-  66.53 (0.42s) | A:C1322.MP4 100% | B:C1334.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" en la pantalla y van y después
+  66.53-  70.32 (3.79s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" en la pantalla y van y después D3" montan el circuito en su laboratorio.
+  70.32-  72.91 (2.59s) | A:C1322.MP4 144% | B:C1338.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" recomendarlas, pues al 100% D3" porque son una herramienta
+  72.91-  74.03 (1.12s) | A:C1322.MP4 144% | B:C1336.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" porque son una herramienta
+  74.03-  75.12 (1.09s) | A:C1322.MP4 100% | B:C1336.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" en el día a día.
+  75.12-  75.24 (0.12s) | A:C1322.MP4 100% | B:C1340.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" en el día a día.
+  75.24-  79.33 (4.09s) | A:C1322.MP4 144% | B:C1340.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Pero sí nos facilitan con el estudiante D3" la practicidad de las pantallas
+  79.33-  81.08 (1.75s) | A:C1322.MP4 100% | B:C1332.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" la practicidad de las pantallas D3" del trabajo
+  81.08-  84.13 (3.05s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" del trabajo D3" y recomendaría las pantallas 100%. D3" Claro, el digamos, el
+  84.13-  85.71 (1.58s) | A:C1322.MP4 144% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" Claro, el digamos, el
+  85.71-  86.04 (0.33s) | A:C1322.MP4 144% | B:C1335.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" Claro, el digamos, el
+  86.04-  88.80 (2.76s) | A:C1322.MP4 100% | B:C1335.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" el proceso que hemos venido D3" haciendo acá D3" con ustedes en la práctica, en el sop
+  88.80-  89.55 (0.75s) | A:C1322.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 41%       | D3" con ustedes en la práctica, en el soporte
+  89.55-  94.14 (4.59s) | A:C1322.MP4 144% | B:C1331.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" con ustedes en la práctica, en el soporte D3" y en el post venta, pues D3" ha sido muy
+  94.14-  96.64 (2.50s) | A:C1322.MP4 144% | B:C1324.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | D3" ha sido muy bueno, muy bueno.
+  96.64- 104.73 (8.09s) | A:OneScreen (I 100%                                                    | 

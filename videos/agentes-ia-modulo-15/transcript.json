@@ -1,0 +1,2907 @@
+[
+  {
+    "text": "Hola,",
+    "start": 0.1,
+    "end": 0.37
+  },
+  {
+    "text": "soy",
+    "start": 0.38,
+    "end": 0.39
+  },
+  {
+    "text": "Felipe",
+    "start": 0.6,
+    "end": 0.99
+  },
+  {
+    "text": "Martínez.",
+    "start": 0.99,
+    "end": 1.8
+  },
+  {
+    "text": "Ya",
+    "start": 1.86,
+    "end": 1.92
+  },
+  {
+    "text": "construiste",
+    "start": 1.92,
+    "end": 2.62
+  },
+  {
+    "text": "tu",
+    "start": 2.62,
+    "end": 2.74
+  },
+  {
+    "text": "agente,",
+    "start": 2.74,
+    "end": 3.28
+  },
+  {
+    "text": "le",
+    "start": 3.28,
+    "end": 3.46
+  },
+  {
+    "text": "diste",
+    "start": 3.46,
+    "end": 3.73
+  },
+  {
+    "text": "conocimiento",
+    "start": 3.73,
+    "end": 4.48
+  },
+  {
+    "text": "propio,",
+    "start": 4.56,
+    "end": 4.91
+  },
+  {
+    "text": "le",
+    "start": 4.91,
+    "end": 5.23
+  },
+  {
+    "text": "activaste",
+    "start": 5.23,
+    "end": 5.75
+  },
+  {
+    "text": "herramientas",
+    "start": 5.83,
+    "end": 6.64
+  },
+  {
+    "text": "y",
+    "start": 6.64,
+    "end": 6.82
+  },
+  {
+    "text": "aprendiste",
+    "start": 6.82,
+    "end": 7.39
+  },
+  {
+    "text": "a",
+    "start": 7.39,
+    "end": 7.41
+  },
+  {
+    "text": "hacerlo",
+    "start": 7.46,
+    "end": 7.94
+  },
+  {
+    "text": "tanto",
+    "start": 7.94,
+    "end": 8.13
+  },
+  {
+    "text": "en",
+    "start": 8.13,
+    "end": 8.28
+  },
+  {
+    "text": "Cloud",
+    "start": 8.58,
+    "end": 8.8
+  },
+  {
+    "text": "como",
+    "start": 8.8,
+    "end": 9.11
+  },
+  {
+    "text": "en",
+    "start": 9.19,
+    "end": 9.35
+  },
+  {
+    "text": "ChatGPT.",
+    "start": 9.35,
+    "end": 10.28
+  },
+  {
+    "text": "Antes",
+    "start": 10.46,
+    "end": 10.62
+  },
+  {
+    "text": "de",
+    "start": 10.62,
+    "end": 10.73
+  },
+  {
+    "text": "seguir",
+    "start": 10.96,
+    "end": 11.16
+  },
+  {
+    "text": "avanzando,",
+    "start": 11.16,
+    "end": 11.8
+  },
+  {
+    "text": "quiero",
+    "start": 11.98,
+    "end": 12.12
+  },
+  {
+    "text": "dedicar",
+    "start": 12.12,
+    "end": 12.49
+  },
+  {
+    "text": "este",
+    "start": 12.49,
+    "end": 12.7
+  },
+  {
+    "text": "módulo",
+    "start": 12.7,
+    "end": 13
+  },
+  {
+    "text": "a",
+    "start": 13.08,
+    "end": 13.15
+  },
+  {
+    "text": "algo",
+    "start": 13.15,
+    "end": 13.29
+  },
+  {
+    "text": "igual",
+    "start": 13.74,
+    "end": 13.84
+  },
+  {
+    "text": "de",
+    "start": 13.84,
+    "end": 13.99
+  },
+  {
+    "text": "importante",
+    "start": 13.99,
+    "end": 14.74
+  },
+  {
+    "text": "que",
+    "start": 14.94,
+    "end": 14.99
+  },
+  {
+    "text": "todo",
+    "start": 14.99,
+    "end": 15.22
+  },
+  {
+    "text": "lo",
+    "start": 15.44,
+    "end": 15.45
+  },
+  {
+    "text": "anterior.",
+    "start": 15.45,
+    "end": 16.25
+  },
+  {
+    "text": "Los",
+    "start": 16.5,
+    "end": 16.52
+  },
+  {
+    "text": "errores",
+    "start": 16.52,
+    "end": 16.79
+  },
+  {
+    "text": "más",
+    "start": 17,
+    "end": 17.26
+  },
+  {
+    "text": "comunes",
+    "start": 17.26,
+    "end": 17.73
+  },
+  {
+    "text": "al",
+    "start": 17.73,
+    "end": 17.81
+  },
+  {
+    "text": "trabajar",
+    "start": 18.26,
+    "end": 18.39
+  },
+  {
+    "text": "con",
+    "start": 18.46,
+    "end": 18.56
+  },
+  {
+    "text": "agentes",
+    "start": 18.64,
+    "end": 19.12
+  },
+  {
+    "text": "y",
+    "start": 19.12,
+    "end": 19.3
+  },
+  {
+    "text": "cómo",
+    "start": 19.3,
+    "end": 19.58
+  },
+  {
+    "text": "evitarlos,",
+    "start": 19.8,
+    "end": 20.47
+  },
+  {
+    "text": "porque",
+    "start": 20.47,
+    "end": 20.63
+  },
+  {
+    "text": "un",
+    "start": 20.63,
+    "end": 21.06
+  },
+  {
+    "text": "agente",
+    "start": 21.06,
+    "end": 21.32
+  },
+  {
+    "text": "mal",
+    "start": 21.32,
+    "end": 21.5
+  },
+  {
+    "text": "cuidado",
+    "start": 21.5,
+    "end": 21.96
+  },
+  {
+    "text": "puede",
+    "start": 22.14,
+    "end": 22.25
+  },
+  {
+    "text": "generar",
+    "start": 22.25,
+    "end": 22.65
+  },
+  {
+    "text": "más",
+    "start": 22.65,
+    "end": 22.88
+  },
+  {
+    "text": "problemas",
+    "start": 22.88,
+    "end": 23.4
+  },
+  {
+    "text": "de",
+    "start": 23.4,
+    "end": 23.45
+  },
+  {
+    "text": "los",
+    "start": 23.45,
+    "end": 23.58
+  },
+  {
+    "text": "que",
+    "start": 23.58,
+    "end": 23.91
+  },
+  {
+    "text": "resuelve.",
+    "start": 23.91,
+    "end": 24.56
+  },
+  {
+    "text": "El",
+    "start": 24.56,
+    "end": 25.82
+  },
+  {
+    "text": "primer",
+    "start": 25.82,
+    "end": 25.88
+  },
+  {
+    "text": "error",
+    "start": 25.88,
+    "end": 26.72
+  },
+  {
+    "text": "y",
+    "start": 26.72,
+    "end": 26.79
+  },
+  {
+    "text": "el",
+    "start": 26.79,
+    "end": 26.93
+  },
+  {
+    "text": "más",
+    "start": 26.93,
+    "end": 27.13
+  },
+  {
+    "text": "frecuente",
+    "start": 27.13,
+    "end": 27.88
+  },
+  {
+    "text": "se",
+    "start": 27.88,
+    "end": 28.07
+  },
+  {
+    "text": "llama",
+    "start": 28.07,
+    "end": 28.55
+  },
+  {
+    "text": "alucinación.",
+    "start": 28.55,
+    "end": 29.72
+  },
+  {
+    "text": "Ya",
+    "start": 29.9,
+    "end": 29.92
+  },
+  {
+    "text": "lo",
+    "start": 29.92,
+    "end": 30.04
+  },
+  {
+    "text": "mencionamos",
+    "start": 30.04,
+    "end": 30.68
+  },
+  {
+    "text": "antes,",
+    "start": 30.68,
+    "end": 31.12
+  },
+  {
+    "text": "pero",
+    "start": 31.12,
+    "end": 31.21
+  },
+  {
+    "text": "quiero",
+    "start": 31.66,
+    "end": 31.72
+  },
+  {
+    "text": "que",
+    "start": 31.72,
+    "end": 31.9
+  },
+  {
+    "text": "quede",
+    "start": 31.9,
+    "end": 32.19
+  },
+  {
+    "text": "completamente",
+    "start": 32.27,
+    "end": 32.79
+  },
+  {
+    "text": "claro.",
+    "start": 33.22,
+    "end": 33.43
+  },
+  {
+    "text": "Un",
+    "start": 33.43,
+    "end": 33.66
+  },
+  {
+    "text": "agente,",
+    "start": 33.66,
+    "end": 34.24
+  },
+  {
+    "text": "cuando",
+    "start": 34.24,
+    "end": 34.68
+  },
+  {
+    "text": "no",
+    "start": 34.76,
+    "end": 34.86
+  },
+  {
+    "text": "sabe",
+    "start": 34.86,
+    "end": 34.98
+  },
+  {
+    "text": "algo,",
+    "start": 35.42,
+    "end": 35.68
+  },
+  {
+    "text": "no",
+    "start": 35.68,
+    "end": 35.83
+  },
+  {
+    "text": "siempre",
+    "start": 35.83,
+    "end": 36.36
+  },
+  {
+    "text": "dice,",
+    "start": 36.36,
+    "end": 36.9
+  },
+  {
+    "text": "no",
+    "start": 36.98,
+    "end": 37.12
+  },
+  {
+    "text": "lo",
+    "start": 37.12,
+    "end": 37.33
+  },
+  {
+    "text": "sé.",
+    "start": 37.33,
+    "end": 38.04
+  },
+  {
+    "text": "A",
+    "start": 38.04,
+    "end": 38.22
+  },
+  {
+    "text": "veces",
+    "start": 38.22,
+    "end": 38.37
+  },
+  {
+    "text": "genera",
+    "start": 38.37,
+    "end": 38.7
+  },
+  {
+    "text": "una",
+    "start": 38.72,
+    "end": 38.87
+  },
+  {
+    "text": "respuesta",
+    "start": 38.87,
+    "end": 39.39
+  },
+  {
+    "text": "que",
+    "start": 39.39,
+    "end": 39.53
+  },
+  {
+    "text": "suena",
+    "start": 39.56,
+    "end": 39.68
+  },
+  {
+    "text": "completamente",
+    "start": 39.99,
+    "end": 40.6
+  },
+  {
+    "text": "segura",
+    "start": 40.6,
+    "end": 40.96
+  },
+  {
+    "text": "y",
+    "start": 40.96,
+    "end": 41.14
+  },
+  {
+    "text": "bien",
+    "start": 41.14,
+    "end": 41.36
+  },
+  {
+    "text": "redactada,",
+    "start": 41.36,
+    "end": 42.16
+  },
+  {
+    "text": "pero",
+    "start": 42.24,
+    "end": 42.45
+  },
+  {
+    "text": "que",
+    "start": 42.47,
+    "end": 42.56
+  },
+  {
+    "text": "simplemente",
+    "start": 42.91,
+    "end": 43.33
+  },
+  {
+    "text": "es",
+    "start": 43.33,
+    "end": 43.43
+  },
+  {
+    "text": "incorrecta.",
+    "start": 43.51,
+    "end": 44.28
+  },
+  {
+    "text": "No",
+    "start": 44.28,
+    "end": 44.46
+  },
+  {
+    "text": "lo",
+    "start": 44.46,
+    "end": 44.52
+  },
+  {
+    "text": "hace",
+    "start": 44.52,
+    "end": 44.73
+  },
+  {
+    "text": "con",
+    "start": 44.73,
+    "end": 44.96
+  },
+  {
+    "text": "mala",
+    "start": 44.96,
+    "end": 45.18
+  },
+  {
+    "text": "intención,",
+    "start": 45.18,
+    "end": 45.86
+  },
+  {
+    "text": "es",
+    "start": 45.86,
+    "end": 45.92
+  },
+  {
+    "text": "una",
+    "start": 45.92,
+    "end": 46.23
+  },
+  {
+    "text": "limitación",
+    "start": 46.23,
+    "end": 46.75
+  },
+  {
+    "text": "de",
+    "start": 46.83,
+    "end": 46.88
+  },
+  {
+    "text": "cómo",
+    "start": 46.95,
+    "end": 47.32
+  },
+  {
+    "text": "funciona.",
+    "start": 47.32,
+    "end": 48.13
+  },
+  {
+    "text": "La",
+    "start": 48.13,
+    "end": 48.34
+  },
+  {
+    "text": "forma",
+    "start": 48.34,
+    "end": 48.61
+  },
+  {
+    "text": "de",
+    "start": 48.61,
+    "end": 48.63
+  },
+  {
+    "text": "protegerte",
+    "start": 48.84,
+    "end": 49.36
+  },
+  {
+    "text": "de",
+    "start": 49.44,
+    "end": 49.53
+  },
+  {
+    "text": "esto",
+    "start": 49.53,
+    "end": 49.65
+  },
+  {
+    "text": "es",
+    "start": 49.65,
+    "end": 49.8
+  },
+  {
+    "text": "simple.",
+    "start": 50.1,
+    "end": 50.56
+  },
+  {
+    "text": "Nunca",
+    "start": 50.74,
+    "end": 50.89
+  },
+  {
+    "text": "uses",
+    "start": 50.89,
+    "end": 51.01
+  },
+  {
+    "text": "la",
+    "start": 51.24,
+    "end": 51.28
+  },
+  {
+    "text": "respuesta",
+    "start": 51.28,
+    "end": 51.87
+  },
+  {
+    "text": "de",
+    "start": 51.87,
+    "end": 52
+  },
+  {
+    "text": "un",
+    "start": 52,
+    "end": 52.05
+  },
+  {
+    "text": "agente",
+    "start": 52.05,
+    "end": 52.56
+  },
+  {
+    "text": "como",
+    "start": 52.56,
+    "end": 52.89
+  },
+  {
+    "text": "fuente",
+    "start": 52.89,
+    "end": 53.38
+  },
+  {
+    "text": "final",
+    "start": 53.38,
+    "end": 53.63
+  },
+  {
+    "text": "para",
+    "start": 53.98,
+    "end": 54.08
+  },
+  {
+    "text": "algo",
+    "start": 54.08,
+    "end": 54.25
+  },
+  {
+    "text": "importante",
+    "start": 54.48,
+    "end": 55
+  },
+  {
+    "text": "sin",
+    "start": 55.08,
+    "end": 55.27
+  },
+  {
+    "text": "revisarla",
+    "start": 55.27,
+    "end": 55.87
+  },
+  {
+    "text": "a",
+    "start": 55.94,
+    "end": 55.97
+  },
+  {
+    "text": "tú",
+    "start": 55.97,
+    "end": 56.18
+  },
+  {
+    "text": "mismo",
+    "start": 56.18,
+    "end": 56.53
+  },
+  {
+    "text": "primero.",
+    "start": 56.53,
+    "end": 57.24
+  },
+  {
+    "text": "Sobre",
+    "start": 57.42,
+    "end": 57.69
+  },
+  {
+    "text": "todo",
+    "start": 57.92,
+    "end": 58.02
+  },
+  {
+    "text": "si",
+    "start": 58.06,
+    "end": 58.21
+  },
+  {
+    "text": "se",
+    "start": 58.21,
+    "end": 58.37
+  },
+  {
+    "text": "trata",
+    "start": 58.37,
+    "end": 58.73
+  },
+  {
+    "text": "de",
+    "start": 58.78,
+    "end": 58.85
+  },
+  {
+    "text": "fechas,",
+    "start": 59.1,
+    "end": 59.59
+  },
+  {
+    "text": "cifras",
+    "start": 59.59,
+    "end": 60.16
+  },
+  {
+    "text": "o",
+    "start": 60.16,
+    "end": 60.34
+  },
+  {
+    "text": "políticas",
+    "start": 60.34,
+    "end": 60.62
+  },
+  {
+    "text": "oficiales",
+    "start": 60.84,
+    "end": 61.36
+  },
+  {
+    "text": "de",
+    "start": 61.44,
+    "end": 61.51
+  },
+  {
+    "text": "tu",
+    "start": 61.51,
+    "end": 61.63
+  },
+  {
+    "text": "institución.",
+    "start": 61.63,
+    "end": 62.6
+  },
+  {
+    "text": "El",
+    "start": 62.6,
+    "end": 63.9
+  },
+  {
+    "text": "segundo",
+    "start": 63.9,
+    "end": 64.03
+  },
+  {
+    "text": "error",
+    "start": 64.03,
+    "end": 64.84
+  },
+  {
+    "text": "es",
+    "start": 64.84,
+    "end": 64.92
+  },
+  {
+    "text": "descuidar",
+    "start": 65,
+    "end": 65.34
+  },
+  {
+    "text": "la",
+    "start": 65.34,
+    "end": 65.67
+  },
+  {
+    "text": "privacidad",
+    "start": 65.67,
+    "end": 66.19
+  },
+  {
+    "text": "de",
+    "start": 66.27,
+    "end": 66.33
+  },
+  {
+    "text": "la",
+    "start": 66.39,
+    "end": 66.5
+  },
+  {
+    "text": "información,",
+    "start": 66.5,
+    "end": 67.36
+  },
+  {
+    "text": "especialmente",
+    "start": 67.54,
+    "end": 68.06
+  },
+  {
+    "text": "cuando",
+    "start": 68.06,
+    "end": 68.38
+  },
+  {
+    "text": "hablamos",
+    "start": 68.38,
+    "end": 68.8
+  },
+  {
+    "text": "de",
+    "start": 68.8,
+    "end": 68.85
+  },
+  {
+    "text": "datos",
+    "start": 68.85,
+    "end": 68.97
+  },
+  {
+    "text": "de",
+    "start": 68.97,
+    "end": 69.31
+  },
+  {
+    "text": "estudiantes",
+    "start": 69.31,
+    "end": 69.92
+  },
+  {
+    "text": "o",
+    "start": 69.92,
+    "end": 69.97
+  },
+  {
+    "text": "de",
+    "start": 70.03,
+    "end": 70.17
+  },
+  {
+    "text": "familias.",
+    "start": 70.17,
+    "end": 71.07
+  },
+  {
+    "text": "Antes",
+    "start": 71.34,
+    "end": 71.46
+  },
+  {
+    "text": "de",
+    "start": 71.46,
+    "end": 71.58
+  },
+  {
+    "text": "cargar",
+    "start": 71.58,
+    "end": 71.94
+  },
+  {
+    "text": "cualquier",
+    "start": 71.94,
+    "end": 72.48
+  },
+  {
+    "text": "documento",
+    "start": 72.48,
+    "end": 73.02
+  },
+  {
+    "text": "a",
+    "start": 73.02,
+    "end": 73.11
+  },
+  {
+    "text": "tu",
+    "start": 73.11,
+    "end": 73.2
+  },
+  {
+    "text": "agente,",
+    "start": 73.2,
+    "end": 73.6
+  },
+  {
+    "text": "pregúntate",
+    "start": 73.78,
+    "end": 74.26
+  },
+  {
+    "text": "si",
+    "start": 74.28,
+    "end": 74.38
+  },
+  {
+    "text": "ese",
+    "start": 74.42,
+    "end": 74.56
+  },
+  {
+    "text": "documento",
+    "start": 74.56,
+    "end": 75.09
+  },
+  {
+    "text": "contiene",
+    "start": 75.09,
+    "end": 75.58
+  },
+  {
+    "text": "información",
+    "start": 75.58,
+    "end": 76.31
+  },
+  {
+    "text": "sensible",
+    "start": 76.31,
+    "end": 76.67
+  },
+  {
+    "text": "que",
+    "start": 77.02,
+    "end": 77.03
+  },
+  {
+    "text": "no",
+    "start": 77.03,
+    "end": 77.15
+  },
+  {
+    "text": "debería",
+    "start": 77.15,
+    "end": 77.62
+  },
+  {
+    "text": "estar",
+    "start": 77.66,
+    "end": 77.98
+  },
+  {
+    "text": "ahí.",
+    "start": 77.98,
+    "end": 78.33
+  },
+  {
+    "text": "Nombres",
+    "start": 78.52,
+    "end": 78.89
+  },
+  {
+    "text": "completos,",
+    "start": 78.89,
+    "end": 79.62
+  },
+  {
+    "text": "calificaciones",
+    "start": 79.62,
+    "end": 80.51
+  },
+  {
+    "text": "individuales,",
+    "start": 80.58,
+    "end": 81.51
+  },
+  {
+    "text": "situaciones",
+    "start": 81.7,
+    "end": 82.22
+  },
+  {
+    "text": "familiares",
+    "start": 82.22,
+    "end": 82.86
+  },
+  {
+    "text": "particulares.",
+    "start": 82.86,
+    "end": 83.76
+  },
+  {
+    "text": "Si",
+    "start": 83.76,
+    "end": 84.02
+  },
+  {
+    "text": "tu",
+    "start": 84.02,
+    "end": 84.06
+  },
+  {
+    "text": "agente",
+    "start": 84.06,
+    "end": 84.29
+  },
+  {
+    "text": "no",
+    "start": 84.29,
+    "end": 84.52
+  },
+  {
+    "text": "necesita",
+    "start": 84.52,
+    "end": 84.95
+  },
+  {
+    "text": "esa",
+    "start": 84.95,
+    "end": 85.04
+  },
+  {
+    "text": "información",
+    "start": 85.12,
+    "end": 85.33
+  },
+  {
+    "text": "específica",
+    "start": 85.79,
+    "end": 86.44
+  },
+  {
+    "text": "para",
+    "start": 86.62,
+    "end": 86.82
+  },
+  {
+    "text": "cumplir",
+    "start": 86.82,
+    "end": 87.34
+  },
+  {
+    "text": "su",
+    "start": 87.34,
+    "end": 87.49
+  },
+  {
+    "text": "tarea,",
+    "start": 87.49,
+    "end": 87.93
+  },
+  {
+    "text": "mejor",
+    "start": 88.01,
+    "end": 88.02
+  },
+  {
+    "text": "no",
+    "start": 88.39,
+    "end": 88.51
+  },
+  {
+    "text": "se",
+    "start": 88.58,
+    "end": 88.68
+  },
+  {
+    "text": "la",
+    "start": 88.68,
+    "end": 88.83
+  },
+  {
+    "text": "des.",
+    "start": 88.83,
+    "end": 89.32
+  },
+  {
+    "text": "Entre",
+    "start": 89.5,
+    "end": 89.66
+  },
+  {
+    "text": "menos",
+    "start": 89.66,
+    "end": 89.77
+  },
+  {
+    "text": "datos",
+    "start": 90,
+    "end": 90.34
+  },
+  {
+    "text": "sensibles",
+    "start": 90.34,
+    "end": 90.81
+  },
+  {
+    "text": "maneje,",
+    "start": 91.21,
+    "end": 91.47
+  },
+  {
+    "text": "menor",
+    "start": 91.47,
+    "end": 91.79
+  },
+  {
+    "text": "es",
+    "start": 91.87,
+    "end": 91.92
+  },
+  {
+    "text": "el",
+    "start": 91.99,
+    "end": 92.07
+  },
+  {
+    "text": "riesgo.",
+    "start": 92.07,
+    "end": 92.72
+  },
+  {
+    "text": "El",
+    "start": 92.72,
+    "end": 93.74
+  },
+  {
+    "text": "tercer",
+    "start": 93.74,
+    "end": 93.99
+  },
+  {
+    "text": "error",
+    "start": 93.99,
+    "end": 94.76
+  },
+  {
+    "text": "es",
+    "start": 94.84,
+    "end": 94.91
+  },
+  {
+    "text": "publicar",
+    "start": 94.91,
+    "end": 95.36
+  },
+  {
+    "text": "un",
+    "start": 95.36,
+    "end": 95.5
+  },
+  {
+    "text": "agente",
+    "start": 95.5,
+    "end": 95.8
+  },
+  {
+    "text": "sin",
+    "start": 95.88,
+    "end": 96.03
+  },
+  {
+    "text": "haberlo",
+    "start": 96.11,
+    "end": 96.5
+  },
+  {
+    "text": "probado",
+    "start": 96.5,
+    "end": 96.98
+  },
+  {
+    "text": "a",
+    "start": 96.98,
+    "end": 97.06
+  },
+  {
+    "text": "fondo.",
+    "start": 97.06,
+    "end": 97.63
+  },
+  {
+    "text": "Ya",
+    "start": 97.63,
+    "end": 97.82
+  },
+  {
+    "text": "lo",
+    "start": 97.82,
+    "end": 97.88
+  },
+  {
+    "text": "practicamos",
+    "start": 97.88,
+    "end": 98.54
+  },
+  {
+    "text": "en",
+    "start": 98.54,
+    "end": 98.66
+  },
+  {
+    "text": "los",
+    "start": 98.66,
+    "end": 98.84
+  },
+  {
+    "text": "módulos",
+    "start": 98.84,
+    "end": 99.15
+  },
+  {
+    "text": "anteriores,",
+    "start": 99.44,
+    "end": 99.96
+  },
+  {
+    "text": "pero",
+    "start": 100.14,
+    "end": 100.23
+  },
+  {
+    "text": "vale",
+    "start": 100.23,
+    "end": 100.41
+  },
+  {
+    "text": "la",
+    "start": 100.41,
+    "end": 100.64
+  },
+  {
+    "text": "pena",
+    "start": 100.64,
+    "end": 100.9
+  },
+  {
+    "text": "repetirlo",
+    "start": 100.9,
+    "end": 101.45
+  },
+  {
+    "text": "aquí.",
+    "start": 101.5,
+    "end": 102.12
+  },
+  {
+    "text": "Prueba",
+    "start": 102.24,
+    "end": 102.48
+  },
+  {
+    "text": "tu",
+    "start": 102.48,
+    "end": 102.57
+  },
+  {
+    "text": "agente",
+    "start": 102.72,
+    "end": 102.96
+  },
+  {
+    "text": "con",
+    "start": 102.96,
+    "end": 103.14
+  },
+  {
+    "text": "preguntas",
+    "start": 103.14,
+    "end": 103.61
+  },
+  {
+    "text": "difíciles,",
+    "start": 104.06,
+    "end": 104.36
+  },
+  {
+    "text": "con",
+    "start": 104.62,
+    "end": 104.65
+  },
+  {
+    "text": "preguntas",
+    "start": 104.65,
+    "end": 105.29
+  },
+  {
+    "text": "fuera",
+    "start": 105.29,
+    "end": 105.64
+  },
+  {
+    "text": "de",
+    "start": 105.64,
+    "end": 105.78
+  },
+  {
+    "text": "su",
+    "start": 105.78,
+    "end": 105.92
+  },
+  {
+    "text": "tema,",
+    "start": 105.92,
+    "end": 106.24
+  },
+  {
+    "text": "con",
+    "start": 106.42,
+    "end": 106.43
+  },
+  {
+    "text": "intentos",
+    "start": 106.43,
+    "end": 106.93
+  },
+  {
+    "text": "deliberados",
+    "start": 106.93,
+    "end": 107.62
+  },
+  {
+    "text": "de",
+    "start": 107.62,
+    "end": 107.73
+  },
+  {
+    "text": "hacerlo",
+    "start": 107.74,
+    "end": 107.75
+  },
+  {
+    "text": "salirse",
+    "start": 108.19,
+    "end": 108.61
+  },
+  {
+    "text": "de",
+    "start": 108.61,
+    "end": 108.71
+  },
+  {
+    "text": "sus",
+    "start": 108.79,
+    "end": 108.92
+  },
+  {
+    "text": "límites.",
+    "start": 108.92,
+    "end": 109.68
+  },
+  {
+    "text": "Si",
+    "start": 109.68,
+    "end": 109.86
+  },
+  {
+    "text": "solo",
+    "start": 109.86,
+    "end": 110.07
+  },
+  {
+    "text": "lo",
+    "start": 110.07,
+    "end": 110.14
+  },
+  {
+    "text": "pruebas",
+    "start": 110.36,
+    "end": 110.65
+  },
+  {
+    "text": "con",
+    "start": 110.65,
+    "end": 110.84
+  },
+  {
+    "text": "preguntas",
+    "start": 110.84,
+    "end": 111.17
+  },
+  {
+    "text": "fáciles,",
+    "start": 111.62,
+    "end": 111.96
+  },
+  {
+    "text": "vas",
+    "start": 112.14,
+    "end": 112.15
+  },
+  {
+    "text": "a",
+    "start": 112.15,
+    "end": 112.21
+  },
+  {
+    "text": "tener",
+    "start": 112.21,
+    "end": 112.42
+  },
+  {
+    "text": "una",
+    "start": 112.64,
+    "end": 112.72
+  },
+  {
+    "text": "falsa",
+    "start": 112.72,
+    "end": 113.04
+  },
+  {
+    "text": "sensación",
+    "start": 113.04,
+    "end": 113.47
+  },
+  {
+    "text": "de",
+    "start": 113.47,
+    "end": 113.91
+  },
+  {
+    "text": "seguridad",
+    "start": 113.91,
+    "end": 114.43
+  },
+  {
+    "text": "y",
+    "start": 114.43,
+    "end": 114.62
+  },
+  {
+    "text": "los",
+    "start": 114.62,
+    "end": 114.84
+  },
+  {
+    "text": "problemas",
+    "start": 114.84,
+    "end": 115.55
+  },
+  {
+    "text": "van",
+    "start": 115.55,
+    "end": 115.79
+  },
+  {
+    "text": "a",
+    "start": 115.79,
+    "end": 115.87
+  },
+  {
+    "text": "aparecer",
+    "start": 115.87,
+    "end": 116.51
+  },
+  {
+    "text": "justo",
+    "start": 116.58,
+    "end": 116.61
+  },
+  {
+    "text": "cuando",
+    "start": 116.61,
+    "end": 116.68
+  },
+  {
+    "text": "ya",
+    "start": 116.68,
+    "end": 116.76
+  },
+  {
+    "text": "lo",
+    "start": 116.76,
+    "end": 116.78
+  },
+  {
+    "text": "estés",
+    "start": 116.78,
+    "end": 116.91
+  },
+  {
+    "text": "usando",
+    "start": 116.99,
+    "end": 117.36
+  },
+  {
+    "text": "de",
+    "start": 117.36,
+    "end": 117.52
+  },
+  {
+    "text": "verdad,",
+    "start": 117.94,
+    "end": 118.08
+  },
+  {
+    "text": "con",
+    "start": 118.26,
+    "end": 118.28
+  },
+  {
+    "text": "personas",
+    "start": 118.28,
+    "end": 118.81
+  },
+  {
+    "text": "reales",
+    "start": 118.81,
+    "end": 119.2
+  },
+  {
+    "text": "dependiendo",
+    "start": 119.2,
+    "end": 119.68
+  },
+  {
+    "text": "de",
+    "start": 120.02,
+    "end": 120.06
+  },
+  {
+    "text": "él.",
+    "start": 120.06,
+    "end": 120.48
+  },
+  {
+    "text": "El",
+    "start": 120.48,
+    "end": 121.66
+  },
+  {
+    "text": "cuarto",
+    "start": 121.66,
+    "end": 121.75
+  },
+  {
+    "text": "error",
+    "start": 121.75,
+    "end": 122.56
+  },
+  {
+    "text": "es",
+    "start": 122.56,
+    "end": 122.66
+  },
+  {
+    "text": "no",
+    "start": 122.66,
+    "end": 122.68
+  },
+  {
+    "text": "dejar",
+    "start": 122.76,
+    "end": 122.97
+  },
+  {
+    "text": "revisión",
+    "start": 122.97,
+    "end": 123.49
+  },
+  {
+    "text": "humana",
+    "start": 123.49,
+    "end": 123.84
+  },
+  {
+    "text": "en",
+    "start": 123.84,
+    "end": 123.93
+  },
+  {
+    "text": "las",
+    "start": 123.93,
+    "end": 124.07
+  },
+  {
+    "text": "tareas",
+    "start": 124.07,
+    "end": 124.36
+  },
+  {
+    "text": "que",
+    "start": 124.36,
+    "end": 124.55
+  },
+  {
+    "text": "lo",
+    "start": 124.55,
+    "end": 124.57
+  },
+  {
+    "text": "ameritan.",
+    "start": 124.98,
+    "end": 125.52
+  },
+  {
+    "text": "Un",
+    "start": 125.52,
+    "end": 125.7
+  },
+  {
+    "text": "agente",
+    "start": 125.7,
+    "end": 125.92
+  },
+  {
+    "text": "puede",
+    "start": 125.92,
+    "end": 125.98
+  },
+  {
+    "text": "dejarte",
+    "start": 126.2,
+    "end": 126.53
+  },
+  {
+    "text": "un",
+    "start": 126.53,
+    "end": 126.63
+  },
+  {
+    "text": "borrador",
+    "start": 126.63,
+    "end": 127.01
+  },
+  {
+    "text": "excelente",
+    "start": 127.01,
+    "end": 127.56
+  },
+  {
+    "text": "de",
+    "start": 127.56,
+    "end": 127.69
+  },
+  {
+    "text": "una",
+    "start": 127.69,
+    "end": 127.89
+  },
+  {
+    "text": "respuesta,",
+    "start": 127.89,
+    "end": 128.6
+  },
+  {
+    "text": "un",
+    "start": 128.6,
+    "end": 128.82
+  },
+  {
+    "text": "comunicado",
+    "start": 128.82,
+    "end": 129.73
+  },
+  {
+    "text": "o",
+    "start": 129.73,
+    "end": 129.82
+  },
+  {
+    "text": "un",
+    "start": 129.82,
+    "end": 129.99
+  },
+  {
+    "text": "resumen,",
+    "start": 129.99,
+    "end": 130.84
+  },
+  {
+    "text": "pero",
+    "start": 131.02,
+    "end": 131.07
+  },
+  {
+    "text": "eso",
+    "start": 131.07,
+    "end": 131.24
+  },
+  {
+    "text": "no",
+    "start": 131.24,
+    "end": 131.3
+  },
+  {
+    "text": "significa",
+    "start": 131.52,
+    "end": 131.88
+  },
+  {
+    "text": "que",
+    "start": 131.88,
+    "end": 132.02
+  },
+  {
+    "text": "deba",
+    "start": 132.02,
+    "end": 132.19
+  },
+  {
+    "text": "enviarse",
+    "start": 132.19,
+    "end": 132.48
+  },
+  {
+    "text": "sin",
+    "start": 132.78,
+    "end": 132.8
+  },
+  {
+    "text": "que",
+    "start": 132.8,
+    "end": 133
+  },
+  {
+    "text": "una",
+    "start": 133,
+    "end": 133.2
+  },
+  {
+    "text": "persona",
+    "start": 133.2,
+    "end": 133.67
+  },
+  {
+    "text": "lo",
+    "start": 133.67,
+    "end": 133.78
+  },
+  {
+    "text": "lea",
+    "start": 133.85,
+    "end": 133.93
+  },
+  {
+    "text": "antes,",
+    "start": 134.33,
+    "end": 134.52
+  },
+  {
+    "text": "especialmente",
+    "start": 134.7,
+    "end": 135.23
+  },
+  {
+    "text": "cuando",
+    "start": 135.23,
+    "end": 135.56
+  },
+  {
+    "text": "se",
+    "start": 135.56,
+    "end": 135.67
+  },
+  {
+    "text": "trata",
+    "start": 135.67,
+    "end": 135.95
+  },
+  {
+    "text": "de",
+    "start": 135.95,
+    "end": 136.01
+  },
+  {
+    "text": "comunicación",
+    "start": 136.04,
+    "end": 136.68
+  },
+  {
+    "text": "oficial",
+    "start": 136.68,
+    "end": 136.99
+  },
+  {
+    "text": "de",
+    "start": 137.07,
+    "end": 137.12
+  },
+  {
+    "text": "la",
+    "start": 137.19,
+    "end": 137.32
+  },
+  {
+    "text": "institución",
+    "start": 137.32,
+    "end": 138.2
+  },
+  {
+    "text": "o",
+    "start": 138.2,
+    "end": 138.29
+  },
+  {
+    "text": "de",
+    "start": 138.29,
+    "end": 138.38
+  },
+  {
+    "text": "decisiones",
+    "start": 138.38,
+    "end": 138.98
+  },
+  {
+    "text": "que",
+    "start": 139.02,
+    "end": 139.18
+  },
+  {
+    "text": "afectan",
+    "start": 139.19,
+    "end": 139.62
+  },
+  {
+    "text": "a",
+    "start": 139.62,
+    "end": 139.68
+  },
+  {
+    "text": "alguien",
+    "start": 139.68,
+    "end": 139.71
+  },
+  {
+    "text": "directamente.",
+    "start": 140.15,
+    "end": 141.12
+  },
+  {
+    "text": "La",
+    "start": 141.12,
+    "end": 141.3
+  },
+  {
+    "text": "automatización",
+    "start": 141.3,
+    "end": 142.01
+  },
+  {
+    "text": "te",
+    "start": 142.01,
+    "end": 142.1
+  },
+  {
+    "text": "ahorra",
+    "start": 142.11,
+    "end": 142.42
+  },
+  {
+    "text": "el",
+    "start": 142.42,
+    "end": 142.52
+  },
+  {
+    "text": "trabajo",
+    "start": 142.52,
+    "end": 142.63
+  },
+  {
+    "text": "de",
+    "start": 142.63,
+    "end": 143.07
+  },
+  {
+    "text": "crear",
+    "start": 143.07,
+    "end": 143.36
+  },
+  {
+    "text": "el",
+    "start": 143.44,
+    "end": 143.51
+  },
+  {
+    "text": "primer",
+    "start": 143.51,
+    "end": 143.91
+  },
+  {
+    "text": "borrador,",
+    "start": 143.91,
+    "end": 144.48
+  },
+  {
+    "text": "no",
+    "start": 144.48,
+    "end": 144.66
+  },
+  {
+    "text": "te",
+    "start": 144.66,
+    "end": 144.72
+  },
+  {
+    "text": "reemplazan",
+    "start": 144.72,
+    "end": 145.32
+  },
+  {
+    "text": "la",
+    "start": 145.32,
+    "end": 145.44
+  },
+  {
+    "text": "responsabilidad",
+    "start": 145.44,
+    "end": 146.36
+  },
+  {
+    "text": "de",
+    "start": 146.42,
+    "end": 146.48
+  },
+  {
+    "text": "revisarlo.",
+    "start": 146.48,
+    "end": 147.28
+  },
+  {
+    "text": "Yel",
+    "start": 147.28,
+    "end": 147.77
+  },
+  {
+    "text": "quinto",
+    "start": 147.77,
+    "end": 148.26
+  },
+  {
+    "text": "error,",
+    "start": 148.26,
+    "end": 148.82
+  },
+  {
+    "text": "que",
+    "start": 148.82,
+    "end": 149.11
+  },
+  {
+    "text": "es",
+    "start": 149.11,
+    "end": 149.28
+  },
+  {
+    "text": "más",
+    "start": 149.36,
+    "end": 149.57
+  },
+  {
+    "text": "sutil,",
+    "start": 149.57,
+    "end": 150.44
+  },
+  {
+    "text": "es",
+    "start": 150.44,
+    "end": 150.62
+  },
+  {
+    "text": "abandonar",
+    "start": 150.62,
+    "end": 151.16
+  },
+  {
+    "text": "el",
+    "start": 151.16,
+    "end": 151.29
+  },
+  {
+    "text": "agente",
+    "start": 151.29,
+    "end": 151.64
+  },
+  {
+    "text": "después",
+    "start": 151.72,
+    "end": 151.93
+  },
+  {
+    "text": "de",
+    "start": 151.93,
+    "end": 152.39
+  },
+  {
+    "text": "crearlo.",
+    "start": 152.39,
+    "end": 153.04
+  },
+  {
+    "text": "Un",
+    "start": 153.04,
+    "end": 153.22
+  },
+  {
+    "text": "agente",
+    "start": 153.22,
+    "end": 153.49
+  },
+  {
+    "text": "no",
+    "start": 153.72,
+    "end": 153.74
+  },
+  {
+    "text": "es",
+    "start": 153.74,
+    "end": 153.88
+  },
+  {
+    "text": "algo",
+    "start": 153.88,
+    "end": 154.16
+  },
+  {
+    "text": "que",
+    "start": 154.16,
+    "end": 154.37
+  },
+  {
+    "text": "armas",
+    "start": 154.37,
+    "end": 154.54
+  },
+  {
+    "text": "una",
+    "start": 154.54,
+    "end": 154.99
+  },
+  {
+    "text": "vez",
+    "start": 154.99,
+    "end": 155.11
+  },
+  {
+    "text": "y",
+    "start": 155.18,
+    "end": 155.21
+  },
+  {
+    "text": "queda",
+    "start": 155.21,
+    "end": 155.51
+  },
+  {
+    "text": "perfecto",
+    "start": 155.59,
+    "end": 156.12
+  },
+  {
+    "text": "para",
+    "start": 156.12,
+    "end": 156.13
+  },
+  {
+    "text": "siempre.",
+    "start": 156.54,
+    "end": 157.11
+  },
+  {
+    "text": "Las",
+    "start": 157.11,
+    "end": 157.34
+  },
+  {
+    "text": "necesidades",
+    "start": 157.34,
+    "end": 158
+  },
+  {
+    "text": "de",
+    "start": 158,
+    "end": 158.12
+  },
+  {
+    "text": "tu",
+    "start": 158.12,
+    "end": 158.24
+  },
+  {
+    "text": "institución",
+    "start": 158.24,
+    "end": 158.74
+  },
+  {
+    "text": "cambian,",
+    "start": 159.1,
+    "end": 159.52
+  },
+  {
+    "text": "la",
+    "start": 159.52,
+    "end": 159.7
+  },
+  {
+    "text": "información",
+    "start": 159.7,
+    "end": 160.47
+  },
+  {
+    "text": "se",
+    "start": 160.47,
+    "end": 160.6
+  },
+  {
+    "text": "actualiza",
+    "start": 160.6,
+    "end": 161.1
+  },
+  {
+    "text": "y",
+    "start": 161.1,
+    "end": 161.42
+  },
+  {
+    "text": "tu",
+    "start": 161.42,
+    "end": 161.43
+  },
+  {
+    "text": "agente",
+    "start": 161.43,
+    "end": 161.69
+  },
+  {
+    "text": "necesita",
+    "start": 161.92,
+    "end": 162.32
+  },
+  {
+    "text": "que",
+    "start": 162.32,
+    "end": 162.44
+  },
+  {
+    "text": "vuelvas",
+    "start": 162.52,
+    "end": 162.84
+  },
+  {
+    "text": "de",
+    "start": 162.84,
+    "end": 163.18
+  },
+  {
+    "text": "vez",
+    "start": 163.18,
+    "end": 163.28
+  },
+  {
+    "text": "en",
+    "start": 163.28,
+    "end": 163.41
+  },
+  {
+    "text": "cuando",
+    "start": 163.41,
+    "end": 163.84
+  },
+  {
+    "text": "a",
+    "start": 163.84,
+    "end": 164.02
+  },
+  {
+    "text": "ajustar",
+    "start": 164.02,
+    "end": 164.29
+  },
+  {
+    "text": "su",
+    "start": 164.29,
+    "end": 164.52
+  },
+  {
+    "text": "instrucción",
+    "start": 164.52,
+    "end": 165.16
+  },
+  {
+    "text": "o",
+    "start": 165.16,
+    "end": 165.22
+  },
+  {
+    "text": "a",
+    "start": 165.22,
+    "end": 165.28
+  },
+  {
+    "text": "actualizar",
+    "start": 165.28,
+    "end": 165.88
+  },
+  {
+    "text": "el",
+    "start": 165.88,
+    "end": 166
+  },
+  {
+    "text": "documento",
+    "start": 166,
+    "end": 166.54
+  },
+  {
+    "text": "que",
+    "start": 166.54,
+    "end": 166.72
+  },
+  {
+    "text": "le",
+    "start": 166.72,
+    "end": 166.78
+  },
+  {
+    "text": "cargaste.",
+    "start": 166.84,
+    "end": 167.55
+  },
+  {
+    "text": "Los",
+    "start": 167.74,
+    "end": 167.78
+  },
+  {
+    "text": "mejores",
+    "start": 167.78,
+    "end": 168.3
+  },
+  {
+    "text": "agentes",
+    "start": 168.3,
+    "end": 168.76
+  },
+  {
+    "text": "no",
+    "start": 168.84,
+    "end": 168.95
+  },
+  {
+    "text": "son",
+    "start": 168.95,
+    "end": 169.05
+  },
+  {
+    "text": "los",
+    "start": 169.05,
+    "end": 169.19
+  },
+  {
+    "text": "que",
+    "start": 169.5,
+    "end": 169.61
+  },
+  {
+    "text": "se",
+    "start": 169.61,
+    "end": 169.75
+  },
+  {
+    "text": "construyeron",
+    "start": 169.75,
+    "end": 170.62
+  },
+  {
+    "text": "mejor",
+    "start": 170.62,
+    "end": 170.65
+  },
+  {
+    "text": "la",
+    "start": 171.06,
+    "end": 171.14
+  },
+  {
+    "text": "primera",
+    "start": 171.14,
+    "end": 171.62
+  },
+  {
+    "text": "vez,",
+    "start": 171.69,
+    "end": 172.12
+  },
+  {
+    "text": "son",
+    "start": 172.3,
+    "end": 172.39
+  },
+  {
+    "text": "los",
+    "start": 172.39,
+    "end": 172.57
+  },
+  {
+    "text": "que",
+    "start": 172.57,
+    "end": 172.59
+  },
+  {
+    "text": "alguien",
+    "start": 172.8,
+    "end": 173.21
+  },
+  {
+    "text": "sigue",
+    "start": 173.21,
+    "end": 173.53
+  },
+  {
+    "text": "cuidando",
+    "start": 173.53,
+    "end": 174.03
+  },
+  {
+    "text": "con",
+    "start": 174.07,
+    "end": 174.19
+  },
+  {
+    "text": "el",
+    "start": 174.26,
+    "end": 174.34
+  },
+  {
+    "text": "tiempo.",
+    "start": 174.34,
+    "end": 174.96
+  },
+  {
+    "text": "Si",
+    "start": 174.96,
+    "end": 175.647
+  },
+  {
+    "text": "evitas",
+    "start": 175.647,
+    "end": 176.333
+  },
+  {
+    "text": "estos",
+    "start": 176.333,
+    "end": 177.02
+  },
+  {
+    "text": "cinco",
+    "start": 177.02,
+    "end": 177.68
+  },
+  {
+    "text": "errores,",
+    "start": 177.68,
+    "end": 178.8
+  },
+  {
+    "text": "confiar",
+    "start": 178.98,
+    "end": 179.22
+  },
+  {
+    "text": "ciegamente",
+    "start": 179.22,
+    "end": 179.83
+  },
+  {
+    "text": "en",
+    "start": 179.83,
+    "end": 179.95
+  },
+  {
+    "text": "sus",
+    "start": 179.95,
+    "end": 180.13
+  },
+  {
+    "text": "respuestas,",
+    "start": 180.13,
+    "end": 180.87
+  },
+  {
+    "text": "descuidar",
+    "start": 181.1,
+    "end": 181.37
+  },
+  {
+    "text": "información",
+    "start": 181.6,
+    "end": 182.12
+  },
+  {
+    "text": "sensible,",
+    "start": 182.2,
+    "end": 182.84
+  },
+  {
+    "text": "no",
+    "start": 182.84,
+    "end": 183.02
+  },
+  {
+    "text": "probarlo",
+    "start": 183.02,
+    "end": 183.62
+  },
+  {
+    "text": "a",
+    "start": 183.66,
+    "end": 183.71
+  },
+  {
+    "text": "fondo,",
+    "start": 183.71,
+    "end": 184.28
+  },
+  {
+    "text": "saltarte",
+    "start": 184.46,
+    "end": 184.73
+  },
+  {
+    "text": "la",
+    "start": 184.96,
+    "end": 184.98
+  },
+  {
+    "text": "revisión",
+    "start": 184.98,
+    "end": 185.62
+  },
+  {
+    "text": "humana",
+    "start": 185.62,
+    "end": 186.08
+  },
+  {
+    "text": "y",
+    "start": 186.08,
+    "end": 186.23
+  },
+  {
+    "text": "abandonarlo",
+    "start": 186.23,
+    "end": 186.88
+  },
+  {
+    "text": "después",
+    "start": 186.88,
+    "end": 187.35
+  },
+  {
+    "text": "de",
+    "start": 187.35,
+    "end": 187.75
+  },
+  {
+    "text": "crearlo,",
+    "start": 187.75,
+    "end": 188.2
+  },
+  {
+    "text": "vas",
+    "start": 188.38,
+    "end": 188.4
+  },
+  {
+    "text": "a",
+    "start": 188.4,
+    "end": 188.46
+  },
+  {
+    "text": "tener",
+    "start": 188.46,
+    "end": 188.66
+  },
+  {
+    "text": "un",
+    "start": 188.88,
+    "end": 188.93
+  },
+  {
+    "text": "agente",
+    "start": 188.93,
+    "end": 189.36
+  },
+  {
+    "text": "que",
+    "start": 189.36,
+    "end": 189.55
+  },
+  {
+    "text": "realmente",
+    "start": 189.55,
+    "end": 189.69
+  },
+  {
+    "text": "le",
+    "start": 190.15,
+    "end": 190.24
+  },
+  {
+    "text": "sirve",
+    "start": 190.24,
+    "end": 190.55
+  },
+  {
+    "text": "a",
+    "start": 190.55,
+    "end": 190.61
+  },
+  {
+    "text": "tu",
+    "start": 190.61,
+    "end": 190.67
+  },
+  {
+    "text": "institución,",
+    "start": 190.75,
+    "end": 191.52
+  },
+  {
+    "text": "de",
+    "start": 191.52,
+    "end": 191.7
+  },
+  {
+    "text": "forma",
+    "start": 191.7,
+    "end": 191.98
+  },
+  {
+    "text": "segura",
+    "start": 192.2,
+    "end": 192.43
+  },
+  {
+    "text": "y",
+    "start": 192.43,
+    "end": 192.49
+  },
+  {
+    "text": "sostenible",
+    "start": 192.5,
+    "end": 193.01
+  },
+  {
+    "text": "en",
+    "start": 193.01,
+    "end": 193.46
+  },
+  {
+    "text": "el",
+    "start": 193.46,
+    "end": 193.48
+  },
+  {
+    "text": "tiempo.",
+    "start": 193.48,
+    "end": 194.12
+  },
+  {
+    "text": "En",
+    "start": 194.12,
+    "end": 194.65
+  },
+  {
+    "text": "el",
+    "start": 194.65,
+    "end": 195.18
+  },
+  {
+    "text": "próximo",
+    "start": 195.18,
+    "end": 195.46
+  },
+  {
+    "text": "módulo,",
+    "start": 195.65,
+    "end": 196.36
+  },
+  {
+    "text": "vamos",
+    "start": 196.54,
+    "end": 196.67
+  },
+  {
+    "text": "a",
+    "start": 196.67,
+    "end": 196.73
+  },
+  {
+    "text": "resolver",
+    "start": 196.73,
+    "end": 197.22
+  },
+  {
+    "text": "algo",
+    "start": 197.22,
+    "end": 197.48
+  },
+  {
+    "text": "que",
+    "start": 197.48,
+    "end": 197.66
+  },
+  {
+    "text": "seguramente",
+    "start": 197.66,
+    "end": 198.36
+  },
+  {
+    "text": "has",
+    "start": 198.36,
+    "end": 198.51
+  },
+  {
+    "text": "escuchado",
+    "start": 198.51,
+    "end": 198.96
+  },
+  {
+    "text": "varias",
+    "start": 198.96,
+    "end": 199.3
+  },
+  {
+    "text": "veces",
+    "start": 199.36,
+    "end": 199.44
+  },
+  {
+    "text": "a",
+    "start": 199.44,
+    "end": 199.82
+  },
+  {
+    "text": "lo",
+    "start": 199.82,
+    "end": 199.93
+  },
+  {
+    "text": "largo",
+    "start": 199.93,
+    "end": 200.09
+  },
+  {
+    "text": "del",
+    "start": 200.32,
+    "end": 200.52
+  },
+  {
+    "text": "curso",
+    "start": 200.52,
+    "end": 200.84
+  },
+  {
+    "text": "sin",
+    "start": 200.92,
+    "end": 201.11
+  },
+  {
+    "text": "que",
+    "start": 201.11,
+    "end": 201.22
+  },
+  {
+    "text": "lo",
+    "start": 201.22,
+    "end": 201.59
+  },
+  {
+    "text": "explicáramos",
+    "start": 201.59,
+    "end": 202.42
+  },
+  {
+    "text": "del",
+    "start": 202.42,
+    "end": 202.58
+  },
+  {
+    "text": "todo.",
+    "start": 202.63,
+    "end": 203
+  },
+  {
+    "text": "Los",
+    "start": 203.18,
+    "end": 203.21
+  },
+  {
+    "text": "términos",
+    "start": 203.21,
+    "end": 203.85
+  },
+  {
+    "text": "técnicos,",
+    "start": 203.85,
+    "end": 204.6
+  },
+  {
+    "text": "como",
+    "start": 204.94,
+    "end": 205.07
+  },
+  {
+    "text": "API,",
+    "start": 205.14,
+    "end": 205.56
+  },
+  {
+    "text": "webhook",
+    "start": 205.56,
+    "end": 206.09
+  },
+  {
+    "text": "y",
+    "start": 206.5,
+    "end": 206.56
+  },
+  {
+    "text": "otros",
+    "start": 206.56,
+    "end": 207.19
+  },
+  {
+    "text": "más,",
+    "start": 207.19,
+    "end": 207.72
+  },
+  {
+    "text": "para",
+    "start": 207.9,
+    "end": 207.92
+  },
+  {
+    "text": "que",
+    "start": 207.92,
+    "end": 208.07
+  },
+  {
+    "text": "salgas",
+    "start": 208.07,
+    "end": 208.36
+  },
+  {
+    "text": "de",
+    "start": 208.4,
+    "end": 208.46
+  },
+  {
+    "text": "aquí",
+    "start": 208.46,
+    "end": 208.71
+  },
+  {
+    "text": "entendiendo",
+    "start": 208.71,
+    "end": 209.2
+  },
+  {
+    "text": "exactamente",
+    "start": 209.2,
+    "end": 209.92
+  },
+  {
+    "text": "de",
+    "start": 209.92,
+    "end": 210.1
+  },
+  {
+    "text": "qué",
+    "start": 210.1,
+    "end": 210.25
+  },
+  {
+    "text": "se",
+    "start": 210.25,
+    "end": 210.35
+  },
+  {
+    "text": "habla",
+    "start": 210.35,
+    "end": 210.64
+  },
+  {
+    "text": "cuando",
+    "start": 210.64,
+    "end": 210.97
+  },
+  {
+    "text": "alguien",
+    "start": 210.97,
+    "end": 211.35
+  },
+  {
+    "text": "los",
+    "start": 211.35,
+    "end": 211.41
+  },
+  {
+    "text": "menciona.",
+    "start": 211.86,
+    "end": 212.16
+  },
+  {
+    "text": "Nos",
+    "start": 212.34,
+    "end": 212.37
+  },
+  {
+    "text": "vemos",
+    "start": 212.37,
+    "end": 212.62
+  },
+  {
+    "text": "ahí.",
+    "start": 212.84,
+    "end": 213.24
+  }
+]

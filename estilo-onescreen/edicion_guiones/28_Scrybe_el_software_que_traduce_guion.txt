@@ -1,0 +1,43 @@
+   0.00-   0.33 (0.33s) | A:C0020.MP4 100% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | D3" ¿Te imaginas ( B
+   0.33-   0.63 (0.30s) | A:C0020.MP4 100% | G:Graphics0002.png 100% | G:Graphics0008.png 80%    | D3" ¿Te imaginas ( B D3" tu voz en ( B
+   0.63-   0.92 (0.29s) | A:C0020.MP4 100% | G:Graphics0003.png 100% | G:Graphics0008.png 80%    | D3" tu voz en ( B
+   0.92-   1.08 (0.16s) | A:C0020.MP4 100% | G:Graphics0004.png 100% | G:Graphics0008.png 80%    | D3" tu voz en ( B
+   1.08-   1.21 (0.13s) | A:C0020.MP4 160% | G:Graphics0004.png 100% | G:Graphics0008.png 80%    | D3" cualquier ( B
+   1.21-   1.50 (0.29s) | A:C0020.MP4 160% | G:Graphics0005.png 100% | G:Graphics0008.png 80%    | D3" cualquier ( B D3" idioma ( B
+   1.50-   1.83 (0.33s) | A:C0020.MP4 160% | G:Graphics0002.png 100% | G:Graphics0008.png 80%    | D3" idioma ( B D3" en tiempo ( B
+   1.83-   2.13 (0.30s) | A:C0020.MP4 160% | G:Graphics0007.png 100% | G:Graphics0008.png 80%    | D3" en tiempo ( B D3" real? ( B
+   2.13-   2.42 (0.29s) | A:C0020.MP4 160% | G:Graphics0009.png 100% | G:Graphics0008.png 80%    | D3" real? ( B
+   2.42-   2.71 (0.29s) | A:C0020.MP4 100% | G:Graphics0011.png 100% | G:Graphics0008.png 80%    | D3" El idioma ( B
+   2.71-   3.04 (0.33s) | A:C0020.MP4 100% | G:Graphics0012.png 100% | G:Graphics0008.png 80%    | D3" El idioma ( B D3" ya no ( B
+   3.04-   3.29 (0.25s) | A:C0020.MP4 100% | G:Graphics0002.png 100% | G:Graphics0008.png 80%    | D3" ya no ( B D3" ( B D3" una barrera ( B
+   3.29-   3.63 (0.34s) | A:C0020.MP4 100% | G:Graphics0007.png 100% | G:Graphics0008.png 80%    | D3" una barrera ( B
+   3.63-   4.67 (1.04s) | A:C0020.MP4 160% | G:Graphics0013.png 160% | G:Graphics0008.png 80%    | D3" una barrera ( B D3" para ( B D3" tus clases. ( B
+   4.67-   7.13 (2.46s) | A:C0020.MP4 100% | G:Graphics0008.png 80%                              | D3" nuestras nuevas ( B D3" pantallas ( B D3" interactivas ( B D3" de OneScreen ( B
+   7.13-   7.34 (0.21s) | A:C0020.MP4 100% | B:C0012.MP4 | G:Graphics0008.png 80%                | D3" de OneScreen ( B
+   7.34-   8.22 (0.88s) | A:C0020.MP4 160% | B:C0012.MP4 | G:Graphics0008.png 80%                | D3" integran ( B D3" Scrybe un ( B
+   8.22-   8.30 (0.08s) | A:C0020.MP4 160% | B:C0015.MP4 | G:Graphics0008.png 80%                | D3" Scrybe un ( B
+   8.30-   9.55 (1.25s) | A:C0020.MP4 100% | B:C0015.MP4 | G:Graphics0008.png 80%                | D3" Scrybe un ( B D3" software ( B D3" exclusivo, ( B
+   9.55-  10.34 (0.79s) | A:C0020.MP4 160% | G:Graphics0014.png 100% | G:Graphics0008.png 80%    | D3" exclusivo, ( B
+  10.34-  11.01 (0.67s) | A:C0020.MP4 100% | G:Graphics0014.png 100% | G:Graphics0008.png 80%    | 
+  11.01-  11.68 (0.67s) | A:C0020.MP4 160% | G:Graphics0014.png 100% | G:Graphics0008.png 80%    | 
+  11.68-  12.26 (0.58s) | A:C0020.MP4 160% | B:C0012.MP4 | G:Graphics0014.png 100% | G:Graphics0 | 
+  12.26-  13.18 (0.92s) | A:C0020.MP4 100% | B:C0012.MP4 | G:Graphics0014.png 100% | G:Graphics0 | 
+  13.18-  13.76 (0.58s) | A:C0020.MP4 160% | G:Graphics0008.png 80%                              | D3" Más que ( B D3" una app ( B
+  13.76-  14.72 (0.96s) | A:C0020.MP4 100% | B:C0012.MP4 | G:Graphics0008.png 80%                | D3" es una ( B D3" herramienta ( B
+  14.72-  15.64 (0.92s) | A:C0020.MP4 160% | B:C0012.MP4 129% | G:Graphics0015.png | G:Graphics0 | 
+  15.64-  16.68 (1.04s) | A:C0020.MP4 100% | B:C0013.MP4 142% | G:Graphics0016.png 142% | G:Grap | D3" barreras ( B
+  16.68-  17.52 (0.84s) | A:C0020.MP4 160% | G:Graphics0008.png 80%                              | D3" y transforma ( B
+  17.52-  18.27 (0.75s) | A:C0020.MP4 100% | G:Graphics0008.png 80%                              | D3" cada sesión ( B
+  18.27-  19.77 (1.50s) | A:C0020.MP4 160% | G:Graphics0017.png 160% | G:Graphics0008.png 80%    | 
+  19.77-  21.02 (1.25s) | A:C0020.MP4 100% | G:Graphics0018.png 100% | G:Graphics0008.png 80%    | 
+  21.02-  21.36 (0.34s) | A:C0020.MP4 160% | G:Graphics0019.png | G:Graphics0008.png 80%         | 
+  21.36-  21.69 (0.33s) | A:C0020.MP4 160% | G:Graphics0020.png | G:Graphics0008.png 80%         | 
+  21.69-  21.81 (0.12s) | A:C0020.MP4 160% | G:Graphics0019.png | G:Graphics0008.png 80%         | 
+  21.81-  22.02 (0.21s) | A:C0020.MP4 100% | G:Graphics0019.png | G:Graphics0008.png 80%         | 
+  22.02-  22.36 (0.34s) | A:C0020.MP4 100% | G:Graphics0020.png | G:Graphics0008.png 80%         | 
+  22.36-  22.69 (0.33s) | A:C0020.MP4 100% | G:Graphics0019.png | G:Graphics0008.png 80%         | 
+  22.73-  23.02 (0.29s) | A:C0020.MP4 160% | G:Graphics0020.png | G:Graphics0008.png 80%         | 
+  23.02-  23.36 (0.34s) | A:C0020.MP4 160% | G:Graphics0019.png | G:Graphics0008.png 80%         | 
+  23.36-  23.69 (0.33s) | A:C0020.MP4 160% | G:Graphics0020.png | G:Graphics0008.png 80%         | 
+  23.69-  23.86 (0.17s) | A:C0020.MP4 160% | G:Graphics0019.png | G:Graphics0008.png 80%         | 
+  23.86-  28.45 (4.59s) | A:Intro 16-9_S 100%                                                    | 

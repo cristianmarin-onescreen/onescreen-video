@@ -1,0 +1,24 @@
+   0.00-   0.20 (0.20s) | G:Color mate | B:familia-pt-4k-alfa-negro.mov 80%                      | 
+   0.20-   4.56 (4.36s) | G:Color mate | B:familia-pt-4k-alfa-negro.mov 80% | B:familia-core-4k- | Ahora te vamos a presentar a nuestra familia. Conoce la familia OneScreen.
+   4.56-   7.04 (2.48s) | A:C0133.MP4 100% | B:familia-pt-4k-alfa-blanco.mov | B:familia-core-4k | Pantallas interactivas digitales OneScreen.
+   7.04-  13.16 (6.12s) | G:Color mate | B:familia-pt-4k-alfa-negro.mov 54% | B:familia-core-4k- | Cuatro modelos, un mismo propósito, ¿recuerdas? Transformar el futuro. Comencemos con la p
+  13.16-  14.16 (1.00s) | B:C0070.MP4 | B:familia-pt-4k-alfa-blanco.mov 69% | B:familia-core-4k- | OneScreen Core,
+  14.16-  16.24 (2.08s) | B:C0077.MP4 | B:familia-pt-4k-alfa-blanco.mov 69% | B:familia-core-4k- | para instituciones en crecimiento.
+  16.24-  19.32 (3.08s) | A:C0090.MP4 100% | B:familia-pt-4k-alfa-blanco.mov 69% | B:familia-cor | Disponible desde sesenta y cinco a ciento diez pulgadas. Android dieciséis certificado
+  19.32-  21.56 (2.24s) | B:C0063.MP4 | B:familia-pt-4k-alfa-blanco.mov 79% | B:familia-core-4k- | pulgadas. Android dieciséis certificado Google EdLab. O sea,
+  21.56-  22.64 (1.08s) | A:C1593.MP4 100% | B:familia-pt-4k-alfa-blanco.mov 79% | B:familia-cor | Google EdLab. O sea, más de cuatro millones
+  22.64-  25.28 (2.64s) | B:C1593.MP4 | B:familia-pt-4k-alfa-blanco.mov 79% | B:familia-core-4k- | más de cuatro millones de aplicaciones. Todo lo que te imagines. ¿Cómo
+  25.28-  27.76 (2.48s) | A:Color mate 100% | B:familia-pt-4k-alfa-negro.mov 74% | B:familia-cor | que te imagines. ¿Cómo se usa? Fácil. Solo sigue estos dos pasos.
+  27.76-  28.40 (0.64s) | B:C1584.MP4 | B:familia-pt-4k-alfa-blanco.mov 65% | B:familia-core-4k- | sigue estos dos pasos. Paso uno: encenderla. Paso
+  28.40-  29.12 (0.72s) | A:C1585.MP4 100% | B:familia-pt-4k-alfa-blanco.mov 65% | B:familia-cor | Paso uno: encenderla. Paso
+  29.12-  30.48 (1.36s) | A:C1587.MP4 100% | B:familia-pt-4k-alfa-blanco.mov 65% | B:familia-cor | Paso uno: encenderla. Paso dos: usarla. ¿Ves? Te dije
+  30.48-  31.80 (1.32s) | G:Color mate | B:familia-pt-4k-alfa-negro.mov 74% | B:familia-core-4k- | usarla. ¿Ves? Te dije que era fácil. Ahora,
+  31.80-  33.00 (1.20s) | G:Color mate | B:familia-pt-4k-alfa-negro.mov | B:familia-core-4k-alfa | que era fácil. Ahora, un poco del hardware.
+  33.00-  35.08 (2.08s) | A:C0074.MP4 100% | B:familia-pt-4k-alfa-blanco.mov | B:familia-core-4k | Diseñada en materiales industriales.
+  35.08-  35.20 (0.12s) | A:C0074.MP4 100% | B:familia-pt-4k-alfa-blanco.mov 76% | B:familia-cor | Diseñada en materiales industriales.
+  35.20-  36.68 (1.48s) | B:C1594.MP4 | B:familia-pt-4k-alfa-blanco.mov 76% | B:familia-core-4k- | Panel resistente a golpes.
+  36.68-  38.56 (1.88s) | B:brilliant-blue-gemstone-rotating-o 284% | B:familia-pt-4k-alfa-blanc | Panel resistente a golpes. Igual de resistente al zafiro. OneScreen Core, diseñada
+  38.56-  38.68 (0.12s) | A:C0072.MP4 100% | B:brilliant-blue-gemstone-rotating-o 284% | B:famil | zafiro. OneScreen Core, diseñada
+  38.68-  39.60 (0.92s) | A:C0072.MP4 100% | B:familia-pt-4k-alfa-blanco.mov | B:familia-core-4k | zafiro. OneScreen Core, diseñada
+  39.60-  42.28 (2.68s) | B:C0062.MP4 | B:familia-pt-4k-alfa-blanco.mov | B:familia-core-4k-alfa | zafiro. OneScreen Core, diseñada para instituciones que no paran de crecer.
+  42.28-  44.64 (2.36s) | G:Color mate | B:familia-pt-4k-alfa-negro.mov | B:familia-core-4k-alfa | paran de crecer.

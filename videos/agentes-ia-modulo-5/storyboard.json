@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 197.44,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 197.44
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 5 · ONESCREEN ACADEMY",
+      "startSec": 0.11,
+      "endSec": 8.64,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 5 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — AHORA, UN CASO REAL",
+      "startSec": 8.64,
+      "endSec": 14.8,
+      "accentIndex": 1,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "AHORA, UN CASO REAL",
+        "title": "El agente de un docente"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — CONSTRUYÁMOSLO JUNTOS",
+      "startSec": 14.8,
+      "endSec": 21.08,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CONSTRUYÁMOSLO JUNTOS",
+        "title": "Para que veas el razonamiento completo"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — PIENSA EN UNA DOCENTE",
+      "startSec": 21.08,
+      "endSec": 27.12,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PIENSA EN UNA DOCENTE",
+        "title": "2 tareas silenciosas pero agotadoras"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "list — ",
+      "startSec": 27.12,
+      "endSec": 35.84,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "items": [
+          "Responder correos repetidos de padres de familia",
+          "Adaptar explicaciones a ritmos distintos en el mismo salón"
+        ]
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "list — ¿QUÉ NO ES?",
+      "startSec": 35.84,
+      "endSec": 51.44,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "¿QUÉ NO ES?",
+        "title": "Un agente propio absorbe esto",
+        "items": [
+          "No es crear una presentación",
+          "No es transcribir una clase",
+          "No es armar un quiz"
+        ]
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — LA INSTRUCCIÓN REAL",
+      "startSec": 51.44,
+      "endSec": 73.64,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "LA INSTRUCCIÓN REAL",
+        "title": "Asistente de comunicación de 5to grado",
+        "detail": "Redacta respuestas a padres, basadas en info oficial, listas para revisar antes de enviar"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — Ya no es un rol vago",
+      "startSec": 73.64,
+      "endSec": 78.8,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Ya no es un rol vago",
+        "detail": "Es un trabajo específico, con un entregable concreto"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — TONO",
+      "startSec": 78.8,
+      "endSec": 89.31,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TONO",
+        "title": "Cercano pero profesional",
+        "detail": "Nunca informal de más — le habla a padres de familia"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "list — LÍMITES",
+      "startSec": 89.31,
+      "endSec": 106.64,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LÍMITES",
+        "items": [
+          "Nunca inventar una fecha o política no confirmada",
+          "Nunca responder quejas o disciplina sin escalar primero",
+          "Siempre dejar la respuesta en borrador, nunca enviarla sola"
+        ]
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — CONOCIMIENTO PROPIO",
+      "startSec": 106.64,
+      "endSec": 118.59,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CONOCIMIENTO PROPIO",
+        "title": "Calendario, manual de convivencia, políticas",
+        "detail": "Le da contexto real de la institución"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — Deja de sonar genérico",
+      "startSec": 118.59,
+      "endSec": 124.96,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Deja de sonar genérico",
+        "detail": "Empieza a sonar como si conociera la institución de verdad"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — HERRAMIENTAS",
+      "startSec": 124.96,
+      "endSec": 142.16,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "HERRAMIENTAS",
+        "title": "Acceso a los documentos institucionales",
+        "detail": "Y a la fecha actual, para calcular plazos sin equivocarse"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "titlecard — SEGUNDO USO",
+      "startSec": 142.16,
+      "endSec": 147.8,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "SEGUNDO USO",
+        "title": "Adaptar explicaciones al ritmo de cada estudiante"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — MISMA DOCENTE",
+      "startSec": 147.8,
+      "endSec": 159.32,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "MISMA DOCENTE",
+        "title": "Reescribe un concepto en 2 o 3 niveles",
+        "detail": "Para los estudiantes que necesitan refuerzo adicional"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — DE NUEVO, NO ES ESO",
+      "startSec": 159.32,
+      "endSec": 170.56,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "DE NUEVO, NO ES ESO",
+        "title": "Apoyo puntual, en el momento exacto",
+        "detail": "No una presentación completa ni una evaluación"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "quote — No es el ejemplo.",
+      "startSec": 170.56,
+      "endSec": 176.16,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "No es el ejemplo.",
+        "detail": "Es el razonamiento."
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "body — IDENTIFICA",
+      "startSec": 176.16,
+      "endSec": 189.83,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "IDENTIFICA",
+        "title": "Una tarea repetitiva y a la medida",
+        "detail": "Que ninguna herramienta empaquetada resuelve todavía — eso lo delegas a tu agente"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 189.83,
+      "endSec": 193,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "El mismo ejercicio, otra mirada",
+        "detail": "Desde dirección y coordinación académica"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 193,
+      "endSec": 197.4,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

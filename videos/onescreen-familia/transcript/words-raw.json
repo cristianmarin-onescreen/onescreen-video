@@ -1,0 +1,800 @@
+[
+ {
+  "id": "w0",
+  "text": "Ahora",
+  "start": 0.0,
+  "end": 0.82,
+  "prob": 0.934
+ },
+ {
+  "id": "w1",
+  "text": "te",
+  "start": 0.82,
+  "end": 1.04,
+  "prob": 0.995
+ },
+ {
+  "id": "w2",
+  "text": "vamos",
+  "start": 1.04,
+  "end": 1.24,
+  "prob": 0.997
+ },
+ {
+  "id": "w3",
+  "text": "a",
+  "start": 1.24,
+  "end": 1.38,
+  "prob": 1.0
+ },
+ {
+  "id": "w4",
+  "text": "presentar",
+  "start": 1.38,
+  "end": 1.78,
+  "prob": 1.0
+ },
+ {
+  "id": "w5",
+  "text": "a",
+  "start": 1.78,
+  "end": 1.86,
+  "prob": 0.996
+ },
+ {
+  "id": "w6",
+  "text": "nuestra",
+  "start": 1.86,
+  "end": 2.06,
+  "prob": 1.0
+ },
+ {
+  "id": "w7",
+  "text": "familia.",
+  "start": 2.06,
+  "end": 2.48,
+  "prob": 0.999
+ },
+ {
+  "id": "w8",
+  "text": "Conoce",
+  "start": 2.74,
+  "end": 3.1,
+  "prob": 0.988
+ },
+ {
+  "id": "w9",
+  "text": "la",
+  "start": 3.1,
+  "end": 3.2,
+  "prob": 0.999
+ },
+ {
+  "id": "w10",
+  "text": "familia",
+  "start": 3.2,
+  "end": 3.54,
+  "prob": 1.0
+ },
+ {
+  "id": "w11",
+  "text": "OneScreen.",
+  "start": 3.54,
+  "end": 4.14,
+  "prob": 0.742
+ },
+ {
+  "id": "w12",
+  "text": "Pantallas",
+  "start": 4.4,
+  "end": 4.94,
+  "prob": 0.997
+ },
+ {
+  "id": "w13",
+  "text": "interactivas",
+  "start": 4.94,
+  "end": 5.6,
+  "prob": 0.992
+ },
+ {
+  "id": "w14",
+  "text": "digitales",
+  "start": 5.6,
+  "end": 6.14,
+  "prob": 1.0
+ },
+ {
+  "id": "w15",
+  "text": "OneScreen.",
+  "start": 6.14,
+  "end": 6.72,
+  "prob": 0.995
+ },
+ {
+  "id": "w16",
+  "text": "Cuatro",
+  "start": 6.9,
+  "end": 7.2,
+  "prob": 0.909
+ },
+ {
+  "id": "w17",
+  "text": "modelos.",
+  "start": 7.2,
+  "end": 7.68,
+  "prob": 1.0
+ },
+ {
+  "id": "w18",
+  "text": "Un",
+  "start": 7.78,
+  "end": 8.02,
+  "prob": 0.999
+ },
+ {
+  "id": "w19",
+  "text": "mismo",
+  "start": 8.02,
+  "end": 8.34,
+  "prob": 1.0
+ },
+ {
+  "id": "w20",
+  "text": "propósito.",
+  "start": 8.34,
+  "end": 8.88,
+  "prob": 1.0
+ },
+ {
+  "id": "w21",
+  "text": "¿Recuerdas?",
+  "start": 9.0,
+  "end": 9.3,
+  "prob": 0.999
+ },
+ {
+  "id": "w22",
+  "text": "Transformar",
+  "start": 9.78,
+  "end": 10.32,
+  "prob": 0.987
+ },
+ {
+  "id": "w23",
+  "text": "el",
+  "start": 10.32,
+  "end": 10.64,
+  "prob": 1.0
+ },
+ {
+  "id": "w24",
+  "text": "futuro.",
+  "start": 10.64,
+  "end": 11.06,
+  "prob": 1.0
+ },
+ {
+  "id": "w25",
+  "text": "Comencemos",
+  "start": 11.4,
+  "end": 11.9,
+  "prob": 0.999
+ },
+ {
+  "id": "w26",
+  "text": "con",
+  "start": 11.9,
+  "end": 12.04,
+  "prob": 1.0
+ },
+ {
+  "id": "w27",
+  "text": "la",
+  "start": 12.04,
+  "end": 12.14,
+  "prob": 1.0
+ },
+ {
+  "id": "w28",
+  "text": "primera.",
+  "start": 12.14,
+  "end": 12.44,
+  "prob": 1.0
+ },
+ {
+  "id": "w29",
+  "text": "OneScreen",
+  "start": 13.02,
+  "end": 13.56,
+  "prob": 0.997
+ },
+ {
+  "id": "w30",
+  "text": "Core,",
+  "start": 13.56,
+  "end": 13.84,
+  "prob": 0.979
+ },
+ {
+  "id": "w31",
+  "text": "para",
+  "start": 14.02,
+  "end": 14.42,
+  "prob": 0.999
+ },
+ {
+  "id": "w32",
+  "text": "instituciones",
+  "start": 14.42,
+  "end": 15.02,
+  "prob": 1.0
+ },
+ {
+  "id": "w33",
+  "text": "en",
+  "start": 15.02,
+  "end": 15.24,
+  "prob": 0.998
+ },
+ {
+  "id": "w34",
+  "text": "crecimiento.",
+  "start": 15.24,
+  "end": 15.88,
+  "prob": 1.0
+ },
+ {
+  "id": "w35",
+  "text": "Disponible",
+  "start": 16.04,
+  "end": 16.48,
+  "prob": 0.968
+ },
+ {
+  "id": "w36",
+  "text": "desde",
+  "start": 16.48,
+  "end": 16.7,
+  "prob": 0.736
+ },
+ {
+  "id": "w37",
+  "text": "65",
+  "start": 16.7,
+  "end": 17.46,
+  "prob": 0.997
+ },
+ {
+  "id": "w38",
+  "text": "a",
+  "start": 17.46,
+  "end": 17.76,
+  "prob": 0.996
+ },
+ {
+  "id": "w39",
+  "text": "110",
+  "start": 17.76,
+  "end": 18.38,
+  "prob": 1.0
+ },
+ {
+  "id": "w40",
+  "text": "pulgadas.",
+  "start": 18.38,
+  "end": 18.9,
+  "prob": 0.999
+ },
+ {
+  "id": "w41",
+  "text": "Un",
+  "start": 19.12,
+  "end": 19.34,
+  "prob": 0.999
+ },
+ {
+  "id": "w42",
+  "text": "tamaño",
+  "start": 19.34,
+  "end": 19.74,
+  "prob": 1.0
+ },
+ {
+  "id": "w43",
+  "text": "para",
+  "start": 19.74,
+  "end": 19.98,
+  "prob": 1.0
+ },
+ {
+  "id": "w44",
+  "text": "cada",
+  "start": 19.98,
+  "end": 20.36,
+  "prob": 1.0
+ },
+ {
+  "id": "w45",
+  "text": "espacio.",
+  "start": 20.36,
+  "end": 20.82,
+  "prob": 1.0
+ },
+ {
+  "id": "w46",
+  "text": "Android",
+  "start": 21.14,
+  "end": 21.44,
+  "prob": 1.0
+ },
+ {
+  "id": "w47",
+  "text": "16",
+  "start": 21.44,
+  "end": 21.9,
+  "prob": 0.996
+ },
+ {
+  "id": "w48",
+  "text": "certificado",
+  "start": 21.9,
+  "end": 22.58,
+  "prob": 0.587
+ },
+ {
+  "id": "w49",
+  "text": "Google",
+  "start": 22.58,
+  "end": 22.88,
+  "prob": 0.996
+ },
+ {
+  "id": "w50",
+  "text": "EDLA.",
+  "start": 22.88,
+  "end": 23.22,
+  "prob": 0.48
+ },
+ {
+  "id": "w51",
+  "text": "O",
+  "start": 23.34,
+  "end": 23.48,
+  "prob": 0.998
+ },
+ {
+  "id": "w52",
+  "text": "sea,",
+  "start": 23.48,
+  "end": 23.62,
+  "prob": 0.999
+ },
+ {
+  "id": "w53",
+  "text": "mas",
+  "start": 23.8,
+  "end": 23.88,
+  "prob": 0.0
+ },
+ {
+  "id": "w54",
+  "text": "de",
+  "start": 23.88,
+  "end": 24.12,
+  "prob": 0.999
+ },
+ {
+  "id": "w55",
+  "text": "4",
+  "start": 24.12,
+  "end": 24.5,
+  "prob": 0.894
+ },
+ {
+  "id": "w56",
+  "text": "millones",
+  "start": 24.5,
+  "end": 24.84,
+  "prob": 0.933
+ },
+ {
+  "id": "w57",
+  "text": "de",
+  "start": 24.84,
+  "end": 25.14,
+  "prob": 0.998
+ },
+ {
+  "id": "w58",
+  "text": "aplicaciones.",
+  "start": 25.14,
+  "end": 25.7,
+  "prob": 0.996
+ },
+ {
+  "id": "w59",
+  "text": "Todo",
+  "start": 25.88,
+  "end": 26.02,
+  "prob": 0.991
+ },
+ {
+  "id": "w60",
+  "text": "lo",
+  "start": 26.02,
+  "end": 26.18,
+  "prob": 0.999
+ },
+ {
+  "id": "w61",
+  "text": "que",
+  "start": 26.18,
+  "end": 26.26,
+  "prob": 1.0
+ },
+ {
+  "id": "w62",
+  "text": "te",
+  "start": 26.26,
+  "end": 26.4,
+  "prob": 0.984
+ },
+ {
+  "id": "w63",
+  "text": "imagines.",
+  "start": 26.4,
+  "end": 26.84,
+  "prob": 0.977
+ },
+ {
+  "id": "w64",
+  "text": "Como",
+  "start": 27.02,
+  "end": 27.22,
+  "prob": 0.081
+ },
+ {
+  "id": "w65",
+  "text": "se",
+  "start": 27.22,
+  "end": 27.4,
+  "prob": 0.988
+ },
+ {
+  "id": "w66",
+  "text": "usa?",
+  "start": 27.4,
+  "end": 27.6,
+  "prob": 0.995
+ },
+ {
+  "id": "w67",
+  "text": "Fácil.",
+  "start": 27.78,
+  "end": 28.1,
+  "prob": 0.988
+ },
+ {
+  "id": "w68",
+  "text": "Solo",
+  "start": 28.24,
+  "end": 28.44,
+  "prob": 0.947
+ },
+ {
+  "id": "w69",
+  "text": "sigue",
+  "start": 28.44,
+  "end": 28.64,
+  "prob": 0.867
+ },
+ {
+  "id": "w70",
+  "text": "estos",
+  "start": 28.64,
+  "end": 28.86,
+  "prob": 0.992
+ },
+ {
+  "id": "w71",
+  "text": "dos",
+  "start": 28.86,
+  "end": 29.08,
+  "prob": 0.911
+ },
+ {
+  "id": "w72",
+  "text": "pasos.",
+  "start": 29.08,
+  "end": 29.48,
+  "prob": 0.998
+ },
+ {
+  "id": "w73",
+  "text": "Paso",
+  "start": 29.56,
+  "end": 29.82,
+  "prob": 0.886
+ },
+ {
+  "id": "w74",
+  "text": "1.",
+  "start": 29.82,
+  "end": 29.98,
+  "prob": 0.599
+ },
+ {
+  "id": "w75",
+  "text": "encenderla.",
+  "start": 30.42,
+  "end": 30.84,
+  "prob": 0.909
+ },
+ {
+  "id": "w76",
+  "text": "Paso",
+  "start": 30.94,
+  "end": 31.24,
+  "prob": 0.994
+ },
+ {
+  "id": "w77",
+  "text": "dos,",
+  "start": 31.24,
+  "end": 31.42,
+  "prob": 0.448
+ },
+ {
+  "id": "w78",
+  "text": "usarla.",
+  "start": 31.6,
+  "end": 32.16,
+  "prob": 0.998
+ },
+ {
+  "id": "w79",
+  "text": "¿Ves?",
+  "start": 32.28,
+  "end": 32.5,
+  "prob": 0.989
+ },
+ {
+  "id": "w80",
+  "text": "Te",
+  "start": 32.62,
+  "end": 32.8,
+  "prob": 0.993
+ },
+ {
+  "id": "w81",
+  "text": "dije",
+  "start": 32.8,
+  "end": 32.96,
+  "prob": 0.993
+ },
+ {
+  "id": "w82",
+  "text": "que",
+  "start": 32.96,
+  "end": 33.08,
+  "prob": 0.999
+ },
+ {
+  "id": "w83",
+  "text": "era",
+  "start": 33.08,
+  "end": 33.16,
+  "prob": 1.0
+ },
+ {
+  "id": "w84",
+  "text": "fácil.",
+  "start": 33.16,
+  "end": 33.42,
+  "prob": 0.999
+ },
+ {
+  "id": "w85",
+  "text": "Ahora",
+  "start": 33.62,
+  "end": 33.8,
+  "prob": 0.961
+ },
+ {
+  "id": "w86",
+  "text": "un",
+  "start": 33.8,
+  "end": 33.94,
+  "prob": 0.977
+ },
+ {
+  "id": "w87",
+  "text": "poco",
+  "start": 33.94,
+  "end": 34.1,
+  "prob": 1.0
+ },
+ {
+  "id": "w88",
+  "text": "del",
+  "start": 34.1,
+  "end": 34.26,
+  "prob": 0.99
+ },
+ {
+  "id": "w89",
+  "text": "hardware.",
+  "start": 34.26,
+  "end": 34.62,
+  "prob": 0.991
+ },
+ {
+  "id": "w90",
+  "text": "Diseñada",
+  "start": 34.96,
+  "end": 35.38,
+  "prob": 0.999
+ },
+ {
+  "id": "w91",
+  "text": "en",
+  "start": 35.38,
+  "end": 35.48,
+  "prob": 0.998
+ },
+ {
+  "id": "w92",
+  "text": "materiales",
+  "start": 35.48,
+  "end": 36.04,
+  "prob": 0.999
+ },
+ {
+  "id": "w93",
+  "text": "industriales.",
+  "start": 36.04,
+  "end": 36.7,
+  "prob": 1.0
+ },
+ {
+  "id": "w94",
+  "text": "Panel",
+  "start": 36.88,
+  "end": 37.14,
+  "prob": 0.941
+ },
+ {
+  "id": "w95",
+  "text": "resistente",
+  "start": 37.14,
+  "end": 37.78,
+  "prob": 1.0
+ },
+ {
+  "id": "w96",
+  "text": "a",
+  "start": 37.78,
+  "end": 37.88,
+  "prob": 0.999
+ },
+ {
+  "id": "w97",
+  "text": "golpes.",
+  "start": 37.88,
+  "end": 38.3,
+  "prob": 0.999
+ },
+ {
+  "id": "w98",
+  "text": "Igual",
+  "start": 38.48,
+  "end": 38.88,
+  "prob": 0.999
+ },
+ {
+  "id": "w99",
+  "text": "de",
+  "start": 38.88,
+  "end": 39.0,
+  "prob": 0.999
+ },
+ {
+  "id": "w100",
+  "text": "resistente",
+  "start": 39.0,
+  "end": 39.56,
+  "prob": 1.0
+ },
+ {
+  "id": "w101",
+  "text": "al",
+  "start": 39.56,
+  "end": 39.68,
+  "prob": 0.999
+ },
+ {
+  "id": "w102",
+  "text": "zafiro.",
+  "start": 39.68,
+  "end": 40.16,
+  "prob": 0.922
+ },
+ {
+  "id": "w103",
+  "text": "One",
+  "start": 40.48,
+  "end": 40.62,
+  "prob": 0.931
+ },
+ {
+  "id": "w104",
+  "text": "Screen",
+  "start": 40.62,
+  "end": 40.86,
+  "prob": 0.713
+ },
+ {
+  "id": "w105",
+  "text": "Core.",
+  "start": 40.86,
+  "end": 41.2,
+  "prob": 0.964
+ },
+ {
+  "id": "w106",
+  "text": "Diseñada",
+  "start": 41.44,
+  "end": 41.86,
+  "prob": 0.999
+ },
+ {
+  "id": "w107",
+  "text": "para",
+  "start": 41.86,
+  "end": 42.0,
+  "prob": 0.999
+ },
+ {
+  "id": "w108",
+  "text": "instituciones",
+  "start": 42.0,
+  "end": 42.48,
+  "prob": 1.0
+ },
+ {
+  "id": "w109",
+  "text": "que",
+  "start": 42.48,
+  "end": 42.7,
+  "prob": 1.0
+ },
+ {
+  "id": "w110",
+  "text": "no",
+  "start": 42.7,
+  "end": 42.94,
+  "prob": 1.0
+ },
+ {
+  "id": "w111",
+  "text": "paran",
+  "start": 42.94,
+  "end": 43.3,
+  "prob": 0.998
+ },
+ {
+  "id": "w112",
+  "text": "de",
+  "start": 43.3,
+  "end": 43.46,
+  "prob": 1.0
+ },
+ {
+  "id": "w113",
+  "text": "crecer.",
+  "start": 43.46,
+  "end": 43.84,
+  "prob": 1.0
+ }
+]

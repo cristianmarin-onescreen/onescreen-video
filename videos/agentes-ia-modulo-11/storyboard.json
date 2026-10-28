@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 170.82,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 170.82
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 11 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 7.4,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 11 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — HOY",
+      "startSec": 7.4,
+      "endSec": 11.9,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "HOY",
+        "title": "Le damos el ingrediente que le faltaba",
+        "detail": "Herramientas y acciones"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "quote — Tu agente deja de solo responder.",
+      "startSec": 11.9,
+      "endSec": 19.4,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Tu agente deja de solo responder.",
+        "detail": "Y empieza a hacer"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — HASTA AHORA",
+      "startSec": 19.4,
+      "endSec": 31.66,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "HASTA AHORA",
+        "title": "Solo cuenta con la instrucción y el documento",
+        "detail": "Eso ya es útil, pero tiene un techo"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — Si necesita información actualizada",
+      "startSec": 31.66,
+      "endSec": 42.3,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Si necesita información actualizada",
+        "detail": "No va a poder ayudarte, por más bien instruido que esté"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — AHÍ ENTRAN LAS HERRAMIENTAS",
+      "startSec": 42.3,
+      "endSec": 50.58,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "AHÍ ENTRAN LAS HERRAMIENTAS",
+        "title": "Activar capacidades adicionales",
+        "detail": "Casi siempre con un solo clic, sin nada técnico"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "list — LAS MÁS COMUNES",
+      "startSec": 50.58,
+      "endSec": 63.2,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "LAS MÁS COMUNES",
+        "items": [
+          "Búsqueda en internet — información actualizada",
+          "Generación de contenido — imágenes o documentos"
+        ]
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "titlecard — HAZLO AHORA MISMO",
+      "startSec": 63.2,
+      "endSec": 70.5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "HAZLO AHORA MISMO",
+        "title": "Activa al menos una herramienta adicional",
+        "detail": "La que tenga más sentido para la tarea que le definiste"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "list — POR EJEMPLO",
+      "startSec": 70.5,
+      "endSec": 87.1,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "POR EJEMPLO",
+        "items": [
+          "Responde a padres → búsqueda para confirmar fechas oficiales",
+          "Apoya coordinación → generar el resumen ya formateado"
+        ]
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "quote — Activar una herramienta no es darle permiso ilimitado.",
+      "startSec": 87.1,
+      "endSec": 95.3,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Activar una herramienta no es darle permiso ilimitado."
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — VUELVE A TU INSTRUCCIÓN",
+      "startSec": 95.3,
+      "endSec": 108.8,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "VUELVE A TU INSTRUCCIÓN",
+        "title": "Deja explícito cuándo usarla y cuándo no",
+        "detail": "Solo para confirmar datos públicos, nunca para inventar una fuente"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "compare — EL LÍMITE IMPORTA",
+      "startSec": 108.8,
+      "endSec": 117.9,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "EL LÍMITE IMPORTA"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — Pruébalo de nuevo",
+      "startSec": 117.9,
+      "endSec": 125.2,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Pruébalo de nuevo",
+        "detail": "Con una pregunta que sí necesite esa herramienta — otro salto de calidad"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — Ya no es solo un agente que conoce tu institución",
+      "startSec": 125.2,
+      "endSec": 131.98,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Ya no es solo un agente que conoce tu institución",
+        "detail": "Es un agente que puede ir a buscar o generar lo que le falta"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "titlecard — EL QUIZ DE ESTE MÓDULO",
+      "startSec": 131.98,
+      "endSec": 140.41,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "EL QUIZ DE ESTE MÓDULO",
+        "title": "¿Qué herramienta activaste y por qué?",
+        "detail": "Asegúrate de haberlo hecho de verdad"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — HASTA AHORA, EN TÉRMINOS GENERALES",
+      "startSec": 140.41,
+      "endSec": 149.8,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "HASTA AHORA, EN TÉRMINOS GENERALES",
+        "title": "En los próximos módulos, nos ponemos concretos"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "list — PASO A PASO",
+      "startSec": 149.8,
+      "endSec": 163.1,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PASO A PASO",
+        "items": [
+          "Cómo se hace en Claude",
+          "Cómo se hace en ChatGPT"
+        ]
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "body — DESPUÉS, UN PASO MÁS ALLÁ",
+      "startSec": 163.1,
+      "endSec": 166.5,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "DESPUÉS, UN PASO MÁS ALLÁ",
+        "title": "Automatización",
+        "detail": "Conectar tu agente con otros sistemas que ya usas"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "outro — Nos vemos en el siguiente módulo",
+      "startSec": 166.5,
+      "endSec": 170.82,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos en el siguiente módulo"
+      }
+    }
+  ]
+}

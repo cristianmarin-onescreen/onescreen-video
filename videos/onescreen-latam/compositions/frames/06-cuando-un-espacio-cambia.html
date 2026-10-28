@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          font-weight: 400 700;
+          font-style: normal;
+          src: url("assets/fonts/rubik-variable.woff2") format("woff2-variations");
+          /* fallback if the browser doesn't support variable-font format strings: format('woff2') */
+        }
+
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          container-type: size;
+          container-name: frame;
+          font-family: "Rubik", sans-serif;
+        }
+
+        .clip {
+          position: absolute;
+          inset: 0;
+        }
+
+        #stage {
+          background: #fafafa;
+        }
+
+        /* — type: two hard-cut states, stacked on the same centered cell. No atmosphere layer —
+           content frames 4-6 stay in the restrained register per the Video direction; this frame
+           is pure typography, the biggest/boldest type in the video. */
+        .line-wrap {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 5cqw;
+          z-index: 2;
+        }
+
+        .line {
+          grid-area: 1 / 1;
+          text-align: center;
+        }
+
+        /* Scene 1 — "Porque cuando un espacio cambia." — the largest type in the video. */
+        .line1 {
+          opacity: 1;
+          font-weight: 700;
+          font-size: 7cqw;
+          line-height: 1.12;
+          letter-spacing: -0.02em;
+          color: #293052;
+          max-width: 74cqw;
+        }
+
+        /* Scene 2 — "El futuro también." + drawn cobalt underline, the one accent touch. */
+        .line2 {
+          opacity: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .line2-text {
+          font-weight: 700;
+          font-size: 6cqw;
+          line-height: 1.1;
+          letter-spacing: -0.02em;
+          color: #293052;
+          max-width: 70cqw;
+        }
+        .line2-underline {
+          width: 26cqw;
+          height: 0.5cqw;
+          margin-top: 1.4cqw;
+          background: #3976ff;
+          border-radius: 4px;
+          transform-origin: left center;
+          transform: scaleX(0);
+        }
+      </style>
+
+      <div data-hf-id="hf-x7qd" id="root" data-composition-id="06-cuando-un-espacio-cambia" data-width="1920" data-height="1080" data-duration="4.587">
+        <div data-hf-id="hf-vwct" id="stage" class="clip" data-start="0" data-duration="4.587" data-track-index="1">
+          <div data-hf-id="hf-i6jr" class="line-wrap">
+            <div data-hf-id="hf-ofv8" class="line line1" id="line1">Porque cuando un espacio cambia.</div>
+            <div data-hf-id="hf-i5ic" class="line line2" id="line2">
+              <div data-hf-id="hf-apvs" class="line2-text">El futuro también.</div>
+              <div data-hf-id="hf-wevu" class="line2-underline" id="underlineBar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+
+        // — Scene 1 (0.0–2.0s): "Porque cuando un espacio cambia." flash-in as a hard cut —
+        // already resolved in the static CSS state at t=0 (opacity:1, no fade/slide). This is
+        // one of the video's two deliberate held/breather beats: no entrance tween here, the
+        // Scene calls for an instant flash and the climax must not be diluted with motion.
+
+        // — Scene 1 -> Scene 2 seam (t=2.0s): instant hard-cut swap (discrete-text-sequence,
+        // sub-shape A) — line1 vanishes, line2 ("El futuro también.") appears already resolved.
+        tl.set("#line1", { opacity: 0 }, 2.0);
+        tl.set("#line2", { opacity: 1 }, 2.0);
+
+        // — Scene 2 (2.0–4.087s): the one accent touch — a cobalt underline mark (css-marker-patterns,
+        // straight-bar draw) sweeps left→right beneath the climax line, then the frame settles and
+        // holds motionless to the end — the deliberate climax stillness. No further motion after this.
+        tl.fromTo("#underlineBar", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power2.out" }, 2.15);
+
+        window.__timelines["06-cuando-un-espacio-cambia"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

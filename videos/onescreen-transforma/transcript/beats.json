@@ -1,0 +1,3272 @@
+{
+ "fps": 24,
+ "format": "3840x2160",
+ "totalDuration": 43.083333,
+ "totalFrames": 1034,
+ "audio": {
+  "src": "assets/narration.wav",
+  "speechEnd": 41.84,
+  "tail": 1.243333
+ },
+ "scenes": [
+  {
+   "id": "01",
+   "title": "espacios",
+   "start": 0,
+   "end": 5,
+   "duration": 5,
+   "startFrame": 0,
+   "durationFrames": 120,
+   "text": "Hay espacios que solo ocupan un lugar. Y hay espacios que cambian lo que pasa dentro de ellos.",
+   "accentWord": {
+    "i": 11,
+    "text": "cambian"
+   },
+   "words": [
+    {
+     "id": "w0",
+     "i": 0,
+     "text": "Hay",
+     "at": 0,
+     "atFrame": 0,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w1",
+     "i": 1,
+     "text": "espacios",
+     "at": 0.333333,
+     "atFrame": 8,
+     "dur": 0.458334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w2",
+     "i": 2,
+     "text": "que",
+     "at": 0.75,
+     "atFrame": 18,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w3",
+     "i": 3,
+     "text": "solo",
+     "at": 0.916667,
+     "atFrame": 22,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w4",
+     "i": 4,
+     "text": "ocupan",
+     "at": 1.125,
+     "atFrame": 27,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w5",
+     "i": 5,
+     "text": "un",
+     "at": 1.5,
+     "atFrame": 36,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w6",
+     "i": 6,
+     "text": "lugar.",
+     "at": 1.708333,
+     "atFrame": 41,
+     "dur": 0.333334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w7",
+     "i": 7,
+     "text": "Y",
+     "at": 2.25,
+     "atFrame": 54,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w8",
+     "i": 8,
+     "text": "hay",
+     "at": 2.5,
+     "atFrame": 60,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w9",
+     "i": 9,
+     "text": "espacios",
+     "at": 2.625,
+     "atFrame": 63,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w10",
+     "i": 10,
+     "text": "que",
+     "at": 3.083333,
+     "atFrame": 74,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w11",
+     "i": 11,
+     "text": "cambian",
+     "at": 3.291667,
+     "atFrame": 79,
+     "dur": 0.416666,
+     "accent": true,
+     "scale": null
+    },
+    {
+     "id": "w12",
+     "i": 12,
+     "text": "lo",
+     "at": 3.666667,
+     "atFrame": 88,
+     "dur": 0.166666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w13",
+     "i": 13,
+     "text": "que",
+     "at": 3.791667,
+     "atFrame": 91,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w14",
+     "i": 14,
+     "text": "pasa",
+     "at": 3.875,
+     "atFrame": 93,
+     "dur": 0.333333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w15",
+     "i": 15,
+     "text": "dentro",
+     "at": 4.166667,
+     "atFrame": 100,
+     "dur": 0.291666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w16",
+     "i": 16,
+     "text": "de",
+     "at": 4.416667,
+     "atFrame": 106,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w17",
+     "i": 17,
+     "text": "ellos.",
+     "at": 4.583333,
+     "atFrame": 110,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "02",
+   "title": "noche",
+   "start": 5,
+   "end": 7.5,
+   "duration": 2.5,
+   "startFrame": 120,
+   "durationFrames": 60,
+   "text": "Hay espacios que no se llenan con cualquier cosa.",
+   "accentWord": {
+    "i": 25,
+    "text": "cualquier"
+   },
+   "words": [
+    {
+     "id": "w18",
+     "i": 18,
+     "text": "Hay",
+     "at": 0.041667,
+     "atFrame": 1,
+     "dur": 0.333333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w19",
+     "i": 19,
+     "text": "espacios",
+     "at": 0.333333,
+     "atFrame": 8,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w20",
+     "i": 20,
+     "text": "que",
+     "at": 0.666667,
+     "atFrame": 16,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w21",
+     "i": 21,
+     "text": "no",
+     "at": 0.833333,
+     "atFrame": 20,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w22",
+     "i": 22,
+     "text": "se",
+     "at": 1.041667,
+     "atFrame": 25,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w23",
+     "i": 23,
+     "text": "llenan",
+     "at": 1.208333,
+     "atFrame": 29,
+     "dur": 0.333334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w24",
+     "i": 24,
+     "text": "con",
+     "at": 1.5,
+     "atFrame": 36,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w25",
+     "i": 25,
+     "text": "cualquier",
+     "at": 1.708333,
+     "atFrame": 41,
+     "dur": 0.333334,
+     "accent": true,
+     "scale": null
+    },
+    {
+     "id": "w26",
+     "i": 26,
+     "text": "cosa.",
+     "at": 2,
+     "atFrame": 48,
+     "dur": 0.416667,
+     "accent": false,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "03",
+   "title": "falta-una-cosa",
+   "start": 7.5,
+   "end": 11.083333,
+   "duration": 3.583333,
+   "startFrame": 180,
+   "durationFrames": 86,
+   "text": "Y hay espacios a los que solo les falta una cosa.",
+   "accentWord": {
+    "i": 35,
+    "text": "falta"
+   },
+   "words": [
+    {
+     "id": "w27",
+     "i": 27,
+     "text": "Y",
+     "at": 0.083333,
+     "atFrame": 2,
+     "dur": 0.458334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w28",
+     "i": 28,
+     "text": "hay",
+     "at": 0.5,
+     "atFrame": 12,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w29",
+     "i": 29,
+     "text": "espacios",
+     "at": 0.666667,
+     "atFrame": 16,
+     "dur": 0.541666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w30",
+     "i": 30,
+     "text": "a",
+     "at": 1.166667,
+     "atFrame": 28,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w31",
+     "i": 31,
+     "text": "los",
+     "at": 1.333333,
+     "atFrame": 32,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w32",
+     "i": 32,
+     "text": "que",
+     "at": 1.458333,
+     "atFrame": 35,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w33",
+     "i": 33,
+     "text": "solo",
+     "at": 1.541667,
+     "atFrame": 37,
+     "dur": 0.291666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w34",
+     "i": 34,
+     "text": "les",
+     "at": 1.791667,
+     "atFrame": 43,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w35",
+     "i": 35,
+     "text": "falta",
+     "at": 2,
+     "atFrame": 48,
+     "dur": 0.375,
+     "accent": true,
+     "scale": null
+    },
+    {
+     "id": "w36",
+     "i": 36,
+     "text": "una",
+     "at": 2.333333,
+     "atFrame": 56,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w37",
+     "i": 37,
+     "text": "cosa.",
+     "at": 2.791667,
+     "atFrame": 67,
+     "dur": 0.416666,
+     "accent": false,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "04",
+   "title": "onescreen",
+   "start": 11.083333,
+   "end": 13.75,
+   "duration": 2.666667,
+   "startFrame": 266,
+   "durationFrames": 64,
+   "text": "Esa cosa. Es una OneScreen.",
+   "accentWord": null,
+   "words": [
+    {
+     "id": "w38",
+     "i": 38,
+     "text": "Esa",
+     "at": 0.166667,
+     "atFrame": 4,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w39",
+     "i": 39,
+     "text": "cosa.",
+     "at": 0.625,
+     "atFrame": 15,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w40",
+     "i": 40,
+     "text": "Es",
+     "at": 0.875,
+     "atFrame": 21,
+     "dur": 0.833334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w41",
+     "i": 41,
+     "text": "una",
+     "at": 1.666667,
+     "atFrame": 40,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w42",
+     "i": 42,
+     "text": "OneScreen.",
+     "at": 1.875,
+     "atFrame": 45,
+     "dur": 0.583334,
+     "accent": false,
+     "scale": "colossal"
+    }
+   ]
+  },
+  {
+   "id": "05",
+   "title": "mas-que-tecnologia",
+   "start": 13.75,
+   "end": 18.166667,
+   "duration": 4.416667,
+   "startFrame": 330,
+   "durationFrames": 106,
+   "text": "Porque para nosotros, transformar un espacio es mucho más que solo tecnología.",
+   "accentWord": {
+    "i": 51,
+    "text": "más"
+   },
+   "words": [
+    {
+     "id": "w43",
+     "i": 43,
+     "text": "Porque",
+     "at": 0.166667,
+     "atFrame": 4,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w44",
+     "i": 44,
+     "text": "para",
+     "at": 0.625,
+     "atFrame": 15,
+     "dur": 0.333333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w45",
+     "i": 45,
+     "text": "nosotros,",
+     "at": 0.916667,
+     "atFrame": 22,
+     "dur": 0.666666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w46",
+     "i": 46,
+     "text": "transformar",
+     "at": 1.666667,
+     "atFrame": 40,
+     "dur": 0.625,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w47",
+     "i": 47,
+     "text": "un",
+     "at": 2.25,
+     "atFrame": 54,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w48",
+     "i": 48,
+     "text": "espacio",
+     "at": 2.333333,
+     "atFrame": 56,
+     "dur": 0.333334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w49",
+     "i": 49,
+     "text": "es",
+     "at": 2.625,
+     "atFrame": 63,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w50",
+     "i": 50,
+     "text": "mucho",
+     "at": 2.75,
+     "atFrame": 66,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w51",
+     "i": 51,
+     "text": "más",
+     "at": 3,
+     "atFrame": 72,
+     "dur": 0.25,
+     "accent": true,
+     "scale": null
+    },
+    {
+     "id": "w52",
+     "i": 52,
+     "text": "que",
+     "at": 3.208333,
+     "atFrame": 77,
+     "dur": 0.208334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w53",
+     "i": 53,
+     "text": "solo",
+     "at": 3.375,
+     "atFrame": 81,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w54",
+     "i": 54,
+     "text": "tecnología.",
+     "at": 3.708333,
+     "atFrame": 89,
+     "dur": 0.541667,
+     "accent": false,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "06",
+   "title": "tres-pruebas",
+   "start": 18.166667,
+   "end": 24.541667,
+   "duration": 6.375,
+   "startFrame": 436,
+   "durationFrames": 153,
+   "text": "Es una clase que por fin se entiende. Es un equipo que toma mejores decisiones. Es una idea, que ahora se ve en grande.",
+   "accentWord": {
+    "i": 78,
+    "text": "grande."
+   },
+   "words": [
+    {
+     "id": "w55",
+     "i": 55,
+     "text": "Es",
+     "at": 0.166666,
+     "atFrame": 4,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w56",
+     "i": 56,
+     "text": "una",
+     "at": 0.333333,
+     "atFrame": 8,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w57",
+     "i": 57,
+     "text": "clase",
+     "at": 0.458333,
+     "atFrame": 11,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w58",
+     "i": 58,
+     "text": "que",
+     "at": 0.708333,
+     "atFrame": 17,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w59",
+     "i": 59,
+     "text": "por",
+     "at": 0.875,
+     "atFrame": 21,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w60",
+     "i": 60,
+     "text": "fin",
+     "at": 1.041666,
+     "atFrame": 25,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w61",
+     "i": 61,
+     "text": "se",
+     "at": 1.291666,
+     "atFrame": 31,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w62",
+     "i": 62,
+     "text": "entiende.",
+     "at": 1.5,
+     "atFrame": 36,
+     "dur": 0.458333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w63",
+     "i": 63,
+     "text": "Es",
+     "at": 2.041666,
+     "atFrame": 49,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w64",
+     "i": 64,
+     "text": "un",
+     "at": 2.25,
+     "atFrame": 54,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w65",
+     "i": 65,
+     "text": "equipo",
+     "at": 2.333333,
+     "atFrame": 56,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w66",
+     "i": 66,
+     "text": "que",
+     "at": 2.541666,
+     "atFrame": 61,
+     "dur": 0.208334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w67",
+     "i": 67,
+     "text": "toma",
+     "at": 2.708333,
+     "atFrame": 65,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w68",
+     "i": 68,
+     "text": "mejores",
+     "at": 2.875,
+     "atFrame": 69,
+     "dur": 0.458333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w69",
+     "i": 69,
+     "text": "decisiones.",
+     "at": 3.333333,
+     "atFrame": 80,
+     "dur": 0.791667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w70",
+     "i": 70,
+     "text": "Es",
+     "at": 4.208333,
+     "atFrame": 101,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w71",
+     "i": 71,
+     "text": "una",
+     "at": 4.416666,
+     "atFrame": 106,
+     "dur": 0.208334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w72",
+     "i": 72,
+     "text": "idea,",
+     "at": 4.583333,
+     "atFrame": 110,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w73",
+     "i": 73,
+     "text": "que",
+     "at": 4.833333,
+     "atFrame": 116,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w74",
+     "i": 74,
+     "text": "ahora",
+     "at": 5.083333,
+     "atFrame": 122,
+     "dur": 0.416667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w75",
+     "i": 75,
+     "text": "se",
+     "at": 5.458333,
+     "atFrame": 131,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w76",
+     "i": 76,
+     "text": "ve",
+     "at": 5.666666,
+     "atFrame": 136,
+     "dur": 0.208334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w77",
+     "i": 77,
+     "text": "en",
+     "at": 5.833333,
+     "atFrame": 140,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w78",
+     "i": 78,
+     "text": "grande.",
+     "at": 6,
+     "atFrame": 144,
+     "dur": 0.291666,
+     "accent": true,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "07",
+   "title": "creemos",
+   "start": 24.541667,
+   "end": 31.791667,
+   "duration": 7.25,
+   "startFrame": 589,
+   "durationFrames": 174,
+   "text": "Creemos en eso. En transformar la educación normal, en educación del futuro. En transformar empresas, en empresas del futuro.",
+   "accentWord": {
+    "i": 97,
+    "text": "futuro."
+   },
+   "words": [
+    {
+     "id": "w79",
+     "i": 79,
+     "text": "Creemos",
+     "at": 0.083333,
+     "atFrame": 2,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w80",
+     "i": 80,
+     "text": "en",
+     "at": 0.541666,
+     "atFrame": 13,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w81",
+     "i": 81,
+     "text": "eso.",
+     "at": 0.791666,
+     "atFrame": 19,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w82",
+     "i": 82,
+     "text": "En",
+     "at": 1.166666,
+     "atFrame": 28,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w83",
+     "i": 83,
+     "text": "transformar",
+     "at": 1.375,
+     "atFrame": 33,
+     "dur": 0.625,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w84",
+     "i": 84,
+     "text": "la",
+     "at": 1.958333,
+     "atFrame": 47,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w85",
+     "i": 85,
+     "text": "educación",
+     "at": 2.041666,
+     "atFrame": 49,
+     "dur": 0.416667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w86",
+     "i": 86,
+     "text": "normal,",
+     "at": 2.416666,
+     "atFrame": 58,
+     "dur": 0.458334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w87",
+     "i": 87,
+     "text": "en",
+     "at": 2.958333,
+     "atFrame": 71,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w88",
+     "i": 88,
+     "text": "educación",
+     "at": 3.083333,
+     "atFrame": 74,
+     "dur": 0.416667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w89",
+     "i": 89,
+     "text": "del",
+     "at": 3.458333,
+     "atFrame": 83,
+     "dur": 0.333333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w90",
+     "i": 90,
+     "text": "futuro.",
+     "at": 3.75,
+     "atFrame": 90,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w91",
+     "i": 91,
+     "text": "En",
+     "at": 4.333333,
+     "atFrame": 104,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w92",
+     "i": 92,
+     "text": "transformar",
+     "at": 4.666666,
+     "atFrame": 112,
+     "dur": 0.583334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w93",
+     "i": 93,
+     "text": "empresas,",
+     "at": 5.208333,
+     "atFrame": 125,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w94",
+     "i": 94,
+     "text": "en",
+     "at": 5.458333,
+     "atFrame": 131,
+     "dur": 0.666667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w95",
+     "i": 95,
+     "text": "empresas",
+     "at": 6.083333,
+     "atFrame": 146,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w96",
+     "i": 96,
+     "text": "del",
+     "at": 6.541666,
+     "atFrame": 157,
+     "dur": 0.25,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w97",
+     "i": 97,
+     "text": "futuro.",
+     "at": 6.75,
+     "atFrame": 162,
+     "dur": 0.416666,
+     "accent": true,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "08",
+   "title": "el-futuro-tambien",
+   "start": 31.791667,
+   "end": 34.791667,
+   "duration": 3,
+   "startFrame": 763,
+   "durationFrames": 72,
+   "text": "Porque cuando un espacio cambia. El futuro también.",
+   "accentWord": {
+    "i": 104,
+    "text": "futuro"
+   },
+   "words": [
+    {
+     "id": "w98",
+     "i": 98,
+     "text": "Porque",
+     "at": 0.083333,
+     "atFrame": 2,
+     "dur": 0.375,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w99",
+     "i": 99,
+     "text": "cuando",
+     "at": 0.416666,
+     "atFrame": 10,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w100",
+     "i": 100,
+     "text": "un",
+     "at": 0.708333,
+     "atFrame": 17,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w101",
+     "i": 101,
+     "text": "espacio",
+     "at": 0.833333,
+     "atFrame": 20,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w102",
+     "i": 102,
+     "text": "cambia.",
+     "at": 1.083333,
+     "atFrame": 26,
+     "dur": 0.541667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w103",
+     "i": 103,
+     "text": "El",
+     "at": 1.916666,
+     "atFrame": 46,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w104",
+     "i": 104,
+     "text": "futuro",
+     "at": 2,
+     "atFrame": 48,
+     "dur": 0.375,
+     "accent": true,
+     "scale": "colossal"
+    },
+    {
+     "id": "w105",
+     "i": 105,
+     "text": "también.",
+     "at": 2.333333,
+     "atFrame": 56,
+     "dur": 0.458333,
+     "accent": false,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "09",
+   "title": "lockup",
+   "start": 34.791667,
+   "end": 38.208333,
+   "duration": 3.416666,
+   "startFrame": 835,
+   "durationFrames": 82,
+   "text": "OneScreen. Transforma el espacio. Transforma el futuro.",
+   "accentWord": {
+    "i": 112,
+    "text": "futuro."
+   },
+   "words": [
+    {
+     "id": "w106",
+     "i": 106,
+     "text": "OneScreen.",
+     "at": 0.208333,
+     "atFrame": 5,
+     "dur": 0.5,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w107",
+     "i": 107,
+     "text": "Transforma",
+     "at": 0.875,
+     "atFrame": 21,
+     "dur": 0.666666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w108",
+     "i": 108,
+     "text": "el",
+     "at": 1.5,
+     "atFrame": 36,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w109",
+     "i": 109,
+     "text": "espacio.",
+     "at": 1.583333,
+     "atFrame": 38,
+     "dur": 0.416667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w110",
+     "i": 110,
+     "text": "Transforma",
+     "at": 2.25,
+     "atFrame": 54,
+     "dur": 0.666666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w111",
+     "i": 111,
+     "text": "el",
+     "at": 2.875,
+     "atFrame": 69,
+     "dur": 0.125,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w112",
+     "i": 112,
+     "text": "futuro.",
+     "at": 2.958333,
+     "atFrame": 71,
+     "dur": 0.333333,
+     "accent": true,
+     "scale": null
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "title": "toca-la-pantalla",
+   "start": 38.208333,
+   "end": 43.083333,
+   "duration": 4.875,
+   "startFrame": 917,
+   "durationFrames": 117,
+   "text": "Tu transformación puede comenzar ya, solo tienes que tocar la pantalla.",
+   "accentWord": {
+    "i": 123,
+    "text": "pantalla."
+   },
+   "words": [
+    {
+     "id": "w113",
+     "i": 113,
+     "text": "Tu",
+     "at": 0.125,
+     "atFrame": 3,
+     "dur": 0.333334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w114",
+     "i": 114,
+     "text": "transformación",
+     "at": 0.416667,
+     "atFrame": 10,
+     "dur": 0.625,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w115",
+     "i": 115,
+     "text": "puede",
+     "at": 1,
+     "atFrame": 24,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w116",
+     "i": 116,
+     "text": "comenzar",
+     "at": 1.25,
+     "atFrame": 30,
+     "dur": 0.458334,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w117",
+     "i": 117,
+     "text": "ya,",
+     "at": 1.666667,
+     "atFrame": 40,
+     "dur": 0.208333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w118",
+     "i": 118,
+     "text": "solo",
+     "at": 2.208334,
+     "atFrame": 53,
+     "dur": 0.291666,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w119",
+     "i": 119,
+     "text": "tienes",
+     "at": 2.458334,
+     "atFrame": 59,
+     "dur": 0.333333,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w120",
+     "i": 120,
+     "text": "que",
+     "at": 2.75,
+     "atFrame": 66,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w121",
+     "i": 121,
+     "text": "tocar",
+     "at": 2.875,
+     "atFrame": 69,
+     "dur": 0.291667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w122",
+     "i": 122,
+     "text": "la",
+     "at": 3.125,
+     "atFrame": 75,
+     "dur": 0.166667,
+     "accent": false,
+     "scale": null
+    },
+    {
+     "id": "w123",
+     "i": 123,
+     "text": "pantalla.",
+     "at": 3.25,
+     "atFrame": 78,
+     "dur": 0.416667,
+     "accent": true,
+     "scale": null
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "id": "w0",
+   "text": "Hay",
+   "start": 0,
+   "end": 0.375,
+   "startFrame": 0,
+   "endFrame": 9,
+   "raw": {
+    "start": 0,
+    "end": 0.36
+   },
+   "drift": 0,
+   "confidence": 0.789
+  },
+  {
+   "i": 1,
+   "id": "w1",
+   "text": "espacios",
+   "start": 0.333333,
+   "end": 0.791667,
+   "startFrame": 8,
+   "endFrame": 19,
+   "raw": {
+    "start": 0.36,
+    "end": 0.76
+   },
+   "drift": -0.027,
+   "confidence": 0.998
+  },
+  {
+   "i": 2,
+   "id": "w2",
+   "text": "que",
+   "start": 0.75,
+   "end": 0.958333,
+   "startFrame": 18,
+   "endFrame": 23,
+   "raw": {
+    "start": 0.76,
+    "end": 0.92
+   },
+   "drift": -0.01,
+   "confidence": 0.989
+  },
+  {
+   "i": 3,
+   "id": "w3",
+   "text": "solo",
+   "start": 0.916667,
+   "end": 1.166667,
+   "startFrame": 22,
+   "endFrame": 28,
+   "raw": {
+    "start": 0.92,
+    "end": 1.14
+   },
+   "drift": -0.003,
+   "confidence": 0.769
+  },
+  {
+   "i": 4,
+   "id": "w4",
+   "text": "ocupan",
+   "start": 1.125,
+   "end": 1.5,
+   "startFrame": 27,
+   "endFrame": 36,
+   "raw": {
+    "start": 1.14,
+    "end": 1.5
+   },
+   "drift": -0.015,
+   "confidence": 0.999
+  },
+  {
+   "i": 5,
+   "id": "w5",
+   "text": "un",
+   "start": 1.5,
+   "end": 1.75,
+   "startFrame": 36,
+   "endFrame": 42,
+   "raw": {
+    "start": 1.5,
+    "end": 1.72
+   },
+   "drift": 0,
+   "confidence": 0.991
+  },
+  {
+   "i": 6,
+   "id": "w6",
+   "text": "lugar.",
+   "start": 1.708333,
+   "end": 2.041667,
+   "startFrame": 41,
+   "endFrame": 49,
+   "raw": {
+    "start": 1.72,
+    "end": 2.02
+   },
+   "drift": -0.012,
+   "confidence": 0.999
+  },
+  {
+   "i": 7,
+   "id": "w7",
+   "text": "Y",
+   "start": 2.25,
+   "end": 2.541667,
+   "startFrame": 54,
+   "endFrame": 61,
+   "raw": {
+    "start": 2.28,
+    "end": 2.52
+   },
+   "drift": -0.03,
+   "confidence": 0.989
+  },
+  {
+   "i": 8,
+   "id": "w8",
+   "text": "hay",
+   "start": 2.5,
+   "end": 2.666667,
+   "startFrame": 60,
+   "endFrame": 64,
+   "raw": {
+    "start": 2.52,
+    "end": 2.64
+   },
+   "drift": -0.02,
+   "confidence": 0.999
+  },
+  {
+   "i": 9,
+   "id": "w9",
+   "text": "espacios",
+   "start": 2.625,
+   "end": 3.125,
+   "startFrame": 63,
+   "endFrame": 75,
+   "raw": {
+    "start": 2.64,
+    "end": 3.1
+   },
+   "drift": -0.015,
+   "confidence": 1
+  },
+  {
+   "i": 10,
+   "id": "w10",
+   "text": "que",
+   "start": 3.083333,
+   "end": 3.333333,
+   "startFrame": 74,
+   "endFrame": 80,
+   "raw": {
+    "start": 3.1,
+    "end": 3.3
+   },
+   "drift": -0.017,
+   "confidence": 0.999
+  },
+  {
+   "i": 11,
+   "id": "w11",
+   "text": "cambian",
+   "start": 3.291667,
+   "end": 3.708333,
+   "startFrame": 79,
+   "endFrame": 89,
+   "raw": {
+    "start": 3.3,
+    "end": 3.68
+   },
+   "drift": -0.008,
+   "confidence": 0.999
+  },
+  {
+   "i": 12,
+   "id": "w12",
+   "text": "lo",
+   "start": 3.666667,
+   "end": 3.833333,
+   "startFrame": 88,
+   "endFrame": 92,
+   "raw": {
+    "start": 3.68,
+    "end": 3.8
+   },
+   "drift": -0.013,
+   "confidence": 0.999
+  },
+  {
+   "i": 13,
+   "id": "w13",
+   "text": "que",
+   "start": 3.791667,
+   "end": 3.916667,
+   "startFrame": 91,
+   "endFrame": 94,
+   "raw": {
+    "start": 3.8,
+    "end": 3.9
+   },
+   "drift": -0.008,
+   "confidence": 1
+  },
+  {
+   "i": 14,
+   "id": "w14",
+   "text": "pasa",
+   "start": 3.875,
+   "end": 4.208333,
+   "startFrame": 93,
+   "endFrame": 101,
+   "raw": {
+    "start": 3.9,
+    "end": 4.18
+   },
+   "drift": -0.025,
+   "confidence": 0.999
+  },
+  {
+   "i": 15,
+   "id": "w15",
+   "text": "dentro",
+   "start": 4.166667,
+   "end": 4.458333,
+   "startFrame": 100,
+   "endFrame": 107,
+   "raw": {
+    "start": 4.18,
+    "end": 4.42
+   },
+   "drift": -0.013,
+   "confidence": 0.991
+  },
+  {
+   "i": 16,
+   "id": "w16",
+   "text": "de",
+   "start": 4.416667,
+   "end": 4.625,
+   "startFrame": 106,
+   "endFrame": 111,
+   "raw": {
+    "start": 4.42,
+    "end": 4.6
+   },
+   "drift": -0.003,
+   "confidence": 0.999
+  },
+  {
+   "i": 17,
+   "id": "w17",
+   "text": "ellos.",
+   "start": 4.583333,
+   "end": 4.875,
+   "startFrame": 110,
+   "endFrame": 117,
+   "raw": {
+    "start": 4.6,
+    "end": 4.84
+   },
+   "drift": -0.017,
+   "confidence": 0.999
+  },
+  {
+   "i": 18,
+   "id": "w18",
+   "text": "Hay",
+   "start": 5.041667,
+   "end": 5.375,
+   "startFrame": 121,
+   "endFrame": 129,
+   "raw": {
+    "start": 5.08,
+    "end": 5.36
+   },
+   "drift": -0.038,
+   "confidence": 0.997
+  },
+  {
+   "i": 19,
+   "id": "w19",
+   "text": "espacios",
+   "start": 5.333333,
+   "end": 5.708333,
+   "startFrame": 128,
+   "endFrame": 137,
+   "raw": {
+    "start": 5.36,
+    "end": 5.7
+   },
+   "drift": -0.027,
+   "confidence": 1
+  },
+  {
+   "i": 20,
+   "id": "w20",
+   "text": "que",
+   "start": 5.666667,
+   "end": 5.875,
+   "startFrame": 136,
+   "endFrame": 141,
+   "raw": {
+    "start": 5.7,
+    "end": 5.84
+   },
+   "drift": -0.033,
+   "confidence": 1
+  },
+  {
+   "i": 21,
+   "id": "w21",
+   "text": "no",
+   "start": 5.833333,
+   "end": 6.083333,
+   "startFrame": 140,
+   "endFrame": 146,
+   "raw": {
+    "start": 5.84,
+    "end": 6.06
+   },
+   "drift": -0.007,
+   "confidence": 0.999
+  },
+  {
+   "i": 22,
+   "id": "w22",
+   "text": "se",
+   "start": 6.041667,
+   "end": 6.25,
+   "startFrame": 145,
+   "endFrame": 150,
+   "raw": {
+    "start": 6.06,
+    "end": 6.24
+   },
+   "drift": -0.018,
+   "confidence": 1
+  },
+  {
+   "i": 23,
+   "id": "w23",
+   "text": "llenan",
+   "start": 6.208333,
+   "end": 6.541667,
+   "startFrame": 149,
+   "endFrame": 157,
+   "raw": {
+    "start": 6.24,
+    "end": 6.54
+   },
+   "drift": -0.032,
+   "confidence": 0.997
+  },
+  {
+   "i": 24,
+   "id": "w24",
+   "text": "con",
+   "start": 6.5,
+   "end": 6.75,
+   "startFrame": 156,
+   "endFrame": 162,
+   "raw": {
+    "start": 6.54,
+    "end": 6.72
+   },
+   "drift": -0.04,
+   "confidence": 0.998
+  },
+  {
+   "i": 25,
+   "id": "w25",
+   "text": "cualquier",
+   "start": 6.708333,
+   "end": 7.041667,
+   "startFrame": 161,
+   "endFrame": 169,
+   "raw": {
+    "start": 6.72,
+    "end": 7.04
+   },
+   "drift": -0.012,
+   "confidence": 1
+  },
+  {
+   "i": 26,
+   "id": "w26",
+   "text": "cosa.",
+   "start": 7,
+   "end": 7.416667,
+   "startFrame": 168,
+   "endFrame": 178,
+   "raw": {
+    "start": 7.04,
+    "end": 7.4
+   },
+   "drift": -0.04,
+   "confidence": 1
+  },
+  {
+   "i": 27,
+   "id": "w27",
+   "text": "Y",
+   "start": 7.583333,
+   "end": 8.041667,
+   "startFrame": 182,
+   "endFrame": 193,
+   "raw": {
+    "start": 7.62,
+    "end": 8.04
+   },
+   "drift": -0.037,
+   "confidence": 0.999
+  },
+  {
+   "i": 28,
+   "id": "w28",
+   "text": "hay",
+   "start": 8,
+   "end": 8.208333,
+   "startFrame": 192,
+   "endFrame": 197,
+   "raw": {
+    "start": 8.04,
+    "end": 8.2
+   },
+   "drift": -0.04,
+   "confidence": 1
+  },
+  {
+   "i": 29,
+   "id": "w29",
+   "text": "espacios",
+   "start": 8.166667,
+   "end": 8.708333,
+   "startFrame": 196,
+   "endFrame": 209,
+   "raw": {
+    "start": 8.2,
+    "end": 8.7
+   },
+   "drift": -0.033,
+   "confidence": 1
+  },
+  {
+   "i": 30,
+   "id": "w30",
+   "text": "a",
+   "start": 8.666667,
+   "end": 8.875,
+   "startFrame": 208,
+   "endFrame": 213,
+   "raw": {
+    "start": 8.7,
+    "end": 8.86
+   },
+   "drift": -0.033,
+   "confidence": 0.995
+  },
+  {
+   "i": 31,
+   "id": "w31",
+   "text": "los",
+   "start": 8.833333,
+   "end": 9,
+   "startFrame": 212,
+   "endFrame": 216,
+   "raw": {
+    "start": 8.86,
+    "end": 8.96
+   },
+   "drift": -0.027,
+   "confidence": 1
+  },
+  {
+   "i": 32,
+   "id": "w32",
+   "text": "que",
+   "start": 8.958333,
+   "end": 9.083333,
+   "startFrame": 215,
+   "endFrame": 218,
+   "raw": {
+    "start": 8.96,
+    "end": 9.08
+   },
+   "drift": -0.002,
+   "confidence": 1
+  },
+  {
+   "i": 33,
+   "id": "w33",
+   "text": "solo",
+   "start": 9.041667,
+   "end": 9.333333,
+   "startFrame": 217,
+   "endFrame": 224,
+   "raw": {
+    "start": 9.08,
+    "end": 9.3
+   },
+   "drift": -0.038,
+   "confidence": 0.997
+  },
+  {
+   "i": 34,
+   "id": "w34",
+   "text": "les",
+   "start": 9.291667,
+   "end": 9.5,
+   "startFrame": 223,
+   "endFrame": 228,
+   "raw": {
+    "start": 9.3,
+    "end": 9.5
+   },
+   "drift": -0.008,
+   "confidence": 0.999
+  },
+  {
+   "i": 35,
+   "id": "w35",
+   "text": "falta",
+   "start": 9.5,
+   "end": 9.875,
+   "startFrame": 228,
+   "endFrame": 237,
+   "raw": {
+    "start": 9.5,
+    "end": 9.86
+   },
+   "drift": 0,
+   "confidence": 0.999
+  },
+  {
+   "i": 36,
+   "id": "w36",
+   "text": "una",
+   "start": 9.833333,
+   "end": 10.333333,
+   "startFrame": 236,
+   "endFrame": 248,
+   "raw": {
+    "start": 9.86,
+    "end": 10.3
+   },
+   "drift": -0.027,
+   "confidence": 0.998
+  },
+  {
+   "i": 37,
+   "id": "w37",
+   "text": "cosa.",
+   "start": 10.291667,
+   "end": 10.708333,
+   "startFrame": 247,
+   "endFrame": 257,
+   "raw": {
+    "start": 10.3,
+    "end": 10.7
+   },
+   "drift": -0.008,
+   "confidence": 1
+  },
+  {
+   "i": 38,
+   "id": "w38",
+   "text": "Esa",
+   "start": 11.25,
+   "end": 11.75,
+   "startFrame": 270,
+   "endFrame": 282,
+   "raw": {
+    "start": 11.26,
+    "end": 11.74
+   },
+   "drift": -0.01,
+   "confidence": 0.998
+  },
+  {
+   "i": 39,
+   "id": "w39",
+   "text": "cosa.",
+   "start": 11.708333,
+   "end": 12,
+   "startFrame": 281,
+   "endFrame": 288,
+   "raw": {
+    "start": 11.74,
+    "end": 11.98
+   },
+   "drift": -0.032,
+   "confidence": 1
+  },
+  {
+   "i": 40,
+   "id": "w40",
+   "text": "Es",
+   "start": 11.958333,
+   "end": 12.791667,
+   "startFrame": 287,
+   "endFrame": 307,
+   "raw": {
+    "start": 11.98,
+    "end": 12.76
+   },
+   "drift": -0.022,
+   "confidence": 0.985
+  },
+  {
+   "i": 41,
+   "id": "w41",
+   "text": "una",
+   "start": 12.75,
+   "end": 13,
+   "startFrame": 306,
+   "endFrame": 312,
+   "raw": {
+    "start": 12.76,
+    "end": 12.96
+   },
+   "drift": -0.01,
+   "confidence": 1
+  },
+  {
+   "i": 42,
+   "id": "w42",
+   "text": "OneScreen.",
+   "start": 12.958333,
+   "end": 13.541667,
+   "startFrame": 311,
+   "endFrame": 325,
+   "raw": {
+    "start": 12.96,
+    "end": 13.54
+   },
+   "drift": -0.002,
+   "confidence": 0.444
+  },
+  {
+   "i": 43,
+   "id": "w43",
+   "text": "Porque",
+   "start": 13.916667,
+   "end": 14.416667,
+   "startFrame": 334,
+   "endFrame": 346,
+   "raw": {
+    "start": 13.92,
+    "end": 14.4
+   },
+   "drift": -0.003,
+   "confidence": 0.996
+  },
+  {
+   "i": 44,
+   "id": "w44",
+   "text": "para",
+   "start": 14.375,
+   "end": 14.708333,
+   "startFrame": 345,
+   "endFrame": 353,
+   "raw": {
+    "start": 14.4,
+    "end": 14.7
+   },
+   "drift": -0.025,
+   "confidence": 0.993
+  },
+  {
+   "i": 45,
+   "id": "w45",
+   "text": "nosotros,",
+   "start": 14.666667,
+   "end": 15.333333,
+   "startFrame": 352,
+   "endFrame": 368,
+   "raw": {
+    "start": 14.7,
+    "end": 15.3
+   },
+   "drift": -0.033,
+   "confidence": 1
+  },
+  {
+   "i": 46,
+   "id": "w46",
+   "text": "transformar",
+   "start": 15.416667,
+   "end": 16.041667,
+   "startFrame": 370,
+   "endFrame": 385,
+   "raw": {
+    "start": 15.42,
+    "end": 16.02
+   },
+   "drift": -0.003,
+   "confidence": 0.973
+  },
+  {
+   "i": 47,
+   "id": "w47",
+   "text": "un",
+   "start": 16,
+   "end": 16.125,
+   "startFrame": 384,
+   "endFrame": 387,
+   "raw": {
+    "start": 16.02,
+    "end": 16.1
+   },
+   "drift": -0.02,
+   "confidence": 0.782
+  },
+  {
+   "i": 48,
+   "id": "w48",
+   "text": "espacio",
+   "start": 16.083333,
+   "end": 16.416667,
+   "startFrame": 386,
+   "endFrame": 394,
+   "raw": {
+    "start": 16.1,
+    "end": 16.4
+   },
+   "drift": -0.017,
+   "confidence": 0.974
+  },
+  {
+   "i": 49,
+   "id": "w49",
+   "text": "es",
+   "start": 16.375,
+   "end": 16.541667,
+   "startFrame": 393,
+   "endFrame": 397,
+   "raw": {
+    "start": 16.4,
+    "end": 16.52
+   },
+   "drift": -0.025,
+   "confidence": 0.999
+  },
+  {
+   "i": 50,
+   "id": "w50",
+   "text": "mucho",
+   "start": 16.5,
+   "end": 16.791667,
+   "startFrame": 396,
+   "endFrame": 403,
+   "raw": {
+    "start": 16.52,
+    "end": 16.78
+   },
+   "drift": -0.02,
+   "confidence": 0.999
+  },
+  {
+   "i": 51,
+   "id": "w51",
+   "text": "más",
+   "start": 16.75,
+   "end": 17,
+   "startFrame": 402,
+   "endFrame": 408,
+   "raw": {
+    "start": 16.78,
+    "end": 16.98
+   },
+   "drift": -0.03,
+   "confidence": 0
+  },
+  {
+   "i": 52,
+   "id": "w52",
+   "text": "que",
+   "start": 16.958333,
+   "end": 17.166667,
+   "startFrame": 407,
+   "endFrame": 412,
+   "raw": {
+    "start": 16.98,
+    "end": 17.16
+   },
+   "drift": -0.022,
+   "confidence": 0.987
+  },
+  {
+   "i": 53,
+   "id": "w53",
+   "text": "solo",
+   "start": 17.125,
+   "end": 17.5,
+   "startFrame": 411,
+   "endFrame": 420,
+   "raw": {
+    "start": 17.16,
+    "end": 17.46
+   },
+   "drift": -0.035,
+   "confidence": 0.987
+  },
+  {
+   "i": 54,
+   "id": "w54",
+   "text": "tecnología.",
+   "start": 17.458333,
+   "end": 18,
+   "startFrame": 419,
+   "endFrame": 432,
+   "raw": {
+    "start": 17.46,
+    "end": 17.96
+   },
+   "drift": -0.002,
+   "confidence": 0.895
+  },
+  {
+   "i": 55,
+   "id": "w55",
+   "text": "Es",
+   "start": 18.333333,
+   "end": 18.5,
+   "startFrame": 440,
+   "endFrame": 444,
+   "raw": {
+    "start": 18.34,
+    "end": 18.5
+   },
+   "drift": -0.007,
+   "confidence": 0.99
+  },
+  {
+   "i": 56,
+   "id": "w56",
+   "text": "una",
+   "start": 18.5,
+   "end": 18.666667,
+   "startFrame": 444,
+   "endFrame": 448,
+   "raw": {
+    "start": 18.5,
+    "end": 18.66
+   },
+   "drift": 0,
+   "confidence": 0.99
+  },
+  {
+   "i": 57,
+   "id": "w57",
+   "text": "clase",
+   "start": 18.625,
+   "end": 18.916667,
+   "startFrame": 447,
+   "endFrame": 454,
+   "raw": {
+    "start": 18.66,
+    "end": 18.9
+   },
+   "drift": -0.035,
+   "confidence": 0.994
+  },
+  {
+   "i": 58,
+   "id": "w58",
+   "text": "que",
+   "start": 18.875,
+   "end": 19.083333,
+   "startFrame": 453,
+   "endFrame": 458,
+   "raw": {
+    "start": 18.9,
+    "end": 19.06
+   },
+   "drift": -0.025,
+   "confidence": 0.995
+  },
+  {
+   "i": 59,
+   "id": "w59",
+   "text": "por",
+   "start": 19.041667,
+   "end": 19.25,
+   "startFrame": 457,
+   "endFrame": 462,
+   "raw": {
+    "start": 19.06,
+    "end": 19.24
+   },
+   "drift": -0.018,
+   "confidence": 0.972
+  },
+  {
+   "i": 60,
+   "id": "w60",
+   "text": "fin",
+   "start": 19.208333,
+   "end": 19.5,
+   "startFrame": 461,
+   "endFrame": 468,
+   "raw": {
+    "start": 19.24,
+    "end": 19.46
+   },
+   "drift": -0.032,
+   "confidence": 0.996
+  },
+  {
+   "i": 61,
+   "id": "w61",
+   "text": "se",
+   "start": 19.458333,
+   "end": 19.708333,
+   "startFrame": 467,
+   "endFrame": 473,
+   "raw": {
+    "start": 19.46,
+    "end": 19.68
+   },
+   "drift": -0.002,
+   "confidence": 0.992
+  },
+  {
+   "i": 62,
+   "id": "w62",
+   "text": "entiende.",
+   "start": 19.666667,
+   "end": 20.125,
+   "startFrame": 472,
+   "endFrame": 483,
+   "raw": {
+    "start": 19.68,
+    "end": 20.1
+   },
+   "drift": -0.013,
+   "confidence": 0.997
+  },
+  {
+   "i": 63,
+   "id": "w63",
+   "text": "Es",
+   "start": 20.208333,
+   "end": 20.458333,
+   "startFrame": 485,
+   "endFrame": 491,
+   "raw": {
+    "start": 20.24,
+    "end": 20.42
+   },
+   "drift": -0.032,
+   "confidence": 0.996
+  },
+  {
+   "i": 64,
+   "id": "w64",
+   "text": "un",
+   "start": 20.416667,
+   "end": 20.541667,
+   "startFrame": 490,
+   "endFrame": 493,
+   "raw": {
+    "start": 20.42,
+    "end": 20.54
+   },
+   "drift": -0.003,
+   "confidence": 0.994
+  },
+  {
+   "i": 65,
+   "id": "w65",
+   "text": "equipo",
+   "start": 20.5,
+   "end": 20.75,
+   "startFrame": 492,
+   "endFrame": 498,
+   "raw": {
+    "start": 20.54,
+    "end": 20.74
+   },
+   "drift": -0.04,
+   "confidence": 0.997
+  },
+  {
+   "i": 66,
+   "id": "w66",
+   "text": "que",
+   "start": 20.708333,
+   "end": 20.916667,
+   "startFrame": 497,
+   "endFrame": 502,
+   "raw": {
+    "start": 20.74,
+    "end": 20.9
+   },
+   "drift": -0.032,
+   "confidence": 0.997
+  },
+  {
+   "i": 67,
+   "id": "w67",
+   "text": "toma",
+   "start": 20.875,
+   "end": 21.083333,
+   "startFrame": 501,
+   "endFrame": 506,
+   "raw": {
+    "start": 20.9,
+    "end": 21.08
+   },
+   "drift": -0.025,
+   "confidence": 0.986
+  },
+  {
+   "i": 68,
+   "id": "w68",
+   "text": "mejores",
+   "start": 21.041667,
+   "end": 21.5,
+   "startFrame": 505,
+   "endFrame": 516,
+   "raw": {
+    "start": 21.08,
+    "end": 21.5
+   },
+   "drift": -0.038,
+   "confidence": 0.998
+  },
+  {
+   "i": 69,
+   "id": "w69",
+   "text": "decisiones.",
+   "start": 21.5,
+   "end": 22.291667,
+   "startFrame": 516,
+   "endFrame": 535,
+   "raw": {
+    "start": 21.5,
+    "end": 22.28
+   },
+   "drift": 0,
+   "confidence": 0.998
+  },
+  {
+   "i": 70,
+   "id": "w70",
+   "text": "Es",
+   "start": 22.375,
+   "end": 22.625,
+   "startFrame": 537,
+   "endFrame": 543,
+   "raw": {
+    "start": 22.4,
+    "end": 22.6
+   },
+   "drift": -0.025,
+   "confidence": 0.994
+  },
+  {
+   "i": 71,
+   "id": "w71",
+   "text": "una",
+   "start": 22.583333,
+   "end": 22.791667,
+   "startFrame": 542,
+   "endFrame": 547,
+   "raw": {
+    "start": 22.6,
+    "end": 22.78
+   },
+   "drift": -0.017,
+   "confidence": 0.997
+  },
+  {
+   "i": 72,
+   "id": "w72",
+   "text": "idea,",
+   "start": 22.75,
+   "end": 23.041667,
+   "startFrame": 546,
+   "endFrame": 553,
+   "raw": {
+    "start": 22.78,
+    "end": 23.02
+   },
+   "drift": -0.03,
+   "confidence": 0.996
+  },
+  {
+   "i": 73,
+   "id": "w73",
+   "text": "que",
+   "start": 23,
+   "end": 23.291667,
+   "startFrame": 552,
+   "endFrame": 559,
+   "raw": {
+    "start": 23.02,
+    "end": 23.28
+   },
+   "drift": -0.02,
+   "confidence": 0.997
+  },
+  {
+   "i": 74,
+   "id": "w74",
+   "text": "ahora",
+   "start": 23.25,
+   "end": 23.666667,
+   "startFrame": 558,
+   "endFrame": 568,
+   "raw": {
+    "start": 23.28,
+    "end": 23.64
+   },
+   "drift": -0.03,
+   "confidence": 0.988
+  },
+  {
+   "i": 75,
+   "id": "w75",
+   "text": "se",
+   "start": 23.625,
+   "end": 23.875,
+   "startFrame": 567,
+   "endFrame": 573,
+   "raw": {
+    "start": 23.64,
+    "end": 23.86
+   },
+   "drift": -0.015,
+   "confidence": 0.995
+  },
+  {
+   "i": 76,
+   "id": "w76",
+   "text": "ve",
+   "start": 23.833333,
+   "end": 24.041667,
+   "startFrame": 572,
+   "endFrame": 577,
+   "raw": {
+    "start": 23.86,
+    "end": 24.02
+   },
+   "drift": -0.027,
+   "confidence": 0.992
+  },
+  {
+   "i": 77,
+   "id": "w77",
+   "text": "en",
+   "start": 24,
+   "end": 24.208333,
+   "startFrame": 576,
+   "endFrame": 581,
+   "raw": {
+    "start": 24.02,
+    "end": 24.2
+   },
+   "drift": -0.02,
+   "confidence": 0.983
+  },
+  {
+   "i": 78,
+   "id": "w78",
+   "text": "grande.",
+   "start": 24.166667,
+   "end": 24.458333,
+   "startFrame": 580,
+   "endFrame": 587,
+   "raw": {
+    "start": 24.2,
+    "end": 24.44
+   },
+   "drift": -0.033,
+   "confidence": 0.992
+  },
+  {
+   "i": 79,
+   "id": "w79",
+   "text": "Creemos",
+   "start": 24.625,
+   "end": 25.125,
+   "startFrame": 591,
+   "endFrame": 603,
+   "raw": {
+    "start": 24.64,
+    "end": 25.12
+   },
+   "drift": -0.015,
+   "confidence": 0.99
+  },
+  {
+   "i": 80,
+   "id": "w80",
+   "text": "en",
+   "start": 25.083333,
+   "end": 25.375,
+   "startFrame": 602,
+   "endFrame": 609,
+   "raw": {
+    "start": 25.12,
+    "end": 25.36
+   },
+   "drift": -0.037,
+   "confidence": 0.997
+  },
+  {
+   "i": 81,
+   "id": "w81",
+   "text": "eso.",
+   "start": 25.333333,
+   "end": 25.583333,
+   "startFrame": 608,
+   "endFrame": 614,
+   "raw": {
+    "start": 25.36,
+    "end": 25.56
+   },
+   "drift": -0.027,
+   "confidence": 0.99
+  },
+  {
+   "i": 82,
+   "id": "w82",
+   "text": "En",
+   "start": 25.708333,
+   "end": 25.958333,
+   "startFrame": 617,
+   "endFrame": 623,
+   "raw": {
+    "start": 25.74,
+    "end": 25.94
+   },
+   "drift": -0.032,
+   "confidence": 0.994
+  },
+  {
+   "i": 83,
+   "id": "w83",
+   "text": "transformar",
+   "start": 25.916667,
+   "end": 26.541667,
+   "startFrame": 622,
+   "endFrame": 637,
+   "raw": {
+    "start": 25.94,
+    "end": 26.54
+   },
+   "drift": -0.023,
+   "confidence": 0.998
+  },
+  {
+   "i": 84,
+   "id": "w84",
+   "text": "la",
+   "start": 26.5,
+   "end": 26.625,
+   "startFrame": 636,
+   "endFrame": 639,
+   "raw": {
+    "start": 26.54,
+    "end": 26.62
+   },
+   "drift": -0.04,
+   "confidence": 0.994
+  },
+  {
+   "i": 85,
+   "id": "w85",
+   "text": "educación",
+   "start": 26.583333,
+   "end": 27,
+   "startFrame": 638,
+   "endFrame": 648,
+   "raw": {
+    "start": 26.62,
+    "end": 26.98
+   },
+   "drift": -0.037,
+   "confidence": 0.443
+  },
+  {
+   "i": 86,
+   "id": "w86",
+   "text": "normal,",
+   "start": 26.958333,
+   "end": 27.416667,
+   "startFrame": 647,
+   "endFrame": 658,
+   "raw": {
+    "start": 26.98,
+    "end": 27.38
+   },
+   "drift": -0.022,
+   "confidence": 0.992
+  },
+  {
+   "i": 87,
+   "id": "w87",
+   "text": "en",
+   "start": 27.5,
+   "end": 27.666667,
+   "startFrame": 660,
+   "endFrame": 664,
+   "raw": {
+    "start": 27.54,
+    "end": 27.66
+   },
+   "drift": -0.04,
+   "confidence": 0.992
+  },
+  {
+   "i": 88,
+   "id": "w88",
+   "text": "educación",
+   "start": 27.625,
+   "end": 28.041667,
+   "startFrame": 663,
+   "endFrame": 673,
+   "raw": {
+    "start": 27.66,
+    "end": 28.04
+   },
+   "drift": -0.035,
+   "confidence": 0.721
+  },
+  {
+   "i": 89,
+   "id": "w89",
+   "text": "del",
+   "start": 28,
+   "end": 28.333333,
+   "startFrame": 672,
+   "endFrame": 680,
+   "raw": {
+    "start": 28.04,
+    "end": 28.3
+   },
+   "drift": -0.04,
+   "confidence": 0.981
+  },
+  {
+   "i": 90,
+   "id": "w90",
+   "text": "futuro.",
+   "start": 28.291667,
+   "end": 28.666667,
+   "startFrame": 679,
+   "endFrame": 688,
+   "raw": {
+    "start": 28.3,
+    "end": 28.66
+   },
+   "drift": -0.008,
+   "confidence": 0.991
+  },
+  {
+   "i": 91,
+   "id": "w91",
+   "text": "En",
+   "start": 28.875,
+   "end": 29.25,
+   "startFrame": 693,
+   "endFrame": 702,
+   "raw": {
+    "start": 28.9,
+    "end": 29.22
+   },
+   "drift": -0.025,
+   "confidence": 0.97
+  },
+  {
+   "i": 92,
+   "id": "w92",
+   "text": "transformar",
+   "start": 29.208333,
+   "end": 29.791667,
+   "startFrame": 701,
+   "endFrame": 715,
+   "raw": {
+    "start": 29.22,
+    "end": 29.76
+   },
+   "drift": -0.012,
+   "confidence": 0.992
+  },
+  {
+   "i": 93,
+   "id": "w93",
+   "text": "empresas,",
+   "start": 29.75,
+   "end": 30,
+   "startFrame": 714,
+   "endFrame": 720,
+   "raw": {
+    "start": 29.76,
+    "end": 29.98
+   },
+   "drift": -0.01,
+   "confidence": 0.225
+  },
+  {
+   "i": 94,
+   "id": "w94",
+   "text": "en",
+   "start": 30,
+   "end": 30.666667,
+   "startFrame": 720,
+   "endFrame": 736,
+   "raw": {
+    "start": 30,
+    "end": 30.64
+   },
+   "drift": 0,
+   "confidence": 0.502
+  },
+  {
+   "i": 95,
+   "id": "w95",
+   "text": "empresas",
+   "start": 30.625,
+   "end": 31.125,
+   "startFrame": 735,
+   "endFrame": 747,
+   "raw": {
+    "start": 30.64,
+    "end": 31.12
+   },
+   "drift": -0.015,
+   "confidence": 0.784
+  },
+  {
+   "i": 96,
+   "id": "w96",
+   "text": "del",
+   "start": 31.083333,
+   "end": 31.333333,
+   "startFrame": 746,
+   "endFrame": 752,
+   "raw": {
+    "start": 31.12,
+    "end": 31.32
+   },
+   "drift": -0.037,
+   "confidence": 0.985
+  },
+  {
+   "i": 97,
+   "id": "w97",
+   "text": "futuro.",
+   "start": 31.291667,
+   "end": 31.708333,
+   "startFrame": 751,
+   "endFrame": 761,
+   "raw": {
+    "start": 31.32,
+    "end": 31.7
+   },
+   "drift": -0.028,
+   "confidence": 0.999
+  },
+  {
+   "i": 98,
+   "id": "w98",
+   "text": "Porque",
+   "start": 31.875,
+   "end": 32.25,
+   "startFrame": 765,
+   "endFrame": 774,
+   "raw": {
+    "start": 31.88,
+    "end": 32.22
+   },
+   "drift": -0.005,
+   "confidence": 0.987
+  },
+  {
+   "i": 99,
+   "id": "w99",
+   "text": "cuando",
+   "start": 32.208333,
+   "end": 32.5,
+   "startFrame": 773,
+   "endFrame": 780,
+   "raw": {
+    "start": 32.22,
+    "end": 32.5
+   },
+   "drift": -0.012,
+   "confidence": 0.984
+  },
+  {
+   "i": 100,
+   "id": "w100",
+   "text": "un",
+   "start": 32.5,
+   "end": 32.666667,
+   "startFrame": 780,
+   "endFrame": 784,
+   "raw": {
+    "start": 32.5,
+    "end": 32.66
+   },
+   "drift": 0,
+   "confidence": 0.995
+  },
+  {
+   "i": 101,
+   "id": "w101",
+   "text": "espacio",
+   "start": 32.625,
+   "end": 32.916667,
+   "startFrame": 783,
+   "endFrame": 790,
+   "raw": {
+    "start": 32.66,
+    "end": 32.9
+   },
+   "drift": -0.035,
+   "confidence": 0.998
+  },
+  {
+   "i": 102,
+   "id": "w102",
+   "text": "cambia.",
+   "start": 32.875,
+   "end": 33.416667,
+   "startFrame": 789,
+   "endFrame": 802,
+   "raw": {
+    "start": 32.9,
+    "end": 33.4
+   },
+   "drift": -0.025,
+   "confidence": 0.998
+  },
+  {
+   "i": 103,
+   "id": "w103",
+   "text": "El",
+   "start": 33.708333,
+   "end": 33.833333,
+   "startFrame": 809,
+   "endFrame": 812,
+   "raw": {
+    "start": 33.74,
+    "end": 33.82
+   },
+   "drift": -0.032,
+   "confidence": 0.994
+  },
+  {
+   "i": 104,
+   "id": "w104",
+   "text": "futuro",
+   "start": 33.791667,
+   "end": 34.166667,
+   "startFrame": 811,
+   "endFrame": 820,
+   "raw": {
+    "start": 33.82,
+    "end": 34.16
+   },
+   "drift": -0.028,
+   "confidence": 0.998
+  },
+  {
+   "i": 105,
+   "id": "w105",
+   "text": "también.",
+   "start": 34.125,
+   "end": 34.583333,
+   "startFrame": 819,
+   "endFrame": 830,
+   "raw": {
+    "start": 34.16,
+    "end": 34.58
+   },
+   "drift": -0.035,
+   "confidence": 0.993
+  },
+  {
+   "i": 106,
+   "id": "w106",
+   "text": "OneScreen.",
+   "start": 35,
+   "end": 35.5,
+   "startFrame": 840,
+   "endFrame": 852,
+   "raw": {
+    "start": 35,
+    "end": 35.5
+   },
+   "drift": 0,
+   "confidence": 0.814
+  },
+  {
+   "i": 107,
+   "id": "w107",
+   "text": "Transforma",
+   "start": 35.666667,
+   "end": 36.333333,
+   "startFrame": 856,
+   "endFrame": 872,
+   "raw": {
+    "start": 35.7,
+    "end": 36.3
+   },
+   "drift": -0.033,
+   "confidence": 0.997
+  },
+  {
+   "i": 108,
+   "id": "w108",
+   "text": "el",
+   "start": 36.291667,
+   "end": 36.416667,
+   "startFrame": 871,
+   "endFrame": 874,
+   "raw": {
+    "start": 36.3,
+    "end": 36.38
+   },
+   "drift": -0.008,
+   "confidence": 0.983
+  },
+  {
+   "i": 109,
+   "id": "w109",
+   "text": "espacio.",
+   "start": 36.375,
+   "end": 36.791667,
+   "startFrame": 873,
+   "endFrame": 883,
+   "raw": {
+    "start": 36.38,
+    "end": 36.78
+   },
+   "drift": -0.005,
+   "confidence": 0.998
+  },
+  {
+   "i": 110,
+   "id": "w110",
+   "text": "Transforma",
+   "start": 37.041667,
+   "end": 37.708333,
+   "startFrame": 889,
+   "endFrame": 905,
+   "raw": {
+    "start": 37.08,
+    "end": 37.7
+   },
+   "drift": -0.038,
+   "confidence": 0.994
+  },
+  {
+   "i": 111,
+   "id": "w111",
+   "text": "el",
+   "start": 37.666667,
+   "end": 37.791667,
+   "startFrame": 904,
+   "endFrame": 907,
+   "raw": {
+    "start": 37.7,
+    "end": 37.76
+   },
+   "drift": -0.033,
+   "confidence": 0.999
+  },
+  {
+   "i": 112,
+   "id": "w112",
+   "text": "futuro.",
+   "start": 37.75,
+   "end": 38.083333,
+   "startFrame": 906,
+   "endFrame": 914,
+   "raw": {
+    "start": 37.76,
+    "end": 38.06
+   },
+   "drift": -0.01,
+   "confidence": 1
+  },
+  {
+   "i": 113,
+   "id": "w113",
+   "text": "Tu",
+   "start": 38.333333,
+   "end": 38.666667,
+   "startFrame": 920,
+   "endFrame": 928,
+   "raw": {
+    "start": 38.34,
+    "end": 38.64
+   },
+   "drift": -0.007,
+   "confidence": 0.989
+  },
+  {
+   "i": 114,
+   "id": "w114",
+   "text": "transformación",
+   "start": 38.625,
+   "end": 39.25,
+   "startFrame": 927,
+   "endFrame": 942,
+   "raw": {
+    "start": 38.64,
+    "end": 39.22
+   },
+   "drift": -0.015,
+   "confidence": 0.999
+  },
+  {
+   "i": 115,
+   "id": "w115",
+   "text": "puede",
+   "start": 39.208333,
+   "end": 39.5,
+   "startFrame": 941,
+   "endFrame": 948,
+   "raw": {
+    "start": 39.22,
+    "end": 39.46
+   },
+   "drift": -0.012,
+   "confidence": 0.997
+  },
+  {
+   "i": 116,
+   "id": "w116",
+   "text": "comenzar",
+   "start": 39.458333,
+   "end": 39.916667,
+   "startFrame": 947,
+   "endFrame": 958,
+   "raw": {
+    "start": 39.46,
+    "end": 39.9
+   },
+   "drift": -0.002,
+   "confidence": 1
+  },
+  {
+   "i": 117,
+   "id": "w117",
+   "text": "ya,",
+   "start": 39.875,
+   "end": 40.083333,
+   "startFrame": 957,
+   "endFrame": 962,
+   "raw": {
+    "start": 39.9,
+    "end": 40.06
+   },
+   "drift": -0.025,
+   "confidence": 0.998
+  },
+  {
+   "i": 118,
+   "id": "w118",
+   "text": "solo",
+   "start": 40.416667,
+   "end": 40.708333,
+   "startFrame": 970,
+   "endFrame": 977,
+   "raw": {
+    "start": 40.42,
+    "end": 40.7
+   },
+   "drift": -0.003,
+   "confidence": 0.949
+  },
+  {
+   "i": 119,
+   "id": "w119",
+   "text": "tienes",
+   "start": 40.666667,
+   "end": 41,
+   "startFrame": 976,
+   "endFrame": 984,
+   "raw": {
+    "start": 40.7,
+    "end": 40.96
+   },
+   "drift": -0.033,
+   "confidence": 0.998
+  },
+  {
+   "i": 120,
+   "id": "w120",
+   "text": "que",
+   "start": 40.958333,
+   "end": 41.125,
+   "startFrame": 983,
+   "endFrame": 987,
+   "raw": {
+    "start": 40.96,
+    "end": 41.1
+   },
+   "drift": -0.002,
+   "confidence": 1
+  },
+  {
+   "i": 121,
+   "id": "w121",
+   "text": "tocar",
+   "start": 41.083333,
+   "end": 41.375,
+   "startFrame": 986,
+   "endFrame": 993,
+   "raw": {
+    "start": 41.1,
+    "end": 41.34
+   },
+   "drift": -0.017,
+   "confidence": 0.998
+  },
+  {
+   "i": 122,
+   "id": "w122",
+   "text": "la",
+   "start": 41.333333,
+   "end": 41.5,
+   "startFrame": 992,
+   "endFrame": 996,
+   "raw": {
+    "start": 41.34,
+    "end": 41.48
+   },
+   "drift": -0.007,
+   "confidence": 0.998
+  },
+  {
+   "i": 123,
+   "id": "w123",
+   "text": "pantalla.",
+   "start": 41.458333,
+   "end": 41.875,
+   "startFrame": 995,
+   "endFrame": 1005,
+   "raw": {
+    "start": 41.48,
+    "end": 41.84
+   },
+   "drift": -0.022,
+   "confidence": 1
+  }
+ ]
+}

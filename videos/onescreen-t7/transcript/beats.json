@@ -1,0 +1,1259 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 27.84,
+ "totalFrames": 696,
+ "source": "SC05.wav",
+ "speechEnd": 27.1,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 0,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": true,
+     "regular": true,
+     "text": "T7",
+     "words": [
+      {
+       "id": "w1",
+       "i": 1,
+       "text": "T7",
+       "start": 0.8,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / T7",
+   "end": 1.48
+  },
+  {
+   "id": "f02",
+   "start": 1.52,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "para resultados profesionales.",
+     "words": [
+      {
+       "id": "w2",
+       "i": 2,
+       "text": "para",
+       "start": 1.52,
+       "brand": false
+      },
+      {
+       "id": "w3",
+       "i": 3,
+       "text": "resultados",
+       "start": 1.8,
+       "brand": false
+      },
+      {
+       "id": "w4",
+       "i": 4,
+       "text": "profesionales.",
+       "start": 2.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "para resultados profesionales.",
+   "end": 3.44
+  },
+  {
+   "id": "f03",
+   "start": 3.48,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Disponible desde",
+     "words": [
+      {
+       "id": "w5",
+       "i": 5,
+       "text": "Disponible",
+       "start": 3.48,
+       "brand": false
+      },
+      {
+       "id": "w6",
+       "i": 6,
+       "text": "desde",
+       "start": 3.96,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "65” hasta 105”",
+     "words": [
+      {
+       "id": "w7",
+       "i": 7,
+       "text": "65”",
+       "start": 4.2,
+       "brand": false
+      },
+      {
+       "id": "w8",
+       "i": 8,
+       "text": "hasta",
+       "start": 4.88,
+       "brand": false
+      },
+      {
+       "id": "w9",
+       "i": 9,
+       "text": "105”",
+       "start": 5.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Disponible desde / 65” hasta 105”",
+   "end": 6.72
+  },
+  {
+   "id": "f04",
+   "start": 6.76,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Android 15",
+     "words": [
+      {
+       "id": "w10",
+       "i": 10,
+       "text": "Android",
+       "start": 6.76,
+       "brand": false
+      },
+      {
+       "id": "w11",
+       "i": 11,
+       "text": "15",
+       "start": 7.04,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "con certificado Google EDLA.",
+     "words": [
+      {
+       "id": "w12",
+       "i": 12,
+       "text": "con",
+       "start": 7.32,
+       "brand": false
+      },
+      {
+       "id": "w13",
+       "i": 13,
+       "text": "certificado",
+       "start": 7.6,
+       "brand": false
+      },
+      {
+       "id": "w14",
+       "i": 14,
+       "text": "Google",
+       "start": 8.2,
+       "brand": false
+      },
+      {
+       "id": "w15",
+       "i": 15,
+       "text": "EDLA.",
+       "start": 8.48,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Android 15 / con certificado Google EDLA.",
+   "end": 8.92
+  },
+  {
+   "id": "f05",
+   "start": 8.96,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "8 micrófonos",
+     "words": [
+      {
+       "id": "w16",
+       "i": 16,
+       "text": "8",
+       "start": 8.96,
+       "brand": false
+      },
+      {
+       "id": "w17",
+       "i": 17,
+       "text": "micrófonos",
+       "start": 9.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "incorporados con sonido omnidireccional.",
+     "words": [
+      {
+       "id": "w18",
+       "i": 18,
+       "text": "incorporados",
+       "start": 9.72,
+       "brand": false
+      },
+      {
+       "id": "w19",
+       "i": 19,
+       "text": "con",
+       "start": 10.28,
+       "brand": false
+      },
+      {
+       "id": "w20",
+       "i": 20,
+       "text": "sonido",
+       "start": 10.48,
+       "brand": false
+      },
+      {
+       "id": "w21",
+       "i": 21,
+       "text": "omnidireccional.",
+       "start": 10.84,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "8 micrófonos / incorporados con sonido omnidireccional.",
+   "end": 11.72
+  },
+  {
+   "id": "f06",
+   "start": 11.76,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Cámara 4K",
+     "words": [
+      {
+       "id": "w22",
+       "i": 22,
+       "text": "Cámara",
+       "start": 11.76,
+       "brand": false
+      },
+      {
+       "id": "w23",
+       "i": 23,
+       "text": "4K",
+       "start": 12.04,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "integrada, con seguimiento.",
+     "words": [
+      {
+       "id": "w24",
+       "i": 24,
+       "text": "integrada,",
+       "start": 12.6,
+       "brand": false
+      },
+      {
+       "id": "w25",
+       "i": 25,
+       "text": "con",
+       "start": 13.28,
+       "brand": false
+      },
+      {
+       "id": "w26",
+       "i": 26,
+       "text": "seguimiento.",
+       "start": 13.48,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Cámara 4K / integrada, con seguimiento.",
+   "end": 14.2
+  },
+  {
+   "id": "f07",
+   "start": 14.24,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Procesador NPU",
+     "words": [
+      {
+       "id": "w27",
+       "i": 27,
+       "text": "Procesador",
+       "start": 14.24,
+       "brand": false
+      },
+      {
+       "id": "w28",
+       "i": 28,
+       "text": "NPU",
+       "start": 14.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de procesamiento de IA.",
+     "words": [
+      {
+       "id": "w29",
+       "i": 29,
+       "text": "de",
+       "start": 15.32,
+       "brand": false
+      },
+      {
+       "id": "w30",
+       "i": 30,
+       "text": "procesamiento",
+       "start": 15.48,
+       "brand": false
+      },
+      {
+       "id": "w31",
+       "i": 31,
+       "text": "de",
+       "start": 16.04,
+       "brand": false
+      },
+      {
+       "id": "w32",
+       "i": 32,
+       "text": "IA.",
+       "start": 16.2,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Procesador NPU / de procesamiento de IA.",
+   "end": 16.6
+  },
+  {
+   "id": "f08",
+   "start": 16.64,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "O sea,",
+     "words": [
+      {
+       "id": "w33",
+       "i": 33,
+       "text": "O",
+       "start": 16.64,
+       "brand": false
+      },
+      {
+       "id": "w34",
+       "i": 34,
+       "text": "sea,",
+       "start": 16.68,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "6 billones",
+     "words": [
+      {
+       "id": "w35",
+       "i": 35,
+       "text": "6",
+       "start": 17.2,
+       "brand": false
+      },
+      {
+       "id": "w36",
+       "i": 36,
+       "text": "billones",
+       "start": 17.52,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de operaciones por segundo.",
+     "words": [
+      {
+       "id": "w37",
+       "i": 37,
+       "text": "de",
+       "start": 18,
+       "brand": false
+      },
+      {
+       "id": "w38",
+       "i": 38,
+       "text": "operaciones",
+       "start": 18.12,
+       "brand": false
+      },
+      {
+       "id": "w39",
+       "i": 39,
+       "text": "por",
+       "start": 18.52,
+       "brand": false
+      },
+      {
+       "id": "w40",
+       "i": 40,
+       "text": "segundo.",
+       "start": 18.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "O sea, / 6 billones / de operaciones por segundo.",
+   "end": 19.32
+  },
+  {
+   "id": "f09",
+   "start": 19.36,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "50 puntos táctiles.",
+     "words": [
+      {
+       "id": "w41",
+       "i": 41,
+       "text": "50",
+       "start": 19.36,
+       "brand": false
+      },
+      {
+       "id": "w42",
+       "i": 42,
+       "text": "puntos",
+       "start": 19.84,
+       "brand": false
+      },
+      {
+       "id": "w43",
+       "i": 43,
+       "text": "táctiles.",
+       "start": 20.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "50 puntos táctiles.",
+   "end": 21.08
+  },
+  {
+   "id": "f10",
+   "start": 21.12,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Todo lo que ya te gustaba de la Core,",
+     "words": [
+      {
+       "id": "w44",
+       "i": 44,
+       "text": "Todo",
+       "start": 21.12,
+       "brand": false
+      },
+      {
+       "id": "w45",
+       "i": 45,
+       "text": "lo",
+       "start": 21.32,
+       "brand": false
+      },
+      {
+       "id": "w46",
+       "i": 46,
+       "text": "que",
+       "start": 21.48,
+       "brand": false
+      },
+      {
+       "id": "w47",
+       "i": 47,
+       "text": "ya",
+       "start": 21.56,
+       "brand": false
+      },
+      {
+       "id": "w48",
+       "i": 48,
+       "text": "te",
+       "start": 21.68,
+       "brand": false
+      },
+      {
+       "id": "w49",
+       "i": 49,
+       "text": "gustaba",
+       "start": 21.84,
+       "brand": false
+      },
+      {
+       "id": "w50",
+       "i": 50,
+       "text": "de",
+       "start": 22.16,
+       "brand": false
+      },
+      {
+       "id": "w51",
+       "i": 51,
+       "text": "la",
+       "start": 22.32,
+       "brand": false
+      },
+      {
+       "id": "w52",
+       "i": 52,
+       "text": "Core,",
+       "start": 22.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "pero aún mejor.",
+     "words": [
+      {
+       "id": "w53",
+       "i": 53,
+       "text": "pero",
+       "start": 22.84,
+       "brand": false
+      },
+      {
+       "id": "w54",
+       "i": 54,
+       "text": "aún",
+       "start": 23.12,
+       "brand": false
+      },
+      {
+       "id": "w55",
+       "i": 55,
+       "text": "mejor.",
+       "start": 23.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Todo lo que ya te gustaba de la Core, / pero aún mejor.",
+   "end": 24
+  },
+  {
+   "id": "f11",
+   "start": 24.04,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w56",
+       "i": 56,
+       "text": "OneScreen",
+       "start": 24.04,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "T7.",
+     "words": [
+      {
+       "id": "w57",
+       "i": 57,
+       "text": "T7.",
+       "start": 24.48,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "El siguiente nivel de la educación.",
+     "words": [
+      {
+       "id": "w58",
+       "i": 58,
+       "text": "El",
+       "start": 25.08,
+       "brand": false
+      },
+      {
+       "id": "w59",
+       "i": 59,
+       "text": "siguiente",
+       "start": 25.4,
+       "brand": false
+      },
+      {
+       "id": "w60",
+       "i": 60,
+       "text": "nivel",
+       "start": 25.84,
+       "brand": false
+      },
+      {
+       "id": "w61",
+       "i": 61,
+       "text": "de",
+       "start": 26.32,
+       "brand": false
+      },
+      {
+       "id": "w62",
+       "i": 62,
+       "text": "la",
+       "start": 26.48,
+       "brand": false
+      },
+      {
+       "id": "w63",
+       "i": 63,
+       "text": "educación.",
+       "start": 26.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / T7. / El siguiente nivel de la educación.",
+   "end": 27.84
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "OneScreen",
+   "start": 0,
+   "end": 0.84,
+   "brand": true
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "T7",
+   "start": 0.8,
+   "end": 1.32,
+   "brand": false
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "para",
+   "start": 1.52,
+   "end": 1.84,
+   "brand": false
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "resultados",
+   "start": 1.8,
+   "end": 2.4,
+   "brand": false
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "profesionales.",
+   "start": 2.36,
+   "end": 3.4,
+   "brand": false
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "Disponible",
+   "start": 3.48,
+   "end": 3.96,
+   "brand": false
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "desde",
+   "start": 3.96,
+   "end": 4.2,
+   "brand": false
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "65”",
+   "start": 4.2,
+   "end": 4.88,
+   "brand": false
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "hasta",
+   "start": 4.88,
+   "end": 5.4,
+   "brand": false
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "105”",
+   "start": 5.36,
+   "end": 6.56,
+   "brand": false
+  },
+  {
+   "i": 10,
+   "src": 11,
+   "text": "Android",
+   "start": 6.76,
+   "end": 7.04,
+   "brand": false
+  },
+  {
+   "i": 11,
+   "src": 12,
+   "text": "15",
+   "start": 7.04,
+   "end": 7.36,
+   "brand": false
+  },
+  {
+   "i": 12,
+   "src": 13,
+   "text": "con",
+   "start": 7.32,
+   "end": 7.6,
+   "brand": false
+  },
+  {
+   "i": 13,
+   "src": 14,
+   "text": "certificado",
+   "start": 7.6,
+   "end": 8.24,
+   "brand": false
+  },
+  {
+   "i": 14,
+   "src": 15,
+   "text": "Google",
+   "start": 8.2,
+   "end": 8.52,
+   "brand": false
+  },
+  {
+   "i": 15,
+   "src": 16,
+   "text": "EDLA.",
+   "start": 8.48,
+   "end": 8.84,
+   "brand": false
+  },
+  {
+   "i": 16,
+   "src": 17,
+   "text": "8",
+   "start": 8.96,
+   "end": 9.24,
+   "brand": false
+  },
+  {
+   "i": 17,
+   "src": 18,
+   "text": "micrófonos",
+   "start": 9.24,
+   "end": 9.76,
+   "brand": false
+  },
+  {
+   "i": 18,
+   "src": 19,
+   "text": "incorporados",
+   "start": 9.72,
+   "end": 10.32,
+   "brand": false
+  },
+  {
+   "i": 19,
+   "src": 20,
+   "text": "con",
+   "start": 10.28,
+   "end": 10.52,
+   "brand": false
+  },
+  {
+   "i": 20,
+   "src": 21,
+   "text": "sonido",
+   "start": 10.48,
+   "end": 10.84,
+   "brand": false
+  },
+  {
+   "i": 21,
+   "src": 22,
+   "text": "omnidireccional.",
+   "start": 10.84,
+   "end": 11.6,
+   "brand": false
+  },
+  {
+   "i": 22,
+   "src": 23,
+   "text": "Cámara",
+   "start": 11.76,
+   "end": 12.08,
+   "brand": false
+  },
+  {
+   "i": 23,
+   "src": 24,
+   "text": "4K",
+   "start": 12.04,
+   "end": 12.64,
+   "brand": false
+  },
+  {
+   "i": 24,
+   "src": 25,
+   "text": "integrada,",
+   "start": 12.6,
+   "end": 13.12,
+   "brand": false
+  },
+  {
+   "i": 25,
+   "src": 26,
+   "text": "con",
+   "start": 13.28,
+   "end": 13.48,
+   "brand": false
+  },
+  {
+   "i": 26,
+   "src": 27,
+   "text": "seguimiento.",
+   "start": 13.48,
+   "end": 14.08,
+   "brand": false
+  },
+  {
+   "i": 27,
+   "src": 28,
+   "text": "Procesador",
+   "start": 14.24,
+   "end": 14.76,
+   "brand": false
+  },
+  {
+   "i": 28,
+   "src": 29,
+   "text": "NPU",
+   "start": 14.76,
+   "end": 15.32,
+   "brand": false
+  },
+  {
+   "i": 29,
+   "src": 30,
+   "text": "de",
+   "start": 15.32,
+   "end": 15.52,
+   "brand": false
+  },
+  {
+   "i": 30,
+   "src": 31,
+   "text": "procesamiento",
+   "start": 15.48,
+   "end": 16.08,
+   "brand": false
+  },
+  {
+   "i": 31,
+   "src": 32,
+   "text": "de",
+   "start": 16.04,
+   "end": 16.24,
+   "brand": false
+  },
+  {
+   "i": 32,
+   "src": 33,
+   "text": "IA.",
+   "start": 16.2,
+   "end": 16.44,
+   "brand": false
+  },
+  {
+   "i": 33,
+   "src": 34,
+   "text": "O",
+   "start": 16.64,
+   "end": 16.72,
+   "brand": false
+  },
+  {
+   "i": 34,
+   "src": 35,
+   "text": "sea,",
+   "start": 16.68,
+   "end": 16.88,
+   "brand": false
+  },
+  {
+   "i": 35,
+   "src": 36,
+   "text": "6",
+   "start": 17.2,
+   "end": 17.56,
+   "brand": false
+  },
+  {
+   "i": 36,
+   "src": 37,
+   "text": "billones",
+   "start": 17.52,
+   "end": 18,
+   "brand": false
+  },
+  {
+   "i": 37,
+   "src": 38,
+   "text": "de",
+   "start": 18,
+   "end": 18.12,
+   "brand": false
+  },
+  {
+   "i": 38,
+   "src": 39,
+   "text": "operaciones",
+   "start": 18.12,
+   "end": 18.56,
+   "brand": false
+  },
+  {
+   "i": 39,
+   "src": 40,
+   "text": "por",
+   "start": 18.52,
+   "end": 18.8,
+   "brand": false
+  },
+  {
+   "i": 40,
+   "src": 41,
+   "text": "segundo.",
+   "start": 18.76,
+   "end": 19.16,
+   "brand": false
+  },
+  {
+   "i": 41,
+   "src": 42,
+   "text": "50",
+   "start": 19.36,
+   "end": 19.88,
+   "brand": false
+  },
+  {
+   "i": 42,
+   "src": 43,
+   "text": "puntos",
+   "start": 19.84,
+   "end": 20.36,
+   "brand": false
+  },
+  {
+   "i": 43,
+   "src": 44,
+   "text": "táctiles.",
+   "start": 20.36,
+   "end": 20.88,
+   "brand": false
+  },
+  {
+   "i": 44,
+   "src": 45,
+   "text": "Todo",
+   "start": 21.12,
+   "end": 21.36,
+   "brand": false
+  },
+  {
+   "i": 45,
+   "src": 46,
+   "text": "lo",
+   "start": 21.32,
+   "end": 21.48,
+   "brand": false
+  },
+  {
+   "i": 46,
+   "src": 47,
+   "text": "que",
+   "start": 21.48,
+   "end": 21.6,
+   "brand": false
+  },
+  {
+   "i": 47,
+   "src": 48,
+   "text": "ya",
+   "start": 21.56,
+   "end": 21.72,
+   "brand": false
+  },
+  {
+   "i": 48,
+   "src": 49,
+   "text": "te",
+   "start": 21.68,
+   "end": 21.84,
+   "brand": false
+  },
+  {
+   "i": 49,
+   "src": 50,
+   "text": "gustaba",
+   "start": 21.84,
+   "end": 22.2,
+   "brand": false
+  },
+  {
+   "i": 50,
+   "src": 51,
+   "text": "de",
+   "start": 22.16,
+   "end": 22.32,
+   "brand": false
+  },
+  {
+   "i": 51,
+   "src": 52,
+   "text": "la",
+   "start": 22.32,
+   "end": 22.44,
+   "brand": false
+  },
+  {
+   "i": 52,
+   "src": 53,
+   "text": "Core,",
+   "start": 22.4,
+   "end": 22.68,
+   "brand": false
+  },
+  {
+   "i": 53,
+   "src": 54,
+   "text": "pero",
+   "start": 22.84,
+   "end": 23.16,
+   "brand": false
+  },
+  {
+   "i": 54,
+   "src": 55,
+   "text": "aún",
+   "start": 23.12,
+   "end": 23.4,
+   "brand": false
+  },
+  {
+   "i": 55,
+   "src": 56,
+   "text": "mejor.",
+   "start": 23.36,
+   "end": 23.8,
+   "brand": false
+  },
+  {
+   "i": 56,
+   "src": 57,
+   "text": "OneScreen",
+   "start": 24.04,
+   "end": 24.52,
+   "brand": true
+  },
+  {
+   "i": 57,
+   "src": 58,
+   "text": "T7.",
+   "start": 24.48,
+   "end": 24.96,
+   "brand": false
+  },
+  {
+   "i": 58,
+   "src": 59,
+   "text": "El",
+   "start": 25.08,
+   "end": 25.4,
+   "brand": false
+  },
+  {
+   "i": 59,
+   "src": 60,
+   "text": "siguiente",
+   "start": 25.4,
+   "end": 25.84,
+   "brand": false
+  },
+  {
+   "i": 60,
+   "src": 61,
+   "text": "nivel",
+   "start": 25.84,
+   "end": 26.36,
+   "brand": false
+  },
+  {
+   "i": 61,
+   "src": 62,
+   "text": "de",
+   "start": 26.32,
+   "end": 26.48,
+   "brand": false
+  },
+  {
+   "i": 62,
+   "src": 63,
+   "text": "la",
+   "start": 26.48,
+   "end": 26.6,
+   "brand": false
+  },
+  {
+   "i": 63,
+   "src": 64,
+   "text": "educación.",
+   "start": 26.56,
+   "end": 27.08,
+   "brand": false
+  }
+ ]
+}

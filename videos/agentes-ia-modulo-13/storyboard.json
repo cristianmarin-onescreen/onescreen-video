@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 194.16,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 194.16
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 13 · ONESCREEN ACADEMY",
+      "startSec": 0.11,
+      "endSec": 5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 13 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — MISMO EJERCICIO",
+      "startSec": 5,
+      "endSec": 14.5,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MISMO EJERCICIO",
+        "title": "Ahora, dentro de ChatGPT",
+        "detail": "Para que elijas la que mejor te sirva"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — LA BUENA NOTICIA",
+      "startSec": 14.5,
+      "endSec": 21.29,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LA BUENA NOTICIA",
+        "title": "El proceso es prácticamente idéntico",
+        "detail": "Lo único que cambia es dónde haces clic"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — SI YA LO HICISTE EN CLAUDE",
+      "startSec": 21.29,
+      "endSec": 29.62,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI YA LO HICISTE EN CLAUDE",
+        "title": "Ya tienes todo lo que necesitas"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "roadmap — PASO 1",
+      "startSec": 29.62,
+      "endSec": 34.9,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 1",
+        "title": "Crea un GPT personalizado",
+        "detail": "El equivalente a un Proyecto en Claude"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — Un espacio propio donde guarda instrucciones y conocimiento",
+      "startSec": 34.9,
+      "endSec": 49.06,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Un espacio propio donde guarda instrucciones y conocimiento",
+        "detail": "Se comporta siempre igual, sin repetir nada cada vez"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "roadmap — PASO 2",
+      "startSec": 49.06,
+      "endSec": 63.3,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 2",
+        "title": "Ponle un nombre específico",
+        "detail": "Que diga de inmediato para qué sirve"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — El siguiente paso es ir a configuración de instrucciones",
+      "startSec": 63.3,
+      "endSec": 71.86,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "El siguiente paso es ir a configuración de instrucciones"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "roadmap — PASO 3",
+      "startSec": 71.86,
+      "endSec": 89.2,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 3",
+        "title": "Pega la misma instrucción que ya construiste",
+        "detail": "No hace falta escribirla de nuevo ni adaptarla"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "quote — Lo que realmente vale es cómo piensas la instrucción.",
+      "startSec": 89.2,
+      "endSec": 100,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Lo que realmente vale es cómo piensas la instrucción.",
+        "detail": "No la herramienta donde la escribes"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "roadmap — PASO 4",
+      "startSec": 100,
+      "endSec": 109.26,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 4",
+        "title": "Sube el mismo documento a conocimiento",
+        "detail": "El manual, el calendario, el plan curricular"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — Tu agente lo va a consultar automáticamente",
+      "startSec": 109.26,
+      "endSec": 117.66,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Tu agente lo va a consultar automáticamente",
+        "detail": "En cada conversación, sin que se lo compartas de nuevo"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "list — ACTIVA CAPACIDADES SOLO SI LAS NECESITA",
+      "startSec": 117.66,
+      "endSec": 131.96,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "ACTIVA CAPACIDADES SOLO SI LAS NECESITA",
+        "items": [
+          "Búsqueda en internet",
+          "Generación de contenido"
+        ]
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "roadmap — PASO 5",
+      "startSec": 131.96,
+      "endSec": 136.76,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 5",
+        "title": "Guarda tu agente y ábrelo en una conversación nueva"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — Haz las mismas preguntas que en Claude",
+      "startSec": 136.76,
+      "endSec": 146.15,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Haz las mismas preguntas que en Claude",
+        "detail": "Incluyendo las difíciles — diseñadas para poner a prueba sus límites"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — ES PROBABLE QUE NOTES...",
+      "startSec": 146.15,
+      "endSec": 159.16,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ES PROBABLE QUE NOTES...",
+        "title": "Pequeñas diferencias en el estilo",
+        "detail": "Eso está bien — lo importante es que el comportamiento de fondo sea consistente"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — SI ALGO NO SE COMPORTA COMO ESPERABAS",
+      "startSec": 159.16,
+      "endSec": 169.66,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI ALGO NO SE COMPORTA COMO ESPERABAS",
+        "title": "El proceso de ajuste es el mismo que ya conoces",
+        "detail": "Vuelves a la instrucción, la afinas y la pruebas de nuevo"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "quote — No hay atajos secretos entre una herramienta y otra.",
+      "startSec": 169.66,
+      "endSec": 178.16,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "No hay atajos secretos entre una herramienta y otra.",
+        "detail": "La disciplina de escribir bien la instrucción determina el resultado"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "titlecard — PRÓXIMO MÓDULO",
+      "startSec": 178.16,
+      "endSec": 191,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Un paso más allá: automatización",
+        "detail": "Conectar tu agente con otros sistemas que ya usas"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 191,
+      "endSec": 194.16,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

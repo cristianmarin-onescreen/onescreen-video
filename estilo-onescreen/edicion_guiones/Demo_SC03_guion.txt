@@ -1,0 +1,27 @@
+   0.00-   0.84 (0.84s) | A:Color mate 100%                                                      | 
+   0.84-   2.64 (1.80s) | A:Color mate 100% | B:C0757.MP4 | B:metas-pt-4k-alfa-blanco.mov 70% |  | Ya te contamos nuestra historia.
+   2.64-   4.60 (1.96s) | A:Color mate 100% | B:C0759.MP4 | B:metas-pt-4k-alfa-blanco.mov 70% |  | Ahora te contaremos nuestras metas. ¿Estás listo?
+   4.60-   7.84 (3.24s) | A:Color mate 100% | B:metas-pt-4k-alfa-negro.mov 69% | B:metas-4k-alfa | metas. ¿Estás listo? Primero: aulas interactivas. Para
+   7.84-   9.24 (1.40s) | A:C0075.MP4 100% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa | Primero: aulas interactivas. Para los nativos digitales,
+   9.24-  10.60 (1.36s) | A:C1014.MP4 100% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa | pantallas digitales, pizarras infinitas,
+  10.60-  11.92 (1.32s) | B:C0125.MP4 | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa-blan | pantallas digitales, pizarras infinitas, simuladores interactivos. Segundo:
+  11.92-  13.20 (1.28s) | A:C1380.MP4 100% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa | simuladores interactivos. Segundo:
+  13.20-  15.04 (1.84s) | A:Color mate 100% | B:metas-pt-4k-alfa-negro.mov 69% | B:metas-4k-alfa | simuladores interactivos. Segundo: salas de reuniones, donde
+  15.04-  16.72 (1.68s) | B:Slow_orbiting_4k_202602191541.mp4 | B:metas-pt-4k-alfa-blanco.mov 70 | salas de reuniones, donde cuatro dispositivos se convierten
+  16.72-  17.76 (1.04s) | A:014_AD_COR_C 100% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-a | cuatro dispositivos se convierten en uno solo. Imagen
+  17.76-  18.60 (0.84s) | B:C0141.MP4 | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa-blan | en uno solo. Imagen clara, sonido envolvente. Un
+  18.60-  19.52 (0.92s) | A:02_CEA_COR_P 100% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-a | clara, sonido envolvente. Un
+  19.52-  21.48 (1.96s) | B:C0006.MP4 | B:metas-pt-4k-alfa-blanco.mov 62% | B:metas-4k-alfa-blan | clara, sonido envolvente. Un equipo más unido aunque estén en diferentes partes
+  21.48-  23.00 (1.52s) | A:C1592.MP4 100% | B:metas-pt-4k-alfa-blanco.mov 62% | B:metas-4k-alfa | estén en diferentes partes del mundo. Tercero: inteligencia
+  23.00-  24.88 (1.88s) | A:Color mate 100% | B:metas-pt-4k-alfa-negro.mov 69% | B:metas-4k-alfa | del mundo. Tercero: inteligencia artificial. Lo que antes
+  24.88-  26.84 (1.96s) | A:Color mate 100% | B:grok-video-00464b62-ef50-4720-81e7 260% | B:meta | artificial. Lo que antes le tomaba a un docente cinco horas, ahora
+  26.84-  28.64 (1.80s) | A:Color mate 100% | B:grok-video-7389adf8-e6b1-4dae-85fb 260% | B:meta | docente cinco horas, ahora solo le toma cinco minutos. Clases que se
+  28.64-  30.32 (1.68s) | B:C1580.MP4 | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa-blan | minutos. Clases que se planean en segundos. Tus
+  30.32-  32.04 (1.72s) | A:C0012.MP4 100% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa | planean en segundos. Tus clases, en cualquier idioma.
+  32.04-  33.64 (1.60s) | B:C0016.MP4 | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa-blan | Evaluaciones que se crean solas. Cuarto:
+  33.64-  35.96 (2.32s) | A:Color mate 100% | B:metas-pt-4k-alfa-blanco.mov 69% | B:metas-pt-4k- | solas. Cuarto: un formato graaande, porque
+  35.96-  38.68 (2.72s) | B:C1443.MP4 | B:metas-pt-4k-alfa-blanco.mov 52% | B:metas-4k-alfa-blan | un formato graaande, porque grandes ideas necesitan grandes pantallas. Hay cosas que
+  38.68-  41.56 (2.88s) | B:C1473.MP4 200% | B:metas-pt-4k-alfa-blanco.mov 70% | B:metas-4k-alfa | pantallas. Hay cosas que deben verse y hacerse en grande. Pantallas de
+  41.56-  45.00 (3.44s) | B:C1476.MP4 200% | B:metas-pt-4k-alfa-blanco.mov 51% | B:metas-4k-alfa | en grande. Pantallas de gran formato para experiencias realmente únicas. Y quinto,
+  45.00-  45.16 (0.16s) | A:Color mate 100% | B:C1476.MP4 200%                                   | realmente únicas. Y quinto,
+  45.16-  52.48 (7.32s) | A:Color mate 100% | B:metas-pt-4k-alfa-negro.mov 69% | B:metas-4k-alfa | realmente únicas. Y quinto, la más importante: que tú lo veas con tus propios ojos. Solo t

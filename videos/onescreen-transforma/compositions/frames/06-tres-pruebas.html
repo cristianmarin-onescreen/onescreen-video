@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>06-tres-pruebas</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: #00FF00;
+          color: #000000;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; display: grid; place-items: center; padding: 0 8cqw; }
+        .stage.left { justify-items: start; text-align: left; }
+        /* Escenarios que posicionan a sus hijos en ABSOLUTO (3, 4, 9, 10). Tienen que ser
+           bloque, no grid: place-items:center le da justify-self:center a un hijo absoluto,
+           y eso lo dimensiona a su contenido en vez de respetar left:0/right:0 � con lo cual
+           text-align:center deja de centrar y la línea se pega al borde izquierdo. */
+        .stage.abs { display: block; place-items: normal; padding: 0; }
+        .block { display: block; max-width: 80cqw; text-align: center; margin-top: -1.2cqh; }
+        .stage.left .block { text-align: left; }
+        /* Estado inicial en CSS, nunca en un tl.set en la posición 0.
+           Se oculta con OPACITY, jamás con la propiedad visibility: esa se HEREDA, y un hijo
+           puesto en visible anula el hidden que el framework le aplica al clip padre. El
+           resultado es que todas las escenas se dibujan encima de todas a la vez. */
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .w.first { opacity: 1; }
+        .t-micro    { font-size: 0.95cqw; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; }
+        .t-body     { font-size: 1.9cqw;  font-weight: 400; line-height: 1.5; }
+        .t-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.25; letter-spacing: -0.010em; }
+        .t-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .t-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .t-colossal { font-size: 15cqw;   font-weight: 800; line-height: 0.92; letter-spacing: -0.045em; }
+        .muted  { color: #7e7e82; }
+        .accent { color: #3976ff; }
+        .line { display: block; }
+        .rule {
+          display: block; width: 12cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.2cqh auto 0;
+        }
+        #f06-block { opacity: 0; }
+        .proof { display: block; margin-bottom: 1.3cqh; }
+        #f06-p2, #f06-p3 { opacity: 0; }
+        #f06-grande {
+          display: block; margin-top: 0.4cqh;
+          font-size: 7.6cqw; font-weight: 600; line-height: 1.02; letter-spacing: -0.030em;
+          opacity: 0; transform-origin: 0% 50%;
+        }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="06-tres-pruebas"
+        data-width="3840"
+        data-height="2160"
+        data-duration="6.375"
+      >
+      <div class="stage left" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="block t-sub" id="f06-block">
+          <span class="proof" id="f06-p1"><span class="w first" id="f06-w55">É</span> <span class="w" id="f06-w56">uma</span> <span class="w" id="f06-w57">aula</span> <span class="w" id="f06-w58">que</span> <span class="w" id="f06-w59">por</span> <span class="w" id="f06-w60">fim</span> <span class="w" id="f06-w61">se</span> <span class="w" id="f06-w62">entende.</span></span>
+          <span class="proof" id="f06-p2"><span class="w" id="f06-w63">É</span> <span class="w" id="f06-w64">uma</span> <span class="w" id="f06-w65">equipe</span> <span class="w" id="f06-w66">que</span> <span class="w" id="f06-w67">toma</span> <span class="w" id="f06-w68">melhores</span> <span class="w" id="f06-w69">decisões.</span></span>
+          <span class="proof" id="f06-p3"><span class="w" id="f06-w70">É</span> <span class="w" id="f06-w71">uma</span> <span class="w" id="f06-w72">ideia,</span> <span class="w" id="f06-w73">que</span> <span class="w" id="f06-w74">agora</span> <span class="w" id="f06-w75">se</span> <span class="w" id="f06-w76">vê</span> <span class="w" id="f06-w77">em</span><span class="accent" id="f06-grande"><span class="w accent" id="f06-w78">grande.</span></span></span>
+        </div>
+      </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        // Entrada de palabra: opacidad binaria + desplazamiento desde abajo. Nunca un fade.
+        function word(tl, sel, t, weight) {
+          var Y = { heavy: 140, normal: 90, light: 66 }[weight || "normal"];
+          var D = { heavy: 0.2, normal: 0.16, light: 0.12 }[weight || "normal"];
+          tl.set(sel, { opacity: 1 }, t);
+          // immediateRender:false o GSAP escribe el estado inicial al CONSTRUIR la línea de
+          // tiempo, no al llegar el cabezal � y el elemento se ve desplazado desde el frame 0.
+          tl.fromTo(sel, { y: Y }, { y: 0, duration: D, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Reparte una lista de palabras sobre sus tiempos.
+        function words(tl, list, weight) {
+          for (var k = 0; k < list.length; k++) word(tl, list[k][0], list[k][1], weight);
+        }
+        // SALIDA de costura (cut-the-curve): power4.in escalonado en orden de lectura, con el
+        // fundido de la �aLTIMA palabra muriendo 0.02 s antes del corte � así nada queda
+        // congelado en el corte y tampoco hay hueco muerto.
+        function seamExit(tl, sels, cut, axis, dir) {
+          var n = sels.length;
+          var span = n > 1 ? 0.14 : 0;              // ventana del escalonado
+          var step = n > 1 ? span / (n - 1) : 0;
+          // Se ancla por el FINAL: el último elemento en salir termina de apagarse 0.02 s
+          // antes del corte. Así no queda aire muerto justo antes del cambio de escena, y
+          // el desplazamiento (0.34 s) sigue corriendo al 59% cuando cae el corte — que es
+          // lo que exige la ley: cortar a media trayectoria, nunca con el gesto ya resuelto.
+          var t0 = cut - 0.285 - span;
+          for (var k = 0; k < n; k++) {
+            var t = t0 + step * k;
+            var to = { duration: 0.34, ease: "power4.in" };
+            to[axis] = 460 * dir;
+            tl.to(sels[k], to, t);
+            // Fundido lineal, retrasado respecto al desplazamiento: ver EXIT_FADE_DELAY.
+            tl.to(sels[k], { opacity: 0, duration: 0.1, ease: "none" }, t + 0.165);
+          }
+        }
+        // ENTRADA de costura: arranca a media trayectoria (opacidad 0.35), power4.out.
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+        // Inverse zoom � SALIDA: todo se encoge (retrocede). Sign de d(escala)/dt negativo.
+        function zoomOutExit(tl, sel, cut) {
+          tl.to(sel, { scale: 0.8, filter: "blur(10px)", duration: 0.2, ease: "power3.in" }, cut - 0.2);
+          tl.to(sel, { opacity: 0.15, duration: 0.2, ease: "none" }, cut - 0.2);
+        }
+        // Inverse zoom � ENTRADA: llega sobredimensionado y se repliega. Mismo signo.
+        function zoomOutEntry(tl, sel) {
+          tl.fromTo(
+            sel,
+            { scale: 1.25, filter: "blur(10px)", opacity: 0.15 },
+            { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.5, ease: "expo.out" },
+            0
+          );
+        }
+
+        seamEntry(tl, "#f06-block", "x", -1);
+        words(tl, [["#f06-w56", 0.333333], ["#f06-w57", 0.458333], ["#f06-w58", 0.708333], ["#f06-w59", 0.875], ["#f06-w60", 1.041666], ["#f06-w61", 1.291666], ["#f06-w62", 1.5]], "light");
+
+        // Cada línea que entra APAGA a las anteriores � no las borra, las baja de tono.
+        tl.set("#f06-p2", { opacity: 1 }, 2.021666);
+        words(tl, [["#f06-w63", 2.041666], ["#f06-w64", 2.25], ["#f06-w65", 2.333333], ["#f06-w66", 2.541666], ["#f06-w67", 2.708333], ["#f06-w68", 2.875], ["#f06-w69", 3.333333]], "light");
+        tl.to("#f06-p1", { color: "#7e7e82", duration: 0.35, ease: "none" }, 2.041666);
+
+        tl.set("#f06-p3", { opacity: 1 }, 4.188333);
+        words(tl, [["#f06-w70", 4.208333], ["#f06-w71", 4.416666], ["#f06-w72", 4.583333], ["#f06-w73", 4.833333], ["#f06-w74", 5.083333], ["#f06-w75", 5.458333], ["#f06-w76", 5.666666], ["#f06-w77", 5.833333]], "light");
+        tl.to("#f06-p2", { color: "#7e7e82", duration: 0.35, ease: "none" }, 4.208333);
+
+        // "grande." rompe el eje: escala de sub a display en 0.30 s. La frase dice que
+        // ahora se ve en grande; la tipografía lo HACE en vez de decirlo.
+        // El span de la palabra arranca en opacidad 0 como todos los .w. Animar solo
+        // el contenedor no la enciende: hay que encender también la palabra, o
+        // "grande." — que es el remate de la escena — no llega a verse nunca.
+        tl.set("#f06-w78", { opacity: 1 }, 6);
+        tl.fromTo(
+          "#f06-grande",
+          { scale: 0.395, opacity: 0, y: 40 },
+          { scale: 1, opacity: 1, y: 0, duration: 0.22, ease: "back.out(1.5)", immediateRender: false },
+          6
+        );
+
+        seamExit(tl, ["#f06-block"], 6.375, "x", -1);
+
+        window.__timelines["06-tres-pruebas"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

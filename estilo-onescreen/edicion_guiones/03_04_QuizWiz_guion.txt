@@ -1,0 +1,74 @@
+   0.00-   1.08 (1.08s) | A:C0917.MP4 100%                                                       | Hoy tus docentes tienen
+   1.08-   1.42 (0.34s) | A:C0917.MP4 164%                                                       | Hoy tus docentes tienen
+   1.42-   1.63 (0.21s) | A:C0917.MP4 164% | G:Color mate | G:Title 1.jpg 100%                   | dos opciones para crear
+   1.63-   2.08 (0.45s) | A:C0917.MP4 164% | G:Color mate | G:Title 1.jpg 100%                   | dos opciones para crear
+   2.08-   2.34 (0.26s) | A:C0917.MP4 164% | G:Color mate | G:Title 1.jpg                        | dos opciones para crear
+   2.34-   2.50 (0.16s) | A:C0917.MP4 164% | G:Recurso 2@8x.png 33%                              | dos opciones para crear
+   2.50-   3.09 (0.59s) | A:C0917.MP4 164% | G:Recurso 2@8x.png 33%                              | evaluaciones. Opción uno: hacerlo
+   3.09-   3.92 (0.83s) | A:C0917.MP4 100% | G:Recurso 3@8x.png 25%                              | evaluaciones. Opción uno: hacerlo
+   3.92-   4.71 (0.79s) | A:C0917.MP4 100% | G:Recurso 3@8x.png 25%                              | evaluaciones. Opción uno: hacerlo manualmente. Pensar cada pregunta,
+   4.71-   5.21 (0.50s) | A:C0917.MP4 164%                                                       | manualmente. Pensar cada pregunta,
+   5.21-   7.13 (1.92s) | A:C0917.MP4 164% | B:grok-video-61a856b4-bb94-4213-bfe4 260%           | manualmente. Pensar cada pregunta, verificar el contenido, ajustar
+   7.13-   8.30 (1.17s) | A:C0917.MP4 100%                                                       | verificar el contenido, ajustar la dificultad, puede tomarles
+   8.30-   9.05 (0.75s) | A:C0917.MP4 164%                                                       | la dificultad, puede tomarles hasta dos horas por
+   9.05-  10.30 (1.25s) | A:C0917.MP4 164% | G:Recurso 17@2x.png 62%                             | hasta dos horas por examen. Opción dos: pedirle
+  10.30-  10.43 (0.13s) | A:C0917.MP4 164% | G:Recurso 4@8x.png 20% | G:Recurso 17@2x.png 62%    | examen. Opción dos: pedirle
+  10.43-  11.09 (0.66s) | A:C0917.MP4 100% | G:Recurso 4@8x.png 20%                              | examen. Opción dos: pedirle
+  11.09-  12.35 (1.26s) | A:C0917.MP4 100% | G:Recurso 4@8x.png 20%                              | examen. Opción dos: pedirle a cualquier IA que
+  12.35-  13.18 (0.83s) | A:C0917.MP4 164% | G:Recurso 4@8x.png 20%                              | a cualquier IA que genere el examen. Rápido,
+  13.18-  13.72 (0.54s) | A:C0917.MP4 100%                                                       | genere el examen. Rápido,
+  13.72-  14.31 (0.59s) | A:C0917.MP4 100% | G:Title6.jpg                                        | sí, pero con un
+  14.31-  15.31 (1.00s) | A:C0917.MP4 164%                                                       | sí, pero con un problema grave. Esa IA
+  15.31-  15.72 (0.41s) | A:C0917.MP4 164% | G:Recurso 7@8x.png 65%                              | problema grave. Esa IA
+  15.72-  18.27 (2.55s) | A:C0917.MP4 100% | B:Man_navigating_on_computer_delpmas                | problema grave. Esa IA no sabe cómo tu docente enseñó el tema,
+  18.27-  18.94 (0.67s) | A:C0917.MP4 164%                                                       | no conoce los ejemplos
+  18.94-  19.77 (0.83s) | A:C0917.MP4 164% | G:Title2.jpg                                        | no conoce los ejemplos que usó, los énfasis
+  19.77-  21.06 (1.29s) | A:C0917.MP4 100%                                                       | que usó, los énfasis que hizo y el
+  21.06-  22.15 (1.09s) | A:C0917.MP4 164%                                                       | que hizo y el enfoque que le dio.
+  22.15-  22.69 (0.54s) | A:C0917.MP4 100%                                                       | Y lo que no
+  22.69-  23.32 (0.63s) | A:C0917.MP4 100% | G:Color mate | G:Title3.jpg 100%                    | sabe,
+  23.32-  24.11 (0.79s) | A:C0917.MP4 198% | G:Color mate | G:Title3.jpg                         | se lo inventa. El
+  24.11-  24.94 (0.83s) | A:C0917.MP4 100%                                                       | se lo inventa. El resultado es un examen
+  24.94-  25.65 (0.71s) | A:C0917.MP4 100% | B:Man_responding_to_test_delpmaspu_.                | resultado es un examen genérico, no lo que
+  25.65-  27.49 (1.84s) | A:C0917.MP4 164% | B:Man_responding_to_test_delpmaspu_.                | genérico, no lo que realmente se enseñó en la clase. No hay
+  27.49-  28.57 (1.08s) | A:C0917.MP4 100% | G:Recurso 5@8x.png 29%                              | la clase. No hay medición real y no
+  28.57-  29.61 (1.04s) | A:C0917.MP4 100% | G:Recurso 5@8x.png 29%                              | medición real y no hay coherencia. Por eso,
+  29.61-  30.66 (1.05s) | A:C0917.MP4 164%                                                       | hay coherencia. Por eso, creamos en OneScreen QuizWiz.
+  30.66-  31.74 (1.08s) | A:C0917.MP4 164% | B:C0016.MP4 | G:Recurso 7.png                       | creamos en OneScreen QuizWiz.
+  31.74-  33.03 (1.29s) | A:C0917.MP4 100% | B:C0016.MP4 | G:Recurso 7.png                       | QuizWiz genera exámenes a
+  33.03-  33.45 (0.42s) | A:C0917.MP4 164% | B:C0016.MP4 | G:Recurso 7.png                       | QuizWiz genera exámenes a partir de la información
+  33.45-  35.45 (2.00s) | A:C0917.MP4 164% | B:C0016.MP4 | G:Recurso 7.png                       | partir de la información que el docente le proporciona e información que
+  35.45-  36.87 (1.42s) | A:C0917.MP4 100% | B:C0016.MP4 | G:Recurso 7.png                       | proporciona e información que él confía. Puede usar
+  36.91-  37.29 (0.38s) | A:C0917.MP4 100% | B:Gráfico                                           | él confía. Puede usar
+  37.37-  37.95 (0.58s) | A:C0917.MP4 100% | B:Gráfico                                           | la transcripción completa de
+  37.95-  38.45 (0.50s) | A:C0917.MP4 100% | B:Gráfico                                           | la transcripción completa de
+  38.45-  39.04 (0.59s) | A:C0917.MP4 100% | B:Gráfico                                           | la transcripción completa de sus clases, donde está
+  39.04-  40.58 (1.54s) | A:C0917.MP4 164% | B:C0013.MP4                                         | sus clases, donde está todo lo que explicó,
+  40.62-  42.46 (1.84s) | A:C0917.MP4 100% | B:C0012.MP4                                         | con sus palabras, con sus ejemplos. Puede usar
+  42.46-  43.88 (1.42s) | A:C0917.MP4 164%                                                       | sus ejemplos. Puede usar el contenido que preparó
+  43.88-  44.42 (0.54s) | A:C0917.MP4 164% | B:C0010.MP4                                         | en Lesson o puede
+  44.42-  45.59 (1.17s) | A:C0917.MP4 100% | B:C0010.MP4                                         | en Lesson o puede subir sus archivos. Puede
+  45.59-  48.01 (2.42s) | A:C0917.MP4 164% | B:C0010.MP4                                         | subir sus archivos. Puede ser un PDF, un Word, un Excel o
+  48.01-  48.72 (0.71s) | A:C0917.MP4 164%                                                       | Word, un Excel o cualquier recurso que haya
+  48.72-  50.51 (1.79s) | A:C0917.MP4 164% | B:2026-03-06 10-59-17.mp4 418%                      | cualquier recurso que haya usado con los estudiantes.
+  50.51-  50.68 (0.17s) | A:C0917.MP4 100%                                                       | Después solo tiene que
+  50.68-  52.39 (1.71s) | A:C0917.MP4 100% | B:2026-03-06 10-59-17.mp4 567%                      | Después solo tiene que seleccionar el formato. Opciones
+  52.39-  54.35 (1.96s) | A:C0917.MP4 164% | B:2026-03-06 10-59-17.mp4 567%                      | seleccionar el formato. Opciones múltiple, verdadero, falso, ajusta
+  54.35-  56.18 (1.83s) | A:C0917.MP4 100% | B:2026-03-06 10-59-17.mp4                           | múltiple, verdadero, falso, ajusta dificultad y cantidad de preguntas. Y en menos
+  56.18-  57.52 (1.34s) | A:C0917.MP4 164% | G:Recurso 6@8x.png 29%                              | preguntas. Y en menos de un minuto, tiene
+  57.52-  57.72 (0.20s) | A:C0917.MP4 100%                                                       | de un minuto, tiene
+  57.72-  58.73 (1.01s) | A:C0917.MP4 100% | B:2026-03-06 10-59-17.mp4                           | un examen que evalúa exactamente lo que enseñó.
+  58.73-  59.98 (1.25s) | A:C0917.MP4 164% | B:2026-03-06 10-59-17.mp4                           | exactamente lo que enseñó.
+  59.98-  61.69 (1.71s) | A:C0917.MP4 100%                                                       | ¿Qué significa esto para tu institución? Evaluaciones que
+  61.69-  62.85 (1.16s) | A:C0917.MP4 164%                                                       | tu institución? Evaluaciones que miden aprendizaje real, no
+  62.85-  63.44 (0.59s) | A:C0917.MP4 164% | G:Color mate | G:Title4.jpg 100%                    | miden aprendizaje real, no
+  63.44-  63.94 (0.50s) | A:C0917.MP4 164% | G:Color mate | G:Title4.jpg                         | miden aprendizaje real, no
+  63.94-  66.02 (2.08s) | A:C0917.MP4 100%                                                       | miden aprendizaje real, no conocimiento genérico de Internet,
+  66.02-  68.23 (2.21s) | A:C0917.MP4 164% | B:grok-video-7389adf8-e6b1-4dae-85fb 260%           | coherencia total en lo que se enseña y
+  68.23-  69.28 (1.05s) | A:C0917.MP4 100%                                                       | que se enseña y lo que se evalúa
+  69.28-  71.28 (2.00s) | A:C0917.MP4 100%                                                       | y la capacidad de evaluar con frecuencia, porque
+  71.28-  71.57 (0.29s) | A:C0917.MP4 164%                                                       | evaluar con frecuencia, porque
+  71.57-  72.45 (0.88s) | A:C0917.MP4 164% | G:Title5.jpg                                        | ahora sí es rápido
+  72.45-  73.57 (1.12s) | A:C0917.MP4 164% | G:Title6.jpg                                        | ahora sí es rápido y confiable al mismo tiempo. Conoce más en
+  73.57-  75.62 (2.05s) | A:C0917.MP4 100%                                                       | tiempo. Conoce más en OneScreenLatam.com.
+  75.62-  83.17 (7.55s) | A:OneScreen (I 100%                                                    | OneScreenLatam.com.

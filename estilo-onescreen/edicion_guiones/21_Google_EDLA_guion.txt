@@ -1,0 +1,27 @@
+   0.00-   1.25 (1.25s) | A:C0034.MP4 100% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | 
+   1.25-   1.46 (0.21s) | A:C0034.MP4 100% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | 
+   1.46-   1.71 (0.25s) | A:C0034.MP4 155% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | 
+   1.75-   2.79 (1.04s) | A:C0034.MP4 155% | G:Graphics0001.png | G:Graphics0001.png | G:Graphic | 
+   2.79-   3.75 (0.96s) | A:C0034.MP4 100% | G:Graphics0008.png 80%                              | D3" Las nuevas ( B D3" pantallas ( B
+   3.75-   4.75 (1.00s) | A:C0034.MP4 100% | B:C0036.MP4 | G:Graphics0008.png 80%                | D3" pantallas ( B D3" OneScreen ( B D3" integran ( B
+   4.75-   5.17 (0.42s) | A:C0034.MP4 155% | B:C0036.MP4 | G:Graphics0008.png 80%                | D3" EDLA Que te ( B
+   5.17-   5.80 (0.63s) | A:C0034.MP4 100% | G:Graphics0002.png | G:Graphics0002.png | G:Graphic | D3" EDLA Que te ( B D3" permite ( B
+   5.80-   6.21 (0.41s) | A:C0034.MP4 100% | B:Limitless Potential ｜ I⧸O 2025.mp4 223% | G:Graph | D3" acceder ( B
+   6.21-   7.47 (1.26s) | A:C0034.MP4 155% | B:C0036.MP4 | B:Limitless Potential ｜ I⧸O 2025.mp4  | D3" ( B D3" ecosistema ( B D3" de Google. ( B
+   7.47-   8.13 (0.66s) | A:C0034.MP4 100% | G:Graphics0008.png 80%                              | D3" Usar ( B D3" todas las apps ( B
+   8.13-   8.55 (0.42s) | A:C0034.MP4 100% | B:C0039.MP4 | G:Graphics0008.png 80%                | D3" todas las apps ( B D3" que ya ( B
+   8.55-   9.18 (0.63s) | A:C0034.MP4 155% | B:C0039.MP4 | G:Graphics0008.png 80%                | D3" que ya ( B D3" conoces. ( B
+   9.18-   9.30 (0.12s) | A:C0034.MP4 155% | B:C0039.MP4 | G:Graphics0008.png 80%                | D3" conoces. ( B
+   9.30-  10.93 (1.63s) | A:C0034.MP4 100% | B:C0039.MP4 | G:Graphics0008.png 80%                | D3" directo ( B D3" en tu ( B D3" pantalla ( B D3" interactiva. ( B
+  10.93-  11.26 (0.33s) | A:C0034.MP4 155% | G:Graphics0008.png 80%                              | D3" Y con ( B D3" inteligencia ( B
+  11.26-  12.30 (1.04s) | A:C0034.MP4 155% | B:Limitless Potential ｜ I⧸O 2025.mp4 | G:Graphics00 | D3" inteligencia ( B D3" artificial ( B
+  12.30-  13.26 (0.96s) | A:C0034.MP4 100% | B:Limitless Potential ｜ I⧸O 2025.mp4 | G:Graphics00 | D3" Cada clase ( B D3" ( B D3" transforma ( B
+  13.26-  13.51 (0.25s) | A:C0034.MP4 100% | B:Limitless Potential ｜ I⧸O 2025.mp4 | B:Adjustment | D3" transforma ( B
+  13.51-  13.80 (0.29s) | A:C0034.MP4 100% | B:C0040.MP4 | B:Adjustment Sequence | G:Graphics000 | D3" en una ( B
+  13.80-  15.18 (1.38s) | A:C0034.MP4 155% | B:C0040.MP4 | G:Graphics0008.png 80%                | D3" experiencia ( B D3" más clara. ( B
+  15.18-  16.56 (1.38s) | A:C0034.MP4 100% | G:Graphics0008.png 80%                              | D3" Rápida ( B D3" e interactiva. ( B
+  16.56-  18.39 (1.83s) | A:C0034.MP4 155% | B:C0038.MP4 | G:Graphics0004.png 100% | G:Graphics0 | 
+  18.39-  18.64 (0.25s) | A:C0034.MP4 100% | B:C0038.MP4 | G:Graphics0004.png 100% | G:Graphics0 | 
+  18.64-  19.48 (0.84s) | A:C0034.MP4 100% | B:C0042.MP4 | G:Graphics0004.png 100% | G:Graphics0 | 
+  19.48-  19.89 (0.41s) | A:C0034.MP4 100% | B:C0042.MP4 | G:Graphics0003.png | G:Graphics0008.p | 
+  19.89-  24.48 (4.59s) | A:Intro 16-9_S 100%                                                    | 

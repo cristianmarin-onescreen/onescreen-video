@@ -1,0 +1,15 @@
+· tts: elevenlabs · voice 21m00Tcm4TlvDq8ikWAM · 8 line(s)
+  voice 01: assets/voice/01.wav (6.78s, 0 words)
+  voice 02: assets/voice/02.wav (7.895s, 0 words)
+  voice 03: assets/voice/03.wav (1.765s, 0 words)
+  voice 04: assets/voice/04.wav (15.232s, 0 words)
+  voice 05: assets/voice/05.wav (12.492s, 0 words)
+  voice 06: assets/voice/06.wav (4.087s, 0 words)
+  voice 07: assets/voice/07.wav (3.669s, 0 words)
+  voice 08: assets/voice/08.wav (5.155s, 0 words)
+  bgm: assets/bgm/track.mp3 (retrieve "cinematic emotional brand underscore, slow swelling build to a warm release")
+✓ audio engine → C:\Users\Cristian Marin\Desktop\Claudio\videos\onescreen-latam\audio_engine_meta.json
+  heygen: yes  ·  ran: tts,bgm
+  voices: 8  ·  bgm: heygen  ·  sfx: 0
+  total voice duration: 57.075s
+✓ audio generate: 8 voice + 1 bgm → C:\Users\Cristian Marin\Desktop\Claudio\videos\onescreen-latam\audio_meta.json

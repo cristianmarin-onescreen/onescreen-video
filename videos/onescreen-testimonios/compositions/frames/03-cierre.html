@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>03-cierre</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #3976ff; }
+        /* Escalones. colossal aquí es 11cqw y no 15: "¿Comenzamos?" son 12 caracteres y a
+           15cqw se saldría del ancho útil. */
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .s-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .s-colossal { font-size: 11cqw;   font-weight: 800; line-height: 0.94; letter-spacing: -0.040em; }
+        /* Cuadros de los bloques negros: a cuadro completo, centrados. */
+        .beat { position: absolute; left: 8cqw; right: 8cqw; top: 34cqh; text-align: center; opacity: 0; }
+        .rule {
+          display: block; width: 10cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.4cqh auto 0; transform-origin: 50% 50%; opacity: 0;
+        }
+        /* COLUMNA SEGURA. Medida, no estimada: ninguna cara entra a la izquierda del 38%
+           del ancho en los 18 planos del tramo de entrevistas. La columna llega al 34% y
+           deja 4 puntos de margen. Anclada por abajo para que los bloques de 2, 3 y 4
+           líneas compartan línea base y el subtítulo no salte de altura. */
+        .caption {
+          position: absolute;
+          left: 6cqw;
+          width: 28cqw;
+          bottom: 22cqh;
+          text-align: left;
+          font-size: 2.3cqw;
+          font-weight: 500;
+          line-height: 1.28;
+          letter-spacing: -0.008em;
+          opacity: 0;
+        }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="03-cierre"
+        data-width="3840"
+        data-height="2160"
+        data-duration="10.48"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat s-phrase" id="C7"><span class="w" id="C7-w0">Na</span> <span class="w" id="C7-w1">OneScreen</span> <span class="w" id="C7-w2">amamos</span> <span class="w" id="C7-w3">contar</span> <span class="w" id="C7-w4">histórias,</span> <span class="w" id="C7-w5">e</span> <span class="w" id="C7-w6">você</span> <span class="w" id="C7-w7">pode</span> <span class="w" id="C7-w8">ser</span> <span class="w" id="C7-w9">uma</span> <span class="w" id="C7-w10">delas.</span></div>
+        <div class="beat s-display" id="C8"><span class="w" id="C8-w0">Esta</span> <span class="w" id="C8-w1">pode</span> <span class="w" id="C8-w2">ser</span> <span class="w" id="C8-w3">a</span> <span class="w" id="C8-w4">sua</span> <span class="w" id="C8-w5">história.</span></div>
+        <div class="beat s-colossal" id="C9"><span class="w" id="C9-w0">Começamos?</span><span class="rule" id="C9-rule"></span></div>
+        <div class="beat s-display" id="C10"><span class="w" id="C10-w0">É</span> <span class="w" id="C10-w1">só</span> <span class="w" id="C10-w2">tocar</span> <span class="w" id="C10-w3">na</span> <span class="w" id="C10-w4">tela.</span></div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 52 }, { y: 0, duration: 0.15, ease: "power4.out", immediateRender: false }, t);
+        }
+        function seamExit(tl, sel, cut, axis, dir) {
+          var t0 = cut - 0.285;
+          var to = { duration: 0.34, ease: "power4.in" };
+          to[axis] = 460 * dir;
+          tl.to(sel, to, t0);
+          tl.to(sel, { opacity: 0, duration: 0.1, ease: "none" }, t0 + 0.165);
+        }
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+
+        // C7 — Na OneScreen amamos contar histórias, e você pode ser uma delas.
+        seamEntry(tl, "#C7", "x", -1);
+        tl.set("#C7-w0", { opacity: 1 }, 0);
+        word(tl, "#C7-w1", 0.44);
+        word(tl, "#C7-w2", 0.8);
+        word(tl, "#C7-w3", 1.16);
+        word(tl, "#C7-w4", 1.52);
+        word(tl, "#C7-w5", 1.88);
+        word(tl, "#C7-w6", 2.24);
+        word(tl, "#C7-w7", 2.6);
+        word(tl, "#C7-w8", 2.96);
+        word(tl, "#C7-w9", 3.32);
+        word(tl, "#C7-w10", 3.68);
+        tl.to("#C7", { y: -207, duration: 0.26, ease: "power4.in" }, 4.12);
+        tl.to("#C7", { opacity: 0, duration: 0.12, ease: "none" }, 4.24);
+
+        // C8 — Esta pode ser a sua história.
+        tl.set("#C8", { opacity: 1 }, 4.420000000000001);
+        word(tl, "#C8-w0", 4.44);
+        word(tl, "#C8-w1", 4.64);
+        word(tl, "#C8-w2", 4.8);
+        word(tl, "#C8-w3", 5);
+        word(tl, "#C8-w4", 5.16);
+        word(tl, "#C8-w5", 5.36);
+        tl.to("#C8", { y: -207, duration: 0.26, ease: "power4.in" }, 5.76);
+        tl.to("#C8", { opacity: 0, duration: 0.12, ease: "none" }, 5.88);
+
+        // C9 — Começamos?
+        tl.set("#C9", { opacity: 1 }, 6.0600000000000005);
+        word(tl, "#C9-w0", 6.08);
+        tl.set("#C9-rule", { opacity: 1 }, 6.42);
+        tl.fromTo("#C9-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "power3.out", immediateRender: false }, 6.42);
+        tl.to("#C9", { y: -207, duration: 0.26, ease: "power4.in" }, 6.68);
+        tl.to("#C9", { opacity: 0, duration: 0.12, ease: "none" }, 6.8);
+
+        // C10 — É só tocar na tela.
+        tl.set("#C10", { opacity: 1 }, 6.98);
+        word(tl, "#C10-w0", 7);
+        word(tl, "#C10-w1", 7.28);
+        word(tl, "#C10-w2", 7.56);
+        word(tl, "#C10-w3", 7.84);
+        word(tl, "#C10-w4", 8.12);
+        tl.to("#C10", { opacity: 0, duration: 0.5, ease: "power2.in" }, 9.58);
+
+        window.__timelines["03-cierre"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Space Grotesk";
+          font-weight: 700;
+          font-style: normal;
+          font-display: swap;
+          src: url("https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk/files/space-grotesk-latin-700-normal.woff2")
+            format("woff2");
+        }
+
+        #stage {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          container-type: size;
+          font-family: "Inter", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+          background: #000000;
+        }
+        #stage * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+        }
+
+        /* persistent frame chrome — visible the whole frame span */
+        .f4-persist-pill {
+          position: absolute;
+          top: 3.1cqw;
+          left: 3.1cqw;
+          z-index: 5;
+          font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+          font-size: 0.85cqw;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #000000;
+          background: #f7cb46;
+          border: 0.3cqw solid #000000;
+          box-shadow: 0.4cqw 0.4cqw 0 #000000;
+          border-radius: 9999px;
+          padding: 0.5cqw 1.3cqw;
+          transform: rotate(-2deg);
+        }
+
+        /* one full-bleed group per karaoke line — hard-cut swapped */
+        .f4-group {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          visibility: hidden;
+          background-color: #ffffff;
+          background-image: radial-gradient(rgba(0, 0, 0, 0.09) 0.09cqw, transparent 0.09cqw);
+          background-size: 1.3cqw 1.3cqw;
+          padding: 3.1cqw;
+        }
+
+        .f4-line-label {
+          position: absolute;
+          top: 3.1cqw;
+          right: 3.1cqw;
+          font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+          font-size: 0.73cqw;
+          font-weight: 700;
+          letter-spacing: 0.09em;
+          text-transform: uppercase;
+          color: #000000;
+          background: #ffffff;
+          border: 0.3cqw solid #000000;
+          box-shadow: 0.4cqw 0.4cqw 0 #000000;
+          border-radius: 9999px;
+          padding: 0.45cqw 1.1cqw;
+        }
+
+        .f4-deco {
+          position: absolute;
+          width: 6.5cqw;
+          height: 6.5cqw;
+          border: 0.3cqw solid #000000;
+          box-shadow: 0.4cqw 0.4cqw 0 #000000;
+        }
+
+        .f4-line-wrap {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          gap: 1cqw 1.2cqw;
+          max-width: 86cqw;
+        }
+        .f4-line-wrap.f4-size-md {
+          font-size: 3.35cqw;
+        }
+        .f4-line-wrap.f4-size-lg {
+          font-size: 4.3cqw;
+        }
+
+        /* plain narration word — instant hard-cut reveal + micro punch-in */
+        .f4-word {
+          display: inline-block;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: -0.02em;
+          line-height: 1.02;
+          color: #000000;
+          white-space: nowrap;
+          opacity: 0;
+          will-change: opacity, transform;
+        }
+
+        /* quoted-dialogue phrase — distinct card/bubble treatment */
+        .f4-bubble {
+          display: inline-flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.5cqw;
+          background: #ffffff;
+          border: 0.4cqw solid #000000;
+          box-shadow: 0.8cqw 0.8cqw 0 #000000;
+          padding: 0.9cqw 1.3cqw 1cqw;
+          opacity: 0;
+          will-change: opacity, transform;
+        }
+        .f4-bubble-tag {
+          display: inline-block;
+          font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+          font-size: 0.68cqw;
+          font-weight: 700;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #000000;
+          background: var(--f4-accent, #fe90e8);
+          border: 0.2cqw solid #000000;
+          border-radius: 9999px;
+          padding: 0.28cqw 0.75cqw;
+          white-space: nowrap;
+        }
+        .f4-bubble-text {
+          display: inline-flex;
+          flex-wrap: wrap;
+          gap: 0.5cqw 0.7cqw;
+        }
+        .f4-bubble .f4-word {
+          color: #000000;
+        }
+      </style>
+
+      <div
+        id="stage"
+        data-composition-id="04-f4"
+        data-width="1920"
+        data-height="1080"
+        data-duration="21.28"
+      >
+        <div class="f4-persist-pill">Verso 2</div>
+      </div>
+
+      <script>
+        (function () {
+          window.__timelines = window.__timelines || {};
+          const tl = gsap.timeline({ paused: true });
+          const stage = document.getElementById("stage");
+
+          const PASTEL = {
+            pink: "#FE90E8",
+            blue: "#C0F7FE",
+            green: "#2ad268",
+            yellow: "#F7CB46",
+            cream: "#FFFDF5",
+          };
+
+          // groups in frame-local seconds (track time minus frame start 65.98)
+          const GROUPS = [
+            {
+              id: "g1",
+              ground: PASTEL.blue,
+              accent: PASTEL.pink,
+              deco: PASTEL.yellow,
+              decoRot: -7,
+              start: 0,
+              end: 2.24,
+              words: ["Le", "escriben", "por", "el", "chat:", "“Yulian,", "necesito", "ayuda”,"],
+              anchors: [0, 0.104, 0.521, 0.677, 0.781, 1.042, 1.459, 1.875],
+              quote: [5, 7],
+            },
+            {
+              id: "g2",
+              ground: PASTEL.green,
+              accent: PASTEL.yellow,
+              deco: PASTEL.pink,
+              decoRot: 8,
+              start: 2.24,
+              end: 4.38,
+              words: ["él", "mira", "la", "pantalla", "y", "responde:", "“Tengo", "una", "duda”."],
+              anchors: [2.24, 2.344, 2.553, 2.658, 3.075, 3.127, 3.597, 3.91, 4.067],
+              quote: [6, 8],
+            },
+            {
+              id: "g3",
+              ground: PASTEL.yellow,
+              accent: null,
+              deco: PASTEL.blue,
+              decoRot: -9,
+              start: 4.38,
+              end: 7.2,
+              words: ["Hace", "una", "llamada,", "después", "otra", "reunión,"],
+              anchors: [4.38, 4.712, 4.961, 5.624, 6.205, 6.536],
+              quote: null,
+            },
+            {
+              id: "g4",
+              ground: PASTEL.pink,
+              accent: null,
+              deco: PASTEL.green,
+              decoRot: 6,
+              start: 7.2,
+              end: 10.14,
+              words: ["y", "el", "problema", "sigue", "vivo", "esperando", "solución."],
+              anchors: [7.2, 7.277, 7.432, 8.051, 8.438, 8.747, 9.444],
+              quote: null,
+            },
+            {
+              id: "g5",
+              ground: PASTEL.cream,
+              accent: PASTEL.blue,
+              deco: PASTEL.pink,
+              decoRot: -8,
+              start: 10.14,
+              end: 12.74,
+              words: ["“Voy", "a", "escalar", "el", "caso”,", "esa", "frase", "es", "inmortal,"],
+              anchors: [10.14, 10.407, 10.473, 10.94, 11.073, 11.473, 11.673, 12.007, 12.14],
+              quote: [0, 4],
+            },
+            {
+              id: "g6",
+              ground: PASTEL.blue,
+              accent: null,
+              deco: PASTEL.yellow,
+              decoRot: 7,
+              start: 12.74,
+              end: 15.22,
+              words: ["cuando", "Yulian", "la", "pronuncia", "ya", "sabemos", "el", "final."],
+              anchors: [12.74, 13.112, 13.484, 13.608, 14.166, 14.29, 14.724, 14.848],
+              quote: null,
+            },
+            {
+              id: "g7",
+              ground: PASTEL.green,
+              accent: null,
+              deco: PASTEL.pink,
+              decoRot: -6,
+              start: 15.22,
+              end: 17.76,
+              words: ["El", "ticket", "sigue", "abierto,", "nadie", "sabe", "qué", "pasó,"],
+              anchors: [15.22, 15.354, 15.755, 16.089, 16.624, 16.958, 17.225, 17.426],
+              quote: null,
+            },
+            {
+              id: "g8",
+              ground: PASTEL.yellow,
+              accent: null,
+              deco: PASTEL.blue,
+              decoRot: 9,
+              start: 17.76,
+              end: 21.28,
+              words: ["Yulian", "sigue", "estresado…", "¡pero", "el", "problema", "continuó!"],
+              anchors: [17.76, 18.229, 18.62, 19.403, 19.794, 19.95, 20.576],
+              quote: null,
+            },
+          ];
+
+          // --- build DOM synchronously, indices-only variation ---
+          GROUPS.forEach((g, gi) => {
+            const groupEl = document.createElement("div");
+            groupEl.className = "f4-group";
+            groupEl.id = g.id;
+            groupEl.style.backgroundColor = g.ground;
+
+            const deco = document.createElement("div");
+            deco.className = "f4-deco";
+            deco.style.background = g.deco;
+            deco.style.transform = "rotate(" + g.decoRot + "deg)";
+            deco.style.bottom = "4.5cqw";
+            if (gi % 2 === 0) {
+              deco.style.right = "4.5cqw";
+            } else {
+              deco.style.left = "4.5cqw";
+            }
+            groupEl.appendChild(deco);
+
+            const lineLabel = document.createElement("div");
+            lineLabel.className = "f4-line-label";
+            lineLabel.textContent = "Línea 0" + (gi + 1) + "/08";
+            groupEl.appendChild(lineLabel);
+
+            const wordCount = g.words.length;
+            const lineWrap = document.createElement("div");
+            lineWrap.className = "f4-line-wrap " + (wordCount <= 6 ? "f4-size-lg" : "f4-size-md");
+
+            const wordEls = new Array(wordCount);
+            let bubbleEl = null;
+            let i = 0;
+            while (i < wordCount) {
+              if (g.quote && i === g.quote[0]) {
+                const bubble = document.createElement("div");
+                bubble.className = "f4-bubble";
+                bubble.style.setProperty("--f4-accent", g.accent);
+
+                const tag = document.createElement("span");
+                tag.className = "f4-bubble-tag";
+                tag.textContent = "❝ Diálogo";
+                bubble.appendChild(tag);
+
+                const textWrap = document.createElement("span");
+                textWrap.className = "f4-bubble-text";
+                for (let k = g.quote[0]; k <= g.quote[1]; k++) {
+                  const w = document.createElement("span");
+                  w.className = "f4-word";
+                  w.textContent = g.words[k];
+                  textWrap.appendChild(w);
+                  wordEls[k] = w;
+                }
+                bubble.appendChild(textWrap);
+                lineWrap.appendChild(bubble);
+                bubbleEl = bubble;
+                i = g.quote[1] + 1;
+              } else {
+                const w = document.createElement("span");
+                w.className = "f4-word";
+                w.textContent = g.words[i];
+                lineWrap.appendChild(w);
+                wordEls[i] = w;
+                i++;
+              }
+            }
+
+            groupEl.appendChild(lineWrap);
+            stage.appendChild(groupEl);
+
+            g._wordEls = wordEls;
+            g._bubbleEl = bubbleEl;
+          });
+
+          // --- timeline: group hard-cuts (0ms) + per-word hard reveal + micro punch ---
+          GROUPS.forEach((g, gi) => {
+            tl.set("#" + g.id, { autoAlpha: 1 }, g.start);
+            tl.set("#" + g.id, { autoAlpha: 0 }, g.end);
+
+            if (g.quote && g._bubbleEl) {
+              const bubbleStart = g.anchors[g.quote[0]];
+              const restRot = gi % 2 === 0 ? -3 : 3;
+              tl.set(g._bubbleEl, { opacity: 1 }, bubbleStart);
+              tl.fromTo(
+                g._bubbleEl,
+                { scale: 0.55, rotation: gi % 2 === 0 ? -9 : 9 },
+                { scale: 1, rotation: restRot, duration: 0.16, ease: "back.out(2.6)" },
+                bubbleStart,
+              );
+            }
+
+            g.words.forEach((word, idx) => {
+              const el = g._wordEls[idx];
+              const t = g.anchors[idx];
+              tl.set(el, { opacity: 1 }, t);
+              tl.fromTo(
+                el,
+                { scale: 0.68, rotation: idx % 2 === 0 ? -4 : 4 },
+                { scale: 1, rotation: 0, duration: 0.13, ease: "back.out(3)" },
+                t,
+              );
+            });
+          });
+
+          window.__timelines["04-f4"] = tl;
+          tl.seek(0);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

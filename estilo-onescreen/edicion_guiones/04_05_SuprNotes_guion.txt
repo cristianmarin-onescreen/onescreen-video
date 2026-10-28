@@ -1,0 +1,73 @@
+   0.00-   0.75 (0.75s) | A:C0922.MP4 100%                                                       | Estos son dos datos
+   0.75-   1.17 (0.42s) | A:C0922.MP4 188%                                                       | Estos son dos datos
+   1.17-   2.59 (1.42s) | A:C0922.MP4 188% | G:Title1.jpg                                        | Estos son dos datos reales de los estudiantes
+   2.59-   3.34 (0.75s) | A:C0922.MP4 100% | G:Title2.jpg                                        | hoy en día. Dato
+   3.34-   4.42 (1.08s) | A:C0922.MP4 188% | G:Recurso 2@8x.png 16%                              | hoy en día. Dato número uno: los estudiantes
+   4.42-   6.92 (2.50s) | A:C0922.MP4 100% | G:Recurso 2@8x.png 16%                              | número uno: los estudiantes pasan la mitad del tiempo de una sesión
+   6.92-   8.01 (1.09s) | A:C0922.MP4 188%                                                       | tiempo de una sesión de clase tomando apuntes.
+   8.01-   9.30 (1.29s) | A:C0922.MP4 188% | G:Recurso 4@8x.png 29%                              | de clase tomando apuntes.
+   9.30-  11.18 (1.88s) | A:C0922.MP4 100% | B:Dec_09__2136_16s_202512151750_mewb 300% | B:Dec_0 | Ese es tiempo valioso que en la mayoría
+  11.18-  11.60 (0.42s) | A:C0922.MP4 100% | B:Dec_05__2243_71s_202512151805_kk29 300% | B:Dec_0 | que en la mayoría
+  11.60-  12.18 (0.58s) | A:C0922.MP4 188% | B:Dec_05__2243_71s_202512151805_kk29 300% | B:Dec_0 | se pierde. Dato número
+  12.18-  13.10 (0.92s) | A:C0922.MP4 100% | G:Recurso 5@8x.png 16%                              | se pierde. Dato número dos: los estudiantes y
+  13.10-  15.10 (2.00s) | A:C0922.MP4 188% | G:Recurso 5@8x.png 16%                              | dos: los estudiantes y los docentes ya usan
+  15.10-  16.10 (1.00s) | A:C0922.MP4 100% | G:Recurso 6@8x.png 29%                              | los docentes ya usan IA todo el tiempo.
+  16.10-  16.85 (0.75s) | A:C0922.MP4 188% | G:Recurso 6@8x.png 29%                              | IA todo el tiempo.
+  16.85-  17.93 (1.08s) | A:C0922.MP4 100%                                                       | Pero el problema
+  17.93-  18.89 (0.96s) | A:C0922.MP4 188%                                                       | es que las IAs
+  18.89-  19.81 (0.92s) | A:C0922.MP4 100%                                                       | hablan por hablar y
+  19.81-  21.94 (2.13s) | A:C0922.MP4 188%                                                       | hablan por hablar y toda la información que no saben se la
+  21.94-  22.23 (0.29s) | A:C0922.MP4 100%                                                       | no saben se la
+  22.23-  22.77 (0.54s) | A:C0922.MP4 100% | G:Title3.jpg                                        | inventan. Y la institución
+  22.77-  23.86 (1.09s) | A:C0922.MP4 188%                                                       | inventan. Y la institución
+  23.86-  26.19 (2.33s) | A:C0922.MP4 100%                                                       | no tiene ni idea de cómo usarlas. Por
+  26.19-  26.86 (0.67s) | A:C0922.MP4 188%                                                       | de cómo usarlas. Por eso creamos Supernotes. Puedes
+  26.86-  27.24 (0.38s) | A:C0922.MP4 188% | B:Render_1.mp4 | G:SuprNotes.png 200%               | eso creamos Supernotes. Puedes
+  27.24-  27.86 (0.62s) | A:C0922.MP4 100% | B:Render_1.mp4 | G:SuprNotes.png 200%               | eso creamos Supernotes. Puedes
+  27.86-  28.28 (0.42s) | A:C0922.MP4 100% | B:Render_1.mp4 | G:SuprNotes.png 200%               | eso creamos Supernotes. Puedes
+  28.28-  29.07 (0.79s) | A:C0922.MP4 100% | B:Render_1.mp4 | G:SuprNotes.png 200%               | transformar horas de clases
+  29.07-  29.82 (0.75s) | A:C0922.MP4 100% | B:Dec_05__2243_63s_202512052348_j09d 300% | B:Dec_0 | transformar horas de clases
+  29.82-  30.32 (0.50s) | A:C0922.MP4 100% | B:Dec_05__2243_63s_202512052348_j09d 300% | B:Dec_0 | en minutos de claridad.
+  30.32-  31.32 (1.00s) | A:C0922.MP4 100% | B:Dec_05__2243_63s_202512052348_j09d 300% | B:Dec_0 | en minutos de claridad.
+  31.32-  31.49 (0.17s) | A:C0922.MP4 188% | B:Dec_05__2243_63s_202512052348_j09d 300% | B:Dec_0 | Solo necesitas subir un
+  31.49-  32.28 (0.79s) | A:C0922.MP4 188% | B:Dec_05__2243_63s_202512052348_j09d 300%           | Solo necesitas subir un
+  32.32-  33.45 (1.13s) | A:C0922.MP4 188% | G:Color mate | B:videoplayback.mp4 200%             | Solo necesitas subir un video de YouTube o
+  33.45-  34.33 (0.88s) | A:C0922.MP4 100% | G:Color mate | B:videoplayback.mp4 200%             | video de YouTube o un archivo PDF o
+  34.33-  34.95 (0.62s) | A:C0922.MP4 100% | G:Color mate | B:videoplayback.mp4 201% | B:videopl | un archivo PDF o
+  34.95-  36.12 (1.17s) | A:C0922.MP4 188% | G:Color mate | B:videoplayback.mp4 201% | B:videopl | un archivo PDF o importar tu clase a
+  36.12-  37.16 (1.04s) | A:C0922.MP4 188% | G:Color mate | B:videoplayback.mp4 201% | B:videopl | importar tu clase a Supernotes. Y en segundos
+  37.16-  37.83 (0.67s) | A:C0922.MP4 100%                                                       | Supernotes. Y en segundos
+  37.83-  38.25 (0.42s) | A:C0922.MP4 100% | B:2025-12-15 18-46-56.mp4                           | Supernotes. Y en segundos
+  38.25-  38.50 (0.25s) | A:C0922.MP4 188% | B:2025-12-15 18-46-56.mp4                           | tienes un resumen estructurado,
+  38.50-  40.12 (1.62s) | A:C0922.MP4 188% | B:2025-12-15 18-46-56.mp4 321%                      | tienes un resumen estructurado,
+  40.12-  41.42 (1.30s) | A:C0922.MP4 100% | B:2025-12-09 22-46-09.mp4 330% | B:2025-12-09 22-46 | tarjetas didácticas y exámenes
+  41.42-  43.00 (1.58s) | A:C0922.MP4 188%                                                       | tarjetas didácticas y exámenes de práctica. También crea
+  43.00-  44.80 (1.80s) | A:C0922.MP4 100% | G:Color mate 221% | B:2025-12-09 22-23-18.mp4 191%  | de práctica. También crea un chat de IA
+  44.80-  45.34 (0.54s) | A:C0922.MP4 100% | G:Color mate 221% | B:2025-12-09 22-23-18.mp4 191%  | privado que usa tu
+  45.34-  46.88 (1.54s) | A:C0922.MP4 188% | G:Color mate 221% | B:2025-12-09 22-23-18.mp4 191%  | privado que usa tu resumen como su base
+  46.88-  47.92 (1.04s) | A:C0922.MP4 188% | B:digital-file-folders-in-futuristic                | resumen como su base de datos interna. O
+  47.92-  48.88 (0.96s) | A:C0922.MP4 100% | B:digital-file-folders-in-futuristic                | de datos interna. O
+  48.88-  49.42 (0.54s) | A:C0922.MP4 100%                                                       | de datos interna. O sea, jamás te responderá
+  49.42-  50.63 (1.21s) | A:C0922.MP4 100%                                                       | sea, jamás te responderá
+  50.63-  52.80 (2.17s) | A:C0922.MP4 188%                                                       | sea, jamás te responderá nada que no esté en tus resúmenes. Supernotes
+  52.80-  54.05 (1.25s) | A:C0922.MP4 100%                                                       | en tus resúmenes. Supernotes es la primera IA
+  54.05-  55.01 (0.96s) | A:C0922.MP4 100% | G:Color mate | G:Title4.jpg 100%                    | es la primera IA
+  55.01-  55.22 (0.21s) | A:C0922.MP4 100% | G:Color mate | G:Title4.jpg                         | realmente pensada para tus
+  55.22-  56.52 (1.30s) | A:C0922.MP4 188% | G:Color mate | G:Title4.jpg                         | realmente pensada para tus
+  56.52-  56.89 (0.37s) | A:C0922.MP4 188% | G:Color mate | G:Title4.jpg                         | realmente pensada para tus
+  56.89-  57.89 (1.00s) | A:C0922.MP4 188% | G:Color mate | G:Title5.jpg                         | realmente pensada para tus estudiantes. No está hecha
+  57.89-  58.27 (0.38s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | estudiantes. No está hecha
+  58.27-  58.60 (0.33s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | estudiantes. No está hecha
+  58.60-  59.10 (0.50s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | estudiantes. No está hecha
+  59.10-  59.39 (0.29s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | para que hagan trampa,
+  59.39-  59.56 (0.17s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | para que hagan trampa,
+  59.56-  59.98 (0.42s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | para que hagan trampa,
+  59.98-  60.39 (0.41s) | A:C0922.MP4 100% | G:Recurso 7@8x.png 22%                              | para que hagan trampa,
+  60.39-  61.27 (0.88s) | A:C0922.MP4 188% | G:Color mate | G:Title6.jpg 100%                    | sino para que aprendan
+  61.27-  62.35 (1.08s) | A:C0922.MP4 188% | G:Color mate | G:Title6.jpg                         | sino para que aprendan de verdad. Si quieres
+  62.35-  64.73 (2.38s) | A:C0922.MP4 100% | G:Recurso 2.png 299%                                | de verdad. Si quieres hacer una implementación real de IA, solo necesitas
+  64.73-  66.36 (1.63s) | A:C0922.MP4 188% | G:Recurso 2.png 299%                                | de IA, solo necesitas acceder a onescreenlatam.com y
+  66.36-  68.15 (1.79s) | A:C0922.MP4 100% | G:Recurso 2.png 299%                                | acceder a onescreenlatam.com y
+  68.15-  68.90 (0.75s) | A:C0922.MP4 100% | G:Recurso 2.png 299%                                | acceder a onescreenlatam.com y nosotros te ayudamos.
+  68.90-  69.40 (0.50s) | A:C0922.MP4 100% | G:Recurso 2.png 299%                                | nosotros te ayudamos.
+  69.40-  77.49 (8.09s) | A:OneScreen (I 100%                                                    | nosotros te ayudamos.

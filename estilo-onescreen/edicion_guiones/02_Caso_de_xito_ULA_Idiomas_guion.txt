@@ -1,0 +1,57 @@
+   0.00-   1.33 (1.33s) | B:C1262.MP4 | G:Recurso 1.png 98% | G:OneScreen_4K_16.9.png | G:Recurs | 
+   1.33-   1.58 (0.25s) | B:C1262.MP4 | G:Recurso 1.png 98% | G:Recurso 1.png 98% | G:OneScreen_ | 
+   1.58-   2.75 (1.17s) | A:C1191.MP4 136% | B:C1262.MP4 | G:Recurso 1.png 98% | G:OneScreen_4K_ | Centro de Idiomas Zula
+   2.75-   3.84 (1.09s) | A:C1191.MP4 136% | B:C1269.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | es una institución,
+   3.84-   6.51 (2.67s) | A:C1191.MP4 136% | B:Daniela Herrera.mov 61% | G:OneScreen_4K_16.9.png | es una institución, un centro de idiomas
+   6.51-   7.88 (1.37s) | A:C1191.MP4 100% | B:Daniela Herrera.mov 61% | G:OneScreen_4K_16.9.png | donde enseñamos inglés y francés, adultos, y también
+   7.88-   9.84 (1.96s) | A:C1191.MP4 100% | B:C1264.MP4 | B:Daniela Herrera.mov 61% | G:OneScre | francés, adultos, y también tenemos un producto para
+   9.84-  12.26 (2.42s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | tenemos un producto para niños que es la enseñanza del inglés. Una
+  12.26-  13.39 (1.13s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | enseñanza del inglés. Una trayectoria de más de
+  13.39-  15.56 (2.17s) | A:C1191.MP4 100% | B:C1270.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | trayectoria de más de doce años en el mercado y más de diecinueve sedes a nivel
+  15.56-  17.02 (1.46s) | A:C1191.MP4 100% | B:C1254.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | diecinueve sedes a nivel nacional. Dentro del aula
+  17.02-  19.27 (2.25s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | nacional. Dentro del aula tratamos de que
+  19.27-  21.65 (2.38s) | A:C1191.MP4 136% | B:C1192.MP4 144% | G:OneScreen_4K_16.9.png | G:Recu | los espacios de interacción puedan darse primero con
+  21.65-  23.61 (1.96s) | A:C1191.MP4 136% | B:C1206.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | puedan darse primero con ese aspecto realista. Si
+  23.61-  27.65 (4.04s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | ese aspecto realista. Si yo estoy dando un tema, pues que lo aproxime a una situación que 
+  27.65-  31.91 (4.26s) | A:C1191.MP4 100% | B:C1202.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | que uno sabe que va a vivir dentro de una, de un ambiente real o un contexto real.
+  31.91-  34.24 (2.33s) | A:C1191.MP4 100% | B:C1202.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | Y que teniendo en cuenta que es vivencial,
+  34.24-  38.91 (4.67s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | la sesión se vuelva un ambiente en el que todos usemos el lenguaje
+  38.91-  41.58 (2.67s) | A:C1191.MP4 136% | B:C1236.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | con ese objetivo realista, porque nos va a servir saliendo del aula
+  41.58-  42.83 (1.25s) | A:C1191.MP4 100% | B:C1236.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | servir saliendo del aula también. Hubo una transición
+  42.83-  43.88 (1.05s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | también. Hubo una transición
+  43.88-  48.38 (4.50s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | porque hasta el año pasado aún teníamos los computadores, eh, convencionales, pero
+  48.38-  53.84 (5.46s) | A:C1191.MP4 100% | B:C1219.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | computadores, eh, convencionales, pero al año pasado ya pudimos adaptar todos nuestros sal
+  53.84-  56.81 (2.97s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | de las pantallas y realmente el cambio ha sido muy significativo. Creo
+  56.81-  59.89 (3.08s) | A:C1191.MP4 100% | B:C1238.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | sido muy significativo. Creo que este apoyo o este recurso tecnológico se
+  59.89-  62.02 (2.13s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | este recurso tecnológico se ve desde que un estudiante entra a conocer
+  62.02-  63.19 (1.17s) | A:C1191.MP4 136% | B:C1225.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | estudiante entra a conocer nuestra institución y ve
+  63.19-  69.19 (6.00s) | A:C1191.MP4 100% | B:C1225.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | nuestra institución y ve ese factor diferencial y dice: «Guau, aquí tienen este tipo de pa
+  69.19-  72.99 (3.80s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | de pizarras», que son completamente diferentes a lo que vienen acostumbrados. Para los
+  72.99-  74.07 (1.08s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | vienen acostumbrados. Para los docentes también. Todo docente
+  74.07-  79.62 (5.55s) | A:C1191.MP4 100% | B:C1209.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | docentes también. Todo docente que viene acá a la institución realmente se adapta muy fáci
+  79.62-  83.42 (3.80s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | al uso del dispositivo. Desde que tenemos todos nuestros salones adaptados con,
+  83.42-  85.50 (2.08s) | A:C1191.MP4 136% | B:C1211.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | nuestros salones adaptados con, con las pantallas, realmente
+  85.50-  87.71 (2.21s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | sí se ha visto, eh, una mejoría y,
+  87.71-  89.09 (1.38s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | eh, una mejoría y, y realmente una sensación
+  89.09-  91.38 (2.29s) | A:C1191.MP4 136% | B:C1235.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | y realmente una sensación diferente dentro del aula desde que el estudiante
+  91.38-  93.01 (1.63s) | A:C1191.MP4 136% | B:C1248.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | desde que el estudiante o el docente entra
+  93.01-  95.97 (2.96s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | o el docente entra a su clase y, y ve que hay una pantalla disponible.
+  95.97-  96.81 (0.84s) | B:C1242.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%            | 
+  96.81-  98.27 (1.46s) | A:C1191.MP4 136% | B:C1242.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | Yo diría que el acceso fácil a la
+  98.27- 103.44 (5.17s) | A:C1191.MP4 136% | B:C1229.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | información en un solo dispositivo que lo tiene todo. Y poder hacer esa transición muy fác
+ 103.44- 105.61 (2.17s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | de u-una pizarra, inmediatamente
+ 105.61- 108.69 (3.08s) | A:C1191.MP4 100% | B:C1224.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | de u-una pizarra, inmediatamente yo puedo usar el navegador y tengo mi video y tengo mi
+ 108.69- 113.45 (4.76s) | A:C1191.MP4 136% | B:C1224.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | video y tengo mi recurso audiovisual. Tengo absolutamente todo en un solo lugar, con opcio
+ 113.45- 115.28 (1.83s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | lugar, con opciones que una pizarra convencional no
+ 115.28- 119.70 (4.42s) | A:C1191.MP4 100% | B:C1233.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | una pizarra convencional no me va a ofrecer. El poder ampliar, reducir una pantalla, crear
+ 119.70- 123.50 (3.80s) | A:C1191.MP4 100% | B:C1234.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | una pantalla, crear cuadrículas, que dos estudiantes puedan interactuar a la vez
+ 123.50- 127.29 (3.79s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | interactuar a la vez con, con la pantalla y un montón de opciones más, hace ese
+ 127.29- 131.01 (3.72s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | opciones más, hace ese factor diferencial dentro del aula y dentro de todas las clases. In
+ 131.01- 135.97 (4.96s) | A:C1191.MP4 100% | B:C1197.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | todas las clases. Incluso he visto docentes que dentro de la misma pantalla están creando 
+ 135.97- 136.84 (0.87s) | A:C1191.MP4 100% | B:C1197.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | presentaciones porque les permite
+ 136.84- 142.06 (5.22s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | arrastrar y crear todo muy fácil, diferente a un, a un computador convencional. Eh, ese en
+ 142.06- 144.81 (2.75s) | A:C1191.MP4 100% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | convencional. Eh, ese engagement que hay cuando un,
+ 144.81- 148.31 (3.50s) | A:C1191.MP4 136% | B:C1205.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | que hay cuando un, un docente usa una pantalla y cuando un estudiante entra y ve
+ 148.31- 151.61 (3.30s) | A:C1191.MP4 136% | B:C1222.MP4 | G:OneScreen_4K_16.9.png | G:Recurso 1 | estudiante entra y ve una pantalla, creo que marca una diferencia muy
+ 151.61- 154.53 (2.92s) | A:C1191.MP4 136% | G:OneScreen_4K_16.9.png | G:Recurso 1.png 48%       | marca una diferencia muy sustancial en el proceso de aprendizaje.
+ 154.53- 162.62 (8.09s) | B:OneScreen (Intro)_ESP_16.9_NoMúsic                                   | 

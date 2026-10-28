@@ -1,0 +1,1744 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 34.16,
+ "totalFrames": 854,
+ "source": "Wandr - Narrador.wav",
+ "speechEnd": 34,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "¿Si pudieras llevar la interactividad de OneScreen,",
+     "words": [
+      {
+       "id": "w0",
+       "i": 0,
+       "text": "¿Si",
+       "start": 0,
+       "brand": false
+      },
+      {
+       "id": "w1",
+       "i": 1,
+       "text": "pudieras",
+       "start": 0.44,
+       "brand": false
+      },
+      {
+       "id": "w2",
+       "i": 2,
+       "text": "llevar",
+       "start": 0.84,
+       "brand": false
+      },
+      {
+       "id": "w3",
+       "i": 3,
+       "text": "la",
+       "start": 1.04,
+       "brand": false
+      },
+      {
+       "id": "w4",
+       "i": 4,
+       "text": "interactividad",
+       "start": 1.2,
+       "brand": false
+      },
+      {
+       "id": "w5",
+       "i": 5,
+       "text": "de",
+       "start": 1.76,
+       "brand": false
+      },
+      {
+       "id": "w6",
+       "i": 6,
+       "text": "OneScreen,",
+       "start": 1.96,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "a cualquier lugar?",
+     "words": [
+      {
+       "id": "w7",
+       "i": 7,
+       "text": "a",
+       "start": 2.4,
+       "brand": false
+      },
+      {
+       "id": "w8",
+       "i": 8,
+       "text": "cualquier",
+       "start": 2.52,
+       "brand": false
+      },
+      {
+       "id": "w9",
+       "i": 9,
+       "text": "lugar?",
+       "start": 2.8,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "¿Si pudieras llevar la interactividad de OneScreen, / a cualquier lugar?",
+   "end": 3.6
+  },
+  {
+   "id": "f02",
+   "start": 3.64,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Te presentamos",
+     "words": [
+      {
+       "id": "w10",
+       "i": 10,
+       "text": "Te",
+       "start": 3.64,
+       "brand": false
+      },
+      {
+       "id": "w11",
+       "i": 11,
+       "text": "presentamos",
+       "start": 3.84,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w12",
+       "i": 12,
+       "text": "OneScreen",
+       "start": 4.6,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "Wandr",
+     "words": [
+      {
+       "id": "w13",
+       "i": 13,
+       "text": "Wandr",
+       "start": 5.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Te presentamos / OneScreen / Wandr",
+   "end": 5.92
+  },
+  {
+   "id": "f03",
+   "start": 5.96,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "El primer centro de entretenimiento",
+     "words": [
+      {
+       "id": "w14",
+       "i": 14,
+       "text": "El",
+       "start": 5.96,
+       "brand": false
+      },
+      {
+       "id": "w15",
+       "i": 15,
+       "text": "primer",
+       "start": 6.2,
+       "brand": false
+      },
+      {
+       "id": "w16",
+       "i": 16,
+       "text": "centro",
+       "start": 6.64,
+       "brand": false
+      },
+      {
+       "id": "w17",
+       "i": 17,
+       "text": "de",
+       "start": 7.08,
+       "brand": false
+      },
+      {
+       "id": "w18",
+       "i": 18,
+       "text": "entretenimiento",
+       "start": 7.2,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "portátil.",
+     "words": [
+      {
+       "id": "w19",
+       "i": 19,
+       "text": "portátil.",
+       "start": 7.84,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "El primer centro de entretenimiento / portátil.",
+   "end": 8.64
+  },
+  {
+   "id": "f04",
+   "start": 8.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Wandr tiene una base recargable que puede durar",
+     "words": [
+      {
+       "id": "w20",
+       "i": 20,
+       "text": "Wandr",
+       "start": 8.68,
+       "brand": false
+      },
+      {
+       "id": "w21",
+       "i": 21,
+       "text": "tiene",
+       "start": 9.08,
+       "brand": false
+      },
+      {
+       "id": "w22",
+       "i": 22,
+       "text": "una",
+       "start": 9.32,
+       "brand": false
+      },
+      {
+       "id": "w23",
+       "i": 23,
+       "text": "base",
+       "start": 9.48,
+       "brand": false
+      },
+      {
+       "id": "w24",
+       "i": 24,
+       "text": "recargable",
+       "start": 9.76,
+       "brand": false
+      },
+      {
+       "id": "w25",
+       "i": 25,
+       "text": "que",
+       "start": 10.32,
+       "brand": false
+      },
+      {
+       "id": "w26",
+       "i": 26,
+       "text": "puede",
+       "start": 10.48,
+       "brand": false
+      },
+      {
+       "id": "w27",
+       "i": 27,
+       "text": "durar",
+       "start": 10.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "más de 6 horas.",
+     "words": [
+      {
+       "id": "w28",
+       "i": 28,
+       "text": "más",
+       "start": 11,
+       "brand": false
+      },
+      {
+       "id": "w29",
+       "i": 29,
+       "text": "de",
+       "start": 11.24,
+       "brand": false
+      },
+      {
+       "id": "w30",
+       "i": 30,
+       "text": "6",
+       "start": 11.44,
+       "brand": false
+      },
+      {
+       "id": "w31",
+       "i": 31,
+       "text": "horas.",
+       "start": 11.84,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Wandr tiene una base recargable que puede durar / más de 6 horas.",
+   "end": 12.52
+  },
+  {
+   "id": "f05",
+   "start": 12.56,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Completamente táctil, podrás acceder a más de",
+     "words": [
+      {
+       "id": "w32",
+       "i": 32,
+       "text": "Completamente",
+       "start": 12.56,
+       "brand": false
+      },
+      {
+       "id": "w33",
+       "i": 33,
+       "text": "táctil,",
+       "start": 13.12,
+       "brand": false
+      },
+      {
+       "id": "w34",
+       "i": 34,
+       "text": "podrás",
+       "start": 13.68,
+       "brand": false
+      },
+      {
+       "id": "w35",
+       "i": 35,
+       "text": "acceder",
+       "start": 14,
+       "brand": false
+      },
+      {
+       "id": "w36",
+       "i": 36,
+       "text": "a",
+       "start": 14.4,
+       "brand": false
+      },
+      {
+       "id": "w37",
+       "i": 37,
+       "text": "más",
+       "start": 14.48,
+       "brand": false
+      },
+      {
+       "id": "w38",
+       "i": 38,
+       "text": "de",
+       "start": 14.64,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "4 millones",
+     "words": [
+      {
+       "id": "w39",
+       "i": 39,
+       "text": "4",
+       "start": 14.8,
+       "brand": false
+      },
+      {
+       "id": "w40",
+       "i": 40,
+       "text": "millones",
+       "start": 15.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de apps.",
+     "words": [
+      {
+       "id": "w41",
+       "i": 41,
+       "text": "de",
+       "start": 15.44,
+       "brand": false
+      },
+      {
+       "id": "w42",
+       "i": 42,
+       "text": "apps.",
+       "start": 15.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Completamente táctil, podrás acceder a más de / 4 millones / de apps.",
+   "end": 16.28
+  },
+  {
+   "id": "f06",
+   "start": 16.32,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Puedes girar su pantalla a",
+     "words": [
+      {
+       "id": "w43",
+       "i": 43,
+       "text": "Puedes",
+       "start": 16.32,
+       "brand": false
+      },
+      {
+       "id": "w44",
+       "i": 44,
+       "text": "girar",
+       "start": 16.52,
+       "brand": false
+      },
+      {
+       "id": "w45",
+       "i": 45,
+       "text": "su",
+       "start": 16.76,
+       "brand": false
+      },
+      {
+       "id": "w46",
+       "i": 46,
+       "text": "pantalla",
+       "start": 16.84,
+       "brand": false
+      },
+      {
+       "id": "w47",
+       "i": 47,
+       "text": "a",
+       "start": 17.16,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "180°,",
+     "words": [
+      {
+       "id": "w48",
+       "i": 48,
+       "text": "180°,",
+       "start": 17.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Puedes girar su pantalla a / 180°,",
+   "end": 18.44
+  },
+  {
+   "id": "f07",
+   "start": 18.48,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Inclinarla hacia ti y ajustar su altura.",
+     "words": [
+      {
+       "id": "w49",
+       "i": 49,
+       "text": "Inclinarla",
+       "start": 18.48,
+       "brand": false
+      },
+      {
+       "id": "w50",
+       "i": 50,
+       "text": "hacia",
+       "start": 18.84,
+       "brand": false
+      },
+      {
+       "id": "w51",
+       "i": 51,
+       "text": "ti",
+       "start": 19,
+       "brand": false
+      },
+      {
+       "id": "w52",
+       "i": 52,
+       "text": "y",
+       "start": 19.24,
+       "brand": false
+      },
+      {
+       "id": "w53",
+       "i": 53,
+       "text": "ajustar",
+       "start": 19.52,
+       "brand": false
+      },
+      {
+       "id": "w54",
+       "i": 54,
+       "text": "su",
+       "start": 20.12,
+       "brand": false
+      },
+      {
+       "id": "w55",
+       "i": 55,
+       "text": "altura.",
+       "start": 20.28,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Inclinarla hacia ti y ajustar su altura.",
+   "end": 20.84
+  },
+  {
+   "id": "f08",
+   "start": 20.88,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Tiene una",
+     "words": [
+      {
+       "id": "w56",
+       "i": 56,
+       "text": "Tiene",
+       "start": 20.88,
+       "brand": false
+      },
+      {
+       "id": "w57",
+       "i": 57,
+       "text": "una",
+       "start": 21.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "cámara 4K",
+     "words": [
+      {
+       "id": "w58",
+       "i": 58,
+       "text": "cámara",
+       "start": 21.44,
+       "brand": false
+      },
+      {
+       "id": "w59",
+       "i": 59,
+       "text": "4K",
+       "start": 21.72,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "integrada, para acercarte a los que más amas.",
+     "words": [
+      {
+       "id": "w60",
+       "i": 60,
+       "text": "integrada,",
+       "start": 22.48,
+       "brand": false
+      },
+      {
+       "id": "w61",
+       "i": 61,
+       "text": "para",
+       "start": 23.24,
+       "brand": false
+      },
+      {
+       "id": "w62",
+       "i": 62,
+       "text": "acercarte",
+       "start": 23.52,
+       "brand": false
+      },
+      {
+       "id": "w63",
+       "i": 63,
+       "text": "a",
+       "start": 24,
+       "brand": false
+      },
+      {
+       "id": "w64",
+       "i": 64,
+       "text": "los",
+       "start": 24.12,
+       "brand": false
+      },
+      {
+       "id": "w65",
+       "i": 65,
+       "text": "que",
+       "start": 24.24,
+       "brand": false
+      },
+      {
+       "id": "w66",
+       "i": 66,
+       "text": "más",
+       "start": 24.36,
+       "brand": false
+      },
+      {
+       "id": "w67",
+       "i": 67,
+       "text": "amas.",
+       "start": 24.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Tiene una / cámara 4K / integrada, para acercarte a los que más amas.",
+   "end": 25
+  },
+  {
+   "id": "f09",
+   "start": 25.04,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w68",
+       "i": 68,
+       "text": "OneScreen",
+       "start": 25.04,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "Wandr",
+     "words": [
+      {
+       "id": "w69",
+       "i": 69,
+       "text": "Wandr",
+       "start": 25.76,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "es para toda la familia.",
+     "words": [
+      {
+       "id": "w70",
+       "i": 70,
+       "text": "es",
+       "start": 26.08,
+       "brand": false
+      },
+      {
+       "id": "w71",
+       "i": 71,
+       "text": "para",
+       "start": 26.44,
+       "brand": false
+      },
+      {
+       "id": "w72",
+       "i": 72,
+       "text": "toda",
+       "start": 26.64,
+       "brand": false
+      },
+      {
+       "id": "w73",
+       "i": 73,
+       "text": "la",
+       "start": 26.92,
+       "brand": false
+      },
+      {
+       "id": "w74",
+       "i": 74,
+       "text": "familia.",
+       "start": 27.08,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Wandr / es para toda la familia.",
+   "end": 27.64
+  },
+  {
+   "id": "f10",
+   "start": 27.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Y en este stand,",
+     "words": [
+      {
+       "id": "w75",
+       "i": 75,
+       "text": "Y",
+       "start": 27.68,
+       "brand": false
+      },
+      {
+       "id": "w76",
+       "i": 76,
+       "text": "en",
+       "start": 27.88,
+       "brand": false
+      },
+      {
+       "id": "w77",
+       "i": 77,
+       "text": "este",
+       "start": 28.16,
+       "brand": false
+      },
+      {
+       "id": "w78",
+       "i": 78,
+       "text": "stand,",
+       "start": 28.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "puedes ganarte una.",
+     "words": [
+      {
+       "id": "w79",
+       "i": 79,
+       "text": "puedes",
+       "start": 28.72,
+       "brand": false
+      },
+      {
+       "id": "w80",
+       "i": 80,
+       "text": "ganarte",
+       "start": 29.16,
+       "brand": false
+      },
+      {
+       "id": "w81",
+       "i": 81,
+       "text": "una.",
+       "start": 29.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Y en este stand, / puedes ganarte una.",
+   "end": 29.96
+  },
+  {
+   "id": "f11",
+   "start": 30,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "¿Quieres participar?",
+     "words": [
+      {
+       "id": "w82",
+       "i": 82,
+       "text": "¿Quieres",
+       "start": 30,
+       "brand": false
+      },
+      {
+       "id": "w83",
+       "i": 83,
+       "text": "participar?",
+       "start": 30.28,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "¿Quieres participar?",
+   "end": 30.92
+  },
+  {
+   "id": "f12",
+   "start": 30.96,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Habla con uno de nuestros asesores y te explicamos cómo.",
+     "words": [
+      {
+       "id": "w84",
+       "i": 84,
+       "text": "Habla",
+       "start": 30.96,
+       "brand": false
+      },
+      {
+       "id": "w85",
+       "i": 85,
+       "text": "con",
+       "start": 31.28,
+       "brand": false
+      },
+      {
+       "id": "w86",
+       "i": 86,
+       "text": "uno",
+       "start": 31.44,
+       "brand": false
+      },
+      {
+       "id": "w87",
+       "i": 87,
+       "text": "de",
+       "start": 31.6,
+       "brand": false
+      },
+      {
+       "id": "w88",
+       "i": 88,
+       "text": "nuestros",
+       "start": 31.72,
+       "brand": false
+      },
+      {
+       "id": "w89",
+       "i": 89,
+       "text": "asesores",
+       "start": 32.04,
+       "brand": false
+      },
+      {
+       "id": "w90",
+       "i": 90,
+       "text": "y",
+       "start": 32.6,
+       "brand": false
+      },
+      {
+       "id": "w91",
+       "i": 91,
+       "text": "te",
+       "start": 32.8,
+       "brand": false
+      },
+      {
+       "id": "w92",
+       "i": 92,
+       "text": "explicamos",
+       "start": 32.96,
+       "brand": false
+      },
+      {
+       "id": "w93",
+       "i": 93,
+       "text": "cómo.",
+       "start": 33.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Habla con uno de nuestros asesores y te explicamos cómo.",
+   "end": 34.16
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "¿Si",
+   "start": 0,
+   "end": 0.48,
+   "brand": false
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "pudieras",
+   "start": 0.44,
+   "end": 0.88,
+   "brand": false
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "llevar",
+   "start": 0.84,
+   "end": 1.08,
+   "brand": false
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "la",
+   "start": 1.04,
+   "end": 1.2,
+   "brand": false
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "interactividad",
+   "start": 1.2,
+   "end": 1.76,
+   "brand": false
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "de",
+   "start": 1.76,
+   "end": 1.96,
+   "brand": false
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "OneScreen,",
+   "start": 1.96,
+   "end": 2.4,
+   "brand": true
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "a",
+   "start": 2.4,
+   "end": 2.52,
+   "brand": false
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "cualquier",
+   "start": 2.52,
+   "end": 2.84,
+   "brand": false
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "lugar?",
+   "start": 2.8,
+   "end": 3.32,
+   "brand": false
+  },
+  {
+   "i": 10,
+   "src": 10,
+   "text": "Te",
+   "start": 3.64,
+   "end": 3.84,
+   "brand": false
+  },
+  {
+   "i": 11,
+   "src": 11,
+   "text": "presentamos",
+   "start": 3.84,
+   "end": 4.64,
+   "brand": false
+  },
+  {
+   "i": 12,
+   "src": 12,
+   "text": "OneScreen",
+   "start": 4.6,
+   "end": 5.4,
+   "brand": true
+  },
+  {
+   "i": 13,
+   "src": 13,
+   "text": "Wandr",
+   "start": 5.36,
+   "end": 5.8,
+   "brand": false
+  },
+  {
+   "i": 14,
+   "src": 14,
+   "text": "El",
+   "start": 5.96,
+   "end": 6.24,
+   "brand": false
+  },
+  {
+   "i": 15,
+   "src": 15,
+   "text": "primer",
+   "start": 6.2,
+   "end": 6.68,
+   "brand": false
+  },
+  {
+   "i": 16,
+   "src": 16,
+   "text": "centro",
+   "start": 6.64,
+   "end": 7.12,
+   "brand": false
+  },
+  {
+   "i": 17,
+   "src": 17,
+   "text": "de",
+   "start": 7.08,
+   "end": 7.24,
+   "brand": false
+  },
+  {
+   "i": 18,
+   "src": 18,
+   "text": "entretenimiento",
+   "start": 7.2,
+   "end": 7.84,
+   "brand": false
+  },
+  {
+   "i": 19,
+   "src": 19,
+   "text": "portátil.",
+   "start": 7.84,
+   "end": 8.56,
+   "brand": false
+  },
+  {
+   "i": 20,
+   "src": 20,
+   "text": "Wandr",
+   "start": 8.68,
+   "end": 9.12,
+   "brand": false
+  },
+  {
+   "i": 21,
+   "src": 21,
+   "text": "tiene",
+   "start": 9.08,
+   "end": 9.36,
+   "brand": false
+  },
+  {
+   "i": 22,
+   "src": 22,
+   "text": "una",
+   "start": 9.32,
+   "end": 9.52,
+   "brand": false
+  },
+  {
+   "i": 23,
+   "src": 23,
+   "text": "base",
+   "start": 9.48,
+   "end": 9.8,
+   "brand": false
+  },
+  {
+   "i": 24,
+   "src": 24,
+   "text": "recargable",
+   "start": 9.76,
+   "end": 10.32,
+   "brand": false
+  },
+  {
+   "i": 25,
+   "src": 25,
+   "text": "que",
+   "start": 10.32,
+   "end": 10.52,
+   "brand": false
+  },
+  {
+   "i": 26,
+   "src": 26,
+   "text": "puede",
+   "start": 10.48,
+   "end": 10.72,
+   "brand": false
+  },
+  {
+   "i": 27,
+   "src": 27,
+   "text": "durar",
+   "start": 10.72,
+   "end": 11.04,
+   "brand": false
+  },
+  {
+   "i": 28,
+   "src": 28,
+   "text": "más",
+   "start": 11,
+   "end": 11.24,
+   "brand": false
+  },
+  {
+   "i": 29,
+   "src": 29,
+   "text": "de",
+   "start": 11.24,
+   "end": 11.44,
+   "brand": false
+  },
+  {
+   "i": 30,
+   "src": 30,
+   "text": "6",
+   "start": 11.44,
+   "end": 11.84,
+   "brand": false
+  },
+  {
+   "i": 31,
+   "src": 31,
+   "text": "horas.",
+   "start": 11.84,
+   "end": 12.28,
+   "brand": false
+  },
+  {
+   "i": 32,
+   "src": 32,
+   "text": "Completamente",
+   "start": 12.56,
+   "end": 13.12,
+   "brand": false
+  },
+  {
+   "i": 33,
+   "src": 33,
+   "text": "táctil,",
+   "start": 13.12,
+   "end": 13.6,
+   "brand": false
+  },
+  {
+   "i": 34,
+   "src": 34,
+   "text": "podrás",
+   "start": 13.68,
+   "end": 14.04,
+   "brand": false
+  },
+  {
+   "i": 35,
+   "src": 35,
+   "text": "acceder",
+   "start": 14,
+   "end": 14.44,
+   "brand": false
+  },
+  {
+   "i": 36,
+   "src": 36,
+   "text": "a",
+   "start": 14.4,
+   "end": 14.48,
+   "brand": false
+  },
+  {
+   "i": 37,
+   "src": 37,
+   "text": "más",
+   "start": 14.48,
+   "end": 14.68,
+   "brand": false
+  },
+  {
+   "i": 38,
+   "src": 38,
+   "text": "de",
+   "start": 14.64,
+   "end": 14.8,
+   "brand": false
+  },
+  {
+   "i": 39,
+   "src": 39,
+   "text": "4",
+   "start": 14.8,
+   "end": 15.16,
+   "brand": false
+  },
+  {
+   "i": 40,
+   "src": 40,
+   "text": "millones",
+   "start": 15.12,
+   "end": 15.48,
+   "brand": false
+  },
+  {
+   "i": 41,
+   "src": 41,
+   "text": "de",
+   "start": 15.44,
+   "end": 15.8,
+   "brand": false
+  },
+  {
+   "i": 42,
+   "src": 42,
+   "text": "apps.",
+   "start": 15.76,
+   "end": 16.04,
+   "brand": false
+  },
+  {
+   "i": 43,
+   "src": 43,
+   "text": "Puedes",
+   "start": 16.32,
+   "end": 16.56,
+   "brand": false
+  },
+  {
+   "i": 44,
+   "src": 44,
+   "text": "girar",
+   "start": 16.52,
+   "end": 16.8,
+   "brand": false
+  },
+  {
+   "i": 45,
+   "src": 45,
+   "text": "su",
+   "start": 16.76,
+   "end": 16.88,
+   "brand": false
+  },
+  {
+   "i": 46,
+   "src": 46,
+   "text": "pantalla",
+   "start": 16.84,
+   "end": 17.16,
+   "brand": false
+  },
+  {
+   "i": 47,
+   "src": 47,
+   "text": "a",
+   "start": 17.16,
+   "end": 17.32,
+   "brand": false
+  },
+  {
+   "i": 48,
+   "src": 48,
+   "text": "180°,",
+   "start": 17.32,
+   "end": 18.28,
+   "brand": false
+  },
+  {
+   "i": 49,
+   "src": 50,
+   "text": "Inclinarla",
+   "start": 18.48,
+   "end": 18.88,
+   "brand": false
+  },
+  {
+   "i": 50,
+   "src": 51,
+   "text": "hacia",
+   "start": 18.84,
+   "end": 19,
+   "brand": false
+  },
+  {
+   "i": 51,
+   "src": 52,
+   "text": "ti",
+   "start": 19,
+   "end": 19.28,
+   "brand": false
+  },
+  {
+   "i": 52,
+   "src": 53,
+   "text": "y",
+   "start": 19.24,
+   "end": 19.56,
+   "brand": false
+  },
+  {
+   "i": 53,
+   "src": 54,
+   "text": "ajustar",
+   "start": 19.52,
+   "end": 20.16,
+   "brand": false
+  },
+  {
+   "i": 54,
+   "src": 55,
+   "text": "su",
+   "start": 20.12,
+   "end": 20.28,
+   "brand": false
+  },
+  {
+   "i": 55,
+   "src": 56,
+   "text": "altura.",
+   "start": 20.28,
+   "end": 20.64,
+   "brand": false
+  },
+  {
+   "i": 56,
+   "src": 57,
+   "text": "Tiene",
+   "start": 20.88,
+   "end": 21.12,
+   "brand": false
+  },
+  {
+   "i": 57,
+   "src": 58,
+   "text": "una",
+   "start": 21.08,
+   "end": 21.48,
+   "brand": false
+  },
+  {
+   "i": 58,
+   "src": 59,
+   "text": "cámara",
+   "start": 21.44,
+   "end": 21.76,
+   "brand": false
+  },
+  {
+   "i": 59,
+   "src": 60,
+   "text": "4K",
+   "start": 21.72,
+   "end": 22.48,
+   "brand": false
+  },
+  {
+   "i": 60,
+   "src": 61,
+   "text": "integrada,",
+   "start": 22.48,
+   "end": 23.28,
+   "brand": false
+  },
+  {
+   "i": 61,
+   "src": 62,
+   "text": "para",
+   "start": 23.24,
+   "end": 23.52,
+   "brand": false
+  },
+  {
+   "i": 62,
+   "src": 63,
+   "text": "acercarte",
+   "start": 23.52,
+   "end": 24.04,
+   "brand": false
+  },
+  {
+   "i": 63,
+   "src": 64,
+   "text": "a",
+   "start": 24,
+   "end": 24.12,
+   "brand": false
+  },
+  {
+   "i": 64,
+   "src": 65,
+   "text": "los",
+   "start": 24.12,
+   "end": 24.24,
+   "brand": false
+  },
+  {
+   "i": 65,
+   "src": 66,
+   "text": "que",
+   "start": 24.24,
+   "end": 24.4,
+   "brand": false
+  },
+  {
+   "i": 66,
+   "src": 67,
+   "text": "más",
+   "start": 24.36,
+   "end": 24.64,
+   "brand": false
+  },
+  {
+   "i": 67,
+   "src": 68,
+   "text": "amas.",
+   "start": 24.64,
+   "end": 25.08,
+   "brand": false
+  },
+  {
+   "i": 68,
+   "src": 69,
+   "text": "OneScreen",
+   "start": 25.04,
+   "end": 25.8,
+   "brand": true
+  },
+  {
+   "i": 69,
+   "src": 71,
+   "text": "Wandr",
+   "start": 25.76,
+   "end": 26.12,
+   "brand": false
+  },
+  {
+   "i": 70,
+   "src": 72,
+   "text": "es",
+   "start": 26.08,
+   "end": 26.44,
+   "brand": false
+  },
+  {
+   "i": 71,
+   "src": 73,
+   "text": "para",
+   "start": 26.44,
+   "end": 26.68,
+   "brand": false
+  },
+  {
+   "i": 72,
+   "src": 74,
+   "text": "toda",
+   "start": 26.64,
+   "end": 26.92,
+   "brand": false
+  },
+  {
+   "i": 73,
+   "src": 75,
+   "text": "la",
+   "start": 26.92,
+   "end": 27.12,
+   "brand": false
+  },
+  {
+   "i": 74,
+   "src": 76,
+   "text": "familia.",
+   "start": 27.08,
+   "end": 27.56,
+   "brand": false
+  },
+  {
+   "i": 75,
+   "src": 77,
+   "text": "Y",
+   "start": 27.68,
+   "end": 27.88,
+   "brand": false
+  },
+  {
+   "i": 76,
+   "src": 78,
+   "text": "en",
+   "start": 27.88,
+   "end": 28.16,
+   "brand": false
+  },
+  {
+   "i": 77,
+   "src": 79,
+   "text": "este",
+   "start": 28.16,
+   "end": 28.4,
+   "brand": false
+  },
+  {
+   "i": 78,
+   "src": 80,
+   "text": "stand,",
+   "start": 28.4,
+   "end": 28.76,
+   "brand": false
+  },
+  {
+   "i": 79,
+   "src": 81,
+   "text": "puedes",
+   "start": 28.72,
+   "end": 29.2,
+   "brand": false
+  },
+  {
+   "i": 80,
+   "src": 82,
+   "text": "ganarte",
+   "start": 29.16,
+   "end": 29.6,
+   "brand": false
+  },
+  {
+   "i": 81,
+   "src": 83,
+   "text": "una.",
+   "start": 29.56,
+   "end": 29.8,
+   "brand": false
+  },
+  {
+   "i": 82,
+   "src": 84,
+   "text": "¿Quieres",
+   "start": 30,
+   "end": 30.28,
+   "brand": false
+  },
+  {
+   "i": 83,
+   "src": 85,
+   "text": "participar?",
+   "start": 30.28,
+   "end": 30.76,
+   "brand": false
+  },
+  {
+   "i": 84,
+   "src": 86,
+   "text": "Habla",
+   "start": 30.96,
+   "end": 31.32,
+   "brand": false
+  },
+  {
+   "i": 85,
+   "src": 87,
+   "text": "con",
+   "start": 31.28,
+   "end": 31.48,
+   "brand": false
+  },
+  {
+   "i": 86,
+   "src": 88,
+   "text": "uno",
+   "start": 31.44,
+   "end": 31.6,
+   "brand": false
+  },
+  {
+   "i": 87,
+   "src": 89,
+   "text": "de",
+   "start": 31.6,
+   "end": 31.76,
+   "brand": false
+  },
+  {
+   "i": 88,
+   "src": 90,
+   "text": "nuestros",
+   "start": 31.72,
+   "end": 32.08,
+   "brand": false
+  },
+  {
+   "i": 89,
+   "src": 91,
+   "text": "asesores",
+   "start": 32.04,
+   "end": 32.6,
+   "brand": false
+  },
+  {
+   "i": 90,
+   "src": 92,
+   "text": "y",
+   "start": 32.6,
+   "end": 32.84,
+   "brand": false
+  },
+  {
+   "i": 91,
+   "src": 93,
+   "text": "te",
+   "start": 32.8,
+   "end": 33,
+   "brand": false
+  },
+  {
+   "i": 92,
+   "src": 94,
+   "text": "explicamos",
+   "start": 32.96,
+   "end": 33.64,
+   "brand": false
+  },
+  {
+   "i": 93,
+   "src": 95,
+   "text": "cómo.",
+   "start": 33.64,
+   "end": 33.96,
+   "brand": false
+  }
+ ]
+}

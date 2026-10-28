@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>titan</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        /* Nevis es una sola tipografía Bold. Se declara cubriendo 100—900 a propósito: así
+           el navegador NUNCA sintetiza negrita encima de una que ya lo es, que engordaría
+           los trazos y rompería la coincidencia con el logotipo. */
+        @font-face {
+          font-family: "Nevis";
+          src: url("assets/fonts/Nevis.ttf") format("truetype");
+          font-weight: 100 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          font-synthesis: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .beat {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 7cqw;
+          opacity: 0;
+        }
+        .beat > .inner { display: block; max-width: 86cqw; text-align: center; margin-top: -1.4cqh; }
+        .ln { display: block; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #ffffff; }
+
+        /* La marca. Nevis, tracking medido contra el logotipo. Nunca en versalitas: el
+           wordmark es caja mixta y forzarlo a caja alta deja de ser la marca. */
+        .brand {
+          font-family: "Nevis", "Rubik", sans-serif;
+          font-weight: 400;
+          letter-spacing: -0.050em;
+          text-transform: none !important;
+        }
+
+        .s-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.24; letter-spacing: -0.008em; }
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.12; letter-spacing: -0.020em; }
+        .s-display  { font-size: 7.0cqw;  font-weight: 600; line-height: 1.06; letter-spacing: -0.028em; }
+        .s-mega     { font-size: 10.0cqw; font-weight: 800; line-height: 1.00; letter-spacing: -0.035em; }
+        .s-colossal { font-size: 12.5cqw; font-weight: 800; line-height: 0.98; letter-spacing: -0.040em; }
+
+        /* Peso regular dentro de un escalón grande. Solo toca font-weight y tracking, nunca
+           font-size: el escalón sigue mandando el tamaño. El tracking se afloja porque el
+           negativo de los escalones grandes está calculado para peso 800, y en regular
+           ese mismo valor junta demasiado las letras. */
+        .ln.w-reg { font-weight: 400; letter-spacing: -0.018em; }
+
+        .caps { text-transform: uppercase; }
+        .caps.s-sub      { letter-spacing: 0.16em; font-weight: 600; }
+        .caps.s-display  { letter-spacing: 0.000em; }
+        .caps.s-mega     { letter-spacing: -0.012em; }
+        .caps.s-colossal { letter-spacing: -0.018em; }
+
+        /* Nevis tiene la caja alta más corta que Rubik al mismo cuerpo: se compensa un 12%
+           para que "OneScreen" pese lo mismo que una línea Rubik del mismo escalón.
+           El valor va ABSOLUTO en cqw, no en em. Una regla .ln.s-mega.brand con font-size en
+           em tiene tres clases de especificidad y gana a .s-mega, así que en vez de multiplicar
+           el escalón lo sustituía por 1.12em del tamaño heredado — 18 px en un cuadro 4K. */
+        .ln.s-sub.brand      { font-size: 3.36cqw; }
+        .ln.s-phrase.brand   { font-size: 5.60cqw; }
+        .ln.s-display.brand  { font-size: 7.84cqw; }
+        .ln.s-mega.brand     { font-size: 11.20cqw; }
+        .ln.s-colossal.brand { font-size: 14.00cqw; }
+        /* Marca EN LÍNEA dentro de una línea de otra tipografía: aquí el padre sí lleva el
+           escalón en cqw, así que el em multiplica y es correcto. */
+        .w.brand { font-size: 1.12em; }
+
+        .ln + .ln { margin-top: 0.5cqh; }
+        .ln.s-sub + .ln.s-mega,
+        .ln.s-sub + .ln.s-colossal,
+        .ln.s-sub + .ln.s-display { margin-top: 1.1cqh; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="titan"
+        data-width="3840"
+        data-height="2160"
+        data-duration="34.52"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat" id="f01">
+          <span class="inner">
+            <span class="ln s-colossal brand"><span class="w" id="f01-w0_0">OneScreen</span></span>
+            <span class="ln s-mega w-reg accent"><span class="w" id="f01-w1_0">Titan</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f02">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f02-w0_0">Com</span> <span class="w" id="f02-w0_1">a</span> <span class="w" id="f02-w0_2">imagem</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f02-w1_0">mais</span> <span class="w" id="f02-w1_1">potente.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f03">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f03-w0_0">A</span> <span class="w" id="f03-w0_1">primeira</span> <span class="w" id="f03-w0_2">tela</span> <span class="w" id="f03-w0_3">interativa</span> <span class="w" id="f03-w0_4">com</span> <span class="w" id="f03-w0_5">tecnologia</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f03-w1_0">Mini-LED.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f04">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f04-w0_0">Isso</span> <span class="w" id="f04-w0_1">significa</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f04-w1_0">1.200</span> <span class="w" id="f04-w1_1">nits</span></span>
+            <span class="ln s-sub"><span class="w" id="f04-w2_0">de</span> <span class="w" id="f04-w2_1">brilho.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f05">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f05-w0_0">Na</span> <span class="w" id="f05-w0_1">prática,</span> <span class="w" id="f05-w0_2">você</span> <span class="w" id="f05-w0_3">nunca</span> <span class="w" id="f05-w0_4">precisa</span> <span class="w" id="f05-w0_5">escurecer</span> <span class="w" id="f05-w0_6">a</span> <span class="w" id="f05-w0_7">sala</span> <span class="w" id="f05-w0_8">para</span> <span class="w" id="f05-w0_9">enxergar</span> <span class="w" id="f05-w0_10">bem.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f06">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f06-w0_0">Mais</span> <span class="w" id="f06-w0_1">de</span></span>
+            <span class="ln s-colossal caps"><span class="w" id="f06-w1_0">1,07</span> <span class="w" id="f06-w1_1">bilhão</span></span>
+            <span class="ln s-sub"><span class="w" id="f06-w2_0">de</span> <span class="w" id="f06-w2_1">cores</span> <span class="w" id="f06-w2_2">no</span> <span class="w" id="f06-w2_3">display.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f07">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f07-w0_0">Esta</span> <span class="w" id="f07-w0_1">é</span> <span class="w" id="f07-w0_2">a</span> <span class="w" id="f07-w0_3">nossa</span> <span class="w" id="f07-w0_4">tela</span> <span class="w" id="f07-w0_5">interativa</span> <span class="w" id="f07-w0_6">mais</span> <span class="w" id="f07-w0_7">potente</span></span>
+            <span class="ln s-sub accent"><span class="w" id="f07-w1_0">(até</span> <span class="w" id="f07-w1_1">agora)</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f08">
+          <span class="inner">
+            <span class="ln s-sub caps"><span class="w" id="f08-w0_0">Disponível</span> <span class="w" id="f08-w0_1">de</span></span>
+            <span class="ln s-colossal accent"><span class="w" id="f08-w1_0">65”</span> <span class="w" id="f08-w1_1">a</span> <span class="w" id="f08-w1_2">86”</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f09">
+          <span class="inner">
+            <span class="ln s-mega brand"><span class="w" id="f09-w0_0">OneScreen</span></span>
+            <span class="ln s-display w-reg"><span class="w" id="f09-w1_0">Titan.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f10">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f10-w0_0">O</span> <span class="w" id="f10-w0_1">Titan</span> <span class="w" id="f10-w0_2">das</span> <span class="w" id="f10-w0_3">telas</span> <span class="w" id="f10-w0_4">interativas.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f11">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f11-w0_0">Quer</span> <span class="w" id="f11-w0_1">conhecer</span> <span class="w" id="f11-w0_2">estas</span> <span class="w" id="f11-w0_3">telas?</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f11-w1_0">Muito</span> <span class="w" id="f11-w1_1">fácil.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f12">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f12-w0_0">É</span> <span class="w" id="f12-w0_1">só</span> <span class="w" id="f12-w0_2">tocar</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f12-w1_0">nesta</span> <span class="w" id="f12-w1_1">tela.</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 62 }, { y: 0, duration: 0.17, ease: "power4.out", immediateRender: false }, t);
+        }
+
+        // f01 — OneScreen / Titan
+        tl.set("#f01", { opacity: 1 }, -0.02);
+        word(tl, "#f01-w0_0", 0);
+        word(tl, "#f01-w1_0", 0.88);
+        tl.to("#f01", { y: -170, duration: 0.24, ease: "power4.in" }, 1.14);
+        tl.to("#f01", { opacity: 0, duration: 0.12, ease: "none" }, 1.26);
+
+        // f02 — Com a imagem / mais potente.
+        tl.set("#f02", { opacity: 1 }, 1.42);
+        word(tl, "#f02-w0_0", 1.44);
+        word(tl, "#f02-w0_1", 1.64);
+        word(tl, "#f02-w0_2", 1.84);
+        word(tl, "#f02-w1_0", 2.16);
+        word(tl, "#f02-w1_1", 2.48);
+        tl.to("#f02", { y: -170, duration: 0.24, ease: "power4.in" }, 3.02);
+        tl.to("#f02", { opacity: 0, duration: 0.12, ease: "none" }, 3.14);
+
+        // f03 — A primeira tela interativa com tecnologia / Mini-LED.
+        tl.set("#f03", { opacity: 1 }, 3.3);
+        word(tl, "#f03-w0_0", 3.32);
+        word(tl, "#f03-w0_1", 3.72);
+        word(tl, "#f03-w0_2", 4.08);
+        word(tl, "#f03-w0_3", 4.48);
+        word(tl, "#f03-w0_4", 4.84);
+        word(tl, "#f03-w0_5", 5.24);
+        word(tl, "#f03-w1_0", 5.72);
+        tl.to("#f03", { y: -170, duration: 0.24, ease: "power4.in" }, 6.42);
+        tl.to("#f03", { opacity: 0, duration: 0.12, ease: "none" }, 6.54);
+
+        // f04 — Isso significa / 1.200 nits / de brilho.
+        tl.set("#f04", { opacity: 1 }, 6.7);
+        word(tl, "#f04-w0_0", 6.72);
+        word(tl, "#f04-w0_1", 6.92);
+        word(tl, "#f04-w1_0", 7.4);
+        word(tl, "#f04-w1_1", 8.12);
+        word(tl, "#f04-w2_0", 8.76);
+        word(tl, "#f04-w2_1", 8.88);
+        tl.to("#f04", { y: -170, duration: 0.24, ease: "power4.in" }, 9.1);
+        tl.to("#f04", { opacity: 0, duration: 0.12, ease: "none" }, 9.22);
+
+        // f05 — Na prática, você nunca precisa escurecer a sala para enxergar bem.
+        tl.set("#f05", { opacity: 1 }, 9.38);
+        word(tl, "#f05-w0_0", 9.4);
+        word(tl, "#f05-w0_1", 9.68);
+        word(tl, "#f05-w0_2", 9.96);
+        word(tl, "#f05-w0_3", 10.24);
+        word(tl, "#f05-w0_4", 10.52);
+        word(tl, "#f05-w0_5", 10.8);
+        word(tl, "#f05-w0_6", 11.04);
+        word(tl, "#f05-w0_7", 11.32);
+        word(tl, "#f05-w0_8", 11.6);
+        word(tl, "#f05-w0_9", 11.88);
+        word(tl, "#f05-w0_10", 12.16);
+        tl.to("#f05", { y: -170, duration: 0.24, ease: "power4.in" }, 12.38);
+        tl.to("#f05", { opacity: 0, duration: 0.12, ease: "none" }, 12.5);
+
+        // f06 — Mais de / 1,07 bilhão / de cores no display.
+        tl.set("#f06", { opacity: 1 }, 12.66);
+        word(tl, "#f06-w0_0", 12.68);
+        word(tl, "#f06-w0_1", 12.8);
+        word(tl, "#f06-w1_0", 12.96);
+        word(tl, "#f06-w1_1", 14);
+        word(tl, "#f06-w2_0", 14.56);
+        word(tl, "#f06-w2_1", 14.8);
+        word(tl, "#f06-w2_2", 15.08);
+        word(tl, "#f06-w2_3", 15.32);
+        tl.to("#f06", { y: -170, duration: 0.24, ease: "power4.in" }, 15.78);
+        tl.to("#f06", { opacity: 0, duration: 0.12, ease: "none" }, 15.9);
+
+        // f07 — Esta é a nossa tela interativa mais potente / (até agora)
+        tl.set("#f07", { opacity: 1 }, 16.06);
+        word(tl, "#f07-w0_0", 16.08);
+        word(tl, "#f07-w0_1", 16.36);
+        word(tl, "#f07-w0_2", 16.6);
+        word(tl, "#f07-w0_3", 16.88);
+        word(tl, "#f07-w0_4", 17.12);
+        word(tl, "#f07-w0_5", 17.4);
+        word(tl, "#f07-w0_6", 17.64);
+        word(tl, "#f07-w0_7", 17.92);
+        word(tl, "#f07-w1_0", 18.52);
+        word(tl, "#f07-w1_1", 18.88);
+        tl.to("#f07", { y: -170, duration: 0.24, ease: "power4.in" }, 19.1);
+        tl.to("#f07", { opacity: 0, duration: 0.12, ease: "none" }, 19.22);
+
+        // f08 — Disponível de / 65” a 86”
+        tl.set("#f08", { opacity: 1 }, 19.38);
+        word(tl, "#f08-w0_0", 19.4);
+        word(tl, "#f08-w0_1", 19.92);
+        word(tl, "#f08-w1_0", 20.2);
+        word(tl, "#f08-w1_1", 20.88);
+        word(tl, "#f08-w1_2", 21.56);
+        tl.to("#f08", { y: -170, duration: 0.24, ease: "power4.in" }, 23.14);
+        tl.to("#f08", { opacity: 0, duration: 0.12, ease: "none" }, 23.26);
+
+        // f09 — OneScreen / Titan.
+        tl.set("#f09", { opacity: 1 }, 23.42);
+        word(tl, "#f09-w0_0", 23.44);
+        word(tl, "#f09-w1_0", 23.92);
+        tl.to("#f09", { y: -170, duration: 0.24, ease: "power4.in" }, 24.22);
+        tl.to("#f09", { opacity: 0, duration: 0.12, ease: "none" }, 24.34);
+
+        // f10 — O Titan das telas interativas.
+        tl.set("#f10", { opacity: 1 }, 24.5);
+        word(tl, "#f10-w0_0", 24.52);
+        word(tl, "#f10-w0_1", 24.88);
+        word(tl, "#f10-w0_2", 25.24);
+        word(tl, "#f10-w0_3", 25.6);
+        word(tl, "#f10-w0_4", 25.96);
+        tl.to("#f10", { y: -170, duration: 0.24, ease: "power4.in" }, 26.62);
+        tl.to("#f10", { opacity: 0, duration: 0.12, ease: "none" }, 26.74);
+
+        // f11 — Quer conhecer estas telas? / Muito fácil.
+        tl.set("#f11", { opacity: 1 }, 26.9);
+        word(tl, "#f11-w0_0", 26.92);
+        word(tl, "#f11-w0_1", 27.24);
+        word(tl, "#f11-w0_2", 27.6);
+        word(tl, "#f11-w0_3", 27.92);
+        word(tl, "#f11-w1_0", 28.48);
+        word(tl, "#f11-w1_1", 28.64);
+        tl.to("#f11", { y: -170, duration: 0.24, ease: "power4.in" }, 28.62);
+        tl.to("#f11", { opacity: 0, duration: 0.12, ease: "none" }, 28.74);
+
+        // f12 — É só tocar / nesta tela.
+        tl.set("#f12", { opacity: 1 }, 28.9);
+        word(tl, "#f12-w0_0", 28.92);
+        word(tl, "#f12-w0_1", 29.52);
+        word(tl, "#f12-w0_2", 30.08);
+        word(tl, "#f12-w1_0", 30.32);
+        word(tl, "#f12-w1_1", 30.52);
+        tl.to("#f12", { opacity: 0, duration: 0.6, ease: "power2.in" }, 32.2);
+
+        window.__timelines["titan"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

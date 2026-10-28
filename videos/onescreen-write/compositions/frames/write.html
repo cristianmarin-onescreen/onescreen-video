@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>write</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        /* Nevis es una sola tipografía Bold. Se declara cubriendo 100—900 a propósito: así
+           el navegador NUNCA sintetiza negrita encima de una que ya lo es, que engordaría
+           los trazos y rompería la coincidencia con el logotipo. */
+        @font-face {
+          font-family: "Nevis";
+          src: url("assets/fonts/Nevis.ttf") format("truetype");
+          font-weight: 100 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          font-synthesis: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .beat {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 7cqw;
+          opacity: 0;
+        }
+        .beat > .inner { display: block; max-width: 86cqw; text-align: center; margin-top: -1.4cqh; }
+        .ln { display: block; }
+        /* Icono de producto. Los cuatro logotipos de software traen su propio fondo morado
+           con esquinas redondeadas, asi que el MISMO archivo sirve para la variante de tinta
+           negra y para la blanca: no dependen del color del texto. */
+        .ic { display: block; width: 13cqw; margin: 0 auto 1.6cqh; opacity: 0; }
+        .ic img { display: block; width: 100%; height: auto; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #ffffff; }
+
+        /* La marca. Nevis, tracking medido contra el logotipo. Nunca en versalitas: el
+           wordmark es caja mixta y forzarlo a caja alta deja de ser la marca. */
+        .brand {
+          font-family: "Nevis", "Rubik", sans-serif;
+          font-weight: 400;
+          letter-spacing: -0.050em;
+          text-transform: none !important;
+        }
+
+        /* Escalones. El rango va de 3.4 a 9.6cqw — un factor de 2.8x entre el cuerpo mas
+           pequeno y el mas grande. Antes era 3.0 a 12.5 (4.2x) y el salto resultaba brusco:
+           la linea pequena quedaba en letra menuda y la grande se comia el cuadro. Se corrige
+           por los dos extremos a la vez: sube el piso y baja el techo, y la jerarquia se
+           mantiene con peso y color, que no dependen del tamano. */
+        .s-sub      { font-size: 3.4cqw; font-weight: 500; line-height: 1.26; letter-spacing: -0.010em; }
+        .s-phrase   { font-size: 5.2cqw; font-weight: 500; line-height: 1.14; letter-spacing: -0.018em; }
+        .s-display  { font-size: 6.4cqw; font-weight: 600; line-height: 1.08; letter-spacing: -0.024em; }
+        .s-mega     { font-size: 8.2cqw; font-weight: 800; line-height: 1.02; letter-spacing: -0.028em; }
+        .s-colossal { font-size: 9.6cqw; font-weight: 800; line-height: 1.00; letter-spacing: -0.030em; }
+
+        /* Peso regular dentro de un escalón grande. Solo toca font-weight y tracking, nunca
+           font-size: el escalón sigue mandando el tamaño. El tracking se afloja porque el
+           negativo de los escalones grandes está calculado para peso 800, y en regular
+           ese mismo valor junta demasiado las letras. */
+        .ln.w-reg { font-weight: 400; letter-spacing: -0.018em; }
+
+        .caps { text-transform: uppercase; }
+        .caps.s-sub      { letter-spacing: 0.16em; font-weight: 600; }
+        .caps.s-display  { letter-spacing: 0.000em; }
+        .caps.s-mega     { letter-spacing: -0.012em; }
+        .caps.s-colossal { letter-spacing: -0.018em; }
+
+        /* Nevis tiene la caja alta más corta que Rubik al mismo cuerpo: se compensa un 12%
+           para que "OneScreen" pese lo mismo que una línea Rubik del mismo escalón.
+           El valor va ABSOLUTO en cqw, no en em. Una regla .ln.s-mega.brand con font-size en
+           em tiene tres clases de especificidad y gana a .s-mega, así que en vez de multiplicar
+           el escalón lo sustituía por 1.12em del tamaño heredado — 18 px en un cuadro 4K. */
+        .ln.s-sub.brand      { font-size: 3.81cqw; }
+        .ln.s-phrase.brand   { font-size: 5.82cqw; }
+        .ln.s-display.brand  { font-size: 7.17cqw; }
+        .ln.s-mega.brand     { font-size: 9.18cqw; }
+        .ln.s-colossal.brand { font-size: 10.75cqw; }
+        /* Marca EN LÍNEA dentro de una línea de otra tipografía: aquí el padre sí lleva el
+           escalón en cqw, así que el em multiplica y es correcto. */
+        .w.brand { font-size: 1.12em; }
+
+        .ln + .ln { margin-top: 0.5cqh; }
+        .ln.s-sub + .ln.s-mega,
+        .ln.s-sub + .ln.s-colossal,
+        .ln.s-sub + .ln.s-display { margin-top: 1.1cqh; }
+
+        /* ————————————— Modo subtitulo (tercio inferior) —————————————
+           La seccion de productos se monta sobre pantallazos del software. Ahi el texto no
+           puede seguir siendo lettering a pantalla completa: taparia justo lo que hay que
+           mirar. Pasa a comportarse como subtitulo — bloque anclado abajo, medida mas corta
+           y un rango de cuerpos casi plano (2.9 a 3.9cqw, apenas 1.3x). El enfasis lo llevan
+           el peso y el color; el tamano deja de moverse. */
+        .beat.lower { place-items: end center; padding: 0 12cqw 13cqh; }
+        .beat.lower > .inner { max-width: 80cqw; margin-top: 0; }
+
+        .lower .s-sub      { font-size: 2.9cqw; font-weight: 500; line-height: 1.22; letter-spacing: -0.004em; }
+        .lower .s-phrase   { font-size: 3.3cqw; font-weight: 600; line-height: 1.20; letter-spacing: -0.006em; }
+        .lower .s-display  { font-size: 3.3cqw; font-weight: 600; line-height: 1.20; letter-spacing: -0.006em; }
+        .lower .s-mega     { font-size: 3.9cqw; font-weight: 700; line-height: 1.18; letter-spacing: -0.010em; }
+        .lower .s-colossal { font-size: 3.9cqw; font-weight: 800; line-height: 1.18; letter-spacing: -0.010em; }
+
+        /* Una linea larga de subtitulo en versalitas se vuelve un grito y cuesta leerla.
+           Aqui las versalitas solo sobreviven en el remate corto ("28 IDIOMAS", "CHATBOT"). */
+        .lower .caps            { text-transform: none; letter-spacing: -0.008em; font-weight: 700; }
+        .lower .caps.s-colossal { text-transform: uppercase; letter-spacing: 0.010em; font-weight: 800; }
+
+        .lower .ln.w-reg { font-weight: 400; letter-spacing: -0.004em; }
+        .lower .ln + .ln,
+        .lower .ln.s-sub + .ln.s-mega,
+        .lower .ln.s-sub + .ln.s-colossal,
+        .lower .ln.s-sub + .ln.s-display { margin-top: 0.7cqh; }
+
+        .lower .ln.s-sub.brand      { font-size: 3.25cqw; }
+        .lower .ln.s-phrase.brand   { font-size: 3.70cqw; }
+        .lower .ln.s-display.brand  { font-size: 3.70cqw; }
+        .lower .ln.s-mega.brand     { font-size: 4.37cqw; }
+        .lower .ln.s-colossal.brand { font-size: 4.37cqw; }
+
+        /* Lockup de producto sobre pantallazo: icono y nombre en UNA fila, como una chapa
+           identificadora. Apilarlos como en pantalla completa haria el bloque demasiado alto
+           para caber en el tercio inferior sin subirse encima de la interfaz. */
+        .lock { display: flex; align-items: center; justify-content: center; gap: 1.5cqw; }
+        .lower .ic { width: 5.6cqw; margin: 0; flex: none; }
+        .lower .lock .ln { font-size: 4.6cqw; margin-top: 0; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="write"
+        data-width="3840"
+        data-height="2160"
+        data-duration="22.4"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat" id="f01">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f01-w0_0">As</span> <span class="w" id="f01-w0_1">instituições</span> <span class="w" id="f01-w0_2">evoluíram,</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f01-w1_0">mas</span> <span class="w" id="f01-w1_1">e</span> <span class="w" id="f01-w1_2">a</span> <span class="w" id="f01-w1_3">lousa?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f02">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f02-w0_0">Toda</span> <span class="w" id="f02-w0_1">tela</span> <span class="w brand" id="f02-w0_2">OneScreen</span> <span class="w" id="f02-w0_3">tem</span> <span class="w" id="f02-w0_4">uma</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f02-w1_0">lousa</span> <span class="w" id="f02-w1_1">interativa</span> <span class="w" id="f02-w1_2">infinita.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f03">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f03-w0_0">Ferramentas</span> <span class="w" id="f03-w0_1">como</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f03-w1_0">traços</span> <span class="w" id="f03-w1_1">diferentes.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f04">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f04-w0_0">Uma</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f04-w1_0">tabela</span> <span class="w" id="f04-w1_1">periódica</span></span>
+            <span class="ln s-sub"><span class="w" id="f04-w2_0">integrada.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f05">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f05-w0_0">Réguas</span> <span class="w" id="f05-w0_1">e</span> <span class="w" id="f05-w0_2">compassos.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f06">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f06-w0_0">Simuladores</span> <span class="w" id="f06-w0_1">interativos</span> <span class="w" id="f06-w0_2">da</span></span>
+            <span class="ln s-mega"><span class="w" id="f06-w1_0">PhET.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f07">
+          <span class="inner">
+            <span class="ln s-mega caps accent"><span class="w" id="f07-w0_0">Correção</span> <span class="w" id="f07-w0_1">de</span> <span class="w" id="f07-w0_2">escrita.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f08">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f08-w0_0">Esta</span> <span class="w" id="f08-w0_1">é</span> <span class="w" id="f08-w0_2">uma</span> <span class="w" id="f08-w0_3">lousa</span> <span class="w" id="f08-w0_4">que</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f08-w1_0">realmente</span> <span class="w" id="f08-w1_1">evolui.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f09">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f09-w0_0">E</span> <span class="w" id="f09-w0_1">este</span> <span class="w" id="f09-w0_2">é</span> <span class="w" id="f09-w0_3">o</span> <span class="w" id="f09-w0_4">seu</span> <span class="w" id="f09-w0_5">momento</span> <span class="w" id="f09-w0_6">de</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f09-w1_0">experimentar.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f10">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f10-w0_0">É</span> <span class="w" id="f10-w0_1">só</span> <span class="w" id="f10-w0_2">tocar</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f10-w1_0">nesta</span> <span class="w" id="f10-w1_1">tela.</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 62 }, { y: 0, duration: 0.17, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Entrada de subtitulo: el mismo sincronismo palabra a palabra, pero con un tercio del
+        // recorrido y una curva menos violenta. Un subtitulo que salta 62 px sobre un
+        // pantallazo compite con la interfaz que hay detras en vez de acompanarla.
+        function wordSoft(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 20 }, { y: 0, duration: 0.24, ease: "power3.out", immediateRender: false }, t);
+        }
+
+        // f01 — As instituições evoluíram, / mas e a lousa?
+        tl.set("#f01", { opacity: 1 }, -0.02);
+        word(tl, "#f01-w0_0", 0);
+        word(tl, "#f01-w0_1", 0.64);
+        word(tl, "#f01-w0_2", 1.32);
+        word(tl, "#f01-w1_0", 2.16);
+        word(tl, "#f01-w1_1", 2.48);
+        word(tl, "#f01-w1_2", 2.84);
+        word(tl, "#f01-w1_3", 3.16);
+        tl.to("#f01", { y: -170, duration: 0.24, ease: "power4.in" }, 3.38);
+        tl.to("#f01", { opacity: 0, duration: 0.12, ease: "none" }, 3.5);
+
+        // f02 — Toda tela OneScreen tem uma / lousa interativa infinita.
+        tl.set("#f02", { opacity: 1 }, 3.66);
+        word(tl, "#f02-w0_0", 3.68);
+        word(tl, "#f02-w0_1", 4.12);
+        word(tl, "#f02-w0_2", 4.52);
+        word(tl, "#f02-w0_3", 4.96);
+        word(tl, "#f02-w0_4", 5.36);
+        word(tl, "#f02-w1_0", 5.56);
+        word(tl, "#f02-w1_1", 6);
+        word(tl, "#f02-w1_2", 6.44);
+        tl.to("#f02", { y: -170, duration: 0.24, ease: "power4.in" }, 7.46);
+        tl.to("#f02", { opacity: 0, duration: 0.12, ease: "none" }, 7.58);
+
+        // f03 — Ferramentas como / traços diferentes.
+        tl.set("#f03", { opacity: 1 }, 7.74);
+        wordSoft(tl, "#f03-w0_0", 7.76);
+        wordSoft(tl, "#f03-w0_1", 8.32);
+        wordSoft(tl, "#f03-w1_0", 8.6);
+        wordSoft(tl, "#f03-w1_1", 9.4);
+        tl.to("#f03", { y: -26, duration: 0.20, ease: "power2.in" }, 10.02);
+        tl.to("#f03", { opacity: 0, duration: 0.14, ease: "none" }, 10.08);
+
+        // f04 — Uma / tabela periódica / integrada.
+        tl.set("#f04", { opacity: 1 }, 10.26);
+        wordSoft(tl, "#f04-w0_0", 10.28);
+        wordSoft(tl, "#f04-w1_0", 10.48);
+        wordSoft(tl, "#f04-w1_1", 10.76);
+        wordSoft(tl, "#f04-w2_0", 11.2);
+        tl.to("#f04", { y: -26, duration: 0.20, ease: "power2.in" }, 11.7);
+        tl.to("#f04", { opacity: 0, duration: 0.14, ease: "none" }, 11.76);
+
+        // f05 — Réguas e compassos.
+        tl.set("#f05", { opacity: 1 }, 11.94);
+        wordSoft(tl, "#f05-w0_0", 11.96);
+        wordSoft(tl, "#f05-w0_1", 12.24);
+        wordSoft(tl, "#f05-w0_2", 12.48);
+        tl.to("#f05", { y: -26, duration: 0.20, ease: "power2.in" }, 13.02);
+        tl.to("#f05", { opacity: 0, duration: 0.14, ease: "none" }, 13.08);
+
+        // f06 — Simuladores interativos da / PhET.
+        tl.set("#f06", { opacity: 1 }, 13.26);
+        wordSoft(tl, "#f06-w0_0", 13.28);
+        wordSoft(tl, "#f06-w0_1", 13.84);
+        wordSoft(tl, "#f06-w0_2", 14.4);
+        wordSoft(tl, "#f06-w1_0", 14.56);
+        tl.to("#f06", { y: -26, duration: 0.20, ease: "power2.in" }, 14.9);
+        tl.to("#f06", { opacity: 0, duration: 0.14, ease: "none" }, 14.96);
+
+        // f07 — Correção de escrita.
+        tl.set("#f07", { opacity: 1 }, 15.14);
+        wordSoft(tl, "#f07-w0_0", 15.16);
+        wordSoft(tl, "#f07-w0_1", 15.44);
+        wordSoft(tl, "#f07-w0_2", 15.72);
+        tl.to("#f07", { y: -26, duration: 0.20, ease: "power2.in" }, 16.26);
+        tl.to("#f07", { opacity: 0, duration: 0.14, ease: "none" }, 16.32);
+
+        // f08 — Esta é uma lousa que / realmente evolui.
+        tl.set("#f08", { opacity: 1 }, 16.5);
+        wordSoft(tl, "#f08-w0_0", 16.52);
+        wordSoft(tl, "#f08-w0_1", 16.76);
+        wordSoft(tl, "#f08-w0_2", 17.04);
+        wordSoft(tl, "#f08-w0_3", 17.28);
+        wordSoft(tl, "#f08-w0_4", 17.52);
+        wordSoft(tl, "#f08-w1_0", 17.68);
+        wordSoft(tl, "#f08-w1_1", 18.16);
+        tl.to("#f08", { y: -26, duration: 0.20, ease: "power2.in" }, 18.74);
+        tl.to("#f08", { opacity: 0, duration: 0.14, ease: "none" }, 18.8);
+
+        // f09 — E este é o seu momento de / experimentar.
+        tl.set("#f09", { opacity: 1 }, 18.98);
+        word(tl, "#f09-w0_0", 19);
+        word(tl, "#f09-w0_1", 19.16);
+        word(tl, "#f09-w0_2", 19.36);
+        word(tl, "#f09-w0_3", 19.52);
+        word(tl, "#f09-w0_4", 19.68);
+        word(tl, "#f09-w0_5", 19.88);
+        word(tl, "#f09-w0_6", 20.04);
+        word(tl, "#f09-w1_0", 20.2);
+        tl.to("#f09", { y: -170, duration: 0.24, ease: "power4.in" }, 20.54);
+        tl.to("#f09", { opacity: 0, duration: 0.12, ease: "none" }, 20.66);
+
+        // f10 — É só tocar / nesta tela.
+        tl.set("#f10", { opacity: 1 }, 20.82);
+        word(tl, "#f10-w0_0", 20.84);
+        word(tl, "#f10-w0_1", 21.08);
+        word(tl, "#f10-w0_2", 21.32);
+        word(tl, "#f10-w1_0", 21.6);
+        word(tl, "#f10-w1_1", 21.76);
+        // sin fundido de salida: la cola (0.64s) no da para uno.
+
+        window.__timelines["write"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

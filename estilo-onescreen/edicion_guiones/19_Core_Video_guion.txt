@@ -1,0 +1,45 @@
+   0.00-   0.88 (0.88s) | A:C0056.MP4 100% | G:Core0003.png | G:Graphics0008.png 80%             | 
+   0.88-   1.96 (1.08s) | A:C0056.MP4 100% | G:Core0002.png | G:Graphics0008.png 80%             | 
+   1.96-   2.04 (0.08s) | A:C0056.MP4 153% | G:Core0002.png | G:Graphics0008.png 80%             | 
+   2.04-   2.46 (0.42s) | A:C0056.MP4 153% | G:Core0001.png | G:Graphics0008.png 80%             | 
+   2.46-   3.42 (0.96s) | A:C0056.MP4 100% | G:Core0001.png | G:Graphics0008.png 80%             | 
+   3.42-   3.50 (0.08s) | A:C0056.MP4 153% | G:Graphics0008.png 80%                              | 
+   3.50-   4.34 (0.84s) | A:C0056.MP4 153% | G:Core0005.png | G:Graphics0008.png 80%             | 
+   4.34-   6.55 (2.21s) | A:C0056.MP4 100% | B:C0090.MP4 | G:Core0004.png | G:Graphics0008.png 8 | 
+   6.55-   8.68 (2.13s) | A:C0056.MP4 153% | G:Core0006.png 100% | G:Graphics0008.png 80%        | 
+   8.68-  10.05 (1.37s) | A:C0056.MP4 100% | B:C0092.MP4 | G:Graphics0008.png 80%                | D3" Desde el ( B D3" primer toque ( B D3" se siente ( B
+  10.05-  10.93 (0.88s) | A:C0056.MP4 153% | B:C0092.MP4 | G:Graphics0008.png 80%                | D3" se siente ( B D3" como un ( B D3" celular. ( B
+  10.93-  11.85 (0.92s) | A:C0056.MP4 100% | G:Core0009.png | G:Graphics0008.png 80%             | 
+  11.85-  12.47 (0.62s) | A:C0056.MP4 153% | G:Core0008.png | G:Graphics0008.png 80%             | 
+  12.47-  13.18 (0.71s) | A:C0056.MP4 153% | G:Core0007.png | G:Graphics0008.png 80%             | 
+  13.18-  13.47 (0.29s) | A:C0056.MP4 100% | G:Graphics0008.png 80%                              | 
+  13.47-  14.18 (0.71s) | A:C0056.MP4 100% | B:C0089.MP4 | G:Core0010.png | G:Graphics0008.png 8 | 
+  14.18-  14.43 (0.25s) | A:C0056.MP4 153% | B:C0089.MP4 | G:Core0010.png | G:Graphics0008.png 8 | 
+  14.43-  15.27 (0.84s) | A:C0056.MP4 153% | B:C0089.MP4 | B:C0089.MP4 | G:Core0010.png | G:Grap | 
+  15.27-  15.85 (0.58s) | A:C0056.MP4 100% | G:Core0011.png | G:Graphics0008.png 80%             | 
+  15.85-  16.64 (0.79s) | A:C0056.MP4 153% | B:C0015.MP4 | G:Core0011.png | G:Graphics0008.png 8 | 
+  16.64-  17.31 (0.67s) | A:C0056.MP4 100% | B:C0015.MP4 | G:Core0011.png | G:Graphics0008.png 8 | 
+  17.31-  18.94 (1.63s) | A:C0056.MP4 153% | G:Graphics0008.png 80%                              | D3" Y lo mejor, ( B D3" sin perder ( B D3" tiempo. ( B
+  18.94-  20.19 (1.25s) | A:C0056.MP4 100% | G:Graphics0008.png 80%                              | D3" Impulsada ( B D3" por una ( B
+  20.19-  21.40 (1.21s) | A:C0056.MP4 153% | B:3-d-ai-processor-2023-11-27-05-17- | G:Graphics00 | D3" NPU dedicada ( B
+  21.40-  22.56 (1.16s) | A:C0056.MP4 100% | G:Graphics0008.png 80%                              | D3" Capaz de ( B D3" ejecutar ( B
+  22.56-  23.48 (0.92s) | A:C0056.MP4 153% | G:Core0012.png 100% | G:Graphics0008.png 80%        | 
+  23.48-  23.94 (0.46s) | A:C0056.MP4 100% | G:Core0012.png 100% | G:Graphics0008.png 80%        | 
+  23.94-  24.52 (0.58s) | A:C0056.MP4 100% | G:Core0012.png | G:Graphics0008.png 80%             | 
+  24.52-  26.03 (1.51s) | A:C0056.MP4 153% | B:C0092.MP4 | G:Graphics0008.png 80%                | D3" Para ( B D3" experiencias ( B D3" educativas ( B
+  26.03-  26.19 (0.16s) | A:C0056.MP4 100% | B:C0092.MP4 | G:Graphics0008.png 80%                | D3" más ( B
+  26.19-  27.15 (0.96s) | A:C0056.MP4 100% | B:C0089.MP4 | G:Graphics0008.png 80%                | D3" más ( B D3" inteligentes. ( B
+  27.15-  27.74 (0.59s) | A:C0056.MP4 153% | B:C0089.MP4 | G:Graphics0008.png 80%                | D3" En tiempo ( B
+  27.74-  28.28 (0.54s) | A:C0056.MP4 153% | B:C0095.MP4 | G:Graphics0008.png 80%                | D3" real Y ( B
+  28.28-  29.36 (1.08s) | A:C0056.MP4 100% | B:C0095.MP4 | G:Graphics0008.png 80%                | D3" real Y ( B D3" acceso ( B D3" directo ( B
+  29.36-  30.24 (0.88s) | A:C0056.MP4 153% | G:Graphics0008.png 80%                              | D3" ( B D3" ecosistema ( B D3" Google. ( B
+  30.24-  30.57 (0.33s) | A:C0056.MP4 153% | B:C0093.MP4 | G:Graphics0008.png 80%                | D3" Google. ( B
+  30.57-  30.70 (0.13s) | A:C0056.MP4 100% | B:C0093.MP4 | G:Core0013.png 100% | G:Graphics0008. | 
+  30.70-  31.07 (0.37s) | A:C0056.MP4 100% | B:C0093.MP4 | G:Core0013.png 100% | G:Graphics0008. | 
+  31.07-  31.45 (0.38s) | A:C0056.MP4 100% | B:C0093.MP4 | G:Core0013.png 100% | G:Graphics0008. | 
+  31.45-  31.78 (0.33s) | A:C0056.MP4 100% | G:Core0013.png 100% | G:Graphics0008.png 80%        | 
+  31.78-  32.07 (0.29s) | A:C0056.MP4 100% | G:Core0013.png 100% | G:Graphics0008.png 80%        | 
+  32.07-  32.62 (0.55s) | A:C0056.MP4 100% | G:Core0013.png | G:Graphics0008.png 80%             | 
+  32.62-  33.58 (0.96s) | A:C0056.MP4 153% | G:Core0014.png | G:Graphics0008.png 80%             | 
+  33.58-  35.12 (1.54s) | A:C0056.MP4 100% | G:Core0015.png | G:Graphics0008.png 80%             | 
+  35.12-  39.71 (4.59s) | A:Intro 16-9_S 100%                                                    | 

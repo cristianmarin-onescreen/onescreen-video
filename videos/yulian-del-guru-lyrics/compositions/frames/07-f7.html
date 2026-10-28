@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <template>
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=Space+Grotesk:wght@600;700&display=swap");
+
+        #stage {
+          position: absolute;
+          inset: 0;
+          width: 1920px;
+          height: 1080px;
+          overflow: hidden;
+          background: #000000;
+          container-type: size;
+          font-family: "Inter", "Arial Black", system-ui, sans-serif;
+        }
+
+        #stage * {
+          box-sizing: border-box;
+        }
+
+        /* ---------- group shell ---------- */
+        .group {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 2.4cqw;
+          opacity: 0;
+          visibility: hidden;
+          padding: 6cqw 8cqw;
+          background: var(--ground, #fffdf5);
+        }
+
+        #g1 { --ground: #fffdf5; --accent: #fe90e8; --accent2: #c0f7fe; }
+        #g2 { --ground: #c0f7fe; --accent: #f7cb46; --accent2: #fe90e8; }
+        #g3 { --ground: #2ad268; --accent: #fe90e8; --accent2: #f7cb46; }
+        #g4 { --ground: #f7cb46; --accent: #c0f7fe; --accent2: #2ad268; }
+        #g5, #g6 { --ground: #000000; --accent: #f7cb46; --accent2: #fe90e8; }
+        #g7 { --ground: #fe90e8; --accent: #f7cb46; --accent2: #2ad268; }
+        #g8 { --ground: #fffdf5; --accent: #2ad268; --accent2: #c0f7fe; }
+
+        /* ---------- atmospheric decoration ---------- */
+        .dotgrid {
+          position: absolute;
+          inset: 0;
+          background-image: radial-gradient(circle, rgba(0, 0, 0, 0.16) 1.3px, transparent 1.3px);
+          background-size: 26px 26px;
+          pointer-events: none;
+        }
+        .group--chat .dotgrid {
+          background-image: radial-gradient(circle, rgba(255, 253, 245, 0.14) 1.3px, transparent 1.3px);
+        }
+
+        .tilt-deco {
+          position: absolute;
+          top: 6cqw;
+          right: 7cqw;
+          width: 10.5cqw;
+          height: 10.5cqw;
+          background: var(--accent);
+          border: 0.35cqw solid #000;
+          box-shadow: 0.6cqw 0.6cqw 0 #000;
+          transform: rotate(8deg);
+        }
+
+        .star-burst {
+          position: absolute;
+          bottom: 6cqw;
+          left: 7cqw;
+          width: 7.6cqw;
+          height: 7.6cqw;
+          background: var(--accent2);
+          border: 0.3cqw solid #000;
+          clip-path: polygon(
+            50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+            50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+          );
+          transform: rotate(-8deg);
+        }
+
+        /* ---------- label pill ---------- */
+        .pill {
+          position: absolute;
+          top: 5.4cqw;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          align-items: center;
+          gap: 0.6cqw;
+          padding: 0.75cqw 1.8cqw;
+          background: var(--accent);
+          border: 0.3cqw solid #000;
+          border-radius: 9999px;
+          box-shadow: 0.4cqw 0.4cqw 0 #000;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 600;
+          font-size: 1.15cqw;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #000;
+          white-space: nowrap;
+        }
+        .pill-dot {
+          width: 0.6cqw;
+          height: 0.6cqw;
+          border-radius: 50%;
+          background: #000;
+        }
+
+        /* ---------- karaoke line (plain groups) ---------- */
+        .lyric-wrap {
+          max-width: 82cqw;
+          text-align: center;
+        }
+        .lyric-text {
+          font-family: "Inter", "Arial Black", sans-serif;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: -0.02em;
+          line-height: 1.16;
+          color: #000;
+        }
+        .word {
+          display: inline-block;
+          opacity: 0;
+          margin: 0 0.16em;
+          color: inherit;
+          will-change: opacity, transform;
+        }
+
+        .fs-8 { font-size: 3.4cqw; }
+        .fs-7 { font-size: 3.8cqw; }
+        .fs-9 { font-size: 3.0cqw; }
+        .fs-10 { font-size: 2.7cqw; }
+
+        /* ---------- counter chip ---------- */
+        .counter {
+          position: absolute;
+          bottom: 5.2cqw;
+          right: 6cqw;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-size: 1cqw;
+          letter-spacing: 0.1em;
+          color: #000;
+          background: #fff;
+          border: 0.25cqw solid #000;
+          box-shadow: 0.3cqw 0.3cqw 0 #000;
+          padding: 0.35cqw 0.9cqw;
+        }
+        .group--chat .counter {
+          color: #fffdf5;
+          background: #000;
+          border-color: #fffdf5;
+          box-shadow: 0.3cqw 0.3cqw 0 #fffdf5;
+        }
+
+        /* ---------- chat / quote groups ---------- */
+        .group--chat .pill {
+          color: #000;
+        }
+        .setup-text {
+          max-width: 76cqw;
+          text-align: center;
+          font-family: "Inter", "Arial Black", sans-serif;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -0.01em;
+          line-height: 1.25;
+          font-size: 2.0cqw;
+        }
+        .setup-text .word {
+          color: #fffdf5;
+        }
+
+        .bubble {
+          position: relative;
+          background: #fff;
+          border: 0.35cqw solid #000;
+          box-shadow: 0.9cqw 0.9cqw 0 var(--accent2);
+          padding: 2cqw 3.2cqw;
+          max-width: 80cqw;
+          opacity: 0;
+          transform: scale(0.85);
+          will-change: opacity, transform;
+        }
+        .star-ping {
+          position: absolute;
+          top: -1.6cqw;
+          right: -1.6cqw;
+          width: 3.4cqw;
+          height: 3.4cqw;
+          background: var(--accent2);
+          border: 0.25cqw solid #000;
+          clip-path: polygon(
+            50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%,
+            50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+          );
+        }
+        .quote-text {
+          font-family: "Inter", "Arial Black", sans-serif;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: -0.02em;
+          line-height: 1.15;
+          color: #000;
+          text-align: center;
+        }
+        .quote-text .word {
+          color: #000;
+        }
+        .fs-q3 { font-size: 4.2cqw; }
+        .fs-q4 { font-size: 3.7cqw; }
+
+        .dots {
+          position: absolute;
+          bottom: -3.6cqw;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 0.8cqw;
+          opacity: 0;
+        }
+        .dot {
+          width: 1cqw;
+          height: 1cqw;
+          border-radius: 50%;
+          background: #fffdf5;
+          border: 0.15cqw solid #000;
+        }
+      </style>
+
+      <div id="stage" data-composition-id="07-f7" data-width="1920" data-height="1080" data-duration="23.25">
+        <!-- g1: Pero aunque esté estresado, nunca deja de intentar, -->
+        <div id="g1" class="group">
+          <div class="dotgrid"></div>
+          <div class="tilt-deco"></div>
+          <div class="star-burst"></div>
+          <div class="pill"><span class="pill-dot"></span>Modo grinder</div>
+          <div class="lyric-wrap">
+            <p class="lyric-text fs-8">
+              <span class="word" id="g1_w0">Pero</span>
+              <span class="word" id="g1_w1">aunque</span>
+              <span class="word" id="g1_w2">esté</span>
+              <span class="word" id="g1_w3">estresado,</span>
+              <span class="word" id="g1_w4">nunca</span>
+              <span class="word" id="g1_w5">deja</span>
+              <span class="word" id="g1_w6">de</span>
+              <span class="word" id="g1_w7">intentar,</span>
+            </p>
+          </div>
+          <div class="counter">01 / 08</div>
+        </div>
+
+        <!-- g2: abre otro ticket y lo vuelve a revisar. -->
+        <div id="g2" class="group">
+          <div class="dotgrid"></div>
+          <div class="tilt-deco"></div>
+          <div class="star-burst"></div>
+          <div class="pill"><span class="pill-dot"></span>Ticket nuevo</div>
+          <div class="lyric-wrap">
+            <p class="lyric-text fs-8">
+              <span class="word" id="g2_w0">abre</span>
+              <span class="word" id="g2_w1">otro</span>
+              <span class="word" id="g2_w2">ticket</span>
+              <span class="word" id="g2_w3">y</span>
+              <span class="word" id="g2_w4">lo</span>
+              <span class="word" id="g2_w5">vuelve</span>
+              <span class="word" id="g2_w6">a</span>
+              <span class="word" id="g2_w7">revisar.</span>
+            </p>
+          </div>
+          <div class="counter">02 / 08</div>
+        </div>
+
+        <!-- g3: Tiene tantos pendientes que ya perdió la cuenta, -->
+        <div id="g3" class="group">
+          <div class="dotgrid"></div>
+          <div class="tilt-deco"></div>
+          <div class="star-burst"></div>
+          <div class="pill"><span class="pill-dot"></span>Backlog infinito</div>
+          <div class="lyric-wrap">
+            <p class="lyric-text fs-8">
+              <span class="word" id="g3_w0">Tiene</span>
+              <span class="word" id="g3_w1">tantos</span>
+              <span class="word" id="g3_w2">pendientes</span>
+              <span class="word" id="g3_w3">que</span>
+              <span class="word" id="g3_w4">ya</span>
+              <span class="word" id="g3_w5">perdió</span>
+              <span class="word" id="g3_w6">la</span>
+              <span class="word" id="g3_w7">cuenta,</span>
+            </p>
+          </div>
+          <div class="counter">03 / 08</div>
+        </div>
+
+        <!-- g4: pero sigue conectado aunque la cabeza revienta. -->
+        <div id="g4" class="group">
+          <div class="dotgrid"></div>
+          <div class="tilt-deco"></div>
+          <div class="star-burst"></div>
+          <div class="pill"><span class="pill-dot"></span>En línea</div>
+          <div class="lyric-wrap">
+            <p class="lyric-text fs-7">
+              <span class="word" id="g4_w0">pero</span>
+              <span class="word" id="g4_w1">sigue</span>
+              <span class="word" id="g4_w2">conectado</span>
+              <span class="word" id="g4_w3">aunque</span>
+              <span class="word" id="g4_w4">la</span>
+              <span class="word" id="g4_w5">cabeza</span>
+              <span class="word" id="g4_w6">revienta.</span>
+            </p>
+          </div>
+          <div class="counter">04 / 08</div>
+        </div>
+
+        <!-- g5 (chat/quote): Y cuando llega el viernes dice: "Por fin descansé", -->
+        <div id="g5" class="group group--chat">
+          <div class="dotgrid"></div>
+          <div class="pill"><span class="pill-dot"></span>💬 Viernes 6:00 PM</div>
+          <p class="setup-text">
+            <span class="word" id="g5_w0">Y</span>
+            <span class="word" id="g5_w1">cuando</span>
+            <span class="word" id="g5_w2">llega</span>
+            <span class="word" id="g5_w3">el</span>
+            <span class="word" id="g5_w4">viernes</span>
+            <span class="word" id="g5_w5">dice:</span>
+          </p>
+          <div class="bubble" id="g5_bubble">
+            <div class="star-ping"></div>
+            <div class="dots" id="g5_dots">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+            <p class="quote-text fs-q3">
+              <span class="word" id="g5_w6">“Por</span>
+              <span class="word" id="g5_w7">fin</span>
+              <span class="word" id="g5_w8">descansé”,</span>
+            </p>
+          </div>
+          <div class="counter">05 / 08</div>
+        </div>
+
+        <!-- g6 (chat/quote): pero suena el celular: "¡Yulian, un caso encontré!" -->
+        <div id="g6" class="group group--chat">
+          <div class="dotgrid"></div>
+          <div class="pill"><span class="pill-dot"></span>📱 Llamada entrante</div>
+          <p class="setup-text">
+            <span class="word" id="g6_w0">pero</span>
+            <span class="word" id="g6_w1">suena</span>
+            <span class="word" id="g6_w2">el</span>
+            <span class="word" id="g6_w3">celular:</span>
+          </p>
+          <div class="bubble" id="g6_bubble">
+            <div class="star-ping"></div>
+            <div class="dots" id="g6_dots">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+            <p class="quote-text fs-q4">
+              <span class="word" id="g6_w4">“¡Yulian,</span>
+              <span class="word" id="g6_w5">un</span>
+              <span class="word" id="g6_w6">caso</span>
+              <span class="word" id="g6_w7">encontré!”</span>
+            </p>
+          </div>
+          <div class="counter">06 / 08</div>
+        </div>
+
+        <!-- g7: Se queda mirando al techo pensando en qué hacer, -->
+        <div id="g7" class="group">
+          <div class="dotgrid"></div>
+          <div class="tilt-deco"></div>
+          <div class="star-burst"></div>
+          <div class="pill"><span class="pill-dot"></span>Pensando…</div>
+          <div class="lyric-wrap">
+            <p class="lyric-text fs-9">
+              <span class="word" id="g7_w0">Se</span>
+              <span class="word" id="g7_w1">queda</span>
+              <span class="word" id="g7_w2">mirando</span>
+              <span class="word" id="g7_w3">al</span>
+              <span class="word" id="g7_w4">techo</span>
+              <span class="word" id="g7_w5">pensando</span>
+              <span class="word" id="g7_w6">en</span>
+              <span class="word" id="g7_w7">qué</span>
+              <span class="word" id="g7_w8">hacer,</span>
+            </p>
+          </div>
+          <div class="counter">07 / 08</div>
+        </div>
+
+        <!-- g8: porque el Gurú lo persigue hasta después de las seis. -->
+        <div id="g8" class="group">
+          <div class="dotgrid"></div>
+          <div class="tilt-deco"></div>
+          <div class="star-burst"></div>
+          <div class="pill"><span class="pill-dot"></span>6:47 PM</div>
+          <div class="lyric-wrap">
+            <p class="lyric-text fs-10">
+              <span class="word" id="g8_w0">porque</span>
+              <span class="word" id="g8_w1">el</span>
+              <span class="word" id="g8_w2">Gurú</span>
+              <span class="word" id="g8_w3">lo</span>
+              <span class="word" id="g8_w4">persigue</span>
+              <span class="word" id="g8_w5">hasta</span>
+              <span class="word" id="g8_w6">después</span>
+              <span class="word" id="g8_w7">de</span>
+              <span class="word" id="g8_w8">las</span>
+              <span class="word" id="g8_w9">seis.</span>
+            </p>
+          </div>
+          <div class="counter">08 / 08</div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          const tl = gsap.timeline({ paused: true });
+
+          const GROUPS = ["#g1", "#g2", "#g3", "#g4", "#g5", "#g6", "#g7", "#g8"];
+          const GROUP_SPANS = {
+            g1: [0, 4.88],
+            g2: [4.88, 7.18],
+            g3: [7.18, 9.55],
+            g4: [9.55, 12.43],
+            g5: [12.43, 14.87],
+            g6: [14.87, 17.11],
+            g7: [17.11, 20.59],
+            g8: [20.59, 23.25],
+          };
+
+          const ALL_WORDS = [
+            "#g1_w0", "#g1_w1", "#g1_w2", "#g1_w3", "#g1_w4", "#g1_w5", "#g1_w6", "#g1_w7",
+            "#g2_w0", "#g2_w1", "#g2_w2", "#g2_w3", "#g2_w4", "#g2_w5", "#g2_w6", "#g2_w7",
+            "#g3_w0", "#g3_w1", "#g3_w2", "#g3_w3", "#g3_w4", "#g3_w5", "#g3_w6", "#g3_w7",
+            "#g4_w0", "#g4_w1", "#g4_w2", "#g4_w3", "#g4_w4", "#g4_w5", "#g4_w6",
+            "#g5_w0", "#g5_w1", "#g5_w2", "#g5_w3", "#g5_w4", "#g5_w5", "#g5_w6", "#g5_w7", "#g5_w8",
+            "#g6_w0", "#g6_w1", "#g6_w2", "#g6_w3", "#g6_w4", "#g6_w5", "#g6_w6", "#g6_w7",
+            "#g7_w0", "#g7_w1", "#g7_w2", "#g7_w3", "#g7_w4", "#g7_w5", "#g7_w6", "#g7_w7", "#g7_w8",
+            "#g8_w0", "#g8_w1", "#g8_w2", "#g8_w3", "#g8_w4", "#g8_w5", "#g8_w6", "#g8_w7", "#g8_w8", "#g8_w9",
+          ];
+
+          // ---- initial state: all groups hidden but g1, all words hidden/offset ----
+          tl.set(GROUPS.join(","), { autoAlpha: 0 }, 0);
+          tl.set("#g1", { autoAlpha: 1 }, 0);
+          tl.set(ALL_WORDS.join(","), { opacity: 0, y: "0.4em", scale: 0.9 }, 0);
+          tl.set(["#g5_bubble", "#g6_bubble"].join(","), { opacity: 0, scale: 0.85 }, 0);
+          tl.set(["#g5_dots", "#g6_dots"].join(","), { opacity: 0 }, 0);
+
+          // ---- group -> group hard cuts (0ms swap) ----
+          // g8 is the last group: it shows at its start and holds through the
+          // frame's end, so it is the only one that is never hidden again.
+          Object.keys(GROUP_SPANS).forEach((key) => {
+            const [start, end] = GROUP_SPANS[key];
+            tl.set("#" + key, { autoAlpha: 1 }, start);
+            if (key !== "g8") {
+              tl.set("#" + key, { autoAlpha: 0 }, end);
+            }
+          });
+
+          // ---- word reveal helper ----
+          function popWord(id, t) {
+            tl.to(id, { opacity: 1, y: 0, scale: 1, duration: 0.18, ease: "back.out(1.8)" }, t);
+          }
+
+          // g1
+          popWord("#g1_w0", 0);
+          popWord("#g1_w1", 0.444);
+          popWord("#g1_w2", 1.109);
+          popWord("#g1_w3", 1.553);
+          popWord("#g1_w4", 2.662);
+          popWord("#g1_w5", 3.216);
+          popWord("#g1_w6", 3.66);
+          popWord("#g1_w7", 3.882);
+
+          // g2
+          popWord("#g2_w0", 4.88);
+          popWord("#g2_w1", 5.167);
+          popWord("#g2_w2", 5.455);
+          popWord("#g2_w3", 5.886);
+          popWord("#g2_w4", 5.958);
+          popWord("#g2_w5", 6.102);
+          popWord("#g2_w6", 6.533);
+          popWord("#g2_w7", 6.605);
+
+          // g3
+          popWord("#g3_w0", 7.18);
+          popWord("#g3_w1", 7.469);
+          popWord("#g3_w2", 7.816);
+          popWord("#g3_w3", 8.394);
+          popWord("#g3_w4", 8.567);
+          popWord("#g3_w5", 8.683);
+          popWord("#g3_w6", 9.03);
+          popWord("#g3_w7", 9.145);
+
+          // g4
+          popWord("#g4_w0", 9.55);
+          popWord("#g4_w1", 9.831);
+          popWord("#g4_w2", 10.182);
+          popWord("#g4_w3", 10.814);
+          popWord("#g4_w4", 11.236);
+          popWord("#g4_w5", 11.376);
+          popWord("#g4_w6", 11.798);
+
+          // g5 — setup line + chat bubble pop + quoted words
+          popWord("#g5_w0", 12.43);
+          popWord("#g5_w1", 12.487);
+          popWord("#g5_w2", 12.827);
+          popWord("#g5_w3", 13.111);
+          popWord("#g5_w4", 13.224);
+          popWord("#g5_w5", 13.622);
+          tl.set("#g5_dots", { opacity: 1 }, 13.622);
+          tl.set("#g5_dots", { opacity: 0 }, 13.905);
+          tl.to("#g5_bubble", { opacity: 1, scale: 1, duration: 0.22, ease: "back.out(1.6)" }, 13.905);
+          popWord("#g5_w6", 13.905);
+          popWord("#g5_w7", 14.132);
+          popWord("#g5_w8", 14.303);
+
+          // g6 — setup line + chat bubble pop + quoted words
+          popWord("#g6_w0", 14.87);
+          popWord("#g6_w1", 15.074);
+          popWord("#g6_w2", 15.328);
+          popWord("#g6_w3", 15.43);
+          tl.set("#g6_dots", { opacity: 1 }, 15.43);
+          tl.set("#g6_dots", { opacity: 0 }, 15.837);
+          tl.to("#g6_bubble", { opacity: 1, scale: 1, duration: 0.22, ease: "back.out(1.6)" }, 15.837);
+          popWord("#g6_w4", 15.837);
+          popWord("#g6_w5", 16.295);
+          popWord("#g6_w6", 16.397);
+          popWord("#g6_w7", 16.601);
+
+          // g7
+          popWord("#g7_w0", 17.11);
+          popWord("#g7_w1", 17.284);
+          popWord("#g7_w2", 17.719);
+          popWord("#g7_w3", 18.328);
+          popWord("#g7_w4", 18.502);
+          popWord("#g7_w5", 18.937);
+          popWord("#g7_w6", 19.633);
+          popWord("#g7_w7", 19.807);
+          popWord("#g7_w8", 20.068);
+
+          // g8
+          popWord("#g8_w0", 20.59);
+          popWord("#g8_w1", 20.953);
+          popWord("#g8_w2", 21.074);
+          popWord("#g8_w3", 21.315);
+          popWord("#g8_w4", 21.436);
+          popWord("#g8_w5", 21.92);
+          popWord("#g8_w6", 22.222);
+          popWord("#g8_w7", 22.645);
+          popWord("#g8_w8", 22.766);
+          popWord("#g8_w9", 22.948);
+
+          window.__timelines = window.__timelines || {};
+          window.__timelines["07-f7"] = tl;
+          tl.seek(0);
+        })();
+      </script>
+    </template>
+  </body>
+</html>

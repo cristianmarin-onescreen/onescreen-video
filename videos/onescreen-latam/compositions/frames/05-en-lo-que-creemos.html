@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          font-weight: 400 700;
+          font-style: normal;
+          src: url("assets/fonts/rubik-variable.woff2") format("woff2-variations");
+          /* fallback if the browser doesn't support variable-font format strings: format('woff2') */
+        }
+
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          container-type: size;
+          container-name: frame;
+          font-family: "Rubik", sans-serif;
+        }
+
+        .clip {
+          position: absolute;
+          inset: 0;
+        }
+
+        #stage {
+          background: #fafafa;
+        }
+
+        /* — centered stack: three states occupy the same cell, only one visible at a time — */
+        .center-wrap {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 5cqw;
+        }
+
+        .block {
+          grid-area: 1 / 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          opacity: 0;
+          will-change: transform, opacity;
+        }
+
+        /* — state 0: the anchor statement, Pull-Quote-adjacent — */
+        .quote-mark {
+          font-family: "Rubik", sans-serif;
+          font-weight: 700;
+          font-size: 6cqw;
+          line-height: 0.5;
+          color: #3976ff;
+          opacity: 0.15;
+          margin-bottom: 0.6cqw;
+        }
+        .block0-text {
+          font-family: "Rubik", sans-serif;
+          font-weight: 600;
+          font-size: 3.2cqw;
+          line-height: 1.3;
+          letter-spacing: -0.02em;
+          color: #293052;
+          max-width: 60cqw;
+        }
+
+        /* — states 1 & 2: "hoy -> futuro" pairs — */
+        .pair-today {
+          font-family: "Rubik", sans-serif;
+          font-weight: 500;
+          font-size: 1.6cqw;
+          line-height: 1.4;
+          color: #6b6b6b;
+          white-space: nowrap;
+        }
+        .pair-future-wrap {
+          position: relative;
+          display: inline-block;
+          margin-top: 1.4cqw;
+          opacity: 0;
+        }
+        .pair-future-text {
+          display: block;
+          font-family: "Rubik", sans-serif;
+          font-weight: 600;
+          font-size: 3.4cqw;
+          line-height: 1.2;
+          letter-spacing: -0.02em;
+          color: #293052;
+          white-space: nowrap;
+        }
+        .underline-bar {
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -0.7cqw;
+          height: 4px;
+          border-radius: 2px;
+          background: #3976ff;
+          transform: scaleX(0);
+          transform-origin: left center;
+        }
+      </style>
+
+      <div data-hf-id="hf-w6k5" id="root" data-composition-id="05-en-lo-que-creemos" data-width="1920" data-height="1080" data-duration="12.892">
+        <div data-hf-id="hf-ah4z" id="stage" class="clip" data-start="0" data-duration="12.892" data-track-index="1">
+          <div data-hf-id="hf-eu8g" class="center-wrap">
+            <!-- state 0: "Creemos en eso." -->
+            <div data-hf-id="hf-8w9k" class="block" id="block0">
+              <div data-hf-id="hf-ntfh" class="quote-mark" aria-hidden="true">“</div>
+              <div data-hf-id="hf-s5nx" class="block0-text">Creemos en eso.</div>
+            </div>
+
+            <!-- state 1: "la educación normal" -> "educación del futuro" -->
+            <div data-hf-id="hf-9nxd" class="block" id="block1">
+              <div data-hf-id="hf-4uer" class="pair-today" id="block1-today">la educación normal</div>
+              <div data-hf-id="hf-7oxi" class="pair-future-wrap" id="block1-future-wrap">
+                <span data-hf-id="hf-8m5s" class="pair-future-text">educación del futuro</span>
+                <span data-hf-id="hf-dw8a" class="underline-bar" id="block1-underline"></span>
+              </div>
+            </div>
+
+            <!-- state 2: "empresas" -> "empresas del futuro" -->
+            <div data-hf-id="hf-dm1e" class="block" id="block2">
+              <div data-hf-id="hf-q98d" class="pair-today" id="block2-today">empresas</div>
+              <div data-hf-id="hf-m8gp" class="pair-future-wrap" id="block2-future-wrap">
+                <span data-hf-id="hf-uyah" class="pair-future-text">empresas del futuro</span>
+                <span data-hf-id="hf-3ya1" class="underline-bar" id="block2-underline"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+
+        // — Scene 1 (0.0–3.0s): the anchor statement "Creemos en eso." fades in while
+        // scaling ~95% -> 100%, one smooth power3 settle (scale-swap-transition, restrained
+        // in/settle variant). Visible well before 0.5s so the hero reads immediately. Holds
+        // static to the seam at 3.0s.
+        tl.fromTo(
+          "#block0",
+          { scale: 0.95, opacity: 0 },
+          { scale: 1, opacity: 1, duration: 0.6, ease: "power3.out" },
+          0.1,
+        );
+
+        const EXIT_DUR = 0.5;
+        const OVERLAP = 0.15;
+        const ENTER_DUR = 0.65;
+
+        // — Scene 2 seam (t=3.0s): the ONE slide-up crossfade — block0 translates up + fades
+        // out while the paired statement (block1) translates up from below and fades in to
+        // take its place. This single crossfade is the whole move; everything else below is
+        // internal choreography riding inside it, paced to the voiceover reaching each half
+        // of "la educación normal, en educación del futuro."
+        const T2 = 3.0;
+        tl.to("#block0", { y: -36, opacity: 0, duration: EXIT_DUR, ease: "power2.in" }, T2);
+        tl.fromTo(
+          "#block1",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, duration: ENTER_DUR, ease: "power3.out" },
+          T2 + EXIT_DUR - OVERLAP,
+        );
+
+        // "educación del futuro" (near-black) lands a beat after "la educación normal"
+        // (muted, already carried by the block's own fade) — the VO reaches the future-state
+        // clause slightly later in the sentence.
+        const T2_FUTURE = T2 + EXIT_DUR - OVERLAP + 0.3;
+        tl.fromTo(
+          "#block1-future-wrap",
+          { opacity: 0 },
+          { opacity: 1, duration: 0.4, ease: "power2.out" },
+          T2_FUTURE,
+        );
+
+        // the cobalt underline mark draws left -> right beneath the future-state word once it
+        // has landed — the one accent touch (never a cobalt headline).
+        const T2_UNDERLINE = T2_FUTURE + 0.45;
+        tl.fromTo(
+          "#block1-underline",
+          { scaleX: 0 },
+          { scaleX: 1, duration: 0.5, ease: "power2.out" },
+          T2_UNDERLINE,
+        );
+
+        // Holds settled on this pair through the rest of its VO window (to 7.5s).
+
+        // — Scene 3 seam (t=7.5s): the second slide-up crossfade, same shape — block1 exits,
+        // block2 (the second pair) enters, paced to "En transformar empresas, en empresas
+        // del futuro."
+        const T3 = 7.5;
+        tl.to("#block1", { y: -36, opacity: 0, duration: EXIT_DUR, ease: "power2.in" }, T3);
+        tl.fromTo(
+          "#block2",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, duration: ENTER_DUR, ease: "power3.out" },
+          T3 + EXIT_DUR - OVERLAP,
+        );
+
+        const T3_FUTURE = T3 + EXIT_DUR - OVERLAP + 0.3;
+        tl.fromTo(
+          "#block2-future-wrap",
+          { opacity: 0 },
+          { opacity: 1, duration: 0.4, ease: "power2.out" },
+          T3_FUTURE,
+        );
+
+        const T3_UNDERLINE = T3_FUTURE + 0.45;
+        tl.fromTo(
+          "#block2-underline",
+          { scaleX: 0 },
+          { scaleX: 1, duration: 0.5, ease: "power2.out" },
+          T3_UNDERLINE,
+        );
+
+        // Holds settled on this final pair to the end of the frame (12.492s) — the deliberate
+        // calm close of the belief beat; no further development, no exit tween (the harness
+        // transition_in owns the cut into Frame 6).
+
+        window.__timelines["05-en-lo-que-creemos"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

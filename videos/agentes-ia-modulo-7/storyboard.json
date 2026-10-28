@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 199.3,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 199.3
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 7 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 5.78,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 7 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — SI TRABAJAS EN TECNOLOGÍA, EN TI O HELPDESK",
+      "startSec": 5.78,
+      "endSec": 16.84,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "SI TRABAJAS EN TECNOLOGÍA, EN TI O HELPDESK",
+        "title": "El tercer caso: los tickets repetidos"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — TU DÍA A DÍA",
+      "startSec": 16.84,
+      "endSec": 24.28,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TU DÍA A DÍA",
+        "title": "La mayoría no son casos nuevos ni complejos",
+        "detail": "Son la misma pregunta, una y otra vez"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "list — SIEMPRE LAS MISMAS PREGUNTAS",
+      "startSec": 24.28,
+      "endSec": 33.41,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SIEMPRE LAS MISMAS PREGUNTAS",
+        "items": [
+          "¿Cómo conectar una pantalla?",
+          "¿Cómo restablecer una contraseña?",
+          "¿Cómo resolver un error ya resuelto 20 veces?"
+        ]
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — NO PARA REEMPLAZARTE",
+      "startSec": 33.41,
+      "endSec": 46.94,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "NO PARA REEMPLAZARTE",
+        "title": "Ese trabajo repetitivo, un agente lo absorbe",
+        "detail": "Para que tu tiempo se enfoque en lo que sí necesita a alguien que sabe"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — LA INSTRUCCIÓN REAL",
+      "startSec": 46.94,
+      "endSec": 57.74,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "LA INSTRUCCIÓN REAL",
+        "title": "Primer nivel de soporte de Helpdesk",
+        "detail": "Para el personal del colegio"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — Identifica si es un problema conocido",
+      "startSec": 57.74,
+      "endSec": 67.26,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Identifica si es un problema conocido",
+        "detail": "Con solución documentada — y guía al usuario paso a paso"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — Si no está documentado, escalar de inmediato",
+      "startSec": 67.26,
+      "endSec": 80.76,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Si no está documentado, escalar de inmediato",
+        "detail": "Sabe exactamente cuándo actuar y cuándo parar"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — TONO",
+      "startSec": 80.76,
+      "endSec": 90.26,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TONO",
+        "title": "Claro y paciente",
+        "detail": "Quien pregunta muchas veces no es una persona técnica"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "list — LÍMITES INNEGOCIABLES",
+      "startSec": 90.26,
+      "endSec": 110.94,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LÍMITES INNEGOCIABLES",
+        "items": [
+          "Nunca tocar sistemas críticos o datos sensibles sin humano",
+          "Nunca decir que algo está resuelto sin confirmación real",
+          "Ante cualquier duda: escalar, no arriesgarse a adivinar"
+        ]
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — CONOCIMIENTO PROPIO: ORO PURO",
+      "startSec": 110.94,
+      "endSec": 121.9,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "CONOCIMIENTO PROPIO: ORO PURO",
+        "title": "Casos resueltos, manuales, historial",
+        "detail": "De incidentes frecuentes"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — Entre más completa la base",
+      "startSec": 121.9,
+      "endSec": 130.44,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Entre más completa la base",
+        "detail": "Menos tickets simples llegan a un humano, y más rápido se resuelven los que sí lo necesitan"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — HERRAMIENTAS",
+      "startSec": 130.44,
+      "endSec": 148.14,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "HERRAMIENTAS",
+        "title": "Acceso a la base de conocimiento",
+        "detail": "Y registro documentado de cada caso — trazabilidad sin esfuerzo manual"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "titlecard — Y AQUÍ HAY ALGO IMPORTANTE",
+      "startSec": 148.14,
+      "endSec": 161.26,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "Y AQUÍ HAY ALGO IMPORTANTE",
+        "title": "Esto es apenas el primer nivel",
+        "detail": "Más adelante hay un módulo pensado exclusivamente para ustedes"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — UN PASO MÁS ALLÁ",
+      "startSec": 161.26,
+      "endSec": 173.54,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "UN PASO MÁS ALLÁ",
+        "title": "Conectar el agente directo con OneScreen",
+        "detail": "Para que active acciones reales, no solo responda preguntas"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "stat — CON ESTOS 3 CASOS",
+      "startSec": 173.54,
+      "endSec": 183.84,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "CON ESTOS 3 CASOS",
+        "title": "Un buen agente en distintos roles"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 183.84,
+      "endSec": 197.02,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Cómo escribir instrucciones que funcionen",
+        "detail": "De eso depende que tu agente haga exactamente lo que esperas"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 197.02,
+      "endSec": 199.3,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

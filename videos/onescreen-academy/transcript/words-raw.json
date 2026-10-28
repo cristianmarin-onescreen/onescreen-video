@@ -1,0 +1,597 @@
+[
+ {
+  "id": "w0",
+  "text": "Seguramente",
+  "start": 0.0,
+  "end": 0.72,
+  "prob": 0.972
+ },
+ {
+  "id": "w1",
+  "text": "te",
+  "start": 0.72,
+  "end": 0.88,
+  "prob": 0.999
+ },
+ {
+  "id": "w2",
+  "text": "estas",
+  "start": 0.88,
+  "end": 1.04,
+  "prob": 0.001
+ },
+ {
+  "id": "w3",
+  "text": "preguntando,",
+  "start": 1.04,
+  "end": 1.8,
+  "prob": 0.988
+ },
+ {
+  "id": "w4",
+  "text": "esto",
+  "start": 1.94,
+  "end": 2.34,
+  "prob": 0.037
+ },
+ {
+  "id": "w5",
+  "text": "realmente",
+  "start": 2.34,
+  "end": 3.02,
+  "prob": 0.779
+ },
+ {
+  "id": "w6",
+  "text": "lo",
+  "start": 3.02,
+  "end": 3.32,
+  "prob": 0.982
+ },
+ {
+  "id": "w7",
+  "text": "van",
+  "start": 3.32,
+  "end": 3.5,
+  "prob": 0.983
+ },
+ {
+  "id": "w8",
+  "text": "a",
+  "start": 3.5,
+  "end": 3.54,
+  "prob": 0.987
+ },
+ {
+  "id": "w9",
+  "text": "usar",
+  "start": 3.54,
+  "end": 3.76,
+  "prob": 0.994
+ },
+ {
+  "id": "w10",
+  "text": "mis",
+  "start": 3.76,
+  "end": 3.94,
+  "prob": 0.993
+ },
+ {
+  "id": "w11",
+  "text": "docentes?",
+  "start": 3.94,
+  "end": 4.54,
+  "prob": 0.997
+ },
+ {
+  "id": "w12",
+  "text": "Si,",
+  "start": 4.74,
+  "end": 4.92,
+  "prob": 0.831
+ },
+ {
+  "id": "w13",
+  "text": "y",
+  "start": 5.14,
+  "end": 5.34,
+  "prob": 0.948
+ },
+ {
+  "id": "w14",
+  "text": "tenemos",
+  "start": 5.34,
+  "end": 5.74,
+  "prob": 0.981
+ },
+ {
+  "id": "w15",
+  "text": "una",
+  "start": 5.74,
+  "end": 6.02,
+  "prob": 0.984
+ },
+ {
+  "id": "w16",
+  "text": "herramienta",
+  "start": 6.02,
+  "end": 6.5,
+  "prob": 0.984
+ },
+ {
+  "id": "w17",
+  "text": "para",
+  "start": 6.5,
+  "end": 6.68,
+  "prob": 0.996
+ },
+ {
+  "id": "w18",
+  "text": "eso.",
+  "start": 6.68,
+  "end": 6.94,
+  "prob": 0.983
+ },
+ {
+  "id": "w19",
+  "text": "Una",
+  "start": 7.12,
+  "end": 7.32,
+  "prob": 0.963
+ },
+ {
+  "id": "w20",
+  "text": "inversión",
+  "start": 7.32,
+  "end": 7.76,
+  "prob": 0.962
+ },
+ {
+  "id": "w21",
+  "text": "tecnologica",
+  "start": 7.76,
+  "end": 8.46,
+  "prob": 0.666
+ },
+ {
+  "id": "w22",
+  "text": "realmente",
+  "start": 8.46,
+  "end": 9.0,
+  "prob": 0.881
+ },
+ {
+  "id": "w23",
+  "text": "vale",
+  "start": 9.0,
+  "end": 9.46,
+  "prob": 0.984
+ },
+ {
+  "id": "w24",
+  "text": "cuando",
+  "start": 9.46,
+  "end": 9.76,
+  "prob": 0.981
+ },
+ {
+  "id": "w25",
+  "text": "la",
+  "start": 9.76,
+  "end": 9.96,
+  "prob": 0.99
+ },
+ {
+  "id": "w26",
+  "text": "gente",
+  "start": 9.96,
+  "end": 10.22,
+  "prob": 0.995
+ },
+ {
+  "id": "w27",
+  "text": "sabe",
+  "start": 10.22,
+  "end": 10.62,
+  "prob": 0.974
+ },
+ {
+  "id": "w28",
+  "text": "usarla.",
+  "start": 10.62,
+  "end": 11.14,
+  "prob": 0.992
+ },
+ {
+  "id": "w29",
+  "text": "Por",
+  "start": 11.4,
+  "end": 11.52,
+  "prob": 0.887
+ },
+ {
+  "id": "w30",
+  "text": "eso",
+  "start": 11.52,
+  "end": 11.76,
+  "prob": 0.988
+ },
+ {
+  "id": "w31",
+  "text": "creamos",
+  "start": 11.76,
+  "end": 12.38,
+  "prob": 0.645
+ },
+ {
+  "id": "w32",
+  "text": "OneScreen",
+  "start": 12.38,
+  "end": 12.9,
+  "prob": 0.793
+ },
+ {
+  "id": "w33",
+  "text": "Academy.",
+  "start": 12.9,
+  "end": 13.32,
+  "prob": 0.982
+ },
+ {
+  "id": "w34",
+  "text": "Una",
+  "start": 13.62,
+  "end": 13.7,
+  "prob": 0.959
+ },
+ {
+  "id": "w35",
+  "text": "plataforma",
+  "start": 13.7,
+  "end": 14.12,
+  "prob": 0.967
+ },
+ {
+  "id": "w36",
+  "text": "online",
+  "start": 14.12,
+  "end": 14.56,
+  "prob": 0.971
+ },
+ {
+  "id": "w37",
+  "text": "donde",
+  "start": 14.56,
+  "end": 14.96,
+  "prob": 0.947
+ },
+ {
+  "id": "w38",
+  "text": "todo",
+  "start": 14.96,
+  "end": 15.36,
+  "prob": 0.991
+ },
+ {
+  "id": "w39",
+  "text": "tu",
+  "start": 15.36,
+  "end": 15.56,
+  "prob": 0.982
+ },
+ {
+  "id": "w40",
+  "text": "equipo",
+  "start": 15.56,
+  "end": 15.88,
+  "prob": 0.997
+ },
+ {
+  "id": "w41",
+  "text": "podra",
+  "start": 15.88,
+  "end": 16.22,
+  "prob": 0.463
+ },
+ {
+  "id": "w42",
+  "text": "certificarse",
+  "start": 16.22,
+  "end": 16.98,
+  "prob": 0.978
+ },
+ {
+  "id": "w43",
+  "text": "en",
+  "start": 16.98,
+  "end": 17.22,
+  "prob": 0.989
+ },
+ {
+  "id": "w44",
+  "text": "el",
+  "start": 17.22,
+  "end": 17.32,
+  "prob": 0.992
+ },
+ {
+  "id": "w45",
+  "text": "ecosistema",
+  "start": 17.32,
+  "end": 17.86,
+  "prob": 0.987
+ },
+ {
+  "id": "w46",
+  "text": "OneScreen.",
+  "start": 17.86,
+  "end": 18.44,
+  "prob": 0.983
+ },
+ {
+  "id": "w47",
+  "text": "Encontraras",
+  "start": 18.82,
+  "end": 19.42,
+  "prob": 0.876
+ },
+ {
+  "id": "w48",
+  "text": "cursos",
+  "start": 19.42,
+  "end": 19.86,
+  "prob": 0.991
+ },
+ {
+  "id": "w49",
+  "text": "para",
+  "start": 19.86,
+  "end": 20.04,
+  "prob": 0.994
+ },
+ {
+  "id": "w50",
+  "text": "aprender",
+  "start": 20.04,
+  "end": 20.3,
+  "prob": 0.966
+ },
+ {
+  "id": "w51",
+  "text": "a",
+  "start": 20.3,
+  "end": 20.44,
+  "prob": 0.986
+ },
+ {
+  "id": "w52",
+  "text": "usar",
+  "start": 20.44,
+  "end": 20.6,
+  "prob": 0.991
+ },
+ {
+  "id": "w53",
+  "text": "tu",
+  "start": 20.6,
+  "end": 20.74,
+  "prob": 0.988
+ },
+ {
+  "id": "w54",
+  "text": "pantalla,",
+  "start": 20.74,
+  "end": 21.14,
+  "prob": 0.991
+ },
+ {
+  "id": "w55",
+  "text": "los",
+  "start": 21.46,
+  "end": 21.64,
+  "prob": 0.984
+ },
+ {
+  "id": "w56",
+  "text": "softwares",
+  "start": 21.64,
+  "end": 22.06,
+  "prob": 0.964
+ },
+ {
+  "id": "w57",
+  "text": "de",
+  "start": 22.06,
+  "end": 22.2,
+  "prob": 0.992
+ },
+ {
+  "id": "w58",
+  "text": "tu",
+  "start": 22.2,
+  "end": 22.3,
+  "prob": 0.99
+ },
+ {
+  "id": "w59",
+  "text": "pantalla.",
+  "start": 22.3,
+  "end": 22.76,
+  "prob": 0.996
+ },
+ {
+  "id": "w60",
+  "text": "E",
+  "start": 23.04,
+  "end": 23.1,
+  "prob": 0.916
+ },
+ {
+  "id": "w61",
+  "text": "incluso",
+  "start": 23.1,
+  "end": 23.64,
+  "prob": 0.975
+ },
+ {
+  "id": "w62",
+  "text": "tu",
+  "start": 23.64,
+  "end": 24.02,
+  "prob": 0.511
+ },
+ {
+  "id": "w63",
+  "text": "equipo",
+  "start": 24.02,
+  "end": 24.3,
+  "prob": 0.994
+ },
+ {
+  "id": "w64",
+  "text": "podra",
+  "start": 24.3,
+  "end": 24.64,
+  "prob": 0.845
+ },
+ {
+  "id": "w65",
+  "text": "acceder",
+  "start": 24.64,
+  "end": 24.98,
+  "prob": 0.991
+ },
+ {
+  "id": "w66",
+  "text": "a",
+  "start": 24.98,
+  "end": 25.12,
+  "prob": 0.984
+ },
+ {
+  "id": "w67",
+  "text": "cursos",
+  "start": 25.12,
+  "end": 25.5,
+  "prob": 0.987
+ },
+ {
+  "id": "w68",
+  "text": "de",
+  "start": 25.5,
+  "end": 25.6,
+  "prob": 0.991
+ },
+ {
+  "id": "w69",
+  "text": "inteligencia",
+  "start": 25.6,
+  "end": 26.12,
+  "prob": 0.958
+ },
+ {
+  "id": "w70",
+  "text": "artificial.",
+  "start": 26.12,
+  "end": 26.48,
+  "prob": 0.992
+ },
+ {
+  "id": "w71",
+  "text": "Nosotros",
+  "start": 27.06,
+  "end": 27.66,
+  "prob": 0.988
+ },
+ {
+  "id": "w72",
+  "text": "certificamos",
+  "start": 27.66,
+  "end": 28.32,
+  "prob": 0.993
+ },
+ {
+  "id": "w73",
+  "text": "a",
+  "start": 28.32,
+  "end": 28.46,
+  "prob": 0.995
+ },
+ {
+  "id": "w74",
+  "text": "tu",
+  "start": 28.46,
+  "end": 28.58,
+  "prob": 0.994
+ },
+ {
+  "id": "w75",
+  "text": "equipo.",
+  "start": 28.58,
+  "end": 28.9,
+  "prob": 0.997
+ },
+ {
+  "id": "w76",
+  "text": "Quieres",
+  "start": 29.06,
+  "end": 29.36,
+  "prob": 0.826
+ },
+ {
+  "id": "w77",
+  "text": "ver",
+  "start": 29.36,
+  "end": 29.52,
+  "prob": 0.995
+ },
+ {
+  "id": "w78",
+  "text": "como?",
+  "start": 29.52,
+  "end": 29.74,
+  "prob": 0.796
+ },
+ {
+  "id": "w79",
+  "text": "Solo",
+  "start": 30.0,
+  "end": 30.18,
+  "prob": 0.689
+ },
+ {
+  "id": "w80",
+  "text": "tienes",
+  "start": 30.18,
+  "end": 30.38,
+  "prob": 0.996
+ },
+ {
+  "id": "w81",
+  "text": "que",
+  "start": 30.38,
+  "end": 30.52,
+  "prob": 1.0
+ },
+ {
+  "id": "w82",
+  "text": "tocar",
+  "start": 30.52,
+  "end": 30.78,
+  "prob": 0.998
+ },
+ {
+  "id": "w83",
+  "text": "esta",
+  "start": 30.78,
+  "end": 30.94,
+  "prob": 0.985
+ },
+ {
+  "id": "w84",
+  "text": "pantalla.",
+  "start": 30.94,
+  "end": 31.28,
+  "prob": 0.999
+ }
+]

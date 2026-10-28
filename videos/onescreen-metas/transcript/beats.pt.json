@@ -1,0 +1,2455 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 58.28,
+ "totalFrames": 1457,
+ "source": "SC03.wav (texto pt-BR sobre los tiempos del es)",
+ "speechEnd": 53.6,
+ "frames": [
+  {
+   "id": "i1",
+   "chapter": false,
+   "start": 0,
+   "lines": [
+    {
+     "scale": "phrase",
+     "caps": false,
+     "accent": false,
+     "text": "Já contamos a nossa história.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Já",
+       "start": 0.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "contamos",
+       "start": 0.44,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "a",
+       "start": 0.88,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "nossa",
+       "start": 1.36,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "história.",
+       "start": 1.8,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Já contamos a nossa história.",
+   "end": 2.52
+  },
+  {
+   "id": "i2",
+   "chapter": false,
+   "start": 2.56,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Agora vamos contar as nossas metas.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Agora",
+       "start": 2.56,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "vamos",
+       "start": 2.84,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "contar",
+       "start": 3.12,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "as",
+       "start": 3.4,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "nossas",
+       "start": 3.68,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "metas.",
+       "start": 3.96,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Agora vamos contar as nossas metas.",
+   "end": 4.52
+  },
+  {
+   "id": "i3",
+   "chapter": false,
+   "start": 4.6,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "text": "Preparado?",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Preparado?",
+       "start": 4.6,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Preparado?",
+   "end": 5.76
+  },
+  {
+   "id": "h1",
+   "chapter": true,
+   "start": 5.8,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": true,
+     "text": "Primeiro,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Primeiro,",
+       "start": 5.8,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "text": "salas de aula interativas.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "salas",
+       "start": 6.52,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "de",
+       "start": 6.64,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "aula",
+       "start": 6.76,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "interativas.",
+       "start": 6.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Primeiro, / salas de aula interativas.",
+   "end": 7.76
+  },
+  {
+   "id": "c1a",
+   "chapter": false,
+   "start": 7.8,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "Para os nativos digitais,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Para",
+       "start": 7.8,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "os",
+       "start": 8.0,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "nativos",
+       "start": 8.2,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "digitais,",
+       "start": 8.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": true,
+     "accent": false,
+     "text": "telas digitais.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "telas",
+       "start": 9.24,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "digitais.",
+       "start": 9.84,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Para os nativos digitais, / telas digitais.",
+   "end": 10.48
+  },
+  {
+   "id": "c1b",
+   "chapter": false,
+   "start": 10.52,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Lousas infinitas.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Lousas",
+       "start": 10.52,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "infinitas.",
+       "start": 10.96,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Simuladores interativos.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "Simuladores",
+       "start": 11.72,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "interativos.",
+       "start": 12.28,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Lousas infinitas. / Simuladores interativos.",
+   "end": 13.2
+  },
+  {
+   "id": "h2",
+   "chapter": true,
+   "start": 13.24,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": true,
+     "text": "Segundo,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Segundo,",
+       "start": 13.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "text": "salas de reunião.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "salas",
+       "start": 13.92,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "de",
+       "start": 14.16,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "reunião.",
+       "start": 14.36,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Segundo, / salas de reunião.",
+   "end": 14.92
+  },
+  {
+   "id": "c2a",
+   "chapter": false,
+   "start": 14.96,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "Onde quatro dispositivos",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Onde",
+       "start": 14.96,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "quatro",
+       "start": 15.28,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "dispositivos",
+       "start": 15.64,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": true,
+     "accent": false,
+     "text": "viram um só.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "viram",
+       "start": 16.32,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "um",
+       "start": 16.8,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "só.",
+       "start": 17.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Onde quatro dispositivos / viram um só.",
+   "end": 17.68
+  },
+  {
+   "id": "c2b",
+   "chapter": false,
+   "start": 17.72,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Imagem nítida,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Imagem",
+       "start": 17.72,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "nítida,",
+       "start": 18.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "som envolvente.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "som",
+       "start": 18.64,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "envolvente.",
+       "start": 18.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Imagem nítida, / som envolvente.",
+   "end": 19.48
+  },
+  {
+   "id": "c2c",
+   "chapter": false,
+   "start": 19.52,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Uma equipe mais unida,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Uma",
+       "start": 19.52,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "equipe",
+       "start": 19.72,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "mais",
+       "start": 19.88,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "unida,",
+       "start": 20.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "mesmo em pontos diferentes do mundo.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "mesmo",
+       "start": 20.56,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "em",
+       "start": 20.92,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "pontos",
+       "start": 21.32,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "diferentes",
+       "start": 21.68,
+       "brand": false
+      },
+      {
+       "id": "w1_4",
+       "i": 4,
+       "text": "do",
+       "start": 22.08,
+       "brand": false
+      },
+      {
+       "id": "w1_5",
+       "i": 5,
+       "text": "mundo.",
+       "start": 22.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Uma equipe mais unida, / mesmo em pontos diferentes do mundo.",
+   "end": 23.04
+  },
+  {
+   "id": "h3",
+   "chapter": true,
+   "start": 23.08,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": true,
+     "text": "Terceiro,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Terceiro,",
+       "start": 23.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "text": "inteligência artificial.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "inteligência",
+       "start": 23.84,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "artificial.",
+       "start": 24.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Terceiro, / inteligência artificial.",
+   "end": 24.84
+  },
+  {
+   "id": "c3a",
+   "chapter": false,
+   "start": 24.88,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "O que antes levava para um professor",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "O",
+       "start": 24.88,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "que",
+       "start": 25.0,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "antes",
+       "start": 25.16,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "levava",
+       "start": 25.28,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "para",
+       "start": 25.4,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "um",
+       "start": 25.56,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "professor",
+       "start": 25.68,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": true,
+     "accent": false,
+     "text": "cinco horas,",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "cinco",
+       "start": 26.04,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "horas,",
+       "start": 26.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "O que antes levava para um professor / cinco horas,",
+   "end": 26.88
+  },
+  {
+   "id": "c3b",
+   "chapter": false,
+   "start": 26.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "agora leva só",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "agora",
+       "start": 26.92,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "leva",
+       "start": 27.2,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "só",
+       "start": 27.44,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": true,
+     "accent": true,
+     "text": "cinco minutos.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "cinco",
+       "start": 27.64,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "minutos.",
+       "start": 27.96,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "agora leva só / cinco minutos.",
+   "end": 28.56
+  },
+  {
+   "id": "c3c",
+   "chapter": false,
+   "start": 28.6,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Aulas que se planejam em segundos.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Aulas",
+       "start": 28.6,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "que",
+       "start": 28.8,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "se",
+       "start": 29.04,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "planejam",
+       "start": 29.24,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "em",
+       "start": 29.48,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "segundos.",
+       "start": 29.68,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Aulas que se planejam em segundos.",
+   "end": 29.96
+  },
+  {
+   "id": "c3d",
+   "chapter": false,
+   "start": 30,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Suas aulas em qualquer idioma.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Suas",
+       "start": 30.0,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "aulas",
+       "start": 30.4,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "em",
+       "start": 30.76,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "qualquer",
+       "start": 31.12,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "idioma.",
+       "start": 31.52,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Suas aulas em qualquer idioma.",
+   "end": 32.08
+  },
+  {
+   "id": "c3e",
+   "chapter": false,
+   "start": 32.16,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Avaliações que se criam sozinhas.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Avaliações",
+       "start": 32.16,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "que",
+       "start": 32.36,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "se",
+       "start": 32.6,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "criam",
+       "start": 32.8,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "sozinhas.",
+       "start": 33.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Avaliações que se criam sozinhas.",
+   "end": 33.64
+  },
+  {
+   "id": "h4",
+   "chapter": true,
+   "start": 33.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": true,
+     "text": "Quarto,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Quarto,",
+       "start": 33.68,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "um formato",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "um",
+       "start": 34.24,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "formato",
+       "start": 34.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "text": "graaaaaande.",
+     "words": [
+      {
+       "id": "w2_0",
+       "i": 0,
+       "text": "graaaaaande.",
+       "start": 34.8,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Quarto, / um formato / graaaaaande.",
+   "end": 35.84
+  },
+  {
+   "id": "c4a",
+   "chapter": false,
+   "start": 35.88,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "Porque grandes ideias",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Porque",
+       "start": 35.88,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "grandes",
+       "start": 36.2,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "ideias",
+       "start": 36.52,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": true,
+     "accent": false,
+     "text": "pedem grandes telas.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "pedem",
+       "start": 36.92,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "grandes",
+       "start": 37.44,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "telas.",
+       "start": 37.96,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Porque grandes ideias / pedem grandes telas.",
+   "end": 38.64
+  },
+  {
+   "id": "c4b",
+   "chapter": false,
+   "start": 38.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "Tem coisa que precisa ser vista",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Tem",
+       "start": 38.68,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "coisa",
+       "start": 38.92,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "que",
+       "start": 39.16,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "precisa",
+       "start": 39.4,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "ser",
+       "start": 39.64,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "vista",
+       "start": 39.88,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": true,
+     "accent": false,
+     "text": "e feita em grande.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "e",
+       "start": 40.24,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "feita",
+       "start": 40.56,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "em",
+       "start": 40.84,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "grande.",
+       "start": 41.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Tem coisa que precisa ser vista / e feita em grande.",
+   "end": 41.56
+  },
+  {
+   "id": "c4c",
+   "chapter": false,
+   "start": 41.6,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Telas LED de grande formato",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Telas",
+       "start": 41.6,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "LED",
+       "start": 41.8,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "de",
+       "start": 42.0,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "grande",
+       "start": 42.16,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "formato",
+       "start": 42.36,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "para experiências realmente únicas,",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "para",
+       "start": 42.84,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "experiências",
+       "start": 43.28,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "realmente",
+       "start": 43.72,
+       "brand": false
+      },
+      {
+       "id": "w1_3",
+       "i": 3,
+       "text": "únicas,",
+       "start": 44.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Telas LED de grande formato / para experiências realmente únicas,",
+   "end": 44.92
+  },
+  {
+   "id": "c4d",
+   "chapter": false,
+   "start": 44.96,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "text": "De",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "De",
+       "start": 44.96,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": false,
+     "text": "108\" a 217\".",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "108\"",
+       "start": 45.2,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "a",
+       "start": 45.68,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "217\".",
+       "start": 46.2,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "De / 108\" a 217\".",
+   "end": 48.08
+  },
+  {
+   "id": "h5",
+   "chapter": true,
+   "start": 48.12,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": true,
+     "text": "E quinto,",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "E",
+       "start": 48.12,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "quinto,",
+       "start": 48.2,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "text": "a mais importante,",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "a",
+       "start": 48.76,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "mais",
+       "start": 48.88,
+       "brand": false
+      },
+      {
+       "id": "w1_2",
+       "i": 2,
+       "text": "importante,",
+       "start": 49.0,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "E quinto, / a mais importante,",
+   "end": 49.68
+  },
+  {
+   "id": "c5a",
+   "chapter": false,
+   "start": 49.72,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "text": "Que você veja com os seus próprios olhos.",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "Que",
+       "start": 49.72,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "você",
+       "start": 49.96,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "veja",
+       "start": 50.2,
+       "brand": false
+      },
+      {
+       "id": "w0_3",
+       "i": 3,
+       "text": "com",
+       "start": 50.44,
+       "brand": false
+      },
+      {
+       "id": "w0_4",
+       "i": 4,
+       "text": "os",
+       "start": 50.72,
+       "brand": false
+      },
+      {
+       "id": "w0_5",
+       "i": 5,
+       "text": "seus",
+       "start": 50.96,
+       "brand": false
+      },
+      {
+       "id": "w0_6",
+       "i": 6,
+       "text": "próprios",
+       "start": 51.2,
+       "brand": false
+      },
+      {
+       "id": "w0_7",
+       "i": 7,
+       "text": "olhos.",
+       "start": 51.44,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Que você veja com os seus próprios olhos.",
+   "end": 52.08
+  },
+  {
+   "id": "c5b",
+   "chapter": false,
+   "start": 52.12,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "text": "É só tocar",
+     "words": [
+      {
+       "id": "w0_0",
+       "i": 0,
+       "text": "É",
+       "start": 52.12,
+       "brand": false
+      },
+      {
+       "id": "w0_1",
+       "i": 1,
+       "text": "só",
+       "start": 52.44,
+       "brand": false
+      },
+      {
+       "id": "w0_2",
+       "i": 2,
+       "text": "tocar",
+       "start": 52.8,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "text": "na tela.",
+     "words": [
+      {
+       "id": "w1_0",
+       "i": 0,
+       "text": "na",
+       "start": 53.04,
+       "brand": false
+      },
+      {
+       "id": "w1_1",
+       "i": 1,
+       "text": "tela.",
+       "start": 53.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "É só tocar / na tela.",
+   "end": 58.28
+  }
+ ],
+ "words": [
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Já",
+   "start": 0.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "contamos",
+   "start": 0.44,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "a",
+   "start": 0.88,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "nossa",
+   "start": 1.36,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "história.",
+   "start": 1.8,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Agora",
+   "start": 2.56,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "vamos",
+   "start": 2.84,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "contar",
+   "start": 3.12,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "as",
+   "start": 3.4,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "nossas",
+   "start": 3.68,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "metas.",
+   "start": 3.96,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Preparado?",
+   "start": 4.6,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Primeiro,",
+   "start": 5.8,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "salas",
+   "start": 6.52,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "de",
+   "start": 6.64,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "aula",
+   "start": 6.76,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "interativas.",
+   "start": 6.88,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Para",
+   "start": 7.8,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "os",
+   "start": 8.0,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "nativos",
+   "start": 8.2,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "digitais,",
+   "start": 8.4,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "telas",
+   "start": 9.24,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "digitais.",
+   "start": 9.84,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Lousas",
+   "start": 10.52,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "infinitas.",
+   "start": 10.96,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "Simuladores",
+   "start": 11.72,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "interativos.",
+   "start": 12.28,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Segundo,",
+   "start": 13.24,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "salas",
+   "start": 13.92,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "de",
+   "start": 14.16,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "reunião.",
+   "start": 14.36,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Onde",
+   "start": 14.96,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "quatro",
+   "start": 15.28,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "dispositivos",
+   "start": 15.64,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "viram",
+   "start": 16.32,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "um",
+   "start": 16.8,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "só.",
+   "start": 17.32,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Imagem",
+   "start": 17.72,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "nítida,",
+   "start": 18.12,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "som",
+   "start": 18.64,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "envolvente.",
+   "start": 18.92,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Uma",
+   "start": 19.52,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "equipe",
+   "start": 19.72,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "mais",
+   "start": 19.88,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "unida,",
+   "start": 20.08,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "mesmo",
+   "start": 20.56,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "em",
+   "start": 20.92,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "pontos",
+   "start": 21.32,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "diferentes",
+   "start": 21.68,
+   "brand": false
+  },
+  {
+   "id": "w1_4",
+   "i": 4,
+   "text": "do",
+   "start": 22.08,
+   "brand": false
+  },
+  {
+   "id": "w1_5",
+   "i": 5,
+   "text": "mundo.",
+   "start": 22.44,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Terceiro,",
+   "start": 23.08,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "inteligência",
+   "start": 23.84,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "artificial.",
+   "start": 24.32,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "O",
+   "start": 24.88,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "que",
+   "start": 25.0,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "antes",
+   "start": 25.16,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "levava",
+   "start": 25.28,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "para",
+   "start": 25.4,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "um",
+   "start": 25.56,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "professor",
+   "start": 25.68,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "cinco",
+   "start": 26.04,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "horas,",
+   "start": 26.44,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "agora",
+   "start": 26.92,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "leva",
+   "start": 27.2,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "só",
+   "start": 27.44,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "cinco",
+   "start": 27.64,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "minutos.",
+   "start": 27.96,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Aulas",
+   "start": 28.6,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "que",
+   "start": 28.8,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "se",
+   "start": 29.04,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "planejam",
+   "start": 29.24,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "em",
+   "start": 29.48,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "segundos.",
+   "start": 29.68,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Suas",
+   "start": 30.0,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "aulas",
+   "start": 30.4,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "em",
+   "start": 30.76,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "qualquer",
+   "start": 31.12,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "idioma.",
+   "start": 31.52,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Avaliações",
+   "start": 32.16,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "que",
+   "start": 32.36,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "se",
+   "start": 32.6,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "criam",
+   "start": 32.8,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "sozinhas.",
+   "start": 33.04,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Quarto,",
+   "start": 33.68,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "um",
+   "start": 34.24,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "formato",
+   "start": 34.4,
+   "brand": false
+  },
+  {
+   "id": "w2_0",
+   "i": 0,
+   "text": "graaaaaande.",
+   "start": 34.8,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Porque",
+   "start": 35.88,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "grandes",
+   "start": 36.2,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "ideias",
+   "start": 36.52,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "pedem",
+   "start": 36.92,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "grandes",
+   "start": 37.44,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "telas.",
+   "start": 37.96,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Tem",
+   "start": 38.68,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "coisa",
+   "start": 38.92,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "que",
+   "start": 39.16,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "precisa",
+   "start": 39.4,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "ser",
+   "start": 39.64,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "vista",
+   "start": 39.88,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "e",
+   "start": 40.24,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "feita",
+   "start": 40.56,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "em",
+   "start": 40.84,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "grande.",
+   "start": 41.16,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Telas",
+   "start": 41.6,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "LED",
+   "start": 41.8,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "de",
+   "start": 42.0,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "grande",
+   "start": 42.16,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "formato",
+   "start": 42.36,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "para",
+   "start": 42.84,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "experiências",
+   "start": 43.28,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "realmente",
+   "start": 43.72,
+   "brand": false
+  },
+  {
+   "id": "w1_3",
+   "i": 3,
+   "text": "únicas,",
+   "start": 44.16,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "De",
+   "start": 44.96,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "108\"",
+   "start": 45.2,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "a",
+   "start": 45.68,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "217\".",
+   "start": 46.2,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "E",
+   "start": 48.12,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "quinto,",
+   "start": 48.2,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "a",
+   "start": 48.76,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "mais",
+   "start": 48.88,
+   "brand": false
+  },
+  {
+   "id": "w1_2",
+   "i": 2,
+   "text": "importante,",
+   "start": 49.0,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "Que",
+   "start": 49.72,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "você",
+   "start": 49.96,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "veja",
+   "start": 50.2,
+   "brand": false
+  },
+  {
+   "id": "w0_3",
+   "i": 3,
+   "text": "com",
+   "start": 50.44,
+   "brand": false
+  },
+  {
+   "id": "w0_4",
+   "i": 4,
+   "text": "os",
+   "start": 50.72,
+   "brand": false
+  },
+  {
+   "id": "w0_5",
+   "i": 5,
+   "text": "seus",
+   "start": 50.96,
+   "brand": false
+  },
+  {
+   "id": "w0_6",
+   "i": 6,
+   "text": "próprios",
+   "start": 51.2,
+   "brand": false
+  },
+  {
+   "id": "w0_7",
+   "i": 7,
+   "text": "olhos.",
+   "start": 51.44,
+   "brand": false
+  },
+  {
+   "id": "w0_0",
+   "i": 0,
+   "text": "É",
+   "start": 52.12,
+   "brand": false
+  },
+  {
+   "id": "w0_1",
+   "i": 1,
+   "text": "só",
+   "start": 52.44,
+   "brand": false
+  },
+  {
+   "id": "w0_2",
+   "i": 2,
+   "text": "tocar",
+   "start": 52.8,
+   "brand": false
+  },
+  {
+   "id": "w1_0",
+   "i": 0,
+   "text": "na",
+   "start": 53.04,
+   "brand": false
+  },
+  {
+   "id": "w1_1",
+   "i": 1,
+   "text": "tela.",
+   "start": 53.16,
+   "brand": false
+  }
+ ],
+ "lang": "pt-BR"
+}

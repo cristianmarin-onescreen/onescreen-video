@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          font-weight: 400 700;
+          font-style: normal;
+          src: url("assets/fonts/rubik-variable.woff2") format("woff2-variations");
+          /* fallback if the browser doesn't support variable-font format strings: format('woff2') */
+        }
+
+        #root {
+          position: absolute;
+          inset: 0;
+          overflow: hidden;
+          container-type: size;
+          container-name: frame;
+          font-family: "Rubik", sans-serif;
+        }
+
+        .clip {
+          position: absolute;
+          inset: 0;
+        }
+
+        #stage {
+          background: #fafafa;
+        }
+
+        /* — atmosphere: 3x3 cobalt dot-grid, dead center, behind the type — */
+        .dot-grid {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 0;
+          height: 0;
+          z-index: 1;
+        }
+        .dot {
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          margin: -5px; /* centers the 10px dot on its top/left anchor without a CSS transform */
+          border-radius: 50%;
+          background: #3976ff;
+          opacity: 0.08;
+          will-change: transform, opacity;
+        }
+        .dot--n0 {
+          top: calc(50% - 90px);
+          left: calc(50% - 90px);
+        }
+        .dot--n1 {
+          top: calc(50% - 90px);
+          left: 50%;
+        }
+        .dot--n2 {
+          top: calc(50% - 90px);
+          left: calc(50% + 90px);
+        }
+        .dot--n3 {
+          top: 50%;
+          left: calc(50% - 90px);
+        }
+        .dot--n4 {
+          top: 50%;
+          left: 50%;
+        }
+        .dot--n5 {
+          top: 50%;
+          left: calc(50% + 90px);
+        }
+        .dot--n6 {
+          top: calc(50% + 90px);
+          left: calc(50% - 90px);
+        }
+        .dot--n7 {
+          top: calc(50% + 90px);
+          left: 50%;
+        }
+        .dot--n8 {
+          top: calc(50% + 90px);
+          left: calc(50% + 90px);
+        }
+
+        /* — type: two hard-cut states, stacked on the same centered cell — */
+        .line-wrap {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 5cqw;
+          z-index: 2;
+        }
+        .line {
+          grid-area: 1 / 1;
+          text-align: center;
+          font-weight: 700;
+          font-size: 3.4cqw;
+          line-height: 1.28;
+          letter-spacing: -0.02em;
+          color: #293052;
+          max-width: 72cqw;
+        }
+        .line-1 {
+          opacity: 1;
+        }
+        .line-2 {
+          opacity: 0;
+        }
+        .word {
+          display: inline-block;
+        }
+      </style>
+
+      <div data-hf-id="hf-pt9e" id="root" data-composition-id="01-espacios-que-ocupan" data-width="1920" data-height="1080" data-duration="7.38">
+        <div data-hf-id="hf-w03i" id="stage" class="clip" data-start="0" data-duration="7.38" data-track-index="1">
+          <div data-hf-id="hf-mbmi" class="dot-grid" id="dotGrid" aria-hidden="true">
+            <span data-hf-id="hf-875e" class="dot dot--n0" id="dot0"></span>
+            <span data-hf-id="hf-i8fq" class="dot dot--n1" id="dot1"></span>
+            <span data-hf-id="hf-66tq" class="dot dot--n2" id="dot2"></span>
+            <span data-hf-id="hf-muy2" class="dot dot--n3" id="dot3"></span>
+            <span data-hf-id="hf-q0vm" class="dot dot--n4" id="dot4"></span>
+            <span data-hf-id="hf-msb2" class="dot dot--n5" id="dot5"></span>
+            <span data-hf-id="hf-xk7a" class="dot dot--n6" id="dot6"></span>
+            <span data-hf-id="hf-pty2" class="dot dot--n7" id="dot7"></span>
+            <span data-hf-id="hf-1l6q" class="dot dot--n8" id="dot8"></span>
+          </div>
+
+          <div data-hf-id="hf-i6jr" class="line-wrap">
+            <div data-hf-id="hf-f0tf" class="line line-1" id="line1">
+              <span data-hf-id="hf-37md" class="word">Hay</span> <span data-hf-id="hf-guyo" class="word">espacios</span> <span data-hf-id="hf-9x9a" class="word">que</span> <span data-hf-id="hf-xf5q" class="word">solo</span> <span data-hf-id="hf-ao2x" class="word">ocupan</span> <span data-hf-id="hf-0wti" class="word">un</span> <span data-hf-id="hf-81va" class="word">lugar.</span>
+            </div>
+            <div data-hf-id="hf-pufi" class="line line-2" id="line2">Y hay espacios que cambian lo que pasa dentro de ellos.</div>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+      <script>
+        window.__timelines = window.__timelines || {};
+        const tl = gsap.timeline({ paused: true });
+
+        // — Scene 1 (0.0–3.0s): per-word staggered reveal of the first clause, paced to the
+        // voiceover which starts speaking at t=0. Words settle with a long-tail power3 ease
+        // (no back.out / overshoot per doctrine). Dot-grid stays inert (no tween before 3.0).
+        const words1 = gsap.utils.toArray("#line1 .word");
+        words1.forEach((el, i) => {
+          tl.fromTo(
+            el,
+            { y: 18, opacity: 0 },
+            { y: 0, opacity: 1, duration: 0.5, ease: "power3.out" },
+            0.05 + i * 0.08,
+          );
+        });
+
+        // — Scene 2 seam (t=3.0s): instant hard cut, no fade/slide — sub-shape A of
+        // kinetic-type-beats swaps the whole line in place. Line 1 vanishes, line 2 appears
+        // already resolved (discrete-text-sequence: whole-state swap at a time threshold).
+        tl.set("#line1", { opacity: 0 }, 3.0);
+        tl.set("#line2", { opacity: 1 }, 3.0);
+
+        // — Scene 2 (3.0–6.78s): the dot-grid wakes up — a low-amplitude center-outward
+        // expansion. Each dot drifts ~30% further from center and brightens 0.08 -> 0.15,
+        // a light per-dot stagger keeps it organic rather than a mechanical chord. Holds
+        // static for the final ~0.3s (no exit — this is a non-final-frame hard cut to the
+        // next frame handled by the harness transition, not an authored exit tween).
+        const dots = [
+          { el: "#dot0", bx: -90, by: -90 },
+          { el: "#dot1", bx: 0, by: -90 },
+          { el: "#dot2", bx: 90, by: -90 },
+          { el: "#dot3", bx: -90, by: 0 },
+          { el: "#dot4", bx: 0, by: 0 },
+          { el: "#dot5", bx: 90, by: 0 },
+          { el: "#dot6", bx: -90, by: 90 },
+          { el: "#dot7", bx: 0, by: 90 },
+          { el: "#dot8", bx: 90, by: 90 },
+        ];
+        dots.forEach((d, i) => {
+          const dx = d.bx * 0.3; // additional outward travel (base * 1.3 - base)
+          const dy = d.by * 0.3;
+          tl.fromTo(
+            d.el,
+            { x: 0, y: 0, opacity: 0.08 },
+            { x: dx, y: dy, opacity: 0.15, duration: 3.2, ease: "power3.out" },
+            3.0 + i * 0.03,
+          );
+        });
+
+        window.__timelines["01-espacios-que-ocupan"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

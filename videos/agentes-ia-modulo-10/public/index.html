@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face { font-family: 'Rubik'; src: url('fonts/Rubik-variable-latin.woff2') format('woff2'); font-weight: 300 900; font-style: normal; font-display: block; }
+      @font-face { font-family: 'Manrope'; src: url('fonts/Manrope-variable-latin.woff2') format('woff2'); font-weight: 200 800; font-style: normal; font-display: block; }
+
+      :root {
+        --bg: #0a0e1a;
+        --text: #fafafa;
+        --accent-0: #3976ff;
+        --accent-1: #7d00ba;
+        --accent-2: #2ad268;
+        --accent-3: #6d9dff;
+        --accent-4: #c084fc;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;
+        background: #000;
+        font-family: 'Manrope', 'Rubik', ui-sans-serif, system-ui, sans-serif;
+      }
+      #stage { position: relative; width: 100%; height: 100%; overflow: hidden; background: radial-gradient(ellipse at 30% 20%, #141a30 0%, var(--bg) 55%, #050710 100%); }
+      #stage::before {
+        content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .18;
+        background-image:
+          linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+        background-size: 64px 64px;
+      }
+
+      .video-wrapper { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; border-radius: 0; box-shadow: none; }
+      .video-wrapper video { width: 100%; height: 100%; object-fit: cover; }
+      .video-wrapper.framed { border-radius: 20px; border: 2px solid rgba(255,255,255,.12); box-shadow: 0 0 0 1px rgba(57,118,255,.35), 0 0 50px rgba(57,118,255,.22), 0 24px 70px rgba(0,0,0,.55); }
+      .video-wrapper.pip-pill { border-radius: 24px; border: 3px solid rgba(255,255,255,.18); box-shadow: 0 0 0 2px rgba(57,118,255,.45), 0 0 60px rgba(57,118,255,.3), 0 20px 50px rgba(0,0,0,.6); }
+
+      .card-host { position: absolute; pointer-events: none; overflow: hidden; }
+      .card-host .card { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      .card-host .char { display: inline-block; visibility: visible; }
+    </style>
+  </head>
+  <body>
+    <div id="stage" data-composition-id="talking-head-recut" data-start="0" data-duration="173.28" data-fps="25" data-width="1920" data-height="1080">
+      <div class="video-wrapper" id="video-wrap" style="width:1920px;height:1080px;">
+        <video id="bg-video" src="input-video.mp4" muted playsinline data-start="0" data-duration="173.28" data-track-index="1"></video>
+      </div>
+      <audio id="source-audio" src="input-video.mp4" data-start="0" data-duration="173.28" data-track-index="10" data-volume="1"></audio>
+
+      <div class="card-host clip" id="host-card-01" data-card-id="card-01" data-start="0.1200" data-duration="7.6800" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-01">
+  <style>
+    .card[data-card-id="card-01"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-01"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-01"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-01"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-01"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-01"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-01"] .char{display:inline-block;}
+    .card[data-card-id="card-01"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-01"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-01"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#7d00ba;">
+    
+      <div class="panel" style="left:80px;bottom:90px;width:760px;padding:34px 42px;">
+        <p class="kicker" id="card-01-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">MÓDULO 10 · ONESCREEN ACADEMY</p>
+        <h1 class="title" id="card-01-title" style="font-size:64px;" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.5" data-anim-stagger="0.025" data-anim-pattern="pop"><span style="display:inline-block;white-space:nowrap;"><span class="char">F</span><span class="char">e</span><span class="char">l</span><span class="char">i</span><span class="char">p</span><span class="char">e</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">M</span><span class="char">a</span><span class="char">r</span><span class="char">t</span><span class="char">í</span><span class="char">n</span><span class="char">e</span><span class="char">z</span></span></h1>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-02" data-card-id="card-02" data-start="7.8000" data-duration="7.4800" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-02">
+  <style>
+    .card[data-card-id="card-02"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-02"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-02"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-02"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-02"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-02"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-02"] .char{display:inline-block;}
+    .card[data-card-id="card-02"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-02"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-02"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#7d00ba;">
+    
+      <div class="panel" style="left:50%;top:50%;transform:translate(-50%,-50%);width:min(1200px, calc(100% - 128px));padding:56px 64px;text-align:center;">
+        <p class="kicker" id="card-02-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">HOY</p>
+        <h1 class="title" id="card-02-title" style="font-size:86px;" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.6" data-anim-stagger="0.02" data-anim-pattern="pop"><span style="display:inline-block;white-space:nowrap;"><span class="char">L</span><span class="char">e</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">d</span><span class="char">a</span><span class="char">m</span><span class="char">o</span><span class="char">s</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">a</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">t</span><span class="char">u</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">a</span><span class="char">g</span><span class="char">e</span><span class="char">n</span><span class="char">t</span><span class="char">e</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">a</span><span class="char">l</span><span class="char">g</span><span class="char">o</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">q</span><span class="char">u</span><span class="char">e</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">n</span><span class="char">o</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">t</span><span class="char">i</span><span class="char">e</span><span class="char">n</span><span class="char">e</span></span></h1>
+        <p class="detail" id="card-02-detail" style="text-align:center;" data-anim="fade-in" data-anim-at="0.55" data-anim-duration="0.4">Conocimiento propio de tu institución</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-03" data-card-id="card-03" data-start="15.2800" data-duration="4.8000" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-03">
+  <style>
+    .card[data-card-id="card-03"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-03"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-03"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-03"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-03"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-03"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-03"] .char{display:inline-block;}
+    .card[data-card-id="card-03"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-03"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-03"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-03-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">HASTA ESTE PUNTO</p>
+        <div class="bar" id="card-03-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-03-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">Responde bien, pero de forma genérica</h1>
+        
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-04" data-card-id="card-04" data-start="20.0800" data-duration="12.8400" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-04">
+  <style>
+    .card[data-card-id="card-04"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-04"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-04"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-04"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-04"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-04"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-04"] .char{display:inline-block;}
+    .card[data-card-id="card-04"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-04"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-04"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#6d9dff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-04-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">&#9888;&nbsp; SI LE PREGUNTAS ALGO ESPECÍFICO</p>
+        <div class="bar" id="card-04-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-04-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">Va a inventar una respuesta razonable</h1>
+        <p class="detail" id="card-04-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">Pero incorrecta</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-05" data-card-id="card-05" data-start="32.9200" data-duration="7.7200" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-05">
+  <style>
+    .card[data-card-id="card-05"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-05"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-05"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-05"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-05"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-05"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-05"] .char{display:inline-block;}
+    .card[data-card-id="card-05"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-05"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-05"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        
+        <div class="bar" id="card-05-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-05-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">No es que el agente mienta a propósito</h1>
+        <p class="detail" id="card-05-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">Cuando no sabe algo, tiende a rellenar el vacío</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-06" data-card-id="card-06" data-start="40.6400" data-duration="13.4800" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-06">
+  <style>
+    .card[data-card-id="card-06"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-06"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-06"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-06"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-06"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-06"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-06"] .char{display:inline-block;}
+    .card[data-card-id="card-06"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-06"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-06"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#7d00ba;">
+    
+      <div class="panel" style="left:50%;top:50%;transform:translate(-50%,-50%);width:min(1300px, calc(100% - 128px));padding:64px 72px;text-align:center;">
+        <div style="font-family:'Rubik';font-size:110px;color:#7d00ba;opacity:.5;line-height:.4;">&#8220;</div>
+        <h1 class="title" id="card-06-title" style="font-size:64px;font-weight:700;" data-anim="fade-in" data-anim-at="0.2" data-anim-duration="0.6">A esto se le llama alucinación.</h1>
+        <p class="detail" id="card-06-detail" style="text-align:center;font-size:34px;color:#dfe3f0;" data-anim="fade-in" data-anim-at="0.7" data-anim-duration="0.5">En vez de decir que no lo sabe</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-07" data-card-id="card-07" data-start="54.1200" data-duration="5.6000" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-07">
+  <style>
+    .card[data-card-id="card-07"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-07"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-07"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-07"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-07"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-07"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-07"] .char{display:inline-block;}
+    .card[data-card-id="card-07"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-07"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-07"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-07-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">LA SOLUCIÓN ES SIMPLE</p>
+        <div class="bar" id="card-07-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-07-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">Cargar un documento propio como conocimiento</h1>
+        
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-08" data-card-id="card-08" data-start="59.7200" data-duration="11.1600" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-08">
+  <style>
+    .card[data-card-id="card-08"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-08"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-08"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-08"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-08"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-08"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-08"] .char{display:inline-block;}
+    .card[data-card-id="card-08"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-08"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-08"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1180px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-08-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">PUEDE SER</p>
+        <div class="bar" id="card-08-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.15" data-anim-duration="0.4" data-anim-target-w="120"></div>
+        
+        <div>
+        <div class="item" id="card-08-item-0" style="margin-top:0px;" data-anim="fade-in" data-anim-at="0.30" data-anim-duration="0.35">
+          <span class="dot"></span><span class="item-text">Tu plan curricular</span>
+        </div>
+
+        <div class="item" id="card-08-item-1" style="margin-top:18px;" data-anim="fade-in" data-anim-at="0.45" data-anim-duration="0.35">
+          <span class="dot"></span><span class="item-text">Tu manual de convivencia</span>
+        </div>
+
+        <div class="item" id="card-08-item-2" style="margin-top:18px;" data-anim="fade-in" data-anim-at="0.60" data-anim-duration="0.35">
+          <span class="dot"></span><span class="item-text">Un instructivo interno</span>
+        </div></div>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-09" data-card-id="card-09" data-start="70.8800" data-duration="8.0000" data-track-index="2"
+        style="left:0px;top:0px;width:960px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-09">
+  <style>
+    .card[data-card-id="card-09"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-09"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-09"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-09"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-09"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-09"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-09"] .char{display:inline-block;}
+    .card[data-card-id="card-09"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-09"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-09"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#2ad268;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-09-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">&#10003;&nbsp; </p>
+        <div class="bar" id="card-09-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-09-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">Subir el documento directamente</h1>
+        <p class="detail" id="card-09-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">Sin ningún paso técnico adicional</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-10" data-card-id="card-10" data-start="78.8800" data-duration="11.8400" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-10">
+  <style>
+    .card[data-card-id="card-10"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-10"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-10"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-10"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-10"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-10"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-10"] .char{display:inline-block;}
+    .card[data-card-id="card-10"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-10"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-10"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#7d00ba;">
+    
+      <div class="panel" style="left:50%;top:50%;transform:translate(-50%,-50%);width:min(1200px, calc(100% - 128px));padding:56px 64px;text-align:center;">
+        <p class="kicker" id="card-10-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">HAZLO AHORA MISMO</p>
+        <h1 class="title" id="card-10-title" style="font-size:86px;" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.6" data-anim-stagger="0.02" data-anim-pattern="pop"><span style="display:inline-block;white-space:nowrap;"><span class="char">E</span><span class="char">l</span><span class="char">i</span><span class="char">g</span><span class="char">e</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">u</span><span class="char">n</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">d</span><span class="char">o</span><span class="char">c</span><span class="char">u</span><span class="char">m</span><span class="char">e</span><span class="char">n</span><span class="char">t</span><span class="char">o</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">r</span><span class="char">e</span><span class="char">a</span><span class="char">l</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">y</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">c</span><span class="char">á</span><span class="char">r</span><span class="char">g</span><span class="char">a</span><span class="char">l</span><span class="char">o</span></span></h1>
+        <p class="detail" id="card-10-detail" style="text-align:center;" data-anim="fade-in" data-anim-at="0.55" data-anim-duration="0.4">Uno que tenga que ver con la tarea que le definiste</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-11" data-card-id="card-11" data-start="90.7200" data-duration="12.6000" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-11">
+  <style>
+    .card[data-card-id="card-11"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-11"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-11"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-11"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-11"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-11"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-11"] .char{display:inline-block;}
+    .card[data-card-id="card-11"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-11"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-11"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1180px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-11-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">SEGÚN TU AGENTE</p>
+        <div class="bar" id="card-11-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.15" data-anim-duration="0.4" data-anim-target-w="120"></div>
+        
+        <div>
+        <div class="item" id="card-11-item-0" style="margin-top:0px;" data-anim="fade-in" data-anim-at="0.30" data-anim-duration="0.35">
+          <span class="dot"></span><span class="item-text">FAQ de padres → manual de convivencia o calendario</span>
+        </div>
+
+        <div class="item" id="card-11-item-1" style="margin-top:18px;" data-anim="fade-in" data-anim-at="0.45" data-anim-duration="0.35">
+          <span class="dot"></span><span class="item-text">Apoya coordinación → un reporte real como referencia</span>
+        </div></div>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-12" data-card-id="card-12" data-start="103.3200" data-duration="13.5200" data-track-index="2"
+        style="left:0px;top:0px;width:960px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-12">
+  <style>
+    .card[data-card-id="card-12"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-12"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-12"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-12"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-12"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-12"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-12"] .char{display:inline-block;}
+    .card[data-card-id="card-12"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-12"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-12"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#2ad268;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-12-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">&#10003;&nbsp; PRUEBA: ANTES Y DESPUÉS</p>
+        <div class="bar" id="card-12-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-12-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">La misma pregunta, antes y después de cargarlo</h1>
+        <p class="detail" id="card-12-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">Vas a notar la diferencia de inmediato</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-13" data-card-id="card-13" data-start="116.8400" data-duration="7.6800" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-13">
+  <style>
+    .card[data-card-id="card-13"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-13"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-13"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-13"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-13"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-13"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-13"] .char{display:inline-block;}
+    .card[data-card-id="card-13"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-13"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-13"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#2ad268;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-13-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">&#10003;&nbsp; </p>
+        <div class="bar" id="card-13-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-13-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">Deja de sonar genérico</h1>
+        <p class="detail" id="card-13-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">Empieza a sonar como algo que solo tiene sentido en el tuyo</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-14" data-card-id="card-14" data-start="124.5200" data-duration="17.4400" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-14">
+  <style>
+    .card[data-card-id="card-14"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-14"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-14"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-14"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-14"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-14"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-14"] .char{display:inline-block;}
+    .card[data-card-id="card-14"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-14"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-14"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#6d9dff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-14-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">&#9888;&nbsp; RECOMENDACIÓN IMPORTANTE</p>
+        <div class="bar" id="card-14-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-14-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">No cargues todo solo porque puedes</h1>
+        <p class="detail" id="card-14-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">Demasiada información desordenada confunde contextos</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-15" data-card-id="card-15" data-start="141.9600" data-duration="5.9600" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-15">
+  <style>
+    .card[data-card-id="card-15"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-15"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-15"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-15"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-15"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-15"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-15"] .char{display:inline-block;}
+    .card[data-card-id="card-15"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-15"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-15"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#7d00ba;">
+    
+      <div class="panel" style="left:50%;top:50%;transform:translate(-50%,-50%);width:min(1300px, calc(100% - 128px));padding:64px 72px;text-align:center;">
+        <div style="font-family:'Rubik';font-size:110px;color:#7d00ba;opacity:.5;line-height:.4;">&#8220;</div>
+        <h1 class="title" id="card-15-title" style="font-size:64px;font-weight:700;" data-anim="fade-in" data-anim-at="0.2" data-anim-duration="0.6">Menos documentos bien elegidos.</h1>
+        <p class="detail" id="card-15-detail" style="text-align:center;font-size:34px;color:#dfe3f0;" data-anim="fade-in" data-anim-at="0.7" data-anim-duration="0.5">Funcionan mejor que una carpeta completa sin criterio</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-16" data-card-id="card-16" data-start="147.9200" data-duration="13.8400" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-16">
+  <style>
+    .card[data-card-id="card-16"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-16"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-16"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-16"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-16"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-16"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-16"] .char{display:inline-block;}
+    .card[data-card-id="card-16"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-16"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-16"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#7d00ba;">
+    
+      <div class="panel" style="left:50%;top:50%;transform:translate(-50%,-50%);width:min(1200px, calc(100% - 128px));padding:56px 64px;text-align:center;">
+        <p class="kicker" id="card-16-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">EL QUIZ DE ESTE MÓDULO</p>
+        <h1 class="title" id="card-16-title" style="font-size:86px;" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.6" data-anim-stagger="0.02" data-anim-pattern="pop"><span style="display:inline-block;white-space:nowrap;"><span class="char">¿</span><span class="char">Q</span><span class="char">u</span><span class="char">é</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">d</span><span class="char">o</span><span class="char">c</span><span class="char">u</span><span class="char">m</span><span class="char">e</span><span class="char">n</span><span class="char">t</span><span class="char">o</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">c</span><span class="char">a</span><span class="char">r</span><span class="char">g</span><span class="char">a</span><span class="char">s</span><span class="char">t</span><span class="char">e</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">y</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">q</span><span class="char">u</span><span class="char">é</span></span> <span style="display:inline-block;white-space:nowrap;"><span class="char">c</span><span class="char">a</span><span class="char">m</span><span class="char">b</span><span class="char">i</span><span class="char">ó</span><span class="char">?</span></span></h1>
+        <p class="detail" id="card-16-detail" style="text-align:center;" data-anim="fade-in" data-anim-at="0.55" data-anim-duration="0.4">Asegúrate de haber hecho la prueba real</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-17" data-card-id="card-17" data-start="161.7600" data-duration="7.7600" data-track-index="2"
+        style="left:0px;top:580px;width:1920px;height:500px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-17">
+  <style>
+    .card[data-card-id="card-17"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-17"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-17"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-17"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-17"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-17"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-17"] .char{display:inline-block;}
+    .card[data-card-id="card-17"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-17"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-17"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div class="panel" style="left:64px;top:64px;width:min(1200px, calc(100% - 128px));padding:48px 56px;">
+        <p class="kicker" id="card-17-kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">PRÓXIMO MÓDULO</p>
+        <div class="bar" id="card-17-bar" style="width:0;" data-anim="grow-x" data-anim-at="0.2" data-anim-duration="0.45" data-anim-target-w="120"></div>
+        <h1 class="title" id="card-17-title" style="font-size:56px;" data-anim="slide-in" data-anim-at="0.25" data-anim-duration="0.45" data-anim-from="left" data-anim-distance="40">Herramientas y acciones</h1>
+        <p class="detail" id="card-17-detail" data-anim="fade-in" data-anim-at="0.5" data-anim-duration="0.4">No solo responder con base en lo que sabe</p>
+      </div>
+  </div>
+</div>
+
+      </div>
+      <div class="card-host clip" id="host-card-18" data-card-id="card-18" data-start="169.5200" data-duration="3.7600" data-track-index="2"
+        style="left:0px;top:0px;width:1920px;height:1080px;visibility:hidden;opacity:0;">
+<div class="card" data-card-id="card-18">
+  <style>
+    .card[data-card-id="card-18"] .root{width:100%;height:100%;position:relative;font-family:'Manrope',sans-serif;color:var(--text);}
+    .card[data-card-id="card-18"] .panel{position:absolute;background:rgba(12,16,32,.88);border:1px solid rgba(255,255,255,.09);border-radius:22px;box-shadow:0 24px 70px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.06);}
+    .card[data-card-id="card-18"] .kicker{font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;}
+    .card[data-card-id="card-18"] .bar{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--accent),transparent);margin-bottom:18px;}
+    .card[data-card-id="card-18"] .title{font-family:'Rubik',sans-serif;font-weight:800;color:#fafafa;margin:0;line-height:1.08;letter-spacing:-.01em;}
+    .card[data-card-id="card-18"] .detail{font-family:'Manrope',sans-serif;font-weight:400;font-size:28px;line-height:1.4;color:#aab2c8;margin:16px 0 0;}
+    .card[data-card-id="card-18"] .char{display:inline-block;}
+    .card[data-card-id="card-18"] .item{display:flex;align-items:flex-start;gap:16px;}
+    .card[data-card-id="card-18"] .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:12px;flex:none;}
+    .card[data-card-id="card-18"] .item-text{font-family:'Manrope',sans-serif;font-weight:500;font-size:30px;color:#e8ebf5;line-height:1.35;}
+  
+</style>
+  <div class="root" style="--accent:#3976ff;">
+    
+      <div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:min(1100px, calc(100% - 128px));">
+        <img src="assets/logos/onescreen-white.png" alt="OneScreen" style="height:70px;margin-bottom:36px;" id="card-18-logo" data-anim="fade-in" data-anim-at="0.15" data-anim-duration="0.5" />
+        <h1 class="title" id="card-18-title" style="font-size:58px;" data-anim="fade-in" data-anim-at="0.4" data-anim-duration="0.6">Nos vemos ahí</h1>
+      </div>
+  </div>
+</div>
+
+      </div>
+
+      <script src="vendor/gsap.min.js"></script>
+      <script>
+        (function () {
+          const tl = window.gsap.timeline({ paused: true });
+          window.__fmt = function (v, fmt) { if (/^\.[0-9]+f$/.test(fmt||'')) return Number(v).toFixed(Number(fmt.slice(1,-1))); return String(Math.round(v)); };
+          tl.set('#video-wrap', { className: 'video-wrapper' }, 0.12);
+          tl.to('#video-wrap', { x: 0, y: 0, width: 1920, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 0.12);
+          tl.set('.card-host[data-card-id="card-01"]', { visibility: 'visible' }, 0.12);
+          tl.fromTo('.card-host[data-card-id="card-01"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 0.12);
+          tl.to('.card-host[data-card-id="card-01"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 7.45);
+          tl.set('.card-host[data-card-id="card-01"]', { visibility: 'hidden' }, 7.8);
+          tl.set('.card-host[data-card-id="card-02"]', { visibility: 'visible' }, 7.8);
+          tl.fromTo('.card-host[data-card-id="card-02"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 7.8);
+          tl.to('.card-host[data-card-id="card-02"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 14.93);
+          tl.set('.card-host[data-card-id="card-02"]', { visibility: 'hidden' }, 15.28);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 15.28);
+          tl.to('#video-wrap', { x: 14, y: 14, width: 1892, height: 548, duration: 0.5, ease: 'power2.inOut' }, 15.28);
+          tl.set('.card-host[data-card-id="card-03"]', { visibility: 'visible' }, 15.28);
+          tl.fromTo('.card-host[data-card-id="card-03"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 15.28);
+          tl.to('.card-host[data-card-id="card-03"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 19.73);
+          tl.set('.card-host[data-card-id="card-03"]', { visibility: 'hidden' }, 20.08);
+          tl.set('.card-host[data-card-id="card-04"]', { visibility: 'visible' }, 20.08);
+          tl.fromTo('.card-host[data-card-id="card-04"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 20.08);
+          tl.to('.card-host[data-card-id="card-04"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 32.57);
+          tl.set('.card-host[data-card-id="card-04"]', { visibility: 'hidden' }, 32.92);
+          tl.set('.card-host[data-card-id="card-05"]', { visibility: 'visible' }, 32.92);
+          tl.fromTo('.card-host[data-card-id="card-05"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 32.92);
+          tl.to('.card-host[data-card-id="card-05"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 40.29);
+          tl.set('.card-host[data-card-id="card-05"]', { visibility: 'hidden' }, 40.64);
+          tl.set('#video-wrap', { className: 'video-wrapper' }, 40.64);
+          tl.to('#video-wrap', { x: 0, y: 0, width: 1920, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 40.64);
+          tl.set('.card-host[data-card-id="card-06"]', { visibility: 'visible' }, 40.64);
+          tl.fromTo('.card-host[data-card-id="card-06"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 40.64);
+          tl.to('.card-host[data-card-id="card-06"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 53.77);
+          tl.set('.card-host[data-card-id="card-06"]', { visibility: 'hidden' }, 54.12);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 54.12);
+          tl.to('#video-wrap', { x: 14, y: 14, width: 1892, height: 548, duration: 0.5, ease: 'power2.inOut' }, 54.12);
+          tl.set('.card-host[data-card-id="card-07"]', { visibility: 'visible' }, 54.12);
+          tl.fromTo('.card-host[data-card-id="card-07"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 54.12);
+          tl.to('.card-host[data-card-id="card-07"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 59.37);
+          tl.set('.card-host[data-card-id="card-07"]', { visibility: 'hidden' }, 59.72);
+          tl.set('#video-wrap', { className: 'video-wrapper pip-pill framed' }, 59.72);
+          tl.to('#video-wrap', { x: 1480, y: 760, width: 400, height: 300, duration: 0.5, ease: 'power2.inOut' }, 59.72);
+          tl.set('.card-host[data-card-id="card-08"]', { visibility: 'visible' }, 59.72);
+          tl.fromTo('.card-host[data-card-id="card-08"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 59.72);
+          tl.to('.card-host[data-card-id="card-08"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 70.53);
+          tl.set('.card-host[data-card-id="card-08"]', { visibility: 'hidden' }, 70.88);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 70.88);
+          tl.to('#video-wrap', { x: 960, y: 0, width: 960, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 70.88);
+          tl.set('.card-host[data-card-id="card-09"]', { visibility: 'visible' }, 70.88);
+          tl.fromTo('.card-host[data-card-id="card-09"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 70.88);
+          tl.to('.card-host[data-card-id="card-09"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 78.53);
+          tl.set('.card-host[data-card-id="card-09"]', { visibility: 'hidden' }, 78.88);
+          tl.set('#video-wrap', { className: 'video-wrapper' }, 78.88);
+          tl.to('#video-wrap', { x: 0, y: 0, width: 1920, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 78.88);
+          tl.set('.card-host[data-card-id="card-10"]', { visibility: 'visible' }, 78.88);
+          tl.fromTo('.card-host[data-card-id="card-10"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 78.88);
+          tl.to('.card-host[data-card-id="card-10"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 90.37);
+          tl.set('.card-host[data-card-id="card-10"]', { visibility: 'hidden' }, 90.72);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 90.72);
+          tl.to('#video-wrap', { x: 14, y: 14, width: 1892, height: 548, duration: 0.5, ease: 'power2.inOut' }, 90.72);
+          tl.set('.card-host[data-card-id="card-11"]', { visibility: 'visible' }, 90.72);
+          tl.fromTo('.card-host[data-card-id="card-11"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 90.72);
+          tl.to('.card-host[data-card-id="card-11"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 102.97);
+          tl.set('.card-host[data-card-id="card-11"]', { visibility: 'hidden' }, 103.32);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 103.32);
+          tl.to('#video-wrap', { x: 960, y: 0, width: 960, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 103.32);
+          tl.set('.card-host[data-card-id="card-12"]', { visibility: 'visible' }, 103.32);
+          tl.fromTo('.card-host[data-card-id="card-12"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 103.32);
+          tl.to('.card-host[data-card-id="card-12"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 116.49);
+          tl.set('.card-host[data-card-id="card-12"]', { visibility: 'hidden' }, 116.84);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 116.84);
+          tl.to('#video-wrap', { x: 14, y: 14, width: 1892, height: 548, duration: 0.5, ease: 'power2.inOut' }, 116.84);
+          tl.set('.card-host[data-card-id="card-13"]', { visibility: 'visible' }, 116.84);
+          tl.fromTo('.card-host[data-card-id="card-13"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 116.84);
+          tl.to('.card-host[data-card-id="card-13"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 124.17);
+          tl.set('.card-host[data-card-id="card-13"]', { visibility: 'hidden' }, 124.52);
+          tl.set('.card-host[data-card-id="card-14"]', { visibility: 'visible' }, 124.52);
+          tl.fromTo('.card-host[data-card-id="card-14"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 124.52);
+          tl.to('.card-host[data-card-id="card-14"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 141.61);
+          tl.set('.card-host[data-card-id="card-14"]', { visibility: 'hidden' }, 141.96);
+          tl.set('#video-wrap', { className: 'video-wrapper' }, 141.96);
+          tl.to('#video-wrap', { x: 0, y: 0, width: 1920, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 141.96);
+          tl.set('.card-host[data-card-id="card-15"]', { visibility: 'visible' }, 141.96);
+          tl.fromTo('.card-host[data-card-id="card-15"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 141.96);
+          tl.to('.card-host[data-card-id="card-15"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 147.57);
+          tl.set('.card-host[data-card-id="card-15"]', { visibility: 'hidden' }, 147.92);
+          tl.set('.card-host[data-card-id="card-16"]', { visibility: 'visible' }, 147.92);
+          tl.fromTo('.card-host[data-card-id="card-16"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 147.92);
+          tl.to('.card-host[data-card-id="card-16"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 161.41);
+          tl.set('.card-host[data-card-id="card-16"]', { visibility: 'hidden' }, 161.76);
+          tl.set('#video-wrap', { className: 'video-wrapper framed' }, 161.76);
+          tl.to('#video-wrap', { x: 14, y: 14, width: 1892, height: 548, duration: 0.5, ease: 'power2.inOut' }, 161.76);
+          tl.set('.card-host[data-card-id="card-17"]', { visibility: 'visible' }, 161.76);
+          tl.fromTo('.card-host[data-card-id="card-17"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 161.76);
+          tl.to('.card-host[data-card-id="card-17"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 169.17);
+          tl.set('.card-host[data-card-id="card-17"]', { visibility: 'hidden' }, 169.52);
+          tl.set('#video-wrap', { className: 'video-wrapper' }, 169.52);
+          tl.to('#video-wrap', { x: 0, y: 0, width: 1920, height: 1080, duration: 0.5, ease: 'power2.inOut' }, 169.52);
+          tl.set('.card-host[data-card-id="card-18"]', { visibility: 'visible' }, 169.52);
+          tl.fromTo('.card-host[data-card-id="card-18"]', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, 169.52);
+          tl.to('.card-host[data-card-id="card-18"]', { opacity: 0, duration: 0.3, ease: 'power2.in' }, 172.93);
+          tl.set('.card-host[data-card-id="card-18"]', { visibility: 'hidden' }, 173.28);
+          tl.fromTo('.card[data-card-id="card-01"] #card-01-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (0.12 + 0.05));
+          tl.from('.card[data-card-id="card-01"] #card-01-title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.5, ease: 'power2.out', stagger: 0.025 }, (0.12 + 0.15));
+          tl.fromTo('.card[data-card-id="card-02"] #card-02-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (7.8 + 0.05));
+          tl.from('.card[data-card-id="card-02"] #card-02-title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.6, ease: 'power2.out', stagger: 0.02 }, (7.8 + 0.15));
+          tl.fromTo('.card[data-card-id="card-02"] #card-02-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (7.8 + 0.55));
+          tl.fromTo('.card[data-card-id="card-03"] #card-03-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (15.28 + 0.05));
+          tl.fromTo('.card[data-card-id="card-03"] #card-03-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (15.28 + 0.2));
+          tl.fromTo('.card[data-card-id="card-03"] #card-03-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (15.28 + 0.25));
+          tl.fromTo('.card[data-card-id="card-04"] #card-04-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (20.08 + 0.05));
+          tl.fromTo('.card[data-card-id="card-04"] #card-04-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (20.08 + 0.2));
+          tl.fromTo('.card[data-card-id="card-04"] #card-04-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (20.08 + 0.25));
+          tl.fromTo('.card[data-card-id="card-04"] #card-04-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (20.08 + 0.5));
+          tl.fromTo('.card[data-card-id="card-05"] #card-05-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (32.92 + 0.2));
+          tl.fromTo('.card[data-card-id="card-05"] #card-05-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (32.92 + 0.25));
+          tl.fromTo('.card[data-card-id="card-05"] #card-05-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (32.92 + 0.5));
+          tl.fromTo('.card[data-card-id="card-06"] #card-06-title', { opacity: 0 }, { opacity: 1, duration: 0.6, ease: 'power2.out' }, (40.64 + 0.2));
+          tl.fromTo('.card[data-card-id="card-06"] #card-06-detail', { opacity: 0 }, { opacity: 1, duration: 0.5, ease: 'power2.out' }, (40.64 + 0.7));
+          tl.fromTo('.card[data-card-id="card-07"] #card-07-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (54.12 + 0.05));
+          tl.fromTo('.card[data-card-id="card-07"] #card-07-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (54.12 + 0.2));
+          tl.fromTo('.card[data-card-id="card-07"] #card-07-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (54.12 + 0.25));
+          tl.fromTo('.card[data-card-id="card-08"] #card-08-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (59.72 + 0.05));
+          tl.fromTo('.card[data-card-id="card-08"] #card-08-bar', { width: 0 }, { width: 120, duration: 0.4, ease: 'power2.out' }, (59.72 + 0.15));
+          tl.fromTo('.card[data-card-id="card-08"] #card-08-item-0', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (59.72 + 0.3));
+          tl.fromTo('.card[data-card-id="card-08"] #card-08-item-1', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (59.72 + 0.45));
+          tl.fromTo('.card[data-card-id="card-08"] #card-08-item-2', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (59.72 + 0.6));
+          tl.fromTo('.card[data-card-id="card-09"] #card-09-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (70.88 + 0.2));
+          tl.fromTo('.card[data-card-id="card-09"] #card-09-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (70.88 + 0.25));
+          tl.fromTo('.card[data-card-id="card-09"] #card-09-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (70.88 + 0.5));
+          tl.fromTo('.card[data-card-id="card-10"] #card-10-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (78.88 + 0.05));
+          tl.from('.card[data-card-id="card-10"] #card-10-title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.6, ease: 'power2.out', stagger: 0.02 }, (78.88 + 0.15));
+          tl.fromTo('.card[data-card-id="card-10"] #card-10-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (78.88 + 0.55));
+          tl.fromTo('.card[data-card-id="card-11"] #card-11-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (90.72 + 0.05));
+          tl.fromTo('.card[data-card-id="card-11"] #card-11-bar', { width: 0 }, { width: 120, duration: 0.4, ease: 'power2.out' }, (90.72 + 0.15));
+          tl.fromTo('.card[data-card-id="card-11"] #card-11-item-0', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (90.72 + 0.3));
+          tl.fromTo('.card[data-card-id="card-11"] #card-11-item-1', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (90.72 + 0.45));
+          tl.fromTo('.card[data-card-id="card-12"] #card-12-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (103.32 + 0.05));
+          tl.fromTo('.card[data-card-id="card-12"] #card-12-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (103.32 + 0.2));
+          tl.fromTo('.card[data-card-id="card-12"] #card-12-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (103.32 + 0.25));
+          tl.fromTo('.card[data-card-id="card-12"] #card-12-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (103.32 + 0.5));
+          tl.fromTo('.card[data-card-id="card-13"] #card-13-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (116.84 + 0.2));
+          tl.fromTo('.card[data-card-id="card-13"] #card-13-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (116.84 + 0.25));
+          tl.fromTo('.card[data-card-id="card-13"] #card-13-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (116.84 + 0.5));
+          tl.fromTo('.card[data-card-id="card-14"] #card-14-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (124.52 + 0.05));
+          tl.fromTo('.card[data-card-id="card-14"] #card-14-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (124.52 + 0.2));
+          tl.fromTo('.card[data-card-id="card-14"] #card-14-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (124.52 + 0.25));
+          tl.fromTo('.card[data-card-id="card-14"] #card-14-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (124.52 + 0.5));
+          tl.fromTo('.card[data-card-id="card-15"] #card-15-title', { opacity: 0 }, { opacity: 1, duration: 0.6, ease: 'power2.out' }, (141.96 + 0.2));
+          tl.fromTo('.card[data-card-id="card-15"] #card-15-detail', { opacity: 0 }, { opacity: 1, duration: 0.5, ease: 'power2.out' }, (141.96 + 0.7));
+          tl.fromTo('.card[data-card-id="card-16"] #card-16-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (147.92 + 0.05));
+          tl.from('.card[data-card-id="card-16"] #card-16-title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.6, ease: 'power2.out', stagger: 0.02 }, (147.92 + 0.15));
+          tl.fromTo('.card[data-card-id="card-16"] #card-16-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (147.92 + 0.55));
+          tl.fromTo('.card[data-card-id="card-17"] #card-17-kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power2.out' }, (161.76 + 0.05));
+          tl.fromTo('.card[data-card-id="card-17"] #card-17-bar', { width: 0 }, { width: 120, duration: 0.45, ease: 'power2.out' }, (161.76 + 0.2));
+          tl.fromTo('.card[data-card-id="card-17"] #card-17-title', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: 'power2.out' }, (161.76 + 0.25));
+          tl.fromTo('.card[data-card-id="card-17"] #card-17-detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: 'power2.out' }, (161.76 + 0.5));
+          tl.fromTo('.card[data-card-id="card-18"] #card-18-logo', { opacity: 0 }, { opacity: 1, duration: 0.5, ease: 'power2.out' }, (169.52 + 0.15));
+          tl.fromTo('.card[data-card-id="card-18"] #card-18-title', { opacity: 0 }, { opacity: 1, duration: 0.6, ease: 'power2.out' }, (169.52 + 0.4));
+          window.__timelines = window.__timelines || {};
+          window.__timelines['talking-head-recut'] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>

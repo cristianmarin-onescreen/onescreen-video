@@ -1,0 +1,30 @@
+   0.00-   1.17 (1.17s) | A:C0043.MP4 100% | G:Graphic0002.png 138% | G:Graphics0008.png 80%     | 
+   1.17-   2.21 (1.04s) | A:C0043.MP4 150% | G:Graphic0001.png 138% | G:Graphics0008.png 80%     | 
+   2.21-   3.50 (1.29s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphic0004.png 138% | G:Graphics00 | 
+   3.50-   3.67 (0.17s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphic0003.png 138% | G:Graphics00 | 
+   3.67-   4.75 (1.08s) | A:C0043.MP4 150% | G:Graphic0003.png 138% | G:Graphics0008.png 80%     | 
+   4.75-   6.05 (1.30s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" Simula ( B D3" motores ( B D3" en 3D. ( B
+   6.05-   6.34 (0.29s) | A:C0043.MP4 150% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" Diseña ( B
+   6.34-   7.72 (1.38s) | A:C0043.MP4 150% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" Diseña ( B D3" circuitos en ( B D3" tiempo real ( B
+   7.72-   8.84 (1.12s) | A:C0043.MP4 100% | G:Graphics0008.png 80%                              | D3" Explora ( B D3" procesos ( B
+   8.84-  10.26 (1.42s) | A:C0043.MP4 150% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" mecánicos ( B D3" desde ( B D3" todos los ( B D3" ángulos. ( B
+  10.26-  11.35 (1.09s) | A:C0043.MP4 100% | G:Graphics0008.png 80%                              | D3" ángulos. ( B D3" Con precisión ( B D3" táctil, ( B
+  11.35-  12.22 (0.87s) | A:C0043.MP4 150% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" Escala ( B D3" visual ( B
+  12.22-  13.22 (1.00s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" Acceso ( B D3" directo a ( B
+  13.22-  14.35 (1.13s) | A:C0043.MP4 100% | G:Graphics0008.png 80%                              | D3" herramientas ( B D3" ( B D3" simulación. ( B
+  14.35-  15.68 (1.33s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphic0005.png 138% | G:Graphics00 | 
+  15.68-  16.89 (1.21s) | A:C0043.MP4 150% | G:Graphic0005.png 138% | G:Graphics0008.png 80%     | 
+  16.89-  18.10 (1.21s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" El aula, ( B D3" se convierte ( B D3" en un ( B
+  18.10-  19.06 (0.96s) | A:C0043.MP4 150% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" espacio ( B D3" para ver. ( B
+  19.06-  19.56 (0.50s) | A:C0043.MP4 100% | B:C0044.MP4 | G:Graphics0008.png 80%                | D3" Hacer ( B
+  19.56-  20.39 (0.83s) | A:C0043.MP4 150% | G:Graphics0008.png 80%                              | D3" y entender. ( B
+  20.39-  21.48 (1.09s) | A:C0043.MP4 100% | G:Graphic0009.png | G:Graphics0008.png 80%          | 
+  21.48-  21.69 (0.21s) | A:C0043.MP4 100% | G:Graphic0008.png | G:Graphics0008.png 80%          | 
+  21.69-  23.44 (1.75s) | A:C0043.MP4 150% | G:Graphic0008.png | G:Graphics0008.png 80%          | 
+  23.44-  23.69 (0.25s) | A:C0043.MP4 100% | G:Graphic0007.png | G:Graphics0008.png 80%          | 
+  23.69-  23.94 (0.25s) | A:C0043.MP4 100% | G:Graphic0006.png | G:Graphics0008.png 80%          | 
+  23.94-  24.19 (0.25s) | A:C0043.MP4 100% | G:Graphic0007.png | G:Graphics0008.png 80%          | 
+  24.19-  24.44 (0.25s) | A:C0043.MP4 100% | G:Graphic0006.png | G:Graphics0008.png 80%          | 
+  24.44-  24.69 (0.25s) | A:C0043.MP4 100% | G:Graphic0007.png | G:Graphics0008.png 80%          | 
+  24.69-  24.90 (0.21s) | A:C0043.MP4 100% | G:Graphic0006.png | G:Graphics0008.png 80%          | 
+  24.90-  29.49 (4.59s) | A:Intro 16-9_S 100%                                                    | 

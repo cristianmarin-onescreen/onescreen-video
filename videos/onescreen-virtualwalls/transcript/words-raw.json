@@ -1,0 +1,345 @@
+[
+ {
+  "id": "w0",
+  "text": "Vamos",
+  "start": 0.0,
+  "end": 0.48,
+  "prob": 0.912
+ },
+ {
+  "id": "w1",
+  "text": "a",
+  "start": 0.48,
+  "end": 0.62,
+  "prob": 0.987
+ },
+ {
+  "id": "w2",
+  "text": "hablar",
+  "start": 0.62,
+  "end": 0.82,
+  "prob": 0.999
+ },
+ {
+  "id": "w3",
+  "text": "ahora",
+  "start": 0.82,
+  "end": 1.04,
+  "prob": 0.995
+ },
+ {
+  "id": "w4",
+  "text": "sobre",
+  "start": 1.04,
+  "end": 1.36,
+  "prob": 0.997
+ },
+ {
+  "id": "w5",
+  "text": "algo",
+  "start": 1.36,
+  "end": 1.68,
+  "prob": 0.999
+ },
+ {
+  "id": "w6",
+  "text": "grande.",
+  "start": 1.68,
+  "end": 2.28,
+  "prob": 0.993
+ },
+ {
+  "id": "w7",
+  "text": "Algo",
+  "start": 2.48,
+  "end": 2.74,
+  "prob": 0.992
+ },
+ {
+  "id": "w8",
+  "text": "muy",
+  "start": 2.74,
+  "end": 3.28,
+  "prob": 0.969
+ },
+ {
+  "id": "w9",
+  "text": "grande.",
+  "start": 3.28,
+  "end": 3.74,
+  "prob": 0.999
+ },
+ {
+  "id": "w10",
+  "text": "Hay",
+  "start": 3.96,
+  "end": 4.18,
+  "prob": 0.996
+ },
+ {
+  "id": "w11",
+  "text": "espacios",
+  "start": 4.18,
+  "end": 4.72,
+  "prob": 1.0
+ },
+ {
+  "id": "w12",
+  "text": "que",
+  "start": 4.72,
+  "end": 4.88,
+  "prob": 0.998
+ },
+ {
+  "id": "w13",
+  "text": "necesitan",
+  "start": 4.88,
+  "end": 5.48,
+  "prob": 1.0
+ },
+ {
+  "id": "w14",
+  "text": "un",
+  "start": 5.48,
+  "end": 5.62,
+  "prob": 0.999
+ },
+ {
+  "id": "w15",
+  "text": "formato",
+  "start": 5.62,
+  "end": 6.04,
+  "prob": 1.0
+ },
+ {
+  "id": "w16",
+  "text": "gigante.",
+  "start": 6.04,
+  "end": 6.74,
+  "prob": 0.999
+ },
+ {
+  "id": "w17",
+  "text": "Estas",
+  "start": 7.0,
+  "end": 7.22,
+  "prob": 0.996
+ },
+ {
+  "id": "w18",
+  "text": "son",
+  "start": 7.22,
+  "end": 7.4,
+  "prob": 1.0
+ },
+ {
+  "id": "w19",
+  "text": "las",
+  "start": 7.4,
+  "end": 7.68,
+  "prob": 0.997
+ },
+ {
+  "id": "w20",
+  "text": "VirtualWalls",
+  "start": 7.68,
+  "end": 8.3,
+  "prob": 0.451
+ },
+ {
+  "id": "w21",
+  "text": "de",
+  "start": 8.3,
+  "end": 8.42,
+  "prob": 0.997
+ },
+ {
+  "id": "w22",
+  "text": "OneScreen.",
+  "start": 8.42,
+  "end": 8.98,
+  "prob": 0.825
+ },
+ {
+  "id": "w23",
+  "text": "Desde",
+  "start": 9.1,
+  "end": 9.48,
+  "prob": 0.998
+ },
+ {
+  "id": "w24",
+  "text": "108",
+  "start": 9.48,
+  "end": 10.04,
+  "prob": 0.994
+ },
+ {
+  "id": "w25",
+  "text": "hasta",
+  "start": 10.04,
+  "end": 10.42,
+  "prob": 0.986
+ },
+ {
+  "id": "w26",
+  "text": "217",
+  "start": 10.42,
+  "end": 11.64,
+  "prob": 0.998
+ },
+ {
+  "id": "w27",
+  "text": "pulgadas.",
+  "start": 11.64,
+  "end": 12.26,
+  "prob": 0.998
+ },
+ {
+  "id": "w28",
+  "text": "Imagen",
+  "start": 12.44,
+  "end": 12.96,
+  "prob": 0.988
+ },
+ {
+  "id": "w29",
+  "text": "en",
+  "start": 12.96,
+  "end": 13.18,
+  "prob": 0.999
+ },
+ {
+  "id": "w30",
+  "text": "4K.",
+  "start": 13.18,
+  "end": 13.64,
+  "prob": 0.996
+ },
+ {
+  "id": "w31",
+  "text": "Cuando",
+  "start": 13.9,
+  "end": 14.16,
+  "prob": 0.998
+ },
+ {
+  "id": "w32",
+  "text": "tu",
+  "start": 14.16,
+  "end": 14.38,
+  "prob": 0.994
+ },
+ {
+  "id": "w33",
+  "text": "idea",
+  "start": 14.38,
+  "end": 14.66,
+  "prob": 0.994
+ },
+ {
+  "id": "w34",
+  "text": "es",
+  "start": 14.66,
+  "end": 14.82,
+  "prob": 1.0
+ },
+ {
+  "id": "w35",
+  "text": "grande,",
+  "start": 14.82,
+  "end": 15.12,
+  "prob": 1.0
+ },
+ {
+  "id": "w36",
+  "text": "tu",
+  "start": 15.3,
+  "end": 15.38,
+  "prob": 0.999
+ },
+ {
+  "id": "w37",
+  "text": "pantalla",
+  "start": 15.38,
+  "end": 15.78,
+  "prob": 1.0
+ },
+ {
+  "id": "w38",
+  "text": "tambien.",
+  "start": 15.78,
+  "end": 16.24,
+  "prob": 0.487
+ },
+ {
+  "id": "w39",
+  "text": "Quieres",
+  "start": 16.4,
+  "end": 16.74,
+  "prob": 0.737
+ },
+ {
+  "id": "w40",
+  "text": "saber",
+  "start": 16.74,
+  "end": 16.92,
+  "prob": 0.989
+ },
+ {
+  "id": "w41",
+  "text": "mas",
+  "start": 16.92,
+  "end": 17.1,
+  "prob": 0.765
+ },
+ {
+  "id": "w42",
+  "text": "de",
+  "start": 17.1,
+  "end": 17.22,
+  "prob": 0.997
+ },
+ {
+  "id": "w43",
+  "text": "nuestras",
+  "start": 17.22,
+  "end": 17.58,
+  "prob": 0.974
+ },
+ {
+  "id": "w44",
+  "text": "LED?",
+  "start": 17.58,
+  "end": 17.88,
+  "prob": 0.355
+ },
+ {
+  "id": "w45",
+  "text": "Solo",
+  "start": 18.08,
+  "end": 18.26,
+  "prob": 0.901
+ },
+ {
+  "id": "w46",
+  "text": "toca",
+  "start": 18.26,
+  "end": 18.5,
+  "prob": 0.853
+ },
+ {
+  "id": "w47",
+  "text": "esta",
+  "start": 18.5,
+  "end": 18.64,
+  "prob": 0.977
+ },
+ {
+  "id": "w48",
+  "text": "pantalla.",
+  "start": 18.64,
+  "end": 18.96,
+  "prob": 0.995
+ }
+]

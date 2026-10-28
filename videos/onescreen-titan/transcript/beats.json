@@ -1,0 +1,1465 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 34.52,
+ "totalFrames": 863,
+ "source": "SC06.wav",
+ "speechEnd": 31,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w0",
+       "i": 0,
+       "text": "OneScreen",
+       "start": 0,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": true,
+     "regular": true,
+     "text": "Titan",
+     "words": [
+      {
+       "id": "w1",
+       "i": 1,
+       "text": "Titan",
+       "start": 0.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Titan",
+   "end": 1.4
+  },
+  {
+   "id": "f02",
+   "start": 1.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Con la imagen",
+     "words": [
+      {
+       "id": "w2",
+       "i": 2,
+       "text": "Con",
+       "start": 1.44,
+       "brand": false
+      },
+      {
+       "id": "w3",
+       "i": 3,
+       "text": "la",
+       "start": 1.68,
+       "brand": false
+      },
+      {
+       "id": "w4",
+       "i": 4,
+       "text": "imagen",
+       "start": 1.84,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "más potente.",
+     "words": [
+      {
+       "id": "w5",
+       "i": 5,
+       "text": "más",
+       "start": 2.16,
+       "brand": false
+      },
+      {
+       "id": "w6",
+       "i": 6,
+       "text": "potente.",
+       "start": 2.48,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Con la imagen / más potente.",
+   "end": 3.28
+  },
+  {
+   "id": "f03",
+   "start": 3.32,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "La primera pantalla interactiva con tecnología",
+     "words": [
+      {
+       "id": "w7",
+       "i": 7,
+       "text": "La",
+       "start": 3.32,
+       "brand": false
+      },
+      {
+       "id": "w8",
+       "i": 8,
+       "text": "primera",
+       "start": 3.56,
+       "brand": false
+      },
+      {
+       "id": "w9",
+       "i": 9,
+       "text": "pantalla",
+       "start": 4.08,
+       "brand": false
+      },
+      {
+       "id": "w10",
+       "i": 10,
+       "text": "interactiva",
+       "start": 4.48,
+       "brand": false
+      },
+      {
+       "id": "w11",
+       "i": 11,
+       "text": "con",
+       "start": 5.08,
+       "brand": false
+      },
+      {
+       "id": "w12",
+       "i": 12,
+       "text": "tecnología",
+       "start": 5.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "Mini-LED.",
+     "words": [
+      {
+       "id": "w13",
+       "i": 13,
+       "text": "Mini-LED.",
+       "start": 5.72,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "La primera pantalla interactiva con tecnología / Mini-LED.",
+   "end": 6.68
+  },
+  {
+   "id": "f04",
+   "start": 6.72,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Eso significa",
+     "words": [
+      {
+       "id": "w14",
+       "i": 14,
+       "text": "Eso",
+       "start": 6.72,
+       "brand": false
+      },
+      {
+       "id": "w15",
+       "i": 15,
+       "text": "significa",
+       "start": 6.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "1.200 nits",
+     "words": [
+      {
+       "id": "w16",
+       "i": 16,
+       "text": "1.200",
+       "start": 7.4,
+       "brand": false
+      },
+      {
+       "id": "w17",
+       "i": 17,
+       "text": "nits",
+       "start": 8.12,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de brillo.",
+     "words": [
+      {
+       "id": "w18",
+       "i": 18,
+       "text": "de",
+       "start": 8.76,
+       "brand": false
+      },
+      {
+       "id": "w19",
+       "i": 19,
+       "text": "brillo.",
+       "start": 8.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Eso significa / 1.200 nits / de brillo.",
+   "end": 9.36
+  },
+  {
+   "id": "f05",
+   "start": 9.4,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "En la vida real, jamás tendrás que oscurecer un salón para ver bien.",
+     "words": [
+      {
+       "id": "w20",
+       "i": 20,
+       "text": "En",
+       "start": 9.4,
+       "brand": false
+      },
+      {
+       "id": "w21",
+       "i": 21,
+       "text": "la",
+       "start": 9.64,
+       "brand": false
+      },
+      {
+       "id": "w22",
+       "i": 22,
+       "text": "vida",
+       "start": 9.72,
+       "brand": false
+      },
+      {
+       "id": "w23",
+       "i": 23,
+       "text": "real,",
+       "start": 9.92,
+       "brand": false
+      },
+      {
+       "id": "w24",
+       "i": 24,
+       "text": "jamás",
+       "start": 10.36,
+       "brand": false
+      },
+      {
+       "id": "w25",
+       "i": 25,
+       "text": "tendrás",
+       "start": 10.68,
+       "brand": false
+      },
+      {
+       "id": "w26",
+       "i": 26,
+       "text": "que",
+       "start": 11,
+       "brand": false
+      },
+      {
+       "id": "w27",
+       "i": 27,
+       "text": "oscurecer",
+       "start": 11.12,
+       "brand": false
+      },
+      {
+       "id": "w28",
+       "i": 28,
+       "text": "un",
+       "start": 11.48,
+       "brand": false
+      },
+      {
+       "id": "w29",
+       "i": 29,
+       "text": "salón",
+       "start": 11.6,
+       "brand": false
+      },
+      {
+       "id": "w30",
+       "i": 30,
+       "text": "para",
+       "start": 11.8,
+       "brand": false
+      },
+      {
+       "id": "w31",
+       "i": 31,
+       "text": "ver",
+       "start": 12,
+       "brand": false
+      },
+      {
+       "id": "w32",
+       "i": 32,
+       "text": "bien.",
+       "start": 12.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "En la vida real, jamás tendrás que oscurecer un salón para ver bien.",
+   "end": 12.64
+  },
+  {
+   "id": "f06",
+   "start": 12.68,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Más de",
+     "words": [
+      {
+       "id": "w33",
+       "i": 33,
+       "text": "Más",
+       "start": 12.68,
+       "brand": false
+      },
+      {
+       "id": "w34",
+       "i": 34,
+       "text": "de",
+       "start": 12.8,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "1.07 billones",
+     "words": [
+      {
+       "id": "w35",
+       "i": 35,
+       "text": "1.07",
+       "start": 12.96,
+       "brand": false
+      },
+      {
+       "id": "w36",
+       "i": 36,
+       "text": "billones",
+       "start": 14,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de colores en su display.",
+     "words": [
+      {
+       "id": "w37",
+       "i": 37,
+       "text": "de",
+       "start": 14.56,
+       "brand": false
+      },
+      {
+       "id": "w38",
+       "i": 38,
+       "text": "colores",
+       "start": 14.72,
+       "brand": false
+      },
+      {
+       "id": "w39",
+       "i": 39,
+       "text": "en",
+       "start": 15.04,
+       "brand": false
+      },
+      {
+       "id": "w40",
+       "i": 40,
+       "text": "su",
+       "start": 15.2,
+       "brand": false
+      },
+      {
+       "id": "w41",
+       "i": 41,
+       "text": "display.",
+       "start": 15.32,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Más de / 1.07 billones / de colores en su display.",
+   "end": 16
+  },
+  {
+   "id": "f07",
+   "start": 16.08,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Esta es nuestra pantalla interactiva más potente",
+     "words": [
+      {
+       "id": "w42",
+       "i": 42,
+       "text": "Esta",
+       "start": 16.08,
+       "brand": false
+      },
+      {
+       "id": "w43",
+       "i": 43,
+       "text": "es",
+       "start": 16.36,
+       "brand": false
+      },
+      {
+       "id": "w44",
+       "i": 44,
+       "text": "nuestra",
+       "start": 16.68,
+       "brand": false
+      },
+      {
+       "id": "w45",
+       "i": 45,
+       "text": "pantalla",
+       "start": 16.92,
+       "brand": false
+      },
+      {
+       "id": "w46",
+       "i": 46,
+       "text": "interactiva",
+       "start": 17.24,
+       "brand": false
+      },
+      {
+       "id": "w47",
+       "i": 47,
+       "text": "más",
+       "start": 17.64,
+       "brand": false
+      },
+      {
+       "id": "w48",
+       "i": 48,
+       "text": "potente",
+       "start": 17.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "(hasta ahora)",
+     "words": [
+      {
+       "id": "w49",
+       "i": 49,
+       "text": "(hasta",
+       "start": 18.52,
+       "brand": false
+      },
+      {
+       "id": "w50",
+       "i": 50,
+       "text": "ahora)",
+       "start": 18.88,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Esta es nuestra pantalla interactiva más potente / (hasta ahora)",
+   "end": 19.36
+  },
+  {
+   "id": "f08",
+   "start": 19.4,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Disponible desde",
+     "words": [
+      {
+       "id": "w51",
+       "i": 51,
+       "text": "Disponible",
+       "start": 19.4,
+       "brand": false
+      },
+      {
+       "id": "w52",
+       "i": 52,
+       "text": "desde",
+       "start": 19.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "65” hasta 86”",
+     "words": [
+      {
+       "id": "w53",
+       "i": 53,
+       "text": "65”",
+       "start": 20.2,
+       "brand": false
+      },
+      {
+       "id": "w54",
+       "i": 54,
+       "text": "hasta",
+       "start": 21.16,
+       "brand": false
+      },
+      {
+       "id": "w55",
+       "i": 55,
+       "text": "86”",
+       "start": 21.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Disponible desde / 65” hasta 86”",
+   "end": 23.4
+  },
+  {
+   "id": "f09",
+   "start": 23.44,
+   "lines": [
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "OneScreen",
+     "words": [
+      {
+       "id": "w56",
+       "i": 56,
+       "text": "OneScreen",
+       "start": 23.44,
+       "brand": true
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "Titan.",
+     "words": [
+      {
+       "id": "w57",
+       "i": 57,
+       "text": "Titan.",
+       "start": 23.92,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "OneScreen / Titan.",
+   "end": 24.48
+  },
+  {
+   "id": "f10",
+   "start": 24.52,
+   "lines": [
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "El Titan de las pantallas interactivas.",
+     "words": [
+      {
+       "id": "w58",
+       "i": 58,
+       "text": "El",
+       "start": 24.52,
+       "brand": false
+      },
+      {
+       "id": "w59",
+       "i": 59,
+       "text": "Titan",
+       "start": 24.68,
+       "brand": false
+      },
+      {
+       "id": "w60",
+       "i": 60,
+       "text": "de",
+       "start": 25.2,
+       "brand": false
+      },
+      {
+       "id": "w61",
+       "i": 61,
+       "text": "las",
+       "start": 25.32,
+       "brand": false
+      },
+      {
+       "id": "w62",
+       "i": 62,
+       "text": "pantallas",
+       "start": 25.48,
+       "brand": false
+      },
+      {
+       "id": "w63",
+       "i": 63,
+       "text": "interactivas.",
+       "start": 25.96,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "El Titan de las pantallas interactivas.",
+   "end": 26.88
+  },
+  {
+   "id": "f11",
+   "start": 26.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "¿Quieres conocer estas pantallas?",
+     "words": [
+      {
+       "id": "w64",
+       "i": 64,
+       "text": "¿Quieres",
+       "start": 26.92,
+       "brand": false
+      },
+      {
+       "id": "w65",
+       "i": 65,
+       "text": "conocer",
+       "start": 27.44,
+       "brand": false
+      },
+      {
+       "id": "w66",
+       "i": 66,
+       "text": "estas",
+       "start": 27.72,
+       "brand": false
+      },
+      {
+       "id": "w67",
+       "i": 67,
+       "text": "pantallas?",
+       "start": 27.92,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Muy fácil.",
+     "words": [
+      {
+       "id": "w68",
+       "i": 68,
+       "text": "Muy",
+       "start": 28.48,
+       "brand": false
+      },
+      {
+       "id": "w69",
+       "i": 69,
+       "text": "fácil.",
+       "start": 28.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "¿Quieres conocer estas pantallas? / Muy fácil.",
+   "end": 28.88
+  },
+  {
+   "id": "f12",
+   "start": 28.92,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Solo tienes que tocar",
+     "words": [
+      {
+       "id": "w70",
+       "i": 70,
+       "text": "Solo",
+       "start": 28.92,
+       "brand": false
+      },
+      {
+       "id": "w71",
+       "i": 71,
+       "text": "tienes",
+       "start": 29.64,
+       "brand": false
+      },
+      {
+       "id": "w72",
+       "i": 72,
+       "text": "que",
+       "start": 29.92,
+       "brand": false
+      },
+      {
+       "id": "w73",
+       "i": 73,
+       "text": "tocar",
+       "start": 30.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "esta pantalla.",
+     "words": [
+      {
+       "id": "w74",
+       "i": 74,
+       "text": "esta",
+       "start": 30.32,
+       "brand": false
+      },
+      {
+       "id": "w75",
+       "i": 75,
+       "text": "pantalla.",
+       "start": 30.52,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Solo tienes que tocar / esta pantalla.",
+   "end": 34.52
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "OneScreen",
+   "start": 0,
+   "end": 0.88,
+   "brand": true
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "Titan",
+   "start": 0.88,
+   "end": 1.2,
+   "brand": false
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "Con",
+   "start": 1.44,
+   "end": 1.72,
+   "brand": false
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "la",
+   "start": 1.68,
+   "end": 1.84,
+   "brand": false
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "imagen",
+   "start": 1.84,
+   "end": 2.16,
+   "brand": false
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "más",
+   "start": 2.16,
+   "end": 2.48,
+   "brand": false
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "potente.",
+   "start": 2.48,
+   "end": 3.08,
+   "brand": false
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "La",
+   "start": 3.32,
+   "end": 3.6,
+   "brand": false
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "primera",
+   "start": 3.56,
+   "end": 4.08,
+   "brand": false
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "pantalla",
+   "start": 4.08,
+   "end": 4.52,
+   "brand": false
+  },
+  {
+   "i": 10,
+   "src": 10,
+   "text": "interactiva",
+   "start": 4.48,
+   "end": 5.08,
+   "brand": false
+  },
+  {
+   "i": 11,
+   "src": 11,
+   "text": "con",
+   "start": 5.08,
+   "end": 5.28,
+   "brand": false
+  },
+  {
+   "i": 12,
+   "src": 12,
+   "text": "tecnología",
+   "start": 5.24,
+   "end": 5.76,
+   "brand": false
+  },
+  {
+   "i": 13,
+   "src": 13,
+   "text": "Mini-LED.",
+   "start": 5.72,
+   "end": 6.4,
+   "brand": false
+  },
+  {
+   "i": 14,
+   "src": 15,
+   "text": "Eso",
+   "start": 6.72,
+   "end": 6.92,
+   "brand": false
+  },
+  {
+   "i": 15,
+   "src": 16,
+   "text": "significa",
+   "start": 6.92,
+   "end": 7.4,
+   "brand": false
+  },
+  {
+   "i": 16,
+   "src": 17,
+   "text": "1.200",
+   "start": 7.4,
+   "end": 8.16,
+   "brand": false
+  },
+  {
+   "i": 17,
+   "src": 18,
+   "text": "nits",
+   "start": 8.12,
+   "end": 8.76,
+   "brand": false
+  },
+  {
+   "i": 18,
+   "src": 19,
+   "text": "de",
+   "start": 8.76,
+   "end": 8.92,
+   "brand": false
+  },
+  {
+   "i": 19,
+   "src": 20,
+   "text": "brillo.",
+   "start": 8.88,
+   "end": 9.28,
+   "brand": false
+  },
+  {
+   "i": 20,
+   "src": 21,
+   "text": "En",
+   "start": 9.4,
+   "end": 9.64,
+   "brand": false
+  },
+  {
+   "i": 21,
+   "src": 22,
+   "text": "la",
+   "start": 9.64,
+   "end": 9.76,
+   "brand": false
+  },
+  {
+   "i": 22,
+   "src": 23,
+   "text": "vida",
+   "start": 9.72,
+   "end": 9.92,
+   "brand": false
+  },
+  {
+   "i": 23,
+   "src": 24,
+   "text": "real,",
+   "start": 9.92,
+   "end": 10.24,
+   "brand": false
+  },
+  {
+   "i": 24,
+   "src": 25,
+   "text": "jamás",
+   "start": 10.36,
+   "end": 10.68,
+   "brand": false
+  },
+  {
+   "i": 25,
+   "src": 26,
+   "text": "tendrás",
+   "start": 10.68,
+   "end": 11.04,
+   "brand": false
+  },
+  {
+   "i": 26,
+   "src": 27,
+   "text": "que",
+   "start": 11,
+   "end": 11.16,
+   "brand": false
+  },
+  {
+   "i": 27,
+   "src": 28,
+   "text": "oscurecer",
+   "start": 11.12,
+   "end": 11.52,
+   "brand": false
+  },
+  {
+   "i": 28,
+   "src": 29,
+   "text": "un",
+   "start": 11.48,
+   "end": 11.64,
+   "brand": false
+  },
+  {
+   "i": 29,
+   "src": 30,
+   "text": "salón",
+   "start": 11.6,
+   "end": 11.8,
+   "brand": false
+  },
+  {
+   "i": 30,
+   "src": 31,
+   "text": "para",
+   "start": 11.8,
+   "end": 12,
+   "brand": false
+  },
+  {
+   "i": 31,
+   "src": 32,
+   "text": "ver",
+   "start": 12,
+   "end": 12.2,
+   "brand": false
+  },
+  {
+   "i": 32,
+   "src": 33,
+   "text": "bien.",
+   "start": 12.16,
+   "end": 12.4,
+   "brand": false
+  },
+  {
+   "i": 33,
+   "src": 34,
+   "text": "Más",
+   "start": 12.68,
+   "end": 12.8,
+   "brand": false
+  },
+  {
+   "i": 34,
+   "src": 35,
+   "text": "de",
+   "start": 12.8,
+   "end": 12.96,
+   "brand": false
+  },
+  {
+   "i": 35,
+   "src": 36,
+   "text": "1.07",
+   "start": 12.96,
+   "end": 14.04,
+   "brand": false
+  },
+  {
+   "i": 36,
+   "src": 38,
+   "text": "billones",
+   "start": 14,
+   "end": 14.6,
+   "brand": false
+  },
+  {
+   "i": 37,
+   "src": 39,
+   "text": "de",
+   "start": 14.56,
+   "end": 14.76,
+   "brand": false
+  },
+  {
+   "i": 38,
+   "src": 40,
+   "text": "colores",
+   "start": 14.72,
+   "end": 15.08,
+   "brand": false
+  },
+  {
+   "i": 39,
+   "src": 41,
+   "text": "en",
+   "start": 15.04,
+   "end": 15.2,
+   "brand": false
+  },
+  {
+   "i": 40,
+   "src": 42,
+   "text": "su",
+   "start": 15.2,
+   "end": 15.32,
+   "brand": false
+  },
+  {
+   "i": 41,
+   "src": 43,
+   "text": "display.",
+   "start": 15.32,
+   "end": 15.68,
+   "brand": false
+  },
+  {
+   "i": 42,
+   "src": 44,
+   "text": "Esta",
+   "start": 16.08,
+   "end": 16.4,
+   "brand": false
+  },
+  {
+   "i": 43,
+   "src": 45,
+   "text": "es",
+   "start": 16.36,
+   "end": 16.72,
+   "brand": false
+  },
+  {
+   "i": 44,
+   "src": 46,
+   "text": "nuestra",
+   "start": 16.68,
+   "end": 16.96,
+   "brand": false
+  },
+  {
+   "i": 45,
+   "src": 47,
+   "text": "pantalla",
+   "start": 16.92,
+   "end": 17.28,
+   "brand": false
+  },
+  {
+   "i": 46,
+   "src": 48,
+   "text": "interactiva",
+   "start": 17.24,
+   "end": 17.64,
+   "brand": false
+  },
+  {
+   "i": 47,
+   "src": 49,
+   "text": "más",
+   "start": 17.64,
+   "end": 17.96,
+   "brand": false
+  },
+  {
+   "i": 48,
+   "src": 50,
+   "text": "potente",
+   "start": 17.92,
+   "end": 18.44,
+   "brand": false
+  },
+  {
+   "i": 49,
+   "src": 51,
+   "text": "(hasta",
+   "start": 18.52,
+   "end": 18.92,
+   "brand": false
+  },
+  {
+   "i": 50,
+   "src": 52,
+   "text": "ahora)",
+   "start": 18.88,
+   "end": 19.16,
+   "brand": false
+  },
+  {
+   "i": 51,
+   "src": 53,
+   "text": "Disponible",
+   "start": 19.4,
+   "end": 19.96,
+   "brand": false
+  },
+  {
+   "i": 52,
+   "src": 54,
+   "text": "desde",
+   "start": 19.92,
+   "end": 20.2,
+   "brand": false
+  },
+  {
+   "i": 53,
+   "src": 55,
+   "text": "65”",
+   "start": 20.2,
+   "end": 21.16,
+   "brand": false
+  },
+  {
+   "i": 54,
+   "src": 56,
+   "text": "hasta",
+   "start": 21.16,
+   "end": 21.56,
+   "brand": false
+  },
+  {
+   "i": 55,
+   "src": 57,
+   "text": "86”",
+   "start": 21.56,
+   "end": 23.04,
+   "brand": false
+  },
+  {
+   "i": 56,
+   "src": 59,
+   "text": "OneScreen",
+   "start": 23.44,
+   "end": 23.92,
+   "brand": true
+  },
+  {
+   "i": 57,
+   "src": 60,
+   "text": "Titan.",
+   "start": 23.92,
+   "end": 24.28,
+   "brand": false
+  },
+  {
+   "i": 58,
+   "src": 61,
+   "text": "El",
+   "start": 24.52,
+   "end": 24.72,
+   "brand": false
+  },
+  {
+   "i": 59,
+   "src": 62,
+   "text": "Titan",
+   "start": 24.68,
+   "end": 25.2,
+   "brand": false
+  },
+  {
+   "i": 60,
+   "src": 63,
+   "text": "de",
+   "start": 25.2,
+   "end": 25.36,
+   "brand": false
+  },
+  {
+   "i": 61,
+   "src": 64,
+   "text": "las",
+   "start": 25.32,
+   "end": 25.48,
+   "brand": false
+  },
+  {
+   "i": 62,
+   "src": 65,
+   "text": "pantallas",
+   "start": 25.48,
+   "end": 25.96,
+   "brand": false
+  },
+  {
+   "i": 63,
+   "src": 66,
+   "text": "interactivas.",
+   "start": 25.96,
+   "end": 26.72,
+   "brand": false
+  },
+  {
+   "i": 64,
+   "src": 67,
+   "text": "¿Quieres",
+   "start": 26.92,
+   "end": 27.48,
+   "brand": false
+  },
+  {
+   "i": 65,
+   "src": 68,
+   "text": "conocer",
+   "start": 27.44,
+   "end": 27.72,
+   "brand": false
+  },
+  {
+   "i": 66,
+   "src": 69,
+   "text": "estas",
+   "start": 27.72,
+   "end": 27.92,
+   "brand": false
+  },
+  {
+   "i": 67,
+   "src": 70,
+   "text": "pantallas?",
+   "start": 27.92,
+   "end": 28.36,
+   "brand": false
+  },
+  {
+   "i": 68,
+   "src": 71,
+   "text": "Muy",
+   "start": 28.48,
+   "end": 28.68,
+   "brand": false
+  },
+  {
+   "i": 69,
+   "src": 72,
+   "text": "fácil.",
+   "start": 28.64,
+   "end": 28.92,
+   "brand": false
+  },
+  {
+   "i": 70,
+   "src": 73,
+   "text": "Solo",
+   "start": 28.92,
+   "end": 29.68,
+   "brand": false
+  },
+  {
+   "i": 71,
+   "src": 74,
+   "text": "tienes",
+   "start": 29.64,
+   "end": 29.96,
+   "brand": false
+  },
+  {
+   "i": 72,
+   "src": 75,
+   "text": "que",
+   "start": 29.92,
+   "end": 30.12,
+   "brand": false
+  },
+  {
+   "i": 73,
+   "src": 76,
+   "text": "tocar",
+   "start": 30.08,
+   "end": 30.36,
+   "brand": false
+  },
+  {
+   "i": 74,
+   "src": 77,
+   "text": "esta",
+   "start": 30.32,
+   "end": 30.56,
+   "brand": false
+  },
+  {
+   "i": 75,
+   "src": 78,
+   "text": "pantalla.",
+   "start": 30.52,
+   "end": 30.96,
+   "brand": false
+  }
+ ]
+}

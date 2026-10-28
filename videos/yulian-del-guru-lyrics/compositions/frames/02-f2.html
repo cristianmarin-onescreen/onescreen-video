@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <template>
+      <div data-hf-id="hf-q9uk" id="stage" data-composition-id="02-f2" data-width="1920" data-height="1080" data-duration="21.18">
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Space+Grotesk:wght@600;700&display=swap");
+
+          #stage {
+            position: absolute;
+            inset: 0;
+            background: #000000;
+            overflow: hidden;
+            font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+          }
+
+          .bg-dotgrid {
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.09) 1.6px, transparent 1.6px);
+            background-size: 26px 26px;
+          }
+
+          .verse-label {
+            position: absolute;
+            top: 44px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f7cb46;
+            border: 3px solid #000;
+            box-shadow: 4px 4px 0 #000;
+            padding: 10px 28px;
+            font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+            font-weight: 700;
+            font-size: 17px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #000;
+          }
+
+          .groups-wrap {
+            position: absolute;
+            inset: 0;
+          }
+
+          .group {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+          }
+
+          .card {
+            position: relative;
+            background: #ffffff;
+            border: 4px solid #000;
+            box-shadow: 8px 8px 0 #000;
+            padding: 58px 74px;
+            max-width: 1700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .tag {
+            position: absolute;
+            top: -26px;
+            left: 44px;
+            background: #fffdf5;
+            border: 3px solid #000;
+            box-shadow: 4px 4px 0 #000;
+            padding: 6px 18px;
+            font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #000;
+            transform: rotate(-3deg);
+            white-space: nowrap;
+          }
+
+          .corner-deco {
+            position: absolute;
+            top: -22px;
+            right: -22px;
+            width: 46px;
+            height: 46px;
+            border: 3px solid #000;
+          }
+
+          .line-text {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: baseline;
+            gap: 14px 22px;
+            font-family: "Inter", ui-sans-serif, sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.02em;
+            line-height: 1.08;
+            color: #000;
+            text-align: center;
+          }
+
+          .word {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(20px) scale(0.8);
+            will-change: opacity, transform;
+          }
+        </style>
+
+        <div data-hf-id="hf-a13b" class="bg-dotgrid"></div>
+        <div data-hf-id="hf-0oee" class="verse-label">Verso 1 · Yulian del Gurú</div>
+        <div data-hf-id="hf-dftj" class="groups-wrap" id="groupsWrap"></div>
+
+        <script>
+          window.__timelines = window.__timelines || {};
+
+          (function build() {
+            // Deterministic, synchronous build: palette + copy + anchors are all
+            // static data, no randomness / clock reads. Timeline is built and
+            // registered in one synchronous pass, ending in tl.seek(0).
+            var PALETTE = ["#FE90E8", "#C0F7FE", "#2ad268", "#F7CB46", "#FFFDF5"];
+
+            // Frame-local seconds (absolute audiomap anchor − frame start 22.67).
+            var GROUPS = [
+              {
+                id: "g1",
+                start: 0,
+                end: 2.86,
+                words: ["Yulian", "está", "en", "el", "Gurú,", "conectado", "desde", "temprano,"],
+                anchors: [0, 0.409, 0.681, 0.817, 0.953, 1.294, 1.907, 2.247],
+              },
+              {
+                id: "g2",
+                start: 2.86,
+                end: 5.58,
+                words: ["le", "llegan", "los", "problemas", "uno", "tras", "otro", "a", "la", "mano."],
+                anchors: [2.86, 2.999, 3.418, 3.627, 4.255, 4.464, 4.743, 5.022, 5.092, 5.231],
+              },
+              {
+                id: "g3",
+                start: 5.58,
+                end: 8.2,
+                words: ["Abre", "el", "computador,", "se", "acomoda", "en", "la", "silla,"],
+                anchors: [5.58, 5.871, 6.017, 6.817, 6.963, 7.472, 7.618, 7.763],
+              },
+              {
+                id: "g4",
+                start: 8.2,
+                end: 10.64,
+                words: ["mira", "todos", "los", "casos", "y", "se", "le", "borra", "la", "sonrisa."],
+                anchors: [8.2, 8.464, 8.794, 8.991, 9.321, 9.387, 9.519, 9.651, 9.981, 10.112],
+              },
+              {
+                id: "g5",
+                start: 10.64,
+                end: 13.38,
+                words: ["“¡Yulian,", "hay", "un", "problema!”", "—", "“Sí,", "ya", "voy", "a", "revisar”,"],
+                anchors: [10.64, 11.2, 11.387, 11.512, 12.135, 12.197, 12.446, 12.57, 12.757, 12.82],
+              },
+              {
+                id: "g6",
+                start: 13.38,
+                end: 15.78,
+                words: ["pasan", "veinte", "minutos", "y", "lo", "vuelve", "a", "consultar."],
+                anchors: [13.38, 13.696, 14.075, 14.517, 14.58, 14.706, 15.085, 15.148],
+              },
+              {
+                id: "g7",
+                start: 15.78,
+                end: 18.34,
+                words: ["Que", "si", "falla", "la", "pantalla,", "que", "si", "no", "prende", "el", "sistema,"],
+                anchors: [15.78, 15.955, 16.071, 16.362, 16.478, 17.002, 17.176, 17.293, 17.409, 17.758, 17.875],
+              },
+              {
+                id: "g8",
+                start: 18.34,
+                end: 21.18,
+                words: ["Yulian", "mira", "el", "caso", "y", "le", "aumenta", "la", "condena."],
+                anchors: [18.34, 18.813, 19.129, 19.287, 19.602, 19.681, 19.839, 20.391, 20.549],
+              },
+            ];
+
+            function fontSizeFor(text) {
+              var len = text.length;
+              if (len <= 40) return 92;
+              if (len <= 46) return 84;
+              if (len <= 50) return 76;
+              if (len <= 54) return 70;
+              return 64;
+            }
+
+            function runBuild() {
+              var tl = gsap.timeline({ paused: true });
+              var wrap = document.getElementById("groupsWrap");
+
+              GROUPS.forEach(function (g, gi) {
+                var groupEl = document.createElement("div");
+                groupEl.className = "group";
+                groupEl.id = g.id;
+
+                var card = document.createElement("div");
+                card.className = "card";
+                card.style.background = PALETTE[gi % PALETTE.length];
+
+                var tag = document.createElement("div");
+                tag.className = "tag";
+                tag.textContent = "LÍNEA " + (gi + 1) + "/8";
+                card.appendChild(tag);
+
+                var corner = document.createElement("div");
+                corner.className = "corner-deco";
+                corner.style.background = PALETTE[(gi + 2) % PALETTE.length];
+                corner.style.transform = "rotate(" + (gi % 2 === 0 ? 11 : -11) + "deg)";
+                card.appendChild(corner);
+
+                var lineText = document.createElement("div");
+                lineText.className = "line-text";
+                lineText.id = g.id + "_line";
+                var fullText = g.words.join(" ");
+                lineText.style.fontSize = fontSizeFor(fullText) + "px";
+
+                g.words.forEach(function (w, wi) {
+                  var span = document.createElement("span");
+                  span.className = "word";
+                  span.id = g.id + "_w" + wi;
+                  span.textContent = w;
+                  lineText.appendChild(span);
+                });
+
+                card.appendChild(lineText);
+                groupEl.appendChild(card);
+                wrap.appendChild(groupEl);
+
+                // Group → group cut: 0ms opacity swap (hard-cut primitive).
+                tl.set("#" + g.id, { opacity: 1 }, g.start);
+                tl.set("#" + g.id, { opacity: 0 }, g.end);
+
+                // Per-word reveal (typewriter-reveal primitive, word-granularity)
+                // riding the real audiomap anchor seconds.
+                g.words.forEach(function (w, wi) {
+                  var t = g.anchors[wi];
+                  tl.fromTo(
+                    "#" + g.id + "_w" + wi,
+                    { opacity: 0, y: 20, scale: 0.8 },
+                    { opacity: 1, y: 0, scale: 1, duration: 0.16, ease: "back.out(2.4)" },
+                    t,
+                  );
+                });
+              });
+
+              window.__timelines["02-f2"] = tl;
+              tl.seek(0);
+              if (window.__hfForceTimelineRebind) window.__hfForceTimelineRebind();
+            }
+
+            runBuild();
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

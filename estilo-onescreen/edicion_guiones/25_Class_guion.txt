@@ -1,0 +1,36 @@
+   0.00-   0.67 (0.67s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0001.png 100% | G:Grap | 
+   0.67-   1.33 (0.66s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0001.png | G:Graphics0 | 
+   1.33-   2.08 (0.75s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0002.png 100% | G:Graphics0 | 
+   2.08-   2.50 (0.42s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0002.png 100% | G:Graphics0 | 
+   2.50-   2.71 (0.21s) | A:C0714.MP4 100% | B:C0714.MP4 | B:C0715.MP4 | B:C0715.MP4 | G:Graphic | 
+   2.75-   3.17 (0.42s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | 
+   3.17-   3.79 (0.62s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | 
+   3.79-   4.88 (1.09s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0008.png 80%                | D3" OneScreen ( B D3" Class, ( B
+   4.88-   5.05 (0.17s) | A:C0714.MP4 100% | B:C0714.MP4 | B:C0715.MP4 | B:C0715.MP4 | G:Graphic | D3" Class, ( B
+   5.05-   6.05 (1.00s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | D3" Class, ( B D3" puedes lanzar ( B D3" quizes, ( B D3" votaciones ( B
+   6.05-   6.67 (0.62s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | D3" votaciones ( B
+   6.67-   7.55 (0.88s) | A:C0714.MP4 100% | B:C0714.MP4 | B:C0715.MP4 | B:C0715.MP4 | G:Graphic | D3" y dinámicas. ( B
+   7.55-   8.63 (1.08s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | D3" Directamente ( B D3" en tu ( B
+   8.63-   9.80 (1.17s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0008.png 80%                | D3" Pantalla ( B D3" Interactiva. ( B
+   9.80-  11.09 (1.29s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0008.png 80%           | D3" Ellos ( B D3" responden ( B D3" desde sus ( B
+  11.09-  12.22 (1.13s) | A:C0714.MP4 100% | B:C0714.MP4 | B:C0716.MP4 | B:C0716.MP4 | G:Graphic | D3" propios ( B D3" dispositivos, ( B
+  12.22-  13.39 (1.17s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | D3" tú ves ( B D3" ( B D3" resultados ( B
+  13.39-  14.22 (0.83s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0008.png 80%                | D3" en tiempo ( B D3" real. ( B
+  14.22-  15.68 (1.46s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0003.png 100% | G:Grap | 
+  15.68-  16.18 (0.50s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0717.MP4 | B:C0717.MP4 | G:Gr | 
+  16.18-  17.52 (1.34s) | A:C0714.MP4 100% | B:C0714.MP4 | B:C0717.MP4 | B:C0717.MP4 | G:Graphic | 
+  17.52-  18.43 (0.91s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0005.png 126% | G:Grap | 
+  18.43-  19.10 (0.67s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0005.png 126% | G:Graphics0 | 
+  19.10-  19.94 (0.84s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0008.png 80%           | D3" Activa ( B D3" ( B D3" participación. ( B
+  19.94-  20.35 (0.41s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | D3" participación. ( B
+  20.35-  21.06 (0.71s) | A:C0714.MP4 100% | B:C0714.MP4 | B:C0715.MP4 | B:C0715.MP4 | G:Graphic | D3" Multiplica ( B
+  21.06-  21.94 (0.88s) | A:C0714.MP4 166% | B:C0714.MP4 166% | B:C0715.MP4 | B:C0715.MP4 | G:Gr | D3" aprendizaje. ( B
+  21.94-  23.23 (1.29s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0006.png 146% | G:Graphics0 | 
+  23.23-  24.27 (1.04s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0006.png 146% | G:Grap | 
+  24.27-  24.82 (0.55s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0007.png 100% | G:Graphics0 | 
+  24.82-  25.36 (0.54s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0008.png 100% | G:Graphics0 | 
+  25.36-  25.78 (0.42s) | A:C0714.MP4 100% | B:C0714.MP4 | G:Graphics0007.png 100% | G:Graphics0 | 
+  25.78-  25.90 (0.12s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0007.png 100% | G:Grap | 
+  25.90-  26.44 (0.54s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0007.png 100% | G:Grap | 
+  26.44-  26.53 (0.09s) | A:C0714.MP4 166% | B:C0714.MP4 166% | G:Graphics0008.png 100% | G:Grap | 
+  26.53-  31.11 (4.58s) | A:Intro 16-9_S 100%                                                    | 

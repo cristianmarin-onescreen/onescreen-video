@@ -1,0 +1,29 @@
+   0.00-   1.13 (1.13s) | A:C0021.MP4 100% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | 
+   1.13-   2.25 (1.12s) | A:C0021.MP4 147% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | 
+   2.25-   3.59 (1.34s) | A:C0021.MP4 100% | G:Graphics0001.png 100% | G:Graphics0008.png 80%    | 
+   3.59-   4.63 (1.04s) | A:C0021.MP4 147% | G:Graphics0002.png 100% | G:Graphics0008.png 80%    | 
+   4.63-   5.71 (1.08s) | A:C0021.MP4 100% | G:Graphics0003.png 100% | G:Graphics0008.png 80%    | 
+   5.71-   6.42 (0.71s) | A:C0021.MP4 147% | G:Graphics0008.png 80%                              | D3" Con nuestras ( B D3" Pantallas ( B
+   6.42-   7.26 (0.84s) | A:C0021.MP4 147% | B:C0025.MP4 | G:Graphics0008.png 80%                | D3" Pantallas ( B D3" Interactivas ( B
+   7.26-   8.18 (0.92s) | A:C0021.MP4 100% | B:C0025.MP4 | G:Graphics0008.png 80%                | D3" Interactivas ( B D3" ( B D3" OneScreen. ( B
+   8.18-   8.72 (0.54s) | A:C0021.MP4 147% | B:C0025.MP4 | G:Graphics0008.png 80%                | D3" Ese tiempo ( B
+   8.72-   9.59 (0.87s) | A:C0021.MP4 147% | G:Graphics0004.png 100% | G:Graphics0008.png 80%    | 
+   9.59-  11.14 (1.55s) | A:C0021.MP4 100% | G:Graphics0004.png 100% | G:Graphics0008.png 80%    | 
+  11.14-  12.14 (1.00s) | A:C0021.MP4 147% | B:C0018.MP4 | G:Graphics0004.png 100% | G:Graphics0 | D3" Integradas ( B D3" ( B
+  12.14-  13.14 (1.00s) | A:C0021.MP4 100% | B:C0018.MP4 | G:Graphics0004.png 100% | G:Graphics0 | D3" inteligencia ( B D3" artificial. ( B
+  13.14-  13.93 (0.79s) | A:C0021.MP4 147% | G:Graphics0005.png 151% | G:Graphics0008.png 80%    | D3" Crea clases ( B
+  13.93-  14.18 (0.25s) | A:C0021.MP4 147% | B:C0009.MP4 | G:Graphics0005.png 151% | G:Graphics0 | D3" Crea clases ( B
+  14.18-  15.14 (0.96s) | A:C0021.MP4 100% | B:C0009.MP4 | G:Graphics0005.png 151% | G:Graphics0 | D3" completas ( B D3" en segundos. ( B
+  15.14-  16.48 (1.34s) | A:C0021.MP4 147% | B:C0015.MP4 | G:Graphics0005.png 151% | G:Graphics0 | D3" transcribe ( B D3" y resumen ( B D3" las lecciones ( B
+  16.48-  16.68 (0.20s) | A:C0021.MP4 147% | B:C0012.MP4 | G:Graphics0005.png 151% | G:Graphics0 | D3" las lecciones ( B
+  16.68-  18.10 (1.42s) | A:C0021.MP4 100% | B:C0012.MP4 | G:Graphics0005.png 151% | G:Graphics0 | D3" las lecciones ( B D3" automáticamente. ( B
+  18.10-  19.69 (1.59s) | A:C0021.MP4 147% | G:Graphics0005.png | G:Graphics0008.png 80%         | 
+  19.69-  20.48 (0.79s) | A:C0021.MP4 100% | G:Graphics0006.png | G:Graphics0008.png 80%         | 
+  20.48-  21.73 (1.25s) | A:C0021.MP4 147% | G:Graphics0006.png 147% | G:Graphics0008.png 80%    | 
+  21.73-  22.23 (0.50s) | A:C0021.MP4 100% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  22.23-  22.73 (0.50s) | A:C0021.MP4 100% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  22.73-  23.23 (0.50s) | A:C0021.MP4 100% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  23.23-  23.73 (0.50s) | A:C0021.MP4 147% | G:Graphics0008.png 147% | G:Graphics0008.png 80%    | 
+  23.73-  24.23 (0.50s) | A:C0021.MP4 147% | G:Graphics0007.png 147% | G:Graphics0008.png 80%    | 
+  24.23-  24.65 (0.42s) | A:C0021.MP4 147% | G:Graphics0008.png 147% | G:Graphics0008.png 80%    | 
+  24.65-  29.24 (4.59s) | A:Intro 16-9_S 100%                                                    | 

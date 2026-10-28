@@ -1,0 +1,976 @@
+{
+ "fps": 25,
+ "format": "3840x2160",
+ "totalDuration": 19.28,
+ "totalFrames": 482,
+ "source": "LED_1.wav",
+ "speechEnd": 19,
+ "brandTracking": "-0.050em",
+ "frames": [
+  {
+   "id": "f01",
+   "start": 0,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Vamos a hablar ahora sobre algo",
+     "words": [
+      {
+       "id": "w0",
+       "i": 0,
+       "text": "Vamos",
+       "start": 0,
+       "brand": false
+      },
+      {
+       "id": "w1",
+       "i": 1,
+       "text": "a",
+       "start": 0.48,
+       "brand": false
+      },
+      {
+       "id": "w2",
+       "i": 2,
+       "text": "hablar",
+       "start": 0.6,
+       "brand": false
+      },
+      {
+       "id": "w3",
+       "i": 3,
+       "text": "ahora",
+       "start": 0.8,
+       "brand": false
+      },
+      {
+       "id": "w4",
+       "i": 4,
+       "text": "sobre",
+       "start": 1.04,
+       "brand": false
+      },
+      {
+       "id": "w5",
+       "i": 5,
+       "text": "algo",
+       "start": 1.36,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "grande.",
+     "words": [
+      {
+       "id": "w6",
+       "i": 6,
+       "text": "grande.",
+       "start": 1.68,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Vamos a hablar ahora sobre algo / grande.",
+   "end": 2.44
+  },
+  {
+   "id": "f02",
+   "start": 2.48,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Algo",
+     "words": [
+      {
+       "id": "w7",
+       "i": 7,
+       "text": "Algo",
+       "start": 2.48,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "muy grande.",
+     "words": [
+      {
+       "id": "w8",
+       "i": 8,
+       "text": "muy",
+       "start": 2.72,
+       "brand": false
+      },
+      {
+       "id": "w9",
+       "i": 9,
+       "text": "grande.",
+       "start": 3.28,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Algo / muy grande.",
+   "end": 3.92
+  },
+  {
+   "id": "f03",
+   "start": 3.96,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Hay espacios que necesitan un formato",
+     "words": [
+      {
+       "id": "w10",
+       "i": 10,
+       "text": "Hay",
+       "start": 3.96,
+       "brand": false
+      },
+      {
+       "id": "w11",
+       "i": 11,
+       "text": "espacios",
+       "start": 4.16,
+       "brand": false
+      },
+      {
+       "id": "w12",
+       "i": 12,
+       "text": "que",
+       "start": 4.68,
+       "brand": false
+      },
+      {
+       "id": "w13",
+       "i": 13,
+       "text": "necesitan",
+       "start": 4.88,
+       "brand": false
+      },
+      {
+       "id": "w14",
+       "i": 14,
+       "text": "un",
+       "start": 5.48,
+       "brand": false
+      },
+      {
+       "id": "w15",
+       "i": 15,
+       "text": "formato",
+       "start": 5.6,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "gigante.",
+     "words": [
+      {
+       "id": "w16",
+       "i": 16,
+       "text": "gigante.",
+       "start": 6.04,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Hay espacios que necesitan un formato / gigante.",
+   "end": 6.96
+  },
+  {
+   "id": "f04",
+   "start": 7,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Estas son las",
+     "words": [
+      {
+       "id": "w17",
+       "i": 17,
+       "text": "Estas",
+       "start": 7,
+       "brand": false
+      },
+      {
+       "id": "w18",
+       "i": 18,
+       "text": "son",
+       "start": 7.2,
+       "brand": false
+      },
+      {
+       "id": "w19",
+       "i": 19,
+       "text": "las",
+       "start": 7.4,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": false,
+     "accent": false,
+     "regular": true,
+     "text": "VirtualWalls",
+     "words": [
+      {
+       "id": "w20",
+       "i": 20,
+       "text": "VirtualWalls",
+       "start": 7.68,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "display",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "de OneScreen.",
+     "words": [
+      {
+       "id": "w21",
+       "i": 21,
+       "text": "de",
+       "start": 8.28,
+       "brand": false
+      },
+      {
+       "id": "w22",
+       "i": 22,
+       "text": "OneScreen.",
+       "start": 8.4,
+       "brand": true
+      }
+     ]
+    }
+   ],
+   "text": "Estas son las / VirtualWalls / de OneScreen.",
+   "end": 9.04
+  },
+  {
+   "id": "f05",
+   "start": 9.08,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "Desde",
+     "words": [
+      {
+       "id": "w23",
+       "i": 23,
+       "text": "Desde",
+       "start": 9.08,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": false,
+     "accent": true,
+     "regular": false,
+     "text": "108” hasta 217”",
+     "words": [
+      {
+       "id": "w24",
+       "i": 24,
+       "text": "108”",
+       "start": 9.48,
+       "brand": false
+      },
+      {
+       "id": "w25",
+       "i": 25,
+       "text": "hasta",
+       "start": 10,
+       "brand": false
+      },
+      {
+       "id": "w26",
+       "i": 26,
+       "text": "217”",
+       "start": 10.4,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Desde / 108” hasta 217”",
+   "end": 12.4
+  },
+  {
+   "id": "f06",
+   "start": 12.44,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Imagen en",
+     "words": [
+      {
+       "id": "w27",
+       "i": 27,
+       "text": "Imagen",
+       "start": 12.44,
+       "brand": false
+      },
+      {
+       "id": "w28",
+       "i": 28,
+       "text": "en",
+       "start": 12.96,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "colossal",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "4K.",
+     "words": [
+      {
+       "id": "w29",
+       "i": 29,
+       "text": "4K.",
+       "start": 13.16,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Imagen en / 4K.",
+   "end": 13.84
+  },
+  {
+   "id": "f07",
+   "start": 13.88,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Cuando tu idea es grande,",
+     "words": [
+      {
+       "id": "w30",
+       "i": 30,
+       "text": "Cuando",
+       "start": 13.88,
+       "brand": false
+      },
+      {
+       "id": "w31",
+       "i": 31,
+       "text": "tu",
+       "start": 14.16,
+       "brand": false
+      },
+      {
+       "id": "w32",
+       "i": 32,
+       "text": "idea",
+       "start": 14.36,
+       "brand": false
+      },
+      {
+       "id": "w33",
+       "i": 33,
+       "text": "es",
+       "start": 14.64,
+       "brand": false
+      },
+      {
+       "id": "w34",
+       "i": 34,
+       "text": "grande,",
+       "start": 14.8,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "tu pantalla también.",
+     "words": [
+      {
+       "id": "w35",
+       "i": 35,
+       "text": "tu",
+       "start": 15.28,
+       "brand": false
+      },
+      {
+       "id": "w36",
+       "i": 36,
+       "text": "pantalla",
+       "start": 15.36,
+       "brand": false
+      },
+      {
+       "id": "w37",
+       "i": 37,
+       "text": "también.",
+       "start": 15.76,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Cuando tu idea es grande, / tu pantalla también.",
+   "end": 16.32
+  },
+  {
+   "id": "f08",
+   "start": 16.36,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "¿Quieres saber más de nuestras",
+     "words": [
+      {
+       "id": "w38",
+       "i": 38,
+       "text": "¿Quieres",
+       "start": 16.36,
+       "brand": false
+      },
+      {
+       "id": "w39",
+       "i": 39,
+       "text": "saber",
+       "start": 16.72,
+       "brand": false
+      },
+      {
+       "id": "w40",
+       "i": 40,
+       "text": "más",
+       "start": 16.92,
+       "brand": false
+      },
+      {
+       "id": "w41",
+       "i": 41,
+       "text": "de",
+       "start": 17.08,
+       "brand": false
+      },
+      {
+       "id": "w42",
+       "i": 42,
+       "text": "nuestras",
+       "start": 17.2,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": false,
+     "regular": false,
+     "text": "LED?",
+     "words": [
+      {
+       "id": "w43",
+       "i": 43,
+       "text": "LED?",
+       "start": 17.56,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "¿Quieres saber más de nuestras / LED?",
+   "end": 18
+  },
+  {
+   "id": "f09",
+   "start": 18.04,
+   "lines": [
+    {
+     "scale": "sub",
+     "caps": false,
+     "accent": false,
+     "regular": false,
+     "text": "Solo toca",
+     "words": [
+      {
+       "id": "w44",
+       "i": 44,
+       "text": "Solo",
+       "start": 18.04,
+       "brand": false
+      },
+      {
+       "id": "w45",
+       "i": 45,
+       "text": "toca",
+       "start": 18.24,
+       "brand": false
+      }
+     ]
+    },
+    {
+     "scale": "mega",
+     "caps": true,
+     "accent": true,
+     "regular": false,
+     "text": "esta pantalla.",
+     "words": [
+      {
+       "id": "w46",
+       "i": 46,
+       "text": "esta",
+       "start": 18.48,
+       "brand": false
+      },
+      {
+       "id": "w47",
+       "i": 47,
+       "text": "pantalla.",
+       "start": 18.64,
+       "brand": false
+      }
+     ]
+    }
+   ],
+   "text": "Solo toca / esta pantalla.",
+   "end": 19.28
+  }
+ ],
+ "words": [
+  {
+   "i": 0,
+   "src": 0,
+   "text": "Vamos",
+   "start": 0,
+   "end": 0.48,
+   "brand": false
+  },
+  {
+   "i": 1,
+   "src": 1,
+   "text": "a",
+   "start": 0.48,
+   "end": 0.64,
+   "brand": false
+  },
+  {
+   "i": 2,
+   "src": 2,
+   "text": "hablar",
+   "start": 0.6,
+   "end": 0.84,
+   "brand": false
+  },
+  {
+   "i": 3,
+   "src": 3,
+   "text": "ahora",
+   "start": 0.8,
+   "end": 1.04,
+   "brand": false
+  },
+  {
+   "i": 4,
+   "src": 4,
+   "text": "sobre",
+   "start": 1.04,
+   "end": 1.36,
+   "brand": false
+  },
+  {
+   "i": 5,
+   "src": 5,
+   "text": "algo",
+   "start": 1.36,
+   "end": 1.68,
+   "brand": false
+  },
+  {
+   "i": 6,
+   "src": 6,
+   "text": "grande.",
+   "start": 1.68,
+   "end": 2.28,
+   "brand": false
+  },
+  {
+   "i": 7,
+   "src": 7,
+   "text": "Algo",
+   "start": 2.48,
+   "end": 2.76,
+   "brand": false
+  },
+  {
+   "i": 8,
+   "src": 8,
+   "text": "muy",
+   "start": 2.72,
+   "end": 3.28,
+   "brand": false
+  },
+  {
+   "i": 9,
+   "src": 9,
+   "text": "grande.",
+   "start": 3.28,
+   "end": 3.76,
+   "brand": false
+  },
+  {
+   "i": 10,
+   "src": 10,
+   "text": "Hay",
+   "start": 3.96,
+   "end": 4.2,
+   "brand": false
+  },
+  {
+   "i": 11,
+   "src": 11,
+   "text": "espacios",
+   "start": 4.16,
+   "end": 4.72,
+   "brand": false
+  },
+  {
+   "i": 12,
+   "src": 12,
+   "text": "que",
+   "start": 4.68,
+   "end": 4.88,
+   "brand": false
+  },
+  {
+   "i": 13,
+   "src": 13,
+   "text": "necesitan",
+   "start": 4.88,
+   "end": 5.48,
+   "brand": false
+  },
+  {
+   "i": 14,
+   "src": 14,
+   "text": "un",
+   "start": 5.48,
+   "end": 5.64,
+   "brand": false
+  },
+  {
+   "i": 15,
+   "src": 15,
+   "text": "formato",
+   "start": 5.6,
+   "end": 6.04,
+   "brand": false
+  },
+  {
+   "i": 16,
+   "src": 16,
+   "text": "gigante.",
+   "start": 6.04,
+   "end": 6.76,
+   "brand": false
+  },
+  {
+   "i": 17,
+   "src": 17,
+   "text": "Estas",
+   "start": 7,
+   "end": 7.24,
+   "brand": false
+  },
+  {
+   "i": 18,
+   "src": 18,
+   "text": "son",
+   "start": 7.2,
+   "end": 7.4,
+   "brand": false
+  },
+  {
+   "i": 19,
+   "src": 19,
+   "text": "las",
+   "start": 7.4,
+   "end": 7.68,
+   "brand": false
+  },
+  {
+   "i": 20,
+   "src": 20,
+   "text": "VirtualWalls",
+   "start": 7.68,
+   "end": 8.32,
+   "brand": false
+  },
+  {
+   "i": 21,
+   "src": 21,
+   "text": "de",
+   "start": 8.28,
+   "end": 8.44,
+   "brand": false
+  },
+  {
+   "i": 22,
+   "src": 22,
+   "text": "OneScreen.",
+   "start": 8.4,
+   "end": 9,
+   "brand": true
+  },
+  {
+   "i": 23,
+   "src": 23,
+   "text": "Desde",
+   "start": 9.08,
+   "end": 9.48,
+   "brand": false
+  },
+  {
+   "i": 24,
+   "src": 24,
+   "text": "108”",
+   "start": 9.48,
+   "end": 10.04,
+   "brand": false
+  },
+  {
+   "i": 25,
+   "src": 25,
+   "text": "hasta",
+   "start": 10,
+   "end": 10.44,
+   "brand": false
+  },
+  {
+   "i": 26,
+   "src": 26,
+   "text": "217”",
+   "start": 10.4,
+   "end": 12.28,
+   "brand": false
+  },
+  {
+   "i": 27,
+   "src": 28,
+   "text": "Imagen",
+   "start": 12.44,
+   "end": 12.96,
+   "brand": false
+  },
+  {
+   "i": 28,
+   "src": 29,
+   "text": "en",
+   "start": 12.96,
+   "end": 13.2,
+   "brand": false
+  },
+  {
+   "i": 29,
+   "src": 30,
+   "text": "4K.",
+   "start": 13.16,
+   "end": 13.64,
+   "brand": false
+  },
+  {
+   "i": 30,
+   "src": 31,
+   "text": "Cuando",
+   "start": 13.88,
+   "end": 14.16,
+   "brand": false
+  },
+  {
+   "i": 31,
+   "src": 32,
+   "text": "tu",
+   "start": 14.16,
+   "end": 14.4,
+   "brand": false
+  },
+  {
+   "i": 32,
+   "src": 33,
+   "text": "idea",
+   "start": 14.36,
+   "end": 14.68,
+   "brand": false
+  },
+  {
+   "i": 33,
+   "src": 34,
+   "text": "es",
+   "start": 14.64,
+   "end": 14.84,
+   "brand": false
+  },
+  {
+   "i": 34,
+   "src": 35,
+   "text": "grande,",
+   "start": 14.8,
+   "end": 15.12,
+   "brand": false
+  },
+  {
+   "i": 35,
+   "src": 36,
+   "text": "tu",
+   "start": 15.28,
+   "end": 15.4,
+   "brand": false
+  },
+  {
+   "i": 36,
+   "src": 37,
+   "text": "pantalla",
+   "start": 15.36,
+   "end": 15.8,
+   "brand": false
+  },
+  {
+   "i": 37,
+   "src": 38,
+   "text": "también.",
+   "start": 15.76,
+   "end": 16.24,
+   "brand": false
+  },
+  {
+   "i": 38,
+   "src": 39,
+   "text": "¿Quieres",
+   "start": 16.36,
+   "end": 16.76,
+   "brand": false
+  },
+  {
+   "i": 39,
+   "src": 40,
+   "text": "saber",
+   "start": 16.72,
+   "end": 16.96,
+   "brand": false
+  },
+  {
+   "i": 40,
+   "src": 41,
+   "text": "más",
+   "start": 16.92,
+   "end": 17.12,
+   "brand": false
+  },
+  {
+   "i": 41,
+   "src": 42,
+   "text": "de",
+   "start": 17.08,
+   "end": 17.24,
+   "brand": false
+  },
+  {
+   "i": 42,
+   "src": 43,
+   "text": "nuestras",
+   "start": 17.2,
+   "end": 17.6,
+   "brand": false
+  },
+  {
+   "i": 43,
+   "src": 44,
+   "text": "LED?",
+   "start": 17.56,
+   "end": 17.88,
+   "brand": false
+  },
+  {
+   "i": 44,
+   "src": 45,
+   "text": "Solo",
+   "start": 18.04,
+   "end": 18.28,
+   "brand": false
+  },
+  {
+   "i": 45,
+   "src": 46,
+   "text": "toca",
+   "start": 18.24,
+   "end": 18.52,
+   "brand": false
+  },
+  {
+   "i": 46,
+   "src": 47,
+   "text": "esta",
+   "start": 18.48,
+   "end": 18.64,
+   "brand": false
+  },
+  {
+   "i": 47,
+   "src": 48,
+   "text": "pantalla.",
+   "start": 18.64,
+   "end": 18.96,
+   "brand": false
+  }
+ ]
+}

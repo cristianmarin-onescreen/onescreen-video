@@ -1,0 +1,1513 @@
+{
+  "language": "es",
+  "duration": 194.39,
+  "segments": [
+    {
+      "start": 6.68,
+      "end": 13.72,
+      "text": "Llegó otro caso al gurú, y ahora quién lo va a solucionar?",
+      "words": [
+        {
+          "word": "Llegó",
+          "start": 6.68,
+          "end": 7.12
+        },
+        {
+          "word": "otro",
+          "start": 7.12,
+          "end": 7.3
+        },
+        {
+          "word": "caso",
+          "start": 7.3,
+          "end": 7.52
+        },
+        {
+          "word": "al",
+          "start": 7.52,
+          "end": 7.7
+        },
+        {
+          "word": "gurú,",
+          "start": 7.7,
+          "end": 8.7
+        },
+        {
+          "word": "y",
+          "start": 11.34,
+          "end": 11.66
+        },
+        {
+          "word": "ahora",
+          "start": 11.66,
+          "end": 11.86
+        },
+        {
+          "word": "quién",
+          "start": 11.86,
+          "end": 12.04
+        },
+        {
+          "word": "lo",
+          "start": 12.04,
+          "end": 12.22
+        },
+        {
+          "word": "va",
+          "start": 12.22,
+          "end": 12.42
+        },
+        {
+          "word": "a",
+          "start": 12.42,
+          "end": 12.44
+        },
+        {
+          "word": "solucionar?",
+          "start": 12.44,
+          "end": 13.72
+        }
+      ]
+    },
+    {
+      "start": 22.67,
+      "end": 27.11,
+      "text": "Julian está en el gurú, conectado desde temprano, le llegan los problemas uno tras",
+      "words": [
+        {
+          "word": "Julian",
+          "start": 22.67,
+          "end": 22.85
+        },
+        {
+          "word": "está",
+          "start": 22.85,
+          "end": 23.07
+        },
+        {
+          "word": "en",
+          "start": 23.07,
+          "end": 23.23
+        },
+        {
+          "word": "el",
+          "start": 23.23,
+          "end": 23.45
+        },
+        {
+          "word": "gurú,",
+          "start": 23.45,
+          "end": 23.81
+        },
+        {
+          "word": "conectado",
+          "start": 24.03,
+          "end": 24.47
+        },
+        {
+          "word": "desde",
+          "start": 24.47,
+          "end": 24.77
+        },
+        {
+          "word": "temprano,",
+          "start": 24.77,
+          "end": 25.39
+        },
+        {
+          "word": "le",
+          "start": 25.53,
+          "end": 25.63
+        },
+        {
+          "word": "llegan",
+          "start": 25.63,
+          "end": 25.93
+        },
+        {
+          "word": "los",
+          "start": 25.93,
+          "end": 26.21
+        },
+        {
+          "word": "problemas",
+          "start": 26.21,
+          "end": 26.57
+        },
+        {
+          "word": "uno",
+          "start": 26.57,
+          "end": 26.89
+        },
+        {
+          "word": "tras",
+          "start": 26.89,
+          "end": 27.11
+        }
+      ]
+    },
+    {
+      "start": 27.11,
+      "end": 32.01,
+      "text": "otro la mano, abre el computador que acomoda en la silla, mira todos los casos y se",
+      "words": [
+        {
+          "word": "otro",
+          "start": 27.11,
+          "end": 27.39
+        },
+        {
+          "word": "la",
+          "start": 27.39,
+          "end": 27.67
+        },
+        {
+          "word": "mano,",
+          "start": 27.67,
+          "end": 28.01
+        },
+        {
+          "word": "abre",
+          "start": 28.25,
+          "end": 28.29
+        },
+        {
+          "word": "el",
+          "start": 28.29,
+          "end": 28.59
+        },
+        {
+          "word": "computador",
+          "start": 28.59,
+          "end": 29.13
+        },
+        {
+          "word": "que",
+          "start": 29.13,
+          "end": 29.37
+        },
+        {
+          "word": "acomoda",
+          "start": 29.37,
+          "end": 29.75
+        },
+        {
+          "word": "en",
+          "start": 29.75,
+          "end": 29.91
+        },
+        {
+          "word": "la",
+          "start": 29.91,
+          "end": 30.19
+        },
+        {
+          "word": "silla,",
+          "start": 30.19,
+          "end": 30.55
+        },
+        {
+          "word": "mira",
+          "start": 30.87,
+          "end": 30.95
+        },
+        {
+          "word": "todos",
+          "start": 30.95,
+          "end": 31.33
+        },
+        {
+          "word": "los",
+          "start": 31.33,
+          "end": 31.53
+        },
+        {
+          "word": "casos",
+          "start": 31.53,
+          "end": 31.69
+        },
+        {
+          "word": "y",
+          "start": 31.69,
+          "end": 31.87
+        },
+        {
+          "word": "se",
+          "start": 31.87,
+          "end": 32.01
+        }
+      ]
+    },
+    {
+      "start": 32.01,
+      "end": 37.21,
+      "text": "le mora la sonrisa, Julian hay un problema, si ya voy a revisar, pasa 20 minutos y",
+      "words": [
+        {
+          "word": "le",
+          "start": 32.01,
+          "end": 32.21
+        },
+        {
+          "word": "mora",
+          "start": 32.21,
+          "end": 32.45
+        },
+        {
+          "word": "la",
+          "start": 32.45,
+          "end": 32.67
+        },
+        {
+          "word": "sonrisa,",
+          "start": 32.67,
+          "end": 33.23
+        },
+        {
+          "word": "Julian",
+          "start": 33.31,
+          "end": 33.63
+        },
+        {
+          "word": "hay",
+          "start": 33.63,
+          "end": 33.77
+        },
+        {
+          "word": "un",
+          "start": 33.77,
+          "end": 33.99
+        },
+        {
+          "word": "problema,",
+          "start": 33.99,
+          "end": 34.35
+        },
+        {
+          "word": "si",
+          "start": 34.57,
+          "end": 34.63
+        },
+        {
+          "word": "ya",
+          "start": 34.63,
+          "end": 34.77
+        },
+        {
+          "word": "voy",
+          "start": 34.77,
+          "end": 34.99
+        },
+        {
+          "word": "a",
+          "start": 34.99,
+          "end": 35.19
+        },
+        {
+          "word": "revisar,",
+          "start": 35.19,
+          "end": 35.83
+        },
+        {
+          "word": "pasa",
+          "start": 36.05,
+          "end": 36.17
+        },
+        {
+          "word": "20",
+          "start": 36.17,
+          "end": 36.45
+        },
+        {
+          "word": "minutos",
+          "start": 36.45,
+          "end": 36.97
+        },
+        {
+          "word": "y",
+          "start": 36.97,
+          "end": 37.21
+        }
+      ]
+    },
+    {
+      "start": 37.21,
+      "end": 41.01,
+      "text": "lo vuelve a consultar, que se infalla la pantalla, que si no prende el sistema,",
+      "words": [
+        {
+          "word": "lo",
+          "start": 37.21,
+          "end": 37.37
+        },
+        {
+          "word": "vuelve",
+          "start": 37.37,
+          "end": 37.63
+        },
+        {
+          "word": "a",
+          "start": 37.63,
+          "end": 37.77
+        },
+        {
+          "word": "consultar,",
+          "start": 37.77,
+          "end": 38.35
+        },
+        {
+          "word": "que",
+          "start": 38.45,
+          "end": 38.53
+        },
+        {
+          "word": "se",
+          "start": 38.53,
+          "end": 38.65
+        },
+        {
+          "word": "infalla",
+          "start": 38.65,
+          "end": 38.93
+        },
+        {
+          "word": "la",
+          "start": 38.93,
+          "end": 39.15
+        },
+        {
+          "word": "pantalla,",
+          "start": 39.15,
+          "end": 39.57
+        },
+        {
+          "word": "que",
+          "start": 39.71,
+          "end": 39.85
+        },
+        {
+          "word": "si",
+          "start": 39.85,
+          "end": 39.99
+        },
+        {
+          "word": "no",
+          "start": 39.99,
+          "end": 40.17
+        },
+        {
+          "word": "prende",
+          "start": 40.17,
+          "end": 40.39
+        },
+        {
+          "word": "el",
+          "start": 40.39,
+          "end": 40.49
+        },
+        {
+          "word": "sistema,",
+          "start": 40.49,
+          "end": 41.01
+        }
+      ]
+    },
+    {
+      "start": 41.01,
+      "end": 48.03,
+      "text": "Julian mira el caso y le aumenta la condena, Julian, Julian, que pasó con el",
+      "words": [
+        {
+          "word": "Julian",
+          "start": 41.01,
+          "end": 41.47
+        },
+        {
+          "word": "mira",
+          "start": 41.47,
+          "end": 41.75
+        },
+        {
+          "word": "el",
+          "start": 41.75,
+          "end": 41.97
+        },
+        {
+          "word": "caso",
+          "start": 41.97,
+          "end": 42.25
+        },
+        {
+          "word": "y",
+          "start": 42.25,
+          "end": 42.41
+        },
+        {
+          "word": "le",
+          "start": 42.41,
+          "end": 42.53
+        },
+        {
+          "word": "aumenta",
+          "start": 42.53,
+          "end": 42.87
+        },
+        {
+          "word": "la",
+          "start": 42.87,
+          "end": 43.09
+        },
+        {
+          "word": "condena,",
+          "start": 43.09,
+          "end": 43.85
+        },
+        {
+          "word": "Julian,",
+          "start": 43.85,
+          "end": 44.81
+        },
+        {
+          "word": "Julian,",
+          "start": 45.55,
+          "end": 46.41
+        },
+        {
+          "word": "que",
+          "start": 46.89,
+          "end": 46.93
+        },
+        {
+          "word": "pasó",
+          "start": 46.93,
+          "end": 47.37
+        },
+        {
+          "word": "con",
+          "start": 47.37,
+          "end": 47.77
+        },
+        {
+          "word": "el",
+          "start": 47.77,
+          "end": 48.03
+        }
+      ]
+    },
+    {
+      "start": 48.03,
+      "end": 65.98,
+      "text": "gurú? Resuelves tu espira ya, que de tanto estresse ese gurú, te bajo, ven",
+      "words": [
+        {
+          "word": "gurú?",
+          "start": 48.03,
+          "end": 48.59
+        },
+        {
+          "word": "Resuelves",
+          "start": 53.0,
+          "end": 53.48
+        },
+        {
+          "word": "tu",
+          "start": 53.48,
+          "end": 53.74
+        },
+        {
+          "word": "espira",
+          "start": 58.06,
+          "end": 58.66
+        },
+        {
+          "word": "ya,",
+          "start": 58.66,
+          "end": 59.32
+        },
+        {
+          "word": "que",
+          "start": 59.94,
+          "end": 60.06
+        },
+        {
+          "word": "de",
+          "start": 60.06,
+          "end": 60.28
+        },
+        {
+          "word": "tanto",
+          "start": 60.28,
+          "end": 60.56
+        },
+        {
+          "word": "estresse",
+          "start": 60.56,
+          "end": 61.42
+        },
+        {
+          "word": "ese",
+          "start": 61.42,
+          "end": 61.84
+        },
+        {
+          "word": "gurú,",
+          "start": 61.84,
+          "end": 63.02
+        },
+        {
+          "word": "te",
+          "start": 63.5,
+          "end": 63.64
+        },
+        {
+          "word": "bajo,",
+          "start": 63.64,
+          "end": 64.16
+        },
+        {
+          "word": "ven",
+          "start": 65.96,
+          "end": 65.98
+        }
+      ]
+    },
+    {
+      "start": 65.98,
+      "end": 70.36,
+      "text": "por el chat, Julian necesito ayuda, él mira la pantalla y responde tengo una",
+      "words": [
+        {
+          "word": "por",
+          "start": 65.98,
+          "end": 66.24
+        },
+        {
+          "word": "el",
+          "start": 66.24,
+          "end": 66.48
+        },
+        {
+          "word": "chat,",
+          "start": 66.48,
+          "end": 66.56
+        },
+        {
+          "word": "Julian",
+          "start": 66.68,
+          "end": 66.98
+        },
+        {
+          "word": "necesito",
+          "start": 66.98,
+          "end": 67.6
+        },
+        {
+          "word": "ayuda,",
+          "start": 67.6,
+          "end": 67.98
+        },
+        {
+          "word": "él",
+          "start": 68.22,
+          "end": 68.34
+        },
+        {
+          "word": "mira",
+          "start": 68.34,
+          "end": 68.58
+        },
+        {
+          "word": "la",
+          "start": 68.58,
+          "end": 68.82
+        },
+        {
+          "word": "pantalla",
+          "start": 68.82,
+          "end": 69.1
+        },
+        {
+          "word": "y",
+          "start": 69.1,
+          "end": 69.24
+        },
+        {
+          "word": "responde",
+          "start": 69.24,
+          "end": 69.8
+        },
+        {
+          "word": "tengo",
+          "start": 69.8,
+          "end": 70.04
+        },
+        {
+          "word": "una",
+          "start": 70.04,
+          "end": 70.36
+        }
+      ]
+    },
+    {
+      "start": 70.36,
+      "end": 74.48,
+      "text": "duda, hace una llamada después otra reunión y el problema sigue vivo",
+      "words": [
+        {
+          "word": "duda,",
+          "start": 70.36,
+          "end": 70.68
+        },
+        {
+          "word": "hace",
+          "start": 71.1,
+          "end": 71.2
+        },
+        {
+          "word": "una",
+          "start": 71.2,
+          "end": 71.46
+        },
+        {
+          "word": "llamada",
+          "start": 71.46,
+          "end": 71.9
+        },
+        {
+          "word": "después",
+          "start": 71.9,
+          "end": 72.24
+        },
+        {
+          "word": "otra",
+          "start": 72.24,
+          "end": 72.56
+        },
+        {
+          "word": "reunión",
+          "start": 72.56,
+          "end": 73.18
+        },
+        {
+          "word": "y",
+          "start": 73.18,
+          "end": 73.32
+        },
+        {
+          "word": "el",
+          "start": 73.32,
+          "end": 73.48
+        },
+        {
+          "word": "problema",
+          "start": 73.48,
+          "end": 73.8
+        },
+        {
+          "word": "sigue",
+          "start": 73.8,
+          "end": 74.14
+        },
+        {
+          "word": "vivo",
+          "start": 74.14,
+          "end": 74.48
+        }
+      ]
+    },
+    {
+      "start": 74.48,
+      "end": 78.72,
+      "text": "esperando solución, hoy a escalar el caso, esa frase es inmortal, cuando",
+      "words": [
+        {
+          "word": "esperando",
+          "start": 74.48,
+          "end": 75.06
+        },
+        {
+          "word": "solución,",
+          "start": 75.06,
+          "end": 75.92
+        },
+        {
+          "word": "hoy",
+          "start": 76.12,
+          "end": 76.18
+        },
+        {
+          "word": "a",
+          "start": 76.18,
+          "end": 76.34
+        },
+        {
+          "word": "escalar",
+          "start": 76.34,
+          "end": 76.64
+        },
+        {
+          "word": "el",
+          "start": 76.64,
+          "end": 76.84
+        },
+        {
+          "word": "caso,",
+          "start": 76.84,
+          "end": 77.1
+        },
+        {
+          "word": "esa",
+          "start": 77.3,
+          "end": 77.4
+        },
+        {
+          "word": "frase",
+          "start": 77.4,
+          "end": 77.68
+        },
+        {
+          "word": "es",
+          "start": 77.68,
+          "end": 77.9
+        },
+        {
+          "word": "inmortal,",
+          "start": 77.9,
+          "end": 78.4
+        },
+        {
+          "word": "cuando",
+          "start": 78.5,
+          "end": 78.72
+        }
+      ]
+    },
+    {
+      "start": 78.72,
+      "end": 83.16,
+      "text": "Julian la pronuncia ya sabemos el final, el ticket sigue abierto, nadie sabe qué",
+      "words": [
+        {
+          "word": "Julian",
+          "start": 78.72,
+          "end": 79.02
+        },
+        {
+          "word": "la",
+          "start": 79.02,
+          "end": 79.3
+        },
+        {
+          "word": "pronuncia",
+          "start": 79.3,
+          "end": 79.7
+        },
+        {
+          "word": "ya",
+          "start": 79.7,
+          "end": 79.94
+        },
+        {
+          "word": "sabemos",
+          "start": 79.94,
+          "end": 80.38
+        },
+        {
+          "word": "el",
+          "start": 80.38,
+          "end": 80.66
+        },
+        {
+          "word": "final,",
+          "start": 80.66,
+          "end": 81.02
+        },
+        {
+          "word": "el",
+          "start": 81.2,
+          "end": 81.4
+        },
+        {
+          "word": "ticket",
+          "start": 81.4,
+          "end": 81.62
+        },
+        {
+          "word": "sigue",
+          "start": 81.62,
+          "end": 81.92
+        },
+        {
+          "word": "abierto,",
+          "start": 81.92,
+          "end": 82.26
+        },
+        {
+          "word": "nadie",
+          "start": 82.5,
+          "end": 82.62
+        },
+        {
+          "word": "sabe",
+          "start": 82.62,
+          "end": 82.88
+        },
+        {
+          "word": "qué",
+          "start": 82.88,
+          "end": 83.16
+        }
+      ]
+    },
+    {
+      "start": 83.16,
+      "end": 90.42,
+      "text": "pasó, Julian sigue estresado, pero el problema continuó, Julian, Julian, que pasó",
+      "words": [
+        {
+          "word": "pasó,",
+          "start": 83.16,
+          "end": 83.56
+        },
+        {
+          "word": "Julian",
+          "start": 83.74,
+          "end": 84.1
+        },
+        {
+          "word": "sigue",
+          "start": 84.1,
+          "end": 84.38
+        },
+        {
+          "word": "estresado,",
+          "start": 84.38,
+          "end": 85.06
+        },
+        {
+          "word": "pero",
+          "start": 85.26,
+          "end": 85.36
+        },
+        {
+          "word": "el",
+          "start": 85.36,
+          "end": 85.58
+        },
+        {
+          "word": "problema",
+          "start": 85.58,
+          "end": 85.9
+        },
+        {
+          "word": "continuó,",
+          "start": 85.9,
+          "end": 87.26
+        },
+        {
+          "word": "Julian,",
+          "start": 87.92,
+          "end": 87.92
+        },
+        {
+          "word": "Julian,",
+          "start": 88.54,
+          "end": 89.28
+        },
+        {
+          "word": "que",
+          "start": 89.88,
+          "end": 90.0
+        },
+        {
+          "word": "pasó",
+          "start": 90.0,
+          "end": 90.42
+        }
+      ]
+    },
+    {
+      "start": 90.42,
+      "end": 126.72,
+      "text": "con el gurú? No resuelves tu, que revisarlo, pero aunque esté estresado",
+      "words": [
+        {
+          "word": "con",
+          "start": 90.42,
+          "end": 90.78
+        },
+        {
+          "word": "el",
+          "start": 90.78,
+          "end": 91.06
+        },
+        {
+          "word": "gurú?",
+          "start": 91.06,
+          "end": 91.62
+        },
+        {
+          "word": "No",
+          "start": 95.6,
+          "end": 95.92
+        },
+        {
+          "word": "resuelves",
+          "start": 95.92,
+          "end": 96.6
+        },
+        {
+          "word": "tu,",
+          "start": 96.6,
+          "end": 96.86
+        },
+        {
+          "word": "que",
+          "start": 123.02,
+          "end": 123.1
+        },
+        {
+          "word": "revisarlo,",
+          "start": 123.1,
+          "end": 124.06
+        },
+        {
+          "word": "pero",
+          "start": 124.38,
+          "end": 125.76
+        },
+        {
+          "word": "aunque",
+          "start": 125.76,
+          "end": 125.96
+        },
+        {
+          "word": "esté",
+          "start": 125.96,
+          "end": 126.16
+        },
+        {
+          "word": "estresado",
+          "start": 126.16,
+          "end": 126.72
+        }
+      ]
+    },
+    {
+      "start": 126.72,
+      "end": 131.4,
+      "text": "nunca deja de intentar, abre otro ticket y lo vuelve a revisar, tiene",
+      "words": [
+        {
+          "word": "nunca",
+          "start": 126.72,
+          "end": 127.24
+        },
+        {
+          "word": "deja",
+          "start": 127.24,
+          "end": 127.6
+        },
+        {
+          "word": "de",
+          "start": 127.6,
+          "end": 127.84
+        },
+        {
+          "word": "intentar,",
+          "start": 127.84,
+          "end": 128.44
+        },
+        {
+          "word": "abre",
+          "start": 128.94,
+          "end": 129.04
+        },
+        {
+          "word": "otro",
+          "start": 129.04,
+          "end": 129.26
+        },
+        {
+          "word": "ticket",
+          "start": 129.26,
+          "end": 129.58
+        },
+        {
+          "word": "y",
+          "start": 129.58,
+          "end": 129.82
+        },
+        {
+          "word": "lo",
+          "start": 129.82,
+          "end": 130.0
+        },
+        {
+          "word": "vuelve",
+          "start": 130.0,
+          "end": 130.32
+        },
+        {
+          "word": "a",
+          "start": 130.32,
+          "end": 130.48
+        },
+        {
+          "word": "revisar,",
+          "start": 130.48,
+          "end": 131.08
+        },
+        {
+          "word": "tiene",
+          "start": 131.24,
+          "end": 131.4
+        }
+      ]
+    },
+    {
+      "start": 131.4,
+      "end": 136.49,
+      "text": "tantos pendientes, pero sigue conectado aunque la cabeza retienda y",
+      "words": [
+        {
+          "word": "tantos",
+          "start": 131.4,
+          "end": 131.8
+        },
+        {
+          "word": "pendientes,",
+          "start": 133.27,
+          "end": 133.57
+        },
+        {
+          "word": "pero",
+          "start": 133.61,
+          "end": 133.85
+        },
+        {
+          "word": "sigue",
+          "start": 133.85,
+          "end": 134.11
+        },
+        {
+          "word": "conectado",
+          "start": 134.11,
+          "end": 134.73
+        },
+        {
+          "word": "aunque",
+          "start": 134.73,
+          "end": 134.95
+        },
+        {
+          "word": "la",
+          "start": 134.95,
+          "end": 135.21
+        },
+        {
+          "word": "cabeza",
+          "start": 135.21,
+          "end": 135.61
+        },
+        {
+          "word": "retienda",
+          "start": 135.61,
+          "end": 136.21
+        },
+        {
+          "word": "y",
+          "start": 136.21,
+          "end": 136.49
+        }
+      ]
+    },
+    {
+      "start": 136.49,
+      "end": 141.17,
+      "text": "cuando llega el viernes dice por fin descanse, pero suena el celular, Julian, un caso",
+      "words": [
+        {
+          "word": "cuando",
+          "start": 136.49,
+          "end": 136.73
+        },
+        {
+          "word": "llega",
+          "start": 136.73,
+          "end": 137.03
+        },
+        {
+          "word": "el",
+          "start": 137.03,
+          "end": 137.17
+        },
+        {
+          "word": "viernes",
+          "start": 137.17,
+          "end": 137.47
+        },
+        {
+          "word": "dice",
+          "start": 137.47,
+          "end": 137.73
+        },
+        {
+          "word": "por",
+          "start": 137.73,
+          "end": 137.93
+        },
+        {
+          "word": "fin",
+          "start": 137.93,
+          "end": 138.09
+        },
+        {
+          "word": "descanse,",
+          "start": 138.09,
+          "end": 138.77
+        },
+        {
+          "word": "pero",
+          "start": 138.93,
+          "end": 139.05
+        },
+        {
+          "word": "suena",
+          "start": 139.05,
+          "end": 139.35
+        },
+        {
+          "word": "el",
+          "start": 139.35,
+          "end": 139.51
+        },
+        {
+          "word": "celular,",
+          "start": 139.51,
+          "end": 139.93
+        },
+        {
+          "word": "Julian,",
+          "start": 140.19,
+          "end": 140.51
+        },
+        {
+          "word": "un",
+          "start": 140.71,
+          "end": 140.85
+        },
+        {
+          "word": "caso",
+          "start": 140.85,
+          "end": 141.17
+        }
+      ]
+    },
+    {
+      "start": 141.17,
+      "end": 145.15,
+      "text": "encontré, se queda mirando el lecho pensando en qué hacer, porque el gurú",
+      "words": [
+        {
+          "word": "encontré,",
+          "start": 141.17,
+          "end": 141.95
+        },
+        {
+          "word": "se",
+          "start": 142.07,
+          "end": 142.21
+        },
+        {
+          "word": "queda",
+          "start": 142.21,
+          "end": 142.47
+        },
+        {
+          "word": "mirando",
+          "start": 142.47,
+          "end": 142.91
+        },
+        {
+          "word": "el",
+          "start": 142.91,
+          "end": 143.09
+        },
+        {
+          "word": "lecho",
+          "start": 143.09,
+          "end": 143.27
+        },
+        {
+          "word": "pensando",
+          "start": 143.27,
+          "end": 143.71
+        },
+        {
+          "word": "en",
+          "start": 143.71,
+          "end": 143.97
+        },
+        {
+          "word": "qué",
+          "start": 143.97,
+          "end": 144.13
+        },
+        {
+          "word": "hacer,",
+          "start": 144.13,
+          "end": 144.43
+        },
+        {
+          "word": "porque",
+          "start": 144.65,
+          "end": 144.73
+        },
+        {
+          "word": "el",
+          "start": 144.73,
+          "end": 144.93
+        },
+        {
+          "word": "gurú",
+          "start": 144.93,
+          "end": 145.15
+        }
+      ]
+    },
+    {
+      "start": 145.15,
+      "end": 151.68,
+      "text": "lo persigue hasta después de las seis, Julian, los tickets se persiguen y",
+      "words": [
+        {
+          "word": "lo",
+          "start": 145.15,
+          "end": 145.39
+        },
+        {
+          "word": "persigue",
+          "start": 145.39,
+          "end": 145.73
+        },
+        {
+          "word": "hasta",
+          "start": 145.73,
+          "end": 145.97
+        },
+        {
+          "word": "después",
+          "start": 145.97,
+          "end": 146.35
+        },
+        {
+          "word": "de",
+          "start": 146.35,
+          "end": 146.55
+        },
+        {
+          "word": "las",
+          "start": 146.55,
+          "end": 146.85
+        },
+        {
+          "word": "seis,",
+          "start": 146.85,
+          "end": 147.31
+        },
+        {
+          "word": "Julian,",
+          "start": 147.35,
+          "end": 148.19
+        },
+        {
+          "word": "los",
+          "start": 150.42,
+          "end": 150.54
+        },
+        {
+          "word": "tickets",
+          "start": 150.54,
+          "end": 150.74
+        },
+        {
+          "word": "se",
+          "start": 150.74,
+          "end": 151.08
+        },
+        {
+          "word": "persiguen",
+          "start": 151.08,
+          "end": 151.48
+        },
+        {
+          "word": "y",
+          "start": 151.48,
+          "end": 151.68
+        }
+      ]
+    },
+    {
+      "start": 151.68,
+      "end": 157.0,
+      "text": "tu corres en círculos, Julian, Julian, no te vayas a estresar, que mañana hay",
+      "words": [
+        {
+          "word": "tu",
+          "start": 151.68,
+          "end": 151.82
+        },
+        {
+          "word": "corres",
+          "start": 151.82,
+          "end": 152.18
+        },
+        {
+          "word": "en",
+          "start": 152.18,
+          "end": 152.38
+        },
+        {
+          "word": "círculos,",
+          "start": 152.38,
+          "end": 152.7
+        },
+        {
+          "word": "Julian,",
+          "start": 153.7,
+          "end": 154.06
+        },
+        {
+          "word": "Julian,",
+          "start": 154.32,
+          "end": 154.32
+        },
+        {
+          "word": "no",
+          "start": 154.42,
+          "end": 154.56
+        },
+        {
+          "word": "te",
+          "start": 154.56,
+          "end": 154.82
+        },
+        {
+          "word": "vayas",
+          "start": 154.82,
+          "end": 155.14
+        },
+        {
+          "word": "a",
+          "start": 155.14,
+          "end": 155.32
+        },
+        {
+          "word": "estresar,",
+          "start": 155.32,
+          "end": 156.18
+        },
+        {
+          "word": "que",
+          "start": 156.44,
+          "end": 156.54
+        },
+        {
+          "word": "mañana",
+          "start": 156.54,
+          "end": 156.86
+        },
+        {
+          "word": "hay",
+          "start": 156.86,
+          "end": 157.0
+        }
+      ]
+    },
+    {
+      "start": 157.0,
+      "end": 178.42,
+      "text": "más problemas que tenemos que solucionar, se alga el gurú, quien va a",
+      "words": [
+        {
+          "word": "más",
+          "start": 157.0,
+          "end": 157.18
+        },
+        {
+          "word": "problemas",
+          "start": 157.18,
+          "end": 157.66
+        },
+        {
+          "word": "que",
+          "start": 157.66,
+          "end": 157.94
+        },
+        {
+          "word": "tenemos",
+          "start": 157.94,
+          "end": 158.5
+        },
+        {
+          "word": "que",
+          "start": 158.5,
+          "end": 159.6
+        },
+        {
+          "word": "solucionar,",
+          "start": 159.6,
+          "end": 161.08
+        },
+        {
+          "word": "se",
+          "start": 168.0,
+          "end": 168.1
+        },
+        {
+          "word": "alga",
+          "start": 168.1,
+          "end": 168.26
+        },
+        {
+          "word": "el",
+          "start": 168.26,
+          "end": 168.36
+        },
+        {
+          "word": "gurú,",
+          "start": 168.36,
+          "end": 168.78
+        },
+        {
+          "word": "quien",
+          "start": 177.96,
+          "end": 178.06
+        },
+        {
+          "word": "va",
+          "start": 178.06,
+          "end": 178.26
+        },
+        {
+          "word": "a",
+          "start": 178.26,
+          "end": 178.42
+        }
+      ]
+    },
+    {
+      "start": 178.42,
+      "end": 178.78,
+      "text": "contestar",
+      "words": [
+        {
+          "word": "contestar",
+          "start": 178.42,
+          "end": 178.78
+        }
+      ]
+    }
+  ]
+}

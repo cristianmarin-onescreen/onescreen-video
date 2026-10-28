@@ -1,0 +1,28 @@
+# Memoria de video
+
+Copias de las notas de la memoria de Claude Code que tocan video (se sincronizan con `herramientas/sync_memoria.py`). Resumen de reglas: [../CLAUDE.md](../CLAUDE.md).
+
+- [color desde premiere lut](color_desde_premiere_lut.md) — "El .cube que exporta Lumetri NO sirve fuera de Premiere; lo que sí funciona es ajustar un LUT comparando el original S-Log3 con un export de Premiere (prueba C1186, 22-oct-2026)"
+- [directorio video onescreen](directorio_video_onescreen.md) — "Sheet \"Directorio de video\" (1rvg6s0B…): 5.687 planos listos para edición + 442 assets de C:, D: y Drive; columnas, reglas de limpieza, ayudante \"Abrir en PC\" y trampas de carga al Sheet."
+- [edicion cris ritmo voz](edicion_cris_ritmo_voz.md) — "21-oct-2026: reglas de edición medidas en 28 videos de Cris (voz manda, no la música): cortes/zooms/apoyos/gráficos 2-3 cuadros antes de la palabra; zigzag 100%/zoom cerrado; apoyo literal; guía 07_EDICION.md."
+- [estilo motion apple](estilo_motion_apple.md) — "21-oct-2026: Cris rechazó las animaciones del video QuizWiz+Scrybe (tarjetas blancas, pop genérico) y eligió como estilo definitivo el del video Flota de IA (tipo Apple); la guía vive en estilo-onescreen/05_MOTION.md."
+- [estilo organico cris](estilo_organico_cris.md) — "21-oct-2026: video 'Colaboradores que colaboran' (jul-2026) leído con su .prproj: estilo 'Orgánico' (nombre provisional): capa de ajuste con cámara que flota + aberración cromática, escala alternada, palabras PNG que suben, intro de marca prefabricada; 1 ejemplo."
+- [estilo texto subtitulos](estilo_texto_subtitulos.md) — Reglas de texto y subtítulos de los videos de OneScreen (revisión de los de febrero): texto sobre plano sin cajas, subtítulos blancos con trazo negro fino
+- [feedback pasar link no ruta](feedback_pasar_link_no_ruta.md) — "Cris quiere el link clicable al entregar un archivo, nunca solo la ruta o \"está en tal carpeta\""
+- [hyperframes render trampas](hyperframes_render_trampas.md) — "Tres fallos de HyperFrames que solo aparecen en el MP4 (no en preview/snapshot) — GSAP lazy/immediateRender:false, puntas redondas en trazos ocultos, disco C: lleno."
+- [marca tipografia onescreen](marca_tipografia_onescreen.md) — "Reglas de marca de Cristian para videos/piezas OneScreen — logo cada vez que se nombra la marca, Rubik títulos, Manrope cuerpo, lockup del slogan con bold parcial."
+- [mezcla audio videos](mezcla_audio_videos.md) — "Gusto de Cristian para música/SFX en videos editados (19-oct-2026, pitch Lessn): percusión rápida ≥160 BPM, música presente, efectos discretos; carve de HyperFrames baja demasiado."
+- [musica punto de giro](musica_punto_de_giro.md) — "21-oct-2026: Cris critica mi elección de música y masterización en videos; me enseña con un proyecto de Premiere donde marca el punto de giro de la canción (donde cambia la estructura de edición)."
+- [paleta motion graphics](paleta_motion_graphics.md) — "Paleta de Cristian para motion graphics OneScreen: fondo blanco, letras azul #3976ff y negro, acento #7d00ba; nada de amarillo ni fondos azul oscuro."
+- [pipeline color slog3](pipeline_color_slog3.md) — "Pipeline automático de color S-Log3 → look de Cris (grade/, config/estilo.yaml, skill colorear-plano); estado de calibración, decisión pendiente (balance de blancos) y trampas"
+- [proceso video 16 pasos](proceso_video_16_pasos.md) — "28-oct-2026: Cris definió el proceso obligatorio de 16 pasos para todo video (voz Hale (receta única) → planos → preview 720p → .prproj con color → formatos → mexicano → Brasil); vive en estudio-video/CLAUDE.md (detalle técnico en CLAUDE.md)."
+- [short casa lopez](short_casa_lopez.md) — "Short vertical de 22 s del caso de éxito Casa López (19-oct-2026): proyecto en D:\\OneScreen\\Contenido\\2026\\5. Mayo\\CASO DE ÉXITO. Casa López\\Proyecto short (no en C:), cómo se armó y qué falta decidir."
+- [video guardar en d](video_guardar_en_d.md) — "26-oct-2026: todo lo de un video se guarda en D:\\OneScreen\\Contenido\\AAAA\\MM. Mes\\<Pieza>\\ (carpeta nueva por pieza); nada en C:."
+- [video quizwiz scrybe v2](video_quizwiz_scrybe_v2.md) — v2 del video QuizWiz+Scrybe (21-oct-2026) rehecho con las reglas medidas de edición y estilo Flota IA; dónde vive y qué falta
+- [video rental daas](video_rental_daas.md) — Video OneScreen Rental/DaaS (21-23 oct 2026): v3 con estilo corregido por Cris (texto sobre plano, diagramas que representan, tarjetas con plano), proyecto Premiere con Lumetri; dónde vive todo
+- [videos sin fotos estaticas](videos_sin_fotos_estaticas.md) — Regla de Cris para videos — jamás fotos estáticas como plano; si solo hay foto, animarla con Veo (Google AI Studio)
+- [voz aprobada no se regenera](voz_aprobada_no_se_regenera.md) — "27-oct-2026: Cris se molestó porque regeneré la voz de un video cuando ya había dicho que estaba bien; la voz aprobada queda congelada y solo se vuelve a generar si él lo pide."
+- [voz hale receta inta37](voz_hale_receta_inta37.md) — Receta de voz aprobada por Cris (28-oct-2026, INTA37) y ID de la Hale nueva; el juez de Gemini no manda sobre su oído
+- [voz una sola receta](voz_una_sola_receta.md) — Voz en off de OneScreen = UNA receta fija (INTA37 exp_d); prohibido usar otros modelos/ajustes o acelerar en el post; Cris se molesta por la pérdida de tiempo
+- [voz y planos prohibidos videos](voz_y_planos_prohibidos_videos.md) — "Vigente (28-oct 2026): voz = receta única voz_exp_d.py (eleven_v4 + voz a voz a Hale, sin tempo, sin juez Gemini); planos solo desde 2024 y vetados 103182/103512."
+- [zonas seguras videos](zonas_seguras_videos.md) — "21-oct-2026: cada relación de aspecto tiene zonas seguras propias; en verticales no interferir con la UI de redes y usarlas también para encuadrar. Valores usados y cómo se aplicaron."

@@ -1,0 +1,10 @@
+   0.00-   3.48 (3.48s) | B:014_AD_COR_Configuracion de la pan | B:t7-pt-4k-alfa-negro.mov | B:t | OneScreen T7, para resultados profesionales. Disponible
+   3.48-   6.76 (3.28s) | A:03_AD_COR_Es 100% | B:t7-pt-4k-alfa-negro.mov | B:t7-pt-4k-alfa-blan | para resultados profesionales. Disponible desde sesenta y cinco hasta ciento cinco pulgada
+   6.76-   9.04 (2.28s) | B:015_AD_COR_Configuracion de la pan | B:t7-pt-4k-alfa-negro.mov | B:t | Android quince con certificado Google EDLA.
+   9.04-  11.72 (2.68s) | A:02_CEA_COR_P 100% | B:t7-pt-4k-alfa-negro.mov | B:t7-pt-4k-alfa-blan | Ocho micrófonos incorporados con sonido omnidireccional. Cámara cuatro
+  11.72-  14.24 (2.52s) | B:01_CEA_COR_PLANO DE CAMARA_T7_PP_5 | B:t7-pt-4k-alfa-negro.mov | B:t | sonido omnidireccional. Cámara cuatro K integrada con seguimiento.
+  14.24-  16.56 (2.32s) | A:futuristic-n 200% | B:t7-pt-4k-alfa-negro.mov | B:t7-pt-4k-alfa-blan | Procesador NPU de procesamiento de IA, o sea,
+  16.56-  19.28 (2.72s) | B:futuristic-data-processor-and-info 200% | B:t7-pt-4k-alfa-negro.mov  | de IA, o sea, seis billones de operaciones por segundo. Cincuenta puntos
+  19.28-  21.08 (1.80s) | A:C0125.MP4 100% | B:t7-pt-4k-alfa-negro.mov | B:t7-pt-4k-alfa-blanco. | por segundo. Cincuenta puntos táctiles. Todo lo que
+  21.08-  25.12 (4.04s) | B:014_AD_COR_Configuracion de la pan | B:t7-pt-4k-alfa-negro.mov | B:t | táctiles. Todo lo que ya te gustaba de la Kor, pero aún mejor. OneScreen T7,
+  25.12-  28.48 (3.36s) | G:Color mate | B:t7-pt-4k-alfa-negro.mov | B:t7-4k-alfa-negro.mov      | el siguiente nivel de la educación.

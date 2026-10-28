@@ -1,0 +1,75 @@
+    # ── cámara (lenta, con respiro) ──
+    def cam(t, x, y, m, ry, rx, d=1.0, ease="power2.inOut"):
+        js.append(f'tl.to("#look",{{x:{-x:.1f},y:{-y + SHIFT:.1f},duration:{d:.3f},ease:"{ease}",overwrite:"auto"}},{t:.4f});')
+        js.append(f'tl.to("#dolly",{{z:{zf(m):.1f},duration:{d:.3f},ease:"{ease}",overwrite:"auto"}},{t:.4f});')
+        js.append(f'tl.to("#pan",{{rotationY:{ry},duration:{d:.3f},ease:"{ease}",overwrite:"auto"}},{t:.4f});')
+        js.append(f'tl.to("#tilt",{{rotationX:{rx},duration:{d:.3f},ease:"{ease}",overwrite:"auto"}},{t:.4f});')
+
+    def tap(sel, t):
+        """toque con el dedo: aparece, presiona y suelta una onda (la app es táctil, no hay mouse)"""
+        js.append(f'tl.fromTo("{sel} .tp",{{opacity:0,scale:1.6}},{{opacity:1,scale:1,duration:0.4,ease:"power3.out"}},{t - 0.55:.4f});')
+        js.append(f'tl.to("{sel} .tp",{{scale:0.8,duration:0.14,ease:"power2.in"}},{t - 0.1:.4f});')
+        js.append(f'tl.fromTo("{sel} .rp",{{opacity:0.75,scale:0.5}},{{opacity:0,scale:2.6,duration:0.8,ease:"power2.out"}},{t:.4f});')
+        js.append(f'tl.to("{sel} .tp",{{scale:1,duration:0.2,ease:"power2.out"}},{t + 0.06:.4f});')
+        js.append(f'tl.to("{sel} .tp",{{opacity:0,duration:0.35}},{t + 0.42:.4f});')
+
+    js.append(f'gsap.set("#u3",{{perspective:{P3},perspectiveOrigin:"50% 50%"}});')
+    js.append('gsap.set("#dolly,#tilt,#pan,#look",{transformStyle:"preserve-3d"});')
+    js.append(f'gsap.set("#look",{{x:0,y:{SHIFT:.1f}}});gsap.set("#dolly",{{z:{zf(0.6):.1f}}});gsap.set("#pan",{{rotationY:-14}});gsap.set("#tilt",{{rotationX:6}});')
+    js.append('gsap.set("#pQ .tx",{opacity:0});')
+    cam(t0, 0, 0, 1.0, -6, 2, 2.2, "power3.out")                          # llegada: dolly-in lento
+    cam(T["start"] - 0.2, 0, 10, 1.1, -3, 1, 1.6)                          # deriva suave hacia el botón
+    cam(T["el"] - 0.2, QX, 0, 1.0, 8, -1, 1.4, "power3.inOut")             # paneo a QuizWiz
+    cam(T["arma"] + 0.25, QX + 30, 30, 1.1, 2, 0, 1.0)
+    cam(T["esa"] + 0.35, QX + 300, 40, 1.32, -7, 1, 1.1)                   # empuja al resultado
+    cam(T["pal"] + 0.45, QX - 230, 20, 1.28, 7, -1, 1.3)                   # deriva al texto fuente
+    cam(T["ent"] - 0.3, QX, 0, 1.05, 0, 0, 0.9)
+    cam(T["qr"] + 0.15, QX - 250, 70, 1.4, -6, 1, 1.0)                     # QR
+    cam(T["est"] - 0.15, QX + 200, 90, 1.12, -8, 1, 1.2)                   # llega el celular
+    cam(T["esc"] - 0.3, QX + 190, 100, 1.32, -4, 0, 1.0)                   # encima del celular
+
+    # ── Scrybe por dentro ──
+    js.append(f'tl.fromTo("#ring",{{scale:0.8,opacity:0}},{{scale:1,opacity:1,duration:0.7,ease:"back.out(1.7)"}},{t0 + 0.4:.4f});')
+    js.append(f'tl.fromTo("#tHome .t1,#tHome .t2",{{opacity:0,y:20}},{{opacity:1,y:0,duration:0.6,ease:"power3.out",stagger:0.14}},{t0 + 0.45:.4f});')
+    tap("#ring", T["start"])
+    js.append(f'tl.to("#ring",{{scale:0.95,duration:0.1,ease:"power2.in"}},{T["start"] - 0.1:.4f});tl.to("#ring",{{scale:1,duration:0.3,ease:"back.out(2)"}},{T["start"]:.4f});')
+    js.append(f'tl.to("#tHome",{{opacity:0,duration:0.25}},{T["start"] + 0.2:.4f});')
+    js.append(f'tl.fromTo("#tRec",{{opacity:0}},{{opacity:1,duration:0.25}},{T["start"] + 0.2:.4f});')
+    js.append(f'tl.fromTo("#toast",{{opacity:0,y:20}},{{opacity:1,y:0,duration:0.4,ease:"power3.out"}},{T["start"] + 0.35:.4f});')
+    js.append(f'tl.to("#toast",{{opacity:0,duration:0.3}},{T["start"] + 1.0:.4f});')
+    nw = len(words)
+    js.append(f'tl.fromTo("#tRec .tw",{{opacity:0,y:12}},{{opacity:1,y:0,duration:0.18,ease:"power2.out",stagger:{max(0.02, (T["el"] - T["start"] - 0.5) / nw):.4f}}},{T["start"] + 0.5:.4f});')
+    js.append(f'tl.fromTo("#tRec .wave i",{{scaleY:0.2}},{{scaleY:1,duration:0.26,ease:"sine.inOut",repeat:{max(1, int((T["el"] - T["start"]) / 0.5))},yoyo:true,stagger:{{each:0.02,from:"random"}}}},{T["start"] + 0.2:.4f});')
+    # la transcripción despega y viaja a QuizWiz
+    js.append(f'tl.fromTo("#chip",{{opacity:0,x:0,y:0,scale:0.85}},{{opacity:1,x:30,y:-30,scale:1,duration:0.4,ease:"power3.out"}},{T["el"] - 0.1:.4f});')
+    js.append(f'tl.to("#chip",{{x:{QX - 270},y:-70,scale:0.95,duration:1.0,ease:"power3.inOut"}},{T["el"] + 0.35:.4f});')
+    js.append(f'tl.to("#chip",{{opacity:0,scale:0.9,duration:0.3}},{T["el"] + 1.3:.4f});')
+    # ── QuizWiz por dentro ──
+    js.append(f'tl.fromTo("#pQ .tx",{{opacity:0,y:10}},{{opacity:1,y:0,duration:0.5,ease:"power2.out"}},{T["el"] + 1.2:.4f});')
+    tap("#bGen", T["arma"])
+    js.append(f'tl.to("#bGen",{{scale:0.94,duration:0.1}},{T["arma"] - 0.1:.4f});tl.to("#bGen",{{scale:1,duration:0.3,ease:"back.out(2)"}},{T["arma"] + 0.02:.4f});')
+    js.append(f'tl.to("#empty",{{opacity:0,duration:0.2}},{T["arma"] + 0.08:.4f});')
+    js.append(f'tl.fromTo("#spin",{{opacity:0}},{{opacity:1,duration:0.15}},{T["arma"] + 0.12:.4f});tl.to("#spin",{{opacity:0,duration:0.15}},{T["esa"] - 0.05:.4f});')
+    js.append(f'tl.fromTo("#spin div",{{rotation:0}},{{rotation:720,duration:{max(0.4, T["esa"] - T["arma"]):.3f},ease:"none"}},{T["arma"] + 0.12:.4f});')
+    js.append(f'tl.fromTo("#qlist .qc",{{opacity:0,y:40,rotationX:-14}},{{opacity:1,y:0,rotationX:0,duration:0.6,ease:"power3.out",stagger:0.4}},{T["esa"] - 0.05:.4f});')
+    js.append(f'tl.fromTo("#qlist .op.ok",{{borderColor:"#d6dbe4",background:"#fff"}},{{borderColor:"#7ed957",background:"#f3fff0",duration:0.35,stagger:0.4}},{T["esa"] + 0.4:.4f});')
+    js.append(f'tl.fromTo("#qlist .op.ok .rd",{{scale:0}},{{scale:1,duration:0.35,ease:"back.out(2)",stagger:0.4}},{T["esa"] + 0.45:.4f});')
+    js.append(f'tl.fromTo("#pQ .ln",{{backgroundSize:"0% 100%"}},{{backgroundSize:"100% 100%",duration:0.7,ease:"power2.inOut",stagger:0.55}},{T["pal"] + 0.4:.4f});')
+    # publicar
+    tap("#bPub", T["ent"] - 0.05)
+    js.append(f'tl.to("#bPub",{{scale:0.94,duration:0.1}},{T["ent"] - 0.15:.4f});tl.to("#bPub",{{scale:1,duration:0.3,ease:"back.out(2)"}},{T["ent"] - 0.03:.4f});')
+    js.append(f'tl.fromTo("#dPub",{{opacity:0}},{{opacity:1,duration:0.25}},{T["ent"] + 0.2:.4f});tl.fromTo("#dPub .dd",{{scale:0.9,y:30}},{{scale:1,y:0,duration:0.45,ease:"back.out(1.6)"}},{T["ent"] + 0.2:.4f});')
+    for k in (1, 2, 3):
+        js.append(f'tl.to("#st{k} s",{{backgroundColor:"#3bb54a",borderColor:"#3bb54a",duration:0.15}},{T["ent"] + 0.3 + 0.2 * k:.4f});tl.to("#st{k}",{{opacity:1,duration:0.15}},{T["ent"] + 0.3 + 0.2 * k:.4f});')
+    js.append(f'tl.to("#dPub",{{opacity:0,duration:0.25}},{T["qr"] - 0.15:.4f});')
+    js.append(f'tl.fromTo("#shr",{{opacity:0,y:30}},{{opacity:1,y:0,duration:0.45,ease:"power3.out"}},{T["qr"] - 0.2:.4f});')
+    js.append(f'tl.fromTo(".qm_q",{{opacity:0,scale:0}},{{opacity:1,scale:1,transformOrigin:"center",duration:0.25,ease:"back.out(2)",stagger:{{each:0.0018,from:"random"}}}},{T["qr"] - 0.05:.4f});')
+    # celular: la interfaz de atrás se desenfoca (cambio de foco) en vez de quedar encimada
+    js.append(f'tl.to("#pQ",{{filter:"blur(7px)",opacity:0.5,duration:0.9,ease:"power2.inOut"}},{T["est"] - 0.25:.4f});')
+    js.append(f'tl.fromTo("#pH",{{opacity:0,y:420,rotationX:18}},{{opacity:1,y:0,rotationX:0,duration:1.1,ease:"power3.out"}},{T["est"] - 0.25:.4f});')
+    js.append(f'tl.fromTo(".qm_p",{{opacity:0}},{{opacity:1,duration:0.3,stagger:{{each:0.0008,from:"center"}}}},{T["est"] + 0.6:.4f});')
+    js.append(f'tl.fromTo("#pH .br",{{scale:1.3,opacity:0.3}},{{scale:1,opacity:1,duration:0.5,ease:"power3.out",stagger:0.06}},{T["est"] + 0.7:.4f});')
+    js.append(f'tl.fromTo("#scan",{{y:0,opacity:0}},{{y:222,opacity:1,duration:0.6,ease:"power1.inOut",repeat:1,yoyo:true}},{T["esc"] - 0.05:.4f});')
+    js.append(f'tl.to("#cam1",{{opacity:0,duration:0.25}},{T["cel"] + 0.2:.4f});')
+    js.append(f'tl.fromTo("#qsc",{{opacity:0,y:30}},{{opacity:1,y:0,duration:0.5,ease:"power3.out"}},{T["cel"] + 0.2:.4f});')
+    js.append(f'tl.fromTo("#qsc .ok2 .rd",{{scale:0}},{{scale:1,duration:0.35,ease:"back.out(2)"}},{T["cel"] + 0.75:.4f});')

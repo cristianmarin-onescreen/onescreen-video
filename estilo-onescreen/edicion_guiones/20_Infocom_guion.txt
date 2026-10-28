@@ -1,0 +1,20 @@
+   0.00-   0.17 (0.17s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   0.17-   0.38 (0.21s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   0.38-   0.83 (0.45s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   0.83-   0.96 (0.13s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   0.96-   1.25 (0.29s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   1.25-   1.42 (0.17s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   1.42-   1.92 (0.50s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   1.92-   2.21 (0.29s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   2.21-   2.38 (0.17s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   2.38-   3.12 (0.74s) | G:Color mate | G:01.jpg | G:Graphics0008.png 40%                       | 
+   3.12-   4.96 (1.84s) | A:IMG_1071.mp4 100% | G:Graphics0008.png 40%                           | D3" Esta ( B D3" es la nueva pantalla ( B D3" LED táctil ( B
+   4.96-   6.42 (1.46s) | A:IMG_1071.mp4 100% | G:Graphics0008.png 40%                           | D3" LED táctil ( B D3" de 135 ( B
+   6.42-   7.88 (1.46s) | A:IMG_1071.mp4 100% | G:Graphics0008.png 40%                           | D3" de 135 ( B D3" pulgadas ( B D3" OneScreen. ( B
+   7.88-  10.08 (2.20s) | A:IMG_1071.mp4 100% | G:Graphics0008.png 40%                           | D3" OneScreen. ( B D3" Transforma ( B D3" cualquier ( B D3" sala en un ( B D3" centro ( B 
+  10.08-  10.58 (0.50s) | A:IMG_1071.mp4 100% | G:Graphics0008.png 40%                           | D3" interactivo ( B
+  10.58-  11.83 (1.25s) | A:IMG_1071.mp4 100% | G:Pantalla LED0002.png 164% | G:Graphics0008.png | 
+  11.83-  13.67 (1.84s) | A:IMG_1071.mp4 100% | G:Pantalla LED0003.png 150% | G:Graphics0008.png | 
+  13.67-  14.88 (1.21s) | A:IMG_1071.mp4 100% | G:brown-color-neon-light-mouth-sound 93% | G:Pan | 
+  14.88-  17.08 (2.20s) | A:IMG_1071.mp4 100% | G:Pantalla LED0005.png 137% | G:Graphics0008.png | 
+  17.08-  21.71 (4.63s) | A:Intro 16-9_S 50%                                                     | 

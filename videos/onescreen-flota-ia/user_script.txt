@@ -1,0 +1,45 @@
+¡Hola! Te damos la bienvenida a OneScreen Academy.
+
+Y esta, es la introducción a nuestra flota de IA. En OneScreen somos una compañía AI First, eso significa que la Inteligencia Artificial está integrada en nuestros procesos internos, para optimizar tiempo y resultados.
+
+Es por eso, que a nivel interno, OneScreen tiene una flota de agentes, diseñados para procesos distintos, acá, conocerás cuáles son, y en qué momento utilizar cada uno de ellos.
+
+Antes de empezar, debes saber que estos agentes todos tienen una conexión permanente con nuestro ERP, Odoo, y que todos se comunican a través del usuario de Alexander Guarín, si ves actividades de él, probablemente sea alguno de estos agentes comunicándose contigo.
+
+Comencemos por uno que seguramente ya has usado, Iván Andrade.
+
+Iván es el coach de ventas del equipo. Su principal función es ayudar al equipo comercial a concretar más ventas, es un asistente disponible 24/7, él no se encarga de atender clientes, se encarga de ayudarte a atender los tuyos.
+
+Iván puede ayudarte dándote los precios más actualizados definidos por la gerencia comercial, tarifas y rutas de precios para productos.
+
+Puede ayudarte a encontrar fichas técnicas, comparativos, políticas de producto. Iván puede ayudarte a planear estrategias comerciales, objeciones. Iván está entrenado para ser tu principal apoyo.
+
+Su principal fuente de información es revisada y auditada prácticamente a diario, por lo que es confiable.
+
+Seguimos con Isaac Alvarado, Isaac es la primera cara comercial de OneScreen, su tarea, es contactar a todos los clientes potenciales de Marketing. Isaac no tiene como tarea vender, la tarea de Isaac es establecer un primer contacto, sin importar la hora, calificar los clientes, calentar la necesidad y agendar demostraciones.
+
+Isaac tiene contacto directo con Odoo, y siempre que él tenga contacto con un cliente, registrará en las actividades lo que haya conversado.
+
+Su objetivo principal, es agendar demostraciones para el equipo comercial.
+
+Siempre que recibas un lead en Odoo, revisa las actividades, para ver qué información Isaac ya consiguió para ti.
+
+Isaac no está diseñado para uso interno de los colaboradores, está diseñado solo para atender a los clientes potenciales, identifica a quienes tienen una necesidad real y te los entrega listos para la demostración
+
+Para soporte técnico, está Isabel Alarcón, el soporte técnico postventa de OneScreen.
+
+Su tarea, es atender clientes y diagnosticar posibles fallas técnicas de nuestros clientes. Isabel trabaja, tanto con los clientes, ayudándoles a revisar sus problemas técnicos, y también es la mano derecha de nuestro equipo de soporte Gurú. Isabel tiene la capacidad de revisar el estado de casos de servicio, seriales, garantías, y agendar capacitaciones, si necesitas apoyo técnico, siempre consulta al equipo Gurú, o a Isabel, su agente.
+
+Ahora, en el mundo de las licitaciones y las ventas a gobierno, está Harby, que es el monitor y analista de licitaciones públicas y privadas de OneScreen. Su tarea, es estar constantemente monitoreando las oportunidades de las plataformas del gobierno, y trayendo aquellas en las que OneScreen puede estar como proveedor. Harby te notificará de las licitaciones disponibles en tu zona, a través de Odoo, para que puedas hacer la gestión correspondiente
+
+Cuando se trata de logística, está Marco, el agente de logística, que estará encargado de revisar importaciones, estar pendiente de temas como despachos, rastreo de envíos, y demás tareas útiles para el departamento de logística.
+
+Hay dos reglas sobre las cuáles todos los agentes de OneScreen están construidos
+
+Primero, ellos solo responden información desde nuestra base de conocimiento, si ellos no tienen información o no saben, no se lo van a inventar, te lo dirán directamente.
+
+Y segundo, están para apoyar tu trabajo, no para decidir por ti, ellos siempre tendrán como propósito optimizar procesos, nunca reemplazar el trabajo de una persona real.
+
+Esta es la flota de IA de OneScreen, que durante meses se ha perfeccionado para servir a los colaboradores de OneScreen, como a sus clientes.
+
+Esto es OneScreen: Transforma el espacio. Transforma el futuro.

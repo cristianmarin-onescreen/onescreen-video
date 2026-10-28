@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>01-espacios</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: #00FF00;
+          color: #000000;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; display: grid; place-items: center; padding: 0 8cqw; }
+        .stage.left { justify-items: start; text-align: left; }
+        /* Escenarios que posicionan a sus hijos en ABSOLUTO (3, 4, 9, 10). Tienen que ser
+           bloque, no grid: place-items:center le da justify-self:center a un hijo absoluto,
+           y eso lo dimensiona a su contenido en vez de respetar left:0/right:0 � con lo cual
+           text-align:center deja de centrar y la línea se pega al borde izquierdo. */
+        .stage.abs { display: block; place-items: normal; padding: 0; }
+        .block { display: block; max-width: 80cqw; text-align: center; margin-top: -1.2cqh; }
+        .stage.left .block { text-align: left; }
+        /* Estado inicial en CSS, nunca en un tl.set en la posición 0.
+           Se oculta con OPACITY, jamás con la propiedad visibility: esa se HEREDA, y un hijo
+           puesto en visible anula el hidden que el framework le aplica al clip padre. El
+           resultado es que todas las escenas se dibujan encima de todas a la vez. */
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .w.first { opacity: 1; }
+        .t-micro    { font-size: 0.95cqw; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; }
+        .t-body     { font-size: 1.9cqw;  font-weight: 400; line-height: 1.5; }
+        .t-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.25; letter-spacing: -0.010em; }
+        .t-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .t-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .t-colossal { font-size: 15cqw;   font-weight: 800; line-height: 0.92; letter-spacing: -0.045em; }
+        .muted  { color: #7e7e82; }
+        .accent { color: #3976ff; }
+        .line { display: block; }
+        .rule {
+          display: block; width: 12cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.2cqh auto 0;
+        }
+        #f01-lineA { margin-bottom: 1.2cqh; }
+        #f01-lineB { opacity: 0; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="01-espacios"
+        data-width="3840"
+        data-height="2160"
+        data-duration="5"
+      >
+      <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="block t-phrase">
+          <span class="line" id="f01-lineA"><span class="w first" id="f01-w0">Há</span> <span class="w" id="f01-w1">espaços</span> <span class="w" id="f01-w2">que</span> <span class="w" id="f01-w3">só</span> <span class="w" id="f01-w4">ocupam</span> <span class="w" id="f01-w5">um</span> <span class="w" id="f01-w6">lugar.</span></span>
+          <span class="line" id="f01-lineB"><span class="w" id="f01-w7">E</span> <span class="w" id="f01-w8">há</span> <span class="w" id="f01-w9">espaços</span> <span class="w" id="f01-w10">que</span> <span class="w accent" id="f01-w11">mudam</span> <span class="w" id="f01-w12">tudo</span> <span class="w" id="f01-w13">o</span> <span class="w" id="f01-w14">que</span> <span class="w" id="f01-w15">acontece</span> <span class="w" id="f01-w16">dentro</span> <span class="w" id="f01-w17">deles.</span></span>
+        </div>
+      </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        // Entrada de palabra: opacidad binaria + desplazamiento desde abajo. Nunca un fade.
+        function word(tl, sel, t, weight) {
+          var Y = { heavy: 140, normal: 90, light: 66 }[weight || "normal"];
+          var D = { heavy: 0.2, normal: 0.16, light: 0.12 }[weight || "normal"];
+          tl.set(sel, { opacity: 1 }, t);
+          // immediateRender:false o GSAP escribe el estado inicial al CONSTRUIR la línea de
+          // tiempo, no al llegar el cabezal � y el elemento se ve desplazado desde el frame 0.
+          tl.fromTo(sel, { y: Y }, { y: 0, duration: D, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Reparte una lista de palabras sobre sus tiempos.
+        function words(tl, list, weight) {
+          for (var k = 0; k < list.length; k++) word(tl, list[k][0], list[k][1], weight);
+        }
+        // SALIDA de costura (cut-the-curve): power4.in escalonado en orden de lectura, con el
+        // fundido de la �aLTIMA palabra muriendo 0.02 s antes del corte � así nada queda
+        // congelado en el corte y tampoco hay hueco muerto.
+        function seamExit(tl, sels, cut, axis, dir) {
+          var n = sels.length;
+          var span = n > 1 ? 0.14 : 0;              // ventana del escalonado
+          var step = n > 1 ? span / (n - 1) : 0;
+          // Se ancla por el FINAL: el último elemento en salir termina de apagarse 0.02 s
+          // antes del corte. Así no queda aire muerto justo antes del cambio de escena, y
+          // el desplazamiento (0.34 s) sigue corriendo al 59% cuando cae el corte — que es
+          // lo que exige la ley: cortar a media trayectoria, nunca con el gesto ya resuelto.
+          var t0 = cut - 0.285 - span;
+          for (var k = 0; k < n; k++) {
+            var t = t0 + step * k;
+            var to = { duration: 0.34, ease: "power4.in" };
+            to[axis] = 460 * dir;
+            tl.to(sels[k], to, t);
+            // Fundido lineal, retrasado respecto al desplazamiento: ver EXIT_FADE_DELAY.
+            tl.to(sels[k], { opacity: 0, duration: 0.1, ease: "none" }, t + 0.165);
+          }
+        }
+        // ENTRADA de costura: arranca a media trayectoria (opacidad 0.35), power4.out.
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+        // Inverse zoom � SALIDA: todo se encoge (retrocede). Sign de d(escala)/dt negativo.
+        function zoomOutExit(tl, sel, cut) {
+          tl.to(sel, { scale: 0.8, filter: "blur(10px)", duration: 0.2, ease: "power3.in" }, cut - 0.2);
+          tl.to(sel, { opacity: 0.15, duration: 0.2, ease: "none" }, cut - 0.2);
+        }
+        // Inverse zoom � ENTRADA: llega sobredimensionado y se repliega. Mismo signo.
+        function zoomOutEntry(tl, sel) {
+          tl.fromTo(
+            sel,
+            { scale: 1.25, filter: "blur(10px)", opacity: 0.15 },
+            { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.5, ease: "expo.out" },
+            0
+          );
+        }
+
+        // Verso 1 � plano a propósito: su trabajo es hacer que el segundo pese.
+        // La palabra 0 abre el film ya compuesta (clase .first en CSS); no tiene
+        // entrada porque no hay nada antes de ella de lo que entrar.
+        words(tl, [["#f01-w1", 0.333333], ["#f01-w2", 0.75], ["#f01-w3", 0.916667], ["#f01-w4", 1.125], ["#f01-w5", 1.5], ["#f01-w6", 1.708333]]);
+        // Sale entero hacia arriba en 2.02 s y deja 0.26 s de cuadro vacío. Ese vacío
+        // ES el gesto: el film enseña un espacio que solo ocupa un lugar.
+        // Arranca cuando "lugar." TERMINA de decirse (2.02 s), no cuando empieza.
+        tl.to("#f01-lineA", { y: -253.00000000000003, duration: 0.30, ease: "power4.in" }, 2.041667);
+        tl.to("#f01-lineA", { opacity: 0, duration: 0.12, ease: "none" }, 2.141667);
+
+        // Verso 2 � entra palabra por palabra. "cambian" es el primer azul del film.
+        tl.set("#f01-lineB", { opacity: 1 }, 2.23);
+        words(tl, [["#f01-w7", 2.25], ["#f01-w8", 2.5], ["#f01-w9", 2.625], ["#f01-w10", 3.083333], ["#f01-w11", 3.291667], ["#f01-w12", 3.666667], ["#f01-w13", 3.791667], ["#f01-w14", 3.875], ["#f01-w15", 4.166667], ["#f01-w16", 4.416667], ["#f01-w17", 4.583333]]);
+
+        // Costura hacia la noche: UP. La lleva el CONTENEDOR, no las palabras sueltas:
+        // el ledger nombra a #f01-lineB como portador y el verificador mide ese
+        // elemento. Si el desplazamiento vive solo en los hijos, el portador está
+        // quieto en el corte y la continuidad de vector no existe.
+        seamExit(tl, ["#f01-lineB"], 5, "y", -1);
+
+        window.__timelines["01-espacios"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

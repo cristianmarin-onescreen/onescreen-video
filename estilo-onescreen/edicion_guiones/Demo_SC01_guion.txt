@@ -1,0 +1,48 @@
+   0.00-   0.20 (0.20s) | G:animated-empty-classroom-backgroun 200% | B:transforma-pt-4k-alfa-bl | 
+   0.20-   0.40 (0.20s) | G:animated-empty-classroom-backgroun 200% | G:Recurso 1.png 100% | B:t | Hay espacios que solo
+   0.40-   0.84 (0.44s) | G:animated-empty-classroom-backgroun 200% | G:Recurso 1.png 100% | B:t | Hay espacios que solo
+   0.84-   1.24 (0.40s) | G:animated-empty-classroom-backgroun 200% | G:Recurso 1.png 100% | B:t | Hay espacios que solo
+   1.24-   1.60 (0.36s) | G:animated-empty-classroom-backgroun 200% | G:Recurso 1.png 100% | B:t | ocupan un lugar
+   1.60-   2.44 (0.84s) | G:animated-empty-classroom-backgroun 200% | G:Recurso 1.png | B:transf | ocupan un lugar
+   2.44-   3.16 (0.72s) | B:lighted-office-workplace-2025-12-1 | G:Recurso 2.png 100% | B:transf | y hay espacios que
+   3.16-   3.40 (0.24s) | B:lighted-office-workplace-2025-12-1 | G:Recurso 2.png 100% | B:transf | y hay espacios que
+   3.40-   3.72 (0.32s) | B:lighted-office-workplace-2025-12-1 | G:Recurso 2.png 100% | B:transf | cambian lo que pasa
+   3.72-   4.20 (0.48s) | B:lighted-office-workplace-2025-12-1 | G:Recurso 2.png 100% | B:transf | cambian lo que pasa
+   4.20-   5.20 (1.00s) | B:lighted-office-workplace-2025-12-1 | G:Recurso 2.png | B:transforma- | dentro de ellos. Hay
+   5.20-   5.36 (0.16s) | B:vibrant-cosmic-nebula-and-planets- 200% | G:Recurso 3.png 119% | B:t | dentro de ellos. Hay
+   5.36-   5.72 (0.36s) | B:vibrant-cosmic-nebula-and-planets- 200% | G:Recurso 3.png 119% | B:t | espacios que no se
+   5.72-   6.12 (0.40s) | B:vibrant-cosmic-nebula-and-planets- 200% | G:Recurso 3.png 119% | G:R | espacios que no se
+   6.12-   6.56 (0.44s) | B:vibrant-cosmic-nebula-and-planets- 200% | G:Recurso 3.png 119% | G:R | espacios que no se llenan con cualquier cosa
+   6.56-   7.72 (1.16s) | B:vibrant-cosmic-nebula-and-planets- 200% | G:Recurso 3.png 119% | B:t | llenan con cualquier cosa
+   7.72-   8.04 (0.32s) | G:Color mate | G:Recurso 4.png 30% | B:transforma-pt-4k-alfa-blanco.mo | 
+   8.04-   8.28 (0.24s) | G:Color mate | G:Recurso 4.png 30% | B:transforma-pt-4k-alfa-blanco.mo | y hay espacios a
+   8.28-   8.72 (0.44s) | G:Color mate | G:Recurso 4.png 30% | B:transforma-pt-4k-alfa-blanco.mo | y hay espacios a
+   8.72-   8.80 (0.08s) | G:Color mate | G:Recurso 4.png 30% | B:transforma-pt-4k-alfa-blanco.mo | y hay espacios a
+   8.80-   8.96 (0.16s) | G:Color mate | G:Recurso 4.png 30% | B:transforma-pt-4k-alfa-blanco.mo | y hay espacios a
+   8.96-   9.08 (0.12s) | G:Color mate | G:Recurso 4.png 30% | B:transforma-pt-4k-alfa-blanco.mo | los que solo les
+   9.08-   9.36 (0.28s) | G:Color mate | G:Recurso 5.png 34% | B:transforma-pt-4k-alfa-blanco.mo | los que solo les
+   9.36-   9.60 (0.24s) | G:Color mate | G:Recurso 5.png 34% | B:transforma-pt-4k-alfa-blanco.mo | los que solo les
+   9.60-  10.04 (0.44s) | G:Color mate | G:Recurso 5.png 34% | B:transforma-pt-4k-alfa-blanco.mo | falta una cosa.
+  10.04-  10.44 (0.40s) | G:Color mate | G:Recurso 5.png 34% | B:transforma-pt-4k-alfa-blanco.mo | falta una cosa.
+  10.44-  11.32 (0.88s) | G:Color mate | G:Recurso 5.png 34% | B:transforma-pt-4k-alfa-blanco.mo | falta una cosa.
+  11.32-  11.80 (0.48s) | G:Color mate | G:Recurso 8.png 40% | B:transforma-pt-4k-alfa-blanco.mo | Esa cosa
+  11.80-  12.56 (0.76s) | G:Color mate | G:Recurso 8.png 40% | B:transforma-pt-4k-alfa-blanco.mo | Esa cosa
+  12.56-  13.08 (0.52s) | G:Color mate | G:Recurso 9.png 73% | B:transforma-pt-4k-alfa-blanco.mo | es una OneScreen.
+  13.08-  13.84 (0.76s) | G:Color mate | G:Recurso 9.png 73% | B:transforma-pt-4k-alfa-blanco.mo | es una OneScreen.
+  13.84-  15.52 (1.68s) | B:C1279.MP4 | B:onescreen-transforma-4k-alfa-blanc 69% | B:transforma- | Porque para nosotros, transformar
+  15.52-  16.72 (1.20s) | A:C1278.MP4 100% | B:onescreen-transforma-4k-alfa-blanc 69% | B:transf | Porque para nosotros, transformar un espacio es mucho
+  16.72-  17.52 (0.80s) | B:C0924.MP4 | B:onescreen-transforma-4k-alfa-blanc 69% | B:transforma- | un espacio es mucho más que solo tecnología.
+  17.52-  18.28 (0.76s) | B:C0924.MP4 | B:C0925.MP4 | B:onescreen-transforma-4k-alfa-blanc 69% | | más que solo tecnología.
+  18.36-  19.12 (0.76s) | A:C0907.MP4 100% | B:onescreen-transforma-4k-alfa-blanc 81% | B:transf | Es una clase que
+  19.12-  20.24 (1.12s) | B:C0914.MP4 | B:onescreen-transforma-4k-alfa-blanc 81% | B:transforma- | por fin se entiende.
+  20.24-  21.12 (0.88s) | A:C1110.MP4 100% | B:onescreen-transforma-4k-alfa-blanc 81% | B:transf | Es un equipo que toma mejores decisiones. Es
+  21.12-  22.40 (1.28s) | B:C1111.MP4 | B:onescreen-transforma-4k-alfa-blanc 81% | B:transforma- | toma mejores decisiones. Es
+  22.40-  23.44 (1.04s) | B:C1475.MP4 200% | B:onescreen-transforma-4k-alfa-blanc 81% | B:transf | toma mejores decisiones. Es una idea que ahora
+  23.44-  24.60 (1.16s) | B:C1475.MP4 200% | B:C1469.MP4 | B:onescreen-transforma-4k-alfa-blanc  | una idea que ahora se ve en grande.
+  24.60-  25.72 (1.12s) | G:Color mate | B:onescreen-transforma-4k-alfa.mov 67% | B:transforma-p | Creemos en eso, en
+  25.72-  27.48 (1.76s) | B:empty-class-in-school-campus-moder 200% | B:onescreen-transforma-4k- | Creemos en eso, en transformar la educación normal
+  27.48-  29.20 (1.72s) | A:C1014.MP4 100% | B:onescreen-transforma-4k-alfa-blanc 82% | B:transf | en educación del futuro,
+  29.20-  30.44 (1.24s) | B:nobody-in-company-office-used-to-c 200% | B:onescreen-transforma-4k- | en transformar empresas en
+  30.44-  31.88 (1.44s) | A:C1139.MP4 100% | B:onescreen-transforma-4k-alfa-blanc 82% | B:transf | en transformar empresas en empresas del futuro. Porque
+  31.88-  38.40 (6.52s) | A:Color mate 100% | B:onescreen-transforma-4k-alfa.mov 66% | B:transfo | empresas del futuro. Porque cuando un espacio cambia, el futuro también. OneScreen transfo
+  38.40-  43.60 (5.20s) | A:Color mate 100% | B:onescreen-transforma-4k-alfa.mov 66% | B:transfo | Tu transformación puede comenzar ya. Solo tienes que tocar la pantalla.

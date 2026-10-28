@@ -1,0 +1,716 @@
+[
+ {
+  "id": "w0",
+  "text": "Hablemos",
+  "start": 0.0,
+  "end": 0.98,
+  "prob": 0.985
+ },
+ {
+  "id": "w1",
+  "text": "ahora",
+  "start": 0.98,
+  "end": 1.2,
+  "prob": 1.0
+ },
+ {
+  "id": "w2",
+  "text": "sobre",
+  "start": 1.2,
+  "end": 1.52,
+  "prob": 1.0
+ },
+ {
+  "id": "w3",
+  "text": "como",
+  "start": 1.52,
+  "end": 1.8,
+  "prob": 0.0
+ },
+ {
+  "id": "w4",
+  "text": "hacer",
+  "start": 1.8,
+  "end": 2.08,
+  "prob": 0.995
+ },
+ {
+  "id": "w5",
+  "text": "todo",
+  "start": 2.08,
+  "end": 2.52,
+  "prob": 0.986
+ },
+ {
+  "id": "w6",
+  "text": "esto",
+  "start": 2.52,
+  "end": 2.94,
+  "prob": 0.995
+ },
+ {
+  "id": "w7",
+  "text": "realidad.",
+  "start": 2.94,
+  "end": 3.58,
+  "prob": 0.987
+ },
+ {
+  "id": "w8",
+  "text": "Para",
+  "start": 3.96,
+  "end": 4.14,
+  "prob": 0.993
+ },
+ {
+  "id": "w9",
+  "text": "tener",
+  "start": 4.14,
+  "end": 4.42,
+  "prob": 0.999
+ },
+ {
+  "id": "w10",
+  "text": "tu",
+  "start": 4.42,
+  "end": 4.62,
+  "prob": 0.995
+ },
+ {
+  "id": "w11",
+  "text": "propia",
+  "start": 4.62,
+  "end": 4.94,
+  "prob": 0.992
+ },
+ {
+  "id": "w12",
+  "text": "OneScreen",
+  "start": 4.94,
+  "end": 5.58,
+  "prob": 0.733
+ },
+ {
+  "id": "w13",
+  "text": "a",
+  "start": 5.58,
+  "end": 5.86,
+  "prob": 0.911
+ },
+ {
+  "id": "w14",
+  "text": "tu",
+  "start": 5.86,
+  "end": 6.04,
+  "prob": 0.998
+ },
+ {
+  "id": "w15",
+  "text": "medida",
+  "start": 6.04,
+  "end": 6.44,
+  "prob": 0.999
+ },
+ {
+  "id": "w16",
+  "text": "hay",
+  "start": 6.44,
+  "end": 6.86,
+  "prob": 0.334
+ },
+ {
+  "id": "w17",
+  "text": "dos",
+  "start": 6.86,
+  "end": 7.16,
+  "prob": 0.922
+ },
+ {
+  "id": "w18",
+  "text": "caminos.",
+  "start": 7.16,
+  "end": 7.68,
+  "prob": 0.999
+ },
+ {
+  "id": "w19",
+  "text": "Primero,",
+  "start": 7.88,
+  "end": 8.28,
+  "prob": 0.995
+ },
+ {
+  "id": "w20",
+  "text": "puedes",
+  "start": 8.52,
+  "end": 8.94,
+  "prob": 0.997
+ },
+ {
+  "id": "w21",
+  "text": "comprarla,",
+  "start": 8.94,
+  "end": 9.5,
+  "prob": 0.999
+ },
+ {
+  "id": "w22",
+  "text": "y",
+  "start": 9.7,
+  "end": 9.72,
+  "prob": 0.988
+ },
+ {
+  "id": "w23",
+  "text": "en",
+  "start": 9.72,
+  "end": 9.9,
+  "prob": 0.995
+ },
+ {
+  "id": "w24",
+  "text": "este",
+  "start": 9.9,
+  "end": 10.16,
+  "prob": 0.988
+ },
+ {
+  "id": "w25",
+  "text": "stand",
+  "start": 10.16,
+  "end": 10.42,
+  "prob": 0.935
+ },
+ {
+  "id": "w26",
+  "text": "puedes",
+  "start": 10.42,
+  "end": 10.72,
+  "prob": 0.95
+ },
+ {
+  "id": "w27",
+  "text": "hacerlo",
+  "start": 10.72,
+  "end": 11.06,
+  "prob": 0.998
+ },
+ {
+  "id": "w28",
+  "text": "ya",
+  "start": 11.06,
+  "end": 11.24,
+  "prob": 0.994
+ },
+ {
+  "id": "w29",
+  "text": "mismo.",
+  "start": 11.24,
+  "end": 11.56,
+  "prob": 0.998
+ },
+ {
+  "id": "w30",
+  "text": "O",
+  "start": 11.88,
+  "end": 12.0,
+  "prob": 0.923
+ },
+ {
+  "id": "w31",
+  "text": "segundo,",
+  "start": 12.0,
+  "end": 12.32,
+  "prob": 0.967
+ },
+ {
+  "id": "w32",
+  "text": "puedes",
+  "start": 12.66,
+  "end": 12.86,
+  "prob": 0.996
+ },
+ {
+  "id": "w33",
+  "text": "entrar",
+  "start": 12.86,
+  "end": 13.1,
+  "prob": 0.999
+ },
+ {
+  "id": "w34",
+  "text": "a",
+  "start": 13.1,
+  "end": 13.3,
+  "prob": 0.995
+ },
+ {
+  "id": "w35",
+  "text": "nuestro",
+  "start": 13.3,
+  "end": 13.6,
+  "prob": 0.997
+ },
+ {
+  "id": "w36",
+  "text": "modelo",
+  "start": 13.6,
+  "end": 14.0,
+  "prob": 0.98
+ },
+ {
+  "id": "w37",
+  "text": "DaaS.",
+  "start": 14.0,
+  "end": 14.58,
+  "prob": 0.335
+ },
+ {
+  "id": "w38",
+  "text": "Es",
+  "start": 14.82,
+  "end": 15.04,
+  "prob": 0.975
+ },
+ {
+  "id": "w39",
+  "text": "decir,",
+  "start": 15.04,
+  "end": 15.34,
+  "prob": 0.999
+ },
+ {
+  "id": "w40",
+  "text": "nuestro",
+  "start": 15.52,
+  "end": 15.84,
+  "prob": 0.993
+ },
+ {
+  "id": "w41",
+  "text": "modelo",
+  "start": 15.84,
+  "end": 16.16,
+  "prob": 0.994
+ },
+ {
+  "id": "w42",
+  "text": "de",
+  "start": 16.16,
+  "end": 16.4,
+  "prob": 0.998
+ },
+ {
+  "id": "w43",
+  "text": "arrendamiento.",
+  "start": 16.4,
+  "end": 17.18,
+  "prob": 0.995
+ },
+ {
+  "id": "w44",
+  "text": "Por",
+  "start": 17.32,
+  "end": 17.56,
+  "prob": 0.992
+ },
+ {
+  "id": "w45",
+  "text": "una",
+  "start": 17.56,
+  "end": 17.7,
+  "prob": 0.998
+ },
+ {
+  "id": "w46",
+  "text": "cuota",
+  "start": 17.7,
+  "end": 17.94,
+  "prob": 0.996
+ },
+ {
+  "id": "w47",
+  "text": "accesible",
+  "start": 17.94,
+  "end": 18.54,
+  "prob": 0.999
+ },
+ {
+  "id": "w48",
+  "text": "mensualmente",
+  "start": 18.54,
+  "end": 19.24,
+  "prob": 0.996
+ },
+ {
+  "id": "w49",
+  "text": "puedes",
+  "start": 19.24,
+  "end": 19.6,
+  "prob": 0.377
+ },
+ {
+  "id": "w50",
+  "text": "llenar",
+  "start": 19.6,
+  "end": 19.96,
+  "prob": 0.997
+ },
+ {
+  "id": "w51",
+  "text": "toda",
+  "start": 19.96,
+  "end": 20.2,
+  "prob": 0.99
+ },
+ {
+  "id": "w52",
+  "text": "tu",
+  "start": 20.2,
+  "end": 20.42,
+  "prob": 0.992
+ },
+ {
+  "id": "w53",
+  "text": "institucion",
+  "start": 20.42,
+  "end": 20.94,
+  "prob": 0.606
+ },
+ {
+  "id": "w54",
+  "text": "de",
+  "start": 20.94,
+  "end": 21.08,
+  "prob": 0.981
+ },
+ {
+  "id": "w55",
+  "text": "pantallas",
+  "start": 21.08,
+  "end": 21.56,
+  "prob": 0.985
+ },
+ {
+  "id": "w56",
+  "text": "interactivas.",
+  "start": 21.56,
+  "end": 22.26,
+  "prob": 0.991
+ },
+ {
+  "id": "w57",
+  "text": "Hay",
+  "start": 22.48,
+  "end": 22.68,
+  "prob": 0.985
+ },
+ {
+  "id": "w58",
+  "text": "muchas",
+  "start": 22.68,
+  "end": 22.98,
+  "prob": 0.978
+ },
+ {
+  "id": "w59",
+  "text": "ventajas,",
+  "start": 22.98,
+  "end": 23.38,
+  "prob": 0.996
+ },
+ {
+  "id": "w60",
+  "text": "estas",
+  "start": 23.48,
+  "end": 23.6,
+  "prob": 0.951
+ },
+ {
+  "id": "w61",
+  "text": "son",
+  "start": 23.6,
+  "end": 23.8,
+  "prob": 0.991
+ },
+ {
+  "id": "w62",
+  "text": "algunas.",
+  "start": 23.8,
+  "end": 24.12,
+  "prob": 0.991
+ },
+ {
+  "id": "w63",
+  "text": "Primero,",
+  "start": 24.4,
+  "end": 24.78,
+  "prob": 0.995
+ },
+ {
+  "id": "w64",
+  "text": "pagas",
+  "start": 24.9,
+  "end": 25.24,
+  "prob": 0.894
+ },
+ {
+  "id": "w65",
+  "text": "por",
+  "start": 25.24,
+  "end": 25.4,
+  "prob": 0.993
+ },
+ {
+  "id": "w66",
+  "text": "lo",
+  "start": 25.4,
+  "end": 25.52,
+  "prob": 0.99
+ },
+ {
+  "id": "w67",
+  "text": "que",
+  "start": 25.52,
+  "end": 25.7,
+  "prob": 0.995
+ },
+ {
+  "id": "w68",
+  "text": "realmente",
+  "start": 25.7,
+  "end": 26.36,
+  "prob": 0.969
+ },
+ {
+  "id": "w69",
+  "text": "usas.",
+  "start": 26.36,
+  "end": 27.04,
+  "prob": 0.995
+ },
+ {
+  "id": "w70",
+  "text": "Siempre",
+  "start": 27.04,
+  "end": 27.58,
+  "prob": 0.963
+ },
+ {
+  "id": "w71",
+  "text": "tendrás",
+  "start": 27.58,
+  "end": 28.0,
+  "prob": 1.0
+ },
+ {
+  "id": "w72",
+  "text": "nuestros",
+  "start": 28.0,
+  "end": 28.42,
+  "prob": 1.0
+ },
+ {
+  "id": "w73",
+  "text": "equipos",
+  "start": 28.42,
+  "end": 28.86,
+  "prob": 1.0
+ },
+ {
+  "id": "w74",
+  "text": "con",
+  "start": 28.86,
+  "end": 29.02,
+  "prob": 1.0
+ },
+ {
+  "id": "w75",
+  "text": "las",
+  "start": 29.02,
+  "end": 29.22,
+  "prob": 1.0
+ },
+ {
+  "id": "w76",
+  "text": "últimas",
+  "start": 29.22,
+  "end": 29.62,
+  "prob": 1.0
+ },
+ {
+  "id": "w77",
+  "text": "actualizaciones,",
+  "start": 29.62,
+  "end": 30.4,
+  "prob": 1.0
+ },
+ {
+  "id": "w78",
+  "text": "soporte",
+  "start": 30.7,
+  "end": 31.1,
+  "prob": 0.999
+ },
+ {
+  "id": "w79",
+  "text": "técnico",
+  "start": 31.1,
+  "end": 31.48,
+  "prob": 1.0
+ },
+ {
+  "id": "w80",
+  "text": "prioritario",
+  "start": 31.48,
+  "end": 32.2,
+  "prob": 1.0
+ },
+ {
+  "id": "w81",
+  "text": "y",
+  "start": 32.2,
+  "end": 32.56,
+  "prob": 0.922
+ },
+ {
+  "id": "w82",
+  "text": "si",
+  "start": 32.56,
+  "end": 32.68,
+  "prob": 0.984
+ },
+ {
+  "id": "w83",
+  "text": "tu",
+  "start": 32.68,
+  "end": 32.8,
+  "prob": 1.0
+ },
+ {
+  "id": "w84",
+  "text": "pantalla",
+  "start": 32.8,
+  "end": 33.16,
+  "prob": 1.0
+ },
+ {
+  "id": "w85",
+  "text": "sufre",
+  "start": 33.16,
+  "end": 33.52,
+  "prob": 0.998
+ },
+ {
+  "id": "w86",
+  "text": "algún",
+  "start": 33.52,
+  "end": 33.74,
+  "prob": 1.0
+ },
+ {
+  "id": "w87",
+  "text": "daño,",
+  "start": 33.74,
+  "end": 34.08,
+  "prob": 1.0
+ },
+ {
+  "id": "w88",
+  "text": "nosotros",
+  "start": 34.28,
+  "end": 34.7,
+  "prob": 1.0
+ },
+ {
+  "id": "w89",
+  "text": "nos",
+  "start": 34.7,
+  "end": 34.92,
+  "prob": 1.0
+ },
+ {
+  "id": "w90",
+  "text": "encargamos.",
+  "start": 34.92,
+  "end": 35.54,
+  "prob": 1.0
+ },
+ {
+  "id": "w91",
+  "text": "Si",
+  "start": 35.72,
+  "end": 36.18,
+  "prob": 0.999
+ },
+ {
+  "id": "w92",
+  "text": "quieres",
+  "start": 36.18,
+  "end": 36.42,
+  "prob": 1.0
+ },
+ {
+  "id": "w93",
+  "text": "adquirir",
+  "start": 36.42,
+  "end": 36.82,
+  "prob": 1.0
+ },
+ {
+  "id": "w94",
+  "text": "tu",
+  "start": 36.82,
+  "end": 36.92,
+  "prob": 1.0
+ },
+ {
+  "id": "w95",
+  "text": "pantalla,",
+  "start": 36.92,
+  "end": 37.36,
+  "prob": 1.0
+ },
+ {
+  "id": "w96",
+  "text": "pregúntanos",
+  "start": 37.88,
+  "end": 38.32,
+  "prob": 0.998
+ },
+ {
+  "id": "w97",
+  "text": "acá",
+  "start": 38.32,
+  "end": 38.54,
+  "prob": 1.0
+ },
+ {
+  "id": "w98",
+  "text": "y",
+  "start": 38.54,
+  "end": 38.9,
+  "prob": 1.0
+ },
+ {
+  "id": "w99",
+  "text": "te",
+  "start": 38.9,
+  "end": 39.06,
+  "prob": 1.0
+ },
+ {
+  "id": "w100",
+  "text": "explicamos",
+  "start": 39.06,
+  "end": 39.7,
+  "prob": 0.999
+ },
+ {
+  "id": "w101",
+  "text": "cómo.",
+  "start": 39.7,
+  "end": 39.98,
+  "prob": 1.0
+ }
+]

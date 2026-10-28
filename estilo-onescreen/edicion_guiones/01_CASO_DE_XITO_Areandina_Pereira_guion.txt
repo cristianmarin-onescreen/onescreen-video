@@ -1,0 +1,99 @@
+   0.00-   2.13 (2.13s) | A:C1020.MP4 100%                                                       | Yo llevo acá en la institución dieciocho años.
+   2.13-   3.88 (1.75s) | A:C1020.MP4 137% | B:C1062.MP4 100% | G:Recurso 1.png 34% | G:Graphics | He estado como desde la parte
+   3.88-   5.80 (1.92s) | A:C1020.MP4 137% | B:C1062.MP4 100% | G:Recurso 1.png 34% | G:Graphics | la parte donde manejamos acetatos, que
+   5.80-   6.76 (0.96s) | A:C1020.MP4 137% | B:C1083.MP4 100% | G:Recurso 1.png 34% | G:Graphics | donde manejamos acetatos, que
+   6.76-   8.43 (1.67s) | A:C1020.MP4 100% | B:C1083.MP4 100% | G:Recurso 1.png 34% | G:Graphics | donde manejamos acetatos, que pasamos por los videoproyectores,
+   8.43-  10.80 (2.37s) | A:C1020.MP4 100% | B:Yolanda.mov 27% | G:Graphics0008.png 43% | G:Logo | pasamos por los videoproyectores, luego llegamos a los televisores, por eso encontramos,
+  10.80-  11.97 (1.17s) | A:C1020.MP4 137% | B:Yolanda.mov 27% | G:Graphics0008.png 43% | G:Logo | televisores, por eso encontramos,
+  11.97-  14.35 (2.38s) | A:C1020.MP4 100% | B:Yolanda.mov 27% | G:Graphics0008.png 43% | G:Logo | llegamos a las pantallas interactivas. Bueno, ha sido
+  14.35-  14.43 (0.08s) | A:C1009.MP4 120% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | interactivas. Bueno, ha sido
+  14.43-  18.39 (3.96s) | A:C1009.MP4 120% | B:Germán Acevedo.mov 27% | G:Graphics0008.png 43% | | interactivas. Bueno, ha sido una transición. Yo más o menos llevo en Arandina alrededor de
+  18.39-  19.31 (0.92s) | A:C1009.MP4 120% | B:C1014.MP4 100% | B:Germán Acevedo.mov 27% | G:Gra | once, doce años y
+  19.31-  23.02 (3.71s) | A:C1009.MP4 172% | B:C1014.MP4 100% | B:Germán Acevedo.mov 27% | G:Gra | once, doce años y un cambio muy importante pasar de un pizarrón de solamente marcador ahor
+  23.02-  24.94 (1.92s) | A:C1009.MP4 120% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | de solamente marcador ahora a pantallas inteligentes, pero
+  24.94-  27.69 (2.75s) | A:C1009.MP4 172% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | hablar de pantallas inteligentes e integrar realmente al aula de clase. No
+  27.69-  27.95 (0.26s) | A:C1009.MP4 172% | B:C1011.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | aula de clase. No
+  27.95-  31.66 (3.71s) | A:C1020.MP4 137% | B:C1011.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | aula de clase. No especialmente en una marca, sino que uno después de hacer un estudio
+  31.66-  34.33 (2.67s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | riguroso, pues dijimos: "No, OneScreen tiene
+  34.33-  35.70 (1.37s) | A:C1020.MP4 137% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | OneScreen tiene complementos
+  35.70-  37.12 (1.42s) | A:C1020.MP4 137% | B:C1013.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | complementos de todo". Si vemos
+  37.12-  38.16 (1.04s) | A:C1016.MP4 100% | B:C1013.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | de todo". Si vemos que tenemos una gama
+  38.16-  40.46 (2.30s) | A:C1016.MP4 100% | B:Andrés Franco.mov 27% | G:Graphics0008.png 43% |  | que tenemos una gama de tecnología que puede implementarse dentro de las
+  40.46-  42.58 (2.12s) | A:C1016.MP4 163% | B:Andrés Franco.mov 27% | G:Graphics0008.png 43% |  | implementarse dentro de las aulas de clase, pues obviamente cuando un estudiante
+  42.58-  43.54 (0.96s) | A:C1016.MP4 163% | B:C1065.MP4 100% | B:Andrés Franco.mov 27% | G:Grap | obviamente cuando un estudiante
+  43.54-  44.75 (1.21s) | A:C1016.MP4 100% | B:C1065.MP4 100% | B:Andrés Franco.mov 27% | G:Grap | o yo como en el rol también de
+  44.75-  45.63 (0.88s) | A:C1016.MP4 100% | B:C1064.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | estudiante que estoy aquí
+  45.63-  46.46 (0.83s) | A:C1016.MP4 163% | B:C1064.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | estudiante que estoy aquí de la,
+  46.46-  47.71 (1.25s) | A:C1016.MP4 163% | B:C1074.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | de la universidad, puedo
+  47.71-  51.43 (3.72s) | A:C1016.MP4 100% | B:C1074.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | de la universidad, puedo entender que me sirve mucho más algo así, más dinámico, más inter
+  51.43-  53.93 (2.50s) | A:C1016.MP4 163% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | más interactivo, que me ayuda a-- tener un aprendizaje mucho
+  53.93-  54.64 (0.71s) | A:C1016.MP4 163% | B:C1085.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | tener un aprendizaje mucho más rápido. Es decir,
+  54.64-  59.89 (5.25s) | A:C1009.MP4 120% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | más rápido. Es decir, no, no ese cambio de colocar uno más uno en un tablero y llevar al u
+  59.89-  62.19 (2.30s) | A:C1009.MP4 172% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | más uno, eh, al-- directamente a una pantalla interactiva, sino cómo integrarla
+  62.19-  63.23 (1.04s) | A:C1009.MP4 172% | B:C1012.MP4 127% | G:Graphics0008.png 43% | G:Logo_ | interactiva, sino cómo integrarla
+  63.23-  66.32 (3.09s) | A:C1009.MP4 120% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | interactiva, sino cómo integrarla a partes muy dinámicas e interactivas en mi clase y hace
+  66.32-  68.57 (2.25s) | A:C1009.MP4 120% | B:C1010.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | clase y hacer partícipe también a los estudiantes de ese proceso. Acá
+  68.57-  69.11 (0.54s) | A:C1017.MP4 100% | B:C1010.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | de ese proceso. Acá como tal en la
+  69.11-  70.95 (1.84s) | A:C1017.MP4 100% | B:Steven Ceballos.mov 27% | G:Graphics0008.png 43%  | como tal en la universidad tenemos bastantes pantallas
+  70.95-  73.41 (2.46s) | A:C1017.MP4 164% | B:Steven Ceballos.mov 27% | G:Graphics0008.png 43%  | universidad tenemos bastantes pantallas a lo largo de todos los espacios, ya sea los salon
+  73.41-  74.20 (0.79s) | A:C1017.MP4 164% | B:C1036.MP4 100% | B:Steven Ceballos.mov 27% | G:Gr | sea los salones para
+  74.20-  75.58 (1.38s) | A:C1017.MP4 100% | B:C1036.MP4 100% | B:Steven Ceballos.mov 27% | G:Gr | sea los salones para las clases comunes, las
+  75.58-  78.08 (2.50s) | A:C1017.MP4 100% | B:C1054.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | salas de juntas para las reuniones, espacios abiertos
+  78.08-  79.41 (1.33s) | A:C1017.MP4 100% | B:C1030.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | las reuniones, espacios abiertos como lo es Oasis,
+  79.41-  82.71 (3.30s) | A:C1017.MP4 164% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | para ir cambiando como el modelo convencional a algo más práctico. Y
+  82.71-  86.96 (4.25s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | algo más práctico. Y es unas pantallas muy intuitivas y que a la gente le ha gustado. Es q
+  86.96-  88.30 (1.34s) | A:C1020.MP4 137% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | gustado. Es que, es que no solamente
+  88.30-  90.88 (2.58s) | A:C1020.MP4 137% | B:C1035.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | es que no solamente que a mí me llame la atención como área,
+  90.88-  91.09 (0.21s) | A:C1020.MP4 100% | B:C1035.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | sino que nosotros hacemos
+  91.09-  93.39 (2.30s) | A:C1020.MP4 100% | B:C1037.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | sino que nosotros hacemos un tipo de encuestas
+  93.39-  93.93 (0.54s) | A:C1020.MP4 100% | B:C1087.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | tanto a los docentes
+  93.93-  95.47 (1.54s) | A:C1020.MP4 137% | B:C1087.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | tanto a los docentes como a la parte administrativa sobre este tema.
+  95.47-  96.35 (0.88s) | A:C1020.MP4 137% | B:C1092.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | administrativa sobre este tema.
+  96.35-  99.68 (3.33s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | administrativa sobre este tema. Y entonces gracias a ellos es que también
+  99.68- 100.18 (0.50s) | A:C1020.MP4 100% | B:C1041.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | ellos es que también
+ 100.18- 101.27 (1.09s) | A:C1020.MP4 137% | B:C1041.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | logramos, pues esta marca
+ 101.27- 102.48 (1.21s) | A:C1020.MP4 137% | B:C1041.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | logramos, pues esta marca sea la propia de,
+ 102.48- 102.77 (0.29s) | A:C1020.MP4 100% | B:C1041.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | sea la propia de,
+ 102.77- 104.35 (1.58s) | A:C1020.MP4 100% | B:C1039.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | sea la propia de, de Ariandina. Lo que
+ 104.35- 106.40 (2.05s) | A:C1017.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | de Ariandina. Lo que buscamos es eso, de que ellos comprendan que
+ 106.40- 107.94 (1.54s) | A:C1017.MP4 164% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | que ellos comprendan que con las pantallas interactivas,
+ 107.94- 109.69 (1.75s) | A:C1017.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | todos los elementos como el tablero, el computador
+ 109.69- 110.48 (0.79s) | A:C1017.MP4 100% | B:C1068.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | el tablero, el computador
+ 110.48- 113.53 (3.05s) | A:C1017.MP4 164% | B:C1068.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | el tablero, el computador y las demás cosas que usan normalmente en un salón de clases
+ 113.53- 114.95 (1.42s) | A:C1017.MP4 100% | B:C1068.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | están integradas en un solo equipo. Las universidades
+ 114.95- 118.49 (3.54s) | A:C1009.MP4 120% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | solo equipo. Las universidades invierten con el fin de que los estudiantes y los profes la
+ 118.49- 119.95 (1.46s) | A:C1009.MP4 172% | B:C1051.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | usen, no para que se dañe por el desuso, con el fin
+ 119.95- 122.16 (2.21s) | A:C1009.MP4 120% | B:C1051.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | desuso, con el fin de que los profesores puedan adoptarlas. Igual también
+ 122.16- 123.42 (1.26s) | A:C1009.MP4 120% | B:C1049.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | puedan adoptarlas. Igual también es un llamado a
+ 123.42- 126.13 (2.71s) | A:C1009.MP4 172% | B:C1049.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | es un llamado a nosotros como universidades en la parte administrativa, de
+ 126.13- 126.33 (0.20s) | A:C1009.MP4 172% | B:C1050.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | la parte administrativa, de
+ 126.33- 129.21 (2.88s) | A:C1009.MP4 172% | B:C1050.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | la parte administrativa, de mejorar esos procesos de formación en los profesores también p
+ 129.21- 132.67 (3.46s) | A:C1009.MP4 120% | B:C1050.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | también para que integren un poco más, de pensar en qué momento y cómo es la forma de lleg
+ 132.67- 134.43 (1.76s) | A:C1009.MP4 172% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | forma de llegar directamente a los profesores. Hay
+ 134.43- 139.26 (4.83s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | a los profesores. Hay que buscarle nuevas métodos a los estudiantes para llamar la atenció
+ 139.26- 143.60 (4.34s) | A:C1020.MP4 137% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | No nos podemos quedar en lo mismo y como les decía, nosotros no podemos tener una
+ 143.60- 145.65 (2.05s) | A:C1020.MP4 137% | B:C1073.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | no podemos tener una pantalla de estas y proyectemos, como se los
+ 145.65- 147.69 (2.04s) | A:C1020.MP4 100% | B:C1073.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | proyectemos, como se los decimos a los docentes: "Venga, busquemos nuevas formas
+ 147.69- 149.32 (1.63s) | A:C1020.MP4 137% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | "Venga, busquemos nuevas formas
+ 149.32- 150.28 (0.96s) | A:C1020.MP4 100% | B:C1069.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | de educación". Hacemos encuestas
+ 150.28- 153.78 (3.50s) | A:C1020.MP4 137% | B:C1069.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | de educación". Hacemos encuestas al docente y a los estudiantes: "Venga, señor
+ 153.78- 157.16 (3.38s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | los estudiantes: "Venga, señor docente, ¿sus estudiantes mejoraron su
+ 157.16- 160.28 (3.12s) | A:C1020.MP4 137% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | ¿sus estudiantes mejoraron su nivel educativo con lo que nosotros realizamos?" Entonces
+ 160.28- 162.58 (2.30s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | que nosotros realizamos?" Entonces la mayoría nos ha contestado que sí. Pero
+ 162.58- 165.00 (2.42s) | A:C1017.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | contestado que sí. Pero realmente cuando empezamos a adaptarnos, a, a capacitarnos,
+ 165.00- 165.67 (0.67s) | A:C1017.MP4 100% | B:C1038.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | adaptarnos, a, a capacitarnos,
+ 165.67- 166.58 (0.91s) | A:C1017.MP4 164% | B:C1038.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | adaptarnos, a, a capacitarnos, a capacitar a nuestro
+ 166.58- 169.34 (2.76s) | A:C1017.MP4 164% | B:C1015.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | a capacitar a nuestro personal, vamos a ver qué fue la mejor decisión, ya que nos
+ 169.34- 170.84 (1.50s) | A:C1017.MP4 100% | B:C1015.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | decisión, ya que nos va a optimizar tiempo,
+ 170.84- 171.46 (0.62s) | A:C1017.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | costos y nos va
+ 171.46- 175.47 (4.01s) | A:C1017.MP4 164% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | costos y nos va a ayudar a que las personas, ya sea en el ámbito educativo, los estudiante
+ 175.47- 175.72 (0.25s) | A:C1017.MP4 164% | B:C1013.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | los estudiantes, aprendan de
+ 175.72- 178.47 (2.75s) | A:C1017.MP4 100% | B:C1013.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | los estudiantes, aprendan de una manera más práctica todos los temas. Y
+ 178.47- 182.56 (4.09s) | A:C1020.MP4 100% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | todos los temas. Y superrecomendadísima. Como les dije, OneScreen es superintuitiva, tiene
+ 182.56- 183.56 (1.00s) | A:C1020.MP4 100% | B:C1084.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | OneScreen es superintuitiva, tiene
+ 183.56- 185.52 (1.96s) | A:C1020.MP4 137% | B:C1084.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | OneScreen es superintuitiva, tiene muchas aplicaciones y como
+ 185.52- 187.02 (1.50s) | A:C1020.MP4 137% | B:C1081.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | muchas aplicaciones y como les dije, con este
+ 187.02- 190.40 (3.38s) | A:C1020.MP4 137% | G:Graphics0008.png 43% | G:Logo_de_Areandina.svg.pn | avance de la tecnología, cada día nos vamos a encontrar más y
+ 190.40- 192.07 (1.67s) | A:C1020.MP4 137% | B:C1063.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | a encontrar más y más herramientas que apoyen
+ 192.07- 194.11 (2.04s) | A:C1020.MP4 100% | B:C1063.MP4 100% | G:Graphics0008.png 43% | G:Logo_ | más herramientas que apoyen totalmente la educación.
+ 194.11- 202.20 (8.09s) | B:OneScreen (Intro)_ESP_16.9_NoMúsic 100%                              | 

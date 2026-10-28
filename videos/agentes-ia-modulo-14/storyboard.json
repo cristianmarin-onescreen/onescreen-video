@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 202.76,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 202.76
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 14 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 4.56,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 14 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — CONTINUACIÓN",
+      "startSec": 4.56,
+      "endSec": 11.52,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "CONTINUACIÓN",
+        "title": "Un paso más allá: automatización",
+        "detail": "Quiero ser honesto contigo desde el inicio"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — Este módulo es un poco más técnico que los anteriores",
+      "startSec": 11.52,
+      "endSec": 14.8,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Este módulo es un poco más técnico que los anteriores"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — SI TU ROL NO ES DE TECNOLOGÍA",
+      "startSec": 14.8,
+      "endSec": 22.87,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI TU ROL NO ES DE TECNOLOGÍA",
+        "title": "Puedes verlo igual para el panorama completo",
+        "detail": "No te preocupes si no terminas construyendo esto tú mismo"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "quote — Si trabajas en TI o HelpDesk, este es exactamente el módulo que estabas esperando.",
+      "startSec": 22.87,
+      "endSec": 27.72,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Si trabajas en TI o HelpDesk, este es exactamente el módulo que estabas esperando."
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — Hasta ahora, tu agente vive dentro de una conversación",
+      "startSec": 27.72,
+      "endSec": 34.2,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Hasta ahora, tu agente vive dentro de una conversación",
+        "detail": "Tú le escribes, él te responde y ahí se queda"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — EL SIGUIENTE NIVEL",
+      "startSec": 34.2,
+      "endSec": 46.08,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "EL SIGUIENTE NIVEL",
+        "title": "Tu agente se conecta directamente con otros sistemas",
+        "detail": "Los que ya usas en tu institución, para actuar de forma automática"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "titlecard — LA HERRAMIENTA",
+      "startSec": 46.08,
+      "endSec": 53.43,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "LA HERRAMIENTA",
+        "title": "N8N",
+        "detail": "Así le llamamos a la automatización"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "list — N8N ES UN PUENTE: DE UN LADO TU AGENTE, DEL OTRO...",
+      "startSec": 53.43,
+      "endSec": 70.44,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "N8N ES UN PUENTE: DE UN LADO TU AGENTE, DEL OTRO...",
+        "items": [
+          "Sistema de tíquets de soporte",
+          "Calendario",
+          "Base de datos",
+          "Casi cualquier plataforma moderna"
+        ]
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — N8N arma ese puente sin escribir código",
+      "startSec": 70.44,
+      "endSec": 77.75,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "N8N arma ese puente sin escribir código",
+        "detail": "Conectando cajas visuales que representan cada paso del proceso"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — EJEMPLO CONCRETO",
+      "startSec": 77.75,
+      "endSec": 93.08,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "EJEMPLO CONCRETO",
+        "title": "Tu agente de HelpDesk identifica un caso que no puede resolver solo",
+        "detail": "Se crea automáticamente un tíquet con el resumen del problema ya redactado"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "compare — LA DIFERENCIA",
+      "startSec": 93.08,
+      "endSec": 109.6,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "LA DIFERENCIA"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "list — DOS PIEZAS QUE VAS A ESCUCHAR MUCHO",
+      "startSec": 109.6,
+      "endSec": 120.6,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "DOS PIEZAS QUE VAS A ESCUCHAR MUCHO",
+        "items": [
+          "Las API",
+          "Los webhooks"
+        ]
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — ¿QUÉ ES UNA API?",
+      "startSec": 120.6,
+      "endSec": 130.96,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "¿QUÉ ES UNA API?",
+        "title": "Una puerta de entrada",
+        "detail": "Que un sistema deja abierta para que otro pueda pedirle información o pedirle que haga algo"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — ¿QUÉ ES UN WEBHOOK?",
+      "startSec": 130.96,
+      "endSec": 142.68,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "¿QUÉ ES UN WEBHOOK?",
+        "title": "Un aviso automático",
+        "detail": "En el momento en que algo pasa, un sistema le avisa inmediatamente a otro, sin que nadie revise manualmente"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — Vamos a explicarlos con más calma",
+      "startSec": 142.68,
+      "endSec": 150.3,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Vamos a explicarlos con más calma",
+        "detail": "Junto con otros términos, en el módulo de glosario que viene más adelante"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "roadmap — SI ERES DE TI",
+      "startSec": 150.3,
+      "endSec": 155.86,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "SI ERES DE TI",
+        "title": "No intentes automatizar todo de una vez"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "roadmap — PASO 2",
+      "startSec": 155.86,
+      "endSec": 166.12,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PASO 2",
+        "title": "Elige un solo caso y pruébalo a fondo",
+        "detail": "Constrúyelo en N8N conectando tu agente con un solo sistema"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "quote — La automatización se vuelve poderosa cuando cada pieza funciona bien por separado.",
+      "startSec": 166.12,
+      "endSec": 173.24,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "La automatización se vuelve poderosa cuando cada pieza funciona bien por separado.",
+        "detail": "No cuando se arma todo de golpe"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "body — Y SI NO ERES DE TI",
+      "startSec": 173.24,
+      "endSec": 183.96,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "Y SI NO ERES DE TI",
+        "title": "Tu agente puede crecer más allá de una simple conversación",
+        "detail": "Y ese crecimiento existe, es real"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "body — Tu equipo de tecnología ya tiene lo que necesita",
+      "startSec": 183.96,
+      "endSec": 189.64,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Tu equipo de tecnología ya tiene lo que necesita",
+        "detail": "Para construirlo cuando llegue el momento"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "titlecard — PRÓXIMO MÓDULO",
+      "startSec": 189.64,
+      "endSec": 200.72,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Los errores más comunes al construir un agente",
+        "detail": "Y cómo evitarlos antes de que se conviertan en un problema real"
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 200.72,
+      "endSec": 202.76,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

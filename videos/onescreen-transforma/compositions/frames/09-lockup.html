@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>09-lockup</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: #00FF00;
+          color: #000000;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; display: grid; place-items: center; padding: 0 8cqw; }
+        .stage.left { justify-items: start; text-align: left; }
+        /* Escenarios que posicionan a sus hijos en ABSOLUTO (3, 4, 9, 10). Tienen que ser
+           bloque, no grid: place-items:center le da justify-self:center a un hijo absoluto,
+           y eso lo dimensiona a su contenido en vez de respetar left:0/right:0 � con lo cual
+           text-align:center deja de centrar y la línea se pega al borde izquierdo. */
+        .stage.abs { display: block; place-items: normal; padding: 0; }
+        .block { display: block; max-width: 80cqw; text-align: center; margin-top: -1.2cqh; }
+        .stage.left .block { text-align: left; }
+        /* Estado inicial en CSS, nunca en un tl.set en la posición 0.
+           Se oculta con OPACITY, jamás con la propiedad visibility: esa se HEREDA, y un hijo
+           puesto en visible anula el hidden que el framework le aplica al clip padre. El
+           resultado es que todas las escenas se dibujan encima de todas a la vez. */
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .w.first { opacity: 1; }
+        .t-micro    { font-size: 0.95cqw; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; }
+        .t-body     { font-size: 1.9cqw;  font-weight: 400; line-height: 1.5; }
+        .t-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.25; letter-spacing: -0.010em; }
+        .t-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .t-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .t-colossal { font-size: 15cqw;   font-weight: 800; line-height: 0.92; letter-spacing: -0.045em; }
+        .muted  { color: #7e7e82; }
+        .accent { color: #3976ff; }
+        .line { display: block; }
+        .rule {
+          display: block; width: 12cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.2cqh auto 0;
+        }
+        #f09-block { position: absolute; inset: 0; opacity: 0; }
+        /* El logotipo va posicionado en absoluto y con EXACTAMENTE la misma caja que en el
+           cuadro 10: es el portador del match-cut del cierre. No tocar sin tocar el otro. */
+        #f09-mark { position: absolute; left: 50%; top: 30cqh; width: 46cqw; margin-left: -23cqw; color: #000000; }
+        #f09-mark svg { display: block; width: 100%; height: auto; }
+        #f09-rule { position: absolute; left: 50%; top: 48cqh; width: 12cqw; margin-left: -6cqw; margin-top: 0; opacity: 0; transform-origin: 50% 50%; }
+        #f09-sign { position: absolute; left: 0; right: 0; top: 56cqh; text-align: center; }
+        .sign-line { display: block; }
+        #f09-sign2 { opacity: 0; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="09-lockup"
+        data-width="3840"
+        data-height="2160"
+        data-duration="3.416666"
+      >
+      <div class="stage abs" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div id="f09-block">
+          <span id="f09-mark"><svg role="img" aria-label="OneScreen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 827.95 126.01">
+  <g>
+    <g>
+      <g>
+        <path d="M18.06,107.91C6.02,95.84,0,80.87,0,63S6.02,30.1,18.06,18.06C30.1,6.02,45.08,0,63,0s32.9,6.02,44.94,18.06c12.04,12.04,18.06,27.02,18.06,44.94s-6.02,32.9-18.06,44.94c-12.04,12.04-27.02,18.06-44.94,18.06s-32.9-6.03-44.94-18.1ZM63.09,102.49c11.14,0,20.22-3.78,27.22-11.34,7-7.56,10.5-16.94,10.5-28.14s-3.5-20.58-10.5-28.14c-7-7.56-16.13-11.34-27.39-11.34s-20.22,3.78-27.22,11.34c-7,7.56-10.5,16.94-10.5,28.14s3.5,20.58,10.5,28.14c7,7.56,16.13,11.34,27.39,11.34Z" fill="currentColor"/>
+        <path d="M157.73,72.58v53.43h-23.52V44.44l23.52-2.52v7.64c5.66-5.04,12.38-7.56,20.16-7.56,10.64,0,18.76,3.22,24.36,9.66,5.6,6.44,8.4,13.86,8.4,22.26v52.08h-23.52v-46.2c0-5.6-1.4-9.94-4.2-13.02-2.8-3.08-7.03-4.7-12.69-4.87-4.87.34-9.05,3.89-12.52,10.67Z" fill="currentColor"/>
+        <path d="M217.34,84.01c0-12.32,3.92-22.4,11.76-30.24,7.84-7.84,17.92-11.76,30.24-11.76s22.12,3.92,29.4,11.76c7.28,7.84,10.92,17.92,10.92,30.24v8.4h-57.96c.56,4.48,2.52,7.98,5.88,10.5,3.36,2.52,7.28,3.78,11.76,3.78,7.84,0,14.84-2.24,21-6.72l13.44,13.44c-6.16,8.4-17.64,12.6-34.44,12.6-12.32,0-22.4-3.92-30.24-11.76-7.84-7.84-11.76-17.92-11.76-30.24ZM271.11,65.11c-3.36-2.52-7.28-3.78-11.76-3.78s-8.4,1.26-11.76,3.78c-3.36,2.52-5.04,6.02-5.04,10.5h33.6c0-4.48-1.68-7.98-5.04-10.5Z" fill="currentColor"/>
+        <path d="M379.69,4.2c6.44,2.8,12.46,7,18.06,12.6l-16.8,16.8c-5.6-6.72-13.44-10.08-23.52-10.08s-16.52,2.38-19.32,7.14c-2.8,4.76-2.8,8.82,0,12.18,2.8,3.36,9.24,5.88,19.32,7.56,10.64,1.12,20.3,4.62,28.98,10.5,8.68,5.88,13.02,15.26,13.02,28.14,0,10.08-4.64,18.76-13.9,26.04-9.27,7.28-20.06,10.92-32.38,10.92s-21.48-1.68-29.32-5.04c-7.84-3.36-14.56-7.84-20.16-13.44l16.8-16.8c5.6,6.72,15.12,10.64,28.56,11.76,11.2,0,18.19-2.38,20.96-7.14,2.77-4.76,2.77-9.52,0-14.28-2.77-4.76-9.76-7.7-20.96-8.82-10.08-1.12-19.32-4.2-27.72-9.24s-12.6-13.72-12.6-26.04c0-11.14,4.77-20.09,14.32-26.84,9.55-6.75,19.36-10.12,29.44-10.12,11.7,0,20.78,1.4,27.22,4.2Z" fill="currentColor"/>
+        <path d="M419.73,115.51c-8.4-7-12.6-16.1-12.6-27.3v-8.4c0-11.2,4.2-20.3,12.6-27.3,8.4-7,18.23-10.5,29.49-10.5,13.44,0,24.61,4.76,33.52,14.28l-16.8,12.6c-5.04-5.04-10.64-7.56-16.8-7.56-5.6,0-10.5,2.24-14.7,6.72-4.2,4.48-6.3,9.8-6.3,15.96s1.96,11.48,5.88,15.96c3.92,4.48,8.96,6.72,15.12,6.72s11.76-2.52,16.8-7.56l16.8,12.6c-8.96,9.52-20.16,14.28-33.6,14.28-11.2,0-21-3.5-29.4-10.5Z" fill="currentColor"/>
+        <path d="M512.61,51.24c5.99-6.16,13.3-9.24,21.93-9.24,2.74,0,5.35.22,7.81.67l-3.7,23.19c-2.74-2.46-6.67-3.78-11.76-3.95-5.71.39-10.47,4.54-14.28,12.43v51.66h-23.52V44.44l23.52-2.52v9.32Z" fill="currentColor"/>
+        <path d="M544.75,84.01c0-12.32,3.92-22.4,11.76-30.24,7.84-7.84,17.92-11.76,30.24-11.76s22.12,3.92,29.4,11.76c7.28,7.84,10.92,17.92,10.92,30.24v8.4h-57.96c.56,4.48,2.52,7.98,5.88,10.5,3.36,2.52,7.28,3.78,11.76,3.78,7.84,0,14.84-2.24,21-6.72l13.44,13.44c-6.16,8.4-17.64,12.6-34.44,12.6-12.32,0-22.4-3.92-30.24-11.76-7.84-7.84-11.76-17.92-11.76-30.24ZM598.52,65.11c-3.36-2.52-7.28-3.78-11.76-3.78s-8.4,1.26-11.76,3.78c-3.36,2.52-5.04,6.02-5.04,10.5h33.6c0-4.48-1.68-7.98-5.04-10.5Z" fill="currentColor"/>
+        <path d="M632.5,84.01c0-12.32,3.92-22.4,11.76-30.24,7.84-7.84,17.92-11.76,30.24-11.76s22.12,3.92,29.4,11.76c7.28,7.84,10.92,17.92,10.92,30.24v8.4h-57.96c.56,4.48,2.52,7.98,5.88,10.5,3.36,2.52,7.28,3.78,11.76,3.78,7.84,0,14.84-2.24,21-6.72l13.44,13.44c-6.16,8.4-17.64,12.6-34.44,12.6-12.32,0-22.4-3.92-30.24-11.76-7.84-7.84-11.76-17.92-11.76-30.24ZM686.27,65.11c-3.36-2.52-7.28-3.78-11.76-3.78s-8.4,1.26-11.76,3.78c-3.36,2.52-5.04,6.02-5.04,10.5h33.6c0-4.48-1.68-7.98-5.04-10.5Z" fill="currentColor"/>
+        <path d="M748.23,72.58v53.43h-23.52V44.44l23.52-2.52v7.64c5.66-5.04,12.38-7.56,20.16-7.56,10.64,0,18.76,3.22,24.36,9.66,5.6,6.44,8.4,13.86,8.4,22.26v52.08h-23.52v-46.2c0-5.6-1.4-9.94-4.2-13.02-2.8-3.08-7.03-4.7-12.68-4.87-4.87.34-9.05,3.89-12.52,10.67Z" fill="currentColor"/>
+      </g>
+      <path d="M819.56,48.89c-1.17,0-2.25-.22-3.26-.65-1.01-.43-1.9-1.04-2.67-1.81-.77-.77-1.37-1.66-1.81-2.67s-.65-2.1-.65-3.26.22-2.25.65-3.26,1.04-1.9,1.81-2.67c.77-.77,1.66-1.37,2.67-1.81,1.01-.43,2.1-.65,3.26-.65s2.25.22,3.26.65c1.01.43,1.9,1.04,2.67,1.81.77.77,1.37,1.66,1.81,2.67.43,1.01.65,2.1.65,3.26s-.22,2.25-.65,3.26c-.43,1.01-1.04,1.9-1.81,2.67-.77.77-1.66,1.37-2.67,1.81-1.01.43-2.1.65-3.26.65ZM819.56,47.02c.9,0,1.73-.17,2.5-.51.77-.34,1.44-.81,2.03-1.41.58-.6,1.04-1.29,1.37-2.07.33-.78.5-1.63.5-2.53s-.17-1.74-.5-2.53-.79-1.48-1.37-2.07c-.58-.6-1.26-1.07-2.03-1.41-.77-.34-1.6-.51-2.5-.51s-1.74.17-2.5.51c-.77.34-1.44.81-2.03,1.41s-1.04,1.29-1.37,2.07-.5,1.63-.5,2.53.17,1.74.5,2.53c.33.78.79,1.48,1.37,2.07.58.6,1.26,1.07,2.03,1.41.77.34,1.6.51,2.5.51ZM816.67,44.74c-.34,0-.51-.17-.51-.51v-7.5c0-.34.17-.51.51-.51h3.24c.59,0,1.15.09,1.69.27.54.18.97.48,1.32.9s.51.98.51,1.68c0,.62-.14,1.13-.42,1.53s-.62.69-1.03.87l1.26,2.45s.05.09.07.14c.01.05.02.11.02.19,0,.12-.04.24-.13.35-.09.11-.21.16-.38.16h-1.35c-.16,0-.29-.03-.41-.11-.12-.07-.21-.18-.27-.34l-1.12-2.4h-1.09v2.33c0,.34-.17.51-.51.51h-1.4ZM818.58,39.96h1.3c.39,0,.66-.09.82-.28.16-.19.23-.4.23-.65s-.08-.46-.23-.64-.43-.27-.82-.27h-1.3v1.84Z" fill="currentColor"/>
+    </g>
+  </g>
+</svg></span>
+          <span class="rule" id="f09-rule"></span>
+          <span class="t-phrase" id="f09-sign">
+            <span class="sign-line" id="f09-sign1"><span class="w" id="f09-w107">Transforma</span> <span class="w" id="f09-w108">o</span> <span class="w" id="f09-w109">espaço.</span></span>
+            <span class="sign-line" id="f09-sign2"><span class="w" id="f09-w110">Transforma</span> <span class="w" id="f09-w111">o</span> <span class="w accent" id="f09-w112">futuro.</span></span>
+          </span>
+        </div>
+      </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        // Entrada de palabra: opacidad binaria + desplazamiento desde abajo. Nunca un fade.
+        function word(tl, sel, t, weight) {
+          var Y = { heavy: 140, normal: 90, light: 66 }[weight || "normal"];
+          var D = { heavy: 0.2, normal: 0.16, light: 0.12 }[weight || "normal"];
+          tl.set(sel, { opacity: 1 }, t);
+          // immediateRender:false o GSAP escribe el estado inicial al CONSTRUIR la línea de
+          // tiempo, no al llegar el cabezal � y el elemento se ve desplazado desde el frame 0.
+          tl.fromTo(sel, { y: Y }, { y: 0, duration: D, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Reparte una lista de palabras sobre sus tiempos.
+        function words(tl, list, weight) {
+          for (var k = 0; k < list.length; k++) word(tl, list[k][0], list[k][1], weight);
+        }
+        // SALIDA de costura (cut-the-curve): power4.in escalonado en orden de lectura, con el
+        // fundido de la �aLTIMA palabra muriendo 0.02 s antes del corte � así nada queda
+        // congelado en el corte y tampoco hay hueco muerto.
+        function seamExit(tl, sels, cut, axis, dir) {
+          var n = sels.length;
+          var span = n > 1 ? 0.14 : 0;              // ventana del escalonado
+          var step = n > 1 ? span / (n - 1) : 0;
+          // Se ancla por el FINAL: el último elemento en salir termina de apagarse 0.02 s
+          // antes del corte. Así no queda aire muerto justo antes del cambio de escena, y
+          // el desplazamiento (0.34 s) sigue corriendo al 59% cuando cae el corte — que es
+          // lo que exige la ley: cortar a media trayectoria, nunca con el gesto ya resuelto.
+          var t0 = cut - 0.285 - span;
+          for (var k = 0; k < n; k++) {
+            var t = t0 + step * k;
+            var to = { duration: 0.34, ease: "power4.in" };
+            to[axis] = 460 * dir;
+            tl.to(sels[k], to, t);
+            // Fundido lineal, retrasado respecto al desplazamiento: ver EXIT_FADE_DELAY.
+            tl.to(sels[k], { opacity: 0, duration: 0.1, ease: "none" }, t + 0.165);
+          }
+        }
+        // ENTRADA de costura: arranca a media trayectoria (opacidad 0.35), power4.out.
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+        // Inverse zoom � SALIDA: todo se encoge (retrocede). Sign de d(escala)/dt negativo.
+        function zoomOutExit(tl, sel, cut) {
+          tl.to(sel, { scale: 0.8, filter: "blur(10px)", duration: 0.2, ease: "power3.in" }, cut - 0.2);
+          tl.to(sel, { opacity: 0.15, duration: 0.2, ease: "none" }, cut - 0.2);
+        }
+        // Inverse zoom � ENTRADA: llega sobredimensionado y se repliega. Mismo signo.
+        function zoomOutEntry(tl, sel) {
+          tl.fromTo(
+            sel,
+            { scale: 1.25, filter: "blur(10px)", opacity: 0.15 },
+            { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.5, ease: "expo.out" },
+            0
+          );
+        }
+
+        // LLEGADA. El logotipo entra sobredimensionado y se asienta � mismo signo de
+        // escala que la salida del cuadro 8. �anica aparición de la marca en el film.
+        zoomOutEntry(tl, "#f09-block");
+
+        // El filete repite el gesto del cuadro 4, ahora cerrando el arco.
+        tl.set("#f09-rule", { opacity: 1 }, 0.34);
+        tl.fromTo("#f09-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power3.out", immediateRender: false }, 0.34);
+
+        words(tl, [["#f09-w107", 0.875], ["#f09-w108", 1.5], ["#f09-w109", 1.583333]], "light");
+        tl.set("#f09-sign2", { opacity: 1 }, 2.23);
+        words(tl, [["#f09-w110", 2.25], ["#f09-w111", 2.875], ["#f09-w112", 2.958333]], "light");
+
+        // MATCH-CUT al cuadro 10: el logotipo NO se mueve en el corte. Salen las dos
+        // líneas de texto y el filete; la marca se queda. El cierre no la borra.
+        tl.to(["#f09-sign1", "#f09-sign2"], { opacity: 0, duration: 0.20, ease: "none" }, 3.196666);
+        tl.to("#f09-rule", { opacity: 0, duration: 0.20, ease: "none" }, 3.196666);
+
+        window.__timelines["09-lockup"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

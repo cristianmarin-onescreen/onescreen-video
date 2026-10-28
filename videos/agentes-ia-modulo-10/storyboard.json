@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 173.28,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 173.28
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 10 · ONESCREEN ACADEMY",
+      "startSec": 0.1,
+      "endSec": 7.78,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 10 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — HOY",
+      "startSec": 7.78,
+      "endSec": 15.28,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "HOY",
+        "title": "Le damos a tu agente algo que no tiene",
+        "detail": "Conocimiento propio de tu institución"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — HASTA ESTE PUNTO",
+      "startSec": 15.28,
+      "endSec": 20.08,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "HASTA ESTE PUNTO",
+        "title": "Responde bien, pero de forma genérica"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — SI LE PREGUNTAS ALGO ESPECÍFICO",
+      "startSec": 20.08,
+      "endSec": 32.9,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI LE PREGUNTAS ALGO ESPECÍFICO",
+        "title": "Va a inventar una respuesta razonable",
+        "detail": "Pero incorrecta"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — No es que el agente mienta a propósito",
+      "startSec": 32.9,
+      "endSec": 40.64,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No es que el agente mienta a propósito",
+        "detail": "Cuando no sabe algo, tiende a rellenar el vacío"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "quote — A esto se le llama alucinación.",
+      "startSec": 40.64,
+      "endSec": 54.12,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "A esto se le llama alucinación.",
+        "detail": "En vez de decir que no lo sabe"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — LA SOLUCIÓN ES SIMPLE",
+      "startSec": 54.12,
+      "endSec": 59.71,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LA SOLUCIÓN ES SIMPLE",
+        "title": "Cargar un documento propio como conocimiento"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "list — PUEDE SER",
+      "startSec": 59.71,
+      "endSec": 70.88,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "PUEDE SER",
+        "items": [
+          "Tu plan curricular",
+          "Tu manual de convivencia",
+          "Un instructivo interno"
+        ]
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — Subir el documento directamente",
+      "startSec": 70.88,
+      "endSec": 78.88,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "title": "Subir el documento directamente",
+        "detail": "Sin ningún paso técnico adicional"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "titlecard — HAZLO AHORA MISMO",
+      "startSec": 78.88,
+      "endSec": 90.72,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "HAZLO AHORA MISMO",
+        "title": "Elige un documento real y cárgalo",
+        "detail": "Uno que tenga que ver con la tarea que le definiste"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "list — SEGÚN TU AGENTE",
+      "startSec": 90.72,
+      "endSec": 103.3,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SEGÚN TU AGENTE",
+        "items": [
+          "FAQ de padres → manual de convivencia o calendario",
+          "Apoya coordinación → un reporte real como referencia"
+        ]
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — PRUEBA: ANTES Y DESPUÉS",
+      "startSec": 103.3,
+      "endSec": 116.84,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PRUEBA: ANTES Y DESPUÉS",
+        "title": "La misma pregunta, antes y después de cargarlo",
+        "detail": "Vas a notar la diferencia de inmediato"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — Deja de sonar genérico",
+      "startSec": 116.84,
+      "endSec": 124.52,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Deja de sonar genérico",
+        "detail": "Empieza a sonar como algo que solo tiene sentido en el tuyo"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — RECOMENDACIÓN IMPORTANTE",
+      "startSec": 124.52,
+      "endSec": 141.96,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "RECOMENDACIÓN IMPORTANTE",
+        "title": "No cargues todo solo porque puedes",
+        "detail": "Demasiada información desordenada confunde contextos"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "quote — Menos documentos bien elegidos.",
+      "startSec": 141.96,
+      "endSec": 147.9,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Menos documentos bien elegidos.",
+        "detail": "Funcionan mejor que una carpeta completa sin criterio"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "titlecard — EL QUIZ DE ESTE MÓDULO",
+      "startSec": 147.9,
+      "endSec": 161.76,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "EL QUIZ DE ESTE MÓDULO",
+        "title": "¿Qué documento cargaste y qué cambió?",
+        "detail": "Asegúrate de haber hecho la prueba real"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 161.76,
+      "endSec": 169.5,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Herramientas y acciones",
+        "detail": "No solo responder con base en lo que sabe"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 169.5,
+      "endSec": 173.28,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

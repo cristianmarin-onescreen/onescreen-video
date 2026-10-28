@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 200.16,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 200.16
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 3 · ONESCREEN ACADEMY",
+      "startSec": 0.11,
+      "endSec": 8.16,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 3 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "body — HOY",
+      "startSec": 8.16,
+      "endSec": 12.16,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "HOY",
+        "title": "Algo que vas a escuchar todo el curso"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "titlecard — Chatbot vs. agente: la diferencia real",
+      "startSec": 12.16,
+      "endSec": 15.56,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Chatbot vs. agente: la diferencia real"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — HASTA AHORA",
+      "startSec": 15.56,
+      "endSec": 20.16,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "HASTA AHORA",
+        "title": "Los usabas como sinónimos",
+        "detail": "A partir de hoy, vas a dejar de hacerlo"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — UN CHATBOT",
+      "startSec": 20.16,
+      "endSec": 26.48,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "UN CHATBOT",
+        "title": "Es una conversación",
+        "detail": "Le escribes, te responde, y ahí termina su trabajo"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "list — LO QUE NO PUEDE HACER",
+      "startSec": 26.48,
+      "endSec": 33.48,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LO QUE NO PUEDE HACER",
+        "items": [
+          "No recuerda lo que pasó la semana pasada",
+          "No puede buscar información fuera de la conversación"
+        ]
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — No puede hacer nada más allá de escribirte texto de vuelta",
+      "startSec": 33.48,
+      "endSec": 37.72,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "No puede hacer nada más allá de escribirte texto de vuelta"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — SI NECESITAS MÁS",
+      "startSec": 37.72,
+      "endSec": 46.22,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI NECESITAS MÁS",
+        "title": "Revisar un documento, consultar un dato, actuar",
+        "detail": "Tienes que hacerlo tú, por fuera de esa ventana de chat"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "titlecard — Un agente es distinto",
+      "startSec": 46.22,
+      "endSec": 52.28,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Un agente es distinto",
+        "detail": "Tiene 4 cosas que un chatbot común no tiene"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "list — LOS 4 INGREDIENTES",
+      "startSec": 52.28,
+      "endSec": 57.08,
+      "accentIndex": 1,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "LOS 4 INGREDIENTES",
+        "items": [
+          "Instrucciones",
+          "Memoria",
+          "Herramientas",
+          "Capacidad de actuar"
+        ]
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "roadmap — INSTRUCCIONES",
+      "startSec": 57.08,
+      "endSec": 66.68,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "INSTRUCCIONES",
+        "title": "El punto de partida",
+        "detail": "Rol específico, tono, límites claros de lo que sí y lo que no"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — NO ES GENÉRICO",
+      "startSec": 66.68,
+      "endSec": 78.95,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "NO ES GENÉRICO",
+        "title": "Es el asistente de matemáticas de 8vo grado",
+        "detail": "Explica con paciencia y nunca da la respuesta directa sin guiar antes"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "roadmap — MEMORIA",
+      "startSec": 78.95,
+      "endSec": 92.09,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "MEMORIA",
+        "title": "Puede recordar contexto",
+        "detail": "Quién eres, qué compartiste, qué se decidió antes — no parte de cero"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "roadmap — HERRAMIENTAS",
+      "startSec": 92.09,
+      "endSec": 105.24,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "HERRAMIENTAS",
+        "title": "Usa cosas fuera de sí mismo",
+        "detail": "Busca información actualizada, consulta documentos, se conecta a otro sistema"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — Va a buscar lo que necesita, cuando lo necesita",
+      "startSec": 105.24,
+      "endSec": 111.64,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Va a buscar lo que necesita, cuando lo necesita"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "roadmap — CAPACIDAD DE ACTUAR",
+      "startSec": 111.64,
+      "endSec": 120.32,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "CAPACIDAD DE ACTUAR",
+        "title": "Lo que más distingue a un agente",
+        "detail": "No solo recomienda para que tú lo ejecutes"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "list — PUEDE EJECUTAR EL PASO SIGUIENTE",
+      "startSec": 120.32,
+      "endSec": 129.92,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PUEDE EJECUTAR EL PASO SIGUIENTE",
+        "items": [
+          "Activar un contenido",
+          "Enviar una respuesta",
+          "Actualizar información — dentro de tus límites"
+        ]
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "titlecard — EJEMPLO",
+      "startSec": 129.92,
+      "endSec": 134.31,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "EJEMPLO",
+        "title": "Imagina 2 escenarios"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "body — ESCENARIO 1 · CHATBOT",
+      "startSec": 134.31,
+      "endSec": 147,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ESCENARIO 1 · CHATBOT",
+        "title": "Redacta la circular... y ahí termina",
+        "detail": "Tú la copias, ajustas con los datos reales y la envías"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "body — ESCENARIO 2 · AGENTE",
+      "startSec": 147,
+      "endSec": 161.08,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ESCENARIO 2 · AGENTE",
+        "title": "Conoce el formato oficial y el calendario",
+        "detail": "Te deja la circular lista con los datos correctos — solo la revisas y envías"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "quote — La diferencia no está en la redacción.",
+      "startSec": 161.08,
+      "endSec": 169.92,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "La diferencia no está en la redacción.",
+        "detail": "Está en todo lo que el agente hizo alrededor de ella."
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "list — EL AGENTE QUE VAS A CONSTRUIR",
+      "startSec": 169.92,
+      "endSec": 186,
+      "accentIndex": 1,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "EL AGENTE QUE VAS A CONSTRUIR",
+        "items": [
+          "Instrucciones claras",
+          "Recuerda tu contexto",
+          "Usa herramientas cuando las necesita",
+          "Puede dar el paso siguiente"
+        ]
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 186,
+      "endSec": 195.96,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Desarmamos un agente, pieza por pieza",
+        "detail": "Para entender cómo se construye cada ingrediente"
+      }
+    },
+    {
+      "id": "card-24",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 195.96,
+      "endSec": 200.16,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

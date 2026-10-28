@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>01-apertura</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #ffffff;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #3976ff; }
+        /* Escalones. colossal aquí es 11cqw y no 15: "¿Comenzamos?" son 12 caracteres y a
+           15cqw se saldría del ancho útil. */
+        .s-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .s-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .s-colossal { font-size: 11cqw;   font-weight: 800; line-height: 0.94; letter-spacing: -0.040em; }
+        /* Cuadros de los bloques negros: a cuadro completo, centrados. */
+        .beat { position: absolute; left: 8cqw; right: 8cqw; top: 34cqh; text-align: center; opacity: 0; }
+        .rule {
+          display: block; width: 10cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.4cqh auto 0; transform-origin: 50% 50%; opacity: 0;
+        }
+        /* COLUMNA SEGURA. Medida, no estimada: ninguna cara entra a la izquierda del 38%
+           del ancho en los 18 planos del tramo de entrevistas. La columna llega al 34% y
+           deja 4 puntos de margen. Anclada por abajo para que los bloques de 2, 3 y 4
+           líneas compartan línea base y el subtítulo no salte de altura. */
+        .caption {
+          position: absolute;
+          left: 6cqw;
+          width: 28cqw;
+          bottom: 22cqh;
+          text-align: left;
+          font-size: 2.3cqw;
+          font-weight: 500;
+          line-height: 1.28;
+          letter-spacing: -0.008em;
+          opacity: 0;
+        }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="01-apertura"
+        data-width="3840"
+        data-height="2160"
+        data-duration="19.16"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat s-phrase" id="A1"><span class="w" id="A1-w0">Há</span> <span class="w" id="A1-w1">15</span> <span class="w" id="A1-w2">anos</span> <span class="w" id="A1-w3">nós</span> <span class="w" id="A1-w4">fizemos</span> <span class="w" id="A1-w5">uma</span> <span class="w" id="A1-w6">pergunta</span> <span class="w" id="A1-w7">simples:</span></div>
+        <div class="beat s-phrase" id="A2"><span class="w" id="A2-w0">E</span> <span class="w" id="A2-w1">se</span> <span class="w" id="A2-w2">uma</span> <span class="w" id="A2-w3">tela</span> <span class="w" id="A2-w4">pudesse</span> <span class="w" id="A2-w5">ensinar</span> <span class="w" id="A2-w6">tanto</span> <span class="w" id="A2-w7">quanto</span> <span class="w" id="A2-w8">a</span> <span class="w" id="A2-w9">pessoa</span> <span class="w" id="A2-w10">na</span> <span class="w" id="A2-w11">frente</span> <span class="w" id="A2-w12">dela?</span></div>
+        <div class="beat s-display" id="A3"><span class="w" id="A3-w0">Até</span> <span class="w" id="A3-w1">hoje</span> <span class="w" id="A3-w2">seguimos</span> <span class="w" id="A3-w3">respondendo.</span></div>
+        <div class="beat s-phrase" id="A4"><span class="w" id="A4-w0">E</span> <span class="w" id="A4-w1">hoje</span> <span class="w" id="A4-w2">essa</span> <span class="w" id="A4-w3">pergunta</span> <span class="w" id="A4-w4">já</span> <span class="w" id="A4-w5">tem</span> <span class="w" id="A4-w6">resposta</span> <span class="w" id="A4-w7">em</span> <span class="w" id="A4-w8">mais</span> <span class="w" id="A4-w9">de</span> <span class="w" id="A4-w10">50</span> <span class="w" id="A4-w11">países.</span></div>
+        <div class="beat s-display" id="A5"><span class="w" id="A5-w0">Milhares</span> <span class="w" id="A5-w1">de</span> <span class="w" id="A5-w2">instituições</span> <span class="w" id="A5-w3">sabem</span> <span class="w" id="A5-w4">o</span> <span class="w" id="A5-w5">que</span> <span class="w" id="A5-w6">é.</span></div>
+        <div class="beat s-display" id="A6"><span class="w" id="A6-w0">Isto</span> <span class="w" id="A6-w1">é</span> <span class="w" id="A6-w2">o</span> <span class="w" id="A6-w3">que</span> <span class="w" id="A6-w4">alguns</span> <span class="w" id="A6-w5">dizem.</span></div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 52 }, { y: 0, duration: 0.15, ease: "power4.out", immediateRender: false }, t);
+        }
+        function seamExit(tl, sel, cut, axis, dir) {
+          var t0 = cut - 0.285;
+          var to = { duration: 0.34, ease: "power4.in" };
+          to[axis] = 460 * dir;
+          tl.to(sel, to, t0);
+          tl.to(sel, { opacity: 0, duration: 0.1, ease: "none" }, t0 + 0.165);
+        }
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+
+        // A1 — Há 15 anos nós fizemos uma pergunta simples:
+        tl.set("#A1", { opacity: 1 }, 1.6199999999999999);
+        word(tl, "#A1-w0", 1.64);
+        word(tl, "#A1-w1", 1.96);
+        word(tl, "#A1-w2", 2.28);
+        word(tl, "#A1-w3", 2.6);
+        word(tl, "#A1-w4", 2.96);
+        word(tl, "#A1-w5", 3.28);
+        word(tl, "#A1-w6", 3.6);
+        word(tl, "#A1-w7", 3.92);
+        tl.to("#A1", { y: -207, duration: 0.26, ease: "power4.in" }, 4.28);
+        tl.to("#A1", { opacity: 0, duration: 0.12, ease: "none" }, 4.4);
+
+        // A2 — E se uma tela pudesse ensinar tanto quanto a pessoa na frente dela?
+        tl.set("#A2", { opacity: 1 }, 4.58);
+        word(tl, "#A2-w0", 4.6);
+        word(tl, "#A2-w1", 4.88);
+        word(tl, "#A2-w2", 5.16);
+        word(tl, "#A2-w3", 5.44);
+        word(tl, "#A2-w4", 5.72);
+        word(tl, "#A2-w5", 6);
+        word(tl, "#A2-w6", 6.24);
+        word(tl, "#A2-w7", 6.52);
+        word(tl, "#A2-w8", 6.8);
+        word(tl, "#A2-w9", 7.08);
+        word(tl, "#A2-w10", 7.36);
+        word(tl, "#A2-w11", 7.64);
+        word(tl, "#A2-w12", 7.92);
+        tl.to("#A2", { y: -207, duration: 0.26, ease: "power4.in" }, 8.24);
+        tl.to("#A2", { opacity: 0, duration: 0.12, ease: "none" }, 8.36);
+
+        // A3 — Até hoje seguimos respondendo.
+        tl.set("#A3", { opacity: 1 }, 8.540000000000001);
+        word(tl, "#A3-w0", 8.56);
+        word(tl, "#A3-w1", 8.92);
+        word(tl, "#A3-w2", 9.32);
+        word(tl, "#A3-w3", 9.68);
+        tl.to("#A3", { y: -207, duration: 0.26, ease: "power4.in" }, 10.36);
+        tl.to("#A3", { opacity: 0, duration: 0.12, ease: "none" }, 10.48);
+
+        // A4 — E hoje essa pergunta já tem resposta em mais de 50 países.
+        tl.set("#A4", { opacity: 1 }, 10.66);
+        word(tl, "#A4-w0", 10.68);
+        word(tl, "#A4-w1", 11);
+        word(tl, "#A4-w2", 11.32);
+        word(tl, "#A4-w3", 11.64);
+        word(tl, "#A4-w4", 11.96);
+        word(tl, "#A4-w5", 12.28);
+        word(tl, "#A4-w6", 12.6);
+        word(tl, "#A4-w7", 12.92);
+        word(tl, "#A4-w8", 13.24);
+        word(tl, "#A4-w9", 13.56);
+        word(tl, "#A4-w10", 13.88);
+        word(tl, "#A4-w11", 14.2);
+        tl.to("#A4", { y: -207, duration: 0.26, ease: "power4.in" }, 14.92);
+        tl.to("#A4", { opacity: 0, duration: 0.12, ease: "none" }, 15.04);
+
+        // A5 — Milhares de instituições sabem o que é.
+        tl.set("#A5", { opacity: 1 }, 15.22);
+        word(tl, "#A5-w0", 15.24);
+        word(tl, "#A5-w1", 15.48);
+        word(tl, "#A5-w2", 15.72);
+        word(tl, "#A5-w3", 15.96);
+        word(tl, "#A5-w4", 16.2);
+        word(tl, "#A5-w5", 16.44);
+        word(tl, "#A5-w6", 16.68);
+        tl.to("#A5", { y: -207, duration: 0.26, ease: "power4.in" }, 16.84);
+        tl.to("#A5", { opacity: 0, duration: 0.12, ease: "none" }, 16.96);
+
+        // A6 — Isto é o que alguns dizem.
+        tl.set("#A6", { opacity: 1 }, 17.14);
+        word(tl, "#A6-w0", 17.16);
+        word(tl, "#A6-w1", 17.4);
+        word(tl, "#A6-w2", 17.6);
+        word(tl, "#A6-w3", 17.84);
+        word(tl, "#A6-w4", 18.04);
+        word(tl, "#A6-w5", 18.28);
+        seamExit(tl, "#A6", 19.16, "x", -1);
+
+        window.__timelines["01-apertura"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

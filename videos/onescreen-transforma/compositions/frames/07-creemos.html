@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>07-creemos</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: #00FF00;
+          color: #000000;
+          font-family: "Rubik", sans-serif;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; display: grid; place-items: center; padding: 0 8cqw; }
+        .stage.left { justify-items: start; text-align: left; }
+        /* Escenarios que posicionan a sus hijos en ABSOLUTO (3, 4, 9, 10). Tienen que ser
+           bloque, no grid: place-items:center le da justify-self:center a un hijo absoluto,
+           y eso lo dimensiona a su contenido en vez de respetar left:0/right:0 � con lo cual
+           text-align:center deja de centrar y la línea se pega al borde izquierdo. */
+        .stage.abs { display: block; place-items: normal; padding: 0; }
+        .block { display: block; max-width: 80cqw; text-align: center; margin-top: -1.2cqh; }
+        .stage.left .block { text-align: left; }
+        /* Estado inicial en CSS, nunca en un tl.set en la posición 0.
+           Se oculta con OPACITY, jamás con la propiedad visibility: esa se HEREDA, y un hijo
+           puesto en visible anula el hidden que el framework le aplica al clip padre. El
+           resultado es que todas las escenas se dibujan encima de todas a la vez. */
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .w.first { opacity: 1; }
+        .t-micro    { font-size: 0.95cqw; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; }
+        .t-body     { font-size: 1.9cqw;  font-weight: 400; line-height: 1.5; }
+        .t-sub      { font-size: 3.0cqw;  font-weight: 500; line-height: 1.25; letter-spacing: -0.010em; }
+        .t-phrase   { font-size: 5.0cqw;  font-weight: 500; line-height: 1.10; letter-spacing: -0.022em; }
+        .t-display  { font-size: 7.6cqw;  font-weight: 600; line-height: 1.02; letter-spacing: -0.030em; }
+        .t-colossal { font-size: 15cqw;   font-weight: 800; line-height: 0.92; letter-spacing: -0.045em; }
+        .muted  { color: #7e7e82; }
+        .accent { color: #3976ff; }
+        .line { display: block; }
+        .rule {
+          display: block; width: 12cqw; height: 0.45cqh;
+          background: #3976ff; margin: 3.2cqh auto 0;
+        }
+        /* Escenario en bloque, no grid: con dos .block hijos el grid crea DOS FILAS y la
+           firma queda arriba y el paralelismo abajo, en vez de compartir el mismo centro. */
+        #f07-sig { position: absolute; left: 8cqw; right: 8cqw; top: 43cqh; text-align: left; opacity: 0; }
+        #f07-block { position: absolute; left: 8cqw; right: 8cqw; top: 34cqh; text-align: left; opacity: 0; }
+        .anchor { display: block; white-space: nowrap; }
+        /* El objeto son DOS líneas, no una: "la educación normal, en educación del futuro."
+           en un solo renglón a 5cqw mide 4493 px y se sale de un cuadro de 3840. */
+        #f07-objs { display: block; position: relative; margin-top: 0.6cqh; height: 22cqh; }
+        .object { display: block; position: absolute; left: 0; top: 0; width: 100%; }
+        .obj-line { display: block; white-space: nowrap; }
+        #f07-objB { opacity: 0; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="07-creemos"
+        data-width="3840"
+        data-height="2160"
+        data-duration="7.25"
+      >
+      <div class="stage abs" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="t-display" id="f07-sig">
+          <span class="line"><span class="w first" id="f07-w79">Acreditamos</span> <span class="w" id="f07-w80">muito</span> <span class="w" id="f07-w81">nisso.</span></span>
+        </div>
+        <div class="t-phrase" id="f07-block">
+          <span class="anchor" id="f07-anchor"><span class="w" id="f07-w82">Em</span> <span class="w" id="f07-w83">transformar</span></span>
+          <span id="f07-objs">
+            <span class="object" id="f07-objA">
+              <span class="obj-line"><span class="w" id="f07-w84">a</span> <span class="w" id="f07-w85">educação</span> <span class="w" id="f07-w86">normal,</span></span>
+              <span class="obj-line"><span class="w" id="f07-w87">em</span> <span class="w" id="f07-w88">educação</span> <span class="w" id="f07-w89">do</span> <span class="w" id="f07-w90">futuro.</span></span>
+            </span>
+            <span class="object" id="f07-objB">
+              <span class="obj-line"><span class="w" id="f07-w93">empresas,</span></span>
+              <span class="obj-line"><span class="w" id="f07-w94">em</span> <span class="w" id="f07-w95">empresas</span> <span class="w" id="f07-w96">do</span> <span class="w accent" id="f07-w97">futuro.</span></span>
+            </span>
+          </span>
+        </div>
+      </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        // Entrada de palabra: opacidad binaria + desplazamiento desde abajo. Nunca un fade.
+        function word(tl, sel, t, weight) {
+          var Y = { heavy: 140, normal: 90, light: 66 }[weight || "normal"];
+          var D = { heavy: 0.2, normal: 0.16, light: 0.12 }[weight || "normal"];
+          tl.set(sel, { opacity: 1 }, t);
+          // immediateRender:false o GSAP escribe el estado inicial al CONSTRUIR la línea de
+          // tiempo, no al llegar el cabezal � y el elemento se ve desplazado desde el frame 0.
+          tl.fromTo(sel, { y: Y }, { y: 0, duration: D, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Reparte una lista de palabras sobre sus tiempos.
+        function words(tl, list, weight) {
+          for (var k = 0; k < list.length; k++) word(tl, list[k][0], list[k][1], weight);
+        }
+        // SALIDA de costura (cut-the-curve): power4.in escalonado en orden de lectura, con el
+        // fundido de la �aLTIMA palabra muriendo 0.02 s antes del corte � así nada queda
+        // congelado en el corte y tampoco hay hueco muerto.
+        function seamExit(tl, sels, cut, axis, dir) {
+          var n = sels.length;
+          var span = n > 1 ? 0.14 : 0;              // ventana del escalonado
+          var step = n > 1 ? span / (n - 1) : 0;
+          // Se ancla por el FINAL: el último elemento en salir termina de apagarse 0.02 s
+          // antes del corte. Así no queda aire muerto justo antes del cambio de escena, y
+          // el desplazamiento (0.34 s) sigue corriendo al 59% cuando cae el corte — que es
+          // lo que exige la ley: cortar a media trayectoria, nunca con el gesto ya resuelto.
+          var t0 = cut - 0.285 - span;
+          for (var k = 0; k < n; k++) {
+            var t = t0 + step * k;
+            var to = { duration: 0.34, ease: "power4.in" };
+            to[axis] = 460 * dir;
+            tl.to(sels[k], to, t);
+            // Fundido lineal, retrasado respecto al desplazamiento: ver EXIT_FADE_DELAY.
+            tl.to(sels[k], { opacity: 0, duration: 0.1, ease: "none" }, t + 0.165);
+          }
+        }
+        // ENTRADA de costura: arranca a media trayectoria (opacidad 0.35), power4.out.
+        function seamEntry(tl, sel, axis, dir) {
+          var from = { opacity: 0.35 };
+          from[axis] = -460 * dir;
+          var to = { opacity: 1, duration: 0.42, ease: "power4.out" };
+          to[axis] = 0;
+          tl.fromTo(sel, from, to, 0);
+        }
+        // Inverse zoom � SALIDA: todo se encoge (retrocede). Sign de d(escala)/dt negativo.
+        function zoomOutExit(tl, sel, cut) {
+          tl.to(sel, { scale: 0.8, filter: "blur(10px)", duration: 0.2, ease: "power3.in" }, cut - 0.2);
+          tl.to(sel, { opacity: 0.15, duration: 0.2, ease: "none" }, cut - 0.2);
+        }
+        // Inverse zoom � ENTRADA: llega sobredimensionado y se repliega. Mismo signo.
+        function zoomOutEntry(tl, sel) {
+          tl.fromTo(
+            sel,
+            { scale: 1.25, filter: "blur(10px)", opacity: 0.15 },
+            { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.5, ease: "expo.out" },
+            0
+          );
+        }
+
+        // "Creemos en eso." es la firma de la marca y merece su propio silencio: entra,
+        // se sostiene 1.1 s sola, y se va antes de que aparezca el paralelismo.
+        seamEntry(tl, "#f07-sig", "x", -1);
+        words(tl, [["#f07-w80", 0.541666], ["#f07-w81", 0.791666]], "light");
+        // Sale cuando "eso." termina de decirse, no antes: la firma se lee entera.
+        tl.to("#f07-sig", { y: -230, duration: 0.26, ease: "power4.in" }, 1.061666);
+        tl.to("#f07-sig", { opacity: 0, duration: 0.12, ease: "none" }, 1.141666);
+
+        // EL ANCLA. Entra una vez y no se mueve durante 6 s. Su quietud ES el argumento:
+        // lo que cambia es el objeto, nunca el verbo.
+        tl.set("#f07-block", { opacity: 1 }, 1.146666);
+        words(tl, [["#f07-w82", 1.166666], ["#f07-w83", 1.375]], "heavy");
+
+        // Objeto A: "la educación normal, en educación del futuro."
+        words(tl, [["#f07-w84", 1.958333], ["#f07-w85", 2.041666], ["#f07-w86", 2.416666], ["#f07-w87", 2.958333], ["#f07-w88", 3.083333], ["#f07-w89", 3.458333], ["#f07-w90", 3.75]], "light");
+
+        // Waterfall cut a 29.22 s: el objeto A se va palabra por palabra hacia la
+        // izquierda (la corriente) mientras el B entra a media trayectoria. Una ola
+        // que cruza la costura, dentro de la misma escena.
+        seamExit(tl, ["#f07-w84", "#f07-w85", "#f07-w86", "#f07-w87", "#f07-w88", "#f07-w89", "#f07-w90"], 5.208333, "x", -1);
+        tl.set("#f07-objA", { opacity: 0 }, 5.208333);
+        tl.set("#f07-objB", { opacity: 1 }, 5.188333);
+        words(tl, [["#f07-w93", 5.208333], ["#f07-w94", 5.458333], ["#f07-w95", 6.083333], ["#f07-w96", 6.541666], ["#f07-w97", 6.75]], "light");
+
+        // Costura: LEFT. El ancla se desvanece en su sitio y el objeto sale.
+        tl.to("#f07-anchor", { opacity: 0, duration: 0.12, ease: "none" }, 6.95);
+        seamExit(tl, ["#f07-block"], 7.25, "x", -1);
+
+        window.__timelines["07-creemos"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

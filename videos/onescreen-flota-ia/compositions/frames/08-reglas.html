@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head><meta charset="UTF-8"><title>08-reglas</title></head>
+  <body>
+    <template>
+      <style>
+        @font-face { font-family: "Rubik"; src: url("assets/fonts/Rubik-Variable.ttf") format("truetype"); font-weight: 300 900; font-display: block; }
+        @font-face { font-family: "Manrope"; src: url("assets/fonts/Manrope-variable-latin.woff2") format("woff2"); font-weight: 200 800; font-display: block; }
+        #s8 { --bg:#050507; --ink:#ffffff; --ac:#3976ff; --mut:#9a9aa0; --line:#26262e; --logo:#fafafa; }
+        .s8-mask { overflow: hidden; display: block; padding-bottom: 0.06em; }
+        .s8-mask > span { display: inline-block; }
+        #s8-dos { left: 0; right: 0; top: 380px; text-align: center; font-size: 230px; font-weight: 700; letter-spacing: -0.05em; }
+        .s8-num { left: 134px; top: 60px; font-size: 260px; font-weight: 700; color: #3976ff; letter-spacing: -0.06em; line-height: 1; }
+        .s8-tt { left: 400px; top: 110px; font-size: 64px; max-width: 1300px; }
+        .s8-bub { position: absolute; padding: 20px 30px; border-radius: 28px; background: #15151c; border: 3px solid #2c2c36; font-family: "Manrope"; font-weight: 600; font-size: 30px; white-space: nowrap; }
+        .s8-agent { width: 140px; height: 140px; }
+        .s8-agent .disc { width: 140px; height: 140px; }
+        .s8-agent .disc svg { width: 80px; height: 80px; }
+        .s8-stack { display: flex; flex-direction: column; gap: 10px; }
+        .s8-stack i { display: block; width: 200px; height: 40px; border: 4px solid #3976ff; border-radius: 9px; }
+        .s8-lab { font-family: "Manrope"; font-weight: 600; font-size: 22px; color: var(--mut); margin-top: 6px; }
+        #s8-cap1 { left: 400px; top: 900px; font-size: 54px; }
+        #s8-fake .x { position: absolute; left: -10px; right: -10px; top: 50%; height: 5px; background: #ff4d6d; transform-origin: 0 50%; transform: scaleX(0); }
+        #s8-tt2b { left: 400px; top: 190px; font-size: 64px; }
+        #s8-person { left: 470px; top: 420px; }
+        #s8-person .disc { width: 220px; height: 220px; border-color: #ffffff; }
+        #s8-person .disc svg { width: 130px; height: 130px; color: #ffffff; }
+        #s8-bot { left: 1340px; top: 450px; }
+        #s8-bot .disc { width: 170px; height: 170px; }
+        #s8-bot .disc svg { width: 96px; height: 96px; }
+        .s8-card { width: 90px; height: 60px; border-radius: 10px; background: #3976ff; top: 520px; left: 1300px; }
+        #s8-decide { left: 760px; top: 490px; padding: 22px 44px; border-radius: 99px; background: #3976ff; font-family: "Rubik"; font-weight: 600; font-size: 40px; }
+        #s8-proc { left: 400px; top: 780px; width: 1120px; height: 40px; display: flex; gap: 14px; }
+        #s8-proc i { flex: 1; display: block; border-radius: 10px; background: #26262e; }
+        #s8-cap2 { left: 400px; top: 900px; font-size: 54px; }
+      </style>
+
+      <div data-hf-id="hf-xai4" id="root" data-composition-id="08-reglas" data-width="1920" data-height="1080" data-duration="24.6">
+        <div data-hf-id="hf-b10b" id="s8" class="scene">
+          <div data-hf-id="hf-8252" class="bgfill"></div>
+
+          <!-- Dos reglas -->
+          <div data-hf-id="hf-ndw6" id="s8-dos" class="h abs"><span data-hf-id="hf-2lm5" class="s8-mask"><span data-hf-id="hf-13h1" id="s8-d1">Dos reglas.</span></span></div>
+
+          <!-- Regla 1 -->
+          <div data-hf-id="hf-70h1" id="s8-n1" class="h abs s8-num in">1</div>
+          <div data-hf-id="hf-5dk7" id="s8-tt1" class="h abs s8-tt in">Solo responden desde nuestra base de conocimiento.</div>
+          <svg data-hf-id="hf-w0qa" class="wire" id="s8-w1">
+            <path data-hf-id="hf-6pgt" class="l" data-draw="" d="M420 440 H540" /><path data-hf-id="hf-s9g3" class="l" data-draw="" d="M700 440 H840" /><path data-hf-id="hf-hwt8" class="l" data-draw="" d="M1060 440 H1240" />
+            <path data-hf-id="hf-atdh" class="l" data-draw="" d="M420 680 H540" style="stroke:#55555f" /><path data-hf-id="hf-5vtb" class="l" data-draw="" d="M700 680 H840" style="stroke:#55555f" />
+          </svg>
+          <div data-hf-id="hf-9j1c" class="s8-bub in" id="s8-q1" style="left:134px;top:405px">Pregunta</div>
+          <div data-hf-id="hf-0b03" class="node s8-agent in" id="s8-a1" style="left:550px;top:370px"><div data-hf-id="hf-hnan" class="disc"><svg data-hf-id="hf-mg19" class="ico" viewBox="0 0 48 48"><rect data-hf-id="hf-w0f1" x="10" y="14" width="28" height="22" rx="6" /><circle data-hf-id="hf-s6zu" cx="19" cy="25" r="2.5" /><circle data-hf-id="hf-dh2b" cx="29" cy="25" r="2.5" /><path data-hf-id="hf-ecp1" d="M24 8v6" /></svg></div></div>
+          <div data-hf-id="hf-yhlr" class="abs in" id="s8-k1" style="left:850px;top:370px"><div data-hf-id="hf-xp3y" class="s8-stack"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-u7io" id="s8-hit"></i><i data-hf-id="hf-zeb8"></i></div><div data-hf-id="hf-knw2" class="s8-lab">Base de conocimiento</div></div>
+          <div data-hf-id="hf-y50l" class="s8-bub in" id="s8-r1" style="left:1250px;top:405px;border-color:#3976ff">Respuesta verificada ✓</div>
+          <div data-hf-id="hf-1n0n" class="s8-bub in" id="s8-q2" style="left:134px;top:645px">Pregunta</div>
+          <div data-hf-id="hf-9qtd" class="node s8-agent in" id="s8-a2" style="left:550px;top:610px"><div data-hf-id="hf-7fpr" class="disc"><svg data-hf-id="hf-dkrl" class="ico" viewBox="0 0 48 48"><rect data-hf-id="hf-awc1" x="10" y="14" width="28" height="22" rx="6" /><circle data-hf-id="hf-0p4e" cx="19" cy="25" r="2.5" /><circle data-hf-id="hf-902r" cx="29" cy="25" r="2.5" /><path data-hf-id="hf-qwbd" d="M24 8v6" /></svg></div></div>
+          <div data-hf-id="hf-5vyl" class="abs in" id="s8-k2" style="left:850px;top:610px"><div data-hf-id="hf-x7ia" class="s8-stack"><i data-hf-id="hf-y7e5"></i><i data-hf-id="hf-ylp6"></i><i data-hf-id="hf-0l8b"></i></div><div data-hf-id="hf-w0sy" class="s8-lab">Sin información</div></div>
+          <div data-hf-id="hf-3q4s" class="s8-bub in" id="s8-fake" style="left:1250px;top:645px;color:#9a9aa0;border-style:dashed">Seguro que sí, el precio es…<div data-hf-id="hf-3ecg" class="x"></div></div>
+          <div data-hf-id="hf-4m28" class="s8-bub in" id="s8-honest" style="left:1250px;top:645px;border-color:#ffffff">“No tengo esa información.”</div>
+          <div data-hf-id="hf-89y7" id="s8-cap1" class="h abs in">Si no saben, te lo dicen. <span data-hf-id="hf-f3e0" class="acc">No inventan.</span></div>
+
+          <!-- Regla 2 -->
+          <div data-hf-id="hf-a6ph" id="s8-n2" class="h abs s8-num in">2</div>
+          <div data-hf-id="hf-dj3p" id="s8-tt2" class="h abs s8-tt in">Apoyan tu trabajo.</div>
+          <div data-hf-id="hf-gbtl" id="s8-tt2b" class="h abs mut in" style="font-weight:500">No deciden por ti.</div>
+          <div data-hf-id="hf-naw8" class="node in" id="s8-person"><div data-hf-id="hf-71eq" class="disc"><svg data-hf-id="hf-eroo" class="ico" viewBox="0 0 48 48"><circle data-hf-id="hf-nl7n" cx="24" cy="17" r="7" /><path data-hf-id="hf-q0jc" d="M10 40c1-8 7-12 14-12s13 4 14 12" /></svg></div>Persona real</div>
+          <div data-hf-id="hf-wcnp" class="node in" id="s8-bot"><div data-hf-id="hf-6n3p" class="disc"><svg data-hf-id="hf-eddn" class="ico" viewBox="0 0 48 48"><rect data-hf-id="hf-c394" x="10" y="14" width="28" height="22" rx="6" /><circle data-hf-id="hf-13ff" cx="19" cy="25" r="2.5" /><circle data-hf-id="hf-8lrq" cx="29" cy="25" r="2.5" /><path data-hf-id="hf-s38g" d="M24 8v6" /></svg></div>Agente · apoyo</div>
+          <div data-hf-id="hf-faq5" class="abs s8-card in"></div><div data-hf-id="hf-lm4h" class="abs s8-card in"></div><div data-hf-id="hf-mt1k" class="abs s8-card in"></div>
+          <div data-hf-id="hf-366z" id="s8-decide" class="abs in">Decidir</div>
+          <div data-hf-id="hf-o02s" id="s8-proc" class="abs"><i data-hf-id="hf-97qx" class="in"></i><i data-hf-id="hf-kv2l" class="in"></i><i data-hf-id="hf-m1zo" class="in"></i><i data-hf-id="hf-lnon" class="in"></i><i data-hf-id="hf-mulq" class="in"></i><i data-hf-id="hf-mgap" class="in"></i><i data-hf-id="hf-nn7s" class="in"></i><i data-hf-id="hf-n8wr" class="in"></i></div>
+          <div data-hf-id="hf-vw45" id="s8-cap2" class="h abs in">Jamás reemplazan a <span data-hf-id="hf-v4i8" class="acc">una persona real.</span></div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          var S = 196.1, T = function (x) { return x - S; };
+          var root = document.querySelector('[data-composition-id="08-reglas"]');
+          FX.prep(root);
+          var tl = gsap.timeline({ paused: true });
+          var q = function (s) { return root.querySelectorAll(s); };
+
+          // "Hay dos reglas"
+          FX.rise(tl, "#s8-d1", T(196.32), { d: 0.8 });
+          FX.out(tl, "#s8-dos", T(200.2), { y: -40, d: 0.35 });
+
+          // Regla 1 · "sólo responden información desde nuestra base de conocimiento"
+          FX.up(tl, "#s8-n1", T(200.66), { y: 60, d: 0.6 });
+          FX.up(tl, "#s8-tt1", T(201.28), { y: 24 });
+          var w1 = q("#s8-w1 [data-draw]");
+          FX.pop(tl, "#s8-q1", T(201.88));
+          FX.draw(tl, w1[0], T(202.2), 0.3);
+          FX.pop(tl, "#s8-a1", T(202.4));
+          FX.draw(tl, w1[1], T(203.0), 0.3);
+          FX.up(tl, "#s8-k1", T(203.3), { y: 20 });
+          tl.to("#s8-hit", { backgroundColor: "#3976ff", duration: 0.25 }, T(203.9));
+          FX.draw(tl, w1[2], T(204.0), 0.3);
+          FX.pop(tl, "#s8-r1", T(204.25));
+          // "si ellos no tienen información o no saben"
+          FX.pop(tl, "#s8-q2", T(204.96));
+          FX.draw(tl, w1[3], T(205.2), 0.3);
+          FX.pop(tl, "#s8-a2", T(205.36));
+          FX.draw(tl, w1[4], T(205.9), 0.3);
+          FX.up(tl, "#s8-k2", T(206.12), { y: 20 });
+          tl.to(q("#s8-k2 i"), { borderColor: "#55555f", duration: 0.3 }, T(206.4));
+          // "no se lo van a inventar"
+          FX.pop(tl, "#s8-fake", T(207.12), { from: 0.9 });
+          tl.to("#s8-fake .x", { scaleX: 1, duration: 0.3, ease: "power2.out" }, T(207.82));
+          tl.to("#s8-fake", { opacity: 0, filter: "blur(8px)", duration: 0.4 }, T(208.15));
+          // "te lo van a decir directamente"
+          FX.pop(tl, "#s8-honest", T(208.4));
+          FX.up(tl, "#s8-cap1", T(208.9), { y: 20 });
+
+          // Regla 2 · "están para apoyar tu trabajo, no para decidir por ti"
+          FX.out(tl, ["#s8-n1", "#s8-tt1", "#s8-w1", "#s8-q1", "#s8-a1", "#s8-k1", "#s8-r1", "#s8-q2", "#s8-a2", "#s8-k2", "#s8-honest", "#s8-cap1"], T(209.75), { y: -30, d: 0.3, stagger: 0.01 });
+          FX.up(tl, "#s8-n2", T(210.2), { y: 60, d: 0.6 });
+          FX.up(tl, "#s8-tt2", T(210.74), { y: 24 });
+          FX.pop(tl, ["#s8-person", "#s8-bot"], T(210.94), { stagger: 0.15 });
+          q(".s8-card").forEach(function (c, i) {
+            tl.fromTo(c, { x: 0, y: -40 + i * 40, scale: 0.6 }, { x: -620, y: -20 + i * 30, scale: 1, rotation: -6 + i * 6, duration: 0.7, ease: "power3.inOut" }, T(211.2 + i * 0.18));
+            FX.show(tl, c, T(211.2 + i * 0.18));
+            tl.to(c, { opacity: 0, duration: 0.2 }, T(212.3));
+          });
+          FX.up(tl, "#s8-tt2b", T(212.26), { y: 24 });
+          FX.pop(tl, "#s8-decide", T(212.8));
+          tl.fromTo("#s8-decide", { scale: 1 }, { scale: 0.92, duration: 0.12, yoyo: true, repeat: 1, immediateRender: false }, T(213.5));
+          // "optimizar procesos, ahorrar tiempo"
+          var proc = q("#s8-proc i");
+          tl.to(proc, { opacity: 1, duration: 0.2, stagger: 0.06 }, T(215.0));
+          tl.to([proc[1], proc[2], proc[4], proc[5], proc[6]], { flexGrow: 0.0001, opacity: 0, duration: 0.7, ease: "power3.inOut" }, T(216.1));
+          tl.to([proc[0], proc[3], proc[7]], { backgroundColor: "#3976ff", duration: 0.4 }, T(216.82));
+          // "jamás reemplazar el trabajo de una persona real"
+          tl.to("#s8-bot", { opacity: 0.35, scale: 0.85, x: 60, duration: 0.6, ease: "power2.inOut" }, T(217.88));
+          tl.to("#s8-person", { scale: 1.12, duration: 0.6, ease: "back.out(1.6)" }, T(217.88));
+          FX.up(tl, "#s8-cap2", T(218.0), { y: 24 });
+
+          window.__timelines["08-reglas"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "fps": 24,
+  "_current": "LEFT (x, -1) es la corriente del film. Los dos límites del bloque nocturno gastan el vector UP (elevación / frontera de capítulo). El inverse zoom se gasta dos veces, ambas en llegadas: el repliegue del nombre y la llegada de la marca.",
+  "_carrier_note": "Este film es lettering sobre blanco: no hay superficie visible que cargue una costura. El portador SIEMPRE es el texto, así que los vectores están autorizados dentro de las sub-composiciones, no sobre los envoltorios de escena. Por eso los selectores apuntan a héroes internos y no a #el-NN.",
+  "seams": [
+    {
+      "id": "01-espacios → 02-noche",
+      "cut": 5.0,
+      "technique": "cut-the-curve UP (frontera de capítulo: se entra a la noche)",
+      "exit": { "selector": "#f01-lineB", "axis": "y", "dir": -1 },
+      "entry": { "selector": "#f02-line", "axis": "y", "dir": -1 }
+    },
+    {
+      "id": "02-noche → 03-falta-una-cosa",
+      "cut": 7.5,
+      "technique": "cut-the-curve UP (se sale de la noche, mismo sentido: sin ping-pong)",
+      "exit": { "selector": "#f02-line", "axis": "y", "dir": -1 },
+      "entry": { "selector": "#f03-lead", "axis": "y", "dir": -1 }
+    },
+    {
+      "id": "03-falta-una-cosa → 04-onescreen",
+      "cut": 11.083333,
+      "type": "match-cut",
+      "technique": "match-cut sobre la palabra 'cosa' — la idea central del montaje",
+      "carrier": { "out": "#f03-carrier", "in": "#f04-carrier" }
+    },
+    {
+      "id": "04-onescreen → 05-mas-que-tecnologia",
+      "cut": 13.75,
+      "technique": "inverse zoom (pull): la cámara se repliega del nombre al argumento",
+      "exit": { "selector": "#f04-hero", "axis": "z", "dir": -1 },
+      "entry": { "selector": "#f05-block", "axis": "z", "dir": -1, "scanRoot": "#f05-block" }
+    },
+    {
+      "id": "05-mas-que-tecnologia → 06-tres-pruebas",
+      "cut": 18.166667,
+      "technique": "cut-the-curve LEFT (la corriente)",
+      "exit": { "selector": "#f05-block", "axis": "x", "dir": -1 },
+      "entry": { "selector": "#f06-block", "axis": "x", "dir": -1 }
+    },
+    {
+      "id": "06-tres-pruebas → 07-creemos",
+      "cut": 24.541667,
+      "technique": "cut-the-curve LEFT (la corriente)",
+      "exit": { "selector": "#f06-block", "axis": "x", "dir": -1 },
+      "entry": { "selector": "#f07-sig", "axis": "x", "dir": -1 }
+    },
+    {
+      "id": "07-creemos → 08-el-futuro-tambien",
+      "cut": 31.791667,
+      "technique": "cut-the-curve LEFT (la corriente)",
+      "exit": { "selector": "#f07-block", "axis": "x", "dir": -1 },
+      "entry": { "selector": "#f08-line", "axis": "x", "dir": -1 }
+    },
+    {
+      "id": "08-el-futuro-tambien → 09-lockup",
+      "cut": 34.791667,
+      "technique": "inverse zoom (arrival): la marca es lo que llega; 'futuro' se repliega y el logotipo entra sobredimensionado y se asienta",
+      "exit": { "selector": "#f08-hero", "axis": "z", "dir": -1 },
+      "entry": { "selector": "#f09-block", "axis": "z", "dir": -1, "scanRoot": "#f09-block" }
+    },
+    {
+      "id": "09-lockup → 10-toca-la-pantalla",
+      "cut": 38.208333,
+      "type": "match-cut",
+      "technique": "el logotipo persiste: mismo tamaño y posición a ambos lados; se encoge DESPUÉS del corte, ya dentro del cuadro 10",
+      "carrier": { "out": "#f09-mark", "in": "#f10-mark" }
+    }
+  ]
+}

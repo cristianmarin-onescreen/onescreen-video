@@ -1,0 +1,90 @@
+   0.00-   2.50 (2.50s) | B:Intro 16-9_Silencio.mp4                                              | 
+   2.50-   4.59 (2.09s) | A:C0598.MP4 100% | B:Intro 16-9_Silencio.mp4                           | D3" Mi nombre es Marcelo Bonilla y yo soy el presidente ejecutivo de Cablecom.
+   4.59-   7.26 (2.67s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Mi nombre es Marcelo Bonilla y yo soy el presidente ejecutivo de Cablecom.
+   7.26-   8.97 (1.71s) | A:C0598.MP4 100% | B:C0608.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Cablecom, es una empresa mayorista de productos para telecomunicaciones.
+   8.97-   9.72 (0.75s) | A:C0598.MP4 100% | B:C0609.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Cablecom, es una empresa mayorista de productos para telecomunicaciones.
+   9.72-  11.76 (2.04s) | A:C0598.MP4 144% | B:C0609.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Cablecom, es una empresa mayorista de productos para telecomunicaciones.
+  11.76-  13.39 (1.63s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Cablecom, es una empresa mayorista de productos para telecomunicaciones. D3" Somos dis
+  13.39-  15.89 (2.50s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Somos distribuidores de marcas de renombre internacional para cableado
+  15.89-  17.52 (1.63s) | A:C0598.MP4 144% | B:C0604.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Somos distribuidores de marcas de renombre internacional para cableado D3" estructurad
+  17.52-  17.77 (0.25s) | A:C0598.MP4 100% | B:C0604.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" estructurado, cables industriales para lo que es
+  17.77-  21.69 (3.92s) | A:C0598.MP4 100% | B:C0611.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" estructurado, cables industriales para lo que es D3" alarmas, control de accesos y tam
+  21.69-  23.11 (1.42s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" alarmas, control de accesos y también fibra óptica.
+  23.11-  24.48 (1.37s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Bueno, justamente por el tema de que buscando una
+  24.48-  26.53 (2.05s) | A:C0598.MP4 100% | B:C0601.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Bueno, justamente por el tema de que buscando una
+  26.53-  26.65 (0.12s) | A:C0598.MP4 100% | B:C0606.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Bueno, justamente por el tema de que buscando una
+  26.65-  28.11 (1.46s) | A:C0598.MP4 144% | B:C0606.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" algo que sea más interactivo entre
+  28.11-  29.45 (1.34s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" algo que sea más interactivo entre
+  29.45-  31.49 (2.04s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" algo que sea más interactivo entre D3" lo que puede representar una simple pantalla
+  31.49-  32.78 (1.29s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" lo que puede representar una simple pantalla
+  32.78-  33.41 (0.63s) | A:C0598.MP4 100% | B:C0600.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" lo que puede representar una simple pantalla
+  33.41-  34.41 (1.00s) | A:C0598.MP4 144% | B:C0600.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" y donde puede ser algo que en donde se pueda contribuir aportar
+  34.41-  36.20 (1.79s) | A:C0598.MP4 144% | B:C0602.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" y donde puede ser algo que en donde se pueda contribuir aportar
+  36.20-  38.58 (2.38s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" y donde puede ser algo que en donde se pueda contribuir aportar D3" durante la reunión
+  38.58-  38.96 (0.38s) | A:C0598.MP4 100% | B:C0605.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" durante la reunión para que no sea tan estática la presentación.
+  38.96-  41.58 (2.62s) | A:C0598.MP4 144% | B:C0605.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" durante la reunión para que no sea tan estática la presentación.
+  41.58-  42.67 (1.09s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" momento en que lo vi empezamos a buscar eh a través de nuestra área de tecnología
+  42.67-  43.92 (1.25s) | A:C0598.MP4 100% | B:C0622.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" momento en que lo vi empezamos a buscar eh a través de nuestra área de tecnología
+  43.92-  46.05 (2.13s) | A:C0598.MP4 144% | B:C0622.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" momento en que lo vi empezamos a buscar eh a través de nuestra área de tecnología
+  46.05-  49.09 (3.04s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" y pues ahí ahí dimos con la empresa OneScreen,
+  49.09-  51.05 (1.96s) | A:C0598.MP4 144% | B:C0635.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" en donde nos dieron unas opciones en ese momento y pues nos fue muy bien,
+  51.05-  51.93 (0.88s) | A:C0598.MP4 144% | B:C0633.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" en donde nos dieron unas opciones en ese momento y pues nos fue muy bien,
+  51.93-  53.80 (1.87s) | A:C0598.MP4 100% | B:C0633.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" en donde nos dieron unas opciones en ese momento y pues nos fue muy bien, D3" nos ha i
+  53.80-  56.81 (3.01s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Tiene una muy buena aplicación inalámbrica que es del EShare, en donde rápidamente
+  56.81-  57.89 (1.08s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Tiene una muy buena aplicación inalámbrica que es del EShare, en donde rápidamente
+  57.89-  59.73 (1.84s) | A:C0598.MP4 100% | B:C0624.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" podemos compartir e intervenir varios expositores en una misma pantalla.
+  59.73-  61.98 (2.25s) | A:C0598.MP4 144% | B:C0624.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" podemos compartir e intervenir varios expositores en una misma pantalla.
+  61.98-  63.98 (2.00s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" También el hecho de poder conectarse a través de videoconferencia con
+  63.98-  66.15 (2.17s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" También el hecho de poder conectarse a través de videoconferencia con
+  66.15-  68.94 (2.79s) | A:C0598.MP4 100% | B:C0621.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" con otras ciudades o con otras oficinas en la misma ciudad
+  68.94-  71.32 (2.38s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" con otras ciudades o con otras oficinas en la misma ciudad D3" o con los clientes, y p
+  71.32-  73.95 (2.63s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" o con los clientes, y poder interactuar, que eso es lo más importante, no?
+  73.95-  76.91 (2.96s) | A:C0598.MP4 144% | B:C0614.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" se puede hacer presentaciones desde cualquier ciudad. D3" En nuestro caso tenemos agen
+  76.91-  78.08 (1.17s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" En nuestro caso tenemos agencias en Guayaquil, en en Ambato
+  78.08-  79.33 (1.25s) | A:C0598.MP4 100% | B:C0615.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" En nuestro caso tenemos agencias en Guayaquil, en en Ambato
+  79.33-  80.08 (0.75s) | A:C0598.MP4 144% | B:C0615.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" En nuestro caso tenemos agencias en Guayaquil, en en Ambato
+  80.08-  81.87 (1.79s) | A:C0598.MP4 144% | B:C0616.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" y en Cuenca y ha sido factible tener una conexión en esas cuatro
+  81.87-  82.83 (0.96s) | A:C0598.MP4 100% | B:C0616.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" y en Cuenca y ha sido factible tener una conexión en esas cuatro
+  82.83-  84.25 (1.42s) | A:C0598.MP4 100% | B:C0618.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" y en Cuenca y ha sido factible tener una conexión en esas cuatro
+  84.25-  86.00 (1.75s) | A:C0598.MP4 144% | B:C0618.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" oficinas y poder interactuar, También videos, presentaciones, capacitaciones
+  86.00-  88.13 (2.13s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" oficinas y poder interactuar, También videos, presentaciones, capacitaciones
+  88.13-  89.34 (1.21s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" oficinas y poder interactuar, También videos, presentaciones, capacitaciones D3" tambi
+  89.34-  89.92 (0.58s) | A:C0598.MP4 144% | B:C0617.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" también han sido muy importantes con el uso de este de esta herramienta.
+  89.92-  93.01 (3.09s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" también han sido muy importantes con el uso de este de esta herramienta.
+  93.01-  96.22 (3.21s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" no, no le encuentro realmente. D3" No, no le encuentro ningún defecto.
+  96.22-  96.97 (0.75s) | A:C0598.MP4 144% | B:C0630.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Es más, he estado conversando para ver la posibilidad de incluir,
+  96.97-  98.06 (1.09s) | A:C0598.MP4 100% | B:C0630.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Es más, he estado conversando para ver la posibilidad de incluir,
+  98.06-  99.64 (1.58s) | A:C0598.MP4 100% | B:C0634.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Es más, he estado conversando para ver la posibilidad de incluir,
+  99.64- 102.98 (3.34s) | A:C0598.MP4 144% | B:C0634.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Es más, he estado conversando para ver la posibilidad de incluir, D3" de incorporar ot
+ 102.98- 106.31 (3.33s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" de incorporar otras, otras nuevas pantallas para otras áreas, D3" porque es un buen pr
+ 106.31- 110.82 (4.51s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" No hemos tenido inconvenientes, D3" no hemos tenido ningún llamado técnico ni nada por
+ 110.82- 113.45 (2.63s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" no hemos tenido ningún llamado técnico ni nada porque es muy amigable. D3" Como les de
+ 113.45- 116.70 (3.25s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Como les decía, con la aplicación y pues no, no realmente no, D3" no tengo ninguna que
+ 116.70- 118.41 (1.71s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" no tengo ninguna queja de la pantalla creo que soy el que más la usa.
+ 118.41- 120.95 (2.54s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Realmente. Y no, no tengo ninguna queja.
+ 120.95- 125.00 (4.05s) | A:C0598.MP4 100% | B:C0613.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Bueno, como todo en mi caso, era un tema de D3" que estaba muy acostumbrado a que solo
+ 125.00- 127.25 (2.25s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" que estaba muy acostumbrado a que solo sea una proyección.
+ 127.25- 128.42 (1.17s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" que estaba muy acostumbrado a que solo sea una proyección.
+ 128.42- 129.80 (1.38s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Y ahí se acababa. Y eso es hemos estado así durante muchos años.
+ 129.80- 130.96 (1.16s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Y ahí se acababa. Y eso es hemos estado así durante muchos años.
+ 130.96- 131.80 (0.84s) | A:C0598.MP4 100% | B:C0623.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Y ahí se acababa. Y eso es hemos estado así durante muchos años. D3" Entonces, si es q
+ 131.80- 133.38 (1.58s) | A:C0598.MP4 144% | B:C0623.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Entonces, si es que quieren ser más, generar mayor valor haciendo,
+ 133.38- 135.43 (2.05s) | A:C0598.MP4 100% | B:C0623.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Entonces, si es que quieren ser más, generar mayor valor haciendo,
+ 135.43- 137.09 (1.66s) | A:C0598.MP4 144% | B:C0623.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" permitiendo la interacción, el aporte, la conexión, tanto local como en otras,
+ 137.09- 138.14 (1.05s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" permitiendo la interacción, el aporte, la conexión, tanto local como en otras,
+ 138.14- 139.68 (1.54s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" permitiendo la interacción, el aporte, la conexión, tanto local como en otras,
+ 139.68- 141.35 (1.67s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" permitiendo la interacción, el aporte, la conexión, tanto local como en otras,
+ 141.35- 143.23 (1.88s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" permitiendo la interacción, el aporte, la conexión, tanto local como en otras, D3" a t
+ 143.23- 143.35 (0.12s) | A:C0598.MP4 144% | B:C0628.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" a través de otras ciudades, con otros clientes, con proveedores.
+ 143.35- 145.73 (2.38s) | A:C0598.MP4 100% | B:C0628.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" a través de otras ciudades, con otros clientes, con proveedores.
+ 145.73- 147.06 (1.33s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Pues eso es, es fantástico, eso no se sabe.
+ 147.06- 148.19 (1.13s) | A:C0598.MP4 100% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Pues eso es, es fantástico, eso no se sabe.
+ 148.19- 150.86 (2.67s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" Pues eso es, es fantástico, eso no se sabe. D3" Uno a veces no puede dimensionar porqu
+ 150.86- 153.15 (2.29s) | A:C0598.MP4 100% | B:C0636.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Uno a veces no puede dimensionar porque no se, no se ha conocido
+ 153.15- 155.66 (2.51s) | A:C0598.MP4 144% | B:C0636.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" hasta el momento que lo prueba. D3" Entonces yo lo que puedo recomendar es que lo prue
+ 155.66- 156.53 (0.87s) | A:C0598.MP4 100% | B:C0636.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Entonces yo lo que puedo recomendar es que lo prueben el producto, que lo
+ 156.53- 157.82 (1.29s) | A:C0598.MP4 100% | B:C0632.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Entonces yo lo que puedo recomendar es que lo prueben el producto, que lo
+ 157.82- 158.82 (1.00s) | A:C0598.MP4 144% | B:C0632.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" Entonces yo lo que puedo recomendar es que lo prueben el producto, que lo D3" usen se 
+ 158.82- 160.08 (1.26s) | A:C0598.MP4 100% | B:C0632.MP4 | G:Graphics0008.png 80% | G:Recurso 1@ | D3" usen se van a dar cuenta de que se pueden conseguir muchos beneficios.
+ 160.08- 161.87 (1.79s) | A:C0598.MP4 144% | G:Graphics0008.png 80% | G:Recurso 1@2x1.png 62%    | D3" usen se van a dar cuenta de que se pueden conseguir muchos beneficios.
+ 161.87- 166.46 (4.59s) | B:Intro 16-9_Silencio.mp4                                              | 

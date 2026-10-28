@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <template>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Space+Grotesk:wght@600;700&display=swap"
+      />
+      <style>
+        #stage {
+          position: absolute;
+          inset: 0;
+          width: 1920px;
+          height: 1080px;
+          container-type: size;
+          container-name: f8;
+          background: #000000;
+          overflow: hidden;
+          font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+        }
+        #stage * {
+          box-sizing: border-box;
+        }
+
+        /* ---- shared group shell ---- */
+        #stage .f8-grp {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          opacity: 0;
+          visibility: hidden;
+          will-change: opacity;
+        }
+        #stage .f8-dots {
+          position: absolute;
+          inset: 0;
+          background-image: radial-gradient(rgba(0, 0, 0, 0.16) 1.4px, transparent 1.4px);
+          background-size: 26px 26px;
+          pointer-events: none;
+        }
+        #stage .f8-grp.f8-dark .f8-dots {
+          background-image: radial-gradient(rgba(255, 253, 245, 0.14) 1.4px, transparent 1.4px);
+        }
+
+        /* ---- label pill ---- */
+        #stage .f8-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5cqw;
+          padding: 0.55cqw 1.3cqw;
+          border: 3px solid #000000;
+          border-radius: 9999px;
+          background: #ffffff;
+          box-shadow: 4px 4px 0 #000000;
+          font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+          font-weight: 600;
+          font-size: 1.05cqw;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
+          color: #000000;
+          position: absolute;
+          top: 4.6cqw;
+          left: 4.6cqw;
+          transform: rotate(-3deg);
+        }
+        #stage .f8-grp.f8-dark .f8-pill {
+          background: #000000;
+          border-color: #ffffff;
+          color: #ffffff;
+          box-shadow: 4px 4px 0 #ffffff;
+        }
+
+        /* ---- chorus card (g1-g4) ---- */
+        #stage .f8-card {
+          position: relative;
+          max-width: 84cqw;
+          background: #ffffff;
+          border: 4px solid #000000;
+          box-shadow: 8px 8px 0 #000000;
+          padding: 3.2cqw 4.4cqw;
+        }
+        #stage .f8-line {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: baseline;
+          justify-content: center;
+          gap: 0.34em;
+          font-family: "Inter", ui-sans-serif, sans-serif;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: -0.02em;
+          line-height: 1.05;
+          text-align: center;
+          color: #000000;
+        }
+        #stage .f8-grp.f8-dark .f8-line {
+          color: #fffdf5;
+        }
+        #stage .f8-word {
+          display: inline-block;
+          opacity: 0;
+          transform: scale(0.72) translateY(0.12em);
+          will-change: opacity, transform;
+        }
+
+        /* decorations */
+        #stage .f8-star {
+          position: absolute;
+          width: 7.5cqw;
+          height: 7.5cqw;
+          background: #c0f7fe;
+          border: 3px solid #000000;
+          clip-path: polygon(
+            50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+          );
+        }
+        #stage .f8-rect {
+          position: absolute;
+          width: 9cqw;
+          height: 4.4cqw;
+          background: #fe90e8;
+          border: 3px solid #000000;
+          box-shadow: 4px 4px 0 #000000;
+        }
+        #stage .f8-burst {
+          position: absolute;
+          width: 5.4cqw;
+          height: 5.4cqw;
+          border-radius: 50%;
+          background: #f7cb46;
+          border: 3px solid #000000;
+          opacity: 0;
+          will-change: opacity, transform;
+        }
+
+        /* ---- outro (g5-g9) ---- */
+        #stage .f8-outro-line {
+          font-family: "Inter", ui-sans-serif, sans-serif;
+          font-weight: 800;
+          text-transform: uppercase;
+          letter-spacing: -0.015em;
+          line-height: 1.1;
+          text-align: center;
+          color: #fffdf5;
+          max-width: 80cqw;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: baseline;
+          gap: 0.3em;
+        }
+        #stage .f8-outro-word {
+          display: inline-block;
+          opacity: 0;
+          transform: translateY(0.18em);
+          will-change: opacity, transform;
+        }
+        /* ---- g10 finale ---- */
+        #g10 {
+          position: absolute;
+          inset: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 2.2cqw;
+          opacity: 0;
+          visibility: hidden;
+          background: #000000;
+          will-change: opacity;
+        }
+        #g10_flash {
+          position: absolute;
+          inset: 0;
+          background: #ffffff;
+          opacity: 0;
+          pointer-events: none;
+          will-change: opacity;
+        }
+        #g10_star {
+          position: absolute;
+          top: 6cqw;
+          right: 7cqw;
+          width: 8.6cqw;
+          height: 8.6cqw;
+          background: #fe90e8;
+          border: 3px solid #ffffff;
+          clip-path: polygon(
+            50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%
+          );
+          opacity: 0;
+          transform: rotate(-8deg) scale(0.6);
+          will-change: opacity, transform;
+        }
+        #g10_pill {
+          display: inline-flex;
+          padding: 0.6cqw 1.6cqw;
+          border: 3px solid #ffffff;
+          border-radius: 9999px;
+          background: #000000;
+          color: #fffdf5;
+          font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+          font-weight: 600;
+          font-size: 1.1cqw;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          opacity: 0;
+          will-change: opacity;
+        }
+        #g10_card {
+          position: relative;
+          padding: 3.6cqw 6cqw;
+          background: #000000;
+          border: 6px solid #ffffff;
+          box-shadow: 12px 12px 0 #f7cb46;
+          transform: scale(0.4);
+          will-change: transform, box-shadow;
+        }
+        #g10_word {
+          position: relative;
+          font-family: "Inter", ui-sans-serif, sans-serif;
+          font-weight: 900;
+          font-size: 11.5cqw;
+          letter-spacing: -0.03em;
+          line-height: 0.95;
+          text-transform: uppercase;
+          white-space: nowrap;
+          color: #fffdf5;
+        }
+        #g10_word .f8-layer {
+          position: absolute;
+          top: 0;
+          left: 0;
+          mix-blend-mode: screen;
+          will-change: transform, opacity;
+        }
+        #g10_word .f8-layer.r {
+          color: #ff2a4a;
+        }
+        #g10_word .f8-layer.b {
+          color: #2afff0;
+        }
+        #g10_word .f8-base {
+          position: relative;
+          color: #fffdf5;
+        }
+        #g10_sub {
+          font-family: "Space Grotesk", ui-sans-serif, sans-serif;
+          font-weight: 600;
+          font-size: 1.7cqw;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+          color: #f7cb46;
+          text-align: center;
+          max-width: 62cqw;
+          opacity: 0;
+          transform: translateY(0.4em);
+          will-change: opacity, transform;
+        }
+      </style>
+
+      <div
+        id="stage"
+        data-composition-id="08-f8"
+        data-width="1920"
+        data-height="1080"
+        data-duration="47.08"
+      >
+        <div id="f8_groups"></div>
+
+        <div id="g10">
+          <div id="g10_flash"></div>
+          <div id="g10_star"></div>
+          <div id="g10_pill">OneScreen &middot; Yulian del Gur&uacute;</div>
+          <div id="g10_card">
+            <div id="g10_word">
+              <span class="f8-layer r" data-layout-allow-overlap="true">&iexcl;YULIAAAAN!</span>
+              <span class="f8-layer b" data-layout-allow-overlap="true">&iexcl;YULIAAAAN!</span>
+              <span class="f8-base" data-layout-allow-overlap="true">&iexcl;YULIAAAAN!</span>
+            </div>
+          </div>
+          <div id="g10_sub">Porque en OneScreen, ya sabemos qui&eacute;n va a contestar&hellip;</div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          const FRAME_START = 147.31;
+          const L = (abs) => +(abs - FRAME_START).toFixed(3);
+
+          const tl = gsap.timeline({ paused: true });
+          const groupsRoot = document.getElementById("f8_groups");
+
+          // ---- g1-g4: final chorus (big-type / strong pastel signature) ----
+          const chorus = [
+            {
+              id: "g1",
+              bg: "#fe90e8",
+              tilt: -3,
+              size: 7.2,
+              label: "CORO FINAL",
+              start: L(147.31),
+              end: L(150.42),
+              words: ["Yulian,", "Yulian,", "rey", "del", "Gurú,"],
+              anchors: [147.31, 148.181, 149.052, 149.425, 149.798].map(L),
+              deco: "star",
+            },
+            {
+              id: "g2",
+              bg: "#c0f7fe",
+              tilt: 2.5,
+              size: 3.8,
+              label: "CORO FINAL",
+              start: L(150.42),
+              end: L(153.7),
+              words: ["los", "tickets", "te", "persiguen", "y", "tú", "corres", "en", "círculos."],
+              anchors: [150.42, 150.66, 151.22, 151.38, 152.1, 152.18, 152.34, 152.82, 152.98].map(L),
+            },
+            {
+              id: "g3",
+              bg: "#2ad268",
+              tilt: -2.5,
+              size: 5.0,
+              label: "CORO FINAL",
+              start: L(153.7),
+              end: L(156.44),
+              words: ["Yulian,", "Yulian,", "no", "te", "vayas", "a", "estresar,"],
+              anchors: [153.7, 154.281, 154.862, 155.028, 155.195, 155.61, 155.693].map(L),
+            },
+            {
+              id: "g4",
+              bg: "#f7cb46",
+              tilt: 3,
+              size: 3.8,
+              label: "CORO FINAL",
+              start: L(156.44),
+              end: L(161.08),
+              words: ["que", "mañana", "hay", "más", "problemas", "que", "tenemos", "que", "solucionar."],
+              anchors: [156.44, 156.73, 157.31, 157.6, 157.89, 158.76, 159.05, 159.727, 160.017].map(L),
+              deco: "rect",
+            },
+          ];
+
+          // ---- g5-g9: spoken outro (comedic wind-down, black ground) ----
+          const outro = [
+            {
+              id: "g5",
+              size: 4.4,
+              label: "— OFF MIC —",
+              start: L(161.08),
+              end: L(165.0),
+              words: ["Yeah…", "Respira,", "Yulian…"],
+              anchors: [161.08, 162.06, 163.628].map(L),
+            },
+            {
+              id: "g6",
+              size: 4.4,
+              label: "— OFF MIC —",
+              start: L(165.0),
+              end: L(168.78),
+              words: ["Cierra", "el", "Gurú…"],
+              anchors: [165.0, 166.745, 167.326].map(L),
+            },
+            {
+              id: "g7",
+              size: 4.0,
+              label: "— OFF MIC —",
+              start: L(168.78),
+              end: L(174.0),
+              words: ["¡Pero", "no", "cierres", "los", "tickets!", "😂🔥"],
+              anchors: [168.78, 169.747, 170.133, 171.487, 172.067, 173.613].map(L),
+              wink: true,
+            },
+            {
+              id: "g8",
+              size: 3.2,
+              label: "— OFF MIC —",
+              start: L(174.0),
+              end: L(177.96),
+              words: ["Porque", "si", "hay", "un", "problema", "en", "OneScreen,"],
+              anchors: [174.0, 174.72, 174.96, 175.32, 175.56, 176.52, 176.76].map(L),
+            },
+            {
+              id: "g9",
+              size: 3.4,
+              label: "— OFF MIC —",
+              start: L(177.96),
+              end: L(178.78),
+              words: ["ya", "sabemos", "quién", "va", "a", "contestar…"],
+              anchors: [177.96, 178.021, 178.233, 178.385, 178.446, 178.476].map(L),
+            },
+          ];
+
+          // ---------- build chorus groups ----------
+          chorus.forEach((g, gi) => {
+            const grp = document.createElement("div");
+            grp.id = g.id;
+            grp.className = "f8-grp";
+            grp.style.background = g.bg;
+
+            const dots = document.createElement("div");
+            dots.className = "f8-dots";
+            grp.appendChild(dots);
+
+            const pill = document.createElement("div");
+            pill.className = "f8-pill";
+            pill.id = g.id + "_pill";
+            pill.textContent = g.label;
+            grp.appendChild(pill);
+
+            if (g.deco === "star") {
+              const star = document.createElement("div");
+              star.className = "f8-star";
+              star.id = g.id + "_star";
+              star.style.top = "6cqw";
+              star.style.right = "6cqw";
+              star.style.transform = "rotate(10deg)";
+              grp.appendChild(star);
+            }
+            if (g.deco === "rect") {
+              const rect = document.createElement("div");
+              rect.className = "f8-rect";
+              rect.id = g.id + "_rect";
+              rect.style.bottom = "6cqw";
+              rect.style.left = "6cqw";
+              rect.style.transform = "rotate(-6deg)";
+              grp.appendChild(rect);
+            }
+
+            const card = document.createElement("div");
+            card.className = "f8-card";
+            card.id = g.id + "_card";
+            card.style.transform = "rotate(" + g.tilt + "deg)";
+
+            const line = document.createElement("div");
+            line.className = "f8-line";
+            line.id = g.id + "_line";
+            line.style.fontSize = g.size + "cqw";
+
+            g.words.forEach((w, wi) => {
+              const span = document.createElement("span");
+              span.className = "f8-word";
+              span.id = g.id + "_w" + wi;
+              span.textContent = w;
+              line.appendChild(span);
+            });
+
+            card.appendChild(line);
+            grp.appendChild(card);
+            groupsRoot.appendChild(grp);
+
+            // timeline: group visibility (0ms cuts)
+            tl.set("#" + g.id, { autoAlpha: 1 }, g.start);
+            tl.set("#" + g.id, { autoAlpha: 0 }, g.end);
+
+            // per-word hard reveal + quick settle pop (typewriter-reveal x hard-cut)
+            g.words.forEach((w, wi) => {
+              const sel = "#" + g.id + "_w" + wi;
+              tl.set(sel, { opacity: 1 }, g.anchors[wi]);
+              tl.fromTo(
+                sel,
+                { scale: 1.14, y: "-0.05em" },
+                { scale: 1, y: "0em", duration: 0.12, ease: "power2.out" },
+                g.anchors[wi],
+              );
+            });
+
+            if (g.deco === "star") {
+              tl.fromTo(
+                "#" + g.id + "_star",
+                { scale: 0, rotation: 10 },
+                { scale: 1, rotation: -6, duration: 0.4, ease: "back.out(2)" },
+                g.start + 0.1,
+              );
+            }
+            if (g.deco === "rect") {
+              tl.fromTo(
+                "#" + g.id + "_rect",
+                { scale: 0 },
+                { scale: 1, duration: 0.35, ease: "back.out(2)" },
+                g.start + 0.15,
+              );
+            }
+          });
+
+          // hard-stop accent inside g4: a snap flash right on the "que" beat before "solucionar."
+          (function () {
+            const t = L(159); // absolute hard stop
+            tl.fromTo(
+              "#g4_card",
+              { boxShadow: "8px 8px 0 #000000" },
+              { boxShadow: "14px 14px 0 #000000", duration: 0.05, ease: "steps(1)" },
+              t,
+            );
+            tl.to("#g4_card", { boxShadow: "8px 8px 0 #000000", duration: 0.18, ease: "power2.out" }, t + 0.05);
+          })();
+
+          // ---------- build outro groups ----------
+          outro.forEach((g, gi) => {
+            const grp = document.createElement("div");
+            grp.id = g.id;
+            grp.className = "f8-grp f8-dark";
+
+            const dots = document.createElement("div");
+            dots.className = "f8-dots";
+            grp.appendChild(dots);
+
+            const pill = document.createElement("div");
+            pill.className = "f8-pill";
+            pill.id = g.id + "_pill";
+            pill.textContent = g.label;
+            grp.appendChild(pill);
+
+            if (g.wink) {
+              const burst = document.createElement("div");
+              burst.className = "f8-burst";
+              burst.id = g.id + "_burst";
+              burst.style.top = "34cqh";
+              burst.style.left = "63cqw";
+              grp.appendChild(burst);
+            }
+
+            const line = document.createElement("div");
+            line.className = "f8-outro-line";
+            line.id = g.id + "_line";
+            line.style.fontSize = g.size + "cqw";
+
+            g.words.forEach((w, wi) => {
+              const span = document.createElement("span");
+              span.className = "f8-outro-word";
+              span.id = g.id + "_w" + wi;
+              span.textContent = w;
+              line.appendChild(span);
+            });
+
+            grp.appendChild(line);
+            groupsRoot.appendChild(grp);
+
+            tl.set("#" + g.id, { autoAlpha: 1 }, g.start);
+            tl.set("#" + g.id, { autoAlpha: 0 }, g.end);
+
+            g.words.forEach((w, wi) => {
+              const sel = "#" + g.id + "_w" + wi;
+              const isWink = g.wink && wi === g.words.length - 1;
+              tl.set(sel, { opacity: 1 }, g.anchors[wi]);
+              if (isWink) {
+                // the wink beat: bigger comedic bounce + rotation on the emoji
+                tl.fromTo(
+                  sel,
+                  { scale: 0.2, rotation: -18, y: "0.5em" },
+                  { scale: 1.3, rotation: 8, y: "0em", duration: 0.22, ease: "back.out(3)" },
+                  g.anchors[wi],
+                );
+                tl.to(sel, { scale: 1, rotation: 0, duration: 0.18, ease: "power2.out" }, g.anchors[wi] + 0.22);
+                tl.fromTo(
+                  "#" + g.id + "_burst",
+                  { opacity: 0.9, scale: 0.3 },
+                  { opacity: 0, scale: 2.2, duration: 0.5, ease: "power2.out" },
+                  g.anchors[wi],
+                );
+              } else {
+                tl.fromTo(
+                  sel,
+                  { y: "0.22em" },
+                  { y: "0em", duration: 0.14, ease: "power2.out" },
+                  g.anchors[wi],
+                );
+              }
+            });
+          });
+
+          // suspenseful held breath right before the wink punchline (hard stop @173)
+          (function () {
+            const t = L(173);
+            tl.to("#g7_line", { opacity: 0.55, duration: 0.12, ease: "power1.out" }, t);
+            tl.to("#g7_line", { opacity: 1, duration: 0.12, ease: "power1.in" }, t + 0.12);
+          })();
+
+          // ================= g10 : THE FINALE =================
+          const T0 = L(178.78); // impact
+          const T_BREATH = L(181); // second hit / near-silence
+          const T_ROLL_END = L(190); // hihat sustained-fill ends, energy drops
+          const T_FREEZE = L(193); // hard stop into true silence
+          const T_END = 47.08;
+
+          tl.set("#g10", { autoAlpha: 1 }, T0);
+
+          // --- impact: flash-cut white slam + chromatic-split glitch text ---
+          tl.set("#g10_flash", { opacity: 1 }, T0);
+          tl.fromTo(
+            "#g10_card",
+            { scale: 0.4 },
+            { scale: 1.16, duration: 0.16, ease: "power4.out" },
+            T0,
+          );
+          tl.set(".f8-layer.r", { x: -14, y: 4 }, T0);
+          tl.set(".f8-layer.b", { x: 14, y: -4 }, T0);
+          tl.set("#g10_flash", { opacity: 0 }, T0 + 0.06);
+
+          tl.to("#g10_card", { scale: 1, duration: 0.32, ease: "elastic.out(1, 0.55)" }, T0 + 0.16);
+          tl.to(".f8-layer.r", { x: -4, y: 1, duration: 0.28, ease: "power2.out" }, T0 + 0.1);
+          tl.to(".f8-layer.b", { x: 4, y: -1, duration: 0.28, ease: "power2.out" }, T0 + 0.1);
+          tl.to(".f8-layer.r", { x: 0, y: 0, duration: 0.3, ease: "power2.out" }, T0 + 0.42);
+          tl.to(".f8-layer.b", { x: 0, y: 0, duration: 0.3, ease: "power2.out" }, T0 + 0.42);
+
+          tl.fromTo(
+            "#g10_star",
+            { opacity: 0, scale: 0.6, rotation: -8 },
+            { opacity: 1, scale: 1, rotation: 6, duration: 0.4, ease: "back.out(2)" },
+            T0 + 0.1,
+          );
+          tl.fromTo("#g10_pill", { opacity: 0 }, { opacity: 1, duration: 0.3 }, T0 + 0.2);
+
+          // --- brand-color pulse: shadow + scale cycling through the palette ---
+          const pulseWaypoints = [
+            { t: T0 + 0.35, shadow: "12px 12px 0 #c0f7fe", scale: 1.04 },
+            { t: T0 + 0.85, shadow: "12px 12px 0 #2ad268", scale: 1.06 },
+            { t: T0 + 1.35, shadow: "12px 12px 0 #fe90e8", scale: 1.05 },
+          ];
+          pulseWaypoints.forEach((w) => {
+            tl.to("#g10_card", { boxShadow: w.shadow, scale: w.scale, duration: 0.4, ease: "sine.inOut" }, w.t);
+          });
+
+          // second hit on the near-silence hard stop @181 — a breath, then re-punch
+          tl.set("#g10_flash", { opacity: 0.85 }, T_BREATH);
+          tl.set("#g10_flash", { opacity: 0 }, T_BREATH + 0.05);
+          tl.to(
+            "#g10_card",
+            { boxShadow: "16px 16px 0 #f7cb46", scale: 1.1, duration: 0.09, ease: "power4.out" },
+            T_BREATH,
+          );
+          tl.to(
+            "#g10_card",
+            { boxShadow: "12px 12px 0 #f7cb46", scale: 1.02, duration: 0.5, ease: "power2.out" },
+            T_BREATH + 0.09,
+          );
+
+          // subtitle line fades in right after the breath
+          tl.fromTo(
+            "#g10_sub",
+            { opacity: 0, y: "0.4em" },
+            { opacity: 1, y: "0em", duration: 0.9, ease: "power2.out" },
+            T_BREATH + 0.5,
+          );
+
+          // calm sustained breathing pulse riding the hi-hat roll to T_ROLL_END
+          const calmStart = T_BREATH + 1.2;
+          const calmSpan = Math.max(0, T_ROLL_END - calmStart);
+          const cycle = 0.65; // ~1 beat @92bpm
+          const calmRepeat = Math.max(0, Math.floor(calmSpan / cycle) - 1);
+          tl.to(
+            "#g10_card",
+            { scale: 1.015, duration: cycle / 2, ease: "sine.inOut", repeat: calmRepeat, yoyo: true },
+            calmStart,
+          );
+
+          // settle: pulse relaxes into the final steady yellow close-frame shadow
+          tl.to(
+            "#g10_card",
+            { boxShadow: "12px 12px 0 #f7cb46", scale: 1, duration: 1.1, ease: "power2.inOut" },
+            T_ROLL_END,
+          );
+
+          // final freeze on the last hard stop, holds clean to the very end (thumbnail frame)
+          tl.to("#g10_sub", { opacity: 0.85, duration: 0.4, ease: "power1.out" }, T_FREEZE);
+          tl.set("#g10_card", { boxShadow: "12px 12px 0 #f7cb46", scale: 1 }, T_FREEZE + 0.4);
+
+          void T_END;
+
+          tl.seek(0);
+          window.__timelines = window.__timelines || {};
+          window.__timelines["08-f8"] = tl;
+        })();
+      </script>
+    </template>
+  </body>
+</html>

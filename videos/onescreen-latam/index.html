@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1920, height=1080">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #FAFAFA;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-lnjs" id="root" data-composition-id="main" data-start="0" data-duration="57.075" data-width="1920" data-height="1080">
+      <div data-hf-id="hf-1dyv" id="el-01-espacios-que-ocupan" class="scene" data-composition-id="01-espacios-que-ocupan" data-composition-src="compositions/frames/01-espacios-que-ocupan.html" data-start="0" data-duration="7.38" data-track-index="0"></div>
+      <audio data-hf-id="hf-cmw9" id="el-01-espacios-que-ocupan-voice" src="assets/voice/01.wav" data-start="0" data-duration="6.78" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-oe2w" id="el-02-lo-que-falta" class="scene" data-composition-id="02-lo-que-falta" data-composition-src="compositions/frames/02-lo-que-falta.html" data-start="6.78" data-duration="8.295" data-track-index="1"></div>
+      <audio data-hf-id="hf-ro0g" id="el-02-lo-que-falta-voice" src="assets/voice/02.wav" data-start="6.78" data-duration="7.895" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-icy5" id="el-03-la-revelacion" class="scene" data-composition-id="03-la-revelacion" data-composition-src="compositions/frames/03-la-revelacion.html" data-start="14.675" data-duration="2.265" data-track-index="0"></div>
+      <audio data-hf-id="hf-w37k" id="el-03-la-revelacion-voice" src="assets/voice/03.wav" data-start="14.675" data-duration="1.765" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-vw6t" id="el-04-lo-que-significa" class="scene" data-composition-id="04-lo-que-significa" data-composition-src="compositions/frames/04-lo-que-significa.html" data-start="16.44" data-duration="15.732" data-track-index="1"></div>
+      <audio data-hf-id="hf-a9wf" id="el-04-lo-que-significa-voice" src="assets/voice/04.wav" data-start="16.44" data-duration="15.232" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-kpas" id="el-05-en-lo-que-creemos" class="scene" data-composition-id="05-en-lo-que-creemos" data-composition-src="compositions/frames/05-en-lo-que-creemos.html" data-start="31.672" data-duration="12.892" data-track-index="0"></div>
+      <audio data-hf-id="hf-9435" id="el-05-en-lo-que-creemos-voice" src="assets/voice/05.wav" data-start="31.672" data-duration="12.492" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-8mkl" id="el-06-cuando-un-espacio-cambia" class="scene" data-composition-id="06-cuando-un-espacio-cambia" data-composition-src="compositions/frames/06-cuando-un-espacio-cambia.html" data-start="44.164" data-duration="4.587" data-track-index="1"></div>
+      <audio data-hf-id="hf-akkn" id="el-06-cuando-un-espacio-cambia-voice" src="assets/voice/06.wav" data-start="44.164" data-duration="4.087" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-gvtf" id="el-07-la-marca" class="scene" data-composition-id="07-la-marca" data-composition-src="compositions/frames/07-la-marca.html" data-start="48.251000000000005" data-duration="4.269" data-track-index="0"></div>
+      <audio data-hf-id="hf-6cyt" id="el-07-la-marca-voice" src="assets/voice/07.wav" data-start="48.251000000000005" data-duration="3.669" data-track-index="10" data-volume="1"></audio>
+
+      <div data-hf-id="hf-rlvv" id="el-08-toca-la-pantalla" class="scene" data-composition-id="08-toca-la-pantalla" data-composition-src="compositions/frames/08-toca-la-pantalla.html" data-start="51.92" data-duration="5.155" data-track-index="1"></div>
+      <audio data-hf-id="hf-y66k" id="el-08-toca-la-pantalla-voice" src="assets/voice/08.wav" data-start="51.92" data-duration="5.155" data-track-index="10" data-volume="1"></audio>
+
+      <!-- BGM -->
+      <audio data-hf-id="hf-l7ou" id="el-bgm" src="assets/bgm/track.loop.mp3" data-start="0" data-duration="57.075" data-track-index="11" data-volume="0.12"></audio>
+
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+      // ── frame transitions (injected by transitions.mjs) ──
+      (function () { var tl = window.__timelines["main"];
+        tl.to("#el-01-espacios-que-ocupan", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 0.6, ease: "power2.inOut" }, 6.78);
+        tl.fromTo("#el-02-lo-que-falta", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 0.6, ease: "power2.inOut" }, 6.78);
+        tl.to("#el-02-lo-que-falta", { scale: 2.5, opacity: 0, filter: "blur(8px)", duration: 0.4, ease: "power3.in" }, 14.675);
+        tl.fromTo("#el-03-la-revelacion", { scale: 0.5, opacity: 0, filter: "blur(8px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.4, ease: "power3.out" }, 14.675);
+        tl.to("#el-03-la-revelacion", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 16.44);
+        tl.fromTo("#el-04-lo-que-significa", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 16.44);
+        tl.to("#el-04-lo-que-significa", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 31.672);
+        tl.fromTo("#el-05-en-lo-que-creemos", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 31.672);
+        tl.to("#el-05-en-lo-que-creemos", { scale: 2.5, opacity: 0, filter: "blur(8px)", duration: 0.4, ease: "power3.in" }, 44.164);
+        tl.fromTo("#el-06-cuando-un-espacio-cambia", { scale: 0.5, opacity: 0, filter: "blur(8px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.4, ease: "power3.out" }, 44.164);
+        tl.to("#el-06-cuando-un-espacio-cambia", { opacity: 0, duration: 0.5, ease: "power2.inOut" }, 48.251);
+        tl.fromTo("#el-07-la-marca", { opacity: 0 }, { opacity: 1, duration: 0.5, ease: "power2.inOut" }, 48.251);
+        tl.to("#el-07-la-marca", { filter: "blur(10px)", scale: 1.03, opacity: 0, duration: 0.6, ease: "power2.inOut" }, 51.92);
+        tl.fromTo("#el-08-toca-la-pantalla", { filter: "blur(10px)", scale: 0.97, opacity: 0 }, { filter: "blur(0px)", scale: 1, opacity: 1, duration: 0.6, ease: "power2.inOut" }, 51.92);
+        tl.to({}, { duration: 57.075 }, 0); // full-span anchor — main.duration() == composition total (Studio master duration)
+      })();
+    </script>
+  </body>
+</html>

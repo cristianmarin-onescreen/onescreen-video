@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 162.7,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 162.7
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 17 · ONESCREEN ACADEMY",
+      "startSec": 0.13,
+      "endSec": 4.56,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 17 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — ÚLTIMO MÓDULO DEL CURSO",
+      "startSec": 4.56,
+      "endSec": 9.9,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "ÚLTIMO MÓDULO DEL CURSO",
+        "title": "Cerremos esto bien",
+        "detail": "Repasando todo el camino que recorriste hasta aquí"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — Empezaste entendiendo la IA en 2026",
+      "startSec": 9.9,
+      "endSec": 19.18,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Empezaste entendiendo la IA en 2026",
+        "detail": "Y por qué los agentes son distintos a un chatbot común"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — Instrucciones, memoria, herramientas y capacidad de actuar",
+      "startSec": 19.18,
+      "endSec": 24.51,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Instrucciones, memoria, herramientas y capacidad de actuar"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — Lo aplicaste a tres roles reales",
+      "startSec": 24.51,
+      "endSec": 34.8,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Lo aplicaste a tres roles reales",
+        "detail": "Docente, dirección académica y TI"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — Aprendiste a escribir instrucciones que funcionan",
+      "startSec": 34.8,
+      "endSec": 45.55,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Aprendiste a escribir instrucciones que funcionan",
+        "detail": "Y construiste tu propio agente, en Claude y en ChatGPT"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — Le diste conocimiento propio y le activaste herramientas",
+      "startSec": 45.55,
+      "endSec": 53.38,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Le diste conocimiento propio y le activaste herramientas",
+        "detail": "Y aprendiste hacia dónde puede crecer con automatización"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "list — Y CERRASTE CON",
+      "startSec": 53.38,
+      "endSec": 61.88,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "Y CERRASTE CON",
+        "items": [
+          "Los errores más comunes que debes evitar",
+          "Un glosario para que ningún término se quede en el aire"
+        ]
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "quote — Si llegaste hasta aquí, ya no eres la misma persona que empezó este curso.",
+      "startSec": 61.88,
+      "endSec": 67.51,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Si llegaste hasta aquí, ya no eres la misma persona que empezó este curso."
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — Ya no ves la IA como una herramienta genérica",
+      "startSec": 67.51,
+      "endSec": 79.52,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Ya no ves la IA como una herramienta genérica",
+        "detail": "La ves como algo que tú mismo puedes moldear, con un objetivo claro"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "titlecard — ANTES DE DESPEDIRME",
+      "startSec": 79.52,
+      "endSec": 86.36,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "ANTES DE DESPEDIRME",
+        "title": "Mi recomendación más importante de todo el curso"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "roadmap — AHORA MISMO",
+      "startSec": 86.36,
+      "endSec": 91.39,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "AHORA MISMO",
+        "title": "Ábrelo esta semana, no la próxima",
+        "detail": "No dejes tu agente guardado sin usar"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — Úsalo con una tarea real",
+      "startSec": 91.39,
+      "endSec": 96.27,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Úsalo con una tarea real",
+        "detail": "De esas que ya identificaste desde el módulo 5"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "quote — Un agente que nadie usa no le sirve a nadie, sin importar qué tan bien esté construido.",
+      "startSec": 96.27,
+      "endSec": 101.84,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Un agente que nadie usa no le sirve a nadie, sin importar qué tan bien esté construido."
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — Comparte lo que construiste",
+      "startSec": 101.84,
+      "endSec": 112.16,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Comparte lo que construiste",
+        "detail": "Muéstraselo a un colega, explícale cómo lo armaste, invítalo a tomar este curso"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — Entre más personas de tu equipo entiendan esto",
+      "startSec": 112.16,
+      "endSec": 118.63,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Entre más personas de tu equipo entiendan esto",
+        "detail": "Más rápido se transforma la forma en que trabajan juntos"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "titlecard — AHORA SÍ",
+      "startSec": 118.63,
+      "endSec": 121.92,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "AHORA SÍ",
+        "title": "El examen de certificación"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "stat — EXAMEN DE CERTIFICACIÓN",
+      "startSec": 121.92,
+      "endSec": 131.72,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "EXAMEN DE CERTIFICACIÓN",
+        "title": "Conceptos, casos de uso, construcción práctica y buenas prácticas"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "body — Tómate tu tiempo, no hay afán",
+      "startSec": 131.72,
+      "endSec": 133.88,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Tómate tu tiempo, no hay afán"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "body — SI LO APRUEBAS",
+      "startSec": 133.88,
+      "endSec": 142.54,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SI LO APRUEBAS",
+        "title": "Recibes tu certificado avalado por OneScreen",
+        "detail": "Listo para compartir en tu perfil de LinkedIn o tu hoja de vida"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "body — Este es solo uno de los cursos disponibles en OneScreen Academy",
+      "startSec": 142.54,
+      "endSec": 147.62,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Este es solo uno de los cursos disponibles en OneScreen Academy"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "body — Te esperan las demás herramientas que ya conociste",
+      "startSec": 147.62,
+      "endSec": 155.48,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Te esperan las demás herramientas que ya conociste",
+        "detail": "Para que sigas construyendo tu forma de enseñar del futuro"
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "quote — Muchas gracias por tomarte el tiempo de aprender esto conmigo.",
+      "startSec": 155.48,
+      "endSec": 161.34,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Muchas gracias por tomarte el tiempo de aprender esto conmigo.",
+        "detail": "Fue un gusto acompañarte durante todo el curso"
+      }
+    },
+    {
+      "id": "card-24",
+      "intent": "outro — Nos vemos en el examen",
+      "startSec": 161.34,
+      "endSec": 162.7,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos en el examen"
+      }
+    }
+  ]
+}

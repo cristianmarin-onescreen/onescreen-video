@@ -1,0 +1,763 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>software</title>
+  </head>
+  <body>
+    <template>
+      <style>
+        @font-face {
+          font-family: "Rubik";
+          src: url("assets/fonts/Rubik-Variable.ttf") format("truetype");
+          font-weight: 300 900;
+          font-style: normal;
+          font-display: block;
+        }
+        /* Nevis es una sola tipografía Bold. Se declara cubriendo 100—900 a propósito: así
+           el navegador NUNCA sintetiza negrita encima de una que ya lo es, que engordaría
+           los trazos y rompería la coincidencia con el logotipo. */
+        @font-face {
+          font-family: "Nevis";
+          src: url("assets/fonts/Nevis.ttf") format("truetype");
+          font-weight: 100 900;
+          font-style: normal;
+          font-display: block;
+        }
+        #root {
+          position: absolute;
+          inset: 0;
+          width: 3840px;
+          height: 2160px;
+          overflow: hidden;
+          container-type: size;
+          background: transparent;
+          color: #000000;
+          font-family: "Rubik", sans-serif;
+          font-synthesis: none;
+          -webkit-font-smoothing: antialiased;
+        }
+        .stage { position: absolute; inset: 0; }
+        .beat {
+          position: absolute;
+          inset: 0;
+          display: grid;
+          place-items: center;
+          padding: 0 7cqw;
+          opacity: 0;
+        }
+        .beat > .inner { display: block; max-width: 86cqw; text-align: center; margin-top: -1.4cqh; }
+        .ln { display: block; }
+        /* Icono de producto. Los cuatro logotipos de software traen su propio fondo morado
+           con esquinas redondeadas, asi que el MISMO archivo sirve para la variante de tinta
+           negra y para la blanca: no dependen del color del texto. */
+        .ic { display: block; width: 13cqw; margin: 0 auto 1.6cqh; opacity: 0; }
+        .ic img { display: block; width: 100%; height: auto; }
+        .w { display: inline-block; opacity: 0; will-change: transform; }
+        .accent { color: #3976ff; }
+
+        /* La marca. Nevis, tracking medido contra el logotipo. Nunca en versalitas: el
+           wordmark es caja mixta y forzarlo a caja alta deja de ser la marca. */
+        .brand {
+          font-family: "Nevis", "Rubik", sans-serif;
+          font-weight: 400;
+          letter-spacing: -0.050em;
+          text-transform: none !important;
+        }
+
+        /* Escalones. El rango va de 3.4 a 9.6cqw — un factor de 2.8x entre el cuerpo mas
+           pequeno y el mas grande. Antes era 3.0 a 12.5 (4.2x) y el salto resultaba brusco:
+           la linea pequena quedaba en letra menuda y la grande se comia el cuadro. Se corrige
+           por los dos extremos a la vez: sube el piso y baja el techo, y la jerarquia se
+           mantiene con peso y color, que no dependen del tamano. */
+        .s-sub      { font-size: 3.4cqw; font-weight: 500; line-height: 1.26; letter-spacing: -0.010em; }
+        .s-phrase   { font-size: 5.2cqw; font-weight: 500; line-height: 1.14; letter-spacing: -0.018em; }
+        .s-display  { font-size: 6.4cqw; font-weight: 600; line-height: 1.08; letter-spacing: -0.024em; }
+        .s-mega     { font-size: 8.2cqw; font-weight: 800; line-height: 1.02; letter-spacing: -0.028em; }
+        .s-colossal { font-size: 9.6cqw; font-weight: 800; line-height: 1.00; letter-spacing: -0.030em; }
+
+        /* Peso regular dentro de un escalón grande. Solo toca font-weight y tracking, nunca
+           font-size: el escalón sigue mandando el tamaño. El tracking se afloja porque el
+           negativo de los escalones grandes está calculado para peso 800, y en regular
+           ese mismo valor junta demasiado las letras. */
+        .ln.w-reg { font-weight: 400; letter-spacing: -0.018em; }
+
+        .caps { text-transform: uppercase; }
+        .caps.s-sub      { letter-spacing: 0.16em; font-weight: 600; }
+        .caps.s-display  { letter-spacing: 0.000em; }
+        .caps.s-mega     { letter-spacing: -0.012em; }
+        .caps.s-colossal { letter-spacing: -0.018em; }
+
+        /* Nevis tiene la caja alta más corta que Rubik al mismo cuerpo: se compensa un 12%
+           para que "OneScreen" pese lo mismo que una línea Rubik del mismo escalón.
+           El valor va ABSOLUTO en cqw, no en em. Una regla .ln.s-mega.brand con font-size en
+           em tiene tres clases de especificidad y gana a .s-mega, así que en vez de multiplicar
+           el escalón lo sustituía por 1.12em del tamaño heredado — 18 px en un cuadro 4K. */
+        .ln.s-sub.brand      { font-size: 3.81cqw; }
+        .ln.s-phrase.brand   { font-size: 5.82cqw; }
+        .ln.s-display.brand  { font-size: 7.17cqw; }
+        .ln.s-mega.brand     { font-size: 9.18cqw; }
+        .ln.s-colossal.brand { font-size: 10.75cqw; }
+        /* Marca EN LÍNEA dentro de una línea de otra tipografía: aquí el padre sí lleva el
+           escalón en cqw, así que el em multiplica y es correcto. */
+        .w.brand { font-size: 1.12em; }
+
+        .ln + .ln { margin-top: 0.5cqh; }
+        .ln.s-sub + .ln.s-mega,
+        .ln.s-sub + .ln.s-colossal,
+        .ln.s-sub + .ln.s-display { margin-top: 1.1cqh; }
+
+        /* ————————————— Modo subtitulo (tercio inferior) —————————————
+           La seccion de productos se monta sobre pantallazos del software. Ahi el texto no
+           puede seguir siendo lettering a pantalla completa: taparia justo lo que hay que
+           mirar. Pasa a comportarse como subtitulo — bloque anclado abajo, medida mas corta
+           y un rango de cuerpos casi plano (2.9 a 3.9cqw, apenas 1.3x). El enfasis lo llevan
+           el peso y el color; el tamano deja de moverse. */
+        .beat.lower { place-items: end center; padding: 0 12cqw 13cqh; }
+        .beat.lower > .inner { max-width: 80cqw; margin-top: 0; }
+
+        .lower .s-sub      { font-size: 2.9cqw; font-weight: 500; line-height: 1.22; letter-spacing: -0.004em; }
+        .lower .s-phrase   { font-size: 3.3cqw; font-weight: 600; line-height: 1.20; letter-spacing: -0.006em; }
+        .lower .s-display  { font-size: 3.3cqw; font-weight: 600; line-height: 1.20; letter-spacing: -0.006em; }
+        .lower .s-mega     { font-size: 3.9cqw; font-weight: 700; line-height: 1.18; letter-spacing: -0.010em; }
+        .lower .s-colossal { font-size: 3.9cqw; font-weight: 800; line-height: 1.18; letter-spacing: -0.010em; }
+
+        /* Una linea larga de subtitulo en versalitas se vuelve un grito y cuesta leerla.
+           Aqui las versalitas solo sobreviven en el remate corto ("28 IDIOMAS", "CHATBOT"). */
+        .lower .caps            { text-transform: none; letter-spacing: -0.008em; font-weight: 700; }
+        .lower .caps.s-colossal { text-transform: uppercase; letter-spacing: 0.010em; font-weight: 800; }
+
+        .lower .ln.w-reg { font-weight: 400; letter-spacing: -0.004em; }
+        .lower .ln + .ln,
+        .lower .ln.s-sub + .ln.s-mega,
+        .lower .ln.s-sub + .ln.s-colossal,
+        .lower .ln.s-sub + .ln.s-display { margin-top: 0.7cqh; }
+
+        .lower .ln.s-sub.brand      { font-size: 3.25cqw; }
+        .lower .ln.s-phrase.brand   { font-size: 3.70cqw; }
+        .lower .ln.s-display.brand  { font-size: 3.70cqw; }
+        .lower .ln.s-mega.brand     { font-size: 4.37cqw; }
+        .lower .ln.s-colossal.brand { font-size: 4.37cqw; }
+
+        /* Lockup de producto sobre pantallazo: icono y nombre en UNA fila, como una chapa
+           identificadora. Apilarlos como en pantalla completa haria el bloque demasiado alto
+           para caber en el tercio inferior sin subirse encima de la interfaz. */
+        .lock { display: flex; align-items: center; justify-content: center; gap: 1.5cqw; }
+        .lower .ic { width: 5.6cqw; margin: 0; flex: none; }
+        .lower .lock .ln { font-size: 4.6cqw; margin-top: 0; }
+      </style>
+
+      <div
+        id="root"
+        data-composition-id="software"
+        data-width="3840"
+        data-height="2160"
+        data-duration="81.36"
+      >
+        <div class="stage" data-layout-allow-overlap data-layout-allow-occlusion>
+        <div class="beat" id="f01">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f01-w0_0">Mas</span> <span class="w" id="f01-w0_1">o</span> <span class="w" id="f01-w0_2">que</span> <span class="w" id="f01-w0_3">realmente</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f01-w1_0">importa</span> <span class="w" id="f01-w1_1">é</span> <span class="w" id="f01-w1_2">o</span> <span class="w" id="f01-w1_3">que</span> <span class="w" id="f01-w1_4">tem</span> <span class="w" id="f01-w1_5">por</span> <span class="w" id="f01-w1_6">dentro.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f02">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f02-w0_0">E</span> <span class="w" id="f02-w0_1">por</span> <span class="w" id="f02-w0_2">isso</span> <span class="w" id="f02-w0_3">trazemos</span> <span class="w" id="f02-w0_4">o</span> <span class="w" id="f02-w0_5">primeiro</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f02-w1_0">ecossistema</span> <span class="w" id="f02-w1_1">completo</span> <span class="w" id="f02-w1_2">de</span> <span class="w" id="f02-w1_3">inteligência</span> <span class="w" id="f02-w1_4">artificial.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f03">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f03-w0_0">Feito</span> <span class="w" id="f03-w0_1">para</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f03-w1_0">educação.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f04">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f04-w0_0">A</span> <span class="w" id="f04-w0_1">meta</span> <span class="w" id="f04-w0_2">é</span> <span class="w" id="f04-w0_3">simples.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f05">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f05-w0_0">O</span> <span class="w" id="f05-w0_1">que</span> <span class="w" id="f05-w0_2">antes</span> <span class="w" id="f05-w0_3">levava</span> <span class="w" id="f05-w0_4">5</span> <span class="w" id="f05-w0_5">horas,</span></span>
+            <span class="ln s-sub"><span class="w" id="f05-w1_0">agora</span> <span class="w" id="f05-w1_1">leva</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f05-w2_0">5</span> <span class="w" id="f05-w2_1">minutos.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f06">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f06-w0_0">O</span> <span class="w" id="f06-w0_1">software</span> <span class="w" id="f06-w0_2">da</span> <span class="w brand" id="f06-w0_3">OneScreen</span> <span class="w" id="f06-w0_4">foi</span> <span class="w" id="f06-w0_5">feito</span> <span class="w" id="f06-w0_6">para</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f06-w1_0">potencializar</span> <span class="w" id="f06-w1_1">o</span> <span class="w" id="f06-w1_2">aprendizado.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f07">
+          <span class="inner">
+            <span class="ln s-sub caps"><span class="w" id="f07-w0_0">Em</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f07-w1_0">3</span> <span class="w" id="f07-w1_1">momentos.</span></span>
+            <span class="ln s-sub"><span class="w" id="f07-w2_0">Antes</span> <span class="w" id="f07-w2_1">da</span> <span class="w" id="f07-w2_2">aula,</span> <span class="w" id="f07-w2_3">durante</span> <span class="w" id="f07-w2_4">a</span> <span class="w" id="f07-w2_5">aula</span> <span class="w" id="f07-w2_6">e</span> <span class="w" id="f07-w2_7">depois</span> <span class="w" id="f07-w2_8">da</span> <span class="w" id="f07-w2_9">aula.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f08">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f08-w0_0">Vamos</span> <span class="w" id="f08-w0_1">começar</span> <span class="w" id="f08-w0_2">antes</span> <span class="w" id="f08-w0_3">da</span> <span class="w" id="f08-w0_4">sua</span> <span class="w" id="f08-w0_5">aula</span> <span class="w" id="f08-w0_6">começar.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f09">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f09-w0_0">Temos</span></span>
+            <span class="lock">
+              <span class="ic" id="f09-ic"><img src="assets/icons/lessn.png" alt="" /></span>
+              <span class="ln s-mega w-reg"><span class="w brand" id="f09-w1_0">OneScreen</span> <span class="w" id="f09-w1_1">Lessn.</span></span>
+            </span>
+          </span>
+        </div>
+        <div class="beat lower" id="f10">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f10-w0_0">Preparar</span> <span class="w" id="f10-w0_1">aulas</span> <span class="w" id="f10-w0_2">é</span> <span class="w" id="f10-w0_3">tão</span> <span class="w" id="f10-w0_4">simples</span> <span class="w" id="f10-w0_5">quanto</span> <span class="w" id="f10-w0_6">escolher</span> <span class="w" id="f10-w0_7">um</span> <span class="w" id="f10-w0_8">tema,</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f10b">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f10b-w0_0">e</span> <span class="w" id="f10b-w0_1">a</span> <span class="w" id="f10b-w0_2">turma</span> <span class="w" id="f10b-w0_3">para</span> <span class="w" id="f10b-w0_4">quem</span> <span class="w" id="f10b-w0_5">você</span> <span class="w" id="f10b-w0_6">vai</span> <span class="w" id="f10b-w0_7">dar</span> <span class="w" id="f10b-w0_8">a</span> <span class="w" id="f10b-w0_9">aula</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f11">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f11-w0_0">e</span> <span class="w" id="f11-w0_1">o</span> <span class="w brand" id="f11-w0_2">OneScreen</span> <span class="w" id="f11-w0_3">Lessn</span> <span class="w" id="f11-w0_4">cria</span> <span class="w" id="f11-w0_5">a</span> <span class="w" id="f11-w0_6">aula</span> <span class="w" id="f11-w0_7">inteira.</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f11-w1_0">Pronta</span> <span class="w" id="f11-w1_1">para</span> <span class="w" id="f11-w1_2">usar.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f12">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f12-w0_0">Durante</span> <span class="w" id="f12-w0_1">a</span> <span class="w" id="f12-w0_2">aula,</span> <span class="w" id="f12-w0_3">quem</span> <span class="w" id="f12-w0_4">acompanha</span> <span class="w" id="f12-w0_5">é</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f13">
+          <span class="inner">
+            <span class="lock">
+              <span class="ic" id="f13-ic"><img src="assets/icons/scrybe.png" alt="" /></span>
+              <span class="ln s-mega w-reg"><span class="w brand" id="f13-w0_0">OneScreen</span> <span class="w" id="f13-w0_1">Scrybe.</span></span>
+            </span>
+          </span>
+        </div>
+        <div class="beat lower" id="f14">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f14-w0_0">Você</span> <span class="w" id="f14-w0_1">grava</span> <span class="w" id="f14-w0_2">a</span> <span class="w" id="f14-w0_3">aula</span> <span class="w" id="f14-w0_4">e</span> <span class="w" id="f14-w0_5">traduz</span> <span class="w" id="f14-w0_6">em</span> <span class="w" id="f14-w0_7">tempo</span> <span class="w" id="f14-w0_8">real</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f14b">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f14b-w0_0">para</span> <span class="w" id="f14b-w0_1">mais</span> <span class="w" id="f14b-w0_2">de</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f14b-w1_0">28</span> <span class="w" id="f14b-w1_1">idiomas</span></span>
+            <span class="ln s-sub"><span class="w" id="f14b-w2_0">com</span> <span class="w" id="f14b-w2_1">legendas</span> <span class="w" id="f14b-w2_2">na</span> <span class="w" id="f14b-w2_3">tela.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f15">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f15-w0_0">Ideal</span> <span class="w" id="f15-w0_1">para</span> <span class="w" id="f15-w0_2">alunos</span> <span class="w" id="f15-w0_3">de</span> <span class="w" id="f15-w0_4">intercâmbio</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f15-w1_0">ou</span> <span class="w" id="f15-w1_1">com</span> <span class="w" id="f15-w1_2">deficiência</span> <span class="w" id="f15-w1_3">auditiva.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f16">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f16-w0_0">Para</span> <span class="w" id="f16-w0_1">avaliar</span> <span class="w" id="f16-w0_2">as</span> <span class="w" id="f16-w0_3">suas</span> <span class="w" id="f16-w0_4">aulas,</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f17">
+          <span class="inner">
+            <span class="lock">
+              <span class="ic" id="f17-ic"><img src="assets/icons/quizwiz.png" alt="" /></span>
+              <span class="ln s-mega w-reg"><span class="w brand" id="f17-w0_0">OneScreen</span> <span class="w" id="f17-w0_1">QuizWiz.</span></span>
+            </span>
+          </span>
+        </div>
+        <div class="beat lower" id="f18">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f18-w0_0">Você</span> <span class="w" id="f18-w0_1">gera</span> <span class="w" id="f18-w0_2">quizzes</span> <span class="w" id="f18-w0_3">com</span> <span class="w" id="f18-w0_4">base</span></span>
+            <span class="ln s-sub"><span class="w" id="f18-w1_0">em</span> <span class="w" id="f18-w1_1">fontes</span> <span class="w" id="f18-w1_2">em</span> <span class="w" id="f18-w1_3">que</span> <span class="w" id="f18-w1_4">você</span> <span class="w" id="f18-w1_5">confia,</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f18b">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f18b-w0_0">como</span> <span class="w" id="f18b-w0_1">gravações</span> <span class="w" id="f18b-w0_2">das</span> <span class="w" id="f18b-w0_3">suas</span> <span class="w" id="f18b-w0_4">aulas</span></span>
+            <span class="ln s-sub"><span class="w" id="f18b-w1_0">ou</span> <span class="w" id="f18b-w1_1">as</span> <span class="w" id="f18b-w1_2">suas</span> <span class="w" id="f18b-w1_3">próprias</span> <span class="w" id="f18b-w1_4">anotações.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f19">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f19-w0_0">Os</span> <span class="w" id="f19-w0_1">alunos</span> <span class="w" id="f19-w0_2">respondem</span> <span class="w" id="f19-w0_3">direto</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f19-w1_0">do</span> <span class="w" id="f19-w1_1">celular.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f20">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f20-w0_0">Agora,</span> <span class="w" id="f20-w0_1">depois</span> <span class="w" id="f20-w0_2">da</span> <span class="w" id="f20-w0_3">aula,</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f21">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f21-w0_0">temos</span> <span class="w" id="f21-w0_1">o</span> <span class="w" id="f21-w0_2">primeiro</span></span>
+            <span class="ln s-mega caps"><span class="w" id="f21-w1_0">ambiente</span> <span class="w" id="f21-w1_1">de</span> <span class="w" id="f21-w1_2">estudo</span> <span class="w" id="f21-w1_3">para</span> <span class="w" id="f21-w1_4">alunos,</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f22">
+          <span class="inner">
+            <span class="lock">
+              <span class="ic" id="f22-ic"><img src="assets/icons/suprnotes.png" alt="" /></span>
+              <span class="ln s-mega w-reg"><span class="w brand" id="f22-w0_0">OneScreen</span> <span class="w" id="f22-w0_1">SuprNotes.</span></span>
+            </span>
+          </span>
+        </div>
+        <div class="beat lower" id="f23">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f23-w0_0">Os</span> <span class="w" id="f23-w0_1">alunos</span> <span class="w" id="f23-w0_2">criam</span> <span class="w" id="f23-w0_3">notas</span> <span class="w" id="f23-w0_4">de</span> <span class="w" id="f23-w0_5">estudo</span> <span class="w" id="f23-w0_6">interativas</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f23b">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f23b-w0_0">e</span> <span class="w" id="f23b-w0_1">se</span> <span class="w" id="f23b-w0_2">preparam</span> <span class="w" id="f23b-w0_3">com</span> <span class="w" id="f23b-w0_4">questionários.</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f24">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f24-w0_0">O</span> <span class="w" id="f24-w0_1">SuprNotes</span> <span class="w" id="f24-w0_2">cria</span> <span class="w" id="f24-w0_3">um</span></span>
+            <span class="ln s-colossal caps accent"><span class="w" id="f24-w1_0">chatbot</span></span>
+          </span>
+        </div>
+        <div class="beat lower" id="f24b">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f24b-w0_0">treinado</span> <span class="w" id="f24b-w0_1">só</span> <span class="w" id="f24b-w0_2">com</span> <span class="w" id="f24b-w0_3">as</span> <span class="w" id="f24b-w0_4">anotações</span> <span class="w" id="f24b-w0_5">da</span> <span class="w" id="f24b-w0_6">aula.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f25">
+          <span class="inner">
+            <span class="ln s-display"><span class="w" id="f25-w0_0">Tudo</span> <span class="w" id="f25-w0_1">isso</span> <span class="w" id="f25-w0_2">está</span> <span class="w" id="f25-w0_3">ao</span> <span class="w" id="f25-w0_4">alcance</span> <span class="w" id="f25-w0_5">da</span> <span class="w" id="f25-w0_6">sua</span> <span class="w" id="f25-w0_7">mão.</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f26">
+          <span class="inner">
+            <span class="ln s-mega caps"><span class="w" id="f26-w0_0">Quer</span> <span class="w" id="f26-w0_1">experimentar?</span></span>
+          </span>
+        </div>
+        <div class="beat" id="f27">
+          <span class="inner">
+            <span class="ln s-sub"><span class="w" id="f27-w0_0">É</span> <span class="w" id="f27-w0_1">só</span></span>
+            <span class="ln s-mega caps accent"><span class="w" id="f27-w1_0">tocar</span> <span class="w" id="f27-w1_1">na</span> <span class="w" id="f27-w1_2">tela.</span></span>
+          </span>
+        </div>
+        </div>
+      </div>
+
+      <script>
+        window.__timelines = window.__timelines || {};
+        var tl = gsap.timeline({ paused: true });
+
+        function word(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 62 }, { y: 0, duration: 0.17, ease: "power4.out", immediateRender: false }, t);
+        }
+        // Entrada de subtitulo: el mismo sincronismo palabra a palabra, pero con un tercio del
+        // recorrido y una curva menos violenta. Un subtitulo que salta 62 px sobre un
+        // pantallazo compite con la interfaz que hay detras en vez de acompanarla.
+        function wordSoft(tl, sel, t) {
+          tl.set(sel, { opacity: 1 }, t);
+          tl.fromTo(sel, { y: 20 }, { y: 0, duration: 0.24, ease: "power3.out", immediateRender: false }, t);
+        }
+
+        // f01 — Mas o que realmente / importa é o que tem por dentro.
+        tl.set("#f01", { opacity: 1 }, 0);
+        word(tl, "#f01-w0_0", 0);
+        word(tl, "#f01-w0_1", 0.44);
+        word(tl, "#f01-w0_2", 0.92);
+        word(tl, "#f01-w0_3", 1.36);
+        word(tl, "#f01-w1_0", 2.4);
+        word(tl, "#f01-w1_1", 2.64);
+        word(tl, "#f01-w1_2", 2.88);
+        word(tl, "#f01-w1_3", 3.12);
+        word(tl, "#f01-w1_4", 3.36);
+        word(tl, "#f01-w1_5", 3.6);
+        word(tl, "#f01-w1_6", 3.84);
+        tl.to("#f01", { y: -170, duration: 0.24, ease: "power4.in" }, 3.98);
+        tl.to("#f01", { opacity: 0, duration: 0.12, ease: "none" }, 4.1);
+
+        // f02 — E por isso trazemos o primeiro / ecossistema completo de inteligência artificial.
+        tl.set("#f02", { opacity: 1 }, 4.26);
+        word(tl, "#f02-w0_0", 4.28);
+        word(tl, "#f02-w0_1", 4.56);
+        word(tl, "#f02-w0_2", 4.84);
+        word(tl, "#f02-w0_3", 5.16);
+        word(tl, "#f02-w0_4", 5.44);
+        word(tl, "#f02-w0_5", 5.72);
+        word(tl, "#f02-w1_0", 6.16);
+        word(tl, "#f02-w1_1", 6.64);
+        word(tl, "#f02-w1_2", 7.12);
+        word(tl, "#f02-w1_3", 7.64);
+        word(tl, "#f02-w1_4", 8.12);
+        tl.to("#f02", { y: -170, duration: 0.24, ease: "power4.in" }, 8.94);
+        tl.to("#f02", { opacity: 0, duration: 0.12, ease: "none" }, 9.06);
+
+        // f03 — Feito para / educação.
+        tl.set("#f03", { opacity: 1 }, 9.22);
+        word(tl, "#f03-w0_0", 9.24);
+        word(tl, "#f03-w0_1", 9.76);
+        word(tl, "#f03-w1_0", 10.16);
+        tl.to("#f03", { y: -170, duration: 0.24, ease: "power4.in" }, 10.7);
+        tl.to("#f03", { opacity: 0, duration: 0.12, ease: "none" }, 10.82);
+
+        // f04 — A meta é simples.
+        tl.set("#f04", { opacity: 1 }, 10.98);
+        word(tl, "#f04-w0_0", 11);
+        word(tl, "#f04-w0_1", 11.2);
+        word(tl, "#f04-w0_2", 11.36);
+        word(tl, "#f04-w0_3", 11.56);
+        tl.to("#f04", { y: -170, duration: 0.24, ease: "power4.in" }, 11.7);
+        tl.to("#f04", { opacity: 0, duration: 0.12, ease: "none" }, 11.82);
+
+        // f05 — O que antes levava 5 horas, / agora leva / 5 minutos.
+        tl.set("#f05", { opacity: 1 }, 11.98);
+        word(tl, "#f05-w0_0", 12);
+        word(tl, "#f05-w0_1", 12.24);
+        word(tl, "#f05-w0_2", 12.48);
+        word(tl, "#f05-w0_3", 12.76);
+        word(tl, "#f05-w0_4", 13);
+        word(tl, "#f05-w0_5", 13.24);
+        word(tl, "#f05-w1_0", 13.76);
+        word(tl, "#f05-w1_1", 14.12);
+        word(tl, "#f05-w2_0", 14.44);
+        word(tl, "#f05-w2_1", 14.92);
+        tl.to("#f05", { y: -170, duration: 0.24, ease: "power4.in" }, 15.26);
+        tl.to("#f05", { opacity: 0, duration: 0.12, ease: "none" }, 15.38);
+
+        // f06 — O software da OneScreen foi feito para / potencializar o aprendizado.
+        tl.set("#f06", { opacity: 1 }, 15.54);
+        word(tl, "#f06-w0_0", 15.56);
+        word(tl, "#f06-w0_1", 15.92);
+        word(tl, "#f06-w0_2", 16.28);
+        word(tl, "#f06-w0_3", 16.64);
+        word(tl, "#f06-w0_4", 17.04);
+        word(tl, "#f06-w0_5", 17.4);
+        word(tl, "#f06-w0_6", 17.76);
+        word(tl, "#f06-w1_0", 17.96);
+        word(tl, "#f06-w1_1", 18.32);
+        word(tl, "#f06-w1_2", 18.64);
+        tl.to("#f06", { y: -170, duration: 0.24, ease: "power4.in" }, 19.1);
+        tl.to("#f06", { opacity: 0, duration: 0.12, ease: "none" }, 19.22);
+
+        // f07 — Em / 3 momentos. / Antes da aula, durante a aula e depois da aula.
+        tl.set("#f07", { opacity: 1 }, 19.38);
+        word(tl, "#f07-w0_0", 19.4);
+        word(tl, "#f07-w1_0", 19.64);
+        word(tl, "#f07-w1_1", 19.96);
+        word(tl, "#f07-w2_0", 20.76);
+        word(tl, "#f07-w2_1", 21.12);
+        word(tl, "#f07-w2_2", 21.44);
+        word(tl, "#f07-w2_3", 21.8);
+        word(tl, "#f07-w2_4", 22.16);
+        word(tl, "#f07-w2_5", 22.48);
+        word(tl, "#f07-w2_6", 22.84);
+        word(tl, "#f07-w2_7", 23.2);
+        word(tl, "#f07-w2_8", 23.52);
+        word(tl, "#f07-w2_9", 23.88);
+        tl.to("#f07", { y: -170, duration: 0.24, ease: "power4.in" }, 24.06);
+        tl.to("#f07", { opacity: 0, duration: 0.12, ease: "none" }, 24.18);
+
+        // f08 — Vamos começar antes da sua aula começar.
+        tl.set("#f08", { opacity: 1 }, 24.34);
+        wordSoft(tl, "#f08-w0_0", 24.36);
+        wordSoft(tl, "#f08-w0_1", 24.6);
+        wordSoft(tl, "#f08-w0_2", 24.84);
+        wordSoft(tl, "#f08-w0_3", 25.04);
+        wordSoft(tl, "#f08-w0_4", 25.28);
+        wordSoft(tl, "#f08-w0_5", 25.52);
+        wordSoft(tl, "#f08-w0_6", 25.76);
+        tl.to("#f08", { y: -26, duration: 0.20, ease: "power2.in" }, 26.06);
+        tl.to("#f08", { opacity: 0, duration: 0.14, ease: "none" }, 26.12);
+
+        // f09 — [lessn] Temos / OneScreen Lessn.
+        tl.set("#f09", { opacity: 1 }, 26.3);
+        tl.set("#f09-ic", { opacity: 1 }, 26.3);
+        tl.fromTo("#f09-ic", { scale: 0.90, y: 14 }, { scale: 1, y: 0, duration: 0.34, ease: "back.out(1.05)", immediateRender: false }, 26.3);
+        wordSoft(tl, "#f09-w0_0", 26.32);
+        wordSoft(tl, "#f09-w1_0", 26.72);
+        wordSoft(tl, "#f09-w1_1", 27.52);
+        tl.to("#f09", { y: -26, duration: 0.20, ease: "power2.in" }, 27.78);
+        tl.to("#f09", { opacity: 0, duration: 0.14, ease: "none" }, 27.84);
+
+        // f10 — Preparar aulas é tão simples quanto escolher um tema,
+        tl.set("#f10", { opacity: 1 }, 28.02);
+        wordSoft(tl, "#f10-w0_0", 28.04);
+        wordSoft(tl, "#f10-w0_1", 28.4);
+        wordSoft(tl, "#f10-w0_2", 28.8);
+        wordSoft(tl, "#f10-w0_3", 29.2);
+        wordSoft(tl, "#f10-w0_4", 29.56);
+        wordSoft(tl, "#f10-w0_5", 29.92);
+        wordSoft(tl, "#f10-w0_6", 30.32);
+        wordSoft(tl, "#f10-w0_7", 30.72);
+        wordSoft(tl, "#f10-w0_8", 31.08);
+        tl.to("#f10", { y: -26, duration: 0.20, ease: "power2.in" }, 31.3);
+        tl.to("#f10", { opacity: 0, duration: 0.14, ease: "none" }, 31.36);
+
+        // f10b — e a turma para quem você vai dar a aula
+        tl.set("#f10b", { opacity: 1 }, 31.54);
+        wordSoft(tl, "#f10b-w0_0", 31.56);
+        wordSoft(tl, "#f10b-w0_1", 31.72);
+        wordSoft(tl, "#f10b-w0_2", 31.84);
+        wordSoft(tl, "#f10b-w0_3", 32);
+        wordSoft(tl, "#f10b-w0_4", 32.16);
+        wordSoft(tl, "#f10b-w0_5", 32.28);
+        wordSoft(tl, "#f10b-w0_6", 32.44);
+        wordSoft(tl, "#f10b-w0_7", 32.6);
+        wordSoft(tl, "#f10b-w0_8", 32.72);
+        wordSoft(tl, "#f10b-w0_9", 32.88);
+        tl.to("#f10b", { y: -26, duration: 0.20, ease: "power2.in" }, 32.82);
+        tl.to("#f10b", { opacity: 0, duration: 0.14, ease: "none" }, 32.88);
+
+        // f11 — e o OneScreen Lessn cria a aula inteira. / Pronta para usar.
+        tl.set("#f11", { opacity: 1 }, 33.06);
+        wordSoft(tl, "#f11-w0_0", 33.08);
+        wordSoft(tl, "#f11-w0_1", 33.4);
+        wordSoft(tl, "#f11-w0_2", 33.72);
+        wordSoft(tl, "#f11-w0_3", 34.04);
+        wordSoft(tl, "#f11-w0_4", 34.36);
+        wordSoft(tl, "#f11-w0_5", 34.68);
+        wordSoft(tl, "#f11-w0_6", 35);
+        wordSoft(tl, "#f11-w0_7", 35.32);
+        wordSoft(tl, "#f11-w1_0", 35.8);
+        wordSoft(tl, "#f11-w1_1", 36.08);
+        wordSoft(tl, "#f11-w1_2", 36.4);
+        tl.to("#f11", { y: -26, duration: 0.20, ease: "power2.in" }, 36.62);
+        tl.to("#f11", { opacity: 0, duration: 0.14, ease: "none" }, 36.68);
+
+        // f12 — Durante a aula, quem acompanha é
+        tl.set("#f12", { opacity: 1 }, 36.86);
+        wordSoft(tl, "#f12-w0_0", 36.88);
+        wordSoft(tl, "#f12-w0_1", 37.08);
+        wordSoft(tl, "#f12-w0_2", 37.28);
+        wordSoft(tl, "#f12-w0_3", 37.52);
+        wordSoft(tl, "#f12-w0_4", 37.72);
+        wordSoft(tl, "#f12-w0_5", 37.92);
+        tl.to("#f12", { y: -26, duration: 0.20, ease: "power2.in" }, 38.3);
+        tl.to("#f12", { opacity: 0, duration: 0.14, ease: "none" }, 38.36);
+
+        // f13 — [scrybe] OneScreen Scrybe.
+        tl.set("#f13", { opacity: 1 }, 38.54);
+        tl.set("#f13-ic", { opacity: 1 }, 38.54);
+        tl.fromTo("#f13-ic", { scale: 0.90, y: 14 }, { scale: 1, y: 0, duration: 0.34, ease: "back.out(1.05)", immediateRender: false }, 38.54);
+        wordSoft(tl, "#f13-w0_0", 38.56);
+        wordSoft(tl, "#f13-w0_1", 39.12);
+        tl.to("#f13", { y: -26, duration: 0.20, ease: "power2.in" }, 39.54);
+        tl.to("#f13", { opacity: 0, duration: 0.14, ease: "none" }, 39.6);
+
+        // f14 — Você grava a aula e traduz em tempo real
+        tl.set("#f14", { opacity: 1 }, 39.78);
+        wordSoft(tl, "#f14-w0_0", 39.8);
+        wordSoft(tl, "#f14-w0_1", 40.08);
+        wordSoft(tl, "#f14-w0_2", 40.36);
+        wordSoft(tl, "#f14-w0_3", 40.68);
+        wordSoft(tl, "#f14-w0_4", 40.96);
+        wordSoft(tl, "#f14-w0_5", 41.24);
+        wordSoft(tl, "#f14-w0_6", 41.52);
+        wordSoft(tl, "#f14-w0_7", 41.84);
+        wordSoft(tl, "#f14-w0_8", 42.12);
+        tl.to("#f14", { y: -26, duration: 0.20, ease: "power2.in" }, 42.1);
+        tl.to("#f14", { opacity: 0, duration: 0.14, ease: "none" }, 42.16);
+
+        // f14b — para mais de / 28 idiomas / com legendas na tela.
+        tl.set("#f14b", { opacity: 1 }, 42.34);
+        wordSoft(tl, "#f14b-w0_0", 42.36);
+        wordSoft(tl, "#f14b-w0_1", 42.6);
+        wordSoft(tl, "#f14b-w0_2", 42.84);
+        wordSoft(tl, "#f14b-w1_0", 42.96);
+        wordSoft(tl, "#f14b-w1_1", 43.48);
+        wordSoft(tl, "#f14b-w2_0", 44);
+        wordSoft(tl, "#f14b-w2_1", 44.36);
+        wordSoft(tl, "#f14b-w2_2", 44.76);
+        wordSoft(tl, "#f14b-w2_3", 45.12);
+        tl.to("#f14b", { y: -26, duration: 0.20, ease: "power2.in" }, 45.5);
+        tl.to("#f14b", { opacity: 0, duration: 0.14, ease: "none" }, 45.56);
+
+        // f15 — Ideal para alunos de intercâmbio / ou com deficiência auditiva.
+        tl.set("#f15", { opacity: 1 }, 45.74);
+        wordSoft(tl, "#f15-w0_0", 45.76);
+        wordSoft(tl, "#f15-w0_1", 46.16);
+        wordSoft(tl, "#f15-w0_2", 46.56);
+        wordSoft(tl, "#f15-w0_3", 46.96);
+        wordSoft(tl, "#f15-w0_4", 47.36);
+        wordSoft(tl, "#f15-w1_0", 47.96);
+        wordSoft(tl, "#f15-w1_1", 48.36);
+        wordSoft(tl, "#f15-w1_2", 48.8);
+        wordSoft(tl, "#f15-w1_3", 49.2);
+        tl.to("#f15", { y: -26, duration: 0.20, ease: "power2.in" }, 49.7);
+        tl.to("#f15", { opacity: 0, duration: 0.14, ease: "none" }, 49.76);
+
+        // f16 — Para avaliar as suas aulas,
+        tl.set("#f16", { opacity: 1 }, 49.94);
+        wordSoft(tl, "#f16-w0_0", 49.96);
+        wordSoft(tl, "#f16-w0_1", 50.16);
+        wordSoft(tl, "#f16-w0_2", 50.32);
+        wordSoft(tl, "#f16-w0_3", 50.48);
+        wordSoft(tl, "#f16-w0_4", 50.68);
+        tl.to("#f16", { y: -26, duration: 0.20, ease: "power2.in" }, 51.14);
+        tl.to("#f16", { opacity: 0, duration: 0.14, ease: "none" }, 51.2);
+
+        // f17 — [quizwiz] OneScreen QuizWiz.
+        tl.set("#f17", { opacity: 1 }, 51.38);
+        tl.set("#f17-ic", { opacity: 1 }, 51.38);
+        tl.fromTo("#f17-ic", { scale: 0.90, y: 14 }, { scale: 1, y: 0, duration: 0.34, ease: "back.out(1.05)", immediateRender: false }, 51.38);
+        wordSoft(tl, "#f17-w0_0", 51.4);
+        wordSoft(tl, "#f17-w0_1", 51.92);
+        tl.to("#f17", { y: -26, duration: 0.20, ease: "power2.in" }, 52.34);
+        tl.to("#f17", { opacity: 0, duration: 0.14, ease: "none" }, 52.4);
+
+        // f18 — Você gera quizzes com base / em fontes em que você confia,
+        tl.set("#f18", { opacity: 1 }, 52.58);
+        wordSoft(tl, "#f18-w0_0", 52.6);
+        wordSoft(tl, "#f18-w0_1", 52.88);
+        wordSoft(tl, "#f18-w0_2", 53.12);
+        wordSoft(tl, "#f18-w0_3", 53.4);
+        wordSoft(tl, "#f18-w0_4", 53.68);
+        wordSoft(tl, "#f18-w1_0", 54.08);
+        wordSoft(tl, "#f18-w1_1", 54.28);
+        wordSoft(tl, "#f18-w1_2", 54.48);
+        wordSoft(tl, "#f18-w1_3", 54.64);
+        wordSoft(tl, "#f18-w1_4", 54.84);
+        wordSoft(tl, "#f18-w1_5", 55.04);
+        tl.to("#f18", { y: -26, duration: 0.20, ease: "power2.in" }, 55.58);
+        tl.to("#f18", { opacity: 0, duration: 0.14, ease: "none" }, 55.64);
+
+        // f18b — como gravações das suas aulas / ou as suas próprias anotações.
+        tl.set("#f18b", { opacity: 1 }, 55.82);
+        wordSoft(tl, "#f18b-w0_0", 55.84);
+        wordSoft(tl, "#f18b-w0_1", 56.08);
+        wordSoft(tl, "#f18b-w0_2", 56.32);
+        wordSoft(tl, "#f18b-w0_3", 56.52);
+        wordSoft(tl, "#f18b-w0_4", 56.76);
+        wordSoft(tl, "#f18b-w1_0", 57.2);
+        wordSoft(tl, "#f18b-w1_1", 57.36);
+        wordSoft(tl, "#f18b-w1_2", 57.56);
+        wordSoft(tl, "#f18b-w1_3", 57.76);
+        wordSoft(tl, "#f18b-w1_4", 57.92);
+        tl.to("#f18b", { y: -26, duration: 0.20, ease: "power2.in" }, 58.18);
+        tl.to("#f18b", { opacity: 0, duration: 0.14, ease: "none" }, 58.24);
+
+        // f19 — Os alunos respondem direto / do celular.
+        tl.set("#f19", { opacity: 1 }, 58.42);
+        wordSoft(tl, "#f19-w0_0", 58.44);
+        wordSoft(tl, "#f19-w0_1", 58.92);
+        wordSoft(tl, "#f19-w0_2", 59.44);
+        wordSoft(tl, "#f19-w0_3", 59.92);
+        wordSoft(tl, "#f19-w1_0", 60.68);
+        wordSoft(tl, "#f19-w1_1", 61.44);
+        tl.to("#f19", { y: -26, duration: 0.20, ease: "power2.in" }, 62.14);
+        tl.to("#f19", { opacity: 0, duration: 0.14, ease: "none" }, 62.2);
+
+        // f20 — Agora, depois da aula,
+        tl.set("#f20", { opacity: 1 }, 62.38);
+        wordSoft(tl, "#f20-w0_0", 62.4);
+        wordSoft(tl, "#f20-w0_1", 62.72);
+        wordSoft(tl, "#f20-w0_2", 63);
+        wordSoft(tl, "#f20-w0_3", 63.32);
+        tl.to("#f20", { y: -26, duration: 0.20, ease: "power2.in" }, 63.5);
+        tl.to("#f20", { opacity: 0, duration: 0.14, ease: "none" }, 63.56);
+
+        // f21 — temos o primeiro / ambiente de estudo para alunos,
+        tl.set("#f21", { opacity: 1 }, 63.74);
+        wordSoft(tl, "#f21-w0_0", 63.76);
+        wordSoft(tl, "#f21-w0_1", 64);
+        wordSoft(tl, "#f21-w0_2", 64.24);
+        wordSoft(tl, "#f21-w1_0", 64.56);
+        wordSoft(tl, "#f21-w1_1", 64.84);
+        wordSoft(tl, "#f21-w1_2", 65.12);
+        wordSoft(tl, "#f21-w1_3", 65.44);
+        wordSoft(tl, "#f21-w1_4", 65.72);
+        tl.to("#f21", { y: -26, duration: 0.20, ease: "power2.in" }, 66.3);
+        tl.to("#f21", { opacity: 0, duration: 0.14, ease: "none" }, 66.36);
+
+        // f22 — [suprnotes] OneScreen SuprNotes.
+        tl.set("#f22", { opacity: 1 }, 66.54);
+        tl.set("#f22-ic", { opacity: 1 }, 66.54);
+        tl.fromTo("#f22-ic", { scale: 0.90, y: 14 }, { scale: 1, y: 0, duration: 0.34, ease: "back.out(1.05)", immediateRender: false }, 66.54);
+        wordSoft(tl, "#f22-w0_0", 66.56);
+        wordSoft(tl, "#f22-w0_1", 66.92);
+        tl.to("#f22", { y: -26, duration: 0.20, ease: "power2.in" }, 67.66);
+        tl.to("#f22", { opacity: 0, duration: 0.14, ease: "none" }, 67.72);
+
+        // f23 — Os alunos criam notas de estudo interativas
+        tl.set("#f23", { opacity: 1 }, 67.9);
+        wordSoft(tl, "#f23-w0_0", 67.92);
+        wordSoft(tl, "#f23-w0_1", 68.28);
+        wordSoft(tl, "#f23-w0_2", 68.6);
+        wordSoft(tl, "#f23-w0_3", 68.96);
+        wordSoft(tl, "#f23-w0_4", 69.32);
+        wordSoft(tl, "#f23-w0_5", 69.64);
+        wordSoft(tl, "#f23-w0_6", 70);
+        tl.to("#f23", { y: -26, duration: 0.20, ease: "power2.in" }, 70.58);
+        tl.to("#f23", { opacity: 0, duration: 0.14, ease: "none" }, 70.64);
+
+        // f23b — e se preparam com questionários.
+        tl.set("#f23b", { opacity: 1 }, 70.82);
+        wordSoft(tl, "#f23b-w0_0", 70.84);
+        wordSoft(tl, "#f23b-w0_1", 71.12);
+        wordSoft(tl, "#f23b-w0_2", 71.44);
+        wordSoft(tl, "#f23b-w0_3", 71.76);
+        wordSoft(tl, "#f23b-w0_4", 72.04);
+        tl.to("#f23b", { y: -26, duration: 0.20, ease: "power2.in" }, 72.7);
+        tl.to("#f23b", { opacity: 0, duration: 0.14, ease: "none" }, 72.76);
+
+        // f24 — O SuprNotes cria um / chatbot
+        tl.set("#f24", { opacity: 1 }, 72.94);
+        wordSoft(tl, "#f24-w0_0", 72.96);
+        wordSoft(tl, "#f24-w0_1", 73.36);
+        wordSoft(tl, "#f24-w0_2", 73.72);
+        wordSoft(tl, "#f24-w0_3", 74.12);
+        wordSoft(tl, "#f24-w1_0", 74.2);
+        tl.to("#f24", { y: -26, duration: 0.20, ease: "power2.in" }, 74.42);
+        tl.to("#f24", { opacity: 0, duration: 0.14, ease: "none" }, 74.48);
+
+        // f24b — treinado só com as anotações da aula.
+        tl.set("#f24b", { opacity: 1 }, 74.66);
+        wordSoft(tl, "#f24b-w0_0", 74.68);
+        wordSoft(tl, "#f24b-w0_1", 75.04);
+        wordSoft(tl, "#f24b-w0_2", 75.44);
+        wordSoft(tl, "#f24b-w0_3", 75.8);
+        wordSoft(tl, "#f24b-w0_4", 76.16);
+        wordSoft(tl, "#f24b-w0_5", 76.56);
+        wordSoft(tl, "#f24b-w0_6", 76.92);
+        tl.to("#f24b", { y: -26, duration: 0.20, ease: "power2.in" }, 77.1);
+        tl.to("#f24b", { opacity: 0, duration: 0.14, ease: "none" }, 77.16);
+
+        // f25 — Tudo isso está ao alcance da sua mão.
+        tl.set("#f25", { opacity: 1 }, 77.34);
+        word(tl, "#f25-w0_0", 77.36);
+        word(tl, "#f25-w0_1", 77.56);
+        word(tl, "#f25-w0_2", 77.76);
+        word(tl, "#f25-w0_3", 77.96);
+        word(tl, "#f25-w0_4", 78.16);
+        word(tl, "#f25-w0_5", 78.36);
+        word(tl, "#f25-w0_6", 78.56);
+        word(tl, "#f25-w0_7", 78.76);
+        tl.to("#f25", { y: -170, duration: 0.24, ease: "power4.in" }, 78.82);
+        tl.to("#f25", { opacity: 0, duration: 0.12, ease: "none" }, 78.94);
+
+        // f26 — Quer experimentar?
+        tl.set("#f26", { opacity: 1 }, 79.1);
+        word(tl, "#f26-w0_0", 79.12);
+        word(tl, "#f26-w0_1", 79.4);
+        tl.to("#f26", { y: -170, duration: 0.24, ease: "power4.in" }, 79.54);
+        tl.to("#f26", { opacity: 0, duration: 0.12, ease: "none" }, 79.66);
+
+        // f27 — É só / tocar na tela.
+        tl.set("#f27", { opacity: 1 }, 79.82);
+        word(tl, "#f27-w0_0", 79.84);
+        word(tl, "#f27-w0_1", 80.28);
+        word(tl, "#f27-w1_0", 80.44);
+        word(tl, "#f27-w1_1", 80.64);
+        word(tl, "#f27-w1_2", 80.8);
+        // sin fundido de salida: la cola (0.56s) no da para uno.
+
+        window.__timelines["software"] = tl;
+      </script>
+    </template>
+  </body>
+</html>

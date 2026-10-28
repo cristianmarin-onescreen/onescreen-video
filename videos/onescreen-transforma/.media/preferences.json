@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "preferences": {
+    "destination": {
+      "value": "youtube",
+      "confirmed_in": [
+        "onescreen-transforma"
+      ],
+      "updated_at": "2026-08-12T14:03:56.546Z"
+    },
+    "aspect": {
+      "value": "3840x2160",
+      "confirmed_in": [
+        "onescreen-transforma"
+      ],
+      "updated_at": "2026-08-12T14:03:56.621Z"
+    },
+    "language": {
+      "value": "es",
+      "confirmed_in": [
+        "onescreen-transforma"
+      ],
+      "updated_at": "2026-08-12T14:03:56.699Z"
+    },
+    "flow": {
+      "value": "automation",
+      "confirmed_in": [
+        "onescreen-transforma"
+      ],
+      "updated_at": "2026-08-12T14:03:56.777Z"
+    },
+    "storyboard": {
+      "value": "yes",
+      "confirmed_in": [
+        "onescreen-transforma"
+      ],
+      "updated_at": "2026-08-12T14:03:56.844Z"
+    },
+    "style_preset.product-launch-video": {
+      "value": "blue-professional",
+      "confirmed_in": [
+        "onescreen-transforma"
+      ],
+      "updated_at": "2026-08-12T14:15:23.597Z"
+    }
+  },
+  "sightings": {}
+}

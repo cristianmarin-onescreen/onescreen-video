@@ -1,0 +1,35 @@
+[h1] Pantallas digitales OneScreen para clases y reuniones realmente interactivas.
+[p] Enseña, colabora y sorprende en una sola pantalla.
+[li] Pantalla táctil Android o Windows.
+[li] Conexión sin cables con tu dispositivo.
+[li] Herramientas con inteligencia artificial nativa.
+[li] Soporte y entrenamiento ilimitado.
+[a] Habla con un experto
+[a] Solicitar cotización
+[h2] Tableros interactivos con resultados reales
+[p] De colegios a empresas y entidades de gobierno, nuestras pantallas interactivas ya están transformando clases, reuniones y procesos críticos en más de 100.000 clientes. Con menos fricción, más participación, inteligencia artificial y decisiones claras en minutos.
+[p] Estas son algunas de las instituciones que ya convierten sus pantallas interactivas en resultados reales con OneScreen: Fiscalía General de la Nación, SENA, Teleantioquia, Universidad Nacional de Colombia, Areandina, Sertecpet, Fuerza Aeroespacial Colombiana.
+[h3] Educación: Aumenta la participación.
+[p] Mejora la interacción con los estudiantes en clase con nuestro software y la tecnología intuitiva y amigable de OneScreen.
+[h3] Empresas: Reuniones más ágiles y efectivas.
+[p] Todas tus herramientas de videoconferencia, trabajo y presentación en una sola pantalla interactiva OneScreen.
+[h3] Gobierno: Digitalización e implementación eficiente.
+[p] Haz realidad los objetivos de desarrollo públicos y de infraestructura sin estrés o salir del presupuesto innecesariamente.
+[h2] Software con IA para llevar tu tablero a otro nivel.
+[h3] OneScreen Lessn — Crea clases en minutos con IA
+[h3] OneScreen Scrybe — Transcribe, traduce y graba
+[h3] OneScreen SuprNotes — Crea notas de estudio con IA
+[h3] OneScreen QuizWiz — Genera exámenes con IA
+[h3] OneScreen Share — Comparte pantalla sin cables
+[h3] OneScreen Write — Escribe sin límites con un pizarrón infinito
+[h3] OneScreen Central y Control — Administra en remoto tus pantallas
+[h2] Elige la pantalla interactiva OneScreen que más se ajuste a ti, con tamaños desde 65" hasta 105"
+[h3] OneScreen Core — para presupuestos ajustados (65", 75", 86", 98")
+[h3] OneScreen T7 — para resultados profesionales, la pantalla más vendida (65", 75", 86", 105")
+[h3] OneScreen Titan — para los amantes de la imagen, Mini-LED (65", 75", 86")
+[quote] "Nosotros siempre evaluamos la parte técnica, pero esta vez dejamos que los docentes decidieran, y el resultado fue que OneScreen, porque era más intuitiva y más fácil de usar." — César Rodríguez, Subdirector Nacional de Innovación Tecnológica de Areandina
+[h2] Entrenamiento y soporte remoto ilimitado 24/5 con GURÚ
+[p] Capacitaciones virtuales gratuitas, soporte técnico y entrenamientos de por vida, acompañamiento 1:1 con un humano experto sin ningún costo.
+[p] OneScreen tiene oficinas en 14 ciudades de Colombia. Instalación, capacitación y soporte presencial donde estés.
+[cta] Agenda una demo
+[cta] Solicita una demostración en vivo

@@ -1,0 +1,35 @@
+   0.00-   0.17 (0.17s) | A:C0002.MP4 180% | G:Graphics0001.png | G:Graphics0008.png 80%         | 
+   0.17-   0.46 (0.29s) | A:C0002.MP4 180% | G:Graphics0001.png | G:Graphics0008.png 80%         | 
+   0.46-   0.79 (0.33s) | A:C0002.MP4 180% | G:Graphics0001.png | G:Graphics0008.png 80%         | 
+   0.79-   1.21 (0.42s) | A:C0002.MP4 180% | G:Graphics0001.png | G:Graphics0008.png 80%         | 
+   1.21-   1.54 (0.33s) | A:C0002.MP4 180% | G:Graphics0001.png | G:Graphics0008.png 80%         | 
+   1.54-   2.50 (0.96s) | A:C0002.MP4 100% | G:Graphics0008.png 80%                              | D3" Con nuestras ( B D3" pantallas ( B D3" interactivas ( B
+   2.50-   2.79 (0.29s) | A:C0002.MP4 100% | B:C0006.MP4 | G:Graphics0008.png 80%                | D3" interactivas ( B
+   2.79-   3.59 (0.80s) | A:C0002.MP4 180% | B:C0006.MP4 | G:Graphics0008.png 80%                | D3" interactivas ( B D3" OneScreen, ( B
+   3.59-   4.71 (1.12s) | A:C0002.MP4 100% | G:Graphics0002.png | G:Graphics0008.png 80%         | 
+   4.71-   5.46 (0.75s) | A:C0002.MP4 180% | G:Graphics0002.png 180% | G:Graphics0008.png 80%    | 
+   5.46-   6.42 (0.96s) | A:C0002.MP4 100% | G:Graphics0004.png 100% | G:Graphics0004.png 100% | | D3" Integradas ( B D3" ( B
+   6.42-   7.47 (1.05s) | A:C0002.MP4 180% | G:Graphics0004.png 100% | G:Graphics0004.png 100% | | D3" inteligencia ( B D3" artificial. ( B
+   7.47-   7.97 (0.50s) | A:C0002.MP4 100% | G:Graphics0008.png 80%                              | D3" La primera ( B
+   7.97-   8.68 (0.71s) | A:C0002.MP4 180% | G:Graphics0003.png 100% | G:Graphics0008.png 80%    | 
+   8.68-   9.97 (1.29s) | A:C0002.MP4 180% | B:C0011.MP4 | G:Graphics0003.png | G:Graphics0008.p | 
+   9.97-  10.55 (0.58s) | A:C0002.MP4 100% | G:Graphics0004.png 100% | G:Graphics0008.png 80%    | 
+  10.55-  10.89 (0.34s) | A:C0002.MP4 180% | G:Graphics0004.png 100% | G:Graphics0008.png 80%    | 
+  10.89-  12.14 (1.25s) | A:C0002.MP4 100% | B:C0015.MP4 | G:Graphics0004.png | G:Graphics0008.p | 
+  12.14-  12.76 (0.62s) | A:C0002.MP4 100% | B:C0012.MP4 | G:Graphics0004.png | G:Graphics0008.p | 
+  12.76-  13.30 (0.54s) | A:C0002.MP4 180% | B:C0012.MP4 | G:Graphics0004.png | G:Graphics0008.p | 
+  13.30-  14.22 (0.92s) | A:C0002.MP4 100% | G:Graphics0005.png 100% | G:Graphics0008.png 80%    | 
+  14.22-  14.39 (0.17s) | A:C0002.MP4 100% | B:C0025.MP4 | G:Graphics0005.png 100% | G:Graphics0 | 
+  14.39-  15.18 (0.79s) | A:C0002.MP4 180% | B:C0025.MP4 | G:Graphics0005.png 100% | G:Graphics0 | 
+  15.18-  15.43 (0.25s) | A:C0002.MP4 180% | B:C0025.MP4 | G:Graphics0005.png | G:Graphics0008.p | 
+  15.43-  16.60 (1.17s) | A:C0002.MP4 100% | B:C0025.MP4 | G:Graphics0005.png | G:Graphics0008.p | 
+  16.60-  18.14 (1.54s) | A:C0002.MP4 180% | G:Graphics0006.png | G:Graphics0008.png 80%         | 
+  18.14-  19.14 (1.00s) | A:C0002.MP4 100% | G:Graphics0007.png | G:Graphics0008.png 80%         | 
+  19.14-  20.02 (0.88s) | A:C0002.MP4 180% | G:Graphics0007.png 180% | G:Graphics0008.png 80%    | 
+  20.02-  20.52 (0.50s) | A:C0002.MP4 100% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  20.52-  21.02 (0.50s) | A:C0002.MP4 100% | G:Graphics0009.png | G:Graphics0008.png 80%         | 
+  21.02-  21.27 (0.25s) | A:C0002.MP4 100% | G:Graphics0008.png | G:Graphics0008.png 80%         | 
+  21.27-  21.52 (0.25s) | A:C0002.MP4 180% | G:Graphics0008.png 180% | G:Graphics0008.png 80%    | 
+  21.52-  22.02 (0.50s) | A:C0002.MP4 180% | G:Graphics0009.png 180% | G:Graphics0008.png 80%    | 
+  22.02-  22.31 (0.29s) | A:C0002.MP4 180% | G:Graphics0008.png 180% | G:Graphics0008.png 80%    | 
+  22.31-  26.90 (4.59s) | A:Intro 16-9_S 100%                                                    | 

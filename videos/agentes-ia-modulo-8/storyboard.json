@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 201.04,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 201.04
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 8 · ONESCREEN ACADEMY",
+      "startSec": 0.12,
+      "endSec": 7,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 8 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — AHORA, ALGO MUY PRÁCTICO",
+      "startSec": 7,
+      "endSec": 12.36,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "AHORA, ALGO MUY PRÁCTICO",
+        "title": "¿Cómo escribir instrucciones que funcionan?"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — AUNQUE TENGAS CLARÍSIMO QUÉ NECESITAS",
+      "startSec": 12.36,
+      "endSec": 20.4,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "AUNQUE TENGAS CLARÍSIMO QUÉ NECESITAS",
+        "title": "Si la instrucción está mal escrita",
+        "detail": "El agente no va a hacer lo que esperas"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "quote — Un agente hace exactamente lo que le dijiste.",
+      "startSec": 20.4,
+      "endSec": 28.24,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Un agente hace exactamente lo que le dijiste.",
+        "detail": "No lo que tú tenías en mente"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "list — UN AGENTE NO...",
+      "startSec": 28.24,
+      "endSec": 41.87,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "UN AGENTE NO...",
+        "items": [
+          "No interpreta intenciones no dichas",
+          "No adivina el contexto que no le diste",
+          "No asume que “obviamente” debería comportarse de cierta forma"
+        ]
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — INSTRUCCIÓN AMBIGUA",
+      "startSec": 41.87,
+      "endSec": 47.32,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "INSTRUCCIÓN AMBIGUA",
+        "title": "“Ayuda a los profesores con sus dudas”",
+        "detail": "Suena razonable, pero..."
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "list — PIÉNSALO BIEN",
+      "startSec": 47.32,
+      "endSec": 58.76,
+      "accentIndex": 3,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "PIÉNSALO BIEN",
+        "items": [
+          "¿Qué tipo de dudas? ¿Sobre qué temas?",
+          "¿Con qué tono?",
+          "¿Qué pasa si es un tema disciplinario?"
+        ]
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — La gente va a improvisar sus propias reglas",
+      "startSec": 58.76,
+      "endSec": 69.78,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "La gente va a improvisar sus propias reglas",
+        "detail": "Y probablemente no van a ser las que tú querías"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — LA MISMA INSTRUCCIÓN, BIEN ESCRITA",
+      "startSec": 69.78,
+      "endSec": 88.16,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "LA MISMA INSTRUCCIÓN, BIEN ESCRITA",
+        "title": "Soporte pedagógico para docentes de primaria",
+        "detail": "Dudas de planeación y estrategias, basadas en lineamientos curriculares — temas admin, a coordinación"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — TONO",
+      "startSec": 88.16,
+      "endSec": 94.44,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TONO",
+        "title": "Cercano y práctico",
+        "detail": "Evita respuestas demasiado largas o teóricas"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "body — Ya no hay espacio para improvisar",
+      "startSec": 94.44,
+      "endSec": 102.08,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Ya no hay espacio para improvisar",
+        "detail": "Sabe para quién trabaja, sobre qué puede opinar y cómo debe sonar"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "roadmap — SÉ ESPECÍFICO, NO GENERAL",
+      "startSec": 102.08,
+      "endSec": 119.13,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "SÉ ESPECÍFICO, NO GENERAL",
+        "title": "Dile exactamente qué significa “bien”",
+        "detail": "Corto, con ejemplos, sin tecnicismos"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "roadmap — ANTICIPA LOS CASOS LÍMITE",
+      "startSec": 119.13,
+      "endSec": 129.3,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ANTICIPA LOS CASOS LÍMITE",
+        "title": "¿Qué pasa si piden algo fuera de su rol?",
+        "detail": "Dilo explícito — no lo dejes a la suerte"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "roadmap — DA EJEMPLOS CUANDO PUEDAS",
+      "startSec": 129.3,
+      "endSec": 140.4,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "DA EJEMPLOS CUANDO PUEDAS",
+        "title": "Una respuesta buena y una mala",
+        "detail": "Enseñan el estándar mucho más rápido que una descripción abstracta"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — ERROR COMÚN",
+      "startSec": 140.4,
+      "endSec": 156.84,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ERROR COMÚN",
+        "title": "Instrucciones eternas no son mejores",
+        "detail": "Una instrucción muy larga confunde tanto como una muy corta"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — Clara, organizada por partes",
+      "startSec": 156.84,
+      "endSec": 167.68,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Clara, organizada por partes",
+        "detail": "Quién es, qué hace, qué tono usa, qué límites tiene — no una lista interminable de excepciones"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "quote — Léela como si no supieras nada del contexto.",
+      "startSec": 167.68,
+      "endSec": 186.6,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Léela como si no supieras nada del contexto.",
+        "detail": "Si no te queda claro a ti, tampoco le va a quedar claro a la gente"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "body — CON TODO ESTO",
+      "startSec": 186.6,
+      "endSec": 194.44,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CON TODO ESTO",
+        "title": "Ya tienes la base para instrucciones que funcionan"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 194.44,
+      "endSec": 197.5,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "Construimos tu primer agente",
+        "detail": "Paso a paso, con tus propias manos"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 197.5,
+      "endSec": 201.04,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

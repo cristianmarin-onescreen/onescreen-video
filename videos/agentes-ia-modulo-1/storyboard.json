@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 178.24,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 178.24
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — ESPECIALISTA EN IA · ONESCREEN LATAM",
+      "startSec": 0.3,
+      "endSec": 4.7,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "ESPECIALISTA EN IA · ONESCREEN LATAM",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — TE DA LA BIENVENIDA A",
+      "startSec": 4.7,
+      "endSec": 10.3,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "TE DA LA BIENVENIDA A",
+        "title": "OneScreen Academy",
+        "detail": "La plataforma de formación en Inteligencia Artificial"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — TU ACCESO",
+      "startSec": 10.3,
+      "endSec": 19.8,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TU ACCESO",
+        "title": "Este curso y muchos más",
+        "detail": "Aprende de todo sobre IA — incluida la creación de clases con IA en otros cursos de la Academia."
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "product — HERRAMIENTAS ONESCREEN",
+      "startSec": 19.8,
+      "endSec": 26.1,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "HERRAMIENTAS ONESCREEN",
+        "title": "Lessn + Scrybe",
+        "detail": "Dicta tu clase y transcríbela"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "titlecard — SIEMPRE AL DÍA",
+      "startSec": 26.1,
+      "endSec": 32.6,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "SIEMPRE AL DÍA",
+        "title": "Actualizamos la plataforma constantemente",
+        "detail": "Todo lo necesario, siempre disponible"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — NUESTRA MISIÓN",
+      "startSec": 32.6,
+      "endSec": 36.9,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "NUESTRA MISIÓN",
+        "title": "Tu forma de enseñar, la del futuro"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — A CONTINUACIÓN",
+      "startSec": 36.9,
+      "endSec": 40,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "A CONTINUACIÓN",
+        "title": "¿Cómo funciona el curso?"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — AL CERRAR CADA MÓDULO",
+      "startSec": 40,
+      "endSec": 45,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "AL CERRAR CADA MÓDULO",
+        "title": "Un cuestionario corto",
+        "detail": "Responde y suma puntos extra"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "stat — AL FINALIZAR EL CURSO",
+      "startSec": 45,
+      "endSec": 52.6,
+      "accentIndex": 1,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "AL FINALIZAR EL CURSO",
+        "title": "Tu certificado avalado por OneScreen"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — COMPÁRTELO",
+      "startSec": 52.6,
+      "endSec": 57.7,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "COMPÁRTELO",
+        "title": "LinkedIn o tu hoja de vida",
+        "detail": "Un respaldo real para tu perfil profesional"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "titlecard — TE INVITAMOS OFICIALMENTE AL CURSO",
+      "startSec": 57.7,
+      "endSec": 63.4,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "TE INVITAMOS OFICIALMENTE AL CURSO",
+        "title": "Crea tu propio agente"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "compare — ESTE CURSO ES DISTINTO",
+      "startSec": 63.4,
+      "endSec": 70.1,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "ESTE CURSO ES DISTINTO"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — DESDE CERO",
+      "startSec": 70.1,
+      "endSec": 78.6,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "DESDE CERO",
+        "title": "Para las tareas específicas de tu día a día",
+        "detail": "Las que ninguna herramienta empaquetada resuelve todavía"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — UN DOCENTE",
+      "startSec": 78.6,
+      "endSec": 84.1,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "UN DOCENTE",
+        "title": "Responde el mismo correo, una y otra vez",
+        "detail": "Las mismas preguntas repetidas de los padres de familia"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — CON SU AGENTE",
+      "startSec": 84.1,
+      "endSec": 91.1,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CON SU AGENTE",
+        "title": "La respuesta queda lista para revisar y enviar"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "body — UN COORDINADOR ACADÉMICO",
+      "startSec": 91.1,
+      "endSec": 96.3,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "UN COORDINADOR ACADÉMICO",
+        "title": "Lee 20 páginas de reportes cada semana"
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — CON SU AGENTE",
+      "startSec": 96.3,
+      "endSec": 100.5,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CON SU AGENTE",
+        "title": "Recibe un resumen claro en segundos"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "body — TI / HELPDESK",
+      "startSec": 100.5,
+      "endSec": 107.5,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TI / HELPDESK",
+        "title": "Los mismos tickets, semana tras semana"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "body — CON SU AGENTE",
+      "startSec": 107.5,
+      "endSec": 114.3,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CON SU AGENTE",
+        "title": "Resuelto antes de llegar a la bandeja de entrada"
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "quote — No es una promesa del futuro.",
+      "startSec": 114.3,
+      "endSec": 122.6,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "No es una promesa del futuro.",
+        "detail": "Es exactamente lo que vas a construir tú mismo, con tus propias manos."
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "stat — ALGO MUY IMPORTANTE",
+      "startSec": 122.6,
+      "endSec": 131.8,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ALGO MUY IMPORTANTE",
+        "title": "No necesitas saber programar"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "roadmap — PRIMERO",
+      "startSec": 131.8,
+      "endSec": 139.2,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "PRIMERO",
+        "title": "Qué es un agente de IA",
+        "detail": "Y cómo piensa por dentro"
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "roadmap — DESPUÉS",
+      "startSec": 139.2,
+      "endSec": 146.5,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "DESPUÉS",
+        "title": "Construye el tuyo, paso a paso",
+        "detail": "Con herramientas 100% gratuitas"
+      }
+    },
+    {
+      "id": "card-24",
+      "intent": "body — ¿TRABAJAS EN TI O HELPDESK?",
+      "startSec": 146.5,
+      "endSec": 155.6,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "¿TRABAJAS EN TI O HELPDESK?",
+        "title": "Presta especial atención",
+        "detail": "Más adelante hay un módulo pensado exclusivamente para ustedes"
+      }
+    },
+    {
+      "id": "card-25",
+      "intent": "body — ESE MÓDULO",
+      "startSec": 155.6,
+      "endSec": 166.1,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ESE MÓDULO",
+        "title": "Conecta tu agente con OneScreen",
+        "detail": "Pantallas y aplicaciones — de la idea a la operación real de tu institución"
+      }
+    },
+    {
+      "id": "card-26",
+      "intent": "stat — ¿DÓNDE ESTÁ LA IA HOY?",
+      "startSec": 166.1,
+      "endSec": 172.9,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "¿DÓNDE ESTÁ LA IA HOY?"
+      }
+    },
+    {
+      "id": "card-27",
+      "intent": "outro — Nos vemos en el siguiente módulo",
+      "startSec": 172.9,
+      "endSec": 178.24,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos en el siguiente módulo"
+      }
+    }
+  ]
+}

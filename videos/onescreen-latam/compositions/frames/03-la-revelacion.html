@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <template>
+      <div data-hf-id="hf-2hje" id="root" data-composition-id="03-la-revelacion" data-width="1920" data-height="1080" data-duration="2.265">
+        <style>
+          @font-face {
+            font-family: "Rubik";
+            font-weight: 400 700;
+            src: url("assets/fonts/rubik-variable.woff2") format("woff2-variations");
+            /* fallback if the renderer doesn't resolve variation format: format('woff2') */
+          }
+
+          #root {
+            position: relative;
+            width: 1920px;
+            height: 1080px;
+            overflow: hidden;
+            container-type: size;
+            font-family: "Rubik", sans-serif;
+          }
+
+          #root .clip {
+            position: absolute;
+            inset: 0;
+          }
+
+          /* full-bleed cream ground — a dedicated clip layer, never a #root background */
+          .f03-bg-fill {
+            position: absolute;
+            inset: 0;
+            background: #fafafa;
+          }
+
+          /* dot-cluster: fixed 0x0 anchor at the convergence point; dots are
+             absolutely positioned children whose x/y GSAP owns directly. */
+          .f03-dot-cluster-anchor {
+            position: absolute;
+            top: 490px;
+            left: 960px;
+            width: 0;
+            height: 0;
+            transform-origin: 50% 50%;
+            will-change: transform;
+          }
+          .f03-dot {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 16px;
+            height: 16px;
+            margin: -8px 0 0 -8px;
+            border-radius: 50%;
+            background: #3976ff;
+            opacity: 0.82;
+            will-change: transform;
+          }
+
+          /* "Esa cosa." — hard-cut kinetic line above the cluster */
+          .f03-esa-wrap {
+            position: absolute;
+            top: 236px;
+            left: 0;
+            right: 0;
+            text-align: center;
+          }
+          .f03-esa-line {
+            display: inline-block;
+            margin: 0;
+            font-weight: 700;
+            font-size: 4.2cqw;
+            line-height: 1.08;
+            letter-spacing: -0.02em;
+            color: #293052;
+            opacity: 0;
+          }
+
+          /* pill anchor — static box, no transform (avoids fighting the GSAP
+             scale/opacity owned by the inner .f03-logo-pill). */
+          .f03-pill-anchor {
+            position: absolute;
+            top: 380px;
+            left: 620px;
+            width: 680px;
+            height: 220px;
+          }
+          .f03-logo-pill {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform-origin: 50% 50%;
+            opacity: 0;
+            will-change: transform, opacity;
+          }
+          /* the wordmark shape, recolored solid cobalt via mask (source asset is
+             a white-on-transparent PNG built for dark surfaces — masking it onto
+             a cobalt-filled box renders true cobalt type, no background chip). */
+          .f03-logo-mark {
+            display: block;
+            width: 520px;
+            height: 118px;
+            background-color: #3976ff;
+            -webkit-mask-image: url(assets/onescreen-logo.png);
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            -webkit-mask-position: center;
+            mask-image: url(assets/onescreen-logo.png);
+            mask-repeat: no-repeat;
+            mask-size: contain;
+            mask-position: center;
+          }
+
+          /* "Es una OneScreen." — hard-cut line beneath the landed pill */
+          .f03-es-una-wrap {
+            position: absolute;
+            top: 638px;
+            left: 0;
+            right: 0;
+            text-align: center;
+          }
+          .f03-es-una-line {
+            display: inline-block;
+            margin: 0;
+            font-weight: 600;
+            font-size: 2.6cqw;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            color: #293052;
+            opacity: 0;
+          }
+        </style>
+
+        <!-- Track 0: full-bleed cream ground -->
+        <div data-hf-id="hf-ttpi" class="clip" id="f03-bg" data-start="0" data-duration="2.265" data-track-index="0">
+          <div data-hf-id="hf-l46n" class="f03-bg-fill"></div>
+        </div>
+
+        <!-- Track 1: converging dot-grid (atmosphere carried over from Frame 2) -->
+        <div data-hf-id="hf-59ci" class="clip" id="f03-dot-clip" data-start="0" data-duration="2.265" data-track-index="1">
+          <div data-hf-id="hf-euws" class="f03-dot-cluster-anchor" id="f03-dot-cluster">
+            <div data-hf-id="hf-bsvj" class="f03-dot" id="f03-dot-0"></div>
+            <div data-hf-id="hf-7uri" class="f03-dot" id="f03-dot-1"></div>
+            <div data-hf-id="hf-3wnh" class="f03-dot" id="f03-dot-2"></div>
+            <div data-hf-id="hf-34zo" class="f03-dot" id="f03-dot-3"></div>
+            <div data-hf-id="hf-qmh7" class="f03-dot" id="f03-dot-4"></div>
+            <div data-hf-id="hf-mod6" class="f03-dot" id="f03-dot-5"></div>
+            <div data-hf-id="hf-gind" class="f03-dot" id="f03-dot-6"></div>
+            <div data-hf-id="hf-fqzk" class="f03-dot" id="f03-dot-7"></div>
+            <div data-hf-id="hf-38h3" class="f03-dot" id="f03-dot-8"></div>
+          </div>
+        </div>
+
+        <!-- Track 2: "Esa cosa." hard-cut line -->
+        <div data-hf-id="hf-nb4l" class="clip" id="f03-esa-clip" data-start="0" data-duration="2.265" data-track-index="2">
+          <div data-hf-id="hf-u9cs" class="f03-esa-wrap">
+            <h1 data-hf-id="hf-8jjv" class="f03-esa-line" id="f03-esa-line">Esa cosa.</h1>
+          </div>
+        </div>
+
+        <!-- Track 3: solid-cobalt pill carrying the OneScreen wordmark -->
+        <div data-hf-id="hf-0964" class="clip" id="f03-pill-clip" data-start="0" data-duration="2.265" data-track-index="3">
+          <div data-hf-id="hf-s6lz" class="f03-pill-anchor">
+            <div data-hf-id="hf-llzw" class="f03-logo-pill" id="f03-logo-pill">
+              <div data-hf-id="hf-m2kd" class="f03-logo-mark"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Track 4: "Es una OneScreen." hard-cut line beneath the pill -->
+        <div data-hf-id="hf-i25d" class="clip" id="f03-es-una-clip" data-start="0" data-duration="2.265" data-track-index="4">
+          <div data-hf-id="hf-zt3w" class="f03-es-una-wrap">
+            <h2 data-hf-id="hf-c8df" class="f03-es-una-line" id="f03-es-una-line">Es una OneScreen.</h2>
+          </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+        <script>
+          (function () {
+            window.__timelines = window.__timelines || {};
+            var tl = gsap.timeline({ paused: true });
+
+            // --- Scene 1 (0.0–0.6s): converging dot-grid + "Esa cosa." hard-cut ---
+            // 9 dots, deterministic angular placement, converge from a wide scatter
+            // (the Frame-2 orbit carrying over) into a tight ~10%-of-frame cluster.
+            var DOT_COUNT = 9;
+            var INITIAL_R = 300;
+            var FINAL_R = 85;
+            var CONVERGE_DUR = 0.5;
+            var CONVERGE_STAGGER = 0.015;
+
+            for (var i = 0; i < DOT_COUNT; i++) {
+              var angle = (i / DOT_COUNT) * Math.PI * 2 + (i % 2 === 0 ? 0 : 0.28);
+              var fromX = Math.cos(angle) * INITIAL_R;
+              var fromY = Math.sin(angle) * INITIAL_R;
+              var toX = Math.cos(angle) * FINAL_R;
+              var toY = Math.sin(angle) * FINAL_R;
+
+              tl.fromTo(
+                "#f03-dot-" + i,
+                { x: fromX, y: fromY },
+                {
+                  x: toX,
+                  y: toY,
+                  duration: CONVERGE_DUR,
+                  ease: "power3.out",
+                },
+                i * CONVERGE_STAGGER,
+              );
+            }
+
+            // "Esa cosa." hard-cuts in above the still-converging cluster — an
+            // instant discrete-state jump, no fade/slide (discrete-text-sequence).
+            tl.set("#f03-esa-line", { opacity: 1 }, 0.28);
+
+            // --- Scene 2 (0.6–1.765s): scale-swap into the cobalt lockup ---
+            var SWAP_TRIGGER = 0.6;
+            var EXIT_DUR = 0.15;
+            var OVERLAP = 0.1;
+            var ENTER_DUR = 0.45;
+            var ENTER_AT = SWAP_TRIGGER + EXIT_DUR - OVERLAP;
+
+            // "Esa cosa." hard-cuts out exactly as the resolve beat begins.
+            tl.set("#f03-esa-line", { opacity: 0 }, SWAP_TRIGGER);
+
+            // Outgoing: the tight dot cluster collapses toward its own center —
+            // shared transform-origin with the incoming pill.
+            tl.to(
+              "#f03-dot-cluster",
+              {
+                scale: 0.3,
+                opacity: 0,
+                duration: EXIT_DUR,
+                ease: "power2.in",
+              },
+              SWAP_TRIGGER,
+            );
+
+            // Incoming: the solid-cobalt lockup lands — the one sanctioned
+            // restrained spring-pop settle (minimal overshoot, not a hard back.out).
+            tl.fromTo(
+              "#f03-logo-pill",
+              { scale: 0.3, opacity: 0 },
+              {
+                scale: 1,
+                opacity: 1,
+                duration: ENTER_DUR,
+                ease: "back.out(1.15)",
+              },
+              ENTER_AT,
+            );
+
+            // "Es una OneScreen." hard-cuts in beneath the settled lockup, then
+            // holds — the deliberate breather-beat stillness to the end.
+            tl.set("#f03-es-una-line", { opacity: 1 }, ENTER_AT + ENTER_DUR);
+
+            window.__timelines["03-la-revelacion"] = tl;
+          })();
+        </script>
+      </div>
+    </template>
+  </body>
+</html>

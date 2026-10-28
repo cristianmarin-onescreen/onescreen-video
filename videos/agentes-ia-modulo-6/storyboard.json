@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 179.6,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 179.6
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 6 · ONESCREEN ACADEMY",
+      "startSec": 0.11,
+      "endSec": 4.88,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 6 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "titlecard — MISMO EJERCICIO, OTRA MIRADA",
+      "startSec": 4.88,
+      "endSec": 11.74,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MISMO EJERCICIO, OTRA MIRADA",
+        "title": "Dirección y coordinación académica"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "body — Menos operativo, más de gestión y decisiones",
+      "startSec": 11.74,
+      "endSec": 15.15,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "title": "Menos operativo, más de gestión y decisiones"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — PIENSA EN UN RECTOR",
+      "startSec": 15.15,
+      "endSec": 24.54,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PIENSA EN UN RECTOR",
+        "title": "Reportes de asistencia, desempeño, convivencia",
+        "detail": "Cada semana, todos a la vez"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — Cruzarlos mentalmente y decidir qué es urgente",
+      "startSec": 24.54,
+      "endSec": 30.4,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Cruzarlos mentalmente y decidir qué es urgente",
+        "detail": "Y qué puede esperar"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — Le puede tomar horas",
+      "startSec": 30.4,
+      "endSec": 38.84,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Le puede tomar horas",
+        "detail": "Y casi siempre queda entre reunión y reunión, sin el tiempo que merece"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — EL PROBLEMA REAL",
+      "startSec": 38.84,
+      "endSec": 45.83,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "EL PROBLEMA REAL",
+        "title": "No crear el reporte",
+        "detail": "Sino ayudarlo a decidir qué hacer con él"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "body — LA INSTRUCCIÓN REAL",
+      "startSec": 45.83,
+      "endSec": 68.68,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "LA INSTRUCCIÓN REAL",
+        "title": "Asistente de gestión académica",
+        "detail": "Lee los reportes, resume en 5 puntos, señala qué requiere decisión esta semana"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "body — Otra vez, no es un rol vago",
+      "startSec": 68.68,
+      "endSec": 73.2,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Otra vez, no es un rol vago",
+        "detail": "Es un trabajo con un resultado medible"
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — TONO",
+      "startSec": 73.2,
+      "endSec": 82.15,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TONO",
+        "title": "Directo y ejecutivo, sin adornos",
+        "detail": "Los límites son especialmente importantes aquí"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "list — LÍMITES",
+      "startSec": 82.15,
+      "endSec": 103.2,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "LÍMITES",
+        "items": [
+          "Nunca decide por sí mismo — solo señala qué necesita decisión humana",
+          "Nunca mezcla reportes distintos sin dejarlo explícito",
+          "Nunca presenta una cifra como definitiva si hay ambigüedad"
+        ]
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "body — CONOCIMIENTO PROPIO",
+      "startSec": 103.2,
+      "endSec": 119.19,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "CONOCIMIENTO PROPIO",
+        "title": "Los reportes, el calendario y las metas",
+        "detail": "Para comparar contra lo esperado, no solo describir números"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — HERRAMIENTAS",
+      "startSec": 119.19,
+      "endSec": 132.23,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "HERRAMIENTAS",
+        "title": "Comparar varios reportes a la vez",
+        "detail": "Algo que a un humano le toma mucho más tiempo"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "titlecard — SEGUNDO USO",
+      "startSec": 132.23,
+      "endSec": 136.16,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "SEGUNDO USO",
+        "title": "Redacción de comunicados"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "body — UN COMUNICADO URGENTE",
+      "startSec": 136.16,
+      "endSec": 155.29,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "UN COMUNICADO URGENTE",
+        "title": "Primer borrador con formato oficial",
+        "detail": "Tono correcto, info organizada — solo falta revisar y enviar"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "quote — El agente nunca reemplaza el criterio del directivo.",
+      "startSec": 155.29,
+      "endSec": 160.64,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "El agente nunca reemplaza el criterio del directivo."
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "body — Le quita el trabajo mecánico",
+      "startSec": 160.64,
+      "endSec": 169.71,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "title": "Le quita el trabajo mecánico",
+        "detail": "Para que el tiempo humano se use donde debe usarse: en decidir"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "body — PRÓXIMO MÓDULO",
+      "startSec": 169.71,
+      "endSec": 175.5,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PRÓXIMO MÓDULO",
+        "title": "El tercer caso: agente para TI y Helpdesk",
+        "detail": "El que probablemente más te interesa si trabajas en tecnología"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 175.5,
+      "endSec": 179.6,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}

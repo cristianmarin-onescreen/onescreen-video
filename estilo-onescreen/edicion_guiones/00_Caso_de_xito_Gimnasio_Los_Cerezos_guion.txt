@@ -1,0 +1,80 @@
+   0.00-   6.21 (6.21s) | B:OneScreen (Intro)_ESP_16.9_NoMúsic                                   | 
+   6.21-   8.09 (1.88s) | A:C1432.MP4 100% | B:OneScreen (Intro)_ESP_16.9_NoMúsic                | El Gimnasio Los Cedresos es una institución de
+   8.09-   9.22 (1.13s) | A:C1432.MP4 100% | B:C1419.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | es una institución de alta calidad. Tenemos el
+   9.22-  11.60 (2.38s) | A:C1432.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | alta calidad. Tenemos el sello del International Baccalaureate.
+  11.60-  13.76 (2.16s) | A:C1374.MP4 100% | B:Melissa Diaz.mov 60% | G:OneScreen_4K_16.9.png |  | El colegio se encuentra ubicado en Cajicá. Tenemos
+  13.76-  13.93 (0.17s) | A:C1374.MP4 100% | B:C1420.MP4 | B:Melissa Diaz.mov 60% | G:OneScreen_ | ubicado en Cajicá. Tenemos
+  13.93-  14.97 (1.04s) | A:C1374.MP4 100% | B:C1420.MP4 | B:Melissa Diaz.mov 60% | G:OneScreen_ | ubicado en Cajicá. Tenemos instalaciones bastante amplias y
+  14.97-  15.64 (0.67s) | A:C1374.MP4 100% | B:C1420.MP4 | B:Melissa Diaz.mov 60% | G:OneScreen_ | instalaciones bastante amplias y
+  15.64-  17.56 (1.92s) | A:C1374.MP4 100% | B:C1407.MP4 | B:Melissa Diaz.mov 60% | G:OneScreen_ | instalaciones bastante amplias y con bastante zona verde.
+  17.56-  20.48 (2.92s) | A:C1374.MP4 144% | B:C1431.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | Está dividido en tres secciones: preescolar, primaria, bachillerato,
+  20.48-  22.65 (2.17s) | A:C1432.MP4 131% | B:Lina Álvarez.mov 67% | G:OneScreen_4K_16.9.png |  | que tenemos una metodología holística y tenemos el
+  22.65-  24.65 (2.00s) | A:C1432.MP4 131% | B:C1398.MP4 | B:Lina Álvarez.mov 67% | G:OneScreen_ | holística y tenemos el método de la constructivista,
+  24.65-  26.61 (1.96s) | A:C1432.MP4 100% | B:C1398.MP4 | B:Lina Álvarez.mov 67% | G:OneScreen_ | que para eso es muy importante que todos trabajemos en equipo y
+  26.61-  27.49 (0.88s) | A:C1432.MP4 100% | B:C1393.MP4 | B:Lina Álvarez.mov 67% | G:OneScreen_ | trabajemos en equipo y
+  27.49-  30.74 (3.25s) | A:C1432.MP4 100% | B:C1393.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | trabajemos en equipo y todos tengamos la misma percepción, que es enseñar con amor, pero d
+  30.74-  31.66 (0.92s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | con amor, pero de calidad. Buscamos llevar al
+  31.66-  33.41 (1.75s) | A:C1382.MP4 135% | B:Ricardo Bello.mov 60% | G:OneScreen_4K_16.9.png | | calidad. Buscamos llevar al colegio a un nivel
+  33.41-  35.24 (1.83s) | A:C1382.MP4 100% | B:Ricardo Bello.mov 60% | G:OneScreen_4K_16.9.png | | colegio a un nivel de autonomía tecnológica en cuanto
+  35.24-  36.24 (1.00s) | A:C1382.MP4 100% | B:C1390.MP4 | B:Ricardo Bello.mov 60% | G:OneScreen | autonomía tecnológica en cuanto
+  36.24-  38.29 (2.05s) | A:C1382.MP4 135% | B:Ricardo Bello.mov 60% | G:OneScreen_4K_16.9.png | | autonomía tecnológica en cuanto al servicio de los chicos y en cuanto
+  38.29-  39.08 (0.79s) | A:C1382.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | chicos y en cuanto a los chicos a
+  39.08-  41.21 (2.13s) | A:C1382.MP4 100% | B:C1408.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | a los chicos a lo que van a ver en el futuro. Entonces, pasando por inteligencias
+  41.21-  43.46 (2.25s) | A:C1382.MP4 100% | B:C1376.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | Entonces, pasando por inteligencias artificiales, dispositivos, demás cosas
+  43.46-  44.09 (0.63s) | A:C1382.MP4 100% | B:C1377.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | artificiales, dispositivos, demás cosas
+  44.09-  48.22 (4.13s) | A:C1382.MP4 135% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | artificiales, dispositivos, demás cosas que se, que empiecen a salir tecnológicamente, el 
+  48.22-  49.76 (1.54s) | A:C1374.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | vanguardia. Tenemos pantallas inteligentes
+  49.76-  52.26 (2.50s) | A:C1374.MP4 100% | B:C1379.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | o interactivas en varios salones. Contamos con laboratorios
+  52.26-  52.84 (0.58s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | virtuales. Entonces, para nosotros
+  52.84-  54.85 (2.01s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | virtuales. Entonces, para nosotros sí es muy importante todo el desarrollo o
+  54.85-  56.47 (1.62s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | todo el desarrollo o innovación tecnológica, porque eso
+  56.47-  57.14 (0.67s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | innovación tecnológica, porque eso
+  57.14-  58.77 (1.63s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | nos permite acercar al estudiante a conocimientos o
+  58.77-  59.73 (0.96s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | estudiante a conocimientos o
+  59.73-  61.10 (1.37s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | estudiante a conocimientos o áreas del conocimiento que
+  61.10-  62.85 (1.75s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | áreas del conocimiento que en un contexto normal educativo no se tienen
+  62.85-  63.77 (0.92s) | A:C1374.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | educativo no se tienen acceso. Utilizamos las pantallas
+  63.77-  65.52 (1.75s) | A:C1432.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | acceso. Utilizamos las pantallas OneScreen. En ese año
+  65.52-  66.44 (0.92s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | OneScreen. En ese año las implementamos en el
+  66.44-  68.32 (1.88s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | las implementamos en el salón. Mi salón es
+  68.32-  69.28 (0.96s) | A:C1432.MP4 131% | B:C1426.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | el salón de business,
+  69.28-  70.61 (1.33s) | A:C1432.MP4 100% | B:C1426.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | en el cual me ha llevado un montón,
+  70.61-  73.86 (3.25s) | A:C1432.MP4 100% | B:C1426.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | en el cual los estudiantes pueden colocar su lluvia de ideas, pueden
+  73.86-  78.66 (4.80s) | A:C1432.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | lluvia de ideas, pueden mostrar al mismo tiempo, digamos, que yo, ellos manejan su computa
+  78.66-  82.83 (4.17s) | A:C1432.MP4 100% | B:C1383.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | y once. Entonces, solo con un clic ellos pueden mostrarme sus avances en tiempo real y
+  82.83-  84.21 (1.38s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | en tiempo real y eso para mí me facilita mucho. El solo
+  84.21-  86.17 (1.96s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | facilita mucho. El solo hecho que el estudiante pueda acercarse, tocar la
+  86.17-  86.59 (0.42s) | A:C1374.MP4 144% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | pueda acercarse, tocar la
+  86.59-  89.84 (3.25s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | pueda acercarse, tocar la pantalla, navegar a través de ello, que nosotros podamos hacer u
+  89.84-  91.26 (1.42s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | podamos hacer uso de las mis, de, de este recurso para presentar
+  91.26-  91.72 (0.46s) | A:C1374.MP4 144% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | este recurso para presentar
+  91.72-  92.09 (0.37s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | este recurso para presentar
+  92.09-  93.59 (1.50s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | este recurso para presentar diferentes temas, pues es
+  93.59-  94.55 (0.96s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | diferentes temas, pues es bastante útil. Porque los
+  94.55-  95.01 (0.46s) | A:C1374.MP4 100% | B:C1380.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | bastante útil. Porque los
+  95.01-  98.02 (3.01s) | A:C1382.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | bastante útil. Porque los entornos son un ecosistema donde están los profesores,
+  98.02- 100.68 (2.66s) | A:C1382.MP4 135% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | donde están los profesores, la parte administrativa y pues todos tenemos que vernos benefi
+ 100.68- 102.02 (1.34s) | A:C1382.MP4 135% | B:C1428.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | vernos beneficiados por los dispositivos. Entonces, digamos, en
+ 102.02- 104.69 (2.67s) | A:C1432.MP4 100% | B:C1428.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | dispositivos. Entonces, digamos, en las ocho horas laborales,
+ 104.69- 107.06 (2.37s) | A:C1432.MP4 135% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | ponle que en unas cuatro horas ellos ya tienen sus notas, ellos
+ 107.06- 109.44 (2.38s) | A:C1432.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | tienen sus notas, ellos ya tienen su feedback, sus comentarios. Es decir,
+ 109.44- 109.98 (0.54s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | sus comentarios. Es decir,
+ 109.98- 111.11 (1.13s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | si tú te quedas atrasado: «Profesora, no alcancé
+ 111.11- 114.03 (2.92s) | A:C1432.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | atrasado: «Profesora, no alcancé a copiar. Profesora, no puse atención». Con un
+ 114.03- 119.41 (5.38s) | A:C1432.MP4 100% | B:C1381.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | puse atención». Con un solo QR tú puedes tomar un screenshot y puedes analizar ya lo que s
+ 119.41- 122.83 (3.42s) | A:C1432.MP4 100% | B:C1381.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | en la pantalla. Entonces, para mí me queda mucho más fácil, para el niño le queda mucho má
+ 122.83- 126.67 (3.84s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | mucho más fácil, porque a través de una imagen, pues desarrolla los pensamientos y la sina
+ 126.67- 129.05 (2.38s) | A:C1432.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | en el cerebro. Entonces, es muy fácil, es muy completo y lo
+ 129.05- 130.46 (1.41s) | A:C1432.MP4 131% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | muy completo y lo recomendaría un montón. Bueno,
+ 130.46- 133.01 (2.55s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | recomendaría un montón. Bueno, mi consejo sería que den el siguiente paso
+ 133.01- 133.72 (0.71s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | y adquieran estos recursos
+ 133.72- 135.09 (1.37s) | A:C1374.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | y adquieran estos recursos tecnológicos por varias razones
+ 135.09- 136.34 (1.25s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | tecnológicos por varias razones y como sintetizando. Primero,
+ 136.34- 140.10 (3.76s) | A:C1374.MP4 144% | B:C1381.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | y como sintetizando. Primero, la, eh, se optimizan los tiempos de clase.
+ 140.10- 143.89 (3.79s) | A:C1374.MP4 100% | B:C1381.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | Todos los que somos docentes hemos tenido que pasar por la pizarra y tener que escribir,
+ 143.89- 147.36 (3.47s) | A:C1374.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | pues pasamos por un video beam y que el cable no conecta y que no hay internet. Que el mis
+ 147.36- 148.15 (0.79s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | internet. Que el mismo estudiante pueda tener un,
+ 148.15- 152.44 (4.29s) | A:C1374.MP4 100% | B:C1381.MP4 | G:OneScreen_4K_16.9.png | G:Logotipo_ | estudiante pueda tener un, una interacción más directa con la pantalla los ha enganchado m
+ 152.44- 155.03 (2.59s) | A:C1374.MP4 100% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | ha enganchado muchísimo. Todos los beneficios que esto conlleva, el tener un estudiante co
+ 155.03- 157.82 (2.79s) | A:C1374.MP4 144% | G:OneScreen_4K_16.9.png | G:Logotipo_Cerezos.png 49 | estudiante concentrado, focalizado y con el gusto de aprender.
+ 157.82- 165.92 (8.10s) | A:OneScreen (I 100%                                                    | 

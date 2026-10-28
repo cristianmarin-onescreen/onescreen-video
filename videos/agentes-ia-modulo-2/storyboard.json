@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 3,
+  "composition": {
+    "fps": 25,
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 226.32,
+    "layout": "landscape",
+    "themeId": "custom-tech-ai",
+    "seed": 7
+  },
+  "videoTrack": {
+    "sourcePath": "input-video.mp4",
+    "startSec": 0,
+    "endSec": 226.32
+  },
+  "subtitles": {
+    "enabled": false
+  },
+  "cards": [
+    {
+      "id": "card-01",
+      "intent": "nameplate — MÓDULO 2 · ONESCREEN ACADEMY",
+      "startSec": 0.1,
+      "endSec": 7.31,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "MÓDULO 2 · ONESCREEN ACADEMY",
+        "title": "Felipe Martínez"
+      }
+    },
+    {
+      "id": "card-02",
+      "intent": "body — EN EL MÓDULO ANTERIOR",
+      "startSec": 7.31,
+      "endSec": 11.71,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "EN EL MÓDULO ANTERIOR",
+        "title": "Te invité a construir tu propio agente de IA"
+      }
+    },
+    {
+      "id": "card-03",
+      "intent": "stat — ¿DÓNDE ESTÁ LA IA HOY?",
+      "startSec": 11.71,
+      "endSec": 16.76,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "¿DÓNDE ESTÁ LA IA HOY?"
+      }
+    },
+    {
+      "id": "card-04",
+      "intent": "body — ANTES DE CONSTRUIR",
+      "startSec": 16.76,
+      "endSec": 21.42,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ANTES DE CONSTRUIR",
+        "title": "Todo parte de entender esto primero"
+      }
+    },
+    {
+      "id": "card-05",
+      "intent": "body — HACE APENAS 2 AÑOS",
+      "startSec": 21.42,
+      "endSec": 29.23,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "HACE APENAS 2 AÑOS",
+        "title": "IA era hablar con un chat",
+        "detail": "Escribías una pregunta y recibías una respuesta"
+      }
+    },
+    {
+      "id": "card-06",
+      "intent": "body — ÚTIL, PERO LIMITADO",
+      "startSec": 29.23,
+      "endSec": 35,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ÚTIL, PERO LIMITADO",
+        "title": "Tenías que pensar cada siguiente paso"
+      }
+    },
+    {
+      "id": "card-07",
+      "intent": "body — 3 TAREAS SEGUIDAS",
+      "startSec": 35,
+      "endSec": 43.89,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "3 TAREAS SEGUIDAS",
+        "title": "Pedirlas una por una, revisando tú mismo"
+      }
+    },
+    {
+      "id": "card-08",
+      "intent": "titlecard — Hoy, eso cambió por completo",
+      "startSec": 43.89,
+      "endSec": 48.48,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Hoy, eso cambió por completo"
+      }
+    },
+    {
+      "id": "card-09",
+      "intent": "list — LA IA DE HOY",
+      "startSec": 48.48,
+      "endSec": 59.72,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "LA IA DE HOY",
+        "items": [
+          "Razona varios pasos antes de responder",
+          "Usa herramientas por su cuenta",
+          "Recuerda contexto de conversaciones anteriores"
+        ]
+      }
+    },
+    {
+      "id": "card-10",
+      "intent": "body — Y ADEMÁS",
+      "startSec": 59.72,
+      "endSec": 65.68,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "Y ADEMÁS",
+        "title": "Puede tomar acciones reales, no solo opinar"
+      }
+    },
+    {
+      "id": "card-11",
+      "intent": "titlecard — ASÍ LE LLAMAMOS",
+      "startSec": 65.68,
+      "endSec": 69.84,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "ASÍ LE LLAMAMOS",
+        "title": "Inteligencia Artificial agéntica",
+        "detail": "El concepto más importante de este curso"
+      }
+    },
+    {
+      "id": "card-12",
+      "intent": "compare — LA DIFERENCIA CENTRAL",
+      "startSec": 69.84,
+      "endSec": 79.6,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "LA DIFERENCIA CENTRAL"
+      }
+    },
+    {
+      "id": "card-13",
+      "intent": "body — PARA LOGRARLO, DECIDE",
+      "startSec": 79.6,
+      "endSec": 86.12,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "PARA LOGRARLO, DECIDE",
+        "title": "Qué pasos dar, qué información necesita, qué herramientas usar"
+      }
+    },
+    {
+      "id": "card-14",
+      "intent": "body — SIN QUE TÚ LO GUÍES",
+      "startSec": 86.12,
+      "endSec": 92.72,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SIN QUE TÚ LO GUÍES",
+        "title": "Le das el objetivo y él arma el camino"
+      }
+    },
+    {
+      "id": "card-15",
+      "intent": "titlecard — Otro cambio enorme: dejó de ser solo texto",
+      "startSec": 92.72,
+      "endSec": 97.28,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Otro cambio enorme: dejó de ser solo texto"
+      }
+    },
+    {
+      "id": "card-16",
+      "intent": "list — MULTIMODALIDAD",
+      "startSec": 97.28,
+      "endSec": 108.44,
+      "accentIndex": 0,
+      "zone": "fullscreen",
+      "contentHints": {
+        "kicker": "MULTIMODALIDAD",
+        "items": [
+          "Entiende imágenes y audio",
+          "Lee documentos completos",
+          "Puede ver una pantalla y entenderla"
+        ]
+      }
+    },
+    {
+      "id": "card-17",
+      "intent": "stat — EN LA PRÁCTICA",
+      "startSec": 108.44,
+      "endSec": 122.32,
+      "accentIndex": 2,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "EN LA PRÁCTICA",
+        "title": "Manuales, planes curriculares, reportes — como su propio conocimiento"
+      }
+    },
+    {
+      "id": "card-18",
+      "intent": "titlecard — Un tercer cambio, más grande de lo que parece",
+      "startSec": 122.32,
+      "endSec": 127.08,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Un tercer cambio, más grande de lo que parece"
+      }
+    },
+    {
+      "id": "card-19",
+      "intent": "list — TERCER CAMBIO: CONEXIÓN",
+      "startSec": 127.08,
+      "endSec": 139.92,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TERCER CAMBIO: CONEXIÓN",
+        "items": [
+          "Consulta una base de datos",
+          "Activa una acción en una aplicación",
+          "Se comunica con otro software"
+        ]
+      }
+    },
+    {
+      "id": "card-20",
+      "intent": "body — ANTES",
+      "startSec": 139.92,
+      "endSec": 145.6,
+      "accentIndex": 3,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "ANTES",
+        "title": "Vivía aislada en una ventana de chat"
+      }
+    },
+    {
+      "id": "card-21",
+      "intent": "body — HOY",
+      "startSec": 145.6,
+      "endSec": 149.61,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "HOY",
+        "title": "Vive conectada a las herramientas que ya usas"
+      }
+    },
+    {
+      "id": "card-22",
+      "intent": "body — TRES PIEZAS QUE VAS A USAR",
+      "startSec": 149.61,
+      "endSec": 164.36,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TRES PIEZAS QUE VAS A USAR",
+        "title": "Objetivos + multimodalidad + conexión",
+        "detail": "Cada avance es una pieza para construir tu propio agente"
+      }
+    },
+    {
+      "id": "card-23",
+      "intent": "compare — TU AGENTE",
+      "startSec": 164.36,
+      "endSec": 174.72,
+      "accentIndex": 0,
+      "zone": "side-panel",
+      "contentHints": {
+        "kicker": "TU AGENTE"
+      }
+    },
+    {
+      "id": "card-24",
+      "intent": "quote — No necesitas entender la ingeniería detrás.",
+      "startSec": 174.72,
+      "endSec": 189.07,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "No necesitas entender la ingeniería detrás.",
+        "detail": "Eso ya está resuelto — y no es tu trabajo."
+      }
+    },
+    {
+      "id": "card-25",
+      "intent": "body — TU TRABAJO: LA CAPA DE ARRIBA",
+      "startSec": 189.07,
+      "endSec": 206.73,
+      "accentIndex": 2,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "TU TRABAJO: LA CAPA DE ARRIBA",
+        "title": "Instrucciones + conocimiento propio + límites claros",
+        "detail": "Más sencillo de lo que suena"
+      }
+    },
+    {
+      "id": "card-26",
+      "intent": "stat — CON ESTO YA TIENES",
+      "startSec": 206.73,
+      "endSec": 211.52,
+      "accentIndex": 1,
+      "zone": "video-overlay",
+      "contentHints": {
+        "kicker": "CON ESTO YA TIENES"
+      }
+    },
+    {
+      "id": "card-27",
+      "intent": "body — SIGUIENTE MÓDULO",
+      "startSec": 211.52,
+      "endSec": 222.9,
+      "accentIndex": 0,
+      "zone": "lower-third",
+      "contentHints": {
+        "kicker": "SIGUIENTE MÓDULO",
+        "title": "Chatbot vs. agente: la diferencia exacta",
+        "detail": "Con ejemplos concretos, antes de construir el tuyo"
+      }
+    },
+    {
+      "id": "card-28",
+      "intent": "outro — Nos vemos ahí",
+      "startSec": 222.9,
+      "endSec": 226.32,
+      "accentIndex": 0,
+      "zone": "video-overlay",
+      "contentHints": {
+        "title": "Nos vemos ahí"
+      }
+    }
+  ]
+}
