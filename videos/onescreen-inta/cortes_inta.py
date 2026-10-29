@@ -11,7 +11,7 @@ LUTSRC = r"C:\Users\Cristian Marin\Desktop\Claudio\luts\festivalluts.com - Sony 
 
 def uno(args):
     pz, p = args
-    for f, (w, h) in FORM.items():
+    for f, (w, h) in ((k, v) for k, v in FORM.items() if k in os.environ.get("FORMS", "16 9 45").split()):
         dst = BASE / pz / "Proyecto" / f"v_{f}" / "media" / f"{p.get('key', p['id'])}.mp4"
         if dst.exists() and dst.stat().st_size > 10000:
             continue

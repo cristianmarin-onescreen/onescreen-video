@@ -41,6 +41,12 @@ textarea{width:100%;margin-top:10px;border:1px solid var(--line);border-radius:8
 .badge{font-size:10px;font-weight:700;letter-spacing:.05em;border-radius:4px;padding:1px 6px;background:var(--line);color:var(--mut)}
 .badge.mo{background:#7d00ba;color:#fff}.badge.fv{background:var(--blue);color:#fff}
 .op.mo2{grid-column:span 2}
+.tr{margin-left:auto;border:1px solid var(--line);background:var(--card);color:var(--mut);border-radius:6px;width:26px;height:24px;padding:0;cursor:pointer;font-size:13px;line-height:1}
+.tr:hover{border-color:var(--no);color:var(--no)}
+.op.vet{cursor:default;opacity:.55;border-style:dashed;border-color:var(--no)}
+.op.vet img{filter:grayscale(1)}
+.op.vet .tr{border-color:var(--no);color:var(--no)}
+.badge.vt{background:var(--no);color:#fff}
 .bz svg{width:100%;height:auto;display:block;border-radius:6px;border:1px solid var(--line)}
 .mot{border-radius:6px;min-height:96px;padding:10px;font-size:13px;background:linear-gradient(135deg,#3976ff,#7d00ba);color:#fff;display:flex;align-items:center}
 .acc{display:flex;gap:8px;margin-top:8px}
@@ -66,14 +72,17 @@ const KEY = v => 'sb:' + v.id;
 const estado = {};
 D.videos.forEach(v => { try { estado[v.id] = JSON.parse(localStorage.getItem(KEY(v))) || {} } catch (e) { estado[v.id] = {} } });
 let actual = D.videos[0].id;
+// papelera: planos vetados (el servidor los anota en registro/planos_vetados.json; aquí se recuerdan para pintarlos)
+let VET = {}; try { VET = JSON.parse(localStorage.getItem('sb:_vetados')) || {} } catch (e) {}
+const esVet = o => o && o.tipo !== 'motion' && o.plano != null && VET[String(o.plano)];
 const guardar = v => { try { localStorage.setItem(KEY(v), JSON.stringify(estado[v.id])) } catch (e) {} delete document.getElementById('msg').dataset.enviado; setTimeout(revisar, 0); };
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt = s => Number(s).toFixed(1) + ' s';
 const L = 'ABCDEFGH';
 // una toma = lo que se ve en pantalla durante ese tramo: un plano o un motion graphic (una sola capa); trae 5 opciones (3 planos y 2 motion designs) y una favorita de Claude
 const opcs = t => (t.opciones && t.opciones.length) ? t.opciones : [Object.assign({fav: true}, t)];
-const favL = t => { const k = opcs(t).findIndex(o => o.fav); return k < 0 ? null : L[k]; };
-const sel = (t, s) => s.d === 'no' ? null : (s.op || favL(t));
+const favL = t => { const k = opcs(t).findIndex(o => o.fav && !esVet(o)); return k < 0 ? null : L[k]; };
+const sel = (t, s) => { if (s.d === 'no') return null; const o = s.op || favL(t); return o && !esVet(opcs(t)[L.indexOf(o)]) ? o : null; };
 const desc = o => o.tipo === 'motion' ? 'MOTION: ' + (o.desc || '') : 'plano ' + o.plano + (o.plano_in != null ? ' ' + o.plano_in + '–' + o.plano_out + ' s' : '');
 function estadoToma(t, e) { const s = e[t.id] || {}; return s.d === 'no' ? 'no' : (sel(t, s) ? 'ok' : 'falta'); }
 function resumen(v) {
@@ -90,7 +99,7 @@ function lista() {
 function pintar() {
   const v = D.videos.find(x => x.id === actual), e = estado[v.id], g = e._g || {};
   document.getElementById('top').innerHTML = `<h2>${esc(v.id)} ${v.titulo ? '— ' + esc(v.titulo) : ''}</h2>
-    <div class="meta">${esc(v.meta || '')} ${v.tomas.length} tomas · ${fmt(v.tomas[v.tomas.length - 1].t1)}. Cada toma trae 5 opciones: 3 planos y 2 motion designs. La ★ es la favorita de Claude y ya viene elegida: cámbiala con un clic.</div>
+    <div class="meta">${esc(v.meta || '')} ${v.tomas.length} tomas · ${fmt(v.tomas[v.tomas.length - 1].t1)}. Cada toma trae 5 opciones: 3 planos y 2 motion designs. La ★ es la favorita de Claude y ya viene elegida: cámbiala con un clic. La 🗑 de un plano lo veta para siempre (tomas falsas, gente posando o riéndose…).</div>
     <textarea id="gc" placeholder="Comentario general del storyboard (opcional)">${esc(g.c || '')}</textarea>`;
   document.getElementById('gc').oninput = ev => { (e._g = e._g || {}).c = ev.target.value; guardar(v); };
   document.getElementById('tomas').innerHTML = v.tomas.map(t => {
@@ -99,7 +108,8 @@ function pintar() {
       const mo = o.tipo === 'motion';
       const vista = o.svg ? `<div class="bz">${o.svg}</div>` : o.img ? `<img src="${o.img}" alt="${L[i]}">` : `<div class="mot">${esc(o.desc || (mo ? 'Motion graphic' : 'Sin vista previa'))}</div>`;
       const pie = (mo ? '' : 'Plano <b>' + esc(o.plano) + '</b>' + (o.plano_in != null ? ' · ' + fmt(o.plano_in) + '–' + fmt(o.plano_out) : '') + ' · ') + esc(o.nota || '') + (mo && (o.desc || o.mov) ? (o.desc ? esc(o.desc) : '') + (o.mov ? '<br><b>Movimiento:</b> ' + esc(o.mov) : '') : '');
-      return `<div class="op ${cur === L[i] ? 'sel' : ''} ${o.fav ? 'fav' : ''} ${o.svg ? 'mo2' : ''}" data-o="${L[i]}"><div class="cab"><b>${L[i]}</b><span class="badge ${mo ? 'mo' : ''}">${mo ? 'MOTION' : 'PLANO'}</span>${o.fav ? '<span class="badge fv">★ favorita</span>' : ''}</div>${vista}<div class="t">${pie}</div></div>`;
+      const vt = esVet(o), papelera = mo || o.plano == null ? '' : `<button class="tr" data-vet="${esc(o.plano)}" title="${vt ? 'Quitar el veto' : 'Vetar este plano: no vuelve a salir en ningún storyboard'}">${vt ? '↺' : '🗑'}</button>`;
+      return `<div class="op ${cur === L[i] ? 'sel' : ''} ${o.fav && !vt ? 'fav' : ''} ${o.svg ? 'mo2' : ''} ${vt ? 'vet' : ''}" data-o="${L[i]}"><div class="cab"><b>${L[i]}</b><span class="badge ${mo ? 'mo' : ''}">${mo ? 'MOTION' : 'PLANO'}</span>${o.fav && !vt ? '<span class="badge fv">★ favorita</span>' : ''}${vt ? '<span class="badge vt">VETADO</span>' : ''}${papelera}</div>${vista}<div class="t">${pie}${vt && vt.motivo ? '<br><b>Vetado:</b> ' + esc(vt.motivo) : ''}</div></div>`;
     }).join('');
     return `<div class="row ${est}" data-t="${esc(t.id)}">
       <div><div class="id">${esc(t.id)}</div><div class="t ${corta ? 'corta' : ''}">${fmt(t.t0)}–${fmt(t.t1)}<br>${fmt(dur)}${corta ? ' ⚠ &lt;1,5 s' : ''}</div></div>
@@ -110,10 +120,24 @@ function pintar() {
   }).join('');
   document.querySelectorAll('.row').forEach(r => {
     const id = r.dataset.t;
-    r.querySelectorAll('[data-o]').forEach(o => o.onclick = () => { const s = e[id] = e[id] || {}; s.d = 'ok'; s.op = o.dataset.o; guardar(v); pintar(); lista(); });
+    r.querySelectorAll('[data-o]').forEach(o => o.onclick = () => { if (o.classList.contains('vet')) return; const s = e[id] = e[id] || {}; s.d = 'ok'; s.op = o.dataset.o; guardar(v); pintar(); lista(); });
+    r.querySelectorAll('[data-vet]').forEach(b => b.onclick = ev => { ev.stopPropagation(); vetar(b.dataset.vet, v.id + ' ' + id); });
     r.querySelector('[data-d]').onclick = () => { const s = e[id] = e[id] || {}; if (s.d === 'no') { s.d = ''; } else { s.d = 'no'; delete s.op; } guardar(v); pintar(); lista(); };
     r.querySelector('textarea').oninput = ev => { (e[id] = e[id] || {}).c = ev.target.value; guardar(v); };
   });
+}
+async function vetar(plano, origen) {
+  const m = document.getElementById('msg'), ya = VET[plano];
+  let motivo = '';
+  if (!ya) { motivo = prompt('Vetar el plano ' + plano + ': no vuelve a salir en ningún storyboard. ¿Por qué? (opcional)', 'toma falsa'); if (motivo === null) return; }
+  try {
+    const r = await fetch('/vetar', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({plano, motivo, origen, deshacer: !!ya})});
+    if (!r.ok) throw new Error(r.status);
+  } catch (err) { m.textContent = 'No se pudo vetar: abre la página desde el link http://localhost… que te pasó Claude (no desde el archivo).'; return; }
+  if (ya) delete VET[plano]; else VET[plano] = {motivo, origen};
+  try { localStorage.setItem('sb:_vetados', JSON.stringify(VET)) } catch (e) {}
+  m.textContent = (ya ? 'Quitado el veto del plano ' : 'Plano vetado: ') + plano + (ya ? '' : '. Elige otra opción para esa toma.');
+  delete m.dataset.enviado; pintar(); lista(); revisar();
 }
 async function enviar(videos) {
   const m = document.getElementById('msg');
@@ -124,7 +148,7 @@ async function enviar(videos) {
         const s = e[t.id] || {}, o = sel(t, s), op = o ? opcs(t)[L.indexOf(o)] : null;
         return [t.id, {d: o ? 'ok' : 'no', op: o, elegido: op ? desc(op) : null, c: s.c || ''}];
       }));
-      const r = await fetch('/enviar', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({id: v.id, general: {c: (e._g || {}).c || ''}, tomas})});
+      const r = await fetch('/enviar', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify({id: v.id, general: {c: (e._g || {}).c || ''}, tomas, vetados: Object.keys(VET).filter(p => v.tomas.some(t => opcs(t).some(o => String(o.plano) === p)))})});
       if (!r.ok) throw new Error(r.status);
     }
     m.dataset.enviado = '1'; m.textContent = 'Enviado ✓ ' + new Date().toLocaleTimeString() + ' (' + videos.map(v => v.id).join(', ') + '). Avísale a Claude en el chat.';

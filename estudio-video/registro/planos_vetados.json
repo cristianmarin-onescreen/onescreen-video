@@ -1,0 +1,52 @@
+{
+ "103182": {
+  "fecha": "2026-10-25",
+  "motivo": "hombre de barba con camisa OneScreen (no debe salir)",
+  "origen": "regla fija"
+ },
+ "103512": {
+  "fecha": "2026-10-25",
+  "motivo": "grupo sentado",
+  "origen": "regla fija"
+ },
+ "102433": {
+  "fecha": "2026-10-25",
+  "motivo": "vetado en seleccion.py",
+  "origen": "regla fija"
+ },
+ "101115": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ },
+ "101349": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ },
+ "101760": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ },
+ "101761": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ },
+ "102425": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ },
+ "102461": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ },
+ "106290": {
+  "fecha": "2026-10-25",
+  "motivo": "sale la persona vetada (detectado con Gemini)",
+  "origen": "regla fija"
+ }
+}

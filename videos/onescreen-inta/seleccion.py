@@ -7,7 +7,12 @@ import json, os, re, sys, unicodedata
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from specs import SPECS
-import estable
+# Cris 29-oct: medir la estabilidad decodificando cada clip 4K tardaba ~50 min por storyboard. Apagado por defecto:
+# el movimiento de cámara ya lo filtra la columna «Movimiento» del Directorio (MOV_OK) y el tramo arranca en «Mejor momento».
+# ESTABLE=1 lo enciende, y solo tiene sentido sobre los planos ya ELEGIDOS por Cris, nunca sobre candidatos.
+ESTABLE = os.environ.get("ESTABLE") == "1"
+if ESTABLE:
+    import estable
 
 BASE = Path(r"D:\OneScreen\Contenido\2026\10. Octubre")
 T = BASE / "_inta_trabajo"
@@ -16,6 +21,18 @@ VETADOS = {"103182", "103512", "102433"}
 _ve = Path("D:/OneScreen/Contenido/2026/10. Octubre/_inta_trabajo/vetados_extra.json")      # planos donde sale la persona vetada (detectados con Gemini sobre los cuadros)
 if _ve.exists():
     VETADOS |= set(json.load(open(_ve, encoding="utf-8")))
+# Cris 29-oct: papelera del storyboard (vetados para siempre) y rotación (un plano propuesto no vuelve hasta 15 storyboards después)
+for _r in (Path(os.path.abspath(__file__)).parents[2], Path.home() / "Desktop" / "Claudio"):   # videos/ es un enlace a D:\Claudio\videos: no usar resolve()
+    if (_r / "estudio-video" / "herramientas" / "planos_rotacion.py").exists():
+        sys.path.insert(0, str(_r / "estudio-video" / "herramientas"))
+        break
+import planos_rotacion
+VETADOS |= set(planos_rotacion.vetados())
+BLOQUEADOS = set(planos_rotacion.bloqueados())
+# tomas falsas (CLAUDE.md §4): gente riéndose, posando, selfies, brindis, aplausos, mirando a cámara, errores de grabación.
+# Solo entran si el tramo de la voz habla literalmente de eso (FALSA_OK).
+FALSA = re.compile(r"\b(rie|rien|riendo|risa|risas|carcajada\w*|bromea\w*|selfie\w*|se toma\w* (una )?fotos?|toman? fotos?|tomandose (una )?fotos?|posa|posan|posando|brindis|brindan|aplaud\w*|mira\w* (a )?(la )?camara|sonrie\w* (a )?(la )?camara|apreton de manos|bail\w*|errores? de grabacion|toma falsa|blooper\w*)\b")
+FALSA_OK = re.compile(r"\b(ri[eo]|risa|foto|selfie|brind|aplaud|celebr|bail)")
 STOP = set("a al algo alguien ante antes aqui asi aun bien cada como con contigo cual cuando de del desde donde dos el ella ellos en entre era es esa ese eso esta este esto estos fue ha hace hacen hay hoy la las le les lo los mas me mi mientras muy ni no nos nuestra o para pero por porque que quien se si sin sobre solo son su sus tambien te tengan tiene todo todos tu tus un una uno unos va y ya yo".split())
 SYN = {  # lo que se dice -> lo que describe la ficha
     "estudiante": "estudiantes alumnos aula clase", "estudiantes": "estudiantes alumnos aula clase", "aula": "aula salon clase estudiantes", "salon": "aula salon clase",
@@ -82,7 +99,7 @@ def anio(r):
 def base_ok(r, habla_ok=False, audio_ok=False):
     # Cris 27-oct: nada grabado antes de 2024 (excolaboradores que hoy trabajan en la competencia); nada generado con IA; nada ya editado
     # (exportaciones, anuncios, música/voz en off); ningún plano de gente hablando como apoyo (salvo piezas de caso donde hablan ellos).
-    if r["ID"] in VETADOS or anio(r) < 2024 or r[KORI] != "Cámara propia" or not RAW.match(r["Clip"].strip()):
+    if r["ID"] in VETADOS or (anio(r) < 2024 and r["ID"] not in planos_rotacion.casos()) or r[KORI] != "Cámara propia" or not RAW.match(r["Clip"].strip()):
         return False
     if r[KMOV] not in MOV_OK:
         return False
@@ -162,6 +179,8 @@ def _tramos(pieza):
 def _evalua(r, tg, tema, relax, need, usados, fin, usados_tanda):
     """Puntaje del plano r para el tramo tg, o None si se descarta o no llega al umbral del nivel `relax`."""
     q, qtok = tg["q"], tg["qtok"]
+    if r["ID"] in BLOQUEADOS or (FALSA.search(norm(r["Información adicional"] + " " + r["Acciones / palabras clave"])) and not FALSA_OK.search(norm(tg["texto_l"]))):
+        return None
     if not _bok(r, tema.get("habla_ok", False), relax >= 3) or num(r["Duración (s)"]) < need + INI + 0.2 or (r["ID"] in usados and (relax < 3 or num(r["Duración (s)"]) - fin.get(r["ID"], 0) < need + 0.2)):
         return None
     caso = tema.get("caso") and re.search(tema["caso"], r["Ruta en disco"] + r["Información adicional"], re.I)
@@ -237,7 +256,7 @@ def ficha_plano(r, need, ss_ref=None):
     p = ruta_id(r)
     dur, mm = num(r["Duración (s)"]), num(r["Mejor momento (s)"])
     ss = max(INI, min(mm - 0.4, dur - need - 0.2))
-    e = estable.mejor_ss(p, need, INI, dur, mm)          # momento sin movimiento de cámara (Cris 27-oct)
+    e = estable.mejor_ss(p, need, INI, dur, mm) if ESTABLE else None
     if e is not None:
         ss = max(INI, min(e, dur - need - 0.2))
     perfil = r["Perfil de color"]
@@ -275,7 +294,7 @@ def elegir(pieza, usados_tanda, usados, n_alt=0):
         mm = num(r["Mejor momento (s)"])
         dur = num(r["Duración (s)"])
         ss = max(INI, min(mm - 0.4, dur - need - 0.2))
-        _e = estable.mejor_ss(ruta_id(r), need, INI, dur, mm)          # momento sin movimiento de cámara (Cris 27-oct)
+        _e = estable.mejor_ss(ruta_id(r), need, INI, dur, mm) if ESTABLE else None
         if _e is not None:
             ss = max(INI, min(_e, dur - need - 0.2))
         if r["ID"] in fin:

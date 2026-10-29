@@ -12,7 +12,7 @@ for v in spec["videos"]:
         r = d.get(t["id"])
         if not r or r.get("d") != "ok":
             falta.append(t["id"]); continue
-        o = t["opciones"]["ABC".index(r["op"])]
+        o = t["opciones"]["ABCDE".index(r["op"])]
         out.append(dict(id=t["id"], t0=t["t0"], t1=t["t1"], voz=t["voz"], eleccion=o, comentario=r.get("c", "")))
     pz = v["id"].split(".")[0]
     json.dump(dict(id=v["id"], tomas=out), open(B / pz / "Proyecto" / "montaje_aprobado.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -25,4 +25,4 @@ for v in spec["videos"]:
         pls.append(dict(id=e["plano"], key=f"{e['plano']}_{int(round(e['plano_in'] * 100))}", ruta=e["ruta"], ss=e["plano_in"], need=round(dur + 0.6, 2), log=1 if e.get("log") else 0, fx=0.5, t0=t["t0"], t1=t["t1"], toma=t["id"]))
     json.dump(dict(planos=pls), open(B / pz / "Proyecto" / "planos_sb.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(v["id"], len(out), "tomas aprobadas; sin decisión/rechazadas:", falta,
-          "| motion a construir:", sorted({(t["eleccion"]["plantilla"]) for t in out if t["eleccion"]["tipo"] == "motion"}))
+          "| motion a construir:", sorted({t["eleccion"].get("plantilla") or "escena " + t["id"] for t in out if t["eleccion"]["tipo"] == "motion"}))

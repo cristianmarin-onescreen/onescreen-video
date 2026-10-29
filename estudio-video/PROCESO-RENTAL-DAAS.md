@@ -1,6 +1,6 @@
 # Proceso del video Rental / DaaS (21 al 23 de octubre de 2026)
 
-Documento para convertir lo que hicimos en un proceso repetible. Describe el camino completo, las correcciones de Cris y lo que sigue pendiente. Las reglas resumidas están en [CLAUDE.md](CLAUDE.md); las rutas de cada herramienta, en [CLAUDE.md (Herramientas)](CLAUDE.md (Herramientas)).
+Documento para convertir lo que hicimos en un proceso repetible. Describe el camino completo, las correcciones de Cris y lo que sigue pendiente. Las reglas resumidas están en [CLAUDE.md](CLAUDE.md); las rutas de cada herramienta, en [CLAUDE.md, «Herramientas y trampas»](CLAUDE.md#herramientas-y-trampas).
 
 > **Documento histórico (v3 del 21-23 oct).** Donde habla de planos "sin colorear", conversión neutra S-Log3→Rec.709 o Lumetri clonado del Sheet, quedó reemplazado: el color lo hace Cris en el .prproj tras aprobar el preview (28-oct). El flujo vigente está en [CLAUDE.md](CLAUDE.md) y las reglas en [CLAUDE.md](CLAUDE.md); este archivo sirve como ejemplo de punta a punta, no como receta.
 

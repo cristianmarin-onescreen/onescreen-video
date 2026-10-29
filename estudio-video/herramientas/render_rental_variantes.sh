@@ -27,7 +27,7 @@ for f in $FMTS; do
   (cd "$D" && npx hyperframes render -o "$P/out_$ID/raw_$f.mp4" -q delivery --video-frame-format png --frames-cache-dir D:/hf-render/tmp/rfc${f}_$ID --quiet > "$P/out_$ID/log_$f.txt" 2>&1)
   if [ -n "$INTRO_TPL" ]; then export INTRO="${INTRO_TPL//@F@/$f}"; fi
   MIX="$MIX" python -I "$SC/post_rental.py" $f "$P/out_$ID/raw_$f.mp4" "$P/out_$ID/final_$f.mp4" >> "$P/out_$ID/log_$f.txt" 2>&1
-  case $f in 16) F=16x9;; 9) F=9x16;; 45) F=4x5;; esac
+  case $f in 16) F=16x9;; 9) F=9x16;; 45) F=4x5;; 1) F=1x1;; *) echo "formato desconocido: $f"; exit 1;; esac
   N=$(cd "$ROOT" && python estudio-video/herramientas/registro.py nombre $ID --formato $F | tail -1)
   cp "$P/out_$ID/final_$f.mp4" "$EXP/$N"
   echo "listo $N" >> "$P/out_$ID/alldone.txt"

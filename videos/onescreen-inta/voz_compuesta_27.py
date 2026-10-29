@@ -5,7 +5,7 @@ import json, subprocess
 from pathlib import Path
 
 V = Path(r"D:\OneScreen\Contenido\2026\10. Octubre\INTA27\Voz")
-T1, GAP = 15.58, 0.25
+T1, GAP = 16.35, 0.25
 EXT_IN, EXT_OUT = 163.36, 171.72
 EXT_DUR = EXT_OUT - EXT_IN
 SHIFT = GAP + EXT_DUR + GAP
@@ -20,6 +20,10 @@ if not orig.exists():
 ext = V / "INTA27_extracto.wav"
 subprocess.run(["ffmpeg", "-nostdin", "-y", "-v", "error", "-ss", str(EXT_IN), "-t", f"{EXT_DUR:.3f}", "-i", clip, "-vn", "-ac", "1", "-ar", "48000",
                 "-af", "highpass=f=80,loudnorm=I=-18:TP=-2:LRA=7", str(ext)], check=True)
+enh = V / "INTA27_extracto_enh.wav"      # voz del caso limpia con Adobe Enhance Speech (Cris 28-oct: "no limpiaste el audio del caso de éxito")
+if enh.exists():
+    ext = V / "INTA27_extracto_limpio.wav"
+    subprocess.run(["ffmpeg", "-nostdin", "-y", "-v", "error", "-i", str(enh), "-ac", "1", "-ar", "48000", "-af", "loudnorm=I=-18:TP=-2:LRA=7", str(ext)], check=True)
 fc = (f"[0:a]atrim=0:{T1},asetpts=PTS-STARTPTS[a];[1:a]asetpts=PTS-STARTPTS[e];[0:a]atrim={T1},asetpts=PTS-STARTPTS[b];"
       f"aevalsrc=0:d={GAP}:s=48000:c=mono[s1];aevalsrc=0:d={GAP}:s=48000:c=mono[s2];[a][s1][e][s2][b]concat=n=5:v=0:a=1[o]")
 subprocess.run(["ffmpeg", "-nostdin", "-y", "-v", "error", "-i", str(orig), "-i", str(ext), "-filter_complex", fc, "-map", "[o]", "-ac", "1", "-ar", "48000", str(V / "INTA27_voz.wav")], check=True)

@@ -25,7 +25,7 @@ for pz in sys.argv[1:]:
     out = P / "out"; out.mkdir(parents=True, exist_ok=True)
     exp = BASE / pz / "Exports"; exp.mkdir(parents=True, exist_ok=True)
     run([sys.executable, "-I", str(AQUI / "cortes_inta.py"), pz], e=dict(env, PLANOS="planos_sb.json") if SB else None)
-    for f in ("16", "9", "45"):
+    for f in os.environ.get("FORMS", "16 9 45").split():
         run([sys.executable, "-I", str(AQUI / ("build_inta_sb.py" if SB else "build_inta.py"))], e=dict(env, PIEZA=pz, FMT=f, **({"CTA_TXT": os.environ.get("CTA_TXT", "")} if SB else {})))
     run([sys.executable, "-I", str(AQUI / "mix_inta.py"), pz, str(P / "mix.wav")])
     for f in ((SOLO,) if SOLO else ("16", "9", "45")):

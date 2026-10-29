@@ -8,8 +8,9 @@ from pathlib import Path
 
 HUB = Path(__file__).resolve().parents[1] / "memoria"
 MEM = Path.home() / ".claude" / "projects" / "C--Users-Cristian-Marin-Desktop-Claudio" / "memory"
-PREFIJOS = ("video_", "videos_", "estilo_", "mezcla_", "musica_", "paleta_", "zonas_", "color_desde", "directorio_video",
-            "pipeline_color", "hyperframes_", "marca_tipografia", "short_", "edicion_", "voz_", "feedback_pasar_link")
+PREFIJOS = ("video_", "videos_", "estilo_", "mezcla_", "musica_", "paleta_", "zonas_", "color_desde", "directorio_video_onescreen",
+            "pipeline_color", "hyperframes_", "marca_tipografia", "marca_onescreen", "pronunciacion_", "proceso_video",
+            "short_", "edicion_", "voz_", "feedback_pasar_link")
 solo_ver = "--solo-ver" in sys.argv
 
 if not MEM.exists():

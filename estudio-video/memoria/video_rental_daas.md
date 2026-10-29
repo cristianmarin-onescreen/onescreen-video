@@ -5,21 +5,19 @@ metadata:
   type: project
 ---
 
-Pedido de Cris (21-oct): video del guion "primera aula digital / dos caminos / DaaS / ventajas / pregúntanos" (onescreenlatam.com/rental). Versiones previas: neutra, acento ecuatoriano, mexicano y pt-BR en `D:\OneScreen\Contenido6. Octubre\Rental DaaS\`.
+Pedido de Cris (21-oct): video del guion "primera aula digital / dos caminos / DaaS / ventajas / pregúntanos" (onescreenlatam.com/rental). Versiones previas: neutra, acento ecuatoriano, mexicano y pt-BR en `D:\OneScreen\Contenido\2026\10. Octubre\Rental DaaS\`.
 
-**v3 (23-oct): estilo corregido, UNA sola versión (neutra, voz `v_rv_1`) hasta que Cris apruebe; después acentos/PT.** Código `videos/onescreen-quizwiz-scrybe/build_rental3.py` (FMT=16|9|45, ALPHA=0|1) + parches `patch_r3a..d.py`; mezcla `mix_rental.py`, post `post_rental.py`, render `D:\hf-render
-ental
-un_r3.sh` → `out_r3/`. Premiere: `build_prproj.py`, `build_xmeml.py`, `validate_prproj.py` y carpeta `Rental DaaS\Premiere v3\` (prproj + respaldo FCP XML + MOV alfa + mapa de color). Sin abrir en Premiere (no verificable desde aquí).
+**v3 (23-oct): estilo corregido, UNA sola versión (neutra, voz `v_rv_1`) hasta que Cris apruebe; después acentos/PT.** Código `videos/onescreen-quizwiz-scrybe/build_rental3.py` (FMT=16|9|45, ALPHA=0|1) + parches `patch_r3a..d.py`; mezcla `mix_rental.py`, post `post_rental.py`, render `D:\hf-render\rental\run_r3.sh` → `out_r3/`. Premiere: `build_prproj.py`, `build_xmeml.py`, `validate_prproj.py` y carpeta `Rental DaaS\Premiere v3\` (prproj + respaldo FCP XML + MOV alfa + mapa de color). Sin abrir en Premiere (no verificable desde aquí).
 
 Reglas de estilo que Cris corrigió (ver [[estilo-onescreen-texto-subtitulos]]): texto directo sobre el plano, nunca en contenedores ni píldoras; subtítulos blancos con trazo negro duro y fino, solo donde nada más lo dice; márgenes seguros reales; balance entre plano+texto, escenas de color/blancas y plano limpio; los motion graphics deben ser diagramas que REPRESENTAN lo que dice la voz (nodos, flujos, paquetes de luz, barras, colas), no íconos animados; trazo grueso (~7 % del tamaño del ícono, como Flota de IA); sin brillo/sombra difusa en gráficos (el brillo se reserva para cosas especiales); las tarjetas de ventajas con plano arriba + título + subtítulo le encantan (en escenas con fondo sí van tarjetas; sobre plano no).
 Planos sin colorear: el color real vive en el Lumetri de sus proyectos (Sheet Directorio, col AP); C1198 y C0627 no tienen color en ningún proyecto.
 
-**Trampas:** D: casi lleno (borrar cachés `D:\hf-render	mpc*`/`rfc*` antes de renderizar); Manrope no está cargada en el proyecto (solo Rubik).
+**Trampas:** D: casi lleno (borrar cachés `D:\hf-render\tmp\fc*`/`rfc*` antes de renderizar); Manrope no está cargada en el proyecto (solo Rubik).
 
 **Why:** Cris pide reutilizar el método de [[video-quizwiz-scrybe-v2]].
 **How to apply:** no rehacer las versiones de acento/PT hasta la aprobación de v3; reusar el builder.
 
-**26-oct: v3 aprobada como RENT.0005.** Premiere en `Rental DaaS\Premiere RENT.0005\`. C1010 y C1379: sus clips en sus proyectos NO tienen Lumetri (cuidado: `closure()` desde un TrackItem se escapa a otros clips y da falsos positivos; mirar solo la cadena `ComponentOwner/Components`). Sin color real: C1198, C0627, C1010, C1379. Siempre regenerar la capa alfa tras aprobar (`PROJ=..._16a FMT=16 ALPHA=1 build_rental3.py`, luego `hyperframes render --format mov --resolution 4k -f 24000/1001`). El prproj generado dio "el proyecto parece dañado" en Premiere (26-oct): causa en investigación.
+**26-oct: v3 aprobada como RENT.0005.** Premiere en `Rental DaaS\Premiere RENT.0005\`. C1010 y C1379: sus clips en sus proyectos NO tienen Lumetri (cuidado: `closure()` desde un TrackItem se escapa a otros clips y da falsos positivos; mirar solo la cadena `ComponentOwner/Components`). Sin color real: C1198, C0627, C1010, C1379. Siempre regenerar la capa alfa tras aprobar (`PROJ=...\v_16a FMT=16 ALPHA=1 build_rental3.py`, luego `hyperframes render --format mov --resolution 4k -f 24000/1001`). El prproj generado dio "el proyecto parece dañado" en Premiere (26-oct): causa en investigación.
 
 **Causa del 'proyecto dañado' (26-oct):** (1) serialización: Premiere guarda los saltos de línea de texto XML incrustado como &#10; y tildes en UTF-8; `prser.py` reproduce byte a byte; (2) BinaryHash: Premiere escribe el base64 de los parámetros Arb (Lumetri/Look) SOLO en la primera aparición de cada hash, las demás van vacías; al clonar un Lumetri había que rellenar los datos (`collect_hashes`/`fix_hashes` en build_prproj.py). Antes de arreglarlo, todo prproj con Lumetri clonado daba 'dañado' (no era la versión del proyecto fuente). Diagnóstico con variables STOP/NOMASTERS/NOCLIPS/NOTRACKS/NOCOLOR/NOMOTION/COLORONLY.
 

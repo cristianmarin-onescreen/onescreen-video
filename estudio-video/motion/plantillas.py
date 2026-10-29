@@ -115,7 +115,13 @@ def icono(nombre, cx, cy, s, col="#1a1a1a"):
                 {"k": "rect", "x": cx + int(r) - int(s * .22) + 2, "y": cy + int(s * .02), "w": int(s * .22), "h": int(s * .36), "r": 10, "st": col, "sw": sw}]
     if nombre == "toque":
         return [{"k": "path", "d": f"M{cx - int(s * .1)} {cy + int(r)} L{cx - int(s * .1)} {cy - int(s * .05)} Q{cx - int(s * .1)} {cy - int(s * .3)} {cx + int(s * .05)} {cy - int(s * .3)} Q{cx + int(s * .2)} {cy - int(s * .3)} {cx + int(s * .2)} {cy - int(s * .05)} L{cx + int(s * .2)} {cy + int(r)}", "fill": col, "sw": sw}]
-    return [{"k": "circ", "x": cx, "y": cy, "r": int(r), "st": col, "sw": sw}]
+    if nombre == "circulo":
+        return [{"k": "circ", "x": cx, "y": cy, "r": int(r), "st": col, "sw": sw}]
+    # antes un nombre desconocido se dibujaba en silencio como un círculo; ahora es error (los íconos se piden por nombre)
+    raise ValueError(f"ícono desconocido «{nombre}»: usar {', '.join(ICONOS)}")
+
+
+ICONOS = ("persona", "grupo", "pantalla", "doc", "chat", "check", "globo", "auriculares", "toque", "circulo")
 
 
 # ================= PLANTILLAS =================
@@ -388,9 +394,9 @@ def chips(p):
     pos = [(700, 90), (70, 190), (790, 270), (110, 500), (770, 520)]
     for (x, y), c in zip(pos, p["items"][:5]):
         f += [{"k": "rect", "x": x, "y": y, "w": 330, "h": 92, "r": 20, "fill": "#ffffff", "glow": th["acc"], "brillo": True}, {"k": "rect", "x": x + 16, "y": y + 16, "w": 60, "h": 60, "r": 14, "fill": th["acc"], "op": 0.18, "st": th["acc"], "sw": 2}]
-        f += icono(c.get("icono", "check"), x + 46, y + 46, 30, th["ink"])
+        f += icono(c.get("icono", "check"), x + 46, y + 46, 30, "#1a1a1a")
         for j, ln in enumerate(wrap(c["texto"], 18)[:2]):
-            f.append(t(x + 92, y + 40 + j * 30, 25, ln, th["ink"], 700, "start", -0.5))
+            f.append(t(x + 92, y + 40 + j * 30, 25, ln, "#1a1a1a", 700, "start", -0.5))
     for j, ln in enumerate(p["centro"][:2]):
         f.append(t(640, 395 + j * 66, _fs(ln, 600, 64), ln, th["ink"], 700 if j else 600, "middle", -2))
     return {"fondo": th["fondo"], "formas": f}, "los anillos se expanden desde el centro como una onda; los chips entran flotando uno a uno con la voz (sube 30 px, aparece) y luego se mecen sutil; el título sube con máscara"

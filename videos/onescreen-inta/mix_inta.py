@@ -18,6 +18,7 @@ CANCION = {
     "INTA36": ("MASTER_For cooking fire.wav", 17.88),
     "INTA27": ("MASTER_WAV_MusicHusky_Promo_Opener_Main_Version.wav", 14.92),   # todas las canciones ya tenían pieza: se repite Husky (INTA09); Cris decide si prefiere otra
     "INTA37": ("MASTER_Fashion.wav", 12.40),   # marca de Cris (21-oct); Fashion no se había usado en INTA
+    "INTA41": ("MASTER_Inspired and Uplifting Hip Hop_1.wav", 96.10),   # _1 es el mismo archivo que el de INTA24: ya no queda master sin usar; otra sección (explosión tras pausa, medida por energía, +34,7 dB). Cris decide
 }
 MUS = M / CANCION[PZ][0]
 DROP_M = CANCION[PZ][1]

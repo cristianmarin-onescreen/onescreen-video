@@ -17,3 +17,5 @@ UNA sola receta: `videos/onescreen-inta/voz_exp_d.py` (detalle en [[voz-una-sola
 - **Solo grabados desde 2024 (27-oct):** "no uses planos anteriores a 2024, muchos tienen a excolaboradores que ahora trabajan en la competencia". Filtrar por "Fecha de grabación" del Directorio (≥ 2024; sin fecha tampoco). Hecho en `videos/onescreen-inta/seleccion.py` (`base_ok`).
 - **Vetados:** **103182** (C0138, hombre de barba con camisa OneScreen y audífonos: "ese hombre no debe salir") y **103512** (C0379, grupo de cuatro personas sentadas riendo).
 Ver [[directorio-video-onescreen]].
+
+**Excepción (Cris, 29-oct, INTA41):** la regla de 2024 NO aplica a los casos de éxito (lista en estudio-video/registro/planos_casos.json; hoy Colegio San Mateo 104603-104660). En piezas de colegios se priorizan planos de colegios con OneScreen de casos de éxito, aunque tengan menores o requieran aprobación del cliente.

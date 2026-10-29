@@ -24,16 +24,16 @@ FPS = 24000 / 1001
 TEMPLATE = "D:/OneScreen/Contenido/2026/10. Octubre/Pruebas prproj color/C1186.prproj"
 AUDIO_PROTO = "D:/OneScreen/Contenido/2026/6. Junio/Caso de éxito - Gimnasio Los Cerezos/Caso de éxito - Gimnasio los Cerezos.prproj"
 B = "D:/OneScreen/Contenido/2026/"
-PLAN = json.load(open("D:/OneScreen/Contenido/2026/10. Octubre/Rental DaaS/Proyecto/v_16a/plan_alpha.json", encoding="utf-8"))
+PLAN = json.load(open(os.environ.get("PLAN_JSON", "D:/OneScreen/Contenido/2026/10. Octubre/Rental DaaS/Proyecto/v_16a/plan_alpha.json"), encoding="utf-8"))   # PLAN_JSON/SRCP_JSON/SEQ: otras piezas (INTA23)
 OUT = Path(sys.argv[1])
 MOV = sys.argv[2] if len(sys.argv) > 2 else str(OUT.parent / "Rental-DaaS_graficos_alfa_4K.mov")
 WAV = sys.argv[3] if len(sys.argv) > 3 else str(OUT.parent / "Rental-DaaS_mezcla.wav")
 INTRO = sys.argv[4] if len(sys.argv) > 4 else str(OUT.parent / "intro_onescreen.mp4")
 PLANOS = bool(os.environ.get("PLANOS"))     # prproj de planos sueltos para colorear (sin gráficos ni audio)
-SEQ_NAME = "RENT.0005 planos para colorear" if PLANOS else "RENT.0005 H1C1A1 neutro"
+SEQ_NAME = os.environ.get("SEQ") or ("RENT.0005 planos para colorear" if PLANOS else "RENT.0005 H1C1A1 neutro")
 
 # ── fuentes (misma tabla que trims_rental3.py) y de dónde sale el color de cada una ───────────────────────────
-SRCP = json.load(open("D:/OneScreen/Contenido/2026/10. Octubre/Rental DaaS/Proyecto/premiere/src_probe.json", encoding="utf-8"))
+SRCP = json.load(open(os.environ.get("SRCP_JSON", "D:/OneScreen/Contenido/2026/10. Octubre/Rental DaaS/Proyecto/premiere/src_probe.json"), encoding="utf-8"))
 COLOR = {   # src -> (proyecto fuente con Lumetri, id del VideoClipTrackItem de ese plano) o None
     "r1": None,
     "r2": None,
@@ -45,6 +45,9 @@ COLOR = {   # src -> (proyecto fuente con Lumetri, id del VideoClipTrackItem de 
     "m4": ("D:/OneScreen/Contenido/2025/8. Agosto/Areandina. CASO DE ÉXITO/Areandina_Caso de éxito.prproj", "2689"),
     "m5": ("D:/OneScreen/Contenido/2025/8. Agosto/Caso de éxito. UCuenca/UCuenca - CE.prproj", "2685"),
 }
+
+if os.environ.get("SRCP_JSON"):
+    COLOR = {k: None for k in SRCP}      # piezas nuevas: sin color de origen (Cris colorea en Premiere)
 
 HASHDATA = {}      # BinaryHash -> texto base64: Premiere lo escribe solo en la PRIMERA aparición; las demás van vacías y remiten al hash
 

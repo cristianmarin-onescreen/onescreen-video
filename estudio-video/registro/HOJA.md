@@ -36,11 +36,11 @@ Archivadas y ocultas (solo consulta, no escribir): `ARCHIVO · Variaciones` 2002
 
 ```
 GUIONES   estrategia escribe → Cris aprueba el guion
-   │      yo copio lo aprobado (SKILL.md §5)
+   │      yo copio lo aprobado (CLAUDE.md H.4; registro.py guion)
 PRODUCCIÓN  Preview → Cris aprueba el video → Aprobada
    │      el planner lee solo Aprobada o Vigente
 PLANNER   publica → mide 24/48/72 h → Cris decide a las 72 h
-   │      yo muevo lo cerrado (SKILL.md §6)
+   │      yo muevo lo cerrado (CLAUDE.md H.6; registro.py cierres / cerrar)
 HISTÓRICO  versión + resultado + decisión → la lee la skill de estrategia
 ```
 
